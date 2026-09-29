@@ -52,13 +52,53 @@ FEEDS = [
     # Energie und Wirtschaft
     ("Electrek", "https://electrek.co/feed/", "Englisch"),
     ("CleanTechnica", "https://cleantechnica.com/feed/", "Englisch"),
-    # Kultur, Sport, Promis, Kurioses
+    # Zukunft und Innovation
+    ("New Atlas", "https://newatlas.com/index.rss", "Englisch"),
+    ("ingenieur.de", "https://www.ingenieur.de/feed/", "Deutsch"),
+    ("futurezone", "https://futurezone.at/xml/rss", "Deutsch"),
+    ("Singularity Hub", "https://singularityhub.com/feed/", "Englisch"),
+    ("MIT Technology Review", "https://www.technologyreview.com/feed/", "Englisch"),
+    # Dekoration und Wohnen
+    ("Apartment Therapy", "https://www.apartmenttherapy.com/main.rss", "Englisch"),
+    ("Homes & Gardens", "https://www.homesandgardens.com/feeds.xml", "Englisch"),
+    ("AD Deutschland", "https://www.ad-magazin.de/feed/rss", "Deutsch"),
+    ("Livingetc", "https://www.livingetc.com/feeds.xml", "Englisch"),
+    # Sport
+    ("Sportschau", "https://www.sportschau.de/index~rss2.xml", "Deutsch"),
+    ("kicker", "https://newsfeed.kicker.de/news/aktuell", "Deutsch"),
+    ("BBC Sport", "https://feeds.bbci.co.uk/sport/rss.xml", "Englisch"),
+    ("Guardian Sport", "https://www.theguardian.com/sport/rss", "Englisch"),
+    # Bildung
+    ("News4teachers", "https://www.news4teachers.de/feed/", "Deutsch"),
+    ("Deutsches Schulportal", "https://deutsches-schulportal.de/feed/", "Deutsch"),
+    ("Hechinger Report", "https://hechingerreport.org/feed/", "Englisch"),
+    # Autos und Mobilität
+    ("electrive", "https://www.electrive.net/feed/", "Deutsch"),
+    ("ecomento", "https://ecomento.de/feed/", "Deutsch"),
+    ("InsideEVs", "https://insideevs.com/rss/news/all/", "Englisch"),
+    # Kultur, Film, Serien, Fotografie
     ("Guardian Culture", "https://www.theguardian.com/culture/rss", "Englisch"),
     ("BBC Entertainment", "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "Englisch"),
+    ("Filmstarts", "https://www.filmstarts.de/rss/nachrichten.xml", "Deutsch"),
+    ("IndieWire", "https://www.indiewire.com/feed/", "Englisch"),
+    ("/Film", "https://www.slashfilm.com/feed/", "Englisch"),
+    ("Guardian Film", "https://www.theguardian.com/film/rss", "Englisch"),
+    ("Serienjunkies", "https://www.serienjunkies.de/rss/news.xml", "Deutsch"),
+    ("DWDL", "https://www.dwdl.de/rss/allethemen.xml", "Deutsch"),
+    ("Decider", "https://decider.com/feed/", "Englisch"),
+    ("PetaPixel", "https://petapixel.com/feed/", "Englisch"),
+    ("My Modern Met", "https://mymodernmet.com/feed/", "Englisch"),
+    ("Colossal", "https://www.thisiscolossal.com/feed/", "Englisch"),
+    ("Guardian Photography", "https://www.theguardian.com/artanddesign/photography/rss", "Englisch"),
+    # Lifestyle
+    ("Utopia", "https://utopia.de/feed/", "Deutsch"),
+    ("Brigitte", "https://www.brigitte.de/feed.rss", "Deutsch"),
     ("stern Lifestyle", "https://www.stern.de/feed/standard/lifestyle/", "Deutsch"),
+    ("Guardian Lifestyle", "https://www.theguardian.com/lifeandstyle/rss", "Englisch"),
+    ("Condé Nast Traveler", "https://www.cntraveler.com/feed/rss", "Englisch"),
+    # Promis und Kurioses
     ("E! News", "https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml", "Englisch"),
     ("Hollywood Reporter", "https://www.hollywoodreporter.com/feed/", "Englisch"),
     ("Variety", "https://variety.com/feed/", "Englisch"),
-    ("kicker", "https://newsfeed.kicker.de/news/aktuell", "Deutsch"),
     ("UPI Odd News", "https://rss.upi.com/news/odd_news.rss", "Englisch"),
 ]

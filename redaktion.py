@@ -33,7 +33,8 @@ import feedparser  # noqa: E402
 import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
-    IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
+    BRIEF_SCHEMA, BRIEF_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA,
+    TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
 from sources import FEEDS  # noqa: E402
 
@@ -230,7 +231,7 @@ def collect(hours):
 def triage(client, items, use_batch):
     lines = [f"[{i['id']}] {i['source']} ({i['language']}): {i['title']}. {i['summary'][:160]}" for i in items]
     user = "Hier sind die Meldungen der letzten Stunden:\n\n" + "\n".join(lines)
-    result = ask_all(client, {"triage": (TRIAGE_SYSTEM, user, TRIAGE_SCHEMA, 16000, "medium")}, use_batch)["triage"]
+    result = ask_all(client, {"triage": (TRIAGE_SYSTEM, user, TRIAGE_SCHEMA, 32000, "medium")}, use_batch)["triage"]
     if isinstance(result, Exception):
         raise result
     by_id = {item["id"]: item for item in items}
@@ -245,21 +246,20 @@ def triage(client, items, use_batch):
     return candidates
 
 
-def select(candidates, target, per_ressort=2):
+def select(candidates, full, briefs, per_ressort=5):
+    """Reihum durch die Ressorts: erst das Beste jedes Ressorts, dann das Zweitbeste und so weiter.
+    Die besten werden ausführliche Geschichten, die nächsten Kurzmeldungen."""
     pool = sorted((c for c in candidates if c["score"] >= 5), key=lambda c: -c["score"])
-    chosen, counts = [], Counter()
-    for candidate in pool:  # Zuerst das Beste aus jedem Ressort, Design und Architektur schon ab 5 Punkten
-        good_enough = candidate["score"] >= 6 or candidate["ressort"] in FAVORITES
-        if good_enough and counts[candidate["ressort"]] == 0 and len(chosen) < target:
-            chosen.append(candidate)
-            counts[candidate["ressort"]] += 1
-    for candidate in pool:  # Dann nach Punkten auffüllen
-        if len(chosen) >= target:
-            break
-        if candidate in chosen or candidate["score"] < 6 or counts[candidate["ressort"]] >= per_ressort:
-            continue
-        chosen.append(candidate)
-        counts[candidate["ressort"]] += 1
+    groups = {}
+    for candidate in pool:
+        groups.setdefault(candidate["ressort"], []).append(candidate)
+    ranked = []
+    for rank in range(per_ressort):
+        ranked += sorted((group[rank] for group in groups.values() if rank < len(group)), key=lambda c: -c["score"])
+    # Ausführlich erst ab 6 Punkten, Design und Architektur schon ab 5
+    chosen = [c for c in ranked if c["score"] >= 6 or c["ressort"] in FAVORITES][:full]
+    short = [c for c in ranked if c not in chosen][:briefs]
+
     chosen.sort(key=lambda c: -c["score"])
     lead = next((c for c in chosen if not c["heavy"]), chosen[0] if chosen else None)
     rest = [c for c in chosen if c is not lead]
@@ -268,7 +268,7 @@ def select(candidates, target, per_ressort=2):
         pick = next((c for c in rest if not ordered or c["ressort"] != ordered[-1]["ressort"]), rest[0])
         ordered.append(pick)
         rest.remove(pick)
-    return ordered
+    return ordered, short
 
 
 # MARK: Schreiben
@@ -321,6 +321,43 @@ def story_prompt(candidate):
     return user, len(text)
 
 
+def brief_prompt(candidate):
+    item, text = best_text(candidate)
+    user = (
+        f"Ressort: {candidate['ressort']}\n"
+        f"Quelle: {item['source']} ({item['language']})\n"
+        f"Titel: {item['title']}\n"
+        f"Anriss: {item['summary']}\n\n"
+        f"Artikeltext:\n{text[:2500] or '(Nicht abrufbar. Nutze nur Titel und Anriss.)'}\n\n"
+        "Schreib daraus die Kurzmeldung für The Daily Good."
+    )
+    return user
+
+
+def sources_of(candidate):
+    sources = []
+    for member in candidate["items"]:
+        if len(sources) < 2 and all(s["name"] != member["source"] for s in sources):
+            sources.append({"name": member["source"], "url": member["link"], "language": member["language"]})
+    return sources
+
+
+def build_brief(candidate, brief, story_id):
+    brief = no_dashes(brief)
+    return {
+        "id": story_id,
+        "ressort": candidate["ressort"],
+        "kicker": brief["kicker"],
+        "headline": brief["headline"],
+        "teaser": brief["teaser"],
+        "blocks": [],
+        "whyGood": brief["whyGood"],
+        "honestNote": brief["honestNote"],
+        "sources": sources_of(candidate),
+        "brief": True,
+    }
+
+
 def build_story(candidate, story, story_id):
     story = no_dashes(story)
     kinds = set()
@@ -330,10 +367,6 @@ def build_story(candidate, story, story_id):
             continue
         kinds.add(block["type"])
         blocks.append(block)
-    sources = []
-    for member in candidate["items"]:
-        if len(sources) < 2 and all(s["name"] != member["source"] for s in sources):
-            sources.append({"name": member["source"], "url": member["link"], "language": member["language"]})
     return {
         "id": story_id,
         "ressort": candidate["ressort"],
@@ -343,7 +376,7 @@ def build_story(candidate, story, story_id):
         "blocks": blocks[:3],
         "whyGood": story["whyGood"],
         "honestNote": story["honestNote"],
-        "sources": sources,
+        "sources": sources_of(candidate),
     }
 
 
@@ -517,7 +550,9 @@ def comic_of_the_day(today):
 def main():
     parser = argparse.ArgumentParser(description="Erzeugt die Tagesausgabe von The Daily Good.")
     parser.add_argument("--hours", type=int, default=36, help="Wie weit zurück Meldungen gesammelt werden")
-    parser.add_argument("--stories", type=int, default=12, help="Anzahl der Nachrichten in der Ausgabe")
+    parser.add_argument("--stories", type=int, default=12, help="Anzahl der ausführlichen Geschichten")
+    parser.add_argument("--briefs", type=int, default=30, help="Anzahl der Kurzmeldungen")
+    parser.add_argument("--per-ressort", type=int, default=5, help="Höchstens so viele Beiträge pro Ressort")
     parser.add_argument("--dry-run", action="store_true", help="Nur auswählen, nichts schreiben")
     parser.add_argument("--no-batch", action="store_true", help="Einzeln statt per Batch fragen (schneller, doppelt so teuer)")
     args = parser.parse_args()
@@ -540,10 +575,12 @@ def main():
         sys.exit("   Keine Verbindung zur API.")
     except (Skipped, json.JSONDecodeError) as reason:
         sys.exit(f"   Auswahl fehlgeschlagen: {reason}")
-    chosen = select(candidates, args.stories)
-    print(f"   {len(candidates)} Kandidaten, {len(chosen)} ausgewählt:")
-    for candidate in chosen:
-        print(f"   {candidate['score']:>2}  {candidate['ressort']:<12} {candidate['items'][0]['title'][:80]}")
+    chosen, short = select(candidates, args.stories, args.briefs, args.per_ressort)
+    print(f"   {len(candidates)} Kandidaten, {len(chosen)} ausführlich, {len(short)} kurz:")
+    for candidate in chosen + short:
+        kind = "kurz" if candidate in short else "lang"
+        print(f"   {candidate['score']:>2}  {kind}  {candidate['ressort']:<12} {candidate['items'][0]['title'][:74]}")
+    print("   pro Ressort:", dict(Counter(c["ressort"] for c in chosen + short).most_common()))
     if args.dry_run:
         print(f"Kosten bisher: {USAGE.dollars:.2f} $")
         return
@@ -551,7 +588,9 @@ def main():
     print("3. Artikel lesen und schreiben …")
     with ThreadPoolExecutor(6) as pool:
         prompts = list(pool.map(story_prompt, chosen))
+        brief_prompts = list(pool.map(brief_prompt, short))
     jobs = {f"story-{n}": (WRITER_SYSTEM, user, STORY_SCHEMA, 8000, "medium") for n, (user, _) in enumerate(prompts, 1)}
+    jobs.update({f"brief-{n}": (BRIEF_SYSTEM, user, BRIEF_SCHEMA, 3000, "low") for n, user in enumerate(brief_prompts, 1)})
     jobs["joke"] = joke_job()
     results = ask_all(client, jobs, not args.no_batch)
 
@@ -569,6 +608,14 @@ def main():
     stories = [story for _, story in ([lead] if lead else []) + [pair for pair in written if pair is not lead]]
     if not stories:
         sys.exit("   Keine Nachricht geschrieben, die Ausgabe bleibt wie sie ist.")
+    for n, candidate in enumerate(short, 1):
+        result = results.get(f"brief-{n}")
+        try:
+            if isinstance(result, Exception) or result is None:
+                raise Skipped(str(result))
+            stories.append(build_brief(candidate, result, f"{today.isoformat()}-k{n:02d}"))
+        except (Skipped, KeyError) as error:
+            print(f"   Kurzmeldung übersprungen: {candidate['items'][0]['title'][:60]} ({error})")
 
     joke = results.get("joke")
     if isinstance(joke, dict):
@@ -603,7 +650,8 @@ def main():
     payload = json.dumps(edition, ensure_ascii=False, indent=2)
     (OUT / "editions" / f"{today.isoformat()}.json").write_text(payload)
     (OUT / "latest.json").write_text(payload)
-    print(f"4. Fertig: Ausgabe Nr. {edition['number']} mit {len(stories)} Nachrichten")
+    briefs_written = sum(1 for s in stories if s.get("brief"))
+    print(f"4. Fertig: Ausgabe Nr. {edition['number']} mit {len(stories) - briefs_written} Geschichten und {briefs_written} Kurzmeldungen")
     print(f"   Tokens: {USAGE.input:,} rein, {USAGE.output:,} raus. Kosten etwa {USAGE.dollars:.2f} $")
 
 
