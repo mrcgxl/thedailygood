@@ -34,9 +34,10 @@ import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
     BRIEF_SCHEMA, BRIEF_SYSTEM, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
-    JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
+    JOKE_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM,
+    WRITER_SYSTEM,
 )
-from sources import FEEDS  # noqa: E402
+from sources import FEEDS, RECOMMENDATIONS  # noqa: E402
 
 MODEL = "claude-opus-5-5"
 PRICE_INPUT = 4.0 / 1_000_000   # $ pro Token, Claude Opus 5.5
@@ -355,6 +356,7 @@ def build_brief(candidate, brief, story_id):
         "honestNote": brief["honestNote"],
         "sources": sources_of(candidate),
         "brief": True,
+        "score": candidate["score"],
     }
 
 
@@ -377,6 +379,7 @@ def build_story(candidate, story, story_id):
         "whyGood": story["whyGood"],
         "honestNote": story["honestNote"],
         "sources": sources_of(candidate),
+        "score": candidate["score"],
     }
 
 
@@ -394,6 +397,137 @@ def remember_joke(joke):
     history = json.loads(JOKES.read_text()) if JOKES.exists() else []
     STATE.mkdir(exist_ok=True)
     JOKES.write_text(json.dumps(history + [joke["setup"]], ensure_ascii=False, indent=1))
+
+
+# MARK: Empfehlung des Tages
+
+TIPS = STATE / "recommendations.json"
+WIKIPEDIA = [("de", "https://de.wikipedia.org/w/api.php"), ("en", "https://en.wikipedia.org/w/api.php")]
+TIP_HINTS = {
+    "buch": " Am liebsten ein Buch, das es auf Deutsch gibt.",
+    "film": " Nenne keinen Streamingdienst und kein Kino, wenn es nicht in der Meldung steht.",
+    "serie": " Nenne keinen Streamingdienst, wenn er nicht in der Meldung steht.",
+    "podcast": " Am liebsten ein deutschsprachiger Podcast mit eigenem Wikipedia-Artikel.",
+    "spiel": " Am liebsten ein Spiel für mehrere Plattformen und für viele Altersgruppen.",
+    "rezept": " Beim Rezept gilt: nur Rezepte aus den Meldungen, itemID ist Pflicht. Beschreib das Gericht, verrate aber nicht das ganze Rezept.",
+    "album": " Am liebsten ein Album aus den letzten Monaten, das in den Kritiken gefeiert wird.",
+}
+
+
+def simplify(text):
+    return re.sub(r"[^a-z0-9äöüß]+", " ", (text or "").lower()).strip()
+
+
+def recommendation_job(today):
+    """Anfrage für die Empfehlung des Tages. Gibt den Job, die Art und die Meldungen nach ID zurück."""
+    kind, label, feeds = RECOMMENDATIONS[today.weekday()]
+    since = time.time() - 14 * 24 * 3600
+    with ThreadPoolExecutor(6) as pool:
+        batches = list(pool.map(lambda feed: read_feed(feed, since), feeds))
+    items = [item for batch in batches for item in batch]
+    for number, item in enumerate(items, 1):
+        item["id"] = f"t{number}"
+    history = json.loads(TIPS.read_text()) if TIPS.exists() else []
+    avoid = "; ".join(entry["title"] for entry in history[-80:])
+    lines = [f"[{i['id']}] {i['source']}: {i['title']}. {i['summary'][:220]}" for i in items]
+    user = ("Meldungen und Kritiken:\n\n" + "\n".join(lines)) if lines else "Heute gibt es kein Material."
+    if avoid:
+        user += f"\n\nDiese Titel hatten wir schon, bitte nicht wiederholen: {avoid}"
+    system = RECOMMENDATION_SYSTEM.format(kind=label, extra=TIP_HINTS.get(kind, ""))
+    return (system, user, RECOMMENDATION_SCHEMA, 6000, "medium"), kind, label, {i["id"]: i for i in items}
+
+
+def wikipedia_page(title, creator, year):
+    """Adresse des Wikipedia-Artikels, wenn Titel und Macher oder Jahr zum Werk passen, sonst None."""
+    def core(text):  # ohne Untertitel und Klammerzusatz, „Gemischtes Hack (Podcast)“ wird zu „gemischtes hack“
+        return simplify(re.split(r"[:(]", text or "")[0])
+
+    wanted = core(title)
+    first = re.split(r",| und | and | & |\(", creator or "")[0]  # „Martin Bourboulon (Regie)“ wird zu Bourboulon
+    surname = simplify(first).split(" ")[-1] if simplify(first) else ""
+    for lang, api in WIKIPEDIA:
+        search = {"action": "query", "format": "json", "list": "search", "srsearch": f"{title} {creator}", "srlimit": 5}
+        try:
+            results = fetch_json(api + "?" + urllib.parse.urlencode(search))["query"]["search"]
+        except Exception:
+            continue
+        for result in results:
+            if not wanted or core(result["title"]) != wanted:  # „Hades II“ ist nicht „Hades“
+                continue
+            query = {"action": "query", "format": "json", "prop": "extracts", "exintro": 1, "explaintext": 1,
+                     "titles": result["title"]}
+            try:
+                pages = fetch_json(api + "?" + urllib.parse.urlencode(query))["query"]["pages"]
+                intro = simplify(" ".join(p.get("extract", "") for p in pages.values()))
+            except Exception:
+                continue
+            if (surname and surname in intro) or (year and year in intro):
+                return f"https://{lang}.wikipedia.org/wiki/" + urllib.parse.quote(result["title"].replace(" ", "_"))
+    return None
+
+
+def finish_recommendation(result, kind, label, items, today):
+    """Nimmt den ersten Vorschlag, den Wikipedia oder eine echte Meldung belegt. Sonst keine Empfehlung."""
+    if not isinstance(result, dict):
+        return None
+    for pick in no_dashes(result["picks"])[:3]:
+        item = items.get(pick.get("itemID") or "")
+        if kind == "rezept":
+            link, proven = None, item is not None
+        else:
+            link = wikipedia_page(pick["title"], pick["creator"], pick.get("year"))
+            mentioned = item is not None and simplify(pick["title"]) in simplify(item["title"] + " " + item["summary"])
+            proven = link is not None or mentioned
+        if not proven:
+            print(f"   Empfehlung nicht belegt, verworfen: {pick['title']}")
+            continue
+        history = json.loads(TIPS.read_text()) if TIPS.exists() else []
+        STATE.mkdir(exist_ok=True)
+        TIPS.write_text(json.dumps(history + [{"date": today.isoformat(), "kind": kind, "title": pick["title"]}],
+                                   ensure_ascii=False, indent=1))
+        return {
+            "kind": kind,
+            "label": label,
+            "title": pick["title"],
+            "creator": pick["creator"],
+            "year": pick.get("year"),
+            "text": pick["text"],
+            "forWhom": pick["forWhom"],
+            "link": link,
+            "source": {"name": item["source"], "url": item["link"]} if item else None,
+        }
+    return None
+
+
+# MARK: Wochenrückblick
+
+def weekly_review(today, stories):
+    """Sonntags die fünf schönsten Geschichten der Woche, jede aus einem anderen Ressort."""
+    if today.weekday() != 6:
+        return None
+    pool = []
+    for back in range(7):
+        day = today - dt.timedelta(days=back)
+        if back == 0:
+            day_stories, lead = stories, stories[0]["id"] if stories else None
+        else:
+            path = OUT / "editions" / f"{day.isoformat()}.json"
+            if not path.exists():
+                continue
+            data = json.loads(path.read_text())
+            day_stories, lead = data.get("stories", []), data.get("leadStoryID")
+        for story in day_stories:
+            if not story.get("brief"):  # Aufmacher zählen etwas mehr
+                pool.append((story.get("score", 5) + (2 if story["id"] == lead else 0), story))
+    pool.sort(key=lambda pair: -pair[0])
+    picked, ressorts = [], set()
+    for _, story in pool:
+        if story["ressort"] not in ressorts:
+            picked.append(story)
+            ressorts.add(story["ressort"])
+        if len(picked) == 5:
+            break
+    return {"title": "Die schönsten Nachrichten der Woche", "stories": picked} if len(picked) >= 3 else None
 
 
 # MARK: Fotos von Wikimedia Commons
@@ -614,6 +748,13 @@ def main():
     jobs = {f"story-{n}": (WRITER_SYSTEM, user, STORY_SCHEMA, 8000, "medium") for n, (user, _) in enumerate(prompts, 1)}
     jobs.update({f"brief-{n}": (BRIEF_SYSTEM, user, BRIEF_SCHEMA, 3000, "low") for n, user in enumerate(brief_prompts, 1)})
     jobs["joke"] = joke_job()
+    tip = None
+    try:
+        tip_job, tip_kind, tip_label, tip_items = recommendation_job(today)
+        jobs["tipp"] = tip_job
+        tip = (tip_kind, tip_label, tip_items)
+    except Exception as error:  # Ohne Empfehlung erscheint die Ausgabe trotzdem
+        print(f"   Empfehlung übersprungen ({error})")
     results = ask_all(client, jobs, not args.no_batch)
 
     written = []  # (Länge des Artikeltexts, Geschichte)
@@ -653,6 +794,17 @@ def main():
     except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
         print(f"   Fotos übersprungen ({error})")
 
+    recommendation = None
+    if tip:
+        try:
+            recommendation = finish_recommendation(results.get("tipp"), *tip, today)
+            print(f"   Empfehlung: {recommendation['label']}, {recommendation['title']}" if recommendation else "   Heute keine belegte Empfehlung")
+        except Exception as error:
+            print(f"   Empfehlung übersprungen ({error})")
+    weekly = weekly_review(today, stories)
+    if weekly:
+        print(f"   Wochenrückblick mit {len(weekly['stories'])} Geschichten")
+
     comic = None
     try:
         comic = comic_of_the_day(today)
@@ -668,6 +820,8 @@ def main():
         "stories": stories,
         "joke": joke,
         "comic": comic,
+        "recommendation": recommendation,
+        "weekly": weekly,
     }
     (OUT / "editions").mkdir(parents=True, exist_ok=True)
     payload = json.dumps(edition, ensure_ascii=False, indent=2)

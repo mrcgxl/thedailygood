@@ -3,7 +3,7 @@
 RESSORTS = [
     "welt", "wissenschaft", "zukunft", "technik", "gaming", "design", "architektur", "dekoration",
     "natur", "gesundheit", "sport", "bildung", "wirtschaft", "autos", "kultur", "film", "serien",
-    "fotografie", "lifestyle", "promis", "kurioses",
+    "fotografie", "kueche", "lifestyle", "promis", "kurioses",
 ]
 
 RESSORT_GUIDE = """Ressorts:
@@ -25,7 +25,8 @@ RESSORT_GUIDE = """Ressorts:
 - film: Kino, Dokumentarfilme, Kurzfilme, Video und YouTube
 - serien: Serien, Streaming und Fernsehen
 - fotografie: besondere Fotos, Fotowettbewerbe, Fotokunst und Kameras
-- lifestyle: Essen und Trinken, Reisen, Mode, Alltagsglück
+- kueche: Rezepte, Kochideen, Zutaten der Saison, Essen und Trinken
+- lifestyle: Reisen, Mode, Wohlbefinden, Alltagsglück
 - promis: schöne Nachrichten über Prominente, zum Beispiel Engagement, Hilfe für andere, Erfolge, Comebacks, Hochzeiten, Nachwuchs und rührende Momente
 - kurioses: Lustiges, Herzerwärmendes, Skurriles"""
 
@@ -52,7 +53,7 @@ Keine gute Nachricht sind
 
 Design und Architektur liegen unseren Lesern besonders am Herzen. Neue Gebäude, Umbauten, Innenräume, Produktdesign, Grafik und Typografie sind gute Nachrichten, wenn sie schön, klug oder nachhaltig sind. Reine Produktwerbung bleibt draußen.
 
-In Dekoration, Film, Serien, Fotografie, Lifestyle, Sport und Autos zählt auch, was schön, inspirierend oder hilfreich ist, ohne eine große Nachricht zu sein: ein preisgekröntes Foto, ein gefeierter Film, eine Serie mit begeisterten Kritiken, eine kluge Wohnidee, ein fairer Sieg. Trailer, Starttermine, Einschaltquoten und Gerüchte zählen nicht.
+In Dekoration, Film, Serien, Fotografie, Küche, Lifestyle, Sport und Autos zählt auch, was schön, inspirierend oder hilfreich ist, ohne eine große Nachricht zu sein: ein preisgekröntes Foto, ein gefeierter Film, eine Serie mit begeisterten Kritiken, eine kluge Wohnidee, ein Rezept, das gerade Saison hat, ein fairer Sieg. Trailer, Starttermine, Einschaltquoten und Gerüchte zählen nicht.
 
 Fasse Meldungen über dasselbe Ereignis zu einem Kandidaten zusammen und liste die wichtigste Meldung zuerst.
 Gib jedem Kandidaten 1 bis 10 Punkte: Wie viel Freude macht die Nachricht, wie überraschend und interessant ist sie, und wie gut passt sie zu deutschen Lesern?
@@ -98,6 +99,18 @@ Regeln
 - whyGood: ein Satz, warum die Nachricht Grund zur Freude ist.
 - honestNote: eine ehrliche Einordnung, wenn etwas noch früh, klein oder unsicher ist. Sonst null.
 - Lass belastende Details weg."""
+
+RECOMMENDATION_SYSTEM = """Du schreibst die „Empfehlung des Tages“ für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Heute empfiehlst du: {kind}.
+
+Du bekommst Meldungen und Kritiken aus den letzten zwei Wochen.
+- Schlage drei Kandidaten vor, den besten zuerst. Jeder muss ein echtes, bereits erschienenes Werk sein, das man in Deutschland bekommt.
+- Bevorzuge, was in den Meldungen ausdrücklich gelobt wird, zum Beispiel mit einer begeisterten Kritik, einem Preis oder einem Platz auf einer Bestenliste. Gib dann die itemID dieser Meldung an.
+- Gibt das Material nichts Passendes her, nimm einen bekannten, hoch gelobten Titel und setze itemID auf null.{extra}
+- Die Empfehlung soll gute Laune machen oder inspirieren. Nichts, in dem Gewalt, Krieg oder Trauer im Mittelpunkt stehen.
+- title ist der genaue Titel, auf Deutsch, wenn es einen deutschen Titel gibt. creator ist die Autorin oder der Autor, die Regie, die Band, das Studio oder die Macher. year ist das Erscheinungsjahr.
+- text: zwei bis drei Sätze, warum sich das lohnt. Nur Fakten, die in der Meldung stehen oder die du sicher weißt. Keine Spoiler.
+- forWhom: ein kurzer Satz, zum Beispiel „Für alle, die gern …“.
+- Verwende niemals Gedankenstriche."""
 
 JOKE_SYSTEM = """Du wählst den „Flachwitz des Tages“ für eine deutsche Zeitung mit guten Nachrichten.
 
@@ -180,6 +193,17 @@ BRIEF_SCHEMA = obj({
 })
 
 JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
+
+RECOMMENDATION_SCHEMA = obj({
+    "picks": {"type": "array", "items": obj({
+        "title": STRING,
+        "creator": STRING,
+        "year": nullable(STRING),
+        "text": STRING,
+        "forWhom": STRING,
+        "itemID": nullable(STRING),
+    })},
+})
 
 IMAGE_SCHEMA = obj({
     "queries": {"type": "array", "items": obj({"storyID": STRING, "query": STRING})},

@@ -90,6 +90,11 @@ FEEDS = [
     ("My Modern Met", "https://mymodernmet.com/feed/", "Englisch"),
     ("Colossal", "https://www.thisiscolossal.com/feed/", "Englisch"),
     ("Guardian Photography", "https://www.theguardian.com/artanddesign/photography/rss", "Englisch"),
+    # Küche und Rezepte
+    ("Brigitte Rezepte", "https://www.brigitte.de/rezepte/feed.rss", "Deutsch"),
+    ("Guardian Food", "https://www.theguardian.com/food/rss", "Englisch"),
+    ("Bon Appétit", "https://www.bonappetit.com/feed/rss", "Englisch"),
+    ("The Kitchn", "https://www.thekitchn.com/main.rss", "Englisch"),
     # Lifestyle
     ("Utopia", "https://utopia.de/feed/", "Deutsch"),
     ("Brigitte", "https://www.brigitte.de/feed.rss", "Deutsch"),
@@ -102,3 +107,47 @@ FEEDS = [
     ("Variety", "https://variety.com/feed/", "Englisch"),
     ("UPI Odd News", "https://rss.upi.com/news/odd_news.rss", "Englisch"),
 ]
+
+# Empfehlung des Tages: feste Art pro Wochentag (0 ist Montag) und Quellen mit Kritiken der letzten zwei Wochen
+RECOMMENDATIONS = {
+    0: ("buch", "Buch", [
+        ("Deutschlandfunk Kultur", "https://www.deutschlandfunkkultur.de/buchkritik-100.rss", "Deutsch"),
+        ("Guardian Books", "https://www.theguardian.com/books/rss", "Englisch"),
+        ("NPR Books", "https://feeds.npr.org/1032/rss.xml", "Englisch"),
+        ("Literary Hub", "https://lithub.com/feed/", "Englisch"),
+    ]),
+    1: ("film", "Film", [
+        ("Filmstarts", "https://www.filmstarts.de/rss/nachrichten.xml", "Deutsch"),
+        ("Guardian Film", "https://www.theguardian.com/film/rss", "Englisch"),
+        ("IndieWire", "https://www.indiewire.com/feed/", "Englisch"),
+        ("/Film", "https://www.slashfilm.com/feed/", "Englisch"),
+    ]),
+    2: ("serie", "Serie", [
+        ("Serienjunkies", "https://www.serienjunkies.de/rss/news.xml", "Deutsch"),
+        ("DWDL", "https://www.dwdl.de/rss/allethemen.xml", "Deutsch"),
+        ("Decider", "https://decider.com/feed/", "Englisch"),
+    ]),
+    3: ("podcast", "Podcast", [
+        ("Guardian Hear Here", "https://www.theguardian.com/tv-and-radio/series/hear-here/rss", "Englisch"),
+        ("Podnews", "https://podnews.net/rss", "Englisch"),
+    ]),
+    4: ("spiel", "Spiel", [
+        ("GameStar", "https://www.gamestar.de/news/rss/news.rss", "Deutsch"),
+        ("GamePro", "https://www.gamepro.de/rss/gamepro.rss", "Deutsch"),
+        ("Eurogamer", "https://www.eurogamer.net/feed", "Englisch"),
+        ("Polygon", "https://www.polygon.com/rss/index.xml", "Englisch"),
+    ]),
+    5: ("rezept", "Rezept", [
+        ("Brigitte Rezepte", "https://www.brigitte.de/rezepte/feed.rss", "Deutsch"),
+        ("Guardian Food", "https://www.theguardian.com/food/rss", "Englisch"),
+        ("Bon Appétit", "https://www.bonappetit.com/feed/rss", "Englisch"),
+        ("The Kitchn", "https://www.thekitchn.com/main.rss", "Englisch"),
+        ("Budget Bytes", "https://www.budgetbytes.com/feed/", "Englisch"),
+    ]),
+    6: ("album", "Album", [
+        ("Pitchfork", "https://pitchfork.com/feed/feed-album-reviews/rss", "Englisch"),
+        ("Rolling Stone", "https://www.rollingstone.de/feed/", "Deutsch"),
+        ("Guardian Music", "https://www.theguardian.com/music/rss", "Englisch"),
+        ("NME", "https://www.nme.com/feed", "Englisch"),
+    ]),
+}
