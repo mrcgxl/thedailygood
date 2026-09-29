@@ -33,8 +33,8 @@ import feedparser  # noqa: E402
 import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
-    BRIEF_SCHEMA, BRIEF_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA,
-    TRIAGE_SYSTEM, WRITER_SYSTEM,
+    BRIEF_SCHEMA, BRIEF_SYSTEM, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
+    JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
 from sources import FEEDS  # noqa: E402
 
@@ -410,8 +410,9 @@ def fetch_json(url):
         return json.load(response)
 
 
-def find_image(query):
-    """Freies Querformat-Foto zum Suchbegriff, zuerst unter den geprüften Qualitätsbildern."""
+def image_options(query, limit=4):
+    """Bis zu vier freie Querformat-Fotos zum Suchbegriff, zuerst aus den geprüften Qualitätsbildern."""
+    found, seen = [], set()
     for quality in (True, False):
         search = f"{query} filetype:bitmap" + (" incategory:Quality_images" if quality else "")
         params = {
@@ -429,13 +430,14 @@ def find_image(query):
             meta = info.get("extmetadata", {})
             license_name = clean(meta.get("LicenseShortName", {}).get("value", ""), 40)
             width, height = info.get("width", 0), info.get("height", 1)
-            if not info.get("thumburl") or info.get("mime") not in ("image/jpeg", "image/png"):
+            title = page.get("title", "")
+            if title in seen or not info.get("thumburl") or info.get("mime") not in ("image/jpeg", "image/png"):
                 continue
             if width < 1200 or not 1.2 <= width / height <= 2.2:
                 continue
             if not license_name.lower().startswith(FREE_LICENSES):
                 continue
-            if any(word in page.get("title", "").lower() for word in UNWANTED):
+            if any(word in title.lower() for word in UNWANTED):
                 continue
             if license_name.lower().startswith(("public domain", "cc0")):
                 credit = "gemeinfrei, Wikimedia Commons"
@@ -443,24 +445,44 @@ def find_image(query):
                 artist = clean(meta.get("Artist", {}).get("value", ""), 40) or "unbekannt"
                 credit = f"{artist}, {license_name}, Wikimedia Commons"
             url = urllib.parse.urlsplit(info["thumburl"])
-            query = [(k, v) for k, v in urllib.parse.parse_qsl(url.query) if not k.startswith("utm_")]
-            return {
-                "url": urllib.parse.urlunsplit(url._replace(query=urllib.parse.urlencode(query))),
+            params_clean = [(k, v) for k, v in urllib.parse.parse_qsl(url.query) if not k.startswith("utm_")]
+            seen.add(title)
+            found.append({
+                "url": urllib.parse.urlunsplit(url._replace(query=urllib.parse.urlencode(params_clean))),
                 "credit": credit,
                 "source": info.get("descriptionurl"),
-            }
-    return None
+                "title": title.removeprefix("File:").rsplit(".", 1)[0].replace("_", " "),
+                "description": clean(meta.get("ImageDescription", {}).get("value", ""), 160),
+            })
+            if len(found) >= limit:
+                return found
+    return found
 
 
 def attach_images(client, stories):
+    """Claude nennt Suchwörter, Commons liefert Fotos, dann wählt Claude pro Nachricht das passende oder keins."""
     lines = [f"[{s['id']}] {s['headline']}. {s['teaser']}" for s in stories]
-    result = ask(client, IMAGE_SYSTEM, "Die Nachrichten:\n\n" + "\n".join(lines), IMAGE_SCHEMA, max_tokens=4000, effort="low")
+    result = ask(client, IMAGE_SYSTEM, "Die Nachrichten:\n\n" + "\n".join(lines), IMAGE_SCHEMA, max_tokens=6000, effort="low")
     queries = {q["storyID"]: q["query"] for q in result["queries"]}
     with ThreadPoolExecutor(6) as pool:
-        images = list(pool.map(lambda story: find_image(queries[story["id"]]) if story["id"] in queries else None, stories))
-    for story, image in zip(stories, images):
-        story["image"] = image
-    return sum(1 for image in images if image)
+        options = list(pool.map(lambda story: image_options(queries[story["id"]]) if story["id"] in queries else [], stories))
+    blocks = []
+    for story, found in zip(stories, options):
+        if found:
+            choices = "\n".join(f"  {k}: {o['title']}. {o['description']}" for k, o in enumerate(found))
+            blocks.append(f"[{story['id']}] {story['headline']}. {story['teaser']}\n{choices}")
+    picks = {}
+    if blocks:
+        result = ask(client, IMAGE_PICK_SYSTEM, "\n\n".join(blocks), IMAGE_PICK_SCHEMA, max_tokens=6000, effort="low")
+        picks = {p["storyID"]: p["choice"] for p in result["picks"]}
+    count = 0
+    for story, found in zip(stories, options):
+        choice = picks.get(story["id"], -1)
+        story["image"] = None
+        if 0 <= choice < len(found):
+            story["image"] = {key: found[choice][key] for key in ("url", "credit", "source")}
+            count += 1
+    return count
 
 
 # MARK: Comic des Tages (Pepper&Carrot von David Revoy, CC BY 4.0)
@@ -626,7 +648,8 @@ def main():
         joke = None
 
     try:
-        print(f"   Fotos gefunden: {attach_images(client, stories)} von {len(stories)}")
+        full = [s for s in stories if not s.get("brief")]  # Kurzmeldungen zeigen die Illustration ihres Ressorts
+        print(f"   Fotos gefunden: {attach_images(client, full)} von {len(full)}")
     except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
         print(f"   Fotos übersprungen ({error})")
 

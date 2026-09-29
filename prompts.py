@@ -111,6 +111,12 @@ IMAGE_SYSTEM = """Du suchst passende freie Fotos auf Wikimedia Commons. Gib für
 - Wenn nichts Konkretes passt, nimm ein ruhiges Motiv zum Thema, zum Beispiel wind turbine oder rainforest.
 - storyID ist die ID der Nachricht."""
 
+IMAGE_PICK_SYSTEM = """Du prüfst Fotos von Wikimedia Commons für „The Daily Good“. Zu jeder Nachricht bekommst du bis zu vier Fotos mit Dateiname und Beschreibung, nummeriert ab 0.
+- Wähle das Foto, das das Hauptmotiv der Nachricht wirklich zeigt: denselben Ort, dasselbe Tier, dieselbe Person oder dieselbe Sache. Ein allgemeines, aber passendes Motiv ist in Ordnung, zum Beispiel der Planet Mars zu einer Mars-Nachricht.
+- Passt keins, antworte mit -1. Lieber kein Foto als ein falsches. Achte auf zufällige Wortgleichheiten, zum Beispiel „Mars 2013“ als Monatsangabe im Dateinamen.
+- Nichts Trauriges oder Unpassendes wie Unfälle, Krankheit, Tod oder Protest.
+- storyID ist die ID der Nachricht, choice die Nummer des Fotos."""
+
 
 def nullable(schema):
     return {"anyOf": [schema, {"type": "null"}]}
@@ -177,4 +183,8 @@ JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
 
 IMAGE_SCHEMA = obj({
     "queries": {"type": "array", "items": obj({"storyID": STRING, "query": STRING})},
+})
+
+IMAGE_PICK_SCHEMA = obj({
+    "picks": {"type": "array", "items": obj({"storyID": STRING, "choice": {"type": "integer"}})},
 })
