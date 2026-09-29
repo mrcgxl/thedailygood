@@ -1,0 +1,59 @@
+"""Nachrichtenquellen für The Daily Good: Name, RSS-Adresse, Sprache.
+
+Gemischt aus konstruktiven Quellen und großen Redaktionen. Die großen liefern viel
+Schlechtes mit, das filtert die Redaktions-KI heraus.
+"""
+
+FEEDS = [
+    # Konstruktiv und positiv
+    ("Good News Network", "https://www.goodnewsnetwork.org/feed/", "Englisch"),
+    ("Positive News", "https://www.positive.news/feed/", "Englisch"),
+    ("Reasons to be Cheerful", "https://reasonstobecheerful.world/feed/", "Englisch"),
+    ("Optimist Daily", "https://www.optimistdaily.com/feed/", "Englisch"),
+    # Allgemein
+    ("tagesschau", "https://www.tagesschau.de/index~rss2.xml", "Deutsch"),
+    ("tagesschau Wirtschaft", "https://www.tagesschau.de/wirtschaft/index~rss2.xml", "Deutsch"),
+    ("DW", "https://rss.dw.com/xml/rss-de-all", "Deutsch"),
+    ("NPR", "https://feeds.npr.org/1001/rss.xml", "Englisch"),
+    # Wissenschaft, Weltall, Gesundheit, Natur
+    ("SPIEGEL Wissenschaft", "https://www.spiegel.de/wissenschaft/index.rss", "Deutsch"),
+    ("Spektrum", "https://www.spektrum.de/alias/rss/spektrum-de-rss-feed/996406", "Deutsch"),
+    ("scinexx", "https://www.scinexx.de/feed/", "Deutsch"),
+    ("BBC Science", "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "Englisch"),
+    ("Guardian Science", "https://www.theguardian.com/science/rss", "Englisch"),
+    ("Guardian Environment", "https://www.theguardian.com/environment/rss", "Englisch"),
+    ("NPR Science", "https://feeds.npr.org/1007/rss.xml", "Englisch"),
+    ("NASA", "https://www.nasa.gov/news-release/feed/", "Englisch"),
+    ("ESA", "https://www.esa.int/rssfeed/Our_Activities/Space_Science", "Englisch"),
+    ("ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml", "Englisch"),
+    ("ScienceDaily Health", "https://www.sciencedaily.com/rss/health_medicine.xml", "Englisch"),
+    ("Phys.org", "https://phys.org/rss-feed/", "Englisch"),
+    ("Mongabay", "https://news.mongabay.com/feed/", "Englisch"),
+    ("Ärzteblatt", "https://www.aerzteblatt.de/rss/news.asp", "Deutsch"),
+    # Technik
+    ("heise online", "https://www.heise.de/rss/heise-atom.xml", "Deutsch"),
+    ("Golem", "https://rss.golem.de/rss.php?feed=RSS2.0", "Deutsch"),
+    ("t3n", "https://t3n.de/rss.xml", "Deutsch"),
+    ("BBC Technology", "https://feeds.bbci.co.uk/news/technology/rss.xml", "Englisch"),
+    ("The Verge", "https://www.theverge.com/rss/index.xml", "Englisch"),
+    ("9to5Mac", "https://9to5mac.com/feed/", "Englisch"),
+    # Gaming
+    ("GameStar", "https://www.gamestar.de/news/rss/news.rss", "Deutsch"),
+    ("GamePro", "https://www.gamepro.de/rss/gamepro.rss", "Deutsch"),
+    ("Eurogamer", "https://www.eurogamer.net/feed", "Englisch"),
+    ("Polygon", "https://www.polygon.com/rss/index.xml", "Englisch"),
+    # Design, Grafik, Architektur, Wohnen
+    ("Dezeen", "https://www.dezeen.com/feed/", "Englisch"),
+    ("designboom", "https://www.designboom.com/feed/", "Englisch"),
+    ("ArchDaily", "https://feeds.feedburner.com/Archdaily", "Englisch"),
+    ("Creative Boom", "https://www.creativeboom.com/feed/", "Englisch"),
+    ("PAGE", "https://page-online.de/feed/", "Deutsch"),
+    ("Yanko Design", "https://www.yankodesign.com/feed/", "Englisch"),
+    # Energie und Wirtschaft
+    ("Electrek", "https://electrek.co/feed/", "Englisch"),
+    ("CleanTechnica", "https://cleantechnica.com/feed/", "Englisch"),
+    # Kultur, Sport, Kurioses
+    ("Guardian Culture", "https://www.theguardian.com/culture/rss", "Englisch"),
+    ("kicker", "https://newsfeed.kicker.de/news/aktuell", "Deutsch"),
+    ("UPI Odd News", "https://rss.upi.com/news/odd_news.rss", "Englisch"),
+]
