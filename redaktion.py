@@ -30,7 +30,8 @@ import feedparser  # noqa: E402
 import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
-    JOKE_SCHEMA, JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
+    CROSSWORD_SCHEMA, CROSSWORD_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA,
+    TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
 from sources import FEEDS  # noqa: E402
 
@@ -358,6 +359,39 @@ def remember_joke(joke):
     JOKES.write_text(json.dumps(history + [joke["setup"]], ensure_ascii=False, indent=1))
 
 
+# MARK: Rätsel
+
+LETTERS = set("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ")
+
+
+def texts_of(story):
+    parts = [story["headline"], story["teaser"], story["whyGood"]]
+    for block in story["blocks"]:
+        for key in ("caption", "text", "title", "place"):
+            if isinstance(block.get(key), str):
+                parts.append(block[key])
+        for entry in block.get("items") or []:
+            parts.append(entry if isinstance(entry, str) else entry.get("text", ""))
+    return " ".join(parts)
+
+
+def crossword(client, stories):
+    """Antwortwörter und Fragen aus den Nachrichten des Tages. Das Gitter baut die App."""
+    lines = [f"[{s['id']}] {s['ressort']}: {texts_of(s)[:700]}" for s in stories]
+    user = "Die Nachrichten von heute:\n\n" + "\n\n".join(lines)
+    result = ask(client, CROSSWORD_SYSTEM, user, CROSSWORD_SCHEMA, max_tokens=8000)
+    ids = {s["id"] for s in stories}
+    entries, seen = [], set()
+    for entry in result["entries"]:
+        answer = "".join(ch for ch in entry["answer"].upper() if ch in LETTERS)
+        clue = no_dashes(entry["clue"]).strip()
+        if not 3 <= len(answer) <= 10 or answer in seen or answer.lower() in clue.lower():
+            continue
+        seen.add(answer)
+        entries.append({"answer": answer, "clue": clue, "storyID": entry["storyID"] if entry["storyID"] in ids else None})
+    return entries
+
+
 # MARK: Ablauf
 
 def main():
@@ -424,6 +458,15 @@ def main():
         print(f"   Flachwitz übersprungen ({joke})")
         joke = None
 
+    puzzles = None
+    try:
+        entries = crossword(client, stories)
+        if len(entries) >= 6:
+            puzzles = {"crossword": {"entries": entries}}
+            print(f"   Kreuzworträtsel mit {len(entries)} Wörtern")
+    except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
+        print(f"   Kreuzworträtsel übersprungen ({error})")
+
     edition = {
         "date": today.isoformat(),
         "number": (today - FIRST_EDITION).days + 1,
@@ -431,6 +474,7 @@ def main():
         "leadStoryID": stories[0]["id"],
         "stories": stories,
         "joke": joke,
+        "puzzles": puzzles,
     }
     (OUT / "editions").mkdir(parents=True, exist_ok=True)
     payload = json.dumps(edition, ensure_ascii=False, indent=2)

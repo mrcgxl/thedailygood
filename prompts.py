@@ -78,6 +78,16 @@ JOKE_SYSTEM = """Du wählst den „Flachwitz des Tages“ für eine deutsche Zei
 - Harmlos und familientauglich, kein Spott über Menschen oder Gruppen. Keine Gedankenstriche."""
 
 
+CROSSWORD_SYSTEM = """Du erstellst das Mini-Kreuzworträtsel für „The Daily Good“. Alle Antworten stammen aus den Nachrichten der heutigen Ausgabe, die du unten bekommst.
+
+- Wähle 12 Antwortwörter. Jedes ist ein einzelnes deutsches Wort mit 3 bis 9 Buchstaben, ohne Leerzeichen, Bindestriche, Ziffern oder Abkürzungen. Umlaute sind erlaubt, ß schreibst du als SS.
+- Mische kurze und lange Wörter. Bevorzuge Wörter mit häufigen Buchstaben wie E, N, R, S, T, A und I, damit sie sich gut kreuzen lassen.
+- Die Frage ist kurz, höchstens 55 Zeichen, und bezieht sich auf eine Nachricht von heute, zum Beispiel „Tier auf der neuen Brücke in Colorado“.
+- Die Antwort darf nicht in der Frage vorkommen, auch nicht als Teil eines Wortes.
+- Keine Gedankenstriche.
+- storyID ist die ID der Nachricht, auf die sich die Frage bezieht."""
+
+
 def nullable(schema):
     return {"anyOf": [schema, {"type": "null"}]}
 
@@ -132,3 +142,7 @@ STORY_SCHEMA = obj({
 })
 
 JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
+
+CROSSWORD_SCHEMA = obj({
+    "entries": {"type": "array", "items": obj({"answer": STRING, "clue": STRING, "storyID": STRING})},
+})
