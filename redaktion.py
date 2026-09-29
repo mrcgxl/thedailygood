@@ -18,6 +18,8 @@ import re
 import subprocess
 import sys
 import time
+import urllib.parse
+import urllib.request
 import warnings
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -30,8 +32,8 @@ import feedparser  # noqa: E402
 import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
-    CROSSWORD_SCHEMA, CROSSWORD_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA,
-    TRIAGE_SYSTEM, WRITER_SYSTEM,
+    CROSSWORD_SCHEMA, CROSSWORD_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM,
+    STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
 from sources import FEEDS  # noqa: E402
 
@@ -43,6 +45,8 @@ ITEMS_PER_FEED = 15
 BATCH_WAIT = 45 * 60  # Sekunden, danach wird einzeln nachgefragt
 HERE = Path(__file__).resolve().parent
 OUT = HERE / "docs"  # wird von GitHub Pages ausgeliefert
+PAGES_URL = "https://mrcgxl.github.io/thedailygood"
+USER_AGENT = "TheDailyGood/0.1 (https://github.com/mrcgxl/thedailygood)"
 FAVORITES = {"design", "architektur"}  # Mircos Herzensthemen
 STATE = HERE / "state"
 
@@ -392,6 +396,115 @@ def crossword(client, stories):
     return entries
 
 
+# MARK: Fotos von Wikimedia Commons
+
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+FREE_LICENSES = ("cc0", "public domain", "cc by", "cc-by")
+UNWANTED = ("skull", "skelet", "dead", "death", "corpse", "carcass", "blood", "taxiderm", "stuffed", "trophy",
+            "crâne", "schädel", "map", "diagram", "logo", "chart", "drawing", "coat of arms", "flag")
+
+
+def fetch_json(url):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=20) as response:
+        return json.load(response)
+
+
+def find_image(query):
+    """Freies Querformat-Foto zum Suchbegriff, zuerst unter den geprüften Qualitätsbildern."""
+    for quality in (True, False):
+        search = f"{query} filetype:bitmap" + (" incategory:Quality_images" if quality else "")
+        params = {
+            "action": "query", "format": "json", "generator": "search", "gsrsearch": search,
+            "gsrnamespace": 6, "gsrlimit": 15, "prop": "imageinfo",
+            "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1280,
+        }
+        try:
+            data = fetch_json(COMMONS + "?" + urllib.parse.urlencode(params))
+        except Exception:  # Commons nicht erreichbar: dann eben ohne Foto
+            continue
+        pages = sorted(data.get("query", {}).get("pages", {}).values(), key=lambda page: page.get("index", 0))
+        for page in pages:
+            info = (page.get("imageinfo") or [{}])[0]
+            meta = info.get("extmetadata", {})
+            license_name = clean(meta.get("LicenseShortName", {}).get("value", ""), 40)
+            width, height = info.get("width", 0), info.get("height", 1)
+            if not info.get("thumburl") or info.get("mime") not in ("image/jpeg", "image/png"):
+                continue
+            if width < 1200 or not 1.2 <= width / height <= 2.2:
+                continue
+            if not license_name.lower().startswith(FREE_LICENSES):
+                continue
+            if any(word in page.get("title", "").lower() for word in UNWANTED):
+                continue
+            if license_name.lower().startswith(("public domain", "cc0")):
+                credit = "gemeinfrei, Wikimedia Commons"
+            else:
+                artist = clean(meta.get("Artist", {}).get("value", ""), 40) or "unbekannt"
+                credit = f"{artist}, {license_name}, Wikimedia Commons"
+            url = urllib.parse.urlsplit(info["thumburl"])
+            query = [(k, v) for k, v in urllib.parse.parse_qsl(url.query) if not k.startswith("utm_")]
+            return {
+                "url": urllib.parse.urlunsplit(url._replace(query=urllib.parse.urlencode(query))),
+                "credit": credit,
+                "source": info.get("descriptionurl"),
+            }
+    return None
+
+
+def attach_images(client, stories):
+    lines = [f"[{s['id']}] {s['headline']}. {s['teaser']}" for s in stories]
+    result = ask(client, IMAGE_SYSTEM, "Die Nachrichten:\n\n" + "\n".join(lines), IMAGE_SCHEMA, max_tokens=4000, effort="low")
+    queries = {q["storyID"]: q["query"] for q in result["queries"]}
+    with ThreadPoolExecutor(6) as pool:
+        images = list(pool.map(lambda story: find_image(queries[story["id"]]) if story["id"] in queries else None, stories))
+    for story, image in zip(stories, images):
+        story["image"] = image
+    return sum(1 for image in images if image)
+
+
+# MARK: Comic des Tages (Pepper&Carrot von David Revoy, CC BY 4.0)
+
+PEPPER = "https://www.peppercarrot.com/0_sources"
+
+
+def comic_of_the_day(today):
+    """Jeden Tag die nächste Seite, wie ein Fortsetzungscomic in der Zeitung."""
+    state_file = STATE / "comic.json"
+    state = json.loads(state_file.read_text()) if state_file.exists() else {"next": [0, 1]}
+    episodes = [e for e in fetch_json(PEPPER + "/episodes.json") if "de" in e["translated_languages"]]
+    last = state.get("last")
+    if last and last.get("date") == today.isoformat():
+        index, page = last["episode"], last["page"]  # Zweiter Lauf am selben Tag: dieselbe Seite
+    else:
+        index, page = state["next"]
+    if index >= len(episodes):
+        index, page = 0, 1  # Alle Folgen durch: von vorn
+    episode = episodes[index]
+    number = int(episode["name"][2:4])
+    pages = episode["total_pages"] - 1  # P00 ist das Titelbild
+    image_url = f"{PEPPER}/{episode['name']}/low-res/de_Pepper-and-Carrot_by-David-Revoy_E{number:02d}P{page:02d}.jpg"
+    target = OUT / "comics" / f"{today.isoformat()}.jpg"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    request = urllib.request.Request(image_url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        target.write_bytes(response.read())
+    for old in sorted((OUT / "comics").glob("*.jpg"))[:-30]:  # Nur einen Monat aufheben
+        old.unlink()
+    following = (index, page + 1) if page < pages else (index + 1, 1)
+    STATE.mkdir(exist_ok=True)
+    state_file.write_text(json.dumps({
+        "next": list(following),
+        "last": {"date": today.isoformat(), "episode": index, "page": page},
+    }, indent=1))
+    return {
+        "title": f"Pepper&Carrot · Folge {number} · Seite {page} von {pages}",
+        "image": f"{PAGES_URL}/comics/{today.isoformat()}.jpg",
+        "credit": "David Revoy, peppercarrot.com, CC BY 4.0",
+        "link": "https://www.peppercarrot.com/de/",
+    }
+
+
 # MARK: Ablauf
 
 def main():
@@ -467,6 +580,18 @@ def main():
     except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
         print(f"   Kreuzworträtsel übersprungen ({error})")
 
+    try:
+        print(f"   Fotos gefunden: {attach_images(client, stories)} von {len(stories)}")
+    except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
+        print(f"   Fotos übersprungen ({error})")
+
+    comic = None
+    try:
+        comic = comic_of_the_day(today)
+        print(f"   Comic: {comic['title']}")
+    except Exception as error:  # Ohne Comic erscheint die Ausgabe trotzdem
+        print(f"   Comic übersprungen ({error})")
+
     edition = {
         "date": today.isoformat(),
         "number": (today - FIRST_EDITION).days + 1,
@@ -475,6 +600,7 @@ def main():
         "stories": stories,
         "joke": joke,
         "puzzles": puzzles,
+        "comic": comic,
     }
     (OUT / "editions").mkdir(parents=True, exist_ok=True)
     payload = json.dumps(edition, ensure_ascii=False, indent=2)

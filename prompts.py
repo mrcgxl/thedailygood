@@ -2,7 +2,7 @@
 
 RESSORTS = [
     "welt", "wissenschaft", "technik", "gaming", "design", "architektur",
-    "natur", "gesundheit", "wirtschaft", "kultur", "kurioses",
+    "natur", "gesundheit", "wirtschaft", "kultur", "promis", "kurioses",
 ]
 
 RESSORT_GUIDE = """Ressorts:
@@ -16,6 +16,7 @@ RESSORT_GUIDE = """Ressorts:
 - gesundheit: Medizin, Behandlungen, Wohlbefinden
 - wirtschaft: Arbeit, Geld, faire Unternehmen, günstiger werdende Dinge
 - kultur: Musik, Film, Kunst, Bücher, Sport
+- promis: schöne Nachrichten über Prominente, zum Beispiel Engagement, Hilfe für andere, Erfolge, Comebacks, Hochzeiten, Nachwuchs und rührende Momente
 - kurioses: Lustiges, Herzerwärmendes, Skurriles"""
 
 TRIAGE_SYSTEM = f"""Du bist Chefredakteur von „The Daily Good“, einer deutschen Tageszeitung nur mit guten Nachrichten. Die Leser wollen wissen, was in der Welt passiert, ohne dabei schlechte Laune zu bekommen.
@@ -33,7 +34,8 @@ Keine gute Nachricht sind
 - Parteipolitik, Wahlkampf, Streit, Skandale, Klagen und Kritik,
 - Krankheitsausbrüche und Studien über Risiken und Gefahren,
 - Börsenkurse, Quartalszahlen, Übernahmen, Entlassungen, Preiserhöhungen, Rabatte, Deals, Kaufberatung und Produktwerbung,
-- Gerüchte, Leaks, Verschiebungen, Tests, Reviews und Klatsch über Prominente,
+- Gerüchte, Leaks, Verschiebungen, Tests und Reviews,
+- Klatsch, Trennungen, Streit und Skandale von Prominenten,
 - Meldungen, die nur eine kleine Fachgruppe interessieren.
 
 {RESSORT_GUIDE}
@@ -86,6 +88,12 @@ CROSSWORD_SYSTEM = """Du erstellst das Mini-Kreuzworträtsel für „The Daily G
 - Die Antwort darf nicht in der Frage vorkommen, auch nicht als Teil eines Wortes.
 - Keine Gedankenstriche.
 - storyID ist die ID der Nachricht, auf die sich die Frage bezieht."""
+
+
+IMAGE_SYSTEM = """Du suchst passende freie Fotos auf Wikimedia Commons. Gib für jede Nachricht 2 bis 4 englische Suchwörter für das konkrete Hauptmotiv an: ein Tier, einen Ort, ein Gebäude, ein Objekt oder eine bekannte Person.
+- Das Foto soll freundlich wirken. Keine abstrakten Begriffe, keine Wörter wie news, concept oder illustration.
+- Wenn nichts Konkretes passt, nimm ein ruhiges Motiv zum Thema, zum Beispiel wind turbine oder rainforest.
+- storyID ist die ID der Nachricht."""
 
 
 def nullable(schema):
@@ -145,4 +153,8 @@ JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
 
 CROSSWORD_SCHEMA = obj({
     "entries": {"type": "array", "items": obj({"answer": STRING, "clue": STRING, "storyID": STRING})},
+})
+
+IMAGE_SCHEMA = obj({
+    "queries": {"type": "array", "items": obj({"storyID": STRING, "query": STRING})},
 })

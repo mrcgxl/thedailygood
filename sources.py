@@ -52,8 +52,13 @@ FEEDS = [
     # Energie und Wirtschaft
     ("Electrek", "https://electrek.co/feed/", "Englisch"),
     ("CleanTechnica", "https://cleantechnica.com/feed/", "Englisch"),
-    # Kultur, Sport, Kurioses
+    # Kultur, Sport, Promis, Kurioses
     ("Guardian Culture", "https://www.theguardian.com/culture/rss", "Englisch"),
+    ("BBC Entertainment", "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "Englisch"),
+    ("stern Lifestyle", "https://www.stern.de/feed/standard/lifestyle/", "Deutsch"),
+    ("E! News", "https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml", "Englisch"),
+    ("Hollywood Reporter", "https://www.hollywoodreporter.com/feed/", "Englisch"),
+    ("Variety", "https://variety.com/feed/", "Englisch"),
     ("kicker", "https://newsfeed.kicker.de/news/aktuell", "Deutsch"),
     ("UPI Odd News", "https://rss.upi.com/news/odd_news.rss", "Englisch"),
 ]
