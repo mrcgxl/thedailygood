@@ -12,6 +12,7 @@ import argparse
 import calendar
 import datetime as dt
 import html
+import io
 import json
 import os
 import re
@@ -32,8 +33,7 @@ import feedparser  # noqa: E402
 import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
-    CROSSWORD_SCHEMA, CROSSWORD_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM,
-    STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
+    IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
 from sources import FEEDS  # noqa: E402
 
@@ -363,39 +363,6 @@ def remember_joke(joke):
     JOKES.write_text(json.dumps(history + [joke["setup"]], ensure_ascii=False, indent=1))
 
 
-# MARK: Rätsel
-
-LETTERS = set("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ")
-
-
-def texts_of(story):
-    parts = [story["headline"], story["teaser"], story["whyGood"]]
-    for block in story["blocks"]:
-        for key in ("caption", "text", "title", "place"):
-            if isinstance(block.get(key), str):
-                parts.append(block[key])
-        for entry in block.get("items") or []:
-            parts.append(entry if isinstance(entry, str) else entry.get("text", ""))
-    return " ".join(parts)
-
-
-def crossword(client, stories):
-    """Antwortwörter und Fragen aus den Nachrichten des Tages. Das Gitter baut die App."""
-    lines = [f"[{s['id']}] {s['ressort']}: {texts_of(s)[:700]}" for s in stories]
-    user = "Die Nachrichten von heute:\n\n" + "\n\n".join(lines)
-    result = ask(client, CROSSWORD_SYSTEM, user, CROSSWORD_SCHEMA, max_tokens=8000)
-    ids = {s["id"] for s in stories}
-    entries, seen = [], set()
-    for entry in result["entries"]:
-        answer = "".join(ch for ch in entry["answer"].upper() if ch in LETTERS)
-        clue = no_dashes(entry["clue"]).strip()
-        if not 3 <= len(answer) <= 10 or answer in seen or answer.lower() in clue.lower():
-            continue
-        seen.add(answer)
-        entries.append({"answer": answer, "clue": clue, "storyID": entry["storyID"] if entry["storyID"] in ids else None})
-    return entries
-
-
 # MARK: Fotos von Wikimedia Commons
 
 COMMONS = "https://commons.wikimedia.org/w/api.php"
@@ -468,38 +435,78 @@ def attach_images(client, stories):
 PEPPER = "https://www.peppercarrot.com/0_sources"
 
 
+def fetch_bytes(url):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return response.read()
+
+
+def jpeg_size(data):
+    """Breite und Höhe aus dem JPEG-Kopf, ohne Zusatzpaket."""
+    i = 2
+    while i + 9 < len(data):
+        if data[i] != 0xFF or data[i + 1] == 0xFF:
+            i += 1
+            continue
+        if data[i + 1] in (0xC0, 0xC1, 0xC2):
+            return int.from_bytes(data[i + 7:i + 9], "big"), int.from_bytes(data[i + 5:i + 7], "big")
+        i += 2 + int.from_bytes(data[i + 2:i + 4], "big")
+    return None
+
+
+def store_page(url, target):
+    """Lädt eine Comicseite einmal herunter und legt sie bei GitHub Pages ab. Gibt Breite und Höhe zurück."""
+    if not target.exists():
+        data = fetch_bytes(url)
+        try:  # Etwas stärker komprimieren, falls Pillow da ist. Die Seiten bleiben 1200 Pixel breit.
+            from PIL import Image
+            buffer = io.BytesIO()
+            Image.open(io.BytesIO(data)).convert("RGB").save(buffer, "JPEG", quality=80, optimize=True, progressive=True)
+            if buffer.tell() < len(data):
+                data = buffer.getvalue()
+        except ImportError:
+            pass
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
+    return jpeg_size(target.read_bytes())
+
+
 def comic_of_the_day(today):
-    """Jeden Tag die nächste Seite, wie ein Fortsetzungscomic in der Zeitung."""
+    """Jeden Tag eine ganze Folge. Jede Folge wird nur einmal gespeichert und danach wiederverwendet."""
     state_file = STATE / "comic.json"
-    state = json.loads(state_file.read_text()) if state_file.exists() else {"next": [0, 1]}
+    state = json.loads(state_file.read_text()) if state_file.exists() else {}
     episodes = [e for e in fetch_json(PEPPER + "/episodes.json") if "de" in e["translated_languages"]]
-    last = state.get("last")
-    if last and last.get("date") == today.isoformat():
-        index, page = last["episode"], last["page"]  # Zweiter Lauf am selben Tag: dieselbe Seite
+    last = state.get("last") or {}
+    if last.get("date") == today.isoformat():
+        index = last["episode"]  # Zweiter Lauf am selben Tag: dieselbe Folge
     else:
-        index, page = state["next"]
+        index = state.get("next", 0)
+        if isinstance(index, list):  # Erste Version merkte sich [Folge, Seite]
+            index = index[0]
     if index >= len(episodes):
-        index, page = 0, 1  # Alle Folgen durch: von vorn
+        index = 0  # Alle Folgen durch: von vorn
     episode = episodes[index]
     number = int(episode["name"][2:4])
-    pages = episode["total_pages"] - 1  # P00 ist das Titelbild
-    image_url = f"{PEPPER}/{episode['name']}/low-res/de_Pepper-and-Carrot_by-David-Revoy_E{number:02d}P{page:02d}.jpg"
-    target = OUT / "comics" / f"{today.isoformat()}.jpg"
-    target.parent.mkdir(parents=True, exist_ok=True)
-    request = urllib.request.Request(image_url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        target.write_bytes(response.read())
-    for old in sorted((OUT / "comics").glob("*.jpg"))[:-30]:  # Nur einen Monat aufheben
+    source = f"{PEPPER}/{episode['name']}/low-res/de_Pepper-and-Carrot_by-David-Revoy_E{number:02d}P"
+    pages = []
+    for page in range(episode["total_pages"]):  # P00 ist das Titelbanner, danach die Seiten
+        size = store_page(f"{source}{page:02d}.jpg", OUT / "comics" / episode["name"] / f"p{page:02d}.jpg")
+        entry = {"url": f"{PAGES_URL}/comics/{episode['name']}/p{page:02d}.jpg"}
+        if size:
+            entry["width"], entry["height"] = size
+        pages.append(entry)
+    for old in (OUT / "comics").glob("*.jpg"):  # Einzelseiten aus der ersten Version
         old.unlink()
-    following = (index, page + 1) if page < pages else (index + 1, 1)
     STATE.mkdir(exist_ok=True)
     state_file.write_text(json.dumps({
-        "next": list(following),
-        "last": {"date": today.isoformat(), "episode": index, "page": page},
+        "next": index + 1,
+        "last": {"date": today.isoformat(), "episode": index},
     }, indent=1))
     return {
-        "title": f"Pepper&Carrot · Folge {number} · Seite {page} von {pages}",
-        "image": f"{PAGES_URL}/comics/{today.isoformat()}.jpg",
+        "title": f"Pepper&Carrot · Folge {number}",
+        "image": pages[1]["url"],  # Für ältere App-Versionen, die nur eine Seite kennen
+        "banner": pages[0],
+        "pages": pages[1:],
         "credit": "David Revoy, peppercarrot.com, CC BY 4.0",
         "link": "https://www.peppercarrot.com/de/",
     }
@@ -571,15 +578,6 @@ def main():
         print(f"   Flachwitz übersprungen ({joke})")
         joke = None
 
-    puzzles = None
-    try:
-        entries = crossword(client, stories)
-        if len(entries) >= 6:
-            puzzles = {"crossword": {"entries": entries}}
-            print(f"   Kreuzworträtsel mit {len(entries)} Wörtern")
-    except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
-        print(f"   Kreuzworträtsel übersprungen ({error})")
-
     try:
         print(f"   Fotos gefunden: {attach_images(client, stories)} von {len(stories)}")
     except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
@@ -588,7 +586,7 @@ def main():
     comic = None
     try:
         comic = comic_of_the_day(today)
-        print(f"   Comic: {comic['title']}")
+        print(f"   Comic: {comic['title']} mit {len(comic['pages'])} Seiten")
     except Exception as error:  # Ohne Comic erscheint die Ausgabe trotzdem
         print(f"   Comic übersprungen ({error})")
 
@@ -599,7 +597,6 @@ def main():
         "leadStoryID": stories[0]["id"],
         "stories": stories,
         "joke": joke,
-        "puzzles": puzzles,
         "comic": comic,
     }
     (OUT / "editions").mkdir(parents=True, exist_ok=True)

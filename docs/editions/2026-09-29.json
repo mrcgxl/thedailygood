@@ -522,75 +522,31 @@
     "setup": "Was macht ein Clown im Büro?",
     "punchline": "Faxen."
   },
-  "puzzles": {
-    "crossword": {
-      "entries": [
-        {
-          "answer": "HIRSCH",
-          "clue": "Tier, das früher täglich auf der I-25 angefahren wurde",
-          "storyID": "2026-09-29-01"
-        },
-        {
-          "answer": "TOLLWUT",
-          "clue": "Krankheit, die Bhutan besiegt hat",
-          "storyID": "2026-09-29-02"
-        },
-        {
-          "answer": "HATTUSA",
-          "clue": "Hethiterhauptstadt, Fundort der Tontafel",
-          "storyID": "2026-09-29-03"
-        },
-        {
-          "answer": "PALAST",
-          "clue": "2800 Jahre alter Bau in Äthiopien, evtl. Hochhaus",
-          "storyID": "2026-09-29-04"
-        },
-        {
-          "answer": "LANGUR",
-          "clue": "Seltener Affe in Vietnams Ninh Binh",
-          "storyID": "2026-09-29-05"
-        },
-        {
-          "answer": "DIESEL",
-          "clue": "Treibstoff, den E-Lkw bei den Kosten schlagen",
-          "storyID": "2026-09-29-06"
-        },
-        {
-          "answer": "REGAL",
-          "clue": "Acht Meter breites Möbel in Es Devlins Skulptur",
-          "storyID": "2026-09-29-07"
-        },
-        {
-          "answer": "MADRID",
-          "clue": "Stadt, in der die 87-Jährige zurückdarf",
-          "storyID": "2026-09-29-08"
-        },
-        {
-          "answer": "ALBUM",
-          "clue": "Stevie Wonder spielt es ab 13. Oktober komplett live",
-          "storyID": "2026-09-29-09"
-        },
-        {
-          "answer": "MAUER",
-          "clue": "Gallischer Fund unter dem Hôtel-Dieu in Paris",
-          "storyID": "2026-09-29-10"
-        },
-        {
-          "answer": "SOL",
-          "clue": "Name eines Marstags",
-          "storyID": "2026-09-29-11"
-        },
-        {
-          "answer": "ORCHESTER",
-          "clue": "Klangkörper beim Hades-Konzert",
-          "storyID": "2026-09-29-12"
-        }
-      ]
-    }
-  },
   "comic": {
-    "title": "Pepper&Carrot · Folge 1 · Seite 1 von 3",
-    "image": "https://mrcgxl.github.io/thedailygood/comics/2026-09-29.jpg",
+    "title": "Pepper&Carrot · Folge 1",
+    "image": "https://mrcgxl.github.io/thedailygood/comics/ep01_Potion-of-Flight/p01.jpg",
+    "banner": {
+      "url": "https://mrcgxl.github.io/thedailygood/comics/ep01_Potion-of-Flight/p00.jpg",
+      "width": 1200,
+      "height": 287
+    },
+    "pages": [
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/ep01_Potion-of-Flight/p01.jpg",
+        "width": 1200,
+        "height": 1660
+      },
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/ep01_Potion-of-Flight/p02.jpg",
+        "width": 1200,
+        "height": 1660
+      },
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/ep01_Potion-of-Flight/p03.jpg",
+        "width": 1200,
+        "height": 1660
+      }
+    ],
     "credit": "David Revoy, peppercarrot.com, CC BY 4.0",
     "link": "https://www.peppercarrot.com/de/"
   }
