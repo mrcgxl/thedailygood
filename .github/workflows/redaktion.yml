@@ -2,8 +2,14 @@
 name: Tagesausgabe
 
 on:
+  # GitHub verschiebt oder verwirft geplante Läufe bei hoher Last. Deshalb mehrere Termine:
+  # Der erste erfolgreiche Lauf schreibt die Ausgabe, die späteren beenden sich sofort (--skip-if-exists).
+  # Zeiten in UTC: 4:30, 5:15, 6:00 und 6:45 Uhr Sommerzeit (im Winter eine Stunde früher)
   schedule:
-    - cron: "30 2 * * *"  # 4:30 Uhr Sommerzeit, 3:30 Uhr Winterzeit. Batches brauchen Zeit
+    - cron: "30 2 * * *"
+    - cron: "15 3 * * *"
+    - cron: "0 4 * * *"
+    - cron: "45 4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,6 +25,8 @@ jobs:
     timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # neuester Stand, damit ein wartender Lauf die gerade geschriebene Ausgabe sieht
 
       - uses: actions/setup-python@v5
         with:
