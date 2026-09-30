@@ -35,8 +35,8 @@ import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
     BRIEF_SCHEMA, BRIEF_SYSTEM, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
-    JOKE_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM,
-    WRITER_SYSTEM,
+    JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA,
+    TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
 from sources import FEEDS, RECOMMENDATIONS  # noqa: E402
 
@@ -560,6 +560,39 @@ def finish_recommendation(result, kind, label, items, today):
     return None
 
 
+# MARK: Nachrichten-Quiz
+
+def story_text(story):
+    """Alles Lesbare einer Geschichte als ein Text, für das Quiz."""
+    parts = [story["headline"], story["teaser"]]
+    for block in story.get("blocks", []):
+        for key in ("caption", "text", "title", "place"):
+            if isinstance(block.get(key), str):
+                parts.append(block[key])
+        if block.get("type") == "bigNumber":
+            parts.append(f"{block.get('value')} {block.get('unit') or ''}")
+        for entry in block.get("items") or []:
+            parts.append(entry if isinstance(entry, str) else entry.get("text", ""))
+    return " ".join(part for part in parts if part)
+
+
+def make_quiz(client, stories):
+    """Drei Fragen mit je vier Antworten zu den ausführlichen Geschichten."""
+    full = [s for s in stories if not s.get("brief")]
+    if len(full) < 3:
+        return None
+    lines = [f"[{s['id']}] {story_text(s)[:900]}" for s in full]
+    result = ask(client, QUIZ_SYSTEM, "Die Geschichten von heute:\n\n" + "\n\n".join(lines), QUIZ_SCHEMA,
+                 max_tokens=4000, effort="low")
+    ids = {s["id"] for s in full}
+    questions = []
+    for q in no_dashes(result["questions"]):
+        options = [o.strip() for o in q["options"] if o.strip()]
+        if q["storyID"] in ids and len(options) == 4 and 0 <= q["answer"] < 4 and len(set(options)) == 4:
+            questions.append({"storyID": q["storyID"], "question": q["question"], "options": options, "answer": q["answer"]})
+    return {"questions": questions[:3]} if len(questions) >= 2 else None
+
+
 # MARK: Wochenrückblick
 
 def weekly_review(today, stories):
@@ -867,6 +900,13 @@ def main():
             print(f"   Empfehlung: {recommendation['label']}, {recommendation['title']}" if recommendation else "   Heute keine belegte Empfehlung")
         except Exception as error:
             print(f"   Empfehlung übersprungen ({error})")
+    quiz = None
+    try:
+        quiz = make_quiz(client, stories)
+        print(f"   Quiz mit {len(quiz['questions'])} Fragen" if quiz else "   Kein Quiz heute")
+    except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
+        print(f"   Quiz übersprungen ({error})")
+
     weekly = weekly_review(today, stories)
     if weekly:
         print(f"   Wochenrückblick mit {len(weekly['stories'])} Geschichten")
@@ -888,6 +928,7 @@ def main():
         "comic": comic,
         "recommendation": recommendation,
         "weekly": weekly,
+        "quiz": quiz,
     }
     (OUT / "editions").mkdir(parents=True, exist_ok=True)
     payload = json.dumps(edition, ensure_ascii=False, indent=2)

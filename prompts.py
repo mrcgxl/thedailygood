@@ -112,6 +112,14 @@ Du bekommst Meldungen und Kritiken aus den letzten zwei Wochen.
 - forWhom: ein kurzer Satz, zum Beispiel „Für alle, die gern …“.
 - Verwende niemals Gedankenstriche."""
 
+QUIZ_SYSTEM = """Du erstellst das Nachrichten-Quiz für „The Daily Good“. Du bekommst die Geschichten der heutigen Ausgabe.
+- Stelle genau drei Fragen zu drei verschiedenen Geschichten, jeweils mit vier Antworten, von denen genau eine stimmt.
+- Frag nach etwas, das klar in der Geschichte steht, zum Beispiel ein Ort, eine Zahl, ein Tier oder eine Erfindung. Keine Fangfragen.
+- Die falschen Antworten sind plausibel, aber eindeutig falsch.
+- Frage höchstens 90 Zeichen, jede Antwort höchstens 40 Zeichen.
+- storyID ist die ID der Geschichte, answer die Nummer der richtigen Antwort von 0 bis 3. Die richtige Antwort steht nicht immer an derselben Stelle.
+- Verwende niemals Gedankenstriche."""
+
 JOKE_SYSTEM = """Du wählst den „Flachwitz des Tages“ für eine deutsche Zeitung mit guten Nachrichten.
 
 - Nimm einen bekannten, bewährten deutschen Flachwitz, dessen Wortspiel sicher zündet. Erfinde keinen neuen.
@@ -193,6 +201,15 @@ BRIEF_SCHEMA = obj({
 })
 
 JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
+
+QUIZ_SCHEMA = obj({
+    "questions": {"type": "array", "items": obj({
+        "storyID": STRING,
+        "question": STRING,
+        "options": {"type": "array", "items": STRING},
+        "answer": {"type": "integer"},
+    })},
+})
 
 RECOMMENDATION_SCHEMA = obj({
     "picks": {"type": "array", "items": obj({
