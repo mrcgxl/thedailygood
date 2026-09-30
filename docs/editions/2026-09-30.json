@@ -8,32 +8,32 @@
       "id": "2026-09-30-01",
       "ressort": "natur",
       "kicker": "Neuseeland",
-      "headline": "Kiwis leben nach 150 Jahren wieder in den Hügeln um Wellington",
-      "teaser": "Mehr als 250 Kiwis wurden in die Hügel um Neuseelands Hauptstadt gebracht. Möglich machten das Māori-Stämme, Anwohner und Landbesitzer.",
+      "headline": "Kiwis leben nach 150 Jahren wieder in den Hügeln von Wellington",
+      "teaser": "Mehr als 250 Kiwis wurden rund um Wellington angesiedelt. Stämme der Māori, Anwohner und Landbesitzer haben das gemeinsam möglich gemacht.",
       "blocks": [
         {
-          "type": "steps",
-          "title": "So kamen die Kiwis zurück",
+          "type": "bigNumber",
+          "value": "250",
+          "unit": "Kiwis",
+          "caption": "wurden zurück in die Hügel rund um Wellington gebracht. Dort gab es seit etwa 150 Jahren keine mehr."
+        },
+        {
+          "type": "facts",
+          "title": null,
           "items": [
-            "Mit mehr als 5.300 Fallen wurden Hermeline auf rund 24.000 Hektar entfernt. Sie sind für junge Kiwis gefährlich.",
-            "Māori-Stämme, die Iwi, schenken dem Projekt die Vögel in einem traditionellen Verfahren, der Tono.",
-            "Bei einer Willkommenszeremonie, dem Pōwhiri, gehen die Kiwis in die Obhut der Gemeinschaft vor Ort über."
+            "Über 5.300 Fallen schützen die Küken vor Hermelinen",
+            "Das Gebiet ist etwa 24.000 Hektar groß",
+            "Über 90 % der neuen Küken erreichen ein Kampfgewicht von 1 kg"
           ]
         },
         {
-          "type": "bigNumber",
-          "value": "300",
-          "unit": "Kiwis",
-          "caption": "und mehr leben nach Schätzung des Projektleiters heute in den Hügeln um Wellington, geschlüpfte Küken eingerechnet."
-        },
-        {
           "type": "quote",
-          "text": "Wenn du den Vogel nimmst, ihn freilässt und in eine Höhle setzt, gibst du dem Land etwas zurück.",
-          "author": "Rāwiri Walsh, Kiwi-Hüter und Verbindungsperson zu den Iwi beim Capital Kiwi Project"
+          "text": "Das ist ein Projekt über Beziehungen, genauso wie es ein Naturschutzprojekt ist.",
+          "author": "Paul Ward, Gründer und Leiter des Capital Kiwi Project"
         }
       ],
-      "whyGood": "Neuseelands Nationalvogel ist in die Nähe der Hauptstadt zurückgekehrt, und mehr als 90 Prozent der dort geschlüpften Küken haben ein sicheres Gewicht erreicht. Das Modell aus Stämmen, Anwohnern und Landbesitzern könnte auch anderen Arten helfen.",
-      "honestNote": "Das Projekt ist nicht abgeschlossen. Die Gemeinschaften müssen die Vögel auch künftig schützen.",
+      "whyGood": "Ein fast verschwundener Vogel ist zurück, und viele Menschen sehen ihn zum ersten Mal. Das Modell kann auch anderen Arten helfen, in ihre Heimat zurückzukehren.",
+      "honestNote": "Das Projekt ist noch nicht am Ende. Die Gemeinden müssen sich dauerhaft um die Vögel kümmern.",
       "sources": [
         {
           "name": "Mongabay",
@@ -41,19 +41,19 @@
           "language": "Englisch"
         }
       ],
-      "score": 8,
+      "score": 9,
       "image": null
     },
     {
       "id": "2026-09-30-02",
       "ressort": "welt",
-      "kicker": "Phoenix, Arizona",
-      "headline": "Zwölfjährige sammelt 30.000 Windeln für Tafel in Phoenix",
-      "teaser": "Seit sie sieben ist, organisiert Sloan jedes Jahr eine Windelsammlung. Dieses Jahr brachte ein ganzer Umzugswagen die Spenden zur Tafel.",
+      "kicker": "Phoenix",
+      "headline": "12-Jährige sammelt 30.000 Windeln für Essensausgabe in Phoenix",
+      "teaser": "Sloan organisiert seit fünf Jahren eine Windelsammlung. Dieses Jahr kamen so viele Spenden zusammen, dass ein ganzer Umzugswagen nötig war.",
       "blocks": [
         {
           "type": "comparison",
-          "title": "Mehr als geplant",
+          "title": "Windeln bei der Spendenaktion",
           "before": {
             "label": "Ziel",
             "value": 22500,
@@ -68,15 +68,15 @@
         {
           "type": "background",
           "title": "Wie alles begann",
-          "text": "Nourish Phoenix ist eine Tafel und Kleiderkammer. Sloan half dort früher ehrenamtlich beim Packen von Lebensmittelpaketen. Dabei sah sie ein leeres Regal. Man erklärte ihr, dass dort die Windeln stehen. Sie gehören zu den gefragtesten Dingen und waren schon vergriffen."
+          "text": "Mit sieben Jahren half Sloan bei Nourish Phoenix, Essenspakete zu packen. Ein Regalfach war leer. Man sagte ihr, dort lägen sonst die Windeln. Sie gehörten zu den am meisten gefragten Dingen und waren schon aufgebraucht."
         },
         {
           "type": "quote",
-          "text": "Wenn wir jemandem etwas geben können, das ihm fehlt oder das er braucht, ist es wirklich wichtig, das zu tun.",
-          "author": "Sloan, 12 Jahre, Organisatorin der Windelsammlung"
+          "text": "Wenn wir jemandem etwas geben können, das er vielleicht nicht hat oder braucht, ist es wirklich wichtig, das zu tun.",
+          "author": "Sloan, 12, Organisatorin der Windelsammlung"
         }
       ],
-      "whyGood": "Ein Kind hat eine echte Lücke entdeckt und schließt sie seit fünf Jahren mit großer Ausdauer. Viele Familien in Phoenix bekommen so etwas, das sie dringend brauchen.",
+      "whyGood": "Ein Kind sieht eine Lücke im Regal und füllt sie, Jahr für Jahr. Familien in Phoenix bekommen dadurch etwas, das oft fehlt.",
       "honestNote": null,
       "sources": [
         {
@@ -85,197 +85,190 @@
           "language": "Englisch"
         }
       ],
-      "score": 7,
+      "score": 8,
       "image": null
     },
     {
       "id": "2026-09-30-03",
-      "ressort": "wissenschaft",
-      "kicker": "Paris",
-      "headline": "Gallische Mauer zeigt wohl, wo Paris einst begann",
-      "teaser": "Unter dem ältesten Krankenhaus von Paris fanden Archäologen eine gallische Mauer. Sie stammt wohl aus Lutetia, dem Ursprung der Stadt.",
+      "ressort": "gesundheit",
+      "kicker": "Osaka",
+      "headline": "Erste Herz-OP mit Zellschichten aus iPS-Stammzellen in Japan",
+      "teaser": "In Japan wurden einer Patientin erstmals im Labor hergestellte Herzmuskel-Zellschichten aufs Herz gelegt. Die Therapie soll Menschen helfen, denen sonst nichts mehr hilft.",
       "blocks": [
-        {
-          "type": "background",
-          "title": "Das alte Rätsel um Lutetia",
-          "text": "Julius Caesar schrieb, der keltische Stamm der Parisii habe eine Siedlung namens Lutetia auf einer Insel in der Seine gebaut. Im Jahr 52 v. Chr. belagerte er sie. Wo genau sie lag, verriet er nicht. Viele vermuteten die Île de la Cité, doch Funde an anderen Orten machten die Frage schwierig."
-        },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Im Februar 2026 gruben Archäologen in den Höfen des Hôtel-Dieu.",
-            "Hinter der Mauer liegt eine rund 2 Meter dicke Plattform aus Sand und Kies.",
-            "Holzbalken stammen laut Datierung aus der Zeit von 200 bis 10 v. Chr."
+            "Die Zellschichten wurden im Labor aus iPS-Zellen hergestellt",
+            "Die Operation im Keisatsu-Krankenhaus in Osaka dauerte eine Stunde",
+            "Die Regierung hatte die Therapie im März zugelassen"
           ]
         },
         {
-          "type": "quote",
-          "text": "Seit Jahrhunderten wird über den Ort von Lutetia gestritten. Heute halten wir mit dieser Mauer vielleicht den Schlüssel zu dem Rätsel.",
-          "author": "Stéphane Deschamps, Regionaler Archäologiedienst"
+          "type": "bigNumber",
+          "value": "75",
+          "unit": "Patienten",
+          "caption": "sollen bis 2033 im Team von Yoshiki Sawa ähnlich behandelt werden."
+        },
+        {
+          "type": "background",
+          "title": "Was sind iPS-Zellen?",
+          "text": "iPS-Zellen sind Stammzellen, die sich in nahezu jeden Zelltyp des Körpers verwandeln können. Der Japaner Shinya Yamanaka erhielt 2012 den Nobelpreis für seine Forschung dazu."
         }
       ],
-      "whyGood": "Ein uraltes Rätsel über die Anfänge einer der bekanntesten Städte der Welt könnte gelöst sein. Die Menschen in Paris bekommen so ein greifbares Stück ihrer frühesten Geschichte zurück.",
-      "honestNote": "Die Forschenden sprechen noch von einer gut begründeten Vermutung. Die Mauer kann nicht vor Ort bleiben, ein Abguss soll aber später im Museum zu sehen sein.",
+      "whyGood": "Für Menschen mit schwerer Herzschwäche, bei denen bisherige Behandlungen nicht mehr helfen, entsteht eine neue Möglichkeit. Ein Forschungsweg, der Jahre gedauert hat, erreicht nun die Patientin am Krankenbett.",
+      "honestNote": "Die Therapie wird zunächst in einer Studie erprobt. Eine endgültige Zulassung gibt es noch nicht.",
       "sources": [
         {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/this-stone-wall-seems-to-have-finally-settled-debate-about-the-town-that-became-paris/",
-          "language": "Englisch"
+          "name": "Ärzteblatt",
+          "url": "https://www.aerzteblatt.de/news/japanisches-krankenhaus-nimmt-weltweit-erste-herz-op-mit-stammzellen-vor-6ee755c7-d271-4067-b8a9-cc23a642600f",
+          "language": "Deutsch"
         }
       ],
-      "score": 7,
+      "score": 8,
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/H%C3%B4tel-Dieu_de_Paris_from_Notre-Dame_de_Paris%2C_April_2011_001.jpg/1280px-H%C3%B4tel-Dieu_de_Paris_from_Notre-Dame_de_Paris%2C_April_2011_001.jpg",
-        "credit": "Cristian Bortes from Cluj-Napoca, …, CC BY 2.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel-Dieu_de_Paris_from_Notre-Dame_de_Paris,_April_2011_001.jpg"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Human_heart_model.jpg/1280px-Human_heart_model.jpg",
+        "credit": "Alaa Najjar, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Human_heart_model.jpg"
       }
     },
     {
       "id": "2026-09-30-04",
-      "ressort": "zukunft",
-      "kicker": "Energieforschung",
-      "headline": "Papiertapete gewinnt Strom aus der Luftfeuchtigkeit im Raum",
-      "teaser": "Eine neue Tapete aus Papier erzeugt aus feuchter Raumluft kleine Mengen Strom. Ein Testfeld versorgte bereits eine kabellose Tastatur.",
+      "ressort": "kurioses",
+      "kicker": "Alaska",
+      "headline": "Bär „Backpack“ gewinnt die Fat Bear Week",
+      "teaser": "Der Braunbär Backpack hat den Online-Wettbewerb des Katmai-Nationalparks knapp gewonnen. Jetzt beginnt für ihn der Winterschlaf.",
       "blocks": [
         {
-          "type": "steps",
-          "title": "So funktioniert die Tapete",
+          "type": "facts",
+          "title": null,
           "items": [
-            "Am Rand jeder Einheit zieht Glycerin Wasserdampf aus der Luft an.",
-            "Weiter innen bindet der Stoff PVP das Wasser und leitet es zur Mitte.",
-            "In der Mitte lässt eine Wachsschicht nur Dampf entweichen. So bleibt ein Feuchtegefälle, und es entsteht Spannung."
+            "Backpack siegte im Finale mit 103.344 zu 98.253 Stimmen.",
+            "Sein Gegner im Finale war Bär 910.",
+            "Den Online-Wettbewerb veranstaltet der Katmai-Nationalpark in Alaska."
           ]
         },
         {
-          "type": "comparison",
-          "title": "Luftfeuchte im großen Versuch",
-          "before": {
-            "label": "Vorher",
-            "value": 38,
-            "display": "38 %"
-          },
-          "after": {
-            "label": "Nachher",
-            "value": 32,
-            "display": "32 %"
-          }
+          "type": "quote",
+          "text": "Ein Kampf um Größe, Geschick, Snacks und strategisches Faulenzen.",
+          "author": "US-Nationalparkverwaltung (National Park Service)"
         },
         {
-          "type": "quote",
-          "text": "Wir könnten die Feuchtigkeit reduzieren oder kontrollieren und zugleich Strom erzeugen.",
-          "author": "Prof. Seokheun Choi, Forscher"
+          "type": "background",
+          "title": "Winterschlaf",
+          "text": "Die Fat Bear Week ist ein jährlicher Online-Wettbewerb. Backpack geht nun bald in den Winterschlaf. Er kann bei Braunbären bis zu sechs Monate dauern."
         }
       ],
-      "whyGood": "Innenräume haben eine recht konstante Luftfeuchtigkeit, die bisher ungenutzt bleibt. Die Tapete könnte daraus Strom für Sensoren und sparsame Geräte gewinnen und nebenbei die Luft etwas trockener machen.",
-      "honestNote": "Bisher ein Prototyp aus Laborpapier mit sehr geringer Leistung. Wie lange das Material hält, ist noch offen. Steckdose oder Solaranlage ersetzt es nicht.",
+      "whyGood": "Tausende Menschen feiern gemeinsam einen gut genährten Bären. So wird Naturschutz zu einem fröhlichen Wettstreit, bei dem fast 200.000 Stimmen zusammenkommen.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/technik/tapete-gewinnt-strom-aus-luftfeuchtigkeit/",
-          "language": "Deutsch"
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/videos/cqkg07lp9dvlo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        },
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/09/30/fat-bear-week-katmai-national-park-backpack-winner/1461790779913/",
+          "language": "Englisch"
         }
       ],
       "score": 7,
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Wallpaper_20211113_123320.jpg/1280px-Wallpaper_20211113_123320.jpg",
-        "credit": "CaptJayRuffins, CC BY-SA 4.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Wallpaper_20211113_123320.jpg"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Brown_bear_Brooks_Falls_Katmai.jpg/1280px-Brown_bear_Brooks_Falls_Katmai.jpg",
+        "credit": "Aconcagua, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Brown_bear_Brooks_Falls_Katmai.jpg"
       }
     },
     {
       "id": "2026-09-30-05",
-      "ressort": "gaming",
-      "kicker": "Gaming",
-      "headline": "The Witcher 3 erreicht nach Remaster neuen Spielerrekord auf Steam",
-      "teaser": "Das elf Jahre alte Rollenspiel ist so beliebt wie nie. Nach dem kostenlosen Remaster spielen auf Steam mehr Menschen gleichzeitig als je zuvor.",
+      "ressort": "bildung",
+      "kicker": "London",
+      "headline": "Dolly Partons Bücherprogramm wächst auf zehn Londoner Bezirke",
+      "teaser": "Die Imagination Library verdoppelt ihr Angebot in London. Mehr Kinder unter fünf bekommen jeden Monat ein kostenloses Buch per Post.",
       "blocks": [
         {
+          "type": "bigNumber",
+          "value": "157.000",
+          "unit": "Kinder",
+          "caption": "können in London zusätzlich jeden Monat ein Buch bekommen."
+        },
+        {
           "type": "comparison",
-          "title": "Gleichzeitige Spieler auf Steam",
+          "title": "Londoner Bezirke im Programm",
           "before": {
-            "label": "Zum Start 2015",
-            "value": 92000,
-            "display": "92.000"
+            "label": "Bisher",
+            "value": 5,
+            "display": "5 von 32"
           },
           "after": {
-            "label": "Nach dem Remaster",
-            "value": 120000,
-            "display": "fast 120.000"
+            "label": "Jetzt",
+            "value": 10,
+            "display": "10 von 32"
           }
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Das Remaster ist für alle Besitzer des Spiels kostenlos.",
-            "Die Erweiterungen Hearts of Stone und Blood and Wine gibt es gratis dazu.",
-            "The Witcher 3 ist gerade das neuntmeistgespielte Spiel auf Steam."
+            "Seit 1995 gratis ein Buch pro Monat für jedes registrierte Kind unter fünf",
+            "Bisher wurden 330 Millionen Bücher verschickt, auch nach Kanada und Irland",
+            "Die Postcode Lottery zahlt die Bücher, die Dollywood Foundation organisiert"
           ]
-        },
-        {
-          "type": "background",
-          "title": "Frühere Rekorde",
-          "text": "Der bisherige Höchstwert lag bei 103.000 Spielern im Januar 2020. Damals war die Witcher-Serie von Netflix besonders beliebt. Insgesamt hat das Spiel von CD Projekt Red 65 Millionen Spieler. Nächstes Jahr soll die neue Erweiterung Songs of the Past erscheinen."
         }
       ],
-      "whyGood": "Ein Studio verschenkt ein großes Update an alle, die das Spiel schon besitzen. Und ein altes Spiel bringt wieder so viele Menschen zusammen wie nie zuvor.",
-      "honestNote": "Die Zahlen zeigen nur Steam, andere Plattformen und Konsolen sind nicht mitgezählt. Laut Eurogamer verändert das Remaster das Spiel weniger stark, als manche hoffen.",
+      "whyGood": "Kinder bekommen ein Buch mit ihrem Namen darauf, ohne Antrag und ohne Prüfung. Eltern berichten, dass ihre Kinder dadurch mehr Interesse am Lesen haben.",
+      "honestNote": "Noch erreicht das Programm nur zehn der 32 Londoner Bezirke.",
       "sources": [
         {
-          "name": "Eurogamer",
-          "url": "https://www.eurogamer.net/witcher-3-steam-most-played-record-remastered",
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/09/dolly-partons-imagination-library-doubles-its-london-reach-even-after-her-death/",
           "language": "Englisch"
-        },
-        {
-          "name": "heise online",
-          "url": "https://www.heise.de/news/Remaster-Release-Mehr-Spieler-denn-je-spielen-The-Witcher-3-11470479.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-          "language": "Deutsch"
         }
       ],
       "score": 7,
-      "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/The_Witcher_3_Wild_Hunt_-_Morvudd_fight.jpg/1280px-The_Witcher_3_Wild_Hunt_-_Morvudd_fight.jpg",
-        "credit": "BANDAI NAMCO Europe, CC BY 3.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Witcher_3_Wild_Hunt_-_Morvudd_fight.jpg"
-      }
+      "image": null
     },
     {
       "id": "2026-09-30-06",
-      "ressort": "architektur",
-      "kicker": "Nantes",
-      "headline": "Altes Stellwerk in Nantes wird zur Kiosk-Bar im neuen Park",
-      "teaser": "Ein Stellwerk aus den 1960er-Jahren hat eine neue Aufgabe. Studio Téré hat daraus eine rot-orange Kiosk-Bar im Park Jardins de l’Estuaire gemacht.",
+      "ressort": "wissenschaft",
+      "kicker": "Mars",
+      "headline": "Mars-Rover findet im Jezero-Krater drei Spuren von Wasser",
+      "teaser": "Der Rover Perseverance fand im Jezero-Krater Gestein, das dreimal mit Wasser in Berührung kam. Das zeigt eine Geschichte des Wassers, die vielschichtiger ist als gedacht.",
       "blocks": [
         {
-          "type": "background",
-          "title": "Vom Stellwerk zum Treffpunkt",
-          "text": "Das Stellwerk gehörte zum Bahnhof Nantes-État und steuerte einst die Züge bei der Einfahrt. Als die Gleise nach und nach verschwanden, blieb das kleine Gebäude stehen. Statt es abzureißen, wird es nun ein Ort zum Treffen, Ausruhen und für kleine Speisen."
+          "type": "bigNumber",
+          "value": "185",
+          "unit": "Gesteinsziele",
+          "caption": "hat Perseverance in der Randzone des Kraters mit dem Laser des Instruments SuperCam untersucht."
         },
         {
-          "type": "facts",
-          "title": null,
+          "type": "steps",
+          "title": "Drei Begegnungen mit Wasser",
           "items": [
-            "Drei Fassaden öffnen sich weit mit Faltfenstern und klappbaren Metallläden.",
-            "Die alte Uhr und die Bahnsignallichter sind erhalten geblieben.",
-            "Anwohner und künftige Nutzer haben das Programm mitentwickelt."
+            "Zuerst sickerte Grundwasser mit Kohlendioxid durch das Gestein und bildete Karbonat in Rissen.",
+            "Dann hatte vermutlich der alte See im Krater Einfluss. Unter der Wasserlinie blieb mehr Kieselsäure zurück.",
+            "Später floss erhitztes Wasser im Untergrund. Darauf deuten Adern mit Fluorit hin."
           ]
         },
         {
-          "type": "map",
-          "place": "Île de Nantes, Frankreich",
-          "latitude": 47.206,
-          "longitude": -1.565,
-          "caption": "Die Kiosk-Bar steht mitten im neuen Park Jardins de l’Estuaire. Nachts leuchtet ihr oberes Stockwerk wie ein Signal."
+          "type": "quote",
+          "text": "Mars überrascht einen ständig. Es ist sehr selten, dass die Dinge so sind, wie wir es aus Orbitdaten erwarten.",
+          "author": "Candice Bedford, Forscherin an der Purdue University und Hauptautorin der Studie"
         }
       ],
-      "whyGood": "Ein Stück Bahngeschichte bleibt erhalten und wird zu einem offenen Ort für alle. Der Name L’Aiguilleuse erinnert an die Stellwerker und bringt zugleich mehr weibliche Namen in den öffentlichen Raum.",
-      "honestNote": null,
+      "whyGood": "Eine Überraschung hat hier neues Wissen gebracht. Die Funde helfen zu verstehen, wie sich das Klima und die Lebensbedingungen auf dem frühen Mars verändert haben.",
+      "honestNote": "Wann genau das Wasser auf das Gestein traf, ist noch nicht bekannt. Spuren von Leben wurden nicht gefunden.",
       "sources": [
         {
-          "name": "designboom",
-          "url": "https://www.designboom.com/architecture/former-railway-signal-box-laiguilleuse-red-orange-kiosk-bar-nantes-studio-tere/",
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260928100537.htm",
           "language": "Englisch"
+        },
+        {
+          "name": "scinexx",
+          "url": "https://www.scinexx.de/news/kosmos/curiosity-feiert-5-000-tage-auf-dem-mars-mit-neuem-panorama/",
+          "language": "Deutsch"
         }
       ],
       "score": 7,
@@ -283,271 +276,192 @@
     },
     {
       "id": "2026-09-30-07",
-      "ressort": "gesundheit",
-      "kicker": "Bhutan",
-      "headline": "WHO bestätigt: Bhutan hat die Tollwut durch Hunde besiegt",
-      "teaser": "Die Weltgesundheitsorganisation zeichnet Bhutan aus. Das Land hat die von Hunden übertragene Tollwut als Gesundheitsproblem beseitigt.",
+      "ressort": "zukunft",
+      "kicker": "Moorforschung",
+      "headline": "Dämmplatten aus Moorpflanzen dämmen so gut wie Holzfaser",
+      "teaser": "Das Fraunhofer WKI macht aus Pflanzen wiedervernässter Moore Dämmplatten. Ihre Dämmwirkung liegt im Bereich von Holzfaserdämmstoffen.",
       "blocks": [
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Erstes Land der WHO-Region Südostasien, weltweit das zweite nach Mexiko",
-            "Seit Juni 2023 kein Todesfall mehr durch von Hunden übertragene Tollwut",
-            "Am 14. September erhielt auch Chile diese Anerkennung der WHO"
+            "Forschende des Fraunhofer WKI bauen Dämmplatten aus Moorpflanzen.",
+            "Die Wärmeleitfähigkeit liegt bei rund 0,040 W/(m·K).",
+            "Die Platten sind bis zu 100 x 50 x 4 cm groß und wiegen rund 100 kg/m³."
           ]
         },
         {
-          "type": "steps",
-          "title": "So hat Bhutan es geschafft",
-          "items": [
-            "2021 startet ein Erlass des Königs ein landesweites Programm von Gesundheits- und Landwirtschaftsministerium.",
-            "Teams, Tierärzte und Freiwillige sterilisieren alle frei lebenden Hunde und impfen über 90 % von ihnen. Die WHO empfiehlt 70 %.",
-            "Die Behandlung nach einem Biss oder Kratzer ist in allen 20 Bezirken kostenlos."
-          ]
+          "type": "background",
+          "title": "Was ist Paludikultur?",
+          "text": "Trockengelegte Moore setzen viel CO₂ frei. Wiedervernässung stoppt das. Bei der Paludikultur wachsen auf nassen Flächen Pflanzen, die man ernten und nutzen kann, etwa für Papier, Verpackungen oder jetzt für Dämmstoffe."
         },
         {
-          "type": "quote",
-          "text": "Bhutans Erfolg zeigt, dass die Gesundheit von Menschen, Tieren und unserer gemeinsamen Umwelt untrennbar verbunden ist.",
-          "author": "Tedros Adhanom Ghebreyesus, Generaldirektor der WHO"
+          "type": "bigNumber",
+          "value": "52,2",
+          "unit": "Mio. t CO₂-Äquivalente",
+          "caption": "verursachten deutsche Moorböden 2024 laut Umweltbundesamt, etwa 8 % der Emissionen Deutschlands."
         }
       ],
-      "whyGood": "Fast alle Tollwutfälle beim Menschen gehen auf Hunde zurück. Bhutan zeigt, dass man diese Gefahr mit Impfungen, Tierschutz und kostenloser Behandlung wirklich beenden kann.",
-      "honestNote": "Die Anerkennung ist kein Endpunkt. Laut Weltorganisation für Tiergesundheit muss Bhutan Impfungen, Überwachung und Finanzierung dauerhaft sichern.",
+      "whyGood": "Moore können nass bleiben und trotzdem genutzt werden. So schützen sie das Klima, und der Bau bekommt einen neuen nachwachsenden Rohstoff, der Holz entlasten könnte.",
+      "honestNote": "Brandverhalten, Feuchtestabilität, Festigkeit und Langzeitbeständigkeit sind noch nicht belegt. Auch Kosten und das Recycling des Bindemittels PLA sind offen.",
       "sources": [
         {
-          "name": "Mongabay",
-          "url": "https://news.mongabay.com/short-article/2026/09/bhutan-recognized-for-eliminating-dog-transmitted-rabies-ahead-of-world-rabies-day/",
-          "language": "Englisch"
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/technik/fachbereiche/bau/waermedaemmung-aus-dem-moor-wie-paludi-biomasse-holzfasern-konkurrenz-machen-koennte/",
+          "language": "Deutsch"
         }
       ],
       "score": 7,
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/A_beautiful_stray_dog_in_Thimphu..JPG/1280px-A_beautiful_stray_dog_in_Thimphu..JPG",
-        "credit": "gemeinfrei, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:A_beautiful_stray_dog_in_Thimphu..JPG"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Senden%2C_Venner_Moor_--_2016_--_5886.jpg/1280px-Senden%2C_Venner_Moor_--_2016_--_5886.jpg",
+        "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Senden,_Venner_Moor_--_2016_--_5886.jpg"
       }
     },
     {
       "id": "2026-09-30-08",
-      "ressort": "sport",
-      "kicker": "Basketball",
-      "headline": "New York Liberty schreiben als Nummer acht WNBA-Geschichte",
-      "teaser": "Als erster Achter der Setzliste hat New York den Ersten aus den Playoffs geworfen. Die Liberty gewannen die Serie gegen Minnesota mit 2 zu 0.",
+      "ressort": "autos",
+      "kicker": "Düsseldorf",
+      "headline": "VW zeigt Shuttle, das Rollstühle ohne Fahrer selbst sichert",
+      "teaser": "Ein Roboterarm soll Rollstühle im autonomen Shuttle festgurten. So könnten Menschen im Rollstuhl allein fahren, ohne Fahrer und ohne Begleitung.",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "So soll die Fahrt ablaufen",
+          "items": [
+            "Der Fahrgast bucht per App und gibt sein Ziel an. Das Shuttle fährt zum Abholpunkt.",
+            "Die Schiebetür öffnet sich, ein Lift fährt aus dem Boden aus. Der Fahrgast löst das Anheben per App aus.",
+            "Ein Roboterarm am Boden bringt Gurte am Rollstuhl an. Auch der Fahrgast wird angeschnallt."
+          ]
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Vorgestellt auf der Rehacare 2026 in Düsseldorf als 1:1-Funktionsmodell",
+            "Neben dem Rollstuhlplatz gibt es drei weitere Einzelsitze",
+            "Mögliche Ziele: Arztpraxen, Geschäfte, Kinos und Theater"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was ein Shuttle ohne Fahrer leisten muss",
+          "text": "Lenken und Bremsen reichen nicht. Sonst sichert oft der Fahrer oder eine Begleitperson den Rollstuhl. Im fahrerlosen Shuttle muss die Technik das selbst tun und prüfen, ob alles sitzt."
+        }
+      ],
+      "whyGood": "Menschen im Rollstuhl könnten künftig selbstständig zum Arzt, ins Kino oder zum Einkaufen fahren. Sie wären dafür nicht mehr auf Begleitung angewiesen.",
+      "honestNote": "Das System ist noch in Entwicklung. Zur Crashsicherheit, zu Ausfällen und zum Starttermin nennt VW bisher nichts.",
+      "sources": [
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/technik/fachbereiche/verkehr/roboterarm-statt-fahrer-so-will-vw-rollstuehle-im-autonomen-shuttle-sichern/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "image": null
+    },
+    {
+      "id": "2026-09-30-09",
+      "ressort": "architektur",
+      "kicker": "Hongkong",
+      "headline": "Snøhetta baut in Hongkong einen Clubhaus-Spielplatz für alle Alter",
+      "teaser": "Im Wohnprojekt Pavilia Farm in Tai Wai entsteht das „Sky House“. Es ist Spielplatz und Fitnesszentrum für Jung und Alt, mit Tunneln zum Durchkriechen.",
       "blocks": [
         {
           "type": "facts",
           "title": null,
           "items": [
-            "New York gewann das zweite Spiel gegen die Minnesota Lynx mit 87:71.",
-            "Jonquel Jones kam auf 21 Punkte und 13 Rebounds, Breanna Stewart ebenfalls auf 21.",
-            "17.593 Fans sahen das Spiel in der ausverkauften Halle."
+            "Das Sky House steht in Tai Wai in Hongkong.",
+            "Es ist das vierte und letzte von vier Clubhäusern in Pavilia Farm.",
+            "Das Studio Snøhetta plante es als Spielplatz und Fitnesszentrum."
           ]
-        },
-        {
-          "type": "quote",
-          "text": "Ich hatte das Gefühl, dass wir durch unsere Größe einen Vorteil hatten, und ich wollte früh etwas bewirken.",
-          "author": "Jonquel Jones, 1,98 Meter große Spielerin der New York Liberty"
         },
         {
           "type": "background",
-          "title": "Warum das neu ist",
-          "text": "Die WNBA hat ihr Playoff-Format oft geändert. In vielen Varianten konnten die Nummer acht und die Nummer eins gar nicht aufeinandertreffen. Seit 2022 spielen die besten acht Teams im Viertelfinale. Minnesota hatte die beste Bilanz der regulären Saison."
+          "title": "Spielen für alle",
+          "text": "Spielplätze richten sich meist an Kinder. Das Sky House soll dagegen Menschen jeden Alters zum Bewegen einladen. Dafür gibt es unter anderem Tunnel-Spielbereiche."
         }
       ],
-      "whyGood": "Die Liberty zeigen, dass auch ein Außenseiter den Favoriten schlagen kann. Ein Jahr nach dem frühen Aus gegen Phoenix hat sich das Team eindrucksvoll zurückgemeldet.",
-      "honestNote": null,
+      "whyGood": "Ein Ort zum Spielen und Bewegen, der Kinder, Eltern und Ältere zusammenbringt. So wird Bewegung im Alltag einer dichten Stadt leichter.",
+      "honestNote": "Es handelt sich um ein Clubhaus für die Bewohner eines privaten Wohnprojekts.",
       "sources": [
         {
-          "name": "Guardian Sport",
-          "url": "https://www.theguardian.com/sport/2026/sep/29/wnba-playoffs-no-8-liberty-spring-historic-upset-to-take-down-no-1-seed-lynx",
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/09/30/snohetta-sky-house-pavilia-farm-hong-kong/",
           "language": "Englisch"
-        },
-        {
-          "name": "Sportschau",
-          "url": "https://www.sportschau.de/basketball/fiebich-mit-new-york-liberty-im-halbfinale,wnba-fiebich-liberty-halbfinale-100.html",
-          "language": "Deutsch"
         }
       ],
       "score": 7,
-      "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/New_York_Liberty_vs._Dallas_Wings_August_2019_10_%28in-game_action%29.jpg/1280px-New_York_Liberty_vs._Dallas_Wings_August_2019_10_%28in-game_action%29.jpg",
-        "credit": "Michael Barera, CC BY-SA 4.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:New_York_Liberty_vs._Dallas_Wings_August_2019_10_(in-game_action).jpg"
-      }
-    },
-    {
-      "id": "2026-09-30-09",
-      "ressort": "bildung",
-      "kicker": "Deutscher Schulpreis",
-      "headline": "Gesamtschule aus Hessen gewinnt den Deutschen Schulpreis 2026",
-      "teaser": "Die Bertha-von-Suttner-Schule in Mörfelden-Walldorf bringt viele Kinder aus schwierigen Verhältnissen zu höheren Abschlüssen, als ihnen zugetraut wurde.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Mehr Abitur als erwartet",
-          "before": {
-            "label": "Fünftklässler mit Gymnasialempfehlung",
-            "value": 15,
-            "display": "15 %"
-          },
-          "after": {
-            "label": "Hochschulreife im Schuljahr 2025/26",
-            "value": 40,
-            "display": "40 %"
-          }
-        },
-        {
-          "type": "steps",
-          "title": "So funktioniert die Förderung „IFI“",
-          "items": [
-            "Die Klassenlehrkraft erkennt mit der Hausleitung einen konkreten Förderbedarf, etwa bei Bruchrechnung.",
-            "Einmal pro Woche arbeitet eine Lehrkraft in einer kleinen Gruppe daran, in der normalen Unterrichtszeit.",
-            "Nach sechs Wochen endet die Förderung zunächst. Die Fortschritte werden digital festgehalten."
-          ]
-        },
-        {
-          "type": "quote",
-          "text": "IFI soll nie als Strafe oder Nachsitzen empfunden werden, eher als ein Privileg.",
-          "author": "Ute Zeller, Schulleiterin der Bertha-von-Suttner-Schule"
-        }
-      ],
-      "whyGood": "Die Schule zeigt, dass die Herkunft nicht über den Bildungsweg entscheiden muss. Kinder bekommen früh gezielte Hilfe, ohne dass die Ansprüche sinken.",
-      "honestNote": "Die Zahlen stammen aus Medienberichten über eine einzelne Schule. Ob sich das Konzept auf andere Schulen übertragen lässt, ist offen.",
-      "sources": [
-        {
-          "name": "News4teachers",
-          "url": "https://www.news4teachers.de/2026/09/sind-gesamtschulen-doch-besser-deutscher-schulpreis-wie-die-sieger-schule-vormacht-benachteiligte-kinder-nach-oben-zu-bringen/",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 7,
-      "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/BerthaVonSuttnerSchule.jpg/1280px-BerthaVonSuttnerSchule.jpg",
-        "credit": "Frank Murmann, CC BY 3.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:BerthaVonSuttnerSchule.jpg"
-      }
+      "image": null
     },
     {
       "id": "2026-09-30-10",
       "ressort": "kultur",
-      "kicker": "Naturkunde",
-      "headline": "70 Millionen Museumsstücke aus Großbritannien kommen ins Netz",
-      "teaser": "Tiere, Pflanzen, Fossilien und Gesteine aus 100 britischen Sammlungen werden digitalisiert. Roboter und KI helfen dabei.",
+      "kicker": "England",
+      "headline": "Englands Nationalmuseen bleiben für alle kostenlos",
+      "teaser": "Die Regierung verzichtet auf Eintritt für Gäste aus dem Ausland. Die 15 nationalen Museen bleiben für alle offen.",
       "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "70",
-          "unit": "Millionen",
-          "caption": "Tiere, Pflanzen, Fossilien und Gesteine sollen bald für alle per Handy und Computer zu sehen sein."
-        },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Den Anfang machen Käfer, Schmetterlinge, Fliegen, gepresste Blumen und Farne.",
-            "In Cardiff werden rund eine halbe Million Insekten und Pflanzen gescannt.",
-            "Mit dabei ist ein Pferdezahn, den Charles Darwin um 1833 in Argentinien fand."
+            "Die Regierung führt keinen Eintritt für Gäste aus dem Ausland ein",
+            "Die 15 nationalen Museen sind seit 2001 frei zugänglich",
+            "Sie tragen mehr als 1 Mrd. Pfund pro Jahr zur Wirtschaft bei"
           ]
         },
         {
           "type": "quote",
-          "text": "Ich freue mich darauf, die Sammlung mit meinem vierjährigen Sohn zu erkunden. Sein Wissen ist klein, aber seine Begeisterung ist groß.",
-          "author": "Dr. Joanna Dunster, Associate Director beim Arts and Humanities Research Council"
+          "text": "Unsere Museen sind Orte, die die Welt zum Leuchten bringen. Deshalb müssen sie für alle für immer frei zugänglich sein.",
+          "author": "Lisa Nandy, Kulturministerin"
+        },
+        {
+          "type": "background",
+          "title": "Ein alter Gedanke",
+          "text": "Das British Museum wurde 1753 als erstes öffentliches Nationalmuseum der Welt gegründet. Schon damals sollte der Eintritt für alle Menschen frei sein. Dieser Grundsatz gilt bis heute."
         }
       ],
-      "whyGood": "Schätze, die bisher in Schubladen lagen, werden für alle zugänglich. Forschende können damit besser verstehen, wie sich die Natur verändert, und Zukünftiges vorhersagen.",
-      "honestNote": "Das Projekt steht noch am Anfang. Mit Robotern und KI soll die Digitalisierung etwa zehn Jahre dauern.",
+      "whyGood": "Kultur bleibt für alle erreichbar, egal woher sie kommen und was sie verdienen. Die Museen bleiben offen für Familien, Schulklassen und Gäste aus aller Welt.",
+      "honestNote": "Die Museen stehen weiter unter Gelddruck. Ein langfristiger Plan für ihre Finanzierung soll noch folgen.",
       "sources": [
         {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/cv5yjgrj4ello?at_medium=RSS&at_campaign=rss",
+          "name": "BBC Entertainment",
+          "url": "https://www.bbc.co.uk/news/articles/c68048k1d3ppo?at_medium=RSS&at_campaign=rss",
           "language": "Englisch"
         }
       ],
       "score": 7,
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Museo_de_Historia_Natural%2C_Londres%2C_Inglaterra%2C_2022-11-25%2C_DD_50-52_HDR.jpg/1280px-Museo_de_Historia_Natural%2C_Londres%2C_Inglaterra%2C_2022-11-25%2C_DD_50-52_HDR.jpg",
-        "credit": "Diego Delso, CC BY-SA 4.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Museo_de_Historia_Natural,_Londres,_Inglaterra,_2022-11-25,_DD_50-52_HDR.jpg"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Natural_History_Museum_Main_Hall%2C_London%2C_UK_-_Diliff.jpg/1280px-Natural_History_Museum_Main_Hall%2C_London%2C_UK_-_Diliff.jpg",
+        "credit": "Diliff, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_Main_Hall,_London,_UK_-_Diliff.jpg"
       }
     },
     {
       "id": "2026-09-30-11",
-      "ressort": "kurioses",
-      "kicker": "Speedcubing",
-      "headline": "Sechsjährige löst Zauberwürfel in Weltrekordzeit der Frauen",
-      "teaser": "Lian Yunzhi aus China ist sechs Jahre alt. Im Schnitt braucht sie 4,27 Sekunden für den Zauberwürfel. Das ist ein neuer Weltrekord der Frauen.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Vom Stillstand zum Rekord",
-          "before": {
-            "label": "Lange festgefahren",
-            "value": 8,
-            "display": "8 Sekunden"
-          },
-          "after": {
-            "label": "Neuer Rekordschnitt",
-            "value": 4.27,
-            "display": "4,27 Sekunden"
-          }
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Gewertet wurden je fünf Lösungen bei offiziellen Turnieren in Wuhan und Guangzhou.",
-            "Sie beherrscht mehr als 1.300 Lösungswege, sogenannte Algorithmen.",
-            "Sie übt an Werktagen zwei bis drei Stunden, begleitet von einem Lehrer in Shanghai."
-          ]
-        },
-        {
-          "type": "quote",
-          "text": "Es geht nicht darum, blind Formeln auswendig zu lernen. Man nutzt logisches Denken, um die besten Lösungen zu finden.",
-          "author": "Lin Yangxi, Mutter von Lian Yunzhi"
-        }
-      ],
-      "whyGood": "",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/lian-yunzhi-rubiks-cube-prodigy/?adt_ei={{ subscriber.email_address }}",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Rubik%27s_cube%2C_CN_II.jpg/1280px-Rubik%27s_cube%2C_CN_II.jpg",
-        "credit": "kaʁstn Disk / Cat, CC BY-SA 3.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Rubik%27s_cube,_CN_II.jpg"
-      }
-    },
-    {
-      "id": "2026-09-30-12",
       "ressort": "technik",
-      "kicker": "Barrierefreiheit",
+      "kicker": "Technik",
       "headline": "Smartphone und KI öffnen blinden Menschen neue Wege",
-      "teaser": "Mit Handy, KI und Social Media erschließen sich blinde und sehbehinderte Menschen die Welt wie nie zuvor.",
+      "teaser": "Mit Handy, KI und Social Media können blinde und sehbehinderte Menschen die Welt besser erschließen als je zuvor.",
       "blocks": [
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Das Smartphone kann für blinde Menschen Aufgaben des Sehens übernehmen.",
-            "Künstliche Intelligenz macht diese Hilfe möglich.",
-            "Auch Social Media hilft, sich die Welt zu erschließen."
+            "Smartphones helfen blinden und sehbehinderten Menschen im Alltag",
+            "Auch KI und Social Media erschließen ihnen die Welt",
+            "Ein Hilfsmittel wird in der Debatte kritisch gesehen"
           ]
         },
         {
           "type": "background",
-          "title": "Worum es geht",
-          "text": "Der SPIEGEL berichtet über digitale Helfer für blinde und sehbehinderte Menschen. Handy, KI und soziale Medien helfen ihnen, ihre Umgebung zu erfassen. Laut dem Bericht geht das heute so gut wie nie zuvor."
+          "title": "Das Smartphone als Helfer",
+          "text": "Ein Handy hat Kamera, Mikrofon und Sprachausgabe. So kann es Menschen mit Sehbehinderung unterstützen, sich zurechtzufinden und Informationen zu bekommen. KI macht diese Hilfe noch vielseitiger."
         }
       ],
-      "whyGood": "Alltägliche Technik gibt blinden und sehbehinderten Menschen mehr Selbstständigkeit. Viele Hilfen stecken schon in einem Gerät, das die meisten ohnehin besitzen.",
-      "honestNote": "Ein Hilfsmittel ist laut dem Bericht umstritten. Welches es ist und warum, geht aus der Zusammenfassung nicht hervor.",
+      "whyGood": "Technik, die viele ohnehin in der Tasche haben, schenkt blinden und sehbehinderten Menschen mehr Selbstständigkeit und Teilhabe.",
+      "honestNote": "Ein Hilfsmittel ist umstritten, und nicht jede Technik passt für jeden Menschen.",
       "sources": [
         {
           "name": "SPIEGEL Wissenschaft",
@@ -555,22 +469,67 @@
           "language": "Deutsch"
         }
       ],
+      "score": 7,
+      "image": null
+    },
+    {
+      "id": "2026-09-30-12",
+      "ressort": "design",
+      "kicker": "Paris",
+      "headline": "Anrealage zeigt Kleider, die per E-Ink die Farbe wechseln",
+      "teaser": "Der Designer Kunihiko Morinaga zeigt in Paris Kleider mit bis zu 2.000 E-Ink-Plättchen. Farben wandern darüber und die Mode druckt mit sehr wenig Wasser.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "2.000",
+          "unit": "E-Ink-Plättchen",
+          "caption": "können bei einem einzigen Kleid die Farbe wechseln. Jedes Plättchen lässt sich einzeln steuern."
+        },
+        {
+          "type": "comparison",
+          "title": "Wasser beim Stoffdruck",
+          "before": {
+            "label": "Druck mit Dämpfen und Waschen",
+            "value": 100,
+            "display": "viel Wasser"
+          },
+          "after": {
+            "label": "Kyocera FOREARTH",
+            "value": 2,
+            "display": "0,02 Liter pro Kilogramm Stoff"
+          }
+        },
+        {
+          "type": "background",
+          "title": "Was ist E-Ink?",
+          "text": "E-Ink ist elektronisches Papier. Es leuchtet nicht selbst wie eine LED. Stattdessen ändert das Papier seine Farbe. So sieht man es gut bei Licht und es braucht keine eigene Lichtquelle."
+        }
+      ],
+      "whyGood": "Mode und Technik finden hier neue, spielerische Wege. Der Druck mit nur 0,02 Litern Wasser pro Kilogramm Stoff zeigt, dass Kreativität und Ressourcenschonung zusammengehen können.",
+      "honestNote": "Die Kleider sind Laufsteg-Entwürfe. Ob es sie bald zu kaufen gibt, ist offen.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/technology/anrealage-dresses-eink-panels-color-changing-skin-kunihiko-morinaga/",
+          "language": "Englisch"
+        }
+      ],
       "score": 6,
       "image": null
     },
     {
       "id": "2026-09-30-k01",
-      "ressort": "design",
-      "kicker": "Verpackungsdesign",
-      "headline": "Sternekoch Daniel Humm macht Fertiggerichte zur Kochstunde",
-      "teaser": "Der Schweizer Spitzenkoch Daniel Humm bringt mit Riff Kochboxen auf den Markt, die in einer Pfanne in etwa 20 Minuten fertig sind. Das New Yorker Studio Center hat die Verpackung gestaltet. Jede Box zeigt, was Zitrone, Tomaten oder Basilikum dem Gericht zusätzlich geben.",
+      "ressort": "fotografie",
+      "kicker": "Hundefotografie",
+      "headline": "Katie Brockman ist Hundefotografin des Jahres 2026",
+      "teaser": "Die Dog Photography Awards 2026 haben ihre Gewinner gekürt. Aus 1.900 Einsendungen in 50 Ländern gewann Katie Brockman aus den USA mit dem Porträt eines Pitbulls. Sie erhält 2.500 Euro Preisgeld.",
       "blocks": [],
-      "whyGood": "Wer schnell und günstig essen will, lernt dabei nebenbei, wie man mit einfachen Zutaten besser kocht.",
-      "honestNote": "Die Produktlinie ist neu. Wie gut sie ankommt und wo sie erhältlich ist, geht aus dem Bericht nicht hervor.",
+      "whyGood": "Ein nachdenkliches Hundeporträt hat die Jury überzeugt und zeigt, wie viel Charme und Vielfalt in Hunden steckt.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "Creative Boom",
-          "url": "https://www.creativeboom.com/work/this-packaging-for-ready-made-dinners-can-teach-you-to-cook-better/",
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/30/18-adorable-winners-from-the-dog-photography-awards/",
           "language": "Englisch"
         }
       ],
@@ -579,18 +538,18 @@
     },
     {
       "id": "2026-09-30-k02",
-      "ressort": "dekoration",
-      "kicker": "München",
-      "headline": "Siebziger trifft Japandi: Familienwohnung wird warm und hell",
-      "teaser": "Architektin Valentina Lauš hat eine 250 Quadratmeter große Split-Level-Wohnung im Münchner Osten neu gestaltet. Aus kühlem Schwarz, Grau und Weiß wurde ein gemütliches Zuhause mit Ulmenholz, erdigen Tönen und Vintage-Möbeln. Im Mittelpunkt stehen Orte, an denen die Familie zusammenkommt.",
+      "ressort": "promis",
+      "kicker": "Boston",
+      "headline": "Chris Evans wirbt für zwei Hunde, die zusammen ein Zuhause finden",
+      "teaser": "Schauspieler Chris Evans hat in der Serie „Dream Date“ von The Dodo zwei Hunde vorgestellt. Greg, ein Chihuahua, und Carley, ein Golden Retriever, lebten im Tierheim Animal Rescue League of Boston und mussten zusammen vermittelt werden. Ein Paar hat sie nun gemeinsam aufgenommen.",
       "blocks": [],
-      "whyGood": "Die Wohnung zeigt, wie man mit Respekt vor dem alten Grundriss ein Zuhause schafft, das Wärme schenkt und im Alltag funktioniert.",
-      "honestNote": null,
+      "whyGood": "Zwei unzertrennliche Hunde müssen nicht getrennt werden und haben ein gemeinsames Zuhause gefunden.",
+      "honestNote": "Dass der Videoauftritt die Adoption ausgelöst hat, ist naheliegend, aber nicht belegt.",
       "sources": [
         {
-          "name": "AD Deutschland",
-          "url": "https://www.ad-magazin.de/artikel/japandi-trifft-auf-70er-jahre-munchner-split-level-wohnung",
-          "language": "Deutsch"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/chris-evans-puts-his-limelight-on-a-bonded-dog-pair-with-cute-video-immediately-sees-them-adopted/",
+          "language": "Englisch"
         }
       ],
       "brief": true,
@@ -598,22 +557,17 @@
     },
     {
       "id": "2026-09-30-k03",
-      "ressort": "wirtschaft",
-      "kicker": "Güterverkehr",
-      "headline": "E-Lkw im Fernverkehr laut Studie oft günstiger als Diesel",
-      "teaser": "Die Umweltorganisation Transport & Environment hat die Gesamtkosten schwerer Lkw über fünf Jahre in neun europäischen Märkten verglichen. In sechs davon ist der Elektro-Lkw schon heute billiger. Für Deutschland nennt T&E bis zu 85.000 € Ersparnis je Fahrzeug, vor allem dank Mautbefreiung und geringerer Energiekosten.",
+      "ressort": "sport",
+      "kicker": "Cricket",
+      "headline": "Gill führt Indien zu Rekordjagd mit 223 Runs ungeschlagen",
+      "teaser": "Indien hat im zweiten Einser-Spiel in Guwahati 406 Runs gegen die West Indies erzielt. Kapitän Shubman Gill blieb mit 223 Runs ungeschlagen, seinem persönlichen Bestwert. Mit Rohit Sharma schlug er zum Start 255 Runs. Indien gewann mit acht Wickets und 39 Bällen Vorsprung.",
       "blocks": [],
-      "whyGood": "Wenn saubere Lkw sich auch finanziell lohnen, fällt Speditionen der Umstieg leichter und der Güterverkehr wird klimafreundlicher.",
-      "honestNote": "Die 85.000 € sind ein Modellergebnis für bestimmte Fahrzeuge und Einsatzbedingungen, keine garantierte Ersparnis. Die deutsche Mautbefreiung für emissionsfreie Lkw gilt nur bis Juni 2031, und der Kaufpreis eines E-Lkw ist mehr als doppelt so hoch.",
+      "whyGood": "Ein Spiel mit zwei Rekordleistungen: Die West Indies erzielten ihren höchsten Wert überhaupt, und Indien übertraf ihn trotzdem.",
+      "honestNote": "Für die West Indies bleibt die Lage schwierig: Die Spieler müssen eine Gehaltskürzung von 25 Prozent hinnehmen, und sie müssen in eine Qualifikation für den nächsten World Cup.",
       "sources": [
         {
-          "name": "ingenieur.de",
-          "url": "https://www.ingenieur.de/technik/fachbereiche/verkehr/prima-sparen-mit-batt-lkw-kritische-einordnung-einer-modellrechnung/",
-          "language": "Deutsch"
-        },
-        {
-          "name": "CleanTechnica",
-          "url": "https://cleantechnica.com/2026/09/28/are-electric-trucks-cheaper-to-operate-than-diesel/",
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cqwyz07g0e5yo?at_medium=RSS&at_campaign=rss",
           "language": "Englisch"
         }
       ],
@@ -622,23 +576,18 @@
     },
     {
       "id": "2026-09-30-k04",
-      "ressort": "autos",
-      "kicker": "Elektromobilität",
-      "headline": "BMW stellt ersten vollelektrischen 3er vor: den neuen i3",
-      "teaser": "BMW hat den i3 präsentiert, den ersten vollelektrischen 3er. Die Limousine basiert auf der Neuen Klasse mit 800-Volt-Technik und soll bis zu 900 km weit fahren. Gebaut wird sie im Stammwerk München, der Einstiegspreis liegt bei 59.900 Euro.",
+      "ressort": "gaming",
+      "kicker": "Gaming",
+      "headline": "The Witcher 3 erreicht nach 11 Jahren Spielerrekord auf Steam",
+      "teaser": "Die neue Remastered-Fassung von The Witcher 3 lockt so viele Menschen an wie nie zuvor. Fast 120.000 Personen spielen gleichzeitig auf Steam. Der bisherige Rekord lag bei 103.000 im Januar 2020.",
       "blocks": [],
-      "whyGood": "Eines der meistverkauften Mittelklasse-Modelle Deutschlands fährt jetzt elektrisch und mit großer Reichweite.",
-      "honestNote": "Die 900 km sind eine Herstellerangabe. Zum Start gibt es nur teure Allrad-Varianten, eine günstigere Version ist noch nicht angekündigt.",
+      "whyGood": "CD Projekt Red beschenkt seine Fans: Das Remastered-Update und die Erweiterungen Hearts of Stone und Blood and Wine sind für alle Besitzer kostenlos.",
+      "honestNote": "Die Verbesserungen sind nicht so tiefgreifend, wie manche hoffen. Es bleibt im Kern dasselbe Spiel.",
       "sources": [
         {
-          "name": "electrive",
-          "url": "https://www.electrive.net/2026/09/30/elektrischer-bmw-i3-glaenzt-mit-900-kilometern-reichweite/",
-          "language": "Deutsch"
-        },
-        {
-          "name": "ecomento",
-          "url": "https://feeds.feedblitz.com/~/970795310/0/ecomento_de~Neuer-BMW-i-Zwei-ElektroautoVersionen-zum-Marktstart/",
-          "language": "Deutsch"
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/witcher-3-steam-most-played-record-remastered",
+          "language": "Englisch"
         }
       ],
       "brief": true,
@@ -646,117 +595,17 @@
     },
     {
       "id": "2026-09-30-k05",
-      "ressort": "serien",
-      "kicker": "Blauer Panther",
-      "headline": "Blaue Panther für „Unfamiliar“ und „Hundertdreizehn“",
-      "teaser": "Die Netflix-Serie „Unfamiliar“ ist die beste Serie beim Blauen Panther. Den Preis erhält Produzent Andreas Bareiss. Arndt Stüwe bekommt den Preis für das beste Drehbuch, für die ARD-Serie „Hundertdreizehn“ mit sechs Geschichten auf verschiedenen Zeitebenen.",
+      "ressort": "dekoration",
+      "kicker": "Southport",
+      "headline": "Aus weißen Wänden wird ein farbenfrohes Vintage-Zuhause",
+      "teaser": "Stuart Eminson und sein Partner Steve haben ihr Haus von 1890 in Southport verwandelt. Es war schneeweiß und leer. Jetzt füllen es dunkle Farben, Vintage-Funde, rosa Murano-Kronleuchter und Tigermuster. Die Wandfarben stammen vom Ökofarben-Hersteller AURO.",
       "blocks": [],
-      "whyGood": "Zwei deutsche Serien werden für ihre Qualität geehrt, und die Preisträger feiern ausdrücklich die Leistung ihrer ganzen Teams.",
-      "honestNote": "„Unfamiliar“ lief hierzulande nicht ganz so gut wie erhofft, eine zweite Staffel wird es deshalb nicht geben.",
-      "sources": [
-        {
-          "name": "DWDL",
-          "url": "https://www.dwdl.de/nachrichten/108016/blaue_panther_fuer_unfamiliar_und_hundertdreizehn/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k06",
-      "ressort": "fotografie",
-      "kicker": "Weltraumfotografie",
-      "headline": "Webb zeigt kosmisches Spiegelkabinett aus verzerrten Galaxien",
-      "teaser": "Das neue Bild des Monats des James Webb Space Telescope zeigt den Galaxienhaufen MACS J0454.1-0300, rund fünf Milliarden Lichtjahre entfernt. Seine Masse krümmt das Licht dahinter liegender Galaxien wie eine Lupe. So erscheinen sie verzerrt, vervielfacht und überhaupt erst sichtbar.",
-      "blocks": [],
-      "whyGood": "Einsteins Theorie wird hier sichtbar und hilft Forschenden, weiter in die Geschichte des Universums zu blicken als je zuvor.",
+      "whyGood": "Das Haus zeigt, dass ein Zuhause mit Mut, Farbe und gebrauchten Schätzen ganz persönlich werden kann.",
       "honestNote": null,
       "sources": [
         {
-          "name": "PetaPixel",
-          "url": "https://petapixel.com/2026/09/29/webb-photographs-one-of-the-most-beautiful-gravitational-lenses/",
-          "language": "Englisch"
-        },
-        {
-          "name": "ESA",
-          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Galaxies_in_a_cosmic_house_of_mirrors",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k07",
-      "ressort": "kueche",
-      "kicker": "Herbstküche",
-      "headline": "Quitte, Lauch und Maronen: Was jetzt in Küche und Garten passt",
-      "teaser": "Der Guardian stellt die Stars des Herbstes vor. Quitten werden ganz pochiert und dann püriert, so entfällt das mühsame Schälen. Lauch gart in Alufolie mit Olivenöl und Knoblauch etwa 40 Minuten im Ofen. Im Garten ist jetzt Zeit, Saubohnen für eine frühe Ernte im Frühling zu säen.",
-      "blocks": [],
-      "whyGood": "Der Herbst bringt eine Fülle an Aromen, und mit ein paar einfachen Kniffen wird daraus etwas Gutes auf dem Teller.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Guardian Lifestyle",
-          "url": "https://www.theguardian.com/food/2026/sep/29/autumn-food-stars-what-to-cook-plant-and-pick-now",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k08",
-      "ressort": "lifestyle",
-      "kicker": "Japan",
-      "headline": "Japan zählt erstmals mehr als 100.000 Hundertjährige",
-      "teaser": "In Japan leben 107.677 Menschen, die 100 Jahre oder älter sind. Das zeigen neue Zahlen des Gesundheitsministeriums. Als die Zählung 1963 begann, waren es nur 153. Als Gründe gelten Fisch, Gemüse und Reis, viel Bewegung im Alltag und Fortschritte in der Medizin.",
-      "blocks": [],
-      "whyGood": "Immer mehr Menschen erreichen ein sehr hohes Alter, und ihr Alltag zeigt, wie einfache Gewohnheiten dabei helfen können.",
-      "honestNote": "Japan altert stark und hat zugleich eine sehr niedrige Geburtenrate. Das setzt die Sozialsysteme unter Druck.",
-      "sources": [
-        {
-          "name": "Optimist Daily",
-          "url": "https://www.optimistdaily.com/2026/09/what-japans-107677-centenarians-reveal-about-diet-lifestyle-and-aging/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k09",
-      "ressort": "promis",
-      "kicker": "Heated Rivalry",
-      "headline": "Serienmacher gründen echte Irina-Stiftung aus „Heated Rivalry“",
-      "teaser": "Die Produzenten Jacob Tierney und Brendan Brady haben die Irina Foundation gegründet. Sie fördert queere und benachteiligte Menschen über Sport und Kunst. Vorbild ist die Stiftung, die Shane und Ilya in Rachel Reids Büchern führen. Erste Unterstützer sind Kate Spade New York und Harry’s.",
-      "blocks": [],
-      "whyGood": "Aus einer erfundenen Geschichte wird echte Hilfe, die Menschen Zugehörigkeit und seelische Stärke schenken soll.",
-      "honestNote": "Die Stiftung steht noch am Anfang. Wie viel Geld sie verteilen wird, ist noch nicht bekannt. Zuvor hatten die Produzenten mit Partnern und Fans aber schon über 1,5 Millionen Dollar für Organisationen gesammelt.",
-      "sources": [
-        {
-          "name": "Hollywood Reporter",
-          "url": "https://www.hollywoodreporter.com/tv/tv-news/heated-rivalry-producers-launch-irina-foundation-1236716737/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k10",
-      "ressort": "film",
-      "kicker": "Dokumentarfilm",
-      "headline": "Neuer Film zeigt verblüffende Tiere aus der Tiefsee",
-      "teaser": "Filmemacherin Eleanor Mortimer begleitet in „How Deep Is Your Love“ Meeresbiologen in den östlichen Pazifik. Ein Roboter holt Tiere aus rund vier Kilometern Tiefe, und 80 Prozent davon sind neu für die Wissenschaft. Bis sie Namen tragen, heißen sie etwa Psychedelic Elvis Worm.",
-      "blocks": [],
-      "whyGood": "Der Film zeigt, wie viel Staunenswertes die Tiefsee noch bereithält, denn rund 90 Prozent ihres Lebens sind noch unbenannt.",
-      "honestNote": "Der Film wirkt laut Kritik eher nischig. Zugleich behandelt er den möglichen Tiefseebergbau, dessen Folgen für die Umwelt noch nicht geklärt sind.",
-      "sources": [
-        {
-          "name": "Guardian Film",
-          "url": "https://www.theguardian.com/film/2026/sep/30/how-deep-is-your-love-review-nature-doc-eleanor-mortimer",
+          "name": "Apartment Therapy",
+          "url": "https://www.apartmenttherapy.com/moody-maximalist-1890-uk-house-37692844?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
           "language": "Englisch"
         }
       ],
@@ -764,184 +613,70 @@
       "score": 5
     },
     {
-      "id": "2026-09-30-k11",
-      "ressort": "natur",
-      "kicker": "Colorado",
-      "headline": "Wildbrücke über die I-25 senkt Wildunfälle um 91 Prozent",
-      "teaser": "Nordamerikas größte Wildtierbrücke führt in Colorado über die Autobahn I-25. Seit der Eröffnung im Dezember gab es dort 91 Prozent weniger Wildunfälle. Kameras zeigen Wapitis, Bären und erstmals seit Jahrzehnten Gabelböcke auf der Westseite, dazu die bedrohte Preble-Springmaus.",
+      "id": "2026-09-30-k06",
+      "ressort": "kueche",
+      "kicker": "Herbstküche",
+      "headline": "Ofengemüse wird mit einem einfachen Backtrick knuspriger",
+      "teaser": "Ofengemüse ist ein Herbst-Klassiker und wird immer beliebter. Oft kommt es aber weich aus dem Ofen. Mit einer Geheimzutat soll es richtig kross werden. Die Brigitte zeigt den Trick in einem Video.",
       "blocks": [],
-      "whyGood": "Große und kleine Tiere können ihre alten Wanderwege wieder sicher nutzen, und Autofahrer sind besser geschützt.",
-      "honestNote": "Die Zahlen beziehen sich auf die ersten neun Monate. Die heimische Pflanzendecke auf der Brücke wächst wegen Trockenheit noch an, im nächsten Jahr soll nachgesät werden.",
-      "sources": [
-        {
-          "name": "Optimist Daily",
-          "url": "https://www.optimistdaily.com/2026/09/colorados-largest-wildlife-overpass-cut-i-25-collisions-by-91-percent/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 7
-    },
-    {
-      "id": "2026-09-30-k12",
-      "ressort": "wissenschaft",
-      "kicker": "Äthiopien",
-      "headline": "2800 Jahre alter Palast war womöglich ein frühes Hochhaus",
-      "teaser": "Hochhäuser gelten als Erfindung der Neuzeit. Zwei Wissenschaftler haben nun eine Untersuchung vorgelegt, nach der ein 2800 Jahre alter Palast im heutigen Äthiopien mehrstöckig war. Bis zu 19 Etagen halten sie für denkbar.",
-      "blocks": [],
-      "whyGood": "Die Studie zeigt, wie viel Baukunst schon vor fast drei Jahrtausenden in Afrika möglich war.",
-      "honestNote": "Es handelt sich um eine Deutung von zwei Forschern. Die Zahl von 19 Etagen ist nur denkbar und nicht belegt.",
-      "sources": [
-        {
-          "name": "SPIEGEL Wissenschaft",
-          "url": "https://www.spiegel.de/wissenschaft/aethiopien-2800-jahre-alter-palastbau-koennte-eines-der-ersten-hochhaeuser-der-welt-gewesen-sein-a-62a97c3f-6f0c-4117-a24c-b8e902b9397c#ref=rss",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7
-    },
-    {
-      "id": "2026-09-30-k13",
-      "ressort": "architektur",
-      "kicker": "Accra",
-      "headline": "Altes Fliesenlager wird Sitz einer Architekturschule in Ghana",
-      "teaser": "In Accra ist ein ehemaliges Fliesenlager umgebaut worden. Es ist nun das feste Zuhause des African Futures Institute, einer unabhängigen Architekturschule. Gegründet hat sie die ghanaisch-schottische Architektin Lesley Lokko, die den Umbau auch mitgestaltet hat.",
-      "blocks": [],
-      "whyGood": "Eine unabhängige Architekturschule in Afrika hat einen dauerhaften Ort gefunden, und dafür wurde ein bestehendes Gebäude weitergenutzt statt neu gebaut.",
-      "honestNote": "Der vollständige Artikel lag nicht vor. Die Meldung stützt sich nur auf Titel und Anriss, Details zum Umbau und zur Schule fehlen daher.",
-      "sources": [
-        {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/09/29/african-futures-institute-headquarters-lesley-lokko-ghana/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 7
-    },
-    {
-      "id": "2026-09-30-k14",
-      "ressort": "gesundheit",
-      "kicker": "Organspende",
-      "headline": "Spenderherzen passen sich dem Alter ihrer Empfänger an",
-      "teaser": "Ein Team um Jesse Poganik von der Harvard University fand heraus: Alte Herzen wirken in jüngeren Empfängern biologisch verjüngt. Das zeigte sich bei Mäusen und in Proben von elf Herztransplantationen in Boston. Künftig könnten so auch Herzen älterer Spender häufiger infrage kommen.",
-      "blocks": [],
-      "whyGood": "Wenn sich die Ergebnisse bestätigen, könnten mehr Spenderherzen genutzt werden und weniger Menschen vergeblich auf ein neues Herz warten.",
-      "honestNote": "Die Studie ist ein Preprint und wurde noch nicht von unabhängigen Fachleuten begutachtet. Die Daten vom Menschen stammen nur aus elf Transplantationen, und nicht alle Herzfunktionen folgten dem Alter der Empfänger.",
-      "sources": [
-        {
-          "name": "Spektrum",
-          "url": "https://www.spektrum.de/news/transplantation-herz-passt-sich-dem-alter-des-empfaengers-an/2347174",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7
-    },
-    {
-      "id": "2026-09-30-k15",
-      "ressort": "kultur",
-      "kicker": "Rom",
-      "headline": "Größtes Wandmosaik des alten Rom ist erstmals für Besucher zu sehen",
-      "teaser": "Fast 2.000 Jahre lag das Große Mosaik unter den Trajansthermen in Rom verborgen. Das rund 15 Meter hohe Kunstwerk aus dem 1. Jahrhundert zeigt Philosophen, Musen, einen Kentauren und eine Hafenstadt. Jetzt dürfen Besucher es in kleinen, geführten Gruppen besichtigen.",
-      "blocks": [],
-      "whyGood": "Ein Meisterwerk der Antike, das Jahrhunderte im Dunkeln lag, kann nun wieder von Menschen bestaunt werden.",
-      "honestNote": "Die Öffnung ist zunächst eine Testphase. Dabei wird geprüft, wie Feuchtigkeit und Besucher dem empfindlichen Mosaik schaden.",
-      "sources": [
-        {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/ancient-rome-largest-mosaic-mysterious-lost-city/?adt_ei={{ subscriber.email_address }}",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 7
-    },
-    {
-      "id": "2026-09-30-k16",
-      "ressort": "welt",
-      "kicker": "Spanien",
-      "headline": "87-Jährige darf nach Räumung in ihre Madrider Wohnung zurück",
-      "teaser": "María del Carmen Abascal kehrt nach dem Krankenhaus in die Wohnung zurück, in der sie sieben Jahrzehnte lebte. Ihre Miete bleibt bei höchstens 30 Prozent ihres Einkommens. Nach Protesten Zehntausender legte die Regierung zudem neue Maßnahmen gegen die Wohnungskrise vor.",
-      "blocks": [],
-      "whyGood": "Eine alte Frau bekommt ihr Zuhause zurück, und der Einsatz vieler Menschen hat bessere Regeln für Mieter angestoßen.",
-      "honestNote": "Das Parlament muss die Maßnahmen noch innerhalb von 30 Tagen bestätigen. Der vollständige Text ist noch nicht veröffentlicht, und ob die Schritte den Protestierenden reichen, ist offen.",
-      "sources": [
-        {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/09/30/nx-s1-5985703/woman-eviction-protests-spain",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k17",
-      "ressort": "zukunft",
-      "kicker": "Grüner Stahl",
-      "headline": "US-Startup baut neuen Ofen für klimafreundlicheren Stahl",
-      "teaser": "Die US-Unternehmerin Laureen Meroueh hat ein neues Verfahren zur Stahlherstellung entwickelt. Ihr Ofen soll eine Tonne „grünen“ Stahl am Tag liefern und Emissionen senken. Das ist wichtig, denn die Stahlbranche verursacht rund sieben Prozent des weltweiten CO₂-Ausstoßes.",
-      "blocks": [],
-      "whyGood": "Ein neuer Ansatz bringt Bewegung in eine Branche, deren Verfahren sich seit den 1850er Jahren kaum verändert hat und die viel zum Klimawandel beiträgt.",
-      "honestNote": "Eine Tonne am Tag ist noch sehr wenig im Vergleich zur weltweiten Stahlproduktion. Wie viel CO₂ das Verfahren tatsächlich spart, geht aus dem frei verfügbaren Text nicht hervor.",
-      "sources": [
-        {
-          "name": "t3n",
-          "url": "https://t3n.de/news/tonne-gruener-stahl-ofen-emissionen-1762711/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k18",
-      "ressort": "gaming",
-      "kicker": "Spielemusik",
-      "headline": "Hades-Orchesterkonzert jetzt kostenlos online anschauen",
-      "teaser": "Das Konzert „Ballads of the Underworld“ mit Musik aus Hades 1 und 2 ist jetzt vollständig und gratis online zu sehen. Das Studio Supergiant ließ die Stücke mit den London Mozart Players aufführen. Dirigent war Hades-Komponist Austin Wintory, dazu kamen Live-Gesang von Darren Korb, Ashley Barrett und weiteren.",
-      "blocks": [],
-      "whyGood": "Wer nicht im Saal sein konnte, kann ein gefeiertes Konzert jetzt ohne Kosten von zu Hause aus erleben.",
+      "whyGood": "Mit einem kleinen Kniff gelingt das gesunde Herbstessen knuspriger und schmeckt vielen noch besser.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Eurogamer",
-          "url": "https://www.eurogamer.net/watch-hades-orchestral-performance-recording",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k19",
-      "ressort": "sport",
-      "kicker": "Tennis",
-      "headline": "Zverev greift nach Platz eins der Weltrangliste",
-      "teaser": "Alexander Zverev könnte schon Mitte Oktober die Nummer eins im Tennis werden. Der 29-jährige Hamburger liegt vor den China Open in Peking nur noch 1.370 Punkte hinter Jannik Sinner. Gewinnt er Peking und Schanghai, würde er an die Spitze rücken.",
-      "blocks": [],
-      "whyGood": "Der Olympiasieger und zweifache Grand-Slam-Sieger krönt vielleicht sein eigenes „phänomenales Jahr“ mit dem größten Ziel im Tennis.",
-      "honestNote": "Noch ist es nur eine Rechnung für den Optimalfall. Zverev müsste beide Turniere gewinnen, und Sinner dürfte in Schanghai nicht antreten.",
-      "sources": [
-        {
-          "name": "Sportschau",
-          "url": "https://www.sportschau.de/tennis/zverevs-weg-an-die-spitze-der-weltrangliste,zverevs-weg-weltrangliste-platz-eins-100.html",
+          "name": "Brigitte Rezepte",
+          "url": "https://www.brigitte.de/rezepte/kochtipps/herbstkueche-2026--durch-diese-geheimzutat-wird-dein-ofengemuese-noch-knuspriger-13088922.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 6
+      "score": 5
     },
     {
-      "id": "2026-09-30-k20",
+      "id": "2026-09-30-k07",
+      "ressort": "natur",
+      "kicker": "Kalifornien",
+      "headline": "Erste Meeresschildkröten-Nester an der US-Westküste entdeckt",
+      "teaser": "Zwei Bastardschildkröten haben in Südkalifornien Eier gelegt, am Seal Beach und am Huntington Beach. Solche Nester wurden an der US-Westküste noch nie erfasst. Behörden sicherten die Nester und brachten 204 Eier vor einem Sturm ins Aquarium of the Pacific in Long Beach.",
+      "blocks": [],
+      "whyGood": "Eine bedrohte Schildkrötenart hat erstmals in Kalifornien genistet, und Helfer retteten rasch die Eier.",
+      "honestNote": "Die Art gilt weltweit als gefährdet, und ob die Jungtiere aus den geretteten Eiern schlüpfen, ist noch offen.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/first-ever-recorded-sea-turtle-nests-on-americas-west-coast/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 8
+    },
+    {
+      "id": "2026-09-30-k08",
+      "ressort": "welt",
+      "kicker": "Blankenburg im Harz",
+      "headline": "Kita und Pflegeheim unter einem Dach: Jung und Alt spielen zusammen",
+      "teaser": "Im Mehrgenerationenhaus in Blankenburg leben Kita-Kinder und Pflegeheimbewohner unter einem Dach. Sie spielen Sitzfußball, backen und singen gemeinsam. Das Modell gibt es seit fast 20 Jahren und hat sich nach Angaben der Leiterin bewährt.",
+      "blocks": [],
+      "whyGood": "Jung und Alt schenken sich im Alltag Lebensfreude, und beim gemeinsamen Singen kehren bei Menschen mit Demenz oft Erinnerungen zurück.",
+      "honestNote": "Wie sich der Kontakt mit Kindern auf das Altern auswirkt, ist bisher kaum untersucht. Der Nutzen gegen Demenz ist deshalb noch eine Hoffnung und kein Beweis.",
+      "sources": [
+        {
+          "name": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/gesellschaft/pflegeheim-kita-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8
+    },
+    {
+      "id": "2026-09-30-k09",
       "ressort": "kurioses",
       "kicker": "Nevada",
-      "headline": "Fast 300 Hunde feiern Poolparty und stellen Weltrekord auf",
-      "teaser": "In einem Wasserpark in Nevada sind fast 300 Hunde zu einer gemeinsamen Poolparty gekommen. Damit brach das Fest den Guinness-Weltrekord für die meisten Hunde auf einer Hunde-Poolparty.",
+      "headline": "Fast 300 Hunde feiern Weltrekord bei Poolparty in Nevada",
+      "teaser": "Fast 300 Hunde kamen zu einem Wasserpark in Nevada. Dort sprangen sie gemeinsam ins Wasser. Die Poolparty wurde als Guinness-Weltrekord für die meisten Hunde bei einer solchen Feier anerkannt.",
       "blocks": [],
-      "whyGood": "Hunderte Hunde planschen fröhlich gemeinsam im Wasser, und das ist einfach schön anzusehen.",
+      "whyGood": "Hunde und ihre Menschen hatten einen fröhlichen Tag im Wasser und haben dabei sogar einen Rekord aufgestellt.",
       "honestNote": null,
       "sources": [
         {
@@ -951,17 +686,131 @@
         }
       ],
       "brief": true,
+      "score": 7
+    },
+    {
+      "id": "2026-09-30-k10",
+      "ressort": "bildung",
+      "kicker": "Mörfelden-Walldorf",
+      "headline": "Gesamtschule gewinnt Deutschen Schulpreis 2026 für gute Förderung",
+      "teaser": "Die Bertha-von-Suttner-Schule in Hessen hat den Hauptpreis des Deutschen Schulpreises 2026 gewonnen. Viele Jugendliche aus schwierigen sozialen Verhältnissen erreichen dort höhere Abschlüsse, als man ihnen nach der Grundschule zutraute. Die Förderung läuft im regulären Unterricht.",
+      "blocks": [],
+      "whyGood": "Eine Schule zeigt, dass die Herkunft der Eltern nicht über den Schulerfolg entscheiden muss.",
+      "honestNote": "Die Schule ist eine einzelne große Gesamtschule. Ob sich ihr Konzept einfach auf andere Schulen und das ganze Schulsystem übertragen lässt, ist offen.",
+      "sources": [
+        {
+          "name": "News4teachers",
+          "url": "https://www.news4teachers.de/2026/09/sind-gesamtschulen-doch-besser-deutscher-schulpreis-wie-die-sieger-schule-vormacht-benachteiligte-kinder-nach-oben-zu-bringen/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7
+    },
+    {
+      "id": "2026-09-30-k11",
+      "ressort": "architektur",
+      "kicker": "Båtsfjord",
+      "headline": "Gemeinschaftssauna aus altem Holz am Hafen von Båtsfjord",
+      "teaser": "Im norwegischen Båtsfjord steht jetzt die Sauna Skroget mit öffentlicher Terrasse. Das Architekturstudio Rare Collectiv, ein Team von Studierenden, hat sie entworfen. Ein Gerüst aus wiederverwendetem Holz umgibt den langgezogenen Bau und erinnert an einen Schiffsrumpf.",
+      "blocks": [],
+      "whyGood": "Aus altem Holz ist ein Treffpunkt entstanden, den alle im Ort nutzen können.",
+      "honestNote": "Es ist ein kleines Projekt für einen Ort. Es zeigt aber, was Studierende mit gebrauchtem Material bauen können.",
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/09/30/rare-collectiv-skroget-sauna/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7
+    },
+    {
+      "id": "2026-09-30-k12",
+      "ressort": "gesundheit",
+      "kicker": "Augenheilkunde",
+      "headline": "Sehkorrektur ohne Laser und ohne Schnitt: Neue Methode im Test",
+      "teaser": "Forscher um Michael Hill vom Occidental College und Brian Wong entwickeln eine Alternative zu LASIK. Eine kleine elektrische Spannung und eine geformte Platinlinse machen die Hornhaut kurz weich, sodass sie sich formen lässt. Das soll in etwa einer Minute gehen.",
+      "blocks": [],
+      "whyGood": "Die Methode könnte Fehlsichtigkeit einmal schonender und mit einfacherer Technik korrigieren, weil kein Gewebe abgetragen wird.",
+      "honestNote": "Bisher gibt es nur frühe Versuche mit Hornhaut von Kaninchenaugen. Ob die Methode bei Menschen sicher und wirksam ist, muss sich erst zeigen.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927034004.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
       "score": 6
     },
     {
-      "id": "2026-09-30-k21",
+      "id": "2026-09-30-k13",
+      "ressort": "wissenschaft",
+      "kicker": "Vesuv",
+      "headline": "Vesuv-Ausbruch von 79 n. Chr. macht Altersbestimmung genauer",
+      "teaser": "Ein Team aus Berkeley und Padua hat die Argon-Argon-Datierung am Ausbruch des Vesuvs geeicht. Der Augenzeugenbericht von Plinius dem Jüngeren liefert dafür ein genaues Datum: den 24. August 79. Die Methode datiert nun Ereignisse der Erdgeschichte präziser.",
+      "blocks": [],
+      "whyGood": "Genauere Zeitangaben helfen, Vulkane in dicht besiedelten Regionen wie Neapel, Mexiko-Stadt und Yogyakarta besser zu verstehen.",
+      "honestNote": "Die Studie erschien in Science Advances. Wie stark die Methode in der Praxis verbessert wird, muss sich erst in weiteren Arbeiten zeigen.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260928100531.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6
+    },
+    {
+      "id": "2026-09-30-k14",
+      "ressort": "zukunft",
+      "kicker": "Kernfusion",
+      "headline": "ENN Group meldet Durchbruch bei Wasserstoff-Bor-Fusion",
+      "teaser": "Das private chinesische Unternehmen ENN Group setzt in seinem kompakten Tokamak-Reaktor auf Wasserstoff und Bor-11. Beide Stoffe sind günstig und weltweit reichlich vorhanden. Es entstehen fast keine hochenergetischen Neutronen, die Reaktorwände schädigen.",
+      "blocks": [],
+      "whyGood": "Dieser Ansatz könnte saubere Fusionsenergie ohne radioaktives Tritium und mit weniger Verschleiß am Reaktor möglich machen.",
+      "honestNote": "Noch ist es Forschung. Ein Fusionsreaktor, der mehr Energie liefert, als er verbraucht, und ins Stromnetz einspeist, ist damit nicht in Sicht.",
+      "sources": [
+        {
+          "name": "futurezone",
+          "url": "https://futurezone.at/science/kernfusion-fusionsreaktor-china-erreicht-meilenstein-mit-wasserstoff-bor/403194787",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6
+    },
+    {
+      "id": "2026-09-30-k15",
+      "ressort": "kultur",
+      "kicker": "Auszeichnung",
+      "headline": "MacArthur-Stiftung ehrt Forschende für Wissenschaft und Gerechtigkeit",
+      "teaser": "Die MacArthur Foundation hat 20 neue Stipendiaten benannt. Sie erhalten je 800.000 US-Dollar über fünf Jahre, ohne Auflagen. Dazu zählt die Forensikerin Kate Spradley. Sie lässt in Texas einen ganzen Friedhof öffnen, um unbekannte Migranten zu identifizieren.",
+      "blocks": [],
+      "whyGood": "Verstorbene Migranten bekommen ihre Namen zurück, und Familien können endlich erfahren, wo ihre Angehörigen liegen.",
+      "honestNote": "Die Auszeichnung würdigt die Arbeit. Die Identifizierung der Toten ist mühsam und noch nicht abgeschlossen.",
+      "sources": [
+        {
+          "name": "NPR Science",
+          "url": "https://www.npr.org/2026/09/29/nx-s1-5983444/this-years-macarthur-fellows-include-researchers-who-fuse-science-and-justice",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6
+    },
+    {
+      "id": "2026-09-30-k16",
       "ressort": "design",
       "kicker": "Cottbus",
       "headline": "Cottbus zeigt 30 Jahre Plakatkunst von Fons Hickmann",
-      "teaser": "Das Brandenburgische Landesmuseum für moderne Kunst in Cottbus zeigt Plakate des Berliner Grafikdesigners Fons Hickmann aus mehr als 30 Jahren. Die Schau „Plakate von heute und davor“ beruht auch auf einer großen Schenkung des Künstlers. Sie läuft vom 2. Oktober bis zum 6. Dezember 2026.",
+      "teaser": "Das Brandenburgische Landesmuseum für moderne Kunst zeigt Plakate des Berliner Grafikdesigners Fons Hickmann. Die Schau „Plakate von heute und davor“ umfasst mehr als 30 Jahre. Sie nutzt die Sammlung des Museums und eine große Schenkung von Hickmann selbst.",
       "blocks": [],
-      "whyGood": "Preisgekrönte Plakatkunst hängt im Original an der Wand, und dank Hickmanns Schenkung bleibt sie dem Museum erhalten.",
-      "honestNote": null,
+      "whyGood": "Plakatkunst bekommt Raum im Museum, und man kann sie im Original an der Wand sehen.",
+      "honestNote": "Die Eröffnung ist am 2. Oktober, die Schau läuft bis zum 6. Dezember 2026. Wer nicht nach Cottbus reisen kann, findet Hickmanns Werk im Begleitbuch „Poster, Now and Then“.",
       "sources": [
         {
           "name": "PAGE",
@@ -973,18 +822,18 @@
       "score": 6
     },
     {
-      "id": "2026-09-30-k22",
-      "ressort": "dekoration",
-      "kicker": "Lissabon",
-      "headline": "Architekturbüro BUREAU macht 44 Quadratmeter Wohnung hell und offen",
-      "teaser": "Das Büro BUREAU hat in Lissabon die kleine Wohnung „Lilac“ neu gestaltet. Ein Rundgang um einen Kern mit Küche und Bad verbindet alle Räume. Durchscheinende und verspiegelte Öffnungen holen Licht und Tiefe in die nur 44 Quadratmeter große Wohnung.",
+      "id": "2026-09-30-k17",
+      "ressort": "fotografie",
+      "kicker": "Australien",
+      "headline": "Vogelfotos aus Australien: BirdLife kürt die besten Bilder 2026",
+      "teaser": "BirdLife Australia hat die Gewinnerfotos seines Fotowettbewerbs 2026 gezeigt. Zu sehen sind Pinguine unter Wasser, ein Kakadu mit aufgestelltem Kamm und ein tanzendes Leierschwanz-Paar. Mit dem Geld aus dem Wettbewerb unterstützt BirdLife Vogelschutz in Australien.",
       "blocks": [],
-      "whyGood": "Das Projekt zeigt, wie viel Licht, Bewegung und Wohnqualität selbst auf kleiner Fläche möglich sind.",
-      "honestNote": "Es handelt sich um ein einzelnes Wohnprojekt, das das Büro selbst beim Magazin eingereicht hat.",
+      "whyGood": "Schöne Bilder zeigen Vögel aus nächster Nähe, und der Wettbewerb bringt Geld für den Vogelschutz ein.",
+      "honestNote": "Der Wettbewerb ist klein und hilft nur einem Teil der Schutzarbeit. Wie viel Geld zusammenkam, ist nicht bekannt.",
       "sources": [
         {
-          "name": "designboom",
-          "url": "https://www.designboom.com/architecture/bureau-color-translucency-44-sqm-lilac-apartment-lisbon/",
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/environment/gallery/2026/oct/01/the-2026-birdlife-australia-photography-awards-in-pictures",
           "language": "Englisch"
         }
       ],
@@ -992,158 +841,129 @@
       "score": 6
     },
     {
-      "id": "2026-09-30-k23",
-      "ressort": "autos",
-      "kicker": "Québec",
-      "headline": "Konzerttour in Québec läuft komplett mit Batteriestrom",
-      "teaser": "Eine Konzerttour mit fünf Stationen in Québec kam ohne Dieselgenerator und ohne Stromnetz aus. Zwei Chevrolet Silverado EV versorgten Bühne, Ton und Licht, ein mobiler Speicher mit 150 kWh die Küche. Veranstalter war Papillons, Betreiber eines Schnellladenetzes. Der Eintritt war frei.",
+      "id": "2026-09-30-k18",
+      "ressort": "sport",
+      "kicker": "WNBA",
+      "headline": "Erstmals schlägt Nummer 8 die Nummer 1 in den WNBA-Playoffs",
+      "teaser": "Die New York Liberty haben die Minnesota Lynx mit 87:71 geschlagen und die Serie 2:0 gewonnen. Jonquel Jones und Breanna Stewart erzielten je 21 Punkte, Sabrina Ionescu 18. Noch nie zuvor hatte ein Team auf Platz 8 ein Team auf Platz 1 ausgeschaltet.",
       "blocks": [],
-      "whyGood": "Die Tour zeigt, dass Elektroautos und Batterien laute, dieselbetriebene Generatoren bei Veranstaltungen ersetzen können.",
-      "honestNote": "Es war eine kleine Tour mit fünf Auftritten, und die Firma des Autors hat den mobilen Stromspeicher mitentwickelt.",
+      "whyGood": "Ein Außenseiter hat in der 30-jährigen Geschichte der Liga etwas geschafft, das es noch nie gab.",
+      "honestNote": "Dieses Duell ist erst seit 2022 möglich, weil die Liga damals das Playoff-Format änderte. In früheren Formaten trafen diese Platzierungen oft gar nicht aufeinander.",
+      "sources": [
+        {
+          "name": "Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/sep/29/wnba-playoffs-no-8-liberty-spring-historic-upset-to-take-down-no-1-seed-lynx",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6
+    },
+    {
+      "id": "2026-09-30-k19",
+      "ressort": "autos",
+      "kicker": "E-Bikes",
+      "headline": "E-Bikes werden für Jugendliche zum neuen Treffpunkt",
+      "teaser": "Jugendliche treffen sich auf E-Bikes, fahren gemeinsam zum Park, zum Imbiss oder zu Freunden. Die Fahrt selbst ist Teil des Treffens. So entsteht ein beweglicher Ort für Gemeinschaft, wo es Einkaufszentren und Spielhallen kaum noch gibt.",
+      "blocks": [],
+      "whyGood": "Wer früher allein im Zimmer am Handy saß, ist heute mit Freunden draußen unterwegs.",
+      "honestNote": "Das ist die Einschätzung eines Autors und keine Studie. Sorgen über rücksichtsloses Fahren bleiben bestehen.",
       "sources": [
         {
           "name": "Electrek",
-          "url": "https://electrek.co/2026/09/29/silverado-ev-concert-tour-150-kwh-mobile-power-plant/",
+          "url": "https://electrek.co/2026/09/30/e-bikes-are-giving-teenagers-something-we-thought-theyd-lost/",
           "language": "Englisch"
         }
       ],
       "brief": true,
-      "score": 6
+      "score": 5
+    },
+    {
+      "id": "2026-09-30-k20",
+      "ressort": "technik",
+      "kicker": "Datenschutz",
+      "headline": "Google Fotos kann heikle Bildbereiche jetzt selbst unkenntlich machen",
+      "teaser": "Google hat für Google Fotos das Werkzeug „Redact“ vorgestellt. Damit lassen sich Gesichter, Nummernschilder oder Bankdaten auf Fotos verpixeln oder verwischen. Zur Wahl stehen drei Varianten: Mosaic, Mosaic Light und Blur.",
+      "blocks": [],
+      "whyGood": "Wer Fotos teilt, kann sich selbst, sein Kind und Fremde im Hintergrund besser schützen, und das ohne zusätzliche App.",
+      "honestNote": "Das Werkzeug wird zunächst nur für Android ausgerollt. Ob und wann es auf dem iPhone kommt, ist noch offen.",
+      "sources": [
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/google-fotos-sensitive-informationen-blurren-1765804/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5
+    },
+    {
+      "id": "2026-09-30-k21",
+      "ressort": "promis",
+      "kicker": "Großbritannien",
+      "headline": "Prinzessin Kate besucht ehrenamtlichen Senioren-Fahrdienst",
+      "teaser": "Prinzessin Kate hat einen ehrenamtlichen Fahrdienst für Senioren besucht. Dabei überraschte sie eine Seniorin. Nur einen Tag zuvor war sie bei einem Termin im Rugbystadion.",
+      "blocks": [],
+      "whyGood": "Ein Besuch rückt die Freiwilligen in den Blick, die älteren Menschen im Alltag helfen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "stern Lifestyle",
+          "url": "https://www.stern.de/lifestyle/leute/naechster-termin-fuer-prinzessin-kate--besuch-bei-ehrenamtlichem-senioren-fahrdienst-38331398.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5
+    },
+    {
+      "id": "2026-09-30-k22",
+      "ressort": "gaming",
+      "kicker": "Gaming",
+      "headline": "Final Fantasy 11 lässt sich jetzt unbegrenzt kostenlos testen",
+      "teaser": "Square Enix hat das Zeitlimit der kostenlosen Testversion von Final Fantasy 11 aufgehoben. Bisher war nach 14 Tagen Schluss. Jetzt können Spielerinnen und Spieler ihre Figuren bis Stufe 75 steigern, vorher lag die Grenze bei Stufe 50.",
+      "blocks": [],
+      "whyGood": "Das mehr als zwanzig Jahre alte Online-Rollenspiel ist für Neulinge und Rückkehrer ohne Zeitdruck und ohne Abo zugänglich.",
+      "honestNote": "Die Testversion bleibt eingeschränkt. Es gibt zum Beispiel nur die Gebiete des Originalspiels, keinen Handel und keine Auktionen.",
+      "sources": [
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/final-fantasy-11-free-trial-time-limit-removed/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5
+    },
+    {
+      "id": "2026-09-30-k23",
+      "ressort": "dekoration",
+      "kicker": "München",
+      "headline": "Aus kühlem Film-noir-Look wird ein warmes Familienzuhause",
+      "teaser": "Die Architektin Valentina Lauš hat in München eine 250 Quadratmeter große Wohnung aus den 70er-Jahren umgestaltet. Sie verband warme Erdtöne und Vintage-Möbel mit der Klarheit des Japandi-Stils. Aus der kühlen Wohnung wurde ein gemütlicher Ort für eine Familie.",
+      "blocks": [],
+      "whyGood": "Ein kühler Altbestand wurde zu einem warmen Zuhause, und die gute Bausubstanz blieb erhalten.",
+      "honestNote": "Es handelt sich um ein einzelnes Privatprojekt, das Vorbild für eigene Ideen sein kann.",
+      "sources": [
+        {
+          "name": "AD Deutschland",
+          "url": "https://www.ad-magazin.de/artikel/japandi-trifft-auf-70er-jahre-munchner-split-level-wohnung",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5
     },
     {
       "id": "2026-09-30-k24",
-      "ressort": "promis",
-      "kicker": "Busan",
-      "headline": "„BBC Dad“ Robert Kelly zeigt seine Kinder neun Jahre nach dem Video",
-      "teaser": "2017 platzten Marion und James in ein BBC-Interview ihres Vaters Robert Kelly. Nun zeigt der Politikprofessor auf X neue Fotos: Marion ist 13, James 10, die Familie isst Geburtstagskuchen und wandert. Kelly lebt mit seiner Frau Jung-A Kim in Busan, Südkorea.",
-      "blocks": [],
-      "whyGood": "Aus einem vermeintlichen Missgeschick wurde ein Moment, über den viele berufstätige Eltern bis heute lachen, und die Familie blickt dankbar darauf zurück.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "E! News",
-          "url": "https://www.eonline.com/news/1436580/bbc-dad-robert-kelly-shares-photos-of-kids-marion-james-from-viral-clip?cmpid=rss-syndicate-genericrss-us-top_stories",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6
-    },
-    {
-      "id": "2026-09-30-k25",
-      "ressort": "bildung",
-      "kicker": "USA",
-      "headline": "NPR kürt die besten Schülerpodcasts des Landes",
-      "teaser": "Beim Podcast-Wettbewerb des US-Senders NPR haben Schüler fast 1.500 Beiträge eingereicht, aus 42 Bundesstaaten und Washington, D.C. Je zehn Finalisten aus Mittel- und Oberstufe stehen nun fest. Die Gewinner laufen bald im NPR-Programm.",
-      "blocks": [],
-      "whyGood": "Tausende Jugendliche haben mit Neugier eigene Fragen erforscht, von Familiengeschichten bis zur Frage, was Heimat bedeutet, und bekommen dafür eine große Bühne.",
-      "honestNote": "Die Sieger stehen noch nicht fest. Eine Jury wählt sie in den kommenden Wochen aus.",
-      "sources": [
-        {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/09/30/nx-s1-5930430/student-podcast-challenge-2026-finalists",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 5
-    },
-    {
-      "id": "2026-09-30-k26",
-      "ressort": "technik",
-      "kicker": "Firefox",
-      "headline": "Firefox bekommt neues Design und den Kompaktmodus zurück",
-      "teaser": "Mozilla gibt seinem Browser Firefox ein neues Design. Dazu kehrt der Kompaktmodus zurück, den viele Nutzer in den vergangenen Jahren vermisst haben.",
-      "blocks": [],
-      "whyGood": "Ein Hersteller hört auf seine Nutzer und bringt eine beliebte Funktion zurück.",
-      "honestNote": "Der Artikeltext war nicht abrufbar. Die Meldung stützt sich nur auf Titel und Anriss, Details zum Design und zum Zeitpunkt fehlen.",
-      "sources": [
-        {
-          "name": "Golem",
-          "url": "https://www.golem.de/news/mozilla-browser-firefox-erhaelt-neues-design-und-bekommt-kompaktmodus-zurueck-2609-213571.html",
-          "language": "Deutsch"
-        },
-        {
-          "name": "t3n",
-          "url": "https://t3n.de/news/firefox-157-update-design-kompaktmodus-1765774/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 5
-    },
-    {
-      "id": "2026-09-30-k27",
-      "ressort": "wirtschaft",
-      "kicker": "Energiewende",
-      "headline": "IEA: Ein Drittel der Energie könnte bis 2035 aus Strom kommen",
-      "teaser": "Strom könnte bis 2035 kosteneffizient 33 Prozent des weltweiten Endenergieverbrauchs decken. Heute sind es 23 Prozent. Das zeigt eine Analyse der Internationalen Energieagentur für die UN-Klimakonferenz COP31. Das diskutierte globale Ziel von 35 Prozent wäre damit in greifbarer Nähe.",
-      "blocks": [],
-      "whyGood": "Mehr Strom statt Öl und Gas könnte die Emissionen in Verkehr, Gebäuden und Industrie bis 2035 um 40 Prozent senken und importierenden Ländern über 400 Milliarden Dollar sparen.",
-      "honestNote": "Es handelt sich um eine Potenzialanalyse. Ob das 35-Prozent-Ziel beschlossen und erreicht wird, hängt von den Verhandlungen und der Umsetzung in den Ländern ab.",
-      "sources": [
-        {
-          "name": "ecomento",
-          "url": "https://feeds.feedblitz.com/~/970798205/0/ecomento_de~IEAAnalyse-Globales-Elektrifizierungsziel-von-Prozent-r%c3%bcckt-n%c3%a4her/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 5
-    },
-    {
-      "id": "2026-09-30-k28",
-      "ressort": "serien",
-      "kicker": "Zehn Jahre Funk",
-      "headline": "Funk wird zehn: Jugendangebot von ARD und ZDF ist ein Erfolg",
-      "teaser": "Am 1. Oktober 2016 startete Funk, das Online-Angebot von ARD und ZDF für 14- bis 29-Jährige. Anfangs glaubten nur wenige daran. Heute kennen 89 Prozent der Zielgruppe das Netzwerk, und zu den 40 Startformaten kamen mehr als 200 weitere dazu.",
-      "blocks": [],
-      "whyGood": "Ein Projekt, das zu Beginn als vertane Chance galt, erreicht heute junge Menschen mit öffentlich-rechtlichen Inhalten in großer Zahl.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "DWDL",
-          "url": "https://www.dwdl.de/magazin/108015/10_jahre_funk_aus_der_totgeburt_ist_ein_erfolgsmodell_geworden/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 5
-    },
-    {
-      "id": "2026-09-30-k29",
-      "ressort": "fotografie",
-      "kicker": "Newcastle, Australien",
-      "headline": "Damien Frost zeigt Dragqueens zwischen Ziegen und Kohlezügen",
-      "teaser": "Der Fotograf Damien Frost porträtiert seit über zehn Jahren Dragqueens und Club Kids in London. Für das Festival New Annual hat er nun Nachtschwärmer rund um Newcastle fotografiert, auf Farmen, in Sanddünen und am Hafen. Die Bilder sind in der Galerie Watt Space zu sehen.",
-      "blocks": [],
-      "whyGood": "Die Porträts zeigen Menschen, die mit Mode und Make-up selbstbewusst ausdrücken, wer sie sind, auch fernab der großen Bühnen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Guardian Culture",
-          "url": "https://www.theguardian.com/artanddesign/ng-interactive/2026/sep/29/damien-frost-drag-queen-portraits-photography",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 5
-    },
-    {
-      "id": "2026-09-30-k30",
       "ressort": "kueche",
       "kicker": "Küche",
-      "headline": "Apfelmus selber machen: Zwei Zutaten reichen",
-      "teaser": "Für selbstgemachtes Apfelmus braucht man nur Äpfel und Wasser. Das Portal Utopia empfiehlt 2 kg Bio-Äpfel und 200 ml Wasser, die etwa 20 Minuten köcheln. Zucker ist nicht nötig, denn die Süße bringt der Apfel selbst mit.",
+      "headline": "Aus zu vielen Äpfeln wird ein samtiger Apfelbutter-Aufstrich",
+      "teaser": "Bon Appétit zeigt, was man mit einer großen Apfelernte machen kann: Apfelbutter. Man kocht etwa 2,7 Kilo Äpfel mit Apfelsaft, Zucker, Zimt und Nelken weich, püriert sie und lässt alles im Ofen eindicken. Schale und Kerngehäuse bleiben zunächst dran, sie geben Geschmack und Pektin.",
       "blocks": [],
-      "whyGood": "Ein einfaches Rezept ohne Zucker, das Abfall spart und Äpfel aus der Nähe verwertet.",
-      "honestNote": "Das ist ein Rezept und keine Nachricht. Der Originalartikel enthält außerdem Partnerlinks.",
+      "whyGood": "Aus einer Fülle an Äpfeln entsteht ohne Verschwendung ein Aufstrich, der sich bis zu drei Monate einfrieren lässt.",
+      "honestNote": "Das Rezept braucht gut 3,5 Stunden, der größte Teil davon ist aber Wartezeit.",
       "sources": [
-        {
-          "name": "Utopia",
-          "url": "https://utopia.de/ratgeber/apfelmus-selber-machen-einfaches-rezept-aus-nur-zwei-zutaten-v3_71896/",
-          "language": "Deutsch"
-        },
         {
           "name": "Bon Appétit",
           "url": "https://www.bonappetit.com/recipe/apple-butter-recipe",
@@ -1152,11 +972,130 @@
       ],
       "brief": true,
       "score": 5
+    },
+    {
+      "id": "2026-09-30-k25",
+      "ressort": "natur",
+      "kicker": "Schottland",
+      "headline": "Summer Isles: Verbot der Jakobsmuschel-Dredge lässt Meer aufleben",
+      "teaser": "Vor zehn Jahren setzten Anwohner, Taucher und Fischer an der Nordwestküste Schottlands ein Dredge-Verbot durch. Es gilt in einem Schutzgebiet von 600 Quadratkilometern. Nun sehen sie mehr Wale, Delfine und Fische, und die Jakobsmuscheln erholen sich.",
+      "blocks": [],
+      "whyGood": "Ein geschützter Meeresboden zeigt, dass sich die Natur erholen kann, wenn eine Gemeinde zusammenhält.",
+      "honestNote": "Die Beobachtungen stammen von Anwohnern und Fischern vor Ort und sind keine umfassende wissenschaftliche Messung.",
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/environment/2026/sep/30/beyond-priceless-how-a-halt-to-dredging-saved-the-seas-of-scotlands-summer-isles",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 8
+    },
+    {
+      "id": "2026-09-30-k26",
+      "ressort": "architektur",
+      "kicker": "Rotterdam",
+      "headline": "Aus der Brandruine der Julianakerk werden vier Wohnungen",
+      "teaser": "Neun Jahre nach dem Brand der Julianakerk in Rotterdam ist das Projekt JUUL fertig. Das Büro HA-HA Design & Development hat die Reste der Kirche in vier Wohnungen verwandelt. Der beschädigte Ort im Gartendorf Heijplaat hat wieder eine Zukunft.",
+      "blocks": [],
+      "whyGood": "Ein Ort, der jahrelang beschädigt dastand, wird wieder zum Zuhause für Menschen.",
+      "honestNote": "Es sind vier Wohnungen auf rund 700 Quadratmetern, also ein kleines Projekt.",
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1184622/juul-transformation-of-the-julianakerk-ha-ha-design-and-development",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7
+    },
+    {
+      "id": "2026-09-30-k27",
+      "ressort": "kurioses",
+      "kicker": "China",
+      "headline": "Sechsjährige löst Zauberwürfel in Weltrekordzeit für Frauen",
+      "teaser": "Lian Yunzhi aus China ist sechs Jahre alt und hat den Frauen-Weltrekord im Zauberwürfel-Lösen gebrochen. Bei zwei offiziellen Wettbewerben in Wuhan und Guangzhou erreichte sie Durchschnittszeiten von 4,52 und 4,27 Sekunden. Sie übt dafür hart und hat über 1.300 Lösungswege gelernt.",
+      "blocks": [],
+      "whyGood": "Ein kleines Mädchen erreicht mit Ausdauer und Freude an der Sache einen Weltrekord.",
+      "honestNote": "Die Zeiten sind Durchschnitte aus jeweils fünf Lösungen beim 3×3-Würfel.",
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/lian-yunzhi-rubiks-cube-prodigy/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6
+    },
+    {
+      "id": "2026-09-30-k28",
+      "ressort": "bildung",
+      "kicker": "Denver",
+      "headline": "Denver eröffnet erstes Wohnhaus für obdachlose Studierende",
+      "teaser": "Die Organisation Depaul USA hat in Denver ihr erstes Studierendenwohnhaus eröffnet. Im Programm „Dax“ finden bis zu 15 Studierende einen sicheren Platz zum Wohnen. Partner sind die Metropolitan State University of Denver und die Regis University.",
+      "blocks": [],
+      "whyGood": "Wer keine Wohnung hat, kann sich nun auf das Studium konzentrieren und muss nicht jeden Abend um einen Schlafplatz bangen.",
+      "honestNote": "Das Haus ist klein. Es bietet Platz für 15 Studierende, und wer einzieht, muss mindestens 10 Stunden pro Woche arbeiten und Miete zahlen.",
+      "sources": [
+        {
+          "name": "Reasons to be Cheerful",
+          "url": "https://reasonstobecheerful.world/home-for-denver-homeless-college-students/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6
+    },
+    {
+      "id": "2026-09-30-k29",
+      "ressort": "wissenschaft",
+      "kicker": "Urzeit-Fund",
+      "headline": "245 Millionen Jahre altes Fossil zeigt Magen und Darm",
+      "teaser": "Ein Fossil aus China hat Magen, Leber und Darm erhalten. Es gehört zu Austronaga minuta, einem kleinen Meeresreptil. Forschende aus China, Europa und den USA haben es beschrieben, darunter Stephan Spiekman aus Stuttgart. Es ist das älteste weitgehend vollständige Verdauungssystem eines Reptils.",
+      "blocks": [],
+      "whyGood": "Dank moderner Analysetechnik können wir heute in ein Tier blicken, das vor 245 Millionen Jahren im Meer schwamm.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6
+    },
+    {
+      "id": "2026-09-30-k30",
+      "ressort": "zukunft",
+      "kicker": "Australien",
+      "headline": "Bienenseide soll Wundverbände intelligenter machen",
+      "teaser": "Forschende von CSIRO und der Adelaide University haben aus gentechnisch hergestellter Honigbienenseide einen abbaubaren Film entwickelt. Er war bei der Wundheilung sicher und gut verträglich. Der Film löste sich in der Wunde größtenteils nach und nach auf.",
+      "blocks": [],
+      "whyGood": "Verbände aus Bienenseide könnten Wunden schonender heilen lassen und später Infektionen erkennen oder bekämpfen.",
+      "honestNote": "Bisher gibt es Laborergebnisse. Die „smarten“ Verbände mit Infektionssignalen oder Wirkstoffabgabe will das Team erst noch entwickeln und testen.",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-09-honeybee-silk-power-smarter-wound.html",
+          "language": "Englisch"
+        },
+        {
+          "name": "futurezone",
+          "url": "https://futurezone.at/science/honigbienen-seide-wundversorgung-university-of-adelaide/403194865",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6
     }
   ],
   "joke": {
-    "setup": "Was ist orange und wandert durch den Wald?",
-    "punchline": "Eine Wanderine."
+    "setup": "Was sagt ein Hai, wenn er an Land geht?",
+    "punchline": "Ich bin dann mal weg, ich muss noch Flossen putzen."
   },
   "comic": {
     "title": "Pepper&Carrot · Folge 2",
@@ -1199,16 +1138,13 @@
   "recommendation": {
     "kind": "serie",
     "label": "Serie",
-    "title": "Adults",
-    "creator": "Ben Kronengold und Rebecca Shaw",
-    "year": "2025",
-    "text": "Die Comedy über eine Clique junger Erwachsener, die in New York zusammenwohnt und sich durchs Erwachsenwerden stolpert, wird schon als „Friends“ der 2020er Jahre gehandelt. Die zweite Staffel ist jetzt bei Disney+ gestartet, alle acht neuen Folgen stehen komplett zum Streamen bereit. Ideal, um sich an einem Abend mit schrägen Freundschaftsgeschichten gute Laune zu holen.",
-    "forWhom": "Für alle, die gern mit einer chaotischen WG über das Leben mit Mitte zwanzig lachen.",
-    "link": "https://de.wikipedia.org/wiki/Adults_%28Fernsehserie%29",
-    "source": {
-      "name": "Serienjunkies",
-      "url": "https://www.serienjunkies.de/news/serien/deutschlandpremiere-das-friends-der-2020er-jahre-startet-heute-in-die-neue-staffel-94515287.html"
-    }
+    "title": "Ted Lasso",
+    "creator": "Bill Lawrence, Jason Sudeikis, Brendan Hunt, Joe Kelly",
+    "year": "2020",
+    "text": "Ein amerikanischer Football-Trainer übernimmt einen englischen Fußballclub und gewinnt mit Freundlichkeit und Humor die Herzen. Die Serie wurde mit zahlreichen Emmys ausgezeichnet und gilt als eine der warmherzigsten Comedys der letzten Jahre.",
+    "forWhom": "Für alle, die gern Geschichten über Zusammenhalt und Optimismus sehen.",
+    "link": "https://de.wikipedia.org/wiki/Ted_Lasso",
+    "source": null
   },
   "weekly": null
 }
