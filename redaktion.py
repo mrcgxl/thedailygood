@@ -18,6 +18,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.parse
 import urllib.request
@@ -40,6 +41,10 @@ from prompts import (  # noqa: E402
 from sources import FEEDS, RECOMMENDATIONS  # noqa: E402
 
 MODEL = "claude-opus-5-5"
+# Mit einem Token von `claude setup-token` läuft alles über Mircos Claude-Abo statt über API-Guthaben
+BACKEND = "abo" if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN") else "api"
+ABO_MODEL = os.environ.get("DG_ABO_MODEL", "sonnet")
+ABO_TIMEOUT = 20 * 60  # Sekunden pro Anfrage
 PRICE_INPUT = 4.0 / 1_000_000   # $ pro Token, Claude Opus 5.5
 PRICE_OUTPUT = 20.0 / 1_000_000
 FIRST_EDITION = dt.date(2026, 9, 29)
@@ -82,6 +87,13 @@ class Usage:
         self.output += tokens_out
         self.dollars += factor * (tokens_in * PRICE_INPUT + tokens_out * PRICE_OUTPUT)
 
+    def add_abo(self, result):
+        """Verbrauch einer Anfrage über Claude Code. Die Dollar sind nur ein Vergleichswert, das Abo zahlt."""
+        usage = result.get("usage") or {}
+        self.input += sum(usage.get(key) or 0 for key in ("input_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"))
+        self.output += usage.get("output_tokens") or 0
+        self.dollars += result.get("total_cost_usd") or 0.0
+
 
 USAGE = Usage()
 
@@ -111,9 +123,38 @@ def parse(message):
     return json.loads(text)
 
 
+def ask_abo(system, user, schema, effort):
+    """Eine Anfrage über Claude Code mit dem Abo: kein Werkzeug, kein Verlauf, festes JSON-Format."""
+    env = {key: value for key, value in os.environ.items() if key != "ANTHROPIC_API_KEY"}  # sonst zahlt doch die API
+    env["CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC"] = "1"
+    command = [
+        "claude", "-p", "--output-format", "json", "--model", ABO_MODEL, "--tools", "",
+        "--no-session-persistence", "--effort", effort, "--system-prompt", system,
+        "--json-schema", json.dumps(schema, ensure_ascii=False),
+    ]
+    try:
+        run = subprocess.run(command, input=user, capture_output=True, text=True, timeout=ABO_TIMEOUT,
+                             env=env, cwd=tempfile.gettempdir())
+    except (OSError, subprocess.TimeoutExpired) as error:
+        raise Skipped(f"Claude Code: {error}")
+    try:
+        result = json.loads(run.stdout)
+    except json.JSONDecodeError:
+        raise Skipped(f"Claude Code ohne Antwort: {(run.stderr or run.stdout).strip()[:200]}")
+    USAGE.add_abo(result)
+    if result.get("is_error"):
+        raise Skipped(str(result.get("result"))[:200])
+    if isinstance(result.get("structured_output"), dict):
+        return result["structured_output"]
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", (result.get("result") or "").strip())
+    return json.loads(text)
+
+
 def ask(client, system, user, schema, max_tokens=16000, effort="medium"):
     """Eine einzelne Anfrage mit garantiertem JSON. Lehnt Opus ab, springt serverseitig ein anderes Modell ein.
     Gestreamt, weil das SDK große Antworten ohne Streaming ablehnt (mögliche Dauer über 10 Minuten)."""
+    if BACKEND == "abo":
+        return ask_abo(system, user, schema, effort)
     with client.beta.messages.stream(
         betas=["server-side-fallback-2026-07-01"],
         fallbacks="default",
@@ -153,7 +194,7 @@ def ask_all(client, jobs, use_batch):
     """Mehrere Anfragen auf einmal. jobs: {Schlüssel: (system, user, schema, max_tokens, effort)}.
     Gibt {Schlüssel: Ergebnis} zurück, gescheiterte Anfragen als Fehlerobjekt."""
     results = {}
-    if use_batch:
+    if use_batch and BACKEND == "api":
         try:
             results = run_batch(client, jobs)
         except anthropic.APIError as error:
@@ -166,7 +207,7 @@ def ask_all(client, jobs, use_batch):
         except (Skipped, anthropic.APIError, json.JSONDecodeError, ValueError) as error:
             return error
 
-    with ThreadPoolExecutor(4) as pool:
+    with ThreadPoolExecutor(3 if BACKEND == "abo" else 4) as pool:
         for key, outcome in zip(missing, pool.map(single, missing)):
             results[key] = outcome
     return results
@@ -737,7 +778,8 @@ def main():
     if args.skip_if_exists and (OUT / "editions" / f"{today.isoformat()}.json").exists():
         print(f"Die Ausgabe vom {today.isoformat()} gibt es schon, nichts zu tun.")
         return
-    client = anthropic.Anthropic(api_key=api_key())
+    client = anthropic.Anthropic(api_key=api_key()) if BACKEND == "api" else None
+    print(f"Über {'das Claude-Abo (' + ABO_MODEL + ')' if BACKEND == 'abo' else 'die API (' + MODEL + ')'}")
 
     print("1. Meldungen sammeln …")
     items = collect(args.hours)
@@ -852,7 +894,11 @@ def main():
     (OUT / "latest.json").write_text(payload)
     briefs_written = sum(1 for s in stories if s.get("brief"))
     print(f"4. Fertig: Ausgabe Nr. {edition['number']} mit {len(stories) - briefs_written} Geschichten und {briefs_written} Kurzmeldungen")
-    print(f"   Tokens: {USAGE.input:,} rein, {USAGE.output:,} raus. Kosten etwa {USAGE.dollars:.2f} $")
+    if BACKEND == "abo":
+        print(f"   Tokens: {USAGE.input:,} rein, {USAGE.output:,} raus. Über das Abo, keine Extrakosten "
+              f"(über die API wären es etwa {USAGE.dollars:.2f} $)")
+    else:
+        print(f"   Tokens: {USAGE.input:,} rein, {USAGE.output:,} raus. Kosten etwa {USAGE.dollars:.2f} $")
 
 
 if __name__ == "__main__":
