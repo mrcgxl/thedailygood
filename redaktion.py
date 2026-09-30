@@ -44,7 +44,7 @@ PRICE_INPUT = 4.0 / 1_000_000   # $ pro Token, Claude Opus 5.5
 PRICE_OUTPUT = 20.0 / 1_000_000
 FIRST_EDITION = dt.date(2026, 9, 29)
 ITEMS_PER_FEED = 15
-BATCH_WAIT = 45 * 60  # Sekunden, danach wird einzeln nachgefragt
+BATCH_WAIT = 70 * 60  # Sekunden, danach wird einzeln nachgefragt (am 30.09. brauchte die Auswahl über 45 Minuten)
 HERE = Path(__file__).resolve().parent
 OUT = HERE / "docs"  # wird von GitHub Pages ausgeliefert
 PAGES_URL = "https://mrcgxl.github.io/thedailygood"
@@ -112,12 +112,14 @@ def parse(message):
 
 
 def ask(client, system, user, schema, max_tokens=16000, effort="medium"):
-    """Eine einzelne Anfrage mit garantiertem JSON. Lehnt Opus ab, springt serverseitig ein anderes Modell ein."""
-    response = client.beta.messages.create(
+    """Eine einzelne Anfrage mit garantiertem JSON. Lehnt Opus ab, springt serverseitig ein anderes Modell ein.
+    Gestreamt, weil das SDK große Antworten ohne Streaming ablehnt (mögliche Dauer über 10 Minuten)."""
+    with client.beta.messages.stream(
         betas=["server-side-fallback-2026-07-01"],
         fallbacks="default",
         **params(system, user, schema, max_tokens, effort),
-    )
+    ) as stream:
+        response = stream.get_final_message()
     USAGE.add(response.usage)
     return parse(response)
 
@@ -161,7 +163,7 @@ def ask_all(client, jobs, use_batch):
     def single(key):
         try:
             return ask(client, *jobs[key])
-        except (Skipped, anthropic.APIError, json.JSONDecodeError) as error:
+        except (Skipped, anthropic.APIError, json.JSONDecodeError, ValueError) as error:
             return error
 
     with ThreadPoolExecutor(4) as pool:
