@@ -4,12 +4,13 @@ name: Tagesausgabe
 on:
   # GitHub verschiebt oder verwirft geplante Läufe bei hoher Last. Deshalb mehrere Termine:
   # Der erste erfolgreiche Lauf schreibt die Ausgabe, die späteren beenden sich sofort (--skip-if-exists).
-  # Zeiten in UTC: 4:30, 5:15, 6:00 und 6:45 Uhr Sommerzeit (im Winter eine Stunde früher)
+  # Zeiten in UTC: 2:30, 3:30, 4:30 und 5:30 Uhr Sommerzeit (im Winter eine Stunde früher).
+  # Früh, weil Batches manchmal über eine Stunde brauchen und die Ausgabe trotzdem vor 6 Uhr da sein soll.
   schedule:
+    - cron: "30 0 * * *"
+    - cron: "30 1 * * *"
     - cron: "30 2 * * *"
-    - cron: "15 3 * * *"
-    - cron: "0 4 * * *"
-    - cron: "45 4 * * *"
+    - cron: "30 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,7 +23,7 @@ concurrency:
 jobs:
   ausgabe:
     runs-on: ubuntu-latest
-    timeout-minutes: 200
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
         with:
