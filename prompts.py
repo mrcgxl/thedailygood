@@ -83,7 +83,7 @@ Regeln
   - background: ein kurzer Hintergrund, der etwas verständlich macht, höchstens 350 Zeichen.
   Beginne nicht immer mit bigNumber. Wenn der Artikel wenig hergibt, nimm facts und background.
 - whyGood: ein bis zwei Sätze, warum die Nachricht Grund zur Freude ist.
-- honestNote: eine ehrliche Einordnung, wenn etwas noch früh, klein oder unsicher ist, zum Beispiel „Bisher nur an Mäusen getestet.“. Sonst null.
+- honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist, zum Beispiel „Bisher nur an Mäusen getestet.“. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
 - Lass belastende Details weg. Keine Todeszahlen, keine Gewalt, keine Krankheitsbilder im Detail."""
 
 BRIEF_SYSTEM = """Du schreibst Kurzmeldungen für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Eine Kurzmeldung steht in der Rubrik „Kurz notiert“ und ist in 20 Sekunden gelesen.
@@ -97,7 +97,7 @@ Regeln
 - kicker: ein bis drei Wörter über der Überschrift, meist Ort oder Thema.
 - teaser: zwei oder drei Sätze, höchstens 320 Zeichen. Was ist passiert, wer steckt dahinter, was bedeutet es?
 - whyGood: ein Satz, warum die Nachricht Grund zur Freude ist.
-- honestNote: eine ehrliche Einordnung, wenn etwas noch früh, klein oder unsicher ist. Sonst null.
+- honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
 - Lass belastende Details weg."""
 
 RECOMMENDATION_SYSTEM = """Du schreibst die „Empfehlung des Tages“ für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Heute empfiehlst du: {kind}.
