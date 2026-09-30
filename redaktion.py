@@ -231,9 +231,26 @@ def collect(hours):
 
 # MARK: Auswahl
 
+def recent_headlines(days=3):
+    """Schlagzeilen der letzten Ausgaben vor heute, damit nichts doppelt erscheint."""
+    today = dt.date.today().isoformat()
+    headlines = []
+    for path in sorted(p for p in (OUT / "editions").glob("*.json") if p.stem < today)[-days:]:
+        try:
+            headlines += [story["headline"] for story in json.loads(path.read_text()).get("stories", [])]
+        except (OSError, json.JSONDecodeError, KeyError):
+            continue
+    return headlines
+
+
 def triage(client, items, use_batch):
     lines = [f"[{i['id']}] {i['source']} ({i['language']}): {i['title']}. {i['summary'][:160]}" for i in items]
     user = "Hier sind die Meldungen der letzten Stunden:\n\n" + "\n".join(lines)
+    recent = recent_headlines()
+    if recent:  # Gestern schon gebracht: nicht noch einmal, auch nicht aus einer anderen Quelle
+        user += ("\n\nDiese Nachrichten standen in den letzten Tagen schon in der Zeitung. "
+                 "Nimm sie nicht noch einmal auf, auch wenn eine andere Quelle darüber berichtet:\n"
+                 + "\n".join(f"- {headline}" for headline in recent))
     result = ask_all(client, {"triage": (TRIAGE_SYSTEM, user, TRIAGE_SCHEMA, 32000, "medium")}, use_batch)["triage"]
     if isinstance(result, Exception):
         raise result
