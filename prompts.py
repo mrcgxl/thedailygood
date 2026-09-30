@@ -1,5 +1,7 @@
 """Anweisungen und JSON-Schemas für die Redaktions-KI."""
 
+from sources import REGIONS
+
 RESSORTS = [
     "welt", "wissenschaft", "zukunft", "technik", "gaming", "design", "architektur", "dekoration",
     "natur", "gesundheit", "sport", "bildung", "wirtschaft", "autos", "kultur", "film", "serien",
@@ -59,6 +61,27 @@ Fasse Meldungen über dasselbe Ereignis zu einem Kandidaten zusammen und liste d
 Gib jedem Kandidaten 1 bis 10 Punkte: Wie viel Freude macht die Nachricht, wie überraschend und interessant ist sie, und wie gut passt sie zu deutschen Lesern?
 Markiere mit heavy, ob die Geschichte trotzdem einen belastenden Hintergrund hat (Krankheit, Krieg, Tod).
 Sei streng, aber denk an jedes Ressort: Wir brauchen pro Ressort bis zu sechs Kandidaten, insgesamt höchstens 100. Lieber ein Ressort mit nur einem guten Kandidaten als mit sechs mittelmäßigen."""
+
+REGION_TRIAGE_SYSTEM = """Du bist Chefredakteur von „The Daily Good“, einer deutschen Zeitung nur mit guten Nachrichten. In der Rubrik „Aus deiner Region“ liest jeder gute Nachrichten aus seinem Bundesland.
+
+Du bekommst Meldungen der Landessender der ARD, sortiert nach Bundesland, jeweils mit Titel und Anriss. Wähle für jedes Bundesland bis zu zwei Meldungen, über die sich die Menschen dort freuen.
+
+Gute Nachrichten aus der Region sind zum Beispiel
+- etwas Neues, das vielen nützt: ein Radweg, eine Brücke, eine Schule, ein Spielplatz, ein Park, eine Bahnverbindung,
+- Erfolge von Menschen, Vereinen, Schulen und Firmen aus der Gegend, Preise und Auszeichnungen,
+- Hilfsbereitschaft, Ehrenamt und gute Nachbarschaft,
+- Natur und Tiere: Artenschutz, seltene Tiere, gerettete Tiere, Nachwuchs im Zoo,
+- Feste, Kultur, besondere Orte, Entdeckungen, Funde und schöne Kuriositäten.
+
+Keine guten Nachrichten sind
+- Verbrechen, Prozesse, Unfälle, Brände, Unwetter, Krankheit und Todesfälle,
+- Streit, Parteipolitik, Streiks, Proteste, Klagen und Skandale,
+- Schließungen, Stellenabbau, Sperrungen, Baustellen, Kosten und Preiserhöhungen,
+- Wetterberichte, Verkehrsmeldungen, Terminhinweise, Meinungen und Interviews,
+- Ankündigungen ohne echten Fortschritt.
+
+Gib jeder Auswahl 1 bis 10 Punkte: Wie sehr freut die Nachricht die Menschen dort, und wie konkret ist sie? Nimm nur Meldungen ab 5 Punkten und nichts mit belastendem Hintergrund. Lieber kein Eintrag für ein Bundesland als ein mittelmäßiger.
+region ist das Kürzel des Bundeslands, item_id die Nummer der Meldung. Gehört eine Meldung zu zwei Bundesländern, darfst du sie bei beiden nennen."""
 
 WRITER_SYSTEM = """Du schreibst für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Die App zeigt jede Nachricht als kurze Bildergeschichte: eine Titelkarte, dann zwei oder drei Bausteine, dann „Warum das gut ist“.
 
@@ -228,4 +251,12 @@ IMAGE_SCHEMA = obj({
 
 IMAGE_PICK_SCHEMA = obj({
     "picks": {"type": "array", "items": obj({"storyID": STRING, "choice": {"type": "integer"}})},
+})
+
+REGION_TRIAGE_SCHEMA = obj({
+    "picks": {"type": "array", "items": obj({
+        "region": {"type": "string", "enum": list(REGIONS)},
+        "item_id": STRING,
+        "score": {"type": "integer"},
+    })},
 })

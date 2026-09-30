@@ -35,10 +35,10 @@ import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
     BRIEF_SCHEMA, BRIEF_SYSTEM, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
-    JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA,
-    TRIAGE_SYSTEM, WRITER_SYSTEM,
+    JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, REGION_TRIAGE_SCHEMA,
+    REGION_TRIAGE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
-from sources import FEEDS, RECOMMENDATIONS  # noqa: E402
+from sources import FEEDS, RECOMMENDATIONS, REGIONAL_FEEDS, REGIONS  # noqa: E402
 
 MODEL = "claude-opus-5-5"
 # Mit einem Token von `claude setup-token` läuft alles über Mircos Claude-Abo statt über API-Guthaben
@@ -331,6 +331,171 @@ def select(candidates, full, briefs, per_ressort=5):
         ordered.append(pick)
         rest.remove(pick)
     return ordered, short
+
+
+# MARK: Region
+
+TAGESSCHAU_REGION = "https://www.tagesschau.de/api2u/news/?regions={}"
+REGION_ITEMS = 25  # so viele neue Meldungen pro Bundesland bekommt die Auswahl höchstens
+BROADCASTERS = {"wdr.de": "WDR", "ndr.de": "NDR", "swr.de": "SWR", "mdr.de": "MDR", "hessenschau.de": "hessenschau",
+                "rbb24.de": "rbb24", "sr.de": "SR", "br.de": "BR24", "butenunbinnen.de": "buten un binnen",
+                "radiobremen.de": "Radio Bremen"}
+
+
+def broadcaster(link):
+    host = urllib.parse.urlparse(link).hostname or ""
+    return next((name for domain, name in BROADCASTERS.items() if host == domain or host.endswith("." + domain)),
+                "tagesschau.de")
+
+
+def used_regional_links(days=3):
+    """Quellen der Regionalmeldungen aus den letzten Ausgaben, damit nichts doppelt erscheint."""
+    today = dt.date.today().isoformat()
+    links = set()
+    for path in sorted(p for p in (OUT / "editions").glob("*.json") if p.stem < today)[-days:]:
+        try:
+            for story in json.loads(path.read_text()).get("regional") or []:
+                links.update(source["url"] for source in story.get("sources", []))
+        except (OSError, json.JSONDecodeError, KeyError, TypeError):
+            continue
+    return links
+
+
+def tagesschau_region(code, since):
+    """Regionalmeldungen eines Bundeslands von tagesschau.de. Den Volltext gibt es später über details."""
+    code_of = {number: key for key, (_, number) in REGIONS.items()}
+    try:
+        data = fetch_json(TAGESSCHAU_REGION.format(REGIONS[code][1]))
+    except Exception as error:  # Eine Region darf die Ausgabe nicht stoppen
+        print(f"  Region übersprungen: {code} ({error})")
+        return []
+    items = []
+    for news in data.get("news") or []:
+        link = news.get("shareURL") or news.get("detailsweb")
+        title = clean(news.get("title"), 200)
+        try:
+            stamp = dt.datetime.fromisoformat(news["date"]).timestamp()
+        except (KeyError, TypeError, ValueError):
+            continue
+        if stamp < since or not link or not title or news.get("type") != "story":
+            continue
+        items.append({
+            "source": broadcaster(link),
+            "language": "Deutsch",
+            "title": title,
+            "summary": clean(news.get("firstSentence"), 280),
+            "link": link,
+            "details": news.get("details"),
+            "regions": [code_of[n] for n in news.get("regionIds") or [] if n in code_of] or [code],
+            "time": stamp,
+        })
+    return items
+
+
+def regional_items(hours):
+    """Meldungen aus allen 16 Bundesländern: die Regionalseiten von tagesschau.de, dazu eigene Feeds,
+    wo dort zu wenig kommt. Schon gebrachte Meldungen fallen weg."""
+    since = time.time() - hours * 3600
+    used = used_regional_links()
+    feeds = [(code, feed) for code, region_feeds in REGIONAL_FEEDS.items() for feed in region_feeds]
+    with ThreadPoolExecutor(8) as pool:
+        batches = list(pool.map(lambda code: tagesschau_region(code, since), REGIONS))
+        batches += list(pool.map(lambda pair: [dict(item, regions=[pair[0]]) for item in read_feed(pair[1], since)], feeds))
+    by_link, seen_titles = {}, set()
+    for item in (item for batch in batches for item in batch):
+        if item["link"] in used:
+            continue
+        if item["link"] in by_link:  # Dieselbe Meldung für mehrere Länder
+            known = by_link[item["link"]]
+            known["regions"] = sorted(set(known["regions"]) | set(item["regions"]))
+            continue
+        key = item["title"].lower()[:80]
+        if key in seen_titles:
+            continue
+        seen_titles.add(key)
+        by_link[item["link"]] = item
+    chosen = {}
+    for code in REGIONS:  # Pro Land nur die neuesten, damit die Auswahl überschaubar bleibt
+        own = sorted((item for item in by_link.values() if code in item["regions"]), key=lambda item: -item["time"])
+        for item in own[:REGION_ITEMS]:
+            chosen[item["link"]] = item
+    items = list(chosen.values())
+    for number, item in enumerate(items, 1):
+        item["id"] = f"r{number}"
+    return items
+
+
+def regional_triage(client, items, per_region):
+    """Pro Bundesland bis zu per_region gute Nachrichten, die besten zuerst."""
+    lines = []
+    for code, (name, _) in REGIONS.items():
+        own = [item for item in items if code in item["regions"]]
+        if own:
+            lines.append(f"\n{name} ({code}):")
+            lines += [f"[{item['id']}] {item['title']}. {item['summary'][:150]}" for item in own]
+    user = "Hier sind die Meldungen der Landessender aus den letzten Stunden:\n" + "\n".join(lines)
+    result = ask_all(client, {"region": (REGION_TRIAGE_SYSTEM, user, REGION_TRIAGE_SCHEMA, 8000, "medium")}, False)["region"]
+    if isinstance(result, Exception):
+        raise result
+    by_id = {item["id"]: item for item in items}
+    chosen, count = {}, Counter()
+    for pick in sorted(result["picks"], key=lambda pick: -pick["score"]):
+        item, code = by_id.get(pick["item_id"]), pick["region"]
+        if not item or code not in item["regions"] or pick["score"] < 5 or count[code] >= per_region:
+            continue
+        entry = chosen.setdefault(item["id"], {"item": item, "regions": [], "score": pick["score"]})
+        if code not in entry["regions"]:
+            entry["regions"].append(code)
+            count[code] += 1
+    return list(chosen.values())
+
+
+def regional_text(item):
+    """Volltext: bei tagesschau.de aus der Schnittstelle, sonst von der Seite des Senders."""
+    if item.get("details"):
+        try:
+            content = fetch_json(item["details"]).get("content") or []
+            text = " ".join(clean(block.get("value"), 3000) for block in content
+                            if block.get("type") in ("text", "headline") and block.get("value"))
+            if len(text) >= 300:
+                return text
+        except Exception:  # Dann eben von der Webseite
+            pass
+    return fetch_article(item["link"])
+
+
+def regional_prompt(entry):
+    item = entry["item"]
+    names = " und ".join(REGIONS[code][0] for code in entry["regions"])
+    text = regional_text(item)
+    return (
+        f"Region: {names}\n"
+        f"Quelle: {item['source']}\n"
+        f"Titel: {item['title']}\n"
+        f"Anriss: {item['summary']}\n\n"
+        f"Artikeltext:\n{text[:2500] or '(Nicht abrufbar. Nutze nur Titel und Anriss.)'}\n\n"
+        "Schreib daraus die Kurzmeldung für die Rubrik „Aus deiner Region“. "
+        "kicker ist der Ort, an dem die Nachricht spielt, zum Beispiel die Stadt oder der Landkreis."
+    )
+
+
+def build_regional(entry, brief, story_id):
+    brief = no_dashes(brief)
+    item = entry["item"]
+    return {
+        "id": story_id,
+        "ressort": "region",
+        "regions": entry["regions"],
+        "kicker": brief["kicker"],
+        "headline": brief["headline"],
+        "teaser": brief["teaser"],
+        "blocks": [],
+        "whyGood": brief["whyGood"],
+        "honestNote": brief["honestNote"],
+        "sources": [{"name": item["source"], "url": item["link"], "language": "Deutsch"}],
+        "brief": True,
+        "score": entry["score"],
+    }
 
 
 # MARK: Schreiben
@@ -803,6 +968,8 @@ def main():
     parser.add_argument("--stories", type=int, default=12, help="Anzahl der ausführlichen Geschichten")
     parser.add_argument("--briefs", type=int, default=30, help="Anzahl der Kurzmeldungen")
     parser.add_argument("--per-ressort", type=int, default=5, help="Höchstens so viele Beiträge pro Ressort")
+    parser.add_argument("--per-region", type=int, default=2, help="Höchstens so viele Meldungen pro Bundesland")
+    parser.add_argument("--no-region", action="store_true", help="Ohne die Rubrik „Aus deiner Region“")
     parser.add_argument("--dry-run", action="store_true", help="Nur auswählen, nichts schreiben")
     parser.add_argument("--no-batch", action="store_true", help="Einzeln statt per Batch fragen (schneller, doppelt so teuer)")
     parser.add_argument("--skip-if-exists", action="store_true", help="Nichts tun, wenn es die heutige Ausgabe schon gibt")
@@ -836,6 +1003,19 @@ def main():
         kind = "kurz" if candidate in short else "lang"
         print(f"   {candidate['score']:>2}  {kind}  {candidate['ressort']:<12} {candidate['items'][0]['title'][:74]}")
     print("   pro Ressort:", dict(Counter(c["ressort"] for c in chosen + short).most_common()))
+
+    regional_picks = []
+    if not args.no_region:
+        print("   Aus den Regionen …")
+        try:
+            regional = regional_items(args.hours)
+            print(f"   {len(regional)} Regionalmeldungen")
+            regional_picks = regional_triage(client, regional, args.per_region)
+            per_state = Counter(code for entry in regional_picks for code in entry["regions"])
+            print(f"   {len(regional_picks)} ausgewählt:", dict(sorted(per_state.items())))
+        except Exception as error:  # Ohne Regionalteil erscheint die Ausgabe trotzdem
+            print(f"   Regionalteil übersprungen ({error})")
+            regional_picks = []
     if args.dry_run:
         print(f"Kosten bisher: {USAGE.dollars:.2f} $")
         return
@@ -844,8 +1024,10 @@ def main():
     with ThreadPoolExecutor(6) as pool:
         prompts = list(pool.map(story_prompt, chosen))
         brief_prompts = list(pool.map(brief_prompt, short))
+        regional_prompts = list(pool.map(regional_prompt, regional_picks))
     jobs = {f"story-{n}": (WRITER_SYSTEM, user, STORY_SCHEMA, 8000, "medium") for n, (user, _) in enumerate(prompts, 1)}
     jobs.update({f"brief-{n}": (BRIEF_SYSTEM, user, BRIEF_SCHEMA, 3000, "low") for n, user in enumerate(brief_prompts, 1)})
+    jobs.update({f"region-{n}": (BRIEF_SYSTEM, user, BRIEF_SCHEMA, 3000, "low") for n, user in enumerate(regional_prompts, 1)})
     jobs["joke"] = joke_job()
     tip = None
     try:
@@ -878,6 +1060,15 @@ def main():
             stories.append(build_brief(candidate, result, f"{today.isoformat()}-k{n:02d}"))
         except (Skipped, KeyError) as error:
             print(f"   Kurzmeldung übersprungen: {candidate['items'][0]['title'][:60]} ({error})")
+    regional_stories = []
+    for n, entry in enumerate(regional_picks, 1):
+        result = results.get(f"region-{n}")
+        try:
+            if isinstance(result, Exception) or result is None:
+                raise Skipped(str(result))
+            regional_stories.append(build_regional(entry, result, f"{today.isoformat()}-r{n:02d}"))
+        except (Skipped, KeyError) as error:
+            print(f"   Regionalmeldung übersprungen: {entry['item']['title'][:60]} ({error})")
 
     joke = results.get("joke")
     if isinstance(joke, dict):
@@ -929,13 +1120,15 @@ def main():
         "recommendation": recommendation,
         "weekly": weekly,
         "quiz": quiz,
+        "regional": regional_stories,
     }
     (OUT / "editions").mkdir(parents=True, exist_ok=True)
     payload = json.dumps(edition, ensure_ascii=False, indent=2)
     (OUT / "editions" / f"{today.isoformat()}.json").write_text(payload)
     (OUT / "latest.json").write_text(payload)
     briefs_written = sum(1 for s in stories if s.get("brief"))
-    print(f"4. Fertig: Ausgabe Nr. {edition['number']} mit {len(stories) - briefs_written} Geschichten und {briefs_written} Kurzmeldungen")
+    print(f"4. Fertig: Ausgabe Nr. {edition['number']} mit {len(stories) - briefs_written} Geschichten, "
+          f"{briefs_written} Kurzmeldungen und {len(regional_stories)} Meldungen aus den Regionen")
     if BACKEND == "abo":
         print(f"   Tokens: {USAGE.input:,} rein, {USAGE.output:,} raus. Über das Abo, keine Extrakosten "
               f"(über die API wären es etwa {USAGE.dollars:.2f} $)")

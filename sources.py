@@ -151,3 +151,39 @@ RECOMMENDATIONS = {
         ("NME", "https://www.nme.com/feed", "Englisch"),
     ]),
 }
+
+# „Aus deiner Region“: Kürzel, Name und Nummer der Region bei tagesschau.de
+REGIONS = {
+    "BW": ("Baden-Württemberg", 1),
+    "BY": ("Bayern", 2),
+    "BE": ("Berlin", 3),
+    "BB": ("Brandenburg", 4),
+    "HB": ("Bremen", 5),
+    "HH": ("Hamburg", 6),
+    "HE": ("Hessen", 7),
+    "MV": ("Mecklenburg-Vorpommern", 8),
+    "NI": ("Niedersachsen", 9),
+    "NW": ("Nordrhein-Westfalen", 10),
+    "RP": ("Rheinland-Pfalz", 11),
+    "SL": ("Saarland", 12),
+    "SN": ("Sachsen", 13),
+    "ST": ("Sachsen-Anhalt", 14),
+    "SH": ("Schleswig-Holstein", 15),
+    "TH": ("Thüringen", 16),
+}
+
+# Wo tagesschau.de kaum Regionalmeldungen hat, lesen wir den Landessender direkt
+REGIONAL_FEEDS = {
+    "BY": [
+        ("BR24 Oberbayern", "https://nachrichtenfeeds.br.de/rdf/boards/UZlJdUE", "Deutsch"),
+        ("BR24 Niederbayern", "https://nachrichtenfeeds.br.de/rdf/boards/UZlLX5M", "Deutsch"),
+        ("BR24 Oberpfalz", "https://nachrichtenfeeds.br.de/rdf/boards/UZlL3V1", "Deutsch"),
+        ("BR24 Oberfranken", "https://nachrichtenfeeds.br.de/rdf/boards/UZlNKwl", "Deutsch"),
+        ("BR24 Mittelfranken", "https://nachrichtenfeeds.br.de/rdf/boards/UZlNk5T", "Deutsch"),
+        ("BR24 Unterfranken", "https://nachrichtenfeeds.br.de/rdf/boards/UZlMw8z", "Deutsch"),
+        ("BR24 Schwaben", "https://nachrichtenfeeds.br.de/rdf/boards/UZlMIJH", "Deutsch"),
+    ],
+    "HB": [
+        ("buten un binnen", "https://www.butenunbinnen.de/feed/rss/nachrichten/neuste-nachrichten100.xml", "Deutsch"),
+    ],
+}
