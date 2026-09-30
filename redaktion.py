@@ -711,10 +711,14 @@ def main():
     parser.add_argument("--per-ressort", type=int, default=5, help="Höchstens so viele Beiträge pro Ressort")
     parser.add_argument("--dry-run", action="store_true", help="Nur auswählen, nichts schreiben")
     parser.add_argument("--no-batch", action="store_true", help="Einzeln statt per Batch fragen (schneller, doppelt so teuer)")
+    parser.add_argument("--skip-if-exists", action="store_true", help="Nichts tun, wenn es die heutige Ausgabe schon gibt")
     args = parser.parse_args()
 
-    client = anthropic.Anthropic(api_key=api_key())
     today = dt.date.today()
+    if args.skip_if_exists and (OUT / "editions" / f"{today.isoformat()}.json").exists():
+        print(f"Die Ausgabe vom {today.isoformat()} gibt es schon, nichts zu tun.")
+        return
+    client = anthropic.Anthropic(api_key=api_key())
 
     print("1. Meldungen sammeln …")
     items = collect(args.hours)
