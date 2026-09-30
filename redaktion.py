@@ -126,6 +126,7 @@ def parse(message):
 def ask_abo(system, user, schema, effort):
     """Eine Anfrage über Claude Code mit dem Abo: kein Werkzeug, kein Verlauf, festes JSON-Format."""
     env = {key: value for key, value in os.environ.items() if key != "ANTHROPIC_API_KEY"}  # sonst zahlt doch die API
+    env["CLAUDE_CODE_OAUTH_TOKEN"] = "".join(env.get("CLAUDE_CODE_OAUTH_TOKEN", "").split())  # Umbrüche vom Kopieren
     env["CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC"] = "1"
     command = [
         "claude", "-p", "--output-format", "json", "--model", ABO_MODEL, "--tools", "",

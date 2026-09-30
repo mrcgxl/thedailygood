@@ -42,6 +42,14 @@ jobs:
           node-version: "22"
       - run: npm install -g @anthropic-ai/claude-code
 
+      # Nur Form und Länge des Tokens, nie der Wert
+      - name: Abo-Token prüfen
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          python3 -c "import os; t = os.environ.get('CLAUDE_CODE_OAUTH_TOKEN', ''); c = ''.join(t.split()); print('Länge', len(t), 'ohne Leerraum', len(c), 'Form ok' if c.startswith('sk-ant-oat') else 'unerwartete Form')"
+          claude --version
+
       - name: Ausgabe schreiben
         env:
           # Ist das Abo-Token gesetzt, nutzt das Skript nur das Abo. Der API-Key ist nur noch Reserve.
