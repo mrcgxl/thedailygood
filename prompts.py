@@ -95,16 +95,19 @@ Regeln
 - headline: informativ und ohne Clickbait, höchstens 70 Zeichen.
 - kicker: ein bis drei Wörter über der Überschrift, meist Ort oder Thema.
 - teaser: ein bis zwei Sätze, höchstens 170 Zeichen.
-- blocks: zwei oder drei Bausteine, jeder Typ höchstens einmal. Wähle, was zur Geschichte passt:
-  - bigNumber: eine eindrucksvolle Zahl aus dem Artikel. value enthält nur die Zahl im deutschen Format, zum Beispiel "1,5" oder "120". unit ist die Einheit, zum Beispiel "Meter", "%" oder "Mio. Euro". caption setzt den Satz nach Zahl und Einheit fort und beginnt klein.
-  - facts: genau drei kurze Stichpunkte, jeweils höchstens 90 Zeichen. title ist null (dann steht dort „Das Wichtigste“).
+- blocks: zwei oder drei Bausteine, jeder Typ höchstens einmal. Die App zeichnet daraus Grafiken. Bevorzuge deshalb Bausteine, die sich zeichnen lassen: count, share, comparison, bigNumber, timeline und map. Wähle, was zur Geschichte passt:
+  - count: eine zählbare Menge aus dem Artikel, zum Beispiel 49 Setzlinge, 250 Kiwis oder 12 Schulen. value ist die ganze Zahl von 2 bis 1000. icon zeigt, was gezählt wird. caption setzt den Satz nach der Zahl fort und beginnt klein, zum Beispiel „Setzlinge wachsen jetzt in ganz England“. Die App malt dafür ein Symbol pro Stück.
+  - share: ein Anteil aus dem Artikel, zum Beispiel 60 Prozent des Stroms oder jedes dritte Kind. value ist die Prozentzahl von 1 bis 99. label sagt in höchstens 40 Zeichen, wovon das der Anteil ist. caption ordnet ihn in einem Satz ein. Die App zeichnet ein Feld aus hundert Kästchen.
+  - bigNumber: eine eindrucksvolle Zahl aus dem Artikel, die sich nicht zählen lässt, zum Beispiel 1,5 Grad oder 120 Millionen Euro. value enthält nur die Zahl im deutschen Format, zum Beispiel "1,5" oder "120". unit ist die Einheit, zum Beispiel "Meter", "%" oder "Mio. Euro". caption setzt den Satz nach Zahl und Einheit fort und beginnt klein. icon passt zur Zahl.
+  - facts: genau drei kurze Stichpunkte, jeweils höchstens 90 Zeichen, und für jeden ein passendes Symbol in icons. title ist null (dann steht dort „Das Wichtigste“).
   - comparison: vorher und nachher mit zwei vergleichbaren Zahlen aus dem Artikel, nur wenn sie sich deutlich unterscheiden. value ist die Zahl, display die Anzeige mit Einheit.
   - timeline: drei oder vier Stationen, jede mit einer echten Jahreszahl oder einem Datum.
-  - steps: drei Schritte, die erklären, wie etwas funktioniert.
+  - steps: drei Schritte, die erklären, wie etwas funktioniert, und für jeden ein passendes Symbol in icons.
   - map: nur wenn ein konkreter Ort wichtig ist, mit ungefähren Koordinaten des Ortes.
   - quote: ein kurzes, schönes Zitat aus dem Artikel, ins Deutsche übersetzt, mit Namen und Funktion.
   - background: ein kurzer Hintergrund, der etwas verständlich macht, höchstens 350 Zeichen.
-  Beginne nicht immer mit bigNumber. Wenn der Artikel wenig hergibt, nimm facts und background.
+  Beginne nicht immer mit derselben Art. Wenn der Artikel wenig hergibt, nimm facts und background.
+  Symbole (icon und icons) wählst du nur aus dieser Liste: leaf.fill, tree.fill, drop.fill, flame.fill, bolt.fill, sun.max.fill, moon.fill, cloud.fill, snowflake, wind, water.waves, mountain.2.fill, globe.europe.africa.fill, map.fill, mappin, house.fill, building.2.fill, building.columns.fill, car.fill, bus.fill, tram.fill, bicycle, airplane, ferry.fill, sailboat.fill, fuelpump.fill, bolt.car.fill, battery.100, heart.fill, cross.case.fill, pills.fill, stethoscope, brain.head.profile, figure.walk, figure.run, person.fill, person.2.fill, person.3.fill, figure.and.child.holdinghands, graduationcap.fill, book.fill, books.vertical.fill, pencil, paintbrush.fill, paintpalette.fill, music.note, guitars.fill, film.fill, tv.fill, camera.fill, gamecontroller.fill, trophy.fill, medal.fill, star.fill, sparkles, lightbulb.fill, gearshape.fill, cpu, antenna.radiowaves.left.and.right, atom, flask.fill, microbe.fill, pawprint.fill, bird.fill, fish.fill, tortoise.fill, hare.fill, ladybug.fill, ant.fill, cart.fill, eurosign.circle.fill, banknote.fill, chart.line.uptrend.xyaxis, chart.bar.fill, clock.fill, calendar, hammer.fill, wrench.and.screwdriver.fill, shippingbox.fill, fork.knife, cup.and.saucer.fill, carrot.fill, birthday.cake.fill, arrow.3.trianglepath, trash.fill, tent.fill, binoculars.fill, telescope.fill, magnifyingglass, hand.thumbsup.fill, gift.fill, balloon.fill, party.popper.fill, envelope.fill, phone.fill, wifi, lock.fill, key.fill, scissors, tshirt.fill, bed.double.fill, sofa.fill, lamp.table.fill, basket.fill, soccerball, tennisball.fill, figure.pool.swim, dumbbell.fill, rocket.fill, globe.americas.fill, globe.asia.australia.fill.
 - whyGood: ein bis zwei Sätze, warum die Nachricht Grund zur Freude ist.
 - honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist, zum Beispiel „Bisher nur an Mäusen getestet.“. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
 - country: der zweibuchstabige ISO-Code des Landes, in dem die Nachricht spielt, zum Beispiel DE, NZ oder US. null, wenn sie kein bestimmtes Land betrifft, zum Beispiel bei Weltraum oder weltweiten Studien.
@@ -197,13 +200,19 @@ TRIAGE_SCHEMA = obj({
 
 BAR = obj({"label": STRING, "value": {"type": "number"}, "display": STRING})
 
+ICONS = ['leaf.fill', 'tree.fill', 'drop.fill', 'flame.fill', 'bolt.fill', 'sun.max.fill', 'moon.fill', 'cloud.fill', 'snowflake', 'wind', 'water.waves', 'mountain.2.fill', 'globe.europe.africa.fill', 'map.fill', 'mappin', 'house.fill', 'building.2.fill', 'building.columns.fill', 'car.fill', 'bus.fill', 'tram.fill', 'bicycle', 'airplane', 'ferry.fill', 'sailboat.fill', 'fuelpump.fill', 'bolt.car.fill', 'battery.100', 'heart.fill', 'cross.case.fill', 'pills.fill', 'stethoscope', 'brain.head.profile', 'figure.walk', 'figure.run', 'person.fill', 'person.2.fill', 'person.3.fill', 'figure.and.child.holdinghands', 'graduationcap.fill', 'book.fill', 'books.vertical.fill', 'pencil', 'paintbrush.fill', 'paintpalette.fill', 'music.note', 'guitars.fill', 'film.fill', 'tv.fill', 'camera.fill', 'gamecontroller.fill', 'trophy.fill', 'medal.fill', 'star.fill', 'sparkles', 'lightbulb.fill', 'gearshape.fill', 'cpu', 'antenna.radiowaves.left.and.right', 'atom', 'flask.fill', 'microbe.fill', 'pawprint.fill', 'bird.fill', 'fish.fill', 'tortoise.fill', 'hare.fill', 'ladybug.fill', 'ant.fill', 'cart.fill', 'eurosign.circle.fill', 'banknote.fill', 'chart.line.uptrend.xyaxis', 'chart.bar.fill', 'clock.fill', 'calendar', 'hammer.fill', 'wrench.and.screwdriver.fill', 'shippingbox.fill', 'fork.knife', 'cup.and.saucer.fill', 'carrot.fill', 'birthday.cake.fill', 'arrow.3.trianglepath', 'trash.fill', 'tent.fill', 'binoculars.fill', 'telescope.fill', 'magnifyingglass', 'hand.thumbsup.fill', 'gift.fill', 'balloon.fill', 'party.popper.fill', 'envelope.fill', 'phone.fill', 'wifi', 'lock.fill', 'key.fill', 'scissors', 'tshirt.fill', 'bed.double.fill', 'sofa.fill', 'lamp.table.fill', 'basket.fill', 'soccerball', 'tennisball.fill', 'figure.pool.swim', 'dumbbell.fill', 'rocket.fill', 'globe.americas.fill', 'globe.asia.australia.fill']
+
 BLOCK = {"anyOf": [
-    obj({"type": {"const": "facts"}, "title": nullable(STRING), "items": {"type": "array", "items": STRING}}),
-    obj({"type": {"const": "bigNumber"}, "value": STRING, "unit": nullable(STRING), "caption": STRING}),
+    obj({"type": {"const": "facts"}, "title": nullable(STRING), "items": {"type": "array", "items": STRING},
+         "icons": {"type": "array", "items": STRING}}),
+    obj({"type": {"const": "bigNumber"}, "value": STRING, "unit": nullable(STRING), "caption": STRING, "icon": STRING}),
+    obj({"type": {"const": "count"}, "value": {"type": "integer"}, "icon": STRING, "caption": STRING}),
+    obj({"type": {"const": "share"}, "value": {"type": "number"}, "label": STRING, "caption": STRING}),
     obj({"type": {"const": "comparison"}, "title": nullable(STRING), "before": BAR, "after": BAR}),
     obj({"type": {"const": "timeline"}, "title": nullable(STRING),
          "items": {"type": "array", "items": obj({"year": STRING, "text": STRING})}}),
-    obj({"type": {"const": "steps"}, "title": nullable(STRING), "items": {"type": "array", "items": STRING}}),
+    obj({"type": {"const": "steps"}, "title": nullable(STRING), "items": {"type": "array", "items": STRING},
+         "icons": {"type": "array", "items": STRING}}),
     obj({"type": {"const": "map"}, "place": STRING, "latitude": {"type": "number"},
          "longitude": {"type": "number"}, "caption": nullable(STRING)}),
     obj({"type": {"const": "quote"}, "text": STRING, "author": STRING}),

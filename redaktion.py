@@ -34,7 +34,7 @@ import feedparser  # noqa: E402
 import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
-    BRIEF_SCHEMA, BRIEF_SYSTEM, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
+    BRIEF_SCHEMA, BRIEF_SYSTEM, ICONS, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
     JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, REGION_TRIAGE_SCHEMA,
     REGION_TRIAGE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
@@ -608,12 +608,29 @@ def build_brief(candidate, brief, story_id):
     }
 
 
+def clean_block(block):
+    """Symbole nur aus der Liste, Zahlen in sinnvollen Grenzen. Was nicht passt, fällt weg."""
+    for key in ("icon",):
+        if key in block and block[key] not in ICONS:
+            block[key] = None
+    if "icons" in block:
+        block["icons"] = [icon if icon in ICONS else None for icon in (block.get("icons") or [])]
+    if block["type"] == "count" and not (2 <= int(block.get("value") or 0) <= 1000):
+        return None
+    if block["type"] == "share" and not (1 <= float(block.get("value") or 0) <= 99):
+        return None
+    return block
+
+
 def build_story(candidate, story, story_id):
     story = no_dashes(story)
     kinds = set()
     blocks = []
     for block in story["blocks"]:
         if block["type"] in kinds:
+            continue
+        block = clean_block(block)
+        if block is None:
             continue
         kinds.add(block["type"])
         blocks.append(block)
@@ -760,6 +777,10 @@ def story_text(story):
                 parts.append(block[key])
         if block.get("type") == "bigNumber":
             parts.append(f"{block.get('value')} {block.get('unit') or ''}")
+        if block.get("type") == "share":
+            parts.append(f"{block.get('value')} Prozent: {block.get('label') or ''}")
+        if block.get("type") == "count":
+            parts.append(str(block.get("value")))
         for entry in block.get("items") or []:
             parts.append(entry if isinstance(entry, str) else entry.get("text", ""))
     return " ".join(part for part in parts if part)
