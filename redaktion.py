@@ -495,6 +495,8 @@ def build_regional(entry, brief, story_id):
         "sources": [{"name": item["source"], "url": item["link"], "language": "Deutsch"}],
         "brief": True,
         "score": entry["score"],
+        "country": "DE",
+        "terms": terms_of(brief, 1),
     }
 
 
@@ -569,6 +571,24 @@ def sources_of(candidate):
     return sources
 
 
+def country_of(result):
+    """ISO-Code des Landes, nur wenn er wie einer aussieht."""
+    code = (result.get("country") or "").strip().upper()
+    return code if re.fullmatch(r"[A-Z]{2}", code) else None
+
+
+def terms_of(result, limit):
+    """Erklärte Begriffe: kurz, ohne Dubletten und nur mit beiden Teilen."""
+    terms, seen = [], set()
+    for entry in result.get("terms") or []:
+        term, text = (entry.get("term") or "").strip(), (entry.get("text") or "").strip()
+        if not term or not text or len(term) > 40 or len(text) > 320 or term.lower() in seen:
+            continue
+        seen.add(term.lower())
+        terms.append({"term": term, "text": text})
+    return terms[:limit]
+
+
 def build_brief(candidate, brief, story_id):
     brief = no_dashes(brief)
     return {
@@ -583,6 +603,8 @@ def build_brief(candidate, brief, story_id):
         "sources": sources_of(candidate),
         "brief": True,
         "score": candidate["score"],
+        "country": country_of(brief),
+        "terms": terms_of(brief, 1),
     }
 
 
@@ -606,6 +628,8 @@ def build_story(candidate, story, story_id):
         "honestNote": story["honestNote"],
         "sources": sources_of(candidate),
         "score": candidate["score"],
+        "country": country_of(story),
+        "terms": terms_of(story, 2),
     }
 
 

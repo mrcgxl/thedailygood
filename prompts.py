@@ -107,6 +107,8 @@ Regeln
   Beginne nicht immer mit bigNumber. Wenn der Artikel wenig hergibt, nimm facts und background.
 - whyGood: ein bis zwei Sätze, warum die Nachricht Grund zur Freude ist.
 - honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist, zum Beispiel „Bisher nur an Mäusen getestet.“. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
+- country: der zweibuchstabige ISO-Code des Landes, in dem die Nachricht spielt, zum Beispiel DE, NZ oder US. null, wenn sie kein bestimmtes Land betrifft, zum Beispiel bei Weltraum oder weltweiten Studien.
+- terms: ein oder zwei Fachbegriffe, die wörtlich in deinem Text vorkommen und die nicht jeder kennt, zum Beispiel „Permafrost“ oder „Stammzellen“. text erklärt den Begriff in ein bis zwei einfachen Sätzen, höchstens 200 Zeichen, so dass ihn auch ein Kind versteht. Erkläre nur, was du sicher weißt. Keine Alltagswörter, keine Namen von Personen oder Firmen. Gibt es keinen solchen Begriff, bleibt die Liste leer.
 - Lass belastende Details weg. Keine Todeszahlen, keine Gewalt, keine Krankheitsbilder im Detail."""
 
 BRIEF_SYSTEM = """Du schreibst Kurzmeldungen für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Eine Kurzmeldung steht in der Rubrik „Kurz notiert“ und ist in 20 Sekunden gelesen.
@@ -121,6 +123,8 @@ Regeln
 - teaser: zwei oder drei Sätze, höchstens 320 Zeichen. Was ist passiert, wer steckt dahinter, was bedeutet es?
 - whyGood: ein Satz, warum die Nachricht Grund zur Freude ist.
 - honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
+- country: der zweibuchstabige ISO-Code des Landes, in dem die Nachricht spielt, zum Beispiel DE, NZ oder US. null, wenn sie kein bestimmtes Land betrifft.
+- terms: höchstens ein Fachbegriff, der wörtlich in deinem Text vorkommt und den nicht jeder kennt. text erklärt ihn in ein bis zwei einfachen Sätzen, höchstens 200 Zeichen. Erkläre nur, was du sicher weißt. Keine Alltagswörter und keine Namen. Meist bleibt die Liste leer.
 - Lass belastende Details weg."""
 
 RECOMMENDATION_SYSTEM = """Du schreibst die „Empfehlung des Tages“ für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Heute empfiehlst du: {kind}.
@@ -206,6 +210,8 @@ BLOCK = {"anyOf": [
     obj({"type": {"const": "background"}, "title": STRING, "text": STRING}),
 ]}
 
+TERM = obj({"term": STRING, "text": STRING})
+
 STORY_SCHEMA = obj({
     "kicker": STRING,
     "headline": STRING,
@@ -213,6 +219,8 @@ STORY_SCHEMA = obj({
     "blocks": {"type": "array", "items": BLOCK},
     "whyGood": STRING,
     "honestNote": nullable(STRING),
+    "country": nullable(STRING),
+    "terms": {"type": "array", "items": TERM},
 })
 
 BRIEF_SCHEMA = obj({
@@ -221,6 +229,8 @@ BRIEF_SCHEMA = obj({
     "teaser": STRING,
     "whyGood": STRING,
     "honestNote": nullable(STRING),
+    "country": nullable(STRING),
+    "terms": {"type": "array", "items": TERM},
 })
 
 JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
