@@ -36,9 +36,9 @@ import trafilatura  # noqa: E402
 from prompts import (  # noqa: E402
     BRIEF_SCHEMA, BRIEF_SYSTEM, ICONS, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
     JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, REGION_TRIAGE_SCHEMA,
-    REGION_TRIAGE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
+    RECIPE_SCHEMA, RECIPE_SYSTEM, REGION_TRIAGE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
-from sources import FEEDS, RECOMMENDATIONS, REGIONAL_FEEDS, REGIONS  # noqa: E402
+from sources import FEEDS, RECIPE_SOURCES, RECOMMENDATIONS, REGIONAL_FEEDS, REGIONS  # noqa: E402
 
 MODEL = "claude-opus-5-5"
 # Mit einem Token von `claude setup-token` läuft alles über Mircos Claude-Abo statt über API-Guthaben
@@ -500,6 +500,112 @@ def build_regional(entry, brief, story_id):
     }
 
 
+# MARK: Rezept
+
+RECIPES = STATE / "recipes.json"
+BROWSER = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 TheDailyGood/0.1"
+
+
+def find_recipe(node):
+    """Sucht in den strukturierten Daten einer Seite (schema.org) das Rezept."""
+    if isinstance(node, list):
+        return next((found for found in map(find_recipe, node) if found), None)
+    if isinstance(node, dict):
+        kind = node.get("@type")
+        if kind == "Recipe" or (isinstance(kind, list) and "Recipe" in kind):
+            return node
+        for key in ("@graph", "mainEntity"):
+            if key in node:
+                found = find_recipe(node[key])
+                if found:
+                    return found
+    return None
+
+
+def instructions_of(node):
+    if isinstance(node, str):
+        return [clean(node, 600)]
+    if isinstance(node, list):
+        return [step for entry in node for step in instructions_of(entry)]
+    if isinstance(node, dict):
+        if "itemListElement" in node:
+            return instructions_of(node["itemListElement"])
+        return [clean(node.get("text") or node.get("name") or "", 600)]
+    return []
+
+
+def recipe_material(item):
+    """Zutaten und Zubereitung einer Rezeptseite als Text, sonst None."""
+    try:
+        request = urllib.request.Request(item["link"], headers={"User-Agent": BROWSER})
+        with urllib.request.urlopen(request, timeout=15) as response:
+            page = response.read().decode("utf-8", "ignore")
+    except Exception:
+        return None
+    for block in re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', page, re.S):
+        try:
+            recipe = find_recipe(json.loads(block.strip()))
+        except (json.JSONDecodeError, ValueError):
+            continue
+        if recipe and len(recipe.get("recipeIngredient") or []) >= 3:
+            steps = [step for step in instructions_of(recipe.get("recipeInstructions")) if step]
+            if len(steps) < 2:
+                continue
+            return (f"Name: {clean(recipe.get('name') or item['title'], 200)}\n"
+                    f"Portionen: {recipe.get('recipeYield')}\nZeit: {recipe.get('totalTime') or recipe.get('cookTime')}\n"
+                    "Zutaten:\n" + "\n".join(f"- {clean(i, 200)}" for i in recipe["recipeIngredient"][:30]) +
+                    "\nZubereitung:\n" + "\n".join(f"{n}. {s}" for n, s in enumerate(steps[:12], 1)))[:3500]
+    # Ohne strukturierte Daten: Artikeltext, wenn er nach Rezept aussieht
+    text = trafilatura.extract(page, include_comments=False, include_tables=True) or ""
+    if re.search(r"\bZutaten\b|\bIngredients\b", text) and re.search(r"\d+\s?(g|ml|EL|TL|cups?|tbsp|tsp)\b", text):
+        return f"Name: {item['title']}\n{text[:3500]}"
+    return None
+
+
+def recipe_job():
+    """Anfrage für das Rezept des Tages. Gibt den Job und die Rezepte zurück, oder None."""
+    since = time.time() - 7 * 24 * 3600
+    with ThreadPoolExecutor(4) as pool:
+        batches = list(pool.map(lambda feed: read_feed(feed, since), RECIPE_SOURCES))
+    # Abwechselnd aus den Quellen, damit nicht immer dieselbe Seite gewinnt
+    items = [batch[i] for i in range(max(map(len, batches), default=0)) for batch in batches if i < len(batch)]
+    history = json.loads(RECIPES.read_text()) if RECIPES.exists() else []
+    used = {entry.get("url") for entry in history}
+    items = [item for item in items if item["link"] not in used][:14]
+    with ThreadPoolExecutor(6) as pool:
+        materials = list(pool.map(recipe_material, items))
+    found = [(item, material) for item, material in zip(items, materials) if material][:5]
+    if not found:
+        return None
+    user = "\n\n".join(f"Rezept {n} ({item['source']}):\n{material}" for n, (item, material) in enumerate(found))
+    if history:
+        user += "\n\nDiese Gerichte gab es schon: " + "; ".join(entry["title"] for entry in history[-40:])
+    return (RECIPE_SYSTEM, user, RECIPE_SCHEMA, 6000, "medium"), [item for item, _ in found]
+
+
+def finish_recipe(result, items):
+    if not isinstance(result, dict) or not 0 <= result.get("choice", -1) < len(items):
+        return None
+    result = no_dashes(result)
+    ingredients = [entry for entry in result.get("ingredients") or [] if (entry.get("item") or "").strip()]
+    steps = [step.strip() for step in result.get("steps") or [] if step.strip()]
+    if len(ingredients) < 3 or len(steps) < 2:
+        return None
+    item = items[result["choice"]]
+    recipe = {
+        "title": result["title"], "intro": result["intro"], "servings": max(1, int(result.get("servings") or 2)),
+        "minutes": max(5, int(result.get("minutes") or 30)), "difficulty": result.get("difficulty") or "einfach",
+        "ingredients": ingredients, "steps": steps[:8], "tip": result.get("tip"),
+        "icon": result.get("icon") if result.get("icon") in ICONS else "fork.knife",
+        "source": {"name": item["source"], "url": item["link"]},
+    }
+    history = json.loads(RECIPES.read_text()) if RECIPES.exists() else []
+    history.append({"title": recipe["title"], "url": item["link"], "date": dt.date.today().isoformat()})
+    STATE.mkdir(exist_ok=True)
+    RECIPES.write_text(json.dumps(history[-200:], ensure_ascii=False, indent=1))
+    return recipe
+
+
 # MARK: Schreiben
 
 def fetch_article(url):
@@ -589,6 +695,22 @@ def terms_of(result, limit):
     return terms[:limit]
 
 
+def guess_of(story):
+    """Tippfrage vor dem Lesen, nur wenn sie vollständig ist."""
+    guess = story.get("guess") or {}
+    options = [str(option).strip() for option in guess.get("options") or [] if str(option).strip()]
+    answer = guess.get("answer")
+    if len(options) != 3 or not isinstance(answer, int) or not 0 <= answer <= 2 or not guess.get("question"):
+        return None
+    return {
+        "question": guess["question"].strip(),
+        "options": options,
+        "answer": answer,
+        "reveal": (guess.get("reveal") or "").strip(),
+        "icon": guess.get("icon") if guess.get("icon") in ICONS else None,
+    }
+
+
 def build_brief(candidate, brief, story_id):
     brief = no_dashes(brief)
     return {
@@ -647,6 +769,7 @@ def build_story(candidate, story, story_id):
         "score": candidate["score"],
         "country": country_of(story),
         "terms": terms_of(story, 2),
+        "guess": guess_of(story),
     }
 
 
@@ -1074,6 +1197,13 @@ def main():
     jobs.update({f"brief-{n}": (BRIEF_SYSTEM, user, BRIEF_SCHEMA, 3000, "low") for n, user in enumerate(brief_prompts, 1)})
     jobs.update({f"region-{n}": (BRIEF_SYSTEM, user, BRIEF_SCHEMA, 3000, "low") for n, user in enumerate(regional_prompts, 1)})
     jobs["joke"] = joke_job()
+    recipe_items = None
+    try:
+        recipe = recipe_job()
+        if recipe:
+            jobs["rezept"], recipe_items = recipe
+    except Exception as error:  # Ohne Rezept erscheint die Ausgabe trotzdem
+        print(f"   Rezept übersprungen ({error})")
     tip = None
     try:
         tip_job, tip_kind, tip_label, tip_items = recommendation_job(today)
@@ -1136,6 +1266,14 @@ def main():
             print(f"   Empfehlung: {recommendation['label']}, {recommendation['title']}" if recommendation else "   Heute keine belegte Empfehlung")
         except Exception as error:
             print(f"   Empfehlung übersprungen ({error})")
+    recipe = None
+    if recipe_items:
+        try:
+            recipe = finish_recipe(results.get("rezept"), recipe_items)
+            print(f"   Rezept: {recipe['title']}" if recipe else "   Heute kein passendes Rezept")
+        except Exception as error:
+            print(f"   Rezept übersprungen ({error})")
+
     quiz = None
     try:
         quiz = make_quiz(client, stories)
@@ -1166,6 +1304,7 @@ def main():
         "weekly": weekly,
         "quiz": quiz,
         "regional": regional_stories,
+        "recipe": recipe,
     }
     (OUT / "editions").mkdir(parents=True, exist_ok=True)
     payload = json.dumps(edition, ensure_ascii=False, indent=2)

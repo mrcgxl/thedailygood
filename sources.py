@@ -187,3 +187,11 @@ REGIONAL_FEEDS = {
         ("buten un binnen", "https://www.butenunbinnen.de/feed/rss/nachrichten/neuste-nachrichten100.xml", "Deutsch"),
     ],
 }
+
+# Für das Rezept des Tages: Seiten, deren Rezepte strukturiert vorliegen (schema.org)
+RECIPE_SOURCES = [
+    ("Chefkoch", "https://www.chefkoch.de/rss/rezept-des-tages.php", "Deutsch"),
+    ("Bon Appétit", "https://www.bonappetit.com/feed/recipes-rss-feed/rss", "Englisch"),
+    ("Guardian Food", "https://www.theguardian.com/food/rss", "Englisch"),
+    ("Brigitte Rezepte", "https://www.brigitte.de/rezepte/feed.rss", "Deutsch"),
+]

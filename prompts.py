@@ -108,6 +108,7 @@ Regeln
   - background: ein kurzer Hintergrund, der etwas verständlich macht, höchstens 350 Zeichen.
   Beginne nicht immer mit derselben Art. Wenn der Artikel wenig hergibt, nimm facts und background.
   Symbole (icon und icons) wählst du nur aus dieser Liste: leaf.fill, tree.fill, drop.fill, flame.fill, bolt.fill, sun.max.fill, moon.fill, cloud.fill, snowflake, wind, water.waves, mountain.2.fill, globe.europe.africa.fill, map.fill, mappin, house.fill, building.2.fill, building.columns.fill, car.fill, bus.fill, tram.fill, bicycle, airplane, ferry.fill, sailboat.fill, fuelpump.fill, bolt.car.fill, battery.100, heart.fill, cross.case.fill, pills.fill, stethoscope, brain.head.profile, figure.walk, figure.run, person.fill, person.2.fill, person.3.fill, figure.and.child.holdinghands, graduationcap.fill, book.fill, books.vertical.fill, pencil, paintbrush.fill, paintpalette.fill, music.note, guitars.fill, film.fill, tv.fill, camera.fill, gamecontroller.fill, trophy.fill, medal.fill, star.fill, sparkles, lightbulb.fill, gearshape.fill, cpu, antenna.radiowaves.left.and.right, atom, flask.fill, microbe.fill, pawprint.fill, bird.fill, fish.fill, tortoise.fill, hare.fill, ladybug.fill, ant.fill, cart.fill, eurosign.circle.fill, banknote.fill, chart.line.uptrend.xyaxis, chart.bar.fill, clock.fill, calendar, hammer.fill, wrench.and.screwdriver.fill, shippingbox.fill, fork.knife, cup.and.saucer.fill, carrot.fill, birthday.cake.fill, arrow.3.trianglepath, trash.fill, tent.fill, binoculars.fill, telescope.fill, magnifyingglass, hand.thumbsup.fill, gift.fill, balloon.fill, party.popper.fill, envelope.fill, phone.fill, wifi, lock.fill, key.fill, scissors, tshirt.fill, bed.double.fill, sofa.fill, lamp.table.fill, basket.fill, soccerball, tennisball.fill, figure.pool.swim, dumbbell.fill, rocket.fill, globe.americas.fill, globe.asia.australia.fill.
+- guess: eine Tippfrage, die man vor dem Lesen beantwortet. Sie macht neugierig und ist mit Bauchgefühl lösbar, nicht mit Fachwissen. Die richtige Antwort steht im Artikel und wird in der Frage nicht verraten. question höchstens 110 Zeichen. options sind genau drei kurze Antworten mit höchstens 40 Zeichen, eine stimmt, die anderen klingen plausibel. answer ist die Nummer der richtigen Antwort von 0 bis 2. reveal löst in einem Satz auf, höchstens 140 Zeichen. icon zeigt das Hauptmotiv der Geschichte.
 - whyGood: ein bis zwei Sätze, warum die Nachricht Grund zur Freude ist.
 - honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist, zum Beispiel „Bisher nur an Mäusen getestet.“. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
 - country: der zweibuchstabige ISO-Code des Landes, in dem die Nachricht spielt, zum Beispiel DE, NZ oder US. null, wenn sie kein bestimmtes Land betrifft, zum Beispiel bei Weltraum oder weltweiten Studien.
@@ -230,6 +231,8 @@ STORY_SCHEMA = obj({
     "honestNote": nullable(STRING),
     "country": nullable(STRING),
     "terms": {"type": "array", "items": TERM},
+    "guess": obj({"question": STRING, "options": {"type": "array", "items": STRING}, "answer": {"type": "integer"},
+                  "reveal": STRING, "icon": STRING}),
 })
 
 BRIEF_SCHEMA = obj({
@@ -278,4 +281,32 @@ REGION_TRIAGE_SCHEMA = obj({
         "item_id": STRING,
         "score": {"type": "integer"},
     })},
+})
+
+RECIPE_SYSTEM = """Du suchst das „Rezept des Tages“ für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Die Leser sollen es heute Abend nachkochen können.
+
+Du bekommst bis zu fünf Rezepte aus Kochseiten, jeweils mit Zutaten und Zubereitung.
+- Wähle das Rezept, das am besten zur Jahreszeit passt, gut gelingt und Lust aufs Kochen macht. Lieber einfach als aufwendig. Keine Getränke, keine Zusammenstellungen mehrerer Rezepte.
+- choice ist die Nummer des Rezepts ab 0. Passt keins, setze choice auf -1.
+- Schreibe alles auf Deutsch, in eigenen Worten und einfachen Sätzen. Verwende niemals Gedankenstriche.
+- Nutze nur Zutaten und Mengen aus dem Rezept. Rechne Cups, Unzen, Pfund und Fahrenheit in Gramm, Milliliter, Esslöffel, Teelöffel und Grad Celsius um und runde sinnvoll.
+- title: der deutsche Name des Gerichts, höchstens 50 Zeichen.
+- intro: ein bis zwei Sätze, warum es sich lohnt, zum Beispiel weil gerade Kürbiszeit ist.
+- servings: Anzahl der Portionen. minutes: Zeit insgesamt in Minuten. difficulty: einfach, mittel oder aufwendig.
+- ingredients: jede Zutat einzeln. amount ist die Menge als Zahl oder null, unit die Einheit wie g, ml, EL, TL, Stück, Prise oder null, item die Zutat.
+- steps: drei bis acht Schritte, jeder höchstens 220 Zeichen.
+- tip: ein kurzer Tipp oder eine Abwandlung, sonst null.
+- icon: ein passendes Symbol aus dieser Liste: fork.knife, carrot.fill, birthday.cake.fill, cup.and.saucer.fill, leaf.fill, flame.fill, fish.fill, basket.fill."""
+
+RECIPE_SCHEMA = obj({
+    "choice": {"type": "integer"},
+    "title": STRING,
+    "intro": STRING,
+    "servings": {"type": "integer"},
+    "minutes": {"type": "integer"},
+    "difficulty": {"type": "string", "enum": ["einfach", "mittel", "aufwendig"]},
+    "ingredients": {"type": "array", "items": obj({"amount": nullable({"type": "number"}), "unit": nullable(STRING), "item": STRING})},
+    "steps": {"type": "array", "items": STRING},
+    "tip": nullable(STRING),
+    "icon": STRING,
 })
