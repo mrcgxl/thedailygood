@@ -850,6 +850,7 @@ TIP_HINTS = {
     "spiel": " Am liebsten ein Spiel für mehrere Plattformen und für viele Altersgruppen.",
     "rezept": " Beim Rezept gilt: nur Rezepte aus den Meldungen, itemID ist Pflicht. Beschreib das Gericht, verrate aber nicht das ganze Rezept.",
     "album": " Am liebsten ein Album aus den letzten Monaten, das in den Kritiken gefeiert wird.",
+    "doku": " Eine Dokumentation, die staunen lässt oder Mut macht, zum Beispiel über Natur, Wissenschaft oder besondere Menschen. Nenne keinen Sender und keinen Streamingdienst, wenn er nicht in der Meldung steht.",
 }
 
 

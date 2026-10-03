@@ -137,12 +137,10 @@ RECOMMENDATIONS = {
         ("Eurogamer", "https://www.eurogamer.net/feed", "Englisch"),
         ("Polygon", "https://www.polygon.com/rss/index.xml", "Englisch"),
     ]),
-    5: ("rezept", "Rezept", [
-        ("Brigitte Rezepte", "https://www.brigitte.de/rezepte/feed.rss", "Deutsch"),
-        ("Guardian Food", "https://www.theguardian.com/food/rss", "Englisch"),
-        ("Bon Appétit", "https://www.bonappetit.com/feed/rss", "Englisch"),
-        ("The Kitchn", "https://www.thekitchn.com/main.rss", "Englisch"),
-        ("Budget Bytes", "https://www.budgetbytes.com/feed/", "Englisch"),
+    5: ("doku", "Doku", [  # Rezepte gibt es seit Oktober 2026 jeden Tag als eigene Rubrik
+        ("DWDL", "https://www.dwdl.de/rss/allethemen.xml", "Deutsch"),
+        ("Guardian Documentary", "https://www.theguardian.com/tv-and-radio/documentary/rss", "Englisch"),
+        ("Guardian Film Documentary", "https://www.theguardian.com/film/documentary/rss", "Englisch"),
     ]),
     6: ("album", "Album", [
         ("Pitchfork", "https://pitchfork.com/feed/feed-album-reviews/rss", "Englisch"),
