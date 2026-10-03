@@ -35,11 +35,16 @@ import feedparser  # noqa: E402
 import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
-    BRIEF_SCHEMA, BRIEF_SYSTEM, ICONS, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
-    GUESS_FIX_SCHEMA, GUESS_FIX_SYSTEM, JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, REGION_TRIAGE_SCHEMA,
-    RECIPE_SCHEMA, RECIPE_SYSTEM, REGION_TRIAGE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
+    BRIEF_SCHEMA, BRIEF_SYSTEM, COMIC_MOODS, COMIC_SCHEMA, COMIC_SYSTEM, GUESS_FIX_SCHEMA, GUESS_FIX_SYSTEM, ICONS,
+    IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA, JOKE_SYSTEM, QUIZ_SCHEMA,
+    QUIZ_SYSTEM, RECIPE_SCHEMA, RECIPE_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, REGION_TRIAGE_SCHEMA,
+    REGION_TRIAGE_SYSTEM, STORY_SCHEMA, STRIP_CHECK_SCHEMA, STRIP_CHECK_SYSTEM, TRIAGE_SCHEMA, TRIAGE_SYSTEM,
+    WRITER_SYSTEM,
 )
-from sources import FEEDS, RECIPE_SOURCES, RECOMMENDATIONS, REGIONAL_FEEDS, REGIONS  # noqa: E402
+from sources import (  # noqa: E402
+    BUSCH, COMIC_FALLBACK, COMIC_PLAN, FEEDS, RECIPE_SOURCES, RECOMMENDATIONS, REGIONAL_FEEDS, REGIONS, SANDRA_UND_WOO,
+    VATER_UND_SOHN,
+)
 
 MODEL = "claude-opus-5-5"
 # Mit einem Token von `claude setup-token` läuft alles über Mircos Claude-Abo statt über API-Guthaben
@@ -1097,91 +1102,291 @@ def attach_images(client, stories):
     return count
 
 
-# MARK: Comic des Tages (Pepper&Carrot von David Revoy, CC BY 4.0)
+# MARK: Comic des Tages
+# Jeden Wochentag eine andere Reihe (COMIC_PLAN in sources.py): „Vater und Sohn“, „Sandra und Woo“,
+# Wilhelm Busch und „Sonne & Wolke“, unser eigener Comic. Fällt eine Reihe aus, springt die nächste ein.
 
-PEPPER = "https://www.peppercarrot.com/0_sources"
-
-
-def fetch_bytes(url):
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def fetch_bytes(url, agent=USER_AGENT):
+    request = urllib.request.Request(url, headers={"User-Agent": agent})
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.read()
 
 
-def jpeg_size(data):
-    """Breite und Höhe aus dem JPEG-Kopf, ohne Zusatzpaket."""
-    i = 2
-    while i + 9 < len(data):
-        if data[i] != 0xFF or data[i + 1] == 0xFF:
-            i += 1
+def wiki_api(host, **params):
+    return fetch_json(f"https://{host}/w/api.php?" + urllib.parse.urlencode({**params, "format": "json"}))
+
+
+def wiki_images(host, titles, width=1200):
+    """Adresse, Breite und Höhe von Bilddateien eines Wikis, als {Titel: Seite}. Die App lädt sie direkt dort."""
+    found = {}
+    for start in range(0, len(titles), 40):
+        data = wiki_api(host, action="query", titles="|".join(titles[start:start + 40]),
+                        prop="imageinfo", iiprop="url|size", iiurlwidth=width)["query"]
+        renamed = {entry["to"]: entry["from"] for entry in data.get("normalized", [])}
+        for page in data["pages"].values():
+            if not page.get("imageinfo"):
+                continue
+            info = page["imageinfo"][0]
+            found[renamed.get(page["title"], page["title"])] = {
+                "url": (info.get("thumburl") or info["url"]).split("?")[0],
+                "width": info.get("thumbwidth") or info["width"],
+                "height": info.get("thumbheight") or info["height"],
+            }
+    return found
+
+
+def vater_und_sohn(state, client, stories):
+    """Eine Bildgeschichte von e.o.plauen, ganz ohne Worte. Nach der letzten geht es von vorn los."""
+    index = state.get("vaterundsohn", 0) % len(VATER_UND_SOHN)
+    name, title, year = VATER_UND_SOHN[index]
+    file = f"Datei:Vater und Sohn - {name}"
+    page = wiki_images("de.wikipedia.org", [file]).get(file)
+    if not page:
+        raise Skipped(f"Bild {name} fehlt")
+    state["vaterundsohn"] = index + 1
+    return {
+        "series": "vaterundsohn",
+        "title": "Vater und Sohn",
+        "episode": title,
+        "image": page["url"],
+        "pages": [page],
+        "credit": f"e.o.plauen (Erich Ohser), {year}, gemeinfrei",
+        "link": "https://de.wikipedia.org/wiki/Vater_und_Sohn",
+        "linkTitle": "Mehr über Vater und Sohn",
+    }
+
+
+TEXT_TEMPLATES = {"SperrSchrift", "Sperrschrift", "Kapitälchen", "g", "Antiqua", "Kursiv", "fett"}
+
+
+def wiki_verses(raw):
+    """Verse aus einem Stück Wikitext, ohne Vorlagen, Tabellen und Seitenzahlen."""
+    def unwrap(match):
+        name, *args = match.group(1).split("|")
+        return args[-1] if name.strip() in TEXT_TEMPLATES and args else ""
+    previous = None
+    while previous != raw:  # Vorlagen von innen nach außen auflösen
+        previous, raw = raw, re.sub(r"\{\{([^{}]*)\}\}", unwrap, raw)
+    raw = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", raw)
+    raw = re.sub(r"<!--.*?-->|</?(?:poem|center|br|div|span)[^>]*>|'''?", "\n", raw, flags=re.S)
+    lines = []
+    for line in raw.split("\n"):
+        line = line.strip()
+        if line.startswith(("{|", "|}", "|-", "!")):
             continue
-        if data[i + 1] in (0xC0, 0xC1, 0xC2):
-            return int.from_bytes(data[i + 7:i + 9], "big"), int.from_bytes(data[i + 5:i + 7], "big")
-        i += 2 + int.from_bytes(data[i + 2:i + 4], "big")
-    return None
+        if line.startswith("|"):  # Tabellenzelle: Text steht hinter dem letzten senkrechten Strich
+            line = line.rsplit("|", 1)[1].strip()
+        line = re.sub(r"\s+", " ", line).strip(" –-—")
+        line = re.sub(r"\s+[–—]\s+", ", ", line)
+        if line:
+            lines.append(line)
+    return lines
 
 
-def store_page(url, target):
-    """Lädt eine Comicseite einmal herunter und legt sie bei GitHub Pages ab. Gibt Breite und Höhe zurück."""
-    if not target.exists():
-        try:
-            data = fetch_bytes(url)
-        except urllib.error.HTTPError as error:
-            if error.code != 404:
-                raise
-            data = fetch_bytes(url.removesuffix(".jpg") + ".gif")  # Manche Seiten sind kleine Animationen
-        try:  # Etwas stärker komprimieren, falls Pillow da ist. Die Seiten bleiben 1200 Pixel breit.
-            from PIL import Image
-            buffer = io.BytesIO()
-            Image.open(io.BytesIO(data)).convert("RGB").save(buffer, "JPEG", quality=80, optimize=True, progressive=True)
-            if buffer.tell() < len(data) or not data.startswith(b"\xff\xd8"):  # Animationen als erstes Standbild
-                data = buffer.getvalue()
-        except ImportError:
-            pass
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_bytes(data)
-    return jpeg_size(target.read_bytes())
+def wikisource_pages(page):
+    """Eine Bildergeschichte von Wikisource als Seiten: jedes Bild mit den Versen davor."""
+    text = wiki_api("de.wikisource.org", action="parse", page=page, prop="wikitext")["parse"]["wikitext"]["*"]
+    text = re.split(r"\n==[^=]", text)[0]  # Inhaltsverzeichnis und Kategorien weglassen
+    parts = re.split(r"\[\[(?:Bild|Datei|File|Image):([^|\]]+)[^\]]*\]\]", text)
+    names = [parts[i].strip() for i in range(1, len(parts), 2)]
+    images = wiki_images("de.wikisource.org", [f"Datei:{name}" for name in names], width=900)
+    pages = []
+    for i, name in enumerate(names):
+        verses = wiki_verses(parts[2 * i])
+        if len(verses) > 8:  # Lange Strophen bekommen eine eigene Seite
+            pages.append({"caption": "\n".join(verses[:-8])})
+            verses = verses[-8:]
+        image = images.get(f"Datei:{name}")
+        if image:
+            pages.append({**image, "caption": "\n".join(verses) or None})
+        elif verses:
+            pages.append({"caption": "\n".join(verses)})
+    rest = wiki_verses(parts[-1])
+    if rest and pages and len(rest) <= 6 and pages[-1].get("url") and len((pages[-1].get("caption") or "").split("\n")) <= 2:
+        pages[-1]["caption"] = "\n".join(filter(None, [pages[-1].get("caption"), *rest]))
+    elif rest:  # Schlussverse gleichmäßig auf Textseiten mit höchstens zehn Zeilen verteilen
+        size = -(-len(rest) // -(-len(rest) // 10))
+        for start in range(0, len(rest), size):
+            pages.append({"caption": "\n".join(rest[start:start + size])})
+    return pages
 
 
-def comic_of_the_day(today):
-    """Jeden Tag eine ganze Folge. Jede Folge wird nur einmal gespeichert und danach wiederverwendet."""
+def busch(state, client, stories):
+    """Sonntags ein Streich von Max und Moritz, Bild für Bild mit den Versen von Wilhelm Busch."""
+    index = state.get("busch", 0) % len(BUSCH)
+    title, episode, sources = BUSCH[index]
+    pages = [page for source in sources for page in wikisource_pages(source)]
+    if sum(1 for page in pages if page.get("url")) < 3:
+        raise Skipped("zu wenige Bilder bei Wikisource")
+    state["busch"] = index + 1
+    return {
+        "series": "busch",
+        "title": title,
+        "episode": episode,
+        "image": next(page["url"] for page in pages if page.get("url")),
+        "pages": pages,
+        "credit": "Wilhelm Busch, 1865, gemeinfrei. Text und Bilder nach Wikisource",
+        "link": "https://de.wikisource.org/wiki/" + sources[0],
+        "linkTitle": "Bei Wikisource lesen",
+    }
+
+
+def detect_panels(data):
+    """Findet die einzelnen Bilder eines Strips an den weißen Zwischenräumen.
+    Gibt Rechtecke [x, y, Breite, Höhe] von 0 bis 1 zurück, None bei nur einem Bild."""
+    from PIL import Image
+    image = Image.open(io.BytesIO(data)).convert("L")
+    width, height = image.size
+    ink = image.point(lambda v: 255 if v < 160 else 0)
+
+    def runs(profile, minimum):
+        """Abschnitte mit Tinte, getrennt durch leere Streifen von mindestens 4 Pixeln."""
+        found, start, gap = [], None, 0
+        for i, value in enumerate(profile + [0] * 4):
+            if value > 1:
+                if start is None:
+                    start = i
+                gap = 0
+            elif start is not None:
+                gap += 1
+                if gap >= 4:
+                    if i - gap + 1 - start >= minimum:
+                        found.append((start, i - gap + 1))
+                    start, gap = None, 0
+        return found
+
+    profile = list(ink.resize((1, height), Image.BOX).getdata())
+    rows = runs(profile, height * 0.12)
+    if len(rows) == 1 and height / width > 0.45:
+        # Zwei Reihen, aber eine Figur oder Sprechblase ragt in den Zwischenraum:
+        # an der hellsten Zeile in der Mitte trennen, wenn dort wenig Tinte ist
+        top, bottom = rows[0]
+        middle = range(top + (bottom - top) // 3, top + 2 * (bottom - top) // 3)
+        cut = min(middle, key=lambda y: profile[y])
+        if profile[cut] < 255 * 0.25:
+            rows = [(top, cut), (cut, bottom)]
+    panels = []
+    for top, bottom in rows:
+        band = ink.crop((0, top, width, bottom))
+        for left, right in runs(list(band.resize((width, 1), Image.BOX).getdata()), width * 0.12):
+            panels.append([round(left / width, 4), round(top / height, 4),
+                           round((right - left) / width, 4), round((bottom - top) / height, 4)])
+    return panels if len(panels) > 1 else None
+
+
+def strip_transcript(content):
+    text = html.unescape(re.sub(r"<[^>]+>", " ", content))
+    return re.sub(r"\s+", " ", text).strip()[:600]
+
+
+def sandra_und_woo(state, client, stories):
+    """Drei Strips am Stück, der Reihe nach. Vorher prüft Claude die Dialoge auf Familientauglichkeit."""
+    from PIL import Image
+    offset = state.get("sandraundwoo", 0)  # Zahl der schon gelesenen Beiträge im Blog
+    posts = json.loads(fetch_bytes(f"{SANDRA_UND_WOO}/wp-json/wp/v2/posts?per_page=12&offset={offset}"
+                                   "&order=asc&orderby=date&_fields=title,link,content", BROWSER))
+    candidates = []
+    for position, post in enumerate(posts):
+        match = re.match(r"\[(\d{4})\]\s*(.+)", html.unescape(post["title"]["rendered"]))
+        if match:  # Andere Beiträge sind Ankündigungen oder Zeichnungen ohne Strip
+            candidates.append({"position": offset + position, "number": int(match.group(1)),
+                               "title": match.group(2).strip(), "link": post["link"],
+                               "text": strip_transcript(post["content"]["rendered"])})
+    if not candidates:
+        raise Skipped("keine neuen Strips")
+    lines = [f"[{c['number']}] {c['title']}: {c['text']}" for c in candidates]
+    result = ask(client, STRIP_CHECK_SYSTEM, "\n\n".join(lines), STRIP_CHECK_SCHEMA, max_tokens=1000, effort="low")
+    suitable = {entry["number"] for entry in result["strips"] if entry["ok"]}
+    chosen = [c for c in candidates if c["number"] in suitable][:3]
+    if not chosen:
+        state["sandraundwoo"] = offset + len(posts)  # Beim nächsten Mal weiter hinten suchen
+        raise Skipped("keine passenden Strips")
+    pages = []
+    for strip in chosen:
+        found = re.search(r'<img src="(/woode/comics/[^"]+)"', fetch_bytes(strip["link"], BROWSER).decode("utf-8", "replace"))
+        if not found:
+            continue
+        source = "https://www.sandraandwoo.com" + found.group(1)
+        target = OUT / "comics" / "sandraundwoo" / f"{strip['number']:04d}.{source.rsplit('.', 1)[-1].lower()}"
+        if not target.exists():  # Unverändert ablegen, so verlangt es die Lizenz
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(fetch_bytes(source, BROWSER))
+        data = target.read_bytes()
+        width, height = Image.open(io.BytesIO(data)).size
+        pages.append({"url": f"{PAGES_URL}/comics/sandraundwoo/{target.name}", "width": width, "height": height,
+                      "title": strip["title"], "panels": detect_panels(data)})
+    if not pages:
+        raise Skipped("keine Bilder gefunden")
+    state["sandraundwoo"] = chosen[-1]["position"] + 1
+    return {
+        "series": "sandraundwoo",
+        "title": "Sandra und Woo",
+        "episode": chosen[0]["title"] if len(pages) == 1 else f"{chosen[0]['title']} und mehr",
+        "image": pages[0]["url"],
+        "pages": pages,
+        "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
+        "link": SANDRA_UND_WOO + "/",
+        "linkTitle": "Mehr von Sandra und Woo",
+    }
+
+
+def sonne_und_wolke(state, client, stories):
+    """Unser eigener Comic: Sonne und Wolke unterhalten sich in drei Bildern über eine Nachricht von heute."""
+    lines = [f"[{s['id']}] {s['headline']}. {s['teaser']}" for s in stories]
+    result = no_dashes(ask(client, COMIC_SYSTEM.format(icons=", ".join(ICONS)),
+                           "Die Nachrichten von heute:\n\n" + "\n".join(lines), COMIC_SCHEMA,
+                           max_tokens=3000, effort="medium"))
+    story = next((s for s in stories if s["id"] == result.get("storyID")), None)
+    panels = []
+    for panel in result["panels"][:3]:
+        entry = {"prop": panel.get("prop") if panel.get("prop") in ICONS else None,
+                 "caption": (panel.get("caption") or "").strip() or None}
+        for who in ("sun", "cloud"):
+            face = panel.get(who) or {}
+            text = (face.get("text") or "").strip() or None
+            if text and len(text) > 100:
+                raise Skipped("Sprechblase zu lang")
+            entry[who] = {"mood": face.get("mood") if face.get("mood") in COMIC_MOODS else "froh", "text": text}
+        panels.append(entry)
+    if len(panels) != 3 or sum(1 for p in panels if p["sun"]["text"] or p["cloud"]["text"]) < 2:
+        raise Skipped("Comic unvollständig")
+    return {
+        "series": "sonnewolke",
+        "title": "Sonne & Wolke",
+        "episode": result["title"].strip(),
+        "strip": {"storyID": story["id"] if story else None, "panels": panels},
+        "credit": "Ein Comic von The Daily Good",
+    }
+
+
+COMIC_SERIES = {
+    "vaterundsohn": vater_und_sohn,
+    "busch": busch,
+    "sandraundwoo": sandra_und_woo,
+    "sonnewolke": sonne_und_wolke,
+}
+
+
+def comic_of_the_day(today, client, stories):
+    """Comic für heute nach Wochentag. Die Reihen merken sich in state/comic.json, wo sie stehen."""
     state_file = STATE / "comic.json"
     state = json.loads(state_file.read_text()) if state_file.exists() else {}
-    episodes = [e for e in fetch_json(PEPPER + "/episodes.json") if "de" in e["translated_languages"]]
     last = state.get("last") or {}
-    if last.get("date") == today.isoformat():
-        index = last["episode"]  # Zweiter Lauf am selben Tag: dieselbe Folge
-    else:
-        index = state.get("next", 0)
-        if isinstance(index, list):  # Erste Version merkte sich [Folge, Seite]
-            index = index[0]
-    if index >= len(episodes):
-        index = 0  # Alle Folgen durch: von vorn
-    episode = episodes[index]
-    number = int(episode["name"][2:4])
-    source = f"{PEPPER}/{episode['name']}/low-res/de_Pepper-and-Carrot_by-David-Revoy_E{number:02d}P"
-    pages = []
-    for page in range(episode["total_pages"] + 1):  # P00 ist das Titelbanner, danach die Seiten
-        size = store_page(f"{source}{page:02d}.jpg", OUT / "comics" / episode["name"] / f"p{page:02d}.jpg")
-        entry = {"url": f"{PAGES_URL}/comics/{episode['name']}/p{page:02d}.jpg"}
-        if size:
-            entry["width"], entry["height"] = size
-        pages.append(entry)
-    for old in (OUT / "comics").glob("*.jpg"):  # Einzelseiten aus der ersten Version
-        old.unlink()
-    STATE.mkdir(exist_ok=True)
-    state_file.write_text(json.dumps({
-        "next": index + 1,
-        "last": {"date": today.isoformat(), "episode": index},
-    }, indent=1))
-    return {
-        "title": f"Pepper&Carrot · Folge {number}",
-        "image": pages[1]["url"],  # Für ältere App-Versionen, die nur eine Seite kennen
-        "banner": pages[0],
-        "pages": pages[1:],
-        "credit": "David Revoy, peppercarrot.com, CC BY 4.0",
-        "link": "https://www.peppercarrot.com/de/",
-    }
+    if last.get("date") == today.isoformat() and last.get("comic"):
+        return last["comic"]  # Zweiter Lauf am selben Tag: derselbe Comic
+    planned = COMIC_PLAN[today.weekday()]
+    for series in [planned] + [s for s in COMIC_FALLBACK if s != planned]:
+        try:
+            comic = COMIC_SERIES[series](state, client, stories)
+        except Exception as error:  # Eine Reihe fällt aus, die nächste springt ein
+            print(f"   Comic {series} übersprungen ({error})")
+            continue
+        state = {key: value for key, value in state.items() if key not in ("next", "last")}
+        state["last"] = {"date": today.isoformat(), "comic": comic}
+        STATE.mkdir(exist_ok=True)
+        state_file.write_text(json.dumps(state, ensure_ascii=False, indent=1))
+        return comic
+    return None
 
 
 # MARK: Ablauf
@@ -1347,8 +1552,8 @@ def main():
 
     comic = None
     try:
-        comic = comic_of_the_day(today)
-        print(f"   Comic: {comic['title']} mit {len(comic['pages'])} Seiten")
+        comic = comic_of_the_day(today, client, stories)
+        print(f"   Comic: {comic['title']}, {comic.get('episode')}" if comic else "   Kein Comic heute")
     except Exception as error:  # Ohne Comic erscheint die Ausgabe trotzdem
         print(f"   Comic übersprungen ({error})")
 

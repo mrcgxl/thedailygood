@@ -330,3 +330,44 @@ RECIPE_SCHEMA = obj({
     "tip": nullable(STRING),
     "icon": STRING,
 })
+
+
+COMIC_MOODS = ["froh", "lacht", "staunt", "grübelt", "skeptisch", "verlegen"]
+
+COMIC_SYSTEM = """Du schreibst „Sonne & Wolke“, den Comic von „The Daily Good“, einer deutschen Zeitung nur mit guten Nachrichten. Du bekommst die Nachrichten von heute.
+
+Die Figuren:
+- Sonne strahlt vor Begeisterung. Sie liest jeden Morgen die guten Nachrichten und erzählt sie sofort weiter. Sie ist übermütig und nimmt Dinge gern wörtlich.
+- Wolke ist trocken, gemütlich und ein bisschen grummelig. Sie mag Regen und Nickerchen und tut unbeeindruckt. Am Ende wird sie oft doch angesteckt oder hat die beste Pointe.
+
+So geht der Comic:
+- Wähle eine Nachricht, die sich für einen harmlosen Witz eignet, am liebsten Tiere, Kurioses, Erfindungen oder Natur. Nichts über Krankheit, Unglücke, Politik oder Menschen, über die man lachen würde.
+- Genau drei Bilder. Bild 1 stellt die Nachricht vor, Bild 2 baut auf, Bild 3 bringt die Pointe: ein Wortspiel, ein Missverständnis oder eine überraschende Wendung. Die Pointe soll wirklich witzig sein, nicht nur nett.
+- In jedem Bild sagt jede Figur höchstens einen kurzen Satz mit höchstens 70 Zeichen. text ist null, wenn eine Figur schweigt. In mindestens zwei Bildern spricht jemand.
+- Die Fakten aus der Nachricht stimmen. Erfinde keine Zahlen.
+- mood zeigt das Gesicht der Figur: froh, lacht, staunt, grübelt, skeptisch oder verlegen.
+- prop ist ein Symbol, das im Bild zwischen den beiden steht und zur Nachricht passt, aus dieser Liste: {icons}. null, wenn keins nötig ist.
+- caption ist ein kurzer Erzähltext über dem Bild, zum Beispiel „Später …“. Meistens null.
+- title ist ein kurzer, witziger Titel mit höchstens 40 Zeichen. storyID ist die ID der Nachricht.
+- Sprich die Leser nicht an. Verwende niemals Gedankenstriche."""
+
+COMIC_FACE = obj({"mood": {"type": "string", "enum": COMIC_MOODS}, "text": nullable(STRING)})
+
+COMIC_SCHEMA = obj({
+    "storyID": STRING,
+    "title": STRING,
+    "panels": {"type": "array", "items": obj({
+        "sun": COMIC_FACE,
+        "cloud": COMIC_FACE,
+        "prop": nullable(STRING),
+        "caption": nullable(STRING),
+    })},
+})
+
+STRIP_CHECK_SYSTEM = """Du prüfst Comicstrips von „Sandra und Woo“ für „The Daily Good“, eine Zeitung für die ganze Familie. Du bekommst die Dialoge mehrerer Strips.
+Ein Strip ist ungeeignet (ok ist false), wenn es darin um Sex, Anzüglichkeiten, Alkohol, Drogen, Gewalt, Tod, Politik oder Religion geht oder wenn jemand verspottet wird. Alles andere ist geeignet, auch wenn der Strip zu einer längeren Geschichte gehört.
+number ist die Nummer des Strips."""
+
+STRIP_CHECK_SCHEMA = obj({
+    "strips": {"type": "array", "items": obj({"number": {"type": "integer"}, "ok": {"type": "boolean"}})},
+})

@@ -193,3 +193,53 @@ RECIPE_SOURCES = [
     ("Guardian Food", "https://www.theguardian.com/food/rss", "Englisch"),
     ("Brigitte Rezepte", "https://www.brigitte.de/rezepte/feed.rss", "Deutsch"),
 ]
+
+# Comic des Tages: jeden Wochentag eine andere Reihe (0 ist Montag). Fällt eine aus, springt die nächste ein.
+COMIC_PLAN = {
+    0: "sandraundwoo",
+    1: "sonnewolke",
+    2: "vaterundsohn",
+    3: "sandraundwoo",
+    4: "sonnewolke",
+    5: "vaterundsohn",
+    6: "busch",
+}
+COMIC_FALLBACK = ["sonnewolke", "vaterundsohn", "sandraundwoo"]
+
+# „Vater und Sohn“ von e.o.plauen (gemeinfrei in Deutschland seit 2015, in den USA erst ab etwa 2030).
+# Nur die Originale aus der deutschen Wikipedia. Ausgelassen: „Die Familien-Ohrfeige“ und „Vater hat geholfen“,
+# weil dort Kinder geschlagen werden. „Abschied“ ist die letzte Folge von 1937 und kommt deshalb zum Schluss.
+VATER_UND_SOHN = [  # (Datei ohne „Vater und Sohn - “, Titel, Jahr)
+    ("Der Schmoeker.png", "Der Schmöker", "1935"),
+    ("Das sind sie.jpg", "Das sind sie", "1935"),
+    ("Der Brief der Fische.jpg", "Der Brief der Fische", "1935"),
+    ("Das misslungene Konzert.jpg", "Das misslungene Konzert", "1935"),
+    ("Der kleine Auskneifer.jpg", "Der kleine Auskneifer", "1935"),
+    ("Die Unterschrift.jpg", "Die Unterschrift", "1935"),
+    ("Die vergessenen Rosinen.jpg", "Die vergessenen Rosinen", "1935"),
+    ("Friedensstifter.jpg", "Friedensstifter", "1935"),
+    ("Im Krieg sind alle Mittel erlaubt.jpg", "Im Krieg sind alle Mittel erlaubt", "1935"),
+    ("Kunst bringt Gunst.jpg", "Kunst bringt Gunst", "1935"),
+    ("Beruehmtheiten tauschen Autogramme.jpg", "Berühmtheiten tauschen Autogramme", "1936"),
+    ("Das Geschenk.jpg", "Das Geschenk", "1936"),
+    ("Der erste Ferientag.jpg", "Der erste Ferientag", "1936"),
+    ("Ein Undankbarer.jpg", "Ein Undankbarer", "1936"),
+    ("Ende gut - alles gut.jpg", "Ende gut, alles gut", "1936"),
+    ("Erziehung mit angebrannten Bohnen.jpg", "Erziehung mit angebrannten Bohnen", "1936"),
+    ("Unbedachte Hilfeleistung.jpg", "Unbedachte Hilfeleistung", "1936"),
+    ("Kehrseite des Ruhms.jpg", "Kehrseite des Ruhms", "1937"),
+    ("Abschied.jpg", "Abschied", "1937"),
+]
+
+# Wilhelm Busch, „Max und Moritz“ (1865) nach Wikisource, Bild für Bild mit Versen.
+# Ohne den ersten Streich (die Hühner sterben) und den letzten (die Buben werden gemahlen).
+BUSCH = [  # (Titel, Folge, Wikisource-Seiten)
+    ("Max und Moritz", "Vorwort und zweiter Streich", ["Max_und_Moritz", "Max_und_Moritz/Zweiter_Streich"]),
+    ("Max und Moritz", "Dritter Streich", ["Max_und_Moritz/Dritter_Streich"]),
+    ("Max und Moritz", "Vierter Streich", ["Max_und_Moritz/Vierter_Streich"]),
+    ("Max und Moritz", "Fünfter Streich", ["Max_und_Moritz/Fünfter_Streich"]),
+    ("Max und Moritz", "Sechster Streich", ["Max_und_Moritz/Sechster_Streich"]),
+]
+
+# „Sandra und Woo“ (Oliver Knörzer und Powree, CC BY-NC-ND 3.0): nur unverändert, mit Namen und ohne Geld zu verdienen
+SANDRA_UND_WOO = "https://www.sandraandwoo.com/woode"
