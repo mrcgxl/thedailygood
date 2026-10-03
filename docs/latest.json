@@ -224,18 +224,11 @@
           "caption": "wilde Elefanten wurden für die Studie ausgewertet"
         },
         {
-          "type": "comparison",
-          "title": "Was die Forschung untersuchte",
-          "before": {
-            "label": "Brummlaute",
-            "value": 902,
-            "display": "902 Laute"
-          },
-          "after": {
-            "label": "Familien",
-            "value": 39,
-            "display": "39 Familien"
-          }
+          "type": "bigNumber",
+          "value": "902",
+          "unit": "Brummlaute",
+          "caption": "hat das Team ausgewertet. Sie stammen von Elefanten aus 39 Familien.",
+          "icon": "chart.bar.fill"
         },
         {
           "type": "quote",
@@ -367,12 +360,6 @@
           "unit": "Dollar",
           "caption": "bekommt Chip Thomas als „Genius Grant“, verteilt auf fünf Jahre",
           "icon": "banknote.fill"
-        },
-        {
-          "type": "count",
-          "value": 36,
-          "icon": "stethoscope",
-          "caption": "Jahre arbeitet er schon als Hausarzt in der Navajo Nation"
         },
         {
           "type": "timeline",
