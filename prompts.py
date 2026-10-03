@@ -96,11 +96,11 @@ Regeln
 - kicker: ein bis drei Wörter über der Überschrift, meist Ort oder Thema.
 - teaser: ein bis zwei Sätze, höchstens 170 Zeichen.
 - blocks: zwei oder drei Bausteine, jeder Typ höchstens einmal. Die App zeichnet daraus Grafiken. Bevorzuge deshalb Bausteine, die sich zeichnen lassen: count, share, comparison, bigNumber, timeline und map. Wähle, was zur Geschichte passt:
-  - count: eine zählbare Menge aus dem Artikel, zum Beispiel 49 Setzlinge, 250 Kiwis oder 12 Schulen. value ist die ganze Zahl von 2 bis 1000. icon zeigt, was gezählt wird. caption setzt den Satz nach der Zahl fort und beginnt klein, zum Beispiel „Setzlinge wachsen jetzt in ganz England“. Die App malt dafür ein Symbol pro Stück.
+  - count: eine zählbare Menge aus dem Artikel, zum Beispiel 49 Setzlinge, 250 Kiwis oder 12 Schulen. Nur für Dinge, die man einzeln anfassen oder ansehen kann: Menschen, Tiere, Pflanzen, Gebäude oder Gegenstände. Nie für Jahre, Tage, Prozent, Geld oder Messwerte, dafür ist bigNumber da. value ist die ganze Zahl von 2 bis 1000. icon zeigt genau das, was gezählt wird. caption setzt den Satz nach der Zahl fort und beginnt klein, zum Beispiel „Setzlinge wachsen jetzt in ganz England“. Die App malt dafür ein Symbol pro Stück.
   - share: ein Anteil aus dem Artikel, zum Beispiel 60 Prozent des Stroms oder jedes dritte Kind. value ist die Prozentzahl von 1 bis 99. label sagt in höchstens 40 Zeichen, wovon das der Anteil ist. caption ordnet ihn in einem Satz ein. Die App zeichnet ein Feld aus hundert Kästchen.
   - bigNumber: eine eindrucksvolle Zahl aus dem Artikel, die sich nicht zählen lässt, zum Beispiel 1,5 Grad oder 120 Millionen Euro. value enthält nur die Zahl im deutschen Format, zum Beispiel "1,5" oder "120". unit ist die Einheit, zum Beispiel "Meter", "%" oder "Mio. Euro". caption setzt den Satz nach Zahl und Einheit fort und beginnt klein. icon passt zur Zahl.
   - facts: genau drei kurze Stichpunkte, jeweils höchstens 90 Zeichen, und für jeden ein passendes Symbol in icons. title ist null (dann steht dort „Das Wichtigste“).
-  - comparison: vorher und nachher mit zwei vergleichbaren Zahlen aus dem Artikel, nur wenn sie sich deutlich unterscheiden. value ist die Zahl, display die Anzeige mit Einheit.
+  - comparison: zwei Werte derselben Sache in derselben Einheit, zum Beispiel vorher und nachher oder geplant und tatsächlich, nur wenn sie sich deutlich unterscheiden. Nie zwei verschiedene Dinge wie Laute und Familien. value ist die Zahl, display die Anzeige mit Einheit.
   - timeline: drei oder vier Stationen, jede mit einer echten Jahreszahl oder einem Datum.
   - steps: drei Schritte, die erklären, wie etwas funktioniert, und für jeden ein passendes Symbol in icons.
   - map: nur wenn ein konkreter Ort wichtig ist, mit ungefähren Koordinaten des Ortes.
@@ -108,7 +108,7 @@ Regeln
   - background: ein kurzer Hintergrund, der etwas verständlich macht, höchstens 350 Zeichen.
   Beginne nicht immer mit derselben Art. Wenn der Artikel wenig hergibt, nimm facts und background.
   Symbole (icon und icons) wählst du nur aus dieser Liste: leaf.fill, tree.fill, drop.fill, flame.fill, bolt.fill, sun.max.fill, moon.fill, cloud.fill, snowflake, wind, water.waves, mountain.2.fill, globe.europe.africa.fill, map.fill, mappin, house.fill, building.2.fill, building.columns.fill, car.fill, bus.fill, tram.fill, bicycle, airplane, ferry.fill, sailboat.fill, fuelpump.fill, bolt.car.fill, battery.100, heart.fill, cross.case.fill, pills.fill, stethoscope, brain.head.profile, figure.walk, figure.run, person.fill, person.2.fill, person.3.fill, figure.and.child.holdinghands, graduationcap.fill, book.fill, books.vertical.fill, pencil, paintbrush.fill, paintpalette.fill, music.note, guitars.fill, film.fill, tv.fill, camera.fill, gamecontroller.fill, trophy.fill, medal.fill, star.fill, sparkles, lightbulb.fill, gearshape.fill, cpu, antenna.radiowaves.left.and.right, atom, flask.fill, microbe.fill, pawprint.fill, bird.fill, fish.fill, tortoise.fill, hare.fill, ladybug.fill, ant.fill, cart.fill, eurosign.circle.fill, banknote.fill, chart.line.uptrend.xyaxis, chart.bar.fill, clock.fill, calendar, hammer.fill, wrench.and.screwdriver.fill, shippingbox.fill, fork.knife, cup.and.saucer.fill, carrot.fill, birthday.cake.fill, arrow.3.trianglepath, trash.fill, tent.fill, binoculars.fill, telescope.fill, magnifyingglass, hand.thumbsup.fill, gift.fill, balloon.fill, party.popper.fill, envelope.fill, phone.fill, wifi, lock.fill, key.fill, scissors, tshirt.fill, bed.double.fill, sofa.fill, lamp.table.fill, basket.fill, soccerball, tennisball.fill, figure.pool.swim, dumbbell.fill, rocket.fill, globe.americas.fill, globe.asia.australia.fill.
-- guess: eine Tippfrage, die man vor dem Lesen beantwortet. Sie macht neugierig und ist mit Bauchgefühl lösbar, nicht mit Fachwissen. Die richtige Antwort steht im Artikel und wird in der Frage nicht verraten. question höchstens 110 Zeichen. options sind genau drei kurze Antworten mit höchstens 40 Zeichen, eine stimmt, die anderen klingen plausibel. answer ist die Nummer der richtigen Antwort von 0 bis 2. reveal löst in einem Satz auf, höchstens 140 Zeichen. icon zeigt das Hauptmotiv der Geschichte.
+- guess: eine Tippfrage, die man vor dem Lesen beantwortet. Sie macht neugierig und ist mit Bauchgefühl lösbar, nicht mit Fachwissen. Die richtige Antwort steht im Artikel und wird in der Frage nicht verraten. Wichtig: Die Leser sehen headline und teaser vorher auf der Titelseite. Die richtige Antwort darf dort weder als Zahl noch als Stichwort vorkommen. Frag deshalb nach einem überraschenden Detail, das nur weiter unten im Text steht. question höchstens 110 Zeichen. options sind genau drei kurze Antworten mit höchstens 40 Zeichen, eine stimmt, die anderen klingen plausibel. answer ist die Nummer der richtigen Antwort von 0 bis 2. reveal löst in einem Satz auf, höchstens 140 Zeichen. icon zeigt das Hauptmotiv der Geschichte.
 - whyGood: ein bis zwei Sätze, warum die Nachricht Grund zur Freude ist.
 - honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist, zum Beispiel „Bisher nur an Mäusen getestet.“. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
 - country: der zweibuchstabige ISO-Code des Landes, in dem die Nachricht spielt, zum Beispiel DE, NZ oder US. null, wenn sie kein bestimmtes Land betrifft, zum Beispiel bei Weltraum oder weltweiten Studien.
@@ -147,6 +147,7 @@ QUIZ_SYSTEM = """Du erstellst das Nachrichten-Quiz für „The Daily Good“. Du
 - Stelle genau drei Fragen zu drei verschiedenen Geschichten, jeweils mit vier Antworten, von denen genau eine stimmt.
 - Frag nach etwas, das klar in der Geschichte steht, zum Beispiel ein Ort, eine Zahl, ein Tier oder eine Erfindung. Keine Fangfragen.
 - Die falschen Antworten sind plausibel, aber eindeutig falsch.
+- Manche Geschichten haben schon eine Tippfrage. Frag nicht nach derselben Sache.
 - Frage höchstens 90 Zeichen, jede Antwort höchstens 40 Zeichen.
 - storyID ist die ID der Geschichte, answer die Nummer der richtigen Antwort von 0 bis 3. Die richtige Antwort steht nicht immer an derselben Stelle.
 - Verwende niemals Gedankenstriche."""
@@ -246,6 +247,25 @@ BRIEF_SCHEMA = obj({
 })
 
 JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
+
+GUESS_FIX_SYSTEM = """Du überarbeitest Tippfragen für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Eine Tippfrage wird vor dem Lesen beantwortet und soll neugierig machen.
+Die bisherigen Fragen verraten ihre Antwort schon in Überschrift oder Vorspann, die die Leser vorher sehen. Schreib für jede Geschichte eine neue Frage.
+- Die richtige Antwort steht im Text, aber nicht in Überschrift oder Vorspann, weder als Zahl noch als Stichwort. Frag nach einem überraschenden Detail weiter unten im Text.
+- Mit Bauchgefühl lösbar, nicht mit Fachwissen. Keine Fangfragen.
+- question höchstens 110 Zeichen. options sind genau drei kurze Antworten mit höchstens 40 Zeichen, eine stimmt, die anderen klingen plausibel. answer ist die Nummer der richtigen Antwort von 0 bis 2, nicht immer dieselbe.
+- reveal löst in einem Satz auf, höchstens 140 Zeichen. icon wählst du aus dieser Liste: {icons}.
+- storyID ist die ID der Geschichte. Verwende niemals Gedankenstriche."""
+
+GUESS_FIX_SCHEMA = obj({
+    "guesses": {"type": "array", "items": obj({
+        "storyID": STRING,
+        "question": STRING,
+        "options": {"type": "array", "items": STRING},
+        "answer": {"type": "integer"},
+        "reveal": STRING,
+        "icon": STRING,
+    })},
+})
 
 QUIZ_SCHEMA = obj({
     "questions": {"type": "array", "items": obj({

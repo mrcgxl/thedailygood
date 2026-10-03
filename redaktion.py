@@ -20,6 +20,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import warnings
@@ -35,7 +36,7 @@ import trafilatura  # noqa: E402
 
 from prompts import (  # noqa: E402
     BRIEF_SCHEMA, BRIEF_SYSTEM, ICONS, IMAGE_PICK_SCHEMA, IMAGE_PICK_SYSTEM, IMAGE_SCHEMA, IMAGE_SYSTEM, JOKE_SCHEMA,
-    JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, REGION_TRIAGE_SCHEMA,
+    GUESS_FIX_SCHEMA, GUESS_FIX_SYSTEM, JOKE_SYSTEM, QUIZ_SCHEMA, QUIZ_SYSTEM, RECOMMENDATION_SCHEMA, RECOMMENDATION_SYSTEM, REGION_TRIAGE_SCHEMA,
     RECIPE_SCHEMA, RECIPE_SYSTEM, REGION_TRIAGE_SYSTEM, STORY_SCHEMA, TRIAGE_SCHEMA, TRIAGE_SYSTEM, WRITER_SYSTEM,
 )
 from sources import FEEDS, RECIPE_SOURCES, RECOMMENDATIONS, REGIONAL_FEEDS, REGIONS  # noqa: E402
@@ -711,6 +712,54 @@ def guess_of(story):
     }
 
 
+COMMON_WORDS = {"einen", "einem", "einer", "eines", "nicht", "durch", "haben", "wurde", "wurden", "werden", "seine",
+                "seinen", "seiner", "ihren", "ihrer", "immer", "schon", "unter", "nach", "jeder", "jedes", "allen", "etwas"}
+
+
+def gives_away(guess, story):
+    """Verrät die Titelseite die Antwort schon? Gibt das verräterische Wort zurück, sonst None.
+    Geprüft werden Zahlen und längere Wörter, die nur in der richtigen Antwort stehen."""
+    def words(text):
+        return {w for w in re.findall(r"\d+(?:[.,]\d+)*|[a-zäöüß]{5,}", text.lower()) if w not in COMMON_WORDS}
+    seen = f"{story.get('headline', '')} {story.get('teaser', '')}".lower()
+    others = words(guess["question"])
+    for index, option in enumerate(guess["options"]):
+        if index != guess["answer"]:
+            others |= words(option)
+    for word in words(guess["options"][guess["answer"]]) - others:
+        if word[0].isdigit():
+            if re.search(rf"(?<![\d.,]){re.escape(word)}(?![\d]|[.,]\d)", seen):
+                return word
+        elif word in seen:  # auch in Zusammensetzungen wie „Fischpassage“
+            return word
+    return None
+
+
+def fix_guesses(client, stories):
+    """Schreibt Tippfragen neu, deren Antwort schon auf der Titelseite steht. Was nicht klappt, fällt weg."""
+    spoiled = [s for s in stories if s.get("guess") and gives_away(s["guess"], s)]
+    if not spoiled:
+        return 0, 0
+    lines = [f"[{s['id']}] Überschrift: {s['headline']}\nVorspann: {s['teaser']}\n"
+             f"Bisherige Frage: {s['guess']['question']}\nText: {story_text(s)[:1500]}" for s in spoiled]
+    try:
+        result = ask(client, GUESS_FIX_SYSTEM.format(icons=", ".join(ICONS)), "\n\n".join(lines), GUESS_FIX_SCHEMA,
+                     max_tokens=4000, effort="low")
+        fresh = {item["storyID"]: guess_of({"guess": item}) for item in no_dashes(result["guesses"])}
+    except (Skipped, anthropic.APIError, json.JSONDecodeError, KeyError) as error:
+        print(f"   Tippfragen nicht überarbeitet ({error})")
+        fresh = {}
+    fixed = 0
+    for story in spoiled:
+        guess = fresh.get(story["id"])
+        if guess and not gives_away(guess, story):
+            story["guess"] = guess
+            fixed += 1
+        else:
+            story["guess"] = None
+    return fixed, len(spoiled)
+
+
 def build_brief(candidate, brief, story_id):
     brief = no_dashes(brief)
     return {
@@ -914,7 +963,8 @@ def make_quiz(client, stories):
     full = [s for s in stories if not s.get("brief")]
     if len(full) < 3:
         return None
-    lines = [f"[{s['id']}] {story_text(s)[:900]}" for s in full]
+    lines = [f"[{s['id']}] {story_text(s)[:900]}" + (f"\nTippfrage: {s['guess']['question']}" if s.get("guess") else "")
+             for s in full]
     result = ask(client, QUIZ_SYSTEM, "Die Geschichten von heute:\n\n" + "\n\n".join(lines), QUIZ_SCHEMA,
                  max_tokens=4000, effort="low")
     ids = {s["id"] for s in full}
@@ -1073,12 +1123,17 @@ def jpeg_size(data):
 def store_page(url, target):
     """Lädt eine Comicseite einmal herunter und legt sie bei GitHub Pages ab. Gibt Breite und Höhe zurück."""
     if not target.exists():
-        data = fetch_bytes(url)
+        try:
+            data = fetch_bytes(url)
+        except urllib.error.HTTPError as error:
+            if error.code != 404:
+                raise
+            data = fetch_bytes(url.removesuffix(".jpg") + ".gif")  # Manche Seiten sind kleine Animationen
         try:  # Etwas stärker komprimieren, falls Pillow da ist. Die Seiten bleiben 1200 Pixel breit.
             from PIL import Image
             buffer = io.BytesIO()
             Image.open(io.BytesIO(data)).convert("RGB").save(buffer, "JPEG", quality=80, optimize=True, progressive=True)
-            if buffer.tell() < len(data):
+            if buffer.tell() < len(data) or not data.startswith(b"\xff\xd8"):  # Animationen als erstes Standbild
                 data = buffer.getvalue()
         except ImportError:
             pass
@@ -1105,7 +1160,7 @@ def comic_of_the_day(today):
     number = int(episode["name"][2:4])
     source = f"{PEPPER}/{episode['name']}/low-res/de_Pepper-and-Carrot_by-David-Revoy_E{number:02d}P"
     pages = []
-    for page in range(episode["total_pages"]):  # P00 ist das Titelbanner, danach die Seiten
+    for page in range(episode["total_pages"] + 1):  # P00 ist das Titelbanner, danach die Seiten
         size = store_page(f"{source}{page:02d}.jpg", OUT / "comics" / episode["name"] / f"p{page:02d}.jpg")
         entry = {"url": f"{PAGES_URL}/comics/{episode['name']}/p{page:02d}.jpg"}
         if size:
@@ -1273,6 +1328,10 @@ def main():
             print(f"   Rezept: {recipe['title']}" if recipe else "   Heute kein passendes Rezept")
         except Exception as error:
             print(f"   Rezept übersprungen ({error})")
+
+    fixed, spoiled = fix_guesses(client, [s for s in stories if not s.get("brief")])
+    if spoiled:
+        print(f"   Tippfragen: {spoiled} verrieten die Antwort, {fixed} neu geschrieben")
 
     quiz = None
     try:
