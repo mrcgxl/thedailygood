@@ -1,0 +1,2099 @@
+{
+  "date": "2026-10-07",
+  "number": 9,
+  "isSample": false,
+  "leadStoryID": "2026-10-07-02",
+  "stories": [
+    {
+      "id": "2026-10-07-02",
+      "ressort": "gesundheit",
+      "kicker": "Gelenke",
+      "headline": "Knorpel wächst nach: Neuer Ansatz gegen Arthrose",
+      "teaser": "Forschende der Stanford Medicine haben bei alten Mäusen Knieknorpel nachwachsen lassen. Auch Knorpel von Menschen reagierte auf die Behandlung.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Gesunde Knorpelzellen im Mäuseknie",
+          "before": {
+            "label": "Vorher",
+            "value": 22,
+            "display": "22 %"
+          },
+          "after": {
+            "label": "Nachher",
+            "value": 42,
+            "display": "42 %"
+          }
+        },
+        {
+          "type": "share",
+          "value": 50,
+          "label": "Anteil nach Kreuzbandriss mit Arthrose",
+          "caption": "Etwa die Hälfte der Betroffenen bekommt innerhalb von rund 15 Jahren Arthrose im verletzten Gelenk."
+        },
+        {
+          "type": "background",
+          "title": "Was ist 15-PGDH?",
+          "text": "15-PGDH ist ein Eiweiß, das im Alter häufiger wird. Es baut einen Stoff ab, der Heilung unterstützt. Wird es gehemmt, verjüngen sich vorhandene Knorpelzellen. Stammzellen sind dafür nicht nötig."
+        }
+      ],
+      "whyGood": "Bisher gibt es kein Medikament, das Arthrose selbst bremst oder umkehrt. Der neue Ansatz könnte eines Tages Gelenkersatz seltener nötig machen.",
+      "honestNote": "Bisher nur an Mäusen und an Gewebeproben getestet. Ob es Menschen hilft, müssen klinische Studien erst zeigen.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005011249.htm",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Arthrose",
+          "text": "Bei Arthrose wird der Knorpel in einem Gelenk dünner und weicher. Das Gelenk tut weh, schwillt an und lässt sich schlechter bewegen."
+        },
+        {
+          "term": "Stammzellen",
+          "text": "Stammzellen sind besondere Körperzellen. Sie können sich vermehren und zu verschiedenen Zelltypen werden."
+        }
+      ],
+      "guess": {
+        "question": "Was bewirkte die Behandlung im Knorpel der alten Mäuse?",
+        "options": [
+          "Neue Stammzellen wanderten ein",
+          "Alte Knorpelzellen wurden jünger",
+          "Knochen ersetzte den Knorpel"
+        ],
+        "answer": 1,
+        "reveal": "Stammzellen waren nicht beteiligt. Vorhandene Knorpelzellen änderten ihre Genaktivität und wirkten jünger.",
+        "icon": "stethoscope"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Human_knee_joint_FE_model.png",
+        "credit": "Hamid nbe, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Human_knee_joint_FE_model.png"
+      }
+    },
+    {
+      "id": "2026-10-07-01",
+      "ressort": "wissenschaft",
+      "kicker": "Nobelpreis",
+      "headline": "Physik-Nobelpreis für Francis Halzen und seine Neutrinoforschung",
+      "teaser": "Der Neutrinoforscher Francis Halzen erhält den Physik-Nobelpreis. Sein Team sucht im Eis nach Spuren gewaltiger Explosionen im All.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Francis Halzen erhält den Nobelpreis für Physik",
+            "Sein Team sucht im Eis nach Neutrinos",
+            "Die Spuren stammen von Explosionen vor Jahrmilliarden"
+          ],
+          "icons": [
+            "trophy.fill",
+            "snowflake",
+            "sparkles"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was sind Neutrinos?",
+          "text": "Neutrinos sind winzige Teilchen. Sie fliegen fast ungehindert durch Materie. Deshalb können sie Botschaften aus weit entfernten Teilen des Alls zu uns bringen."
+        }
+      ],
+      "whyGood": "Die Forschung im Eis wird mit dem wichtigsten Preis der Physik geehrt. Sie hilft uns, das Universum besser zu verstehen. Auch in Deutschland wird das gefeiert.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SPIEGEL Wissenschaft",
+          "url": "https://www.spiegel.de/wissenschaft/nobelpreis-fuer-physik-francis-halzen-ausgezeichnet-fuer-neutrinoforschung-im-eis-a-2265b458-5307-4690-9be0-123920102096#ref=rss",
+          "language": "Deutsch"
+        },
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/physik-nobelpreis-2026-zum-nachweis-von-neutrinos-geisterjagd-im-eis/2343913",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 8,
+      "country": null,
+      "terms": [
+        {
+          "term": "Neutrinos",
+          "text": "Neutrinos sind extrem kleine Teilchen. Sie sind überall und gehen fast ohne Hindernis durch alles hindurch."
+        }
+      ],
+      "guess": {
+        "question": "Was machen die meisten Neutrinos, wenn sie auf die Erde treffen?",
+        "options": [
+          "Sie prallen ab",
+          "Sie fliegen einfach hindurch",
+          "Sie bleiben im Boden stecken"
+        ],
+        "answer": 1,
+        "reveal": "Neutrinos fliegen fast ungehindert durch Materie. Darum sind sie so schwer zu fangen.",
+        "icon": "atom"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/1280px-IceCube_Neutrino_Observatory_in_2023_02.jpg",
+        "credit": "Christopher Michel, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_02.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-03",
+      "ressort": "natur",
+      "kicker": "New Hampshire",
+      "headline": "New Hampshire hilft Amphibien sicher über die Straße",
+      "teaser": "Salamander und Frösche müssen jedes Jahr gefährliche Straßen queren. Die „Salamander Brigades“ in New Hampshire helfen ihnen dabei.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "100.000",
+          "unit": "Amphibien",
+          "caption": "bekommen Hilfe beim sicheren Überqueren der Straße",
+          "icon": "tortoise.fill"
+        },
+        {
+          "type": "background",
+          "title": "Die Wanderung",
+          "text": "Salamander und Frösche leben im Winter im Wald. Zum Brüten wandern sie zu Sümpfen. Auf dem Weg müssen sie Straßen queren. Die Salamander Brigades in New Hampshire helfen ihnen dabei."
+        }
+      ],
+      "whyGood": "Freiwillige schützen kleine Tiere, die sonst kaum jemand beachtet. So kommen mehr Amphibien sicher zu ihren Brutplätzen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/helping-100000-amphibians-safely-cross-the-road/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Amphibien",
+          "text": "Amphibien sind Tiere wie Frösche und Salamander. Sie leben an Land und im Wasser und legen ihre Eier meist im Wasser ab."
+        }
+      ],
+      "guess": {
+        "question": "Wo verbringen die Tiere den Winter?",
+        "options": [
+          "Im Wald",
+          "Unter dem Eis im Teich",
+          "In Höhlen"
+        ],
+        "answer": 0,
+        "reveal": "Sie überwintern im Wald und wandern zum Brüten zu Sümpfen.",
+        "icon": "tortoise.fill"
+      },
+      "image": null
+    },
+    {
+      "id": "2026-10-07-04",
+      "ressort": "zukunft",
+      "kicker": "Amazonas",
+      "headline": "Solarstrom ersetzt Diesel in abgelegenen Orten im Amazonas",
+      "teaser": "Abgelegene Dörfer in Brasilien setzen auf Sonnenstrom. So sind sie besser auf die nächste Dürre durch El Niño vorbereitet.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 36,
+          "icon": "person.2.fill",
+          "caption": "Familien in Nova Sociedade bekommen sauberes Wasser aus Solarpumpen"
+        },
+        {
+          "type": "bigNumber",
+          "value": "100.000",
+          "unit": "Anlagen",
+          "caption": "ohne Stromnetz liefen bis 2026 im brasilianischen Amazonasgebiet",
+          "icon": "sun.max.fill"
+        }
+      ],
+      "whyGood": "Sonnenstrom ist billiger und sauberer als Diesel. Er sichert Wasser, Licht, Schulen und Gesundheitsstationen, auch wenn eine Dürre kommt.",
+      "honestNote": "Die nächste Dürre wird trotzdem hart. Die Anlagen helfen vor allem bei der Vorbereitung.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/solar-power-helps-amazon-communities-ditch-diesel-and-prepare-for-el-nino-drought/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "BR",
+      "terms": [
+        {
+          "term": "El Niño",
+          "text": "Ein Wetterphänomen, bei dem sich das Meer im Pazifik stark erwärmt. In manchen Regionen, auch im Amazonas, wird es dadurch sehr trocken."
+        }
+      ],
+      "guess": {
+        "question": "Wie weit liefen die Menschen in Nova Sociedade 2024 für Wasser?",
+        "options": [
+          "Bis zu 2 Kilometer",
+          "Bis zu 20 Kilometer",
+          "Bis zu 60 Kilometer"
+        ],
+        "answer": 1,
+        "reveal": "Während der Dürre 2024 liefen sie bis zu 20 Kilometer. Jetzt pumpen Solaranlagen Wasser ins Dorf.",
+        "icon": "drop.fill"
+      },
+      "image": null
+    },
+    {
+      "id": "2026-10-07-05",
+      "ressort": "architektur",
+      "kicker": "Bilbao",
+      "headline": "Bilbao bekommt eine Brücke aus Stahl für seine Kunst",
+      "teaser": "Das Kunstmuseum in Bilbao hat einen neuen Anbau. Er überspannt das alte Haus, ohne es zu berühren, und öffnet das Museum zur Stadt.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "55",
+          "unit": "Meter",
+          "caption": "lang ist die neue Galerie, die wie eine Brücke über dem Museum liegt",
+          "icon": "building.columns.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Der Anbau heißt Agravitas und steht auf großen V-förmigen Stützen",
+            "Der Stahl dafür stammt aus der Region Bilbao",
+            "Oben gibt es Dachterrassen und Solarmodule auf dem Dach"
+          ],
+          "icons": [
+            "building.2.fill",
+            "hammer.fill",
+            "sun.max.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Ein Museum wird verbunden",
+          "text": "Das Museum besteht aus mehreren Gebäuden und Anbauten in U-Form. Der neue Bau verbindet sie. Darunter entstand eine Halle mit Skulpturen. Auch der alte Eingang aus den 1940er Jahren ist wieder offen."
+        }
+      ],
+      "whyGood": "Ein altes Museum wird zugänglicher und bekommt mehr Platz für Kunst. Dabei bleibt das historische Haus unberührt und die Stadt ehrt ihre Industriegeschichte.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/06/foster-partners-bilbao-fine-arts-museum/",
+          "language": "Englisch"
+        },
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186349/bilbao-fine-arts-museum-foster-plus-partners",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Photovoltaik",
+          "text": "Photovoltaik-Module wandeln Sonnenlicht in Strom um. Man sieht sie oft auf Dächern."
+        }
+      ],
+      "guess": {
+        "question": "Was passiert mit dem Tageslicht in den oberen Galerieräumen?",
+        "options": [
+          "Es fällt immer ungefiltert ein",
+          "Man kann es zulassen oder abdunkeln",
+          "Es wird nur durch Fenster geleitet"
+        ],
+        "answer": 1,
+        "reveal": "Die Oberlichter lassen Tageslicht herein oder können je nach Ausstellung abgedunkelt werden.",
+        "icon": "building.columns.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bilbao_-_Museo_Guggenheim_01.jpg/1280px-Bilbao_-_Museo_Guggenheim_01.jpg",
+        "credit": "Basotxerri, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Museo_Guggenheim_01.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-06",
+      "ressort": "sport",
+      "kicker": "Fußball",
+      "headline": "Kane stellt Länderspielrekord ein, England schlägt Tschechien 3:0",
+      "teaser": "England steht nach dem Sieg fast sicher im Finalturnier der Nations League. Harry Kane traf zweimal und schrieb nebenbei Geschichte.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "125",
+          "unit": "Länderspiele",
+          "caption": "hat Harry Kane jetzt für England bestritten. Das ist Rekord.",
+          "icon": "trophy.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Tschechiens Eigentor brachte England in der 27. Minute in Führung.",
+            "Harry Kane traf in der 40. und in der 57. Minute.",
+            "England liegt sechs Punkte vor Kroatien auf Rang zwei."
+          ],
+          "icons": [
+            "soccerball",
+            "star.fill",
+            "chart.bar.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein Stürmer erreicht einen Rekord, der 36 Jahre lang Bestand hatte, und feiert ihn mit zwei Toren. Sein Team steht kurz vor dem Finalturnier.",
+      "honestNote": "Das Rückspiel gegen Kroatien steht noch aus. Der Einzug ins Finalturnier ist deshalb noch nicht ganz sicher.",
+      "sources": [
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/fussball/nationsleague/rekord-und-doppelpack-kane-fuehrt-england-gegen-tschechien-zum-sieg,bericht-england-tschechien-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "kicker",
+          "url": "https://www.kicker.de/ich-setze-mir-nie-grenzen-kane-zieht-mit-rekordspieler-shilton-gleich-1258900/artikel#omrss",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Nations League",
+          "text": "Das ist ein Wettbewerb für Nationalmannschaften in Europa. Die besten Teams spielen am Ende in einem Finalturnier."
+        }
+      ],
+      "guess": {
+        "question": "Auf welcher Position spielte der Mann, dessen Rekord Kane eingestellt hat?",
+        "options": [
+          "Stürmer",
+          "Torhüter",
+          "Verteidiger"
+        ],
+        "answer": 1,
+        "reveal": "Peter Shilton war Torhüter. Sein letztes Länderspiel liegt 36 Jahre zurück.",
+        "icon": "soccerball"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Harry_Kane_England_v_Panama_27_June_26-145.jpg/1280px-Harry_Kane_England_v_Panama_27_June_26-145.jpg",
+        "credit": "Bryan Berlin, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Panama_27_June_26-145.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-07",
+      "ressort": "autos",
+      "kicker": "USA",
+      "headline": "Tesla Model 3 und Model Y können jetzt ein Haus mit Strom versorgen",
+      "teaser": "Bei einem Stromausfall kann der Akku dieser Autos das Haus versorgen. Bisher konnte das bei Tesla nur der Cybertruck.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "2",
+          "unit": "Tage",
+          "caption": "und mehr Notstrom kommen dazu, wenn ein Haus 30 Kilowattstunden am Tag braucht",
+          "icon": "bolt.car.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Nötig sind eine Powerwall 3 und eine Wall Connector Ladestation.",
+            "Sicher ist es bei Autos, die ab dem 1. Oktober 2026 bestellt wurden.",
+            "Strom ins öffentliche Netz verkaufen geht damit nicht."
+          ],
+          "icons": [
+            "house.fill",
+            "calendar",
+            "bolt.fill"
+          ]
+        }
+      ],
+      "whyGood": "Wer ein Elektroauto fährt, hat bei einem Stromausfall einen großen Akku vor der Tür. Er hält das Licht und den Kühlschrank länger am Laufen.",
+      "honestNote": "Es gilt bisher nur in den USA und Puerto Rico. Ältere Autos haben die Technik nur zum Teil.",
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/10/06/tesla-powershare-home-backup-model-3-model-y-powerwall-3/",
+          "language": "Englisch"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/transportation/1006193/tesla-model-3-model-y-powershare-home-backup",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Kilowattstunden",
+          "text": "Das ist ein Maß für Energie. Ein Haus braucht davon an einem Tag eine bestimmte Menge, zum Beispiel zum Kochen, Beleuchten und Kühlen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange hält der Akku eines Model Y ein Haus im Notfall zusätzlich am Laufen?",
+        "options": [
+          "Etwa sechs Stunden",
+          "Über zwei Tage",
+          "Eine ganze Woche"
+        ],
+        "answer": 1,
+        "reveal": "Tesla nennt über zwei Tage für ein Haus mit 30 Kilowattstunden Verbrauch am Tag.",
+        "icon": "bolt.car.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Tesla_Model_Y_1X7A6211.jpg/1280px-Tesla_Model_Y_1X7A6211.jpg",
+        "credit": "Alexander Migl, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_1X7A6211.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-08",
+      "ressort": "design",
+      "kicker": "Les Gavarres",
+      "headline": "Pavillon aus Gras: Er hält ohne Kleber und kann verschwinden",
+      "teaser": "Im spanischen Les Gavarres steht der Pavillon „Woven“. Er besteht aus Holz und gedruckten Teilen und denkt sein Ende von Anfang an mit.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 700,
+          "icon": "gearshape.fill",
+          "caption": "Teile aus dem 3D-Drucker greifen ineinander und halten den Pavillon zusammen"
+        },
+        {
+          "type": "steps",
+          "title": "So hält der Pavillon",
+          "items": [
+            "Die Teile bestehen aus abbaubarem Material aus Miscanthus, einem Gras.",
+            "Kreuzförmige Teile werden gedruckt und ineinander gesteckt.",
+            "Der Pavillon braucht weder Kleber noch Seil und kann wieder zerlegt werden."
+          ],
+          "icons": [
+            "leaf.fill",
+            "gearshape.fill",
+            "hammer.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Bauen mit Ablaufdatum",
+          "text": "Vorübergehende Bauten bleiben oft als Abfall zurück. Atelier DARN plant deshalb schon beim Entwurf mit ein, was nach dem Abbau passiert. Wetter und Verfall gehören zum Konzept."
+        }
+      ],
+      "whyGood": "Der Pavillon zeigt, dass ein Bau schon beim Entwurf an sein Ende denken kann. So bleibt im Wald weniger Abfall zurück.",
+      "honestNote": "Abbaubar heißt nicht automatisch umweltfreundlich. Es hängt auch von den Bedingungen und von der Herstellung der Teile ab.",
+      "sources": [
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/06/700-interlocking-pieces-no-glue-the-pavilion-that-quietly-disappears/?utm_source=rss&utm_medium=rss&utm_campaign=700-interlocking-pieces-no-glue-the-pavilion-that-quietly-disappears",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Miscanthus",
+          "text": "Miscanthus ist ein hohes Gras. Aus ihm lässt sich ein Material herstellen, das sich mit der Zeit zersetzt."
+        },
+        {
+          "term": "Pavillon",
+          "text": "Ein Pavillon ist ein leichtes, oft offenes Gebäude. Man baut es häufig nur für eine kurze Zeit auf."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Teile aus dem 3D-Drucker stecken ungefähr im Pavillon „Woven“?",
+        "options": [
+          "Rund 70",
+          "Rund 700",
+          "Rund 7.000"
+        ],
+        "answer": 1,
+        "reveal": "Rund 700 gedruckte, kreuzförmige Teile aus Miscanthus-Gras greifen ineinander und halten den Pavillon zusammen.",
+        "icon": "leaf.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Inicis_de_primavera.jpg/1280px-Inicis_de_primavera.jpg",
+        "credit": "Maria planas aulet, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inicis_de_primavera.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-09",
+      "ressort": "kultur",
+      "kicker": "Paris",
+      "headline": "Barbara Kruger füllt Pariser Rotunde mit riesigen Texten",
+      "teaser": "Im Museum Bourse de Commerce bedeckt die Künstlerin Wände, Boden und 24 Vitrinen mit Schrift. Heute beginnt die Ausstellung.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "700",
+          "unit": "Fotografien",
+          "caption": "von mehr als 80 Künstlerinnen und Künstlern zeigt die Ausstellung",
+          "icon": "camera.fill"
+        },
+        {
+          "type": "comparison",
+          "title": "Der runde Saal in Paris",
+          "before": {
+            "label": "Höhe",
+            "value": 9,
+            "display": "9 Meter"
+          },
+          "after": {
+            "label": "Durchmesser",
+            "value": 30,
+            "display": "30 Meter"
+          }
+        },
+        {
+          "type": "timeline",
+          "title": "Von 1947 bis 2027",
+          "items": [
+            {
+              "year": "1947",
+              "text": "Aimé Césaire schreibt sein Gedicht „Journal of a Homecoming“"
+            },
+            {
+              "year": "1988",
+              "text": "Barbara Kruger schafft „Untitled (Remember me)“"
+            },
+            {
+              "year": "7. Oktober 2026",
+              "text": "Die Ausstellung „Remember Me“ öffnet"
+            },
+            {
+              "year": "18. Januar 2027",
+              "text": "Die Ausstellung endet"
+            }
+          ]
+        }
+      ],
+      "whyGood": "Ein Museum wird zum Ort, an dem man Kunst nicht nur anschaut, sondern mittendrin steht. Dazu zeigt die Schau 200 Jahre Fotografie in einem Haus.",
+      "honestNote": "Die Ausstellung beginnt erst heute und läuft bis zum 18. Januar 2027.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/art/life-spectacle-barbara-kruger-tadao-ando-rotunda-monumental-texts-bourse-de-commerce-paris-remember-me-exhibition/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "FR",
+      "terms": [
+        {
+          "term": "Rotunde",
+          "text": "Ein runder Raum mit gewölbter Wand. Im Museum in Paris ist es ein Zylinder aus Beton."
+        },
+        {
+          "term": "Lightboxes",
+          "text": "Leuchtkästen. Das sind Kästen, die von innen leuchten und so ein Bild oder einen Text zeigen."
+        }
+      ],
+      "guess": {
+        "question": "Was liegt in der Rotunde auf dem Boden, in riesiger Schrift?",
+        "options": [
+          "Ein Zitat aus einem Roman",
+          "Ein Stadtplan von Paris",
+          "Eine Liste aller Besucher"
+        ],
+        "answer": 0,
+        "reveal": "Der Boden trägt ein Zitat aus George Orwells „1984“. Die Buchstaben sind so groß, dass man sie nur von oben lesen kann.",
+        "icon": "paintbrush.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bourse_de_Commerce_P1060092.JPG/1280px-Bourse_de_Commerce_P1060092.JPG",
+        "credit": "Pline, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bourse_de_Commerce_P1060092.JPG"
+      }
+    },
+    {
+      "id": "2026-10-07-10",
+      "ressort": "bildung",
+      "kicker": "Hamburg",
+      "headline": "Hamburg macht Besuch von NS-Gedenkstätten zur Pflicht",
+      "teaser": "Ab der fünften Klasse lernen Hamburgs Schülerinnen und Schüler an einem echten Ort, was im Nationalsozialismus geschah. Die Besuche sind kostenlos.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 80,
+          "label": "der Hamburger Schulen mit Besuch im Lehrplan",
+          "caption": "Bei etwa vier von fünf Schulen steht der Besuch einer Gedenkstätte schon jetzt im Lehrplan. Nun gilt er für alle."
+        },
+        {
+          "type": "count",
+          "value": 8,
+          "icon": "building.columns.fill",
+          "caption": "Gedenkstätten und Lernorte in Hamburg empfehlen die Behörden für die Besuche"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Der Besuch wird im Unterricht vor- und nachbereitet",
+            "Lehrkräfte werden dafür geschult",
+            "Hamburg ist nach Bayern und dem Saarland das dritte Land"
+          ],
+          "icons": [
+            "book.fill",
+            "graduationcap.fill",
+            "map.fill"
+          ]
+        }
+      ],
+      "whyGood": "Wenn Zeitzeugen und Erzählungen in der Familie seltener werden, bleibt die Erinnerung lebendig. Junge Menschen erfahren an echten Orten, was geschehen ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "News4teachers",
+          "url": "https://www.news4teachers.de/2026/10/drittes-bundesland-macht-ns-gedenkstaettenbesuch-fuer-schueler-zur-pflicht/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Gedenkstätte",
+          "text": "Eine Gedenkstätte ist ein Ort, der an schlimme Ereignisse der Vergangenheit erinnert. Dort kann man lernen, was damals passiert ist."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Orte empfehlen die Hamburger Behörden für die Besuche?",
+        "options": [
+          "Drei",
+          "Acht",
+          "Zwölf"
+        ],
+        "answer": 1,
+        "reveal": "Acht Gedenkstätten und Lernorte stehen zur Auswahl, darunter die KZ-Gedenkstätte Neuengamme.",
+        "icon": "building.columns.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Gedenkstein_homosexuelle_NS_Opfer_KZ_Neuengamme.jpg/1280px-Gedenkstein_homosexuelle_NS_Opfer_KZ_Neuengamme.jpg",
+        "credit": "Ulli 2mecs, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gedenkstein_homosexuelle_NS_Opfer_KZ_Neuengamme.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-11",
+      "ressort": "wirtschaft",
+      "kicker": "Elektroautos",
+      "headline": "Preislücke zwischen E-Autos und Verbrennern schrumpft",
+      "teaser": "Neue, günstigere Modelle setzen den Markt unter Druck. Das zeigt eine Studie zu den beliebtesten Autos in Deutschland.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Aufpreis für E-Autos",
+          "before": {
+            "label": "Oktober 2024",
+            "value": 6500,
+            "display": "über 6.500 Euro"
+          },
+          "after": {
+            "label": "September 2026",
+            "value": 2124,
+            "display": "2.124 Euro"
+          }
+        },
+        {
+          "type": "bigNumber",
+          "value": "17,9",
+          "unit": "%",
+          "caption": "Preisnachlass gab es im September im Schnitt auf die 25 meistverkauften E-Modelle",
+          "icon": "chart.bar.fill"
+        }
+      ],
+      "whyGood": "Elektroautos werden für mehr Menschen erschwinglich. Neue, günstigere Modelle sorgen dafür, dass der Wettbewerb sich weiter verstärkt.",
+      "honestNote": "Seit Dezember ist der Aufpreis noch um 800 Euro gestiegen. Die staatliche Kaufprämie ist in den Zahlen nicht eingerechnet.",
+      "sources": [
+        {
+          "name": "tagesschau Wirtschaft",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/preise-e-autos-verbrenner-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "ecomento",
+          "url": "https://feeds.feedblitz.com/~/971038907/0/ecomento_de~Preisunterschied-zwischen-EAutos-und-Verbrennern-schrumpft-wieder/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "guess": {
+        "question": "Wie viel teurer waren E-Autos in den Anfängen teils als Verbrenner?",
+        "options": [
+          "Etwa 5.000 Euro",
+          "Etwa 15.000 Euro",
+          "Etwa 25.000 Euro"
+        ],
+        "answer": 1,
+        "reveal": "In den Anfängen der Elektromobilität lag der Aufpreis teils bei 15.000 Euro.",
+        "icon": "bolt.car.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg/1280px-Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg",
+        "credit": "CEphoto, Uwe Aranas, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-12",
+      "ressort": "serien",
+      "kicker": "Serien",
+      "headline": "Britische Comedy „Small Prophets“ läuft jetzt auf Apple TV",
+      "teaser": "Die gelobte Serie von Mackenzie Crook lief zuerst bei der BBC. Jetzt können sie Abonnenten fast überall sehen, jeden Mittwoch mit einer neuen Folge.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Erfinder, Autor und Regisseur ist Mackenzie Crook",
+            "Die ersten zwei Folgen sind da, danach jeden Mittwoch eine",
+            "Die Staffel läuft bis zum 4. November"
+          ],
+          "icons": [
+            "pencil",
+            "calendar",
+            "tv.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Worum es geht",
+          "text": "Michael arbeitet im Baumarkt. Seine Freundin Clea ist seit sieben Jahren verschwunden. Nach einem alten Rezept will er Homunculi erschaffen, kleine Geister, die die Zukunft vorhersagen sollen."
+        }
+      ],
+      "whyGood": "Eine leise, liebevoll gemachte britische Komödie erreicht ein Publikum auf der ganzen Welt. Für Apple TV ist es die erste bereits gesendete englischsprachige Serie, die es dazugekauft hat.",
+      "honestNote": "In Großbritannien kommt die Serie erst 2027 zu Apple TV. Dort lief sie vorher bei der BBC.",
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/06/acclaimed-british-comedy-series-small-prophets-now-available-on-apple-tv/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Homunculi",
+          "text": "Das sind winzige, künstlich erschaffene Wesen aus alten Geschichten. In der Serie sollen sie die Zukunft kennen."
+        },
+        {
+          "term": "Alchemie",
+          "text": "Das war eine alte Lehre, in der Menschen mit geheimnisvollen Mischungen Wunder bewirken wollten."
+        }
+      ],
+      "guess": {
+        "question": "Was braucht Michael für das alte Rezept, mit dem er Wesen erschaffen will?",
+        "options": [
+          "Honig und Mondstaub",
+          "Regenwasser und Pferdemist",
+          "Salz und Eisenspäne"
+        ],
+        "answer": 1,
+        "reveal": "Das Rezept braucht Regenwasser, Pferdemist und eine große Portion Alchemie.",
+        "icon": "tv.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Mackenzie_Crook_at_Series_Mania_2026_with_fans_for_Small_Prophets_01.jpg/1280px-Mackenzie_Crook_at_Series_Mania_2026_with_fans_for_Small_Prophets_01.jpg",
+        "credit": "Elyot Boudart, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mackenzie_Crook_at_Series_Mania_2026_with_fans_for_Small_Prophets_01.jpg"
+      }
+    },
+    {
+      "id": "2026-10-07-k01",
+      "ressort": "fotografie",
+      "kicker": "Luftfahrt-Fotografie",
+      "headline": "Vom 3D-Grafiker zum gefeierten Flugzeugfotografen",
+      "teaser": "Der Italiener Simone Marulli fotografiert Verkehrsflugzeuge und Kampfjets. 25 Jahre arbeitete er in 3D-Grafik und Animation. Heute fängt er Geschwindigkeit mit der Kamera ein, wie er dem Portal PetaPixel erzählt.",
+      "blocks": [],
+      "whyGood": "Eine Kindheitsliebe zur Fotografie hat Simone Marulli nach vielen Jahren in einem ganz anderen Beruf wieder eingeholt.",
+      "honestNote": "Dass er an der Spitze der Luftfahrtfotografie steht, ist die Einschätzung von PetaPixel und keine messbare Größe.",
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/06/photographer-brings-speed-to-life-through-jaw-dropping-plane-photos/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IT",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k02",
+      "ressort": "kurioses",
+      "kicker": "Wisconsin",
+      "headline": "Hund Swayze filmt mit GoPro die Gäste auf der Hochzeit",
+      "teaser": "Emily und Josh aus Wisconsin schnallten ihrem Hund Swayze beim Sektempfang eine GoPro auf das Geschirr. Der neunjährige Sheepadoodle begrüßte die Gäste und filmte ihre Freude. Das Video bekam über 236.000 Likes auf Instagram.",
+      "blocks": [],
+      "whyGood": "Weil der Hund jeden Gast begrüßte, hielt das Paar Momente fest, die es selbst gar nicht erleben konnte, darunter einen mit der 91 Jahre alten Oma.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/06/dog-with-gopro-strapped-to-his-back-captures-priceless-wedding-footage/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k03",
+      "ressort": "lifestyle",
+      "kicker": "Paris",
+      "headline": "Dackel-Parade auf den Champs-Élysées zur Pariser Modewoche",
+      "teaser": "Zur Pariser Modewoche haben Hunderte Dackel mit ihren Besitzern die Champs-Élysées übernommen. Am 4. Oktober fand der jährliche „Sausage Walk“ statt. Die berühmte Prachtstraße gehörte für einen Tag den Kurzbeinern.",
+      "blocks": [],
+      "whyGood": "Ein Tag lang gehört eine der berühmtesten Straßen der Welt den Dackeln und ihren Menschen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Lifestyle",
+          "url": "https://www.theguardian.com/fashion/video/2026/oct/06/hundreds-of-dachshunds-march-down-the-champs-elysees-during-paris-fashion-week-video",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "FR",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k04",
+      "ressort": "dekoration",
+      "kicker": "Mailand",
+      "headline": "Mailand: 60 Jahre leere Wohnung wird zum hellen Zuhause",
+      "teaser": "Die Architektin Alessia Giacobino hat in Mailand eine Jugendstil-Wohnung saniert, die 60 Jahre unbewohnt war. Zarte Wandmuster unter drei Tapetenschichten ließ sie sichtbar. Eine neue Öffnung und eine Vintage-Tür bringen Licht und die Terrasse ins Wohnzimmer.",
+      "blocks": [],
+      "whyGood": "Ein lange vergessener Ort bekommt neues Leben, und seine Geschichte bleibt sichtbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "AD Deutschland",
+          "url": "https://www.ad-magazin.de/artikel/boho-look-und-terrassenglueck-ueber-den-daechern-von-mailand",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IT",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k05",
+      "ressort": "welt",
+      "kicker": "Virginia",
+      "headline": "Virginia siegelt Strafakten für kleinere Vergehen automatisch",
+      "teaser": "In Virginia gilt ein neues „Clean Slate“-Gesetz. Es versiegelt Einträge zu kleineren Vergehen wie Ladendiebstahl oder unbefugtem Betreten automatisch. Das soll Menschen helfen, leichter Arbeit oder einen Kredit zu bekommen.",
+      "blocks": [],
+      "whyGood": "Wer als junger Mensch einen Fehler gemacht hat, wird dafür später nicht mehr bei Jobs und Krediten ausgebremst.",
+      "honestNote": "Die Akten werden nur versiegelt, nicht gelöscht. Auskunfteien und manche Behörden können sie weiter einsehen, Arbeitgeber erfahren davon aber nichts.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/virginia-becomes-latest-state-to-enact-clean-slate-law-to-help-residents-move-on-from-minor-offenses/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k06",
+      "ressort": "technik",
+      "kicker": "Singapur",
+      "headline": "Roboter Albatross landet sanft im Wasser und segelt los",
+      "teaser": "Forschende der Singapore University of Technology and Design haben den Roboter Albatross gebaut. Er wird aus der Luft abgeworfen und dreht sich wie ein Ahornsamen nach unten. Im Wasser wird er zum Segelboot und steuert ein Ziel an.",
+      "blocks": [],
+      "whyGood": "Ein Roboter, der nur ein Kilogramm wiegt, kann mit wenigen Teilen sicher landen und selbst zum Ziel segeln.",
+      "honestNote": "Die Studie ist in Science Robotics erschienen. Wie der Roboter außerhalb der Forschung eingesetzt wird, ist noch offen.",
+      "sources": [
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/albatross-roboter-segelt-flug-wasser-1766080/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "SG",
+      "terms": [
+        {
+          "term": "Autorotation",
+          "text": "Dabei dreht sich ein Körper im Fall um die eigene Achse. Das erzeugt Auftrieb und bremst den Fall stark ab, so wie bei einem Ahornsamen."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k07",
+      "ressort": "film",
+      "kicker": "Film",
+      "headline": "„Club Kid“: Jordan Firstman überzeugt als Regisseur mit Debüt",
+      "teaser": "Der Schauspieler und Komiker Jordan Firstman legt mit „Club Kid“ sein erstes Regiewerk vor. Es spielt in der New Yorker Clubszene. Ein Partyveranstalter erfährt, dass er Vater eines Zehnjährigen ist. Der Guardian nennt den Film unwiderstehlich.",
+      "blocks": [],
+      "whyGood": "Ein warmherziger Film über Familie und gewählte Familie zeigt, dass ein Debüt gleich begeistern kann.",
+      "honestNote": "Das ist die Einschätzung einer Kritikerin oder eines Kritikers beim Festival in New York. Ein Kinostart ist hier nicht genannt.",
+      "sources": [
+        {
+          "name": "Guardian Culture",
+          "url": "https://www.theguardian.com/film/2026/oct/05/club-kid-review-jordan-firstmans-movie-review",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k08",
+      "ressort": "kueche",
+      "kicker": "Kurz notiert",
+      "headline": "Birnentarte mit Mandeln und spanischem Dessertwein-Karamell",
+      "teaser": "Koch Jose Pizarro bringt zwei spanische Klassiker in einem Nachtisch zusammen. Roter Vermut verleiht den pochierten Birnen Kräuter- und Gewürznoten. Dazu kommt ein Karamell mit Pedro Ximénez, der nach Rosine und Feige schmeckt.",
+      "blocks": [],
+      "whyGood": "Aus zwei Getränken vom spanischen Tisch wird ein Nachtisch, der für 10 bis 12 Gäste reicht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Food",
+          "url": "https://www.theguardian.com/food/2026/oct/06/poached-pear-almond-tart-recipe-px-sherry-caramel-jose-pizarro",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Pedro Ximénez",
+          "text": "Das ist ein süßer, dunkler spanischer Wein. Er schmeckt nach Rosinen, Feigen und Karamell und wird oft zum Dessert oder zu Käse getrunken."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k09",
+      "ressort": "promis",
+      "kicker": "Wiedersehen",
+      "headline": "Robin Roberts und Diane Sawyer treffen sich im GMA-Studio wieder",
+      "teaser": "Robin Roberts hat ihre frühere Kollegin Diane Sawyer im Studio von „Good Morning America“ empfangen. Ein Kameramann machte ein Foto der beiden auf dem berühmten Sofa. Roberts schrieb dazu auf Instagram: „Such wisdom, such grace.“",
+      "blocks": [],
+      "whyGood": "Eine lange Freundschaft aus dem Fernsehen besteht auch nach Jahren weiter und sorgt für einen warmen Moment.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1436822/gmas-robin-roberts-diane-sawyer-reunite-17-years-after-hosting-together?cmpid=rss-syndicate-genericrss-us-top_stories",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k10",
+      "ressort": "wissenschaft",
+      "kicker": "Weltraum",
+      "headline": "Webb zeigt verborgene Sterne im Nebel NGC 7129",
+      "teaser": "Das James-Webb-Weltraumteleskop der NASA hat im Sternentstehungsgebiet NGC 7129 viele junge Sterne sichtbar gemacht. Sie waren bisher hinter Staubwolken versteckt. Webb sieht Infrarotlicht und blickt so durch den Staub. NGC 7129 ist etwa 3.300 Lichtjahre entfernt.",
+      "blocks": [],
+      "whyGood": "Das Teleskop lässt uns zusehen, wie neue Sterne entstehen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
+          "language": "Englisch"
+        },
+        {
+          "name": "ESA",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Webb_captures_commotion_from_nebula_s_stellar_jets",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": null,
+      "terms": [
+        {
+          "term": "Infrarotlicht",
+          "text": "Infrarotlicht ist für unsere Augen unsichtbar. Es kann Staubwolken besser durchdringen als sichtbares Licht."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k11",
+      "ressort": "natur",
+      "kicker": "Kanada",
+      "headline": "Kanada: Größte Algenwald-Pflanzung der Westküste wächst",
+      "teaser": "In der Clayoquot Sound vor Vancouver Island pflanzt ein Bündnis neue Kelp-Wälder. Dahinter stehen die Tla-o-qui-aht First Nation, die Redd Fish Restoration Society und West Coast Kelp. Seit Anfang 2026 sind mehr als 4.200 Quadratmeter Lebensraum entstanden.",
+      "blocks": [],
+      "whyGood": "Indigenes Wissen und Wissenschaft schaffen gemeinsam neuen Lebensraum im Meer, und die zurückgekehrten Seeotter helfen dabei.",
+      "honestNote": "Das Projekt ist noch jung. Ob es dauerhaft gelingt, soll sich erst an wissenschaftlichen Messungen und an der Rückkehr der natürlichen Fülle zeigen.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/2026/10/science-indigenous-knowledge-team-up-to-restore-canadas-kelp-sea-otters-help-too/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "CA",
+      "terms": [
+        {
+          "term": "Kelp",
+          "text": "Kelp sind große Braunalgen. Sie wachsen im Meer zu dichten Wäldern und bieten vielen Tieren Nahrung und Schutz."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k12",
+      "ressort": "zukunft",
+      "kicker": "Schweiz",
+      "headline": "ETH-Spin-off lädt Elektrobusse kabellos über die Räder auf",
+      "teaser": "Das Schweizer Unternehmen Winduction, ein Spin-off der ETH Zürich, hat ein System entwickelt, das E-Busse über die Räder auflädt. Die Spulen sitzen dort, wo der Bus den Boden berührt. Laut Firma geht so weniger als zehn Prozent der Energie verloren.",
+      "blocks": [],
+      "whyGood": "Schon kurze Stopps an der Haltestelle könnten reichen, um Busse zu laden, und kleinere Batterien machen sie günstiger.",
+      "honestNote": "Das System braucht einen stahlfreien Reifen, an dem das Unternehmen noch mit Partnern arbeitet. Die Effizienzwerte stammen von der Firma selbst.",
+      "sources": [
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/strom-ueber-die-reifen-dieses-ladesystem-macht-elektrobusse-unabhaengig-vom-kabel-1766850/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
+        },
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/technik/fachbereiche/verkehr/elektrobusse-laden-uber-die-rader-wie-ein-start-up-strom-aus-der-strasse-holt/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "CH",
+      "terms": [
+        {
+          "term": "Spin-off",
+          "text": "Ein Spin-off ist eine Firma, die aus einer Hochschule oder einem Unternehmen heraus gegründet wird, oft um eine Forschungsidee in ein Produkt zu verwandeln."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k13",
+      "ressort": "architektur",
+      "kicker": "Gent",
+      "headline": "Design Museum Gent öffnet mit neuem Flügel wieder",
+      "teaser": "Das größte Designmuseum Belgiens in Gent hat am 3. Oktober 2026 wieder eröffnet. Die Büros Carmody Groarke und ATAMA haben einen neuen Flügel gebaut, historische Häuser wurden restauriert. Ein Bürgerrat mit 40 Menschen aus Gent redete bei der Planung mit.",
+      "blocks": [],
+      "whyGood": "Ein Museum will für alle da sein und hat dafür die Menschen vor Ort gefragt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186376/design-museum-gent-reopens-with-new-wing-by-carmody-groarke-and-atama",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "BE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k14",
+      "ressort": "gesundheit",
+      "kicker": "Nach der Geburt",
+      "headline": "Lotsen helfen jungen Müttern, gesund zu bleiben",
+      "teaser": "Frauen mit geringem Einkommen, die nach der Geburt eine Patientenlotsin oder einen Patientenlotsen an ihrer Seite hatten, bekamen deutlich öfter Nachsorge. 96 Prozent kamen zu den Terminen, ohne Lotsen waren es 80 Prozent. Das zeigt eine Studie von Northwestern Medicine.",
+      "blocks": [],
+      "whyGood": "Eine einfache Hilfe sorgt dafür, dass mehr Mütter nach der Geburt und noch ein Jahr später gut versorgt sind.",
+      "honestNote": "Die Studie zeigt einen Zusammenhang. Sie gilt für Frauen mit geringem Einkommen in den USA.",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261003234017.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Patientenlotsen",
+          "text": "Patientenlotsen sind geschulte Helfer. Sie verbinden Patientinnen mit Ärzten, Diensten und anderen Hilfen und unterstützen bei Hürden wie Transport oder Terminen."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k15",
+      "ressort": "sport",
+      "kicker": "U21-Fußball",
+      "headline": "Deutsche U21 fährt mit 2:0 gegen Georgien zur EM 2027",
+      "teaser": "Die deutsche U21 hat die EM-Qualifikation geschafft. In Bielefeld gewann sie 2:0 gegen Georgien. Dženan Pejčinović schoss beide Tore. Das Team von Antonio di Salvo wurde Gruppensieger und muss nicht in die Playoffs.",
+      "blocks": [],
+      "whyGood": "20.049 Fans sahen das Spiel, so viele wie seit über 20 Jahren nicht mehr bei der U21, und der Jubel über die EM ist riesig.",
+      "honestNote": "Das Turnier ist noch weit weg. Die Gruppen werden erst am 26. November in Belgrad ausgelost.",
+      "sources": [
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/fussball/u21/deutsche-u21-faehrt-dank-sieg-gegen-georgien-zur-em-2027,u21-em-qualifikation-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "kicker",
+          "url": "https://www.kicker.de/darvich-und-der-geklaute-treffer-als-kleiner-junge-hat-man-gesagt-schusskraft-zaehlt-1258872/artikel#omrss",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k16",
+      "ressort": "autos",
+      "kicker": "Autos weltweit",
+      "headline": "Benziner und Diesel machen erstmals unter die Hälfte der Verkäufe aus",
+      "teaser": "Weltweit sinkt der Anteil von Autos mit Verbrennungsmotor unter 50 Prozent. Das gab es laut InsideEVs seit den 1920er Jahren nicht mehr. Elektroautos profitieren davon am meisten. Manche Fachleute erwarten, dass sie bis 2030 vorne liegen.",
+      "blocks": [],
+      "whyGood": "Immer mehr Menschen fahren sauberer, und das hilft dem Klima und der Luft in unseren Städten.",
+      "honestNote": "Die Prognose für 2030 ist eine Schätzung einiger Fachleute und keine sichere Vorhersage.",
+      "sources": [
+        {
+          "name": "InsideEVs",
+          "url": "https://insideevs.com/news/810909/gas-vehicles-global-sales-below-50/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k17",
+      "ressort": "design",
+      "kicker": "Design",
+      "headline": "Neuer Griff macht den Inbusschlüssel leichter zu drehen",
+      "teaser": "Die Designerin Siddhi Ravi hat das „Turn Kit“ entworfen. Es besteht aus drei Inbusschlüsseln (4, 5 und 6 Millimeter) und zwei dicken Aufsätzen. Mit dem bequemen Griff rutscht der Schlüssel weniger, und auch Kinder oder Menschen mit schwachem Handgelenk können mithelfen.",
+      "blocks": [],
+      "whyGood": "Ein kleiner Griff kann den Möbelaufbau für mehr Menschen möglich machen, auch für Kinder und ältere Familienmitglieder.",
+      "honestNote": "Das Turn Kit ist ein Designprojekt. Ein breiterer Griff beseitigt nicht jede körperliche Hürde.",
+      "sources": [
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/06/nobody-redesigned-the-allen-key-for-115-years-heres-the-fix/?utm_source=rss&utm_medium=rss&utm_campaign=nobody-redesigned-the-allen-key-for-115-years-heres-the-fix",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": [
+        {
+          "term": "Inbusschlüssel",
+          "text": "Ein kleines, sechskantiges Metallstück in L-Form. Damit dreht man Schrauben mit Sechskantloch, zum Beispiel beim Aufbau von Möbeln."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k18",
+      "ressort": "kultur",
+      "kicker": "New York",
+      "headline": "New York verdoppelt Förderung für Künstlerinnen und Künstler",
+      "teaser": "Zum ersten Mal seit fast 20 Jahren steigen die städtischen Zuschüsse für einzelne Kreative und kleine Non-Profit-Gruppen. Statt 5.000 gibt es künftig bis zu 10.000 Dollar. Bürgermeister Zohran Mamdani will so helfen, dass sich Kunstschaffende die Stadt leisten können.",
+      "blocks": [],
+      "whyGood": "Wer in New York Kunst macht, bekommt mehr Geld und kann leichter in der Stadt bleiben.",
+      "honestNote": "Die Zuschüsse sind eine Hilfe, aber kein festes Einkommen. Laut Mamdani verdient die Mehrheit der Künstler in der Stadt weniger als 25.000 Dollar im Jahr.",
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/nyc-mamdani-artist-grants/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k19",
+      "ressort": "bildung",
+      "kicker": "Brandenburg",
+      "headline": "Stipendium bringt Lehrkräfte an Brandenburgs Landschulen",
+      "teaser": "Brandenburg fördert angehende Lehrkräfte mit 600 Euro im Monat. Dafür unterrichten sie an einer ländlichen Schule. Seit 2021 gab es 227 Stipendien, 25 davon wurden jetzt in Potsdam übergeben. Bildungsminister Gordon Hoffmann nennt das Programm „eine Erfolgsstory“.",
+      "blocks": [],
+      "whyGood": "Junge Lehrkräfte entscheiden sich für Schulen auf dem Land, und das stärkt ganze Dörfer.",
+      "honestNote": "Bisher haben 43 Stipendiaten den Vorbereitungsdienst abgeschlossen und acht die Nachbeschäftigungszeit. 17 Stipendien endeten vorzeitig, meist aus persönlichen Gründen.",
+      "sources": [
+        {
+          "name": "News4teachers",
+          "url": "https://www.news4teachers.de/2026/10/eine-erfolgsstory-stipendium-lockt-angehende-lehrkraefte-an-laendliche-schulen/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Vorbereitungsdienst",
+          "text": "Das ist die praktische Ausbildung nach dem Studium. Angehende Lehrkräfte unterrichten dabei an einer Schule und werden begleitet."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k20",
+      "ressort": "serien",
+      "kicker": "Serien",
+      "headline": "Miniserie mit Jacob Elordi erhält 100 Prozent bei Rotten Tomatoes",
+      "teaser": "„The Narrow Road to the Deep North“ hat bei den Kritikern auf Rotten Tomatoes 100 Prozent erreicht. Die fünfteilige Serie basiert auf dem Roman von Richard Flanagan. Justin Kurzel führte Regie, Jacob Elordi spielt einen australischen Armeearzt im Zweiten Weltkrieg.",
+      "blocks": [],
+      "whyGood": "Ein anspruchsvolles Drama gegen den Krieg begeistert die Fachkritik und findet auch beim Publikum Anklang.",
+      "honestNote": "Beim Publikum liegt die Serie mit 75 Prozent im Popcornmeter etwas niedriger als bei den Kritikern.",
+      "sources": [
+        {
+          "name": "Serienjunkies",
+          "url": "https://www.serienjunkies.de/news/serien/the-narrow-road-to-the-deep-north-miniserie-mit-jacob-elordi-94527886.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "Popcornmeter",
+          "text": "Der Popcornmeter ist die Publikumswertung auf Rotten Tomatoes. Er zeigt, wie viele Zuschauer eine Serie oder einen Film positiv bewerten."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k21",
+      "ressort": "fotografie",
+      "kicker": "Hawai'i",
+      "headline": "Neues Foto zeigt Überrest einer Sternexplosion von 1181",
+      "teaser": "Das Gemini-North-Teleskop in Hawai'i hat Pa 30 neu fotografiert. Der Nebel gilt als Überrest einer Supernova, die Menschen im August 1181 sahen. Das Bild zeigt seine feuerwerkartigen Fäden etwa zehnmal genauer als zuvor.",
+      "blocks": [],
+      "whyGood": "Ein Blick auf ein Ereignis, das schon vor 845 Jahren Menschen staunen ließ, wird jetzt schärfer als je zuvor.",
+      "honestNote": "Dass Pa 30 wirklich der Überrest von 1181 ist, gilt als sehr wahrscheinlich, ist aber noch nicht endgültig bewiesen.",
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/06/this-firework-like-supernova-remnant-is-the-result-of-an-explosion-people-saw-845-years-ago/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Supernova",
+          "text": "Eine Supernova ist die gewaltige Explosion eines Sterns am Ende seines Lebens. Sie leuchtet für kurze Zeit extrem hell."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k22",
+      "ressort": "kurioses",
+      "kicker": "Nova Scotia",
+      "headline": "Zimmermann findet Geldbeutel, der 51 Jahre verschollen war",
+      "teaser": "Bei Umbauarbeiten an einem Haus in Nova Scotia hat ein Zimmermann einen Geldbeutel entdeckt. Sein Besitzer hatte ihn vor 51 Jahren verloren. Ein kleiner Fund, der eine lange Geschichte erzählt.",
+      "blocks": [],
+      "whyGood": "Manchmal taucht Verlorenes nach mehr als fünf Jahrzehnten wieder auf.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/06/canada-dartmouth-nova-scotia-lost-wallet-51-years/7671791307060/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "CA",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k23",
+      "ressort": "lifestyle",
+      "kicker": "Bangkok",
+      "headline": "Bangkoks Ufer am Chao Phraya erwacht zu neuem Leben",
+      "teaser": "Am Fluss Chao Phraya in Bangkok teilen sich Nudelstände, Sternerestaurants und Kunstgalerien den Platz. Alte Lagerhäuser dienen heute als Galerien. Die Designerin Jern zeigt Gästen auf ihrem Boot von 1957 verborgene Orte am Wasser.",
+      "blocks": [],
+      "whyGood": "Der Fluss, lange das Herz der Stadt, wird wieder zu einem lebendigen Ort für Einheimische und Gäste.",
+      "honestNote": "Der Bericht stammt aus einer Reisereportage und zeigt vor allem die schönen Seiten des Wandels.",
+      "sources": [
+        {
+          "name": "Condé Nast Traveler",
+          "url": "https://www.cntraveler.com/story/the-tremendous-revival-of-bangkoks-chao-phraya-waterfront",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "TH",
+      "terms": [
+        {
+          "term": "Klong",
+          "text": "Klong ist das thailändische Wort für Kanal. In Bangkok führen viele solcher Wasserwege vom großen Fluss ab."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k24",
+      "ressort": "dekoration",
+      "kicker": "Garten",
+      "headline": "Sonnenhut stehen lassen: Futter für Vögel im Herbst und Winter",
+      "teaser": "Wer Sonnenhut (Echinacea) nach der Blüte nicht abschneidet, hilft Vögeln. Die harten Samenköpfe sind im Winter eine natürliche Futterstelle. Besonders Stieglitze, Meisen und Kardinäle picken die Samen heraus.",
+      "blocks": [],
+      "whyGood": "Mit einem Verzicht auf den Herbstschnitt wird der Garten ganz ohne Mehraufwand zum Futterplatz für Vögel.",
+      "honestNote": "Die Tipps stammen aus der Gartenbranche und beziehen sich auf nordamerikanische Vogelarten.",
+      "sources": [
+        {
+          "name": "Homes & Gardens",
+          "url": "https://www.homesandgardens.com/gardens/the-flower-gardeners-never-deadhead-in-october",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Samenköpfe",
+          "text": "Das sind die Fruchtstände einer Pflanze nach der Blüte. Beim Sonnenhut bildet die mittlere Wölbung viele kleine Samen aus."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k25",
+      "ressort": "welt",
+      "kicker": "Champaign",
+      "headline": "Illinois ehrt Helfer, die Autofahrerin (90) aus Teich retteten",
+      "teaser": "Im August rutschte das Auto einer 90-jährigen Frau bei Gewitter in einen überfluteten Teich in Champaign. Drei Anwohner schwammen sofort hinaus, vier Polizisten halfen mit. Jetzt wurden alle geehrt, und die Frau bedankte sich selbst.",
+      "blocks": [],
+      "whyGood": "Fremde halfen ohne zu zögern, und die gerettete Frau konnte sich persönlich bei ihnen bedanken.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/illinois-community-members-honored-for-helping-save-woman-in-submerged-vehicle-watch/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k26",
+      "ressort": "technik",
+      "kicker": "Robotik",
+      "headline": "Roboterhand lernt von Meisterin die Seidenstickerei",
+      "teaser": "Die Firma Agilink, ein Ableger des chinesischen Robotikkonzerns AgiBot, hat ihre Roboterhand OmniHand 3 Ultra trainieren lassen. Die Stickmeisterin Fu Xianghong zeigte ihr die Suzhou-Stickerei. Die Hand teilt Seidenfäden, fädelt eine Nadel ein und stickt.",
+      "blocks": [],
+      "whyGood": "Eine Roboterhand lernt ein 2.500 Jahre altes Handwerk, und das bringt feinfühlige Maschinen für den Alltag näher.",
+      "honestNote": "Es ist eine Vorführung im Video. Für Haushalte sind solche Roboterhände noch nicht alltagstauglich.",
+      "sources": [
+        {
+          "name": "New Atlas",
+          "url": "https://newatlas.com/robotics/agilink-robot-hand-learns-silk-embroidery/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "CN",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k27",
+      "ressort": "film",
+      "kicker": "Film",
+      "headline": "„Pan's Labyrinth“ kehrt in 3D und mit neuem Ton ins Kino zurück",
+      "teaser": "Zum 20. Jahrestag kommt Guillermo del Toros Fantasyfilm in einer neuen Fassung in die Kinos. Es gibt eine 3D-Version, eine neue Farbgestaltung und einen neuen Ton. Del Toro hat die Arbeit eng begleitet. Start in Nordamerika ist am 9. Oktober.",
+      "blocks": [],
+      "whyGood": "Ein beliebter Film lässt sich nach 20 Jahren noch einmal auf der großen Leinwand erleben, und zwar so, wie ihn sein Regisseur sich wünscht.",
+      "honestNote": "Der Starttermin am 9. Oktober gilt zunächst für Nordamerika. Ob und wann die neue Fassung in Deutschland läuft, ist offen.",
+      "sources": [
+        {
+          "name": "IndieWire",
+          "url": "https://www.indiewire.com/features/craft/pans-labyrinth-returns-3d-dolby-atmos-guillermo-del-toro-1235219554/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k28",
+      "ressort": "promis",
+      "kicker": "Tanzparkett",
+      "headline": "Paralympics-Sieger Ezra Frech tanzt bei „Dancing With the Stars“ vorn",
+      "teaser": "Ezra Frech steht bei „Dancing With the Stars“ seit drei Wochen an der Spitze der Rangliste. Der 21-jährige Paralympics-Sieger wurde mit einer angeborenen Gliedmaßendifferenz geboren. Er tanzt mit Partnerin Daniella Karagach und will Menschen mit Behinderung sichtbar machen.",
+      "blocks": [],
+      "whyGood": "Videos von Kindern und Erwachsenen mit Behinderung, die ihm beim Tanzen zusehen, gehen im Netz viral und machen vielen Mut.",
+      "honestNote": "Das Tanzen ist für seinen Körper eine große Anstrengung. Und wie weit er in der Show kommt, ist noch offen.",
+      "sources": [
+        {
+          "name": "Decider",
+          "url": "https://decider.com/2026/10/06/ezra-frech-dancing-with-the-stars-interview/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-k29",
+      "ressort": "natur",
+      "kicker": "Südatlantik",
+      "headline": "57 neue Arten in einem Tiefseecanyon vor Argentinien entdeckt",
+      "teaser": "Forschende des Ocean Census haben im Mar-del-Plata-Canyon vor Argentinien 57 neue Arten und fünf neue Gattungen gefunden. Dafür brauchten sie nur zwei Wochen. Der Canyon ist über 3.500 Meter tief, etwa doppelt so tief wie der Grand Canyon.",
+      "blocks": [],
+      "whyGood": "Die Tiefsee birgt noch viele unbekannte Lebewesen, und gemeinsame Forschung bringt sie schnell ans Licht.",
+      "honestNote": "Die Expedition fand schon vor gut einem Jahr statt. Erst jetzt werden die Ergebnisse bekannt gemacht.",
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/06/scientists-discovered-57-species-in-a-south-atlantic-submarine-canyon/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "AR",
+      "terms": [
+        {
+          "term": "Gattungen",
+          "text": "Eine Gattung fasst nah verwandte Arten zusammen. Mehrere Arten können zur selben Gattung gehören."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-k30",
+      "ressort": "architektur",
+      "kicker": "Queens, New York",
+      "headline": "Drehbares Kunstwerk gibt Bewohnern von Astoria Houses eine Stimme",
+      "teaser": "Am Wasser in Queens steht jetzt „Revolving Voices“. Das Studio Urban Conga und die Dichterin Tamra Cosby haben es mit Bewohnern der Sozialsiedlung Astoria Houses entwickelt. Vier drehbare Bauteile zeigen Geschichten und Gedichte der Nachbarschaft.",
+      "blocks": [],
+      "whyGood": "Die Menschen vor Ort haben das Kunstwerk mitgestaltet, und sie können es jeden Tag nutzen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/design/rotating-megaphone-forms-community-voices-queens-landmark-urban-conga-tamra-cosby/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "US",
+      "terms": []
+    }
+  ],
+  "joke": {
+    "setup": "Was ist ein Keks unter einem Baum?",
+    "punchline": "Ein schattiges Plätzchen."
+  },
+  "comic": {
+    "series": "vaterundsohn",
+    "title": "Vater und Sohn",
+    "episode": "Das sind sie",
+    "image": "https://upload.wikimedia.org/wikipedia/de/4/4f/Vater_und_Sohn_-_Das_sind_sie.jpg",
+    "pages": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/de/4/4f/Vater_und_Sohn_-_Das_sind_sie.jpg",
+        "width": 1200,
+        "height": 808
+      }
+    ],
+    "credit": "e.o.plauen (Erich Ohser), 1935, gemeinfrei",
+    "link": "https://de.wikipedia.org/wiki/Vater_und_Sohn",
+    "linkTitle": "Mehr über Vater und Sohn"
+  },
+  "recommendation": {
+    "kind": "serie",
+    "label": "Serie",
+    "title": "Abbott Elementary",
+    "creator": "Quinta Brunson",
+    "year": "2021",
+    "text": "Eine Mockumentary über ein engagiertes Lehrerteam an einer chronisch unterfinanzierten Grundschule in Philadelphia. Die Serie ist warmherzig, schnell erzählt und wurde mit mehreren Emmys ausgezeichnet. Sie zeigt, wie viel Optimismus in einem ganz normalen Arbeitsalltag steckt.",
+    "forWhom": "Für alle, die gern über Menschen lachen, die trotz allem nicht aufgeben.",
+    "link": "https://de.wikipedia.org/wiki/Abbott_Elementary",
+    "source": null
+  },
+  "weekly": null,
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-10-07-03",
+        "question": "Wohin wandern Salamander und Frösche zum Brüten?",
+        "options": [
+          "Zu Sümpfen",
+          "Zu Berggipfeln",
+          "Zu Flussmündungen",
+          "Zu Stadtparks"
+        ],
+        "answer": 0
+      },
+      {
+        "storyID": "2026-10-07-05",
+        "question": "Wie lang ist die neue Galerie Agravitas über dem Museum in Bilbao?",
+        "options": [
+          "35 Meter",
+          "55 Meter",
+          "75 Meter",
+          "95 Meter"
+        ],
+        "answer": 1
+      },
+      {
+        "storyID": "2026-10-07-06",
+        "question": "In welcher Minute fiel Englands erstes Tor gegen Tschechien?",
+        "options": [
+          "12. Minute",
+          "40. Minute",
+          "27. Minute",
+          "57. Minute"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-10-07-r01",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Würzburg",
+      "headline": "Würzburger Professor Georg Nagel erhält Medizin-Nobelpreis",
+      "teaser": "Georg Nagel aus Würzburg bekommt gemeinsam mit zwei anderen Forschern den Nobelpreis für Medizin. Er wird für Entdeckungen zur Optogenetik geehrt. Dabei lassen sich Nervenzellen mit Licht ein- und ausschalten.",
+      "blocks": [],
+      "whyGood": "Ein Würzburger Forscher wird für eine Methode geehrt, die vielleicht einmal bei vielen Nervenkrankheiten helfen kann.",
+      "honestNote": "Nagel sagt selbst, dass die Optogenetik noch keine hohe medizinische Relevanz hat. Er hofft, dass sie langfristig bei Nervenkrankheiten hilft.",
+      "sources": [
+        {
+          "name": "BR24 Unterfranken",
+          "url": "https://www.br.de/nachrichten/bayern/nobelpreistraeger-fuer-medizin-feiert-mit-sekt-in-italien,VXHNtSp",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 9,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Optogenetik",
+          "text": "Bei dieser Methode bauen Forschende ein lichtempfindliches Eiweiß in Nervenzellen ein. So lassen sich die Zellen mit Licht gezielt ein- und ausschalten."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-r02",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Frankfurt am Main",
+      "headline": "Medizin-Nobelpreis: Entdeckung gelang am Frankfurter Max-Planck-Institut",
+      "teaser": "Georg Nagel erhält den Medizin-Nobelpreis. Seine ausgezeichnete Arbeit aus den Jahren 2002 und 2003 entstand am Max-Planck-Institut für Biophysik in Frankfurt. Er teilt den Preis mit Peter Hegemann und einem US-Forscher für ihre Pionierarbeit in der Optogenetik.",
+      "blocks": [],
+      "whyGood": "Eine Entdeckung aus Frankfurt hilft, das Gehirn besser zu verstehen, und macht Hoffnung auf Behandlungen bei Erkrankungen der Nervenzellen.",
+      "honestNote": "Die Optogenetik hilft bisher vor allem der Forschung. Die Hoffnung auf Behandlungen neuronaler Erkrankungen ist noch eine Hoffnung.",
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/gesellschaft/georg-nagel-erhaelt-medizin-nobelpreis---seine-entdeckung-machte-er-in-frankfurt-v1,nobelpreistraeger-georg-nagel-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 9,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Optogenetik",
+          "text": "Eine Technologie, die Methoden der Optik und der Genetik verbindet. Mit Licht lassen sich Zellen, meist Nervenzellen, gezielt an- und abschalten."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-r03",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Bingen (Kreis Sigmaringen)",
+      "headline": "Fünfjährige spendet Zöpfe für krebskranke Kinder",
+      "teaser": "Ein Kindergarten in Bingen hat eine Haarspende-Aktion organisiert. Die fünfjährige Amira ließ sich die Zöpfe abschneiden, dazu kamen 15 weitere Spender. Aus den Haaren wird eine Echthaar-Perücke für erkrankte Kinder.",
+      "blocks": [],
+      "whyGood": "Viele Menschen haben mitgemacht, damit krebskranke Kinder kostenlos eine Perücke bekommen.",
+      "honestNote": "Die Haare müssen mindestens 25 Zentimeter lang sein. Der siebenjährige Moritz durfte deshalb noch nicht spenden, ihm fehlten zwei Zentimeter.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/fuenfjaehrige-spendet-haare-kindergarten-sammelt-echthaar-fuer-krebskranke-kinder-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r04",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Stettfeld",
+      "headline": "Engländer sammelt in Stettfeld über 23.000 Teile Müll",
+      "teaser": "Steve Townsley (71) kommt aus England und lebt seit 18 Jahren in Stettfeld im Kreis Karlsruhe. Im April fing er an, Müll zu sammeln. Eigentlich wollte er 10.000 Teile aufheben. Jetzt sind es über 23.000, und das nächste Ziel liegt bei 35.000.",
+      "blocks": [],
+      "whyGood": "Ein Zugezogener bedankt sich bei seiner Wahlheimat und sorgt dafür, dass der Ort sauberer wird.",
+      "honestNote": "Townsley sagt selbst, das Sammeln mache fast ein bisschen süchtig. Er will damit nicht aufhören.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/englaender-liebt-deutschland-und-sammelt-muell-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r05",
+      "ressort": "region",
+      "regions": [
+        "BE"
+      ],
+      "kicker": "Berlin",
+      "headline": "Medizin-Nobelpreis geht an Berliner Forscher Peter Hegemann",
+      "teaser": "Der Biophysiker Peter Hegemann von der Humboldt-Universität erhält den Medizin-Nobelpreis. Er teilt ihn mit Georg Nagel aus Würzburg und Karl Deisseroth aus den USA. Sie werden für Entdeckungen geehrt, die zur Optogenetik führten.",
+      "blocks": [],
+      "whyGood": "Zwei deutsche Forscher bekommen den Nobelpreis, und ihre Methode hilft schon heute, das Gehirn zu verstehen und Augenleiden zu behandeln.",
+      "honestNote": "Die Therapien mit Optogenetik gibt es bisher nur in einzelnen Bereichen, etwa in der Augenmedizin.",
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/medizin-nobelpreis-hu-berlin-peter-hegemann.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Optogenetik",
+          "text": "Mit dieser Methode lassen sich einzelne Nervenzellen in einem lebenden Gehirn per Licht an- oder abschalten."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-r06",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Essen",
+      "headline": "19-Jährige eröffnet eigene Boutique im Essener Norden",
+      "teaser": "Sanabil Alshabna ist mit 15 allein aus Syrien geflohen. Vier Jahre später hat sie auf der Altenessener Straße in Essen ihre eigene Boutique eröffnet. Schon als kleines Mädchen wollte sie einen Laden haben.",
+      "blocks": [],
+      "whyGood": "Eine junge Frau hat nach einem schweren Weg ihren Kindheitstraum wahr gemacht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/essen/19-jaehrige-syrerin-eroeffnet-boutique-altenessen-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r07",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Hermeskeil",
+      "headline": "Shida Bazyar aus Hermeskeil erhält den Deutschen Buchpreis",
+      "teaser": "Die Autorin Shida Bazyar aus Hermeskeil hat den Deutschen Buchpreis bekommen. Er ist mit 25.000 Euro dotiert und wurde in Frankfurt am Main verliehen. Ausgezeichnet wurde ihr Roman „Die Lücken“.",
+      "blocks": [],
+      "whyGood": "Eine Autorin aus der Region gewinnt den wichtigsten deutschen Buchpreis, und ihr Roman über das Schweigen findet damit viel Beachtung.",
+      "honestNote": "Bazyar selbst sagte, es falle ihr schwer, sich zu freuen, wenn man an die Geschichte denkt, die sie im Buch erzählt.",
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/srkultur/hermeskeiler_autorin_shida-bazyar_erhaelt_deutschen_buchpreis_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r08",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Nürnberg",
+      "headline": "Dürers Geschenk: Nürnbergs Kunstsammlungen werden 500 Jahre alt",
+      "teaser": "Im Oktober 1526 schenkte Albrecht Dürer dem Nürnberger Rat sein Doppelbild „Die vier Apostel“. Das gilt als Geburtsstunde der städtischen Kunstsammlungen. Heute gehören zehntausende Werke dazu, und sie zählen zu den ältesten im deutschsprachigen Raum.",
+      "blocks": [],
+      "whyGood": "Ein Geschenk von vor 500 Jahren hält bis heute eine Sammlung lebendig, die viele Millionen Euro wert ist.",
+      "honestNote": "Die Kunstsammlungen haben keine eigene Ausstellungsfläche. Viele Werke liegen in Depots, und der Platz dort ist knapp.",
+      "sources": [
+        {
+          "name": "BR24 Mittelfranken",
+          "url": "https://www.br.de/nachrichten/kultur/dank-duerer-500-jahre-kunstsammlungen-der-stadt-nuernberg,VXGEuzF",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Diptychon",
+          "text": "Ein Diptychon ist ein Bild aus zwei Teilen. Die beiden Tafeln gehören zusammen und stehen nebeneinander."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-r09",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Hessen",
+      "headline": "Bis zu 250.000 Kraniche ziehen über Hessen",
+      "teaser": "In diesen Wochen ziehen wieder tausende Kraniche über Hessen in den Süden. Der Nabu erwartet bis zu 250.000 Vögel. Er bittet alle, die Tiere zu zählen und online zu melden.",
+      "blocks": [],
+      "whyGood": "Wer nach oben schaut, kann ein großes Naturschauspiel erleben und dabei der Forschung helfen.",
+      "honestNote": "Bei den 250.000 Vögeln handelt es sich um eine Erwartung des Nabu, nicht um eine gezählte Zahl.",
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/panorama/kraniche-ziehen-ueber-hessen---nabu-erwartet-250000-tiere-v1,kraniche-nabu-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r10",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Rostock",
+      "headline": "Rostocker Kempowski-Ufer ist nach 23 Monaten fast fertig",
+      "teaser": "Im Rostocker Stadthafen ist das Kempowski-Ufer fast fertig saniert. Die alte Kaianlage war stark durchgerostet und wurde komplett erneuert. Das Projekt kostet 22 statt geplanter 28 Millionen Euro.",
+      "blocks": [],
+      "whyGood": "Rostock bekommt ein sicheres, schöneres Ufer mit Sitzstufen und Beeten, und das Projekt wurde deutlich günstiger als geplant.",
+      "honestNote": "Die Bäume sollen erst im November gepflanzt werden. Auch die Bauzeit war länger als geplant, weil hohes Wasser und ein harter Winter die Arbeiten bremsten.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/rostock-kempowski-ufer-nach-fast-zwei-jahren-bauzeit-fertig,mvregiorostock-4934.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Spundwände",
+          "text": "Spundwände sind Wände aus Stahlbahnen, die in den Boden gerammt werden. Am Ufer halten sie das Erdreich zurück und sichern die Kaikante."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-r11",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Vorpommern-Greifswald",
+      "headline": "Rekord bei Ehrenamtskarten in Vorpommern-Greifswald",
+      "teaser": "So viele neue Ehrenamtskarten wie nie: Bis Ende September gab es im Landkreis 405 neue Karten. Im ganzen Jahr 2025 waren es 255. Die Karte ist ein Dank für Menschen, die sich in ihrer Freizeit engagieren.",
+      "blocks": [],
+      "whyGood": "Immer mehr Menschen, die sich freiwillig für andere einsetzen, bekommen dafür Anerkennung.",
+      "honestNote": "Im Land gibt es Unterschiede: In Schwerin, Ludwigslust-Parchim und Nordwestmecklenburg gab es bisher weniger neue Karten als 2025.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/so-viele-ehrenamtskarten-wie-noch-nie-in-vorpommern-greifswald,ehrenamtskarte-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r12",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Chemnitz",
+      "headline": "Berühmte Saurierplatte zieht ins Naturkundemuseum Chemnitz",
+      "teaser": "Die Freitaler Saurierplatte ist am Montag dem Museum für Naturkunde Chemnitz übergeben worden. Sie zeigt sechs Saurier, die vor etwa 300 Millionen Jahren von einem Vulkanausbruch überrascht wurden. Ab Januar ist sie in einer neuen Sonderschau zu sehen.",
+      "blocks": [],
+      "whyGood": "Ein weltweit bekanntes Fossil aus Sachsen ist bald für alle Besucherinnen und Besucher zu sehen.",
+      "honestNote": "Warum die sechs Tiere so nah beieinander lagen, ist bis heute ungeklärt.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/chemnitz/chemnitz-stollberg/saurierplatte-fossil-naturkundemuseum-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r13",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Chemnitz",
+      "headline": "Chemnitzer Kleingärtner sammeln Geld für ihr Vereinsheim",
+      "teaser": "Der Kleingartenverein „Fritz Heckert“ will sein marodes Vereinsheim retten. Beim Radiospiel von MDR Sachsen gewann er 1.250 Euro. Für mehr Geld sollten 100 Olsenbande-Verkleidete vor dem Heim stehen. 54 kamen, auch Anwohner halfen mit.",
+      "blocks": [],
+      "whyGood": "Mit Spaß und Nachbarschaftshilfe kommt ein altes Vereinsheim seiner Wiedereröffnung ein Stück näher.",
+      "honestNote": "Die Summe reicht noch nicht für alles. Elektrik und Dach müssen weiter saniert werden.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/chemnitz/news-2500-euro-olsenbande-sanierung,vereint-stark-verein-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r14",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Harz",
+      "headline": "130 Millionen Euro für neuen Mischwald im Harz",
+      "teaser": "Niedersachsen startet ein Zehn-Jahres-Programm für den Harz. Die Landesforsten bauen rund 30.000 Hektar geschädigte Fläche zu artenreichen Mischwäldern um. Mindestens zwei Drittel der Bäume sollen Laubbäume sein.",
+      "blocks": [],
+      "whyGood": "Im Harz wächst ein neuer Wald, der mit dem veränderten Klima besser zurechtkommen soll.",
+      "honestNote": "Bis aus den jungen Bäumen ein Wald wird, dauert es viele Jahre. Die 130 Millionen Euro sind eine Schätzung der Landesregierung.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/130-millionen-euro-niedersachsen-laesst-harz-aufforsten,harz-252.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r15",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Münster",
+      "headline": "Münster fährt schon mehr als zur Hälfte elektrisch Bus",
+      "teaser": "Mehr als die Hälfte der Busse in Münster fährt schon mit Strom. Vor zehn Jahren rollte der erste E-Bus durch die Stadt. Die Stadtwerke stellen schneller um als geplant. Schon 2028 sollen nur noch E-Busse fahren.",
+      "blocks": [],
+      "whyGood": "Die Stadt wird leiser und sauberer, und Fahrgäste und Fahrer freuen sich über die neuen Busse.",
+      "honestNote": "Ein E-Bus kostet mit 750.000 Euro doppelt so viel wie ein Dieselbus. Die Umstellung gelingt vor allem dank einer Bundesförderung.",
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/muenster/muenster-setzt-voll-auf-e-busse-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r16",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Leinefelde-Worbis",
+      "headline": "Landesgartenschau feiert bis 11. Oktober ihr großes Finale",
+      "teaser": "Die Landesgartenschau Leinefelde-Worbis endet am 11. Oktober. Am Wochenende gibt es Konzerte, Familienprogramm und einen Bücherflohmarkt. Am Sonntag wird der Staffelstab an die Landesgartenschau Oberhessen 2027 übergeben.",
+      "blocks": [],
+      "whyGood": "Zum Abschluss gibt es viel Programm für alle Generationen, und der Blick geht schon auf die nächsten Gartenschauen.",
+      "honestNote": "Die Landesgartenschau läuft nur noch wenige Tage. Wer sie sehen will, muss sich beeilen.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/nord-thueringen/eichsfeld/finale-programm-news,landesgartenschau-leinefelde-infos-besuch-108.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-07-r17",
+      "ressort": "region",
+      "regions": [
+        "ST"
+      ],
+      "kicker": "Halle (Saale)",
+      "headline": "Verschollener Havel-Text erscheint auf Deutsch in Halle",
+      "teaser": "Der Mitteldeutsche Verlag Halle hat ein fast 50 Jahre verschollenes Manuskript von Václav Havel veröffentlicht. Darin schildert er die ersten Tage der Charta 77. Das Buch erschien zur Frankfurter Buchmesse mit Tschechien als Gastland.",
+      "blocks": [],
+      "whyGood": "Ein lange verloren geglaubter Text über friedlichen Widerstand ist wieder da und für deutsche Leser zugänglich.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/sachbuch-tschechien-buchmesse-havel-charta,mitteldeutscher-verlag-kultur-news-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Charta 77",
+          "text": "Die Charta 77 war ein Manifest tschechoslowakischer Bürgerrechtler. Sie forderte die kommunistische Führung auf, zugesagte Menschen- und Bürgerrechte einzuhalten."
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "title": "Cremiges Kartoffelpüree mit Knoblauch und Rosmarin",
+    "intro": "Im Oktober sehnen wir uns nach Wohlfühlessen, und dieses Püree ist genau das. Die Milch zieht mit Knoblauch und Rosmarin durch und macht es besonders samtig.",
+    "servings": 8,
+    "minutes": 60,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 1800,
+        "unit": "g",
+        "item": "mittelgroße Kartoffeln (Yukon Gold oder andere festkochende, gut gewaschen)"
+      },
+      {
+        "amount": 1,
+        "unit": "Handvoll",
+        "item": "grobes Salz fürs Kochwasser"
+      },
+      {
+        "amount": 360,
+        "unit": "ml",
+        "item": "Vollmilch"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "Sahne"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "Knoblauchknolle, quer halbiert"
+      },
+      {
+        "amount": 3,
+        "unit": "Zweige",
+        "item": "Rosmarin"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "ungesalzene Butter, zimmerwarm, in Stücken"
+      },
+      {
+        "amount": 4,
+        "unit": "TL",
+        "item": "grobes Salz für das Püree (bei feinem Salz nur etwa 2,5 TL)"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "frisch gemahlener schwarzer Pfeffer"
+      }
+    ],
+    "steps": [
+      "Kartoffeln im großen Topf mit kaltem Wasser bedecken. Eine Handvoll Salz zugeben, aufkochen und bei kleiner Hitze 30 bis 35 Minuten garen, bis sie sehr weich, aber nicht bröselig sind.",
+      "Kartoffeln abgießen, kurz kalt abspülen und im warmen Topf ohne Hitze abdampfen lassen.",
+      "Milch, Sahne, Knoblauch und Rosmarin in einem kleinen Topf bei mittlerer Hitze etwa 5 Minuten erwärmen, bis es duftet. Dann vom Herd nehmen.",
+      "Die heißen Kartoffeln durch eine Kartoffelpresse oder Flotte Lotte in eine große Schüssel drücken. Kalte Kartoffeln werden klebrig. Hängen gebliebene Schalen wegwerfen.",
+      "Butter und Salz zu den Kartoffeln geben und rühren, bis die Butter ganz eingearbeitet ist.",
+      "Die Milchmischung durch ein feines Sieb gießen. Nach und nach in Portionen von etwa 120 ml unterrühren, bis alles glatt ist.",
+      "Mit frisch gemahlenem Pfeffer bestreut servieren."
+    ],
+    "tip": "Das Püree lässt sich einen Tag vorher machen. Im Kühlschrank aufbewahren und unter Rühren erwärmen, bei Bedarf mit etwas Milch oder Brühe (ca. 60 ml) verdünnen.",
+    "icon": "fork.knife",
+    "source": {
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/recipe/best-mashed-potatoes"
+    }
+  }
+}
