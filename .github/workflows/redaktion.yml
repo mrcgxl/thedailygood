@@ -6,6 +6,9 @@ on:
   # Der erste erfolgreiche Lauf schreibt die Ausgabe, die späteren beenden sich sofort (--skip-if-exists).
   # Zeiten in UTC. Die Läufe starten seit Oktober 2026 meist fünf bis sechs Stunden zu spät, daher die Termine
   # kurz nach Mitternacht deutscher Zeit. 22:05 UTC ist im Winter noch der Vortag und beendet sich dann sofort.
+  # Ein Lauf, der zu wenig schafft (etwa weil das Abo-Kontingent endet), schreibt nichts und endet nur mit Warnung,
+  # also ohne Fehler-Mail (--retry-later). Dann versucht es der nächste Termin noch einmal. Der letzte Termin
+  # (30 3) nimmt lieber eine kleinere Ausgabe als gar keine und endet nur mit Fehler, wenn er gar nichts schafft.
   schedule:
     - cron: "5 22 * * *"
     - cron: "5 23 * * *"
@@ -13,55 +16,87 @@ on:
     - cron: "30 1 * * *"
     - cron: "30 2 * * *"
     - cron: "30 3 * * *"
+    # Wächter: um 7:30 Uhr deutscher Sommerzeit (im Winter 6:30 Uhr) prüfen, ob die Ausgabe von heute da ist
+    - cron: "30 5 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: redaktion
-  cancel-in-progress: false
-
 jobs:
   ausgabe:
+    if: github.event.schedule != '30 5 * * *'
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    concurrency:
+      group: redaktion
+      cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main  # neuester Stand, damit ein wartender Lauf die gerade geschriebene Ausgabe sieht
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
 
       - run: pip install -r requirements.txt
 
-      # Claude Code, damit die Anfragen über Mircos Claude-Abo laufen (Token aus `claude setup-token`)
-      - uses: actions/setup-node@v4
+      # Claude Code, damit die Anfragen über Mircos Claude-Abo laufen (Token aus `claude setup-token`).
+      # Feste Version, damit sich Flags oder JSON-Ausgabe nicht über Nacht ändern. 2.1.296 lief am 10.10.2026.
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
-      - run: npm install -g @anthropic-ai/claude-code
+      - run: npm install -g @anthropic-ai/claude-code@2.1.296
 
-      # Nur Form und Länge des Tokens, nie der Wert
+      # Nur Form und Länge des Tokens, nie der Wert. Ein unbrauchbares Token stoppt den Lauf sofort, denn ohne
+      # Abo würde das Skript auf den API-Key ausweichen. Fehler (mit Mail) nur beim letzten Termin und bei einem
+      # Lauf von Hand, die Termine davor enden mit Warnung. So kommt höchstens eine Fehler-Mail pro Nacht.
       - name: Abo-Token prüfen
+        id: token
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          LETZTER_TERMIN: ${{ github.event_name != 'schedule' || github.event.schedule == '30 3 * * *' }}
         run: |
-          python3 -c "import os; t = os.environ.get('CLAUDE_CODE_OAUTH_TOKEN', ''); c = ''.join(t.split()); print('Länge', len(t), 'ohne Leerraum', len(c), 'Form ok' if c.startswith('sk-ant-oat') else 'unerwartete Form')"
+          python3 - <<'EOF'
+          import os
+          import sys
+          token = "".join(os.environ.get("CLAUDE_CODE_OAUTH_TOKEN", "").split())
+          form = token.startswith("sk-ant-oat")
+          print("Länge ohne Leerraum:", len(token), "Form ok" if form else "unerwartete Form")
+          if not form or not 100 <= len(token) <= 120:
+              last = os.environ.get("LETZTER_TERMIN") == "true"
+              print(f"::{'error' if last else 'warning'}::Das Abo-Token im Secret CLAUDE_CODE_OAUTH_TOKEN fehlt, ist "
+                    "abgeschnitten oder hat eine unerwartete Form. Erwartet wird ein Token aus claude setup-token, "
+                    "das mit sk-ant-oat beginnt und 100 bis 120 Zeichen lang ist. Bitte neu setzen, die Anleitung "
+                    "steht in CLAUDE.md.")
+              if last:
+                  sys.exit(1)
+              with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+                  output.write("ok=nein\n")
+          EOF
           claude --version
 
       - name: Ausgabe schreiben
+        id: redaktion
+        if: steps.token.outputs.ok != 'nein'
         env:
           # Ist das Abo-Token gesetzt, nutzt das Skript nur das Abo. Der API-Key ist nur noch Reserve.
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TZ: Europe/Berlin
-        # Der nächtliche Lauf überspringt sich, wenn es die Ausgabe schon gibt (z. B. nach einem Lauf von Hand)
-        run: python redaktion.py ${{ github.event_name == 'schedule' && '--skip-if-exists' || '' }}
+        # Der nächtliche Lauf überspringt sich, wenn es die Ausgabe schon gibt (z. B. nach einem Lauf von Hand).
+        # Alle Termine außer dem letzten bekommen --retry-later: Mindestumfang verlangen, sonst ohne Fehler abbrechen.
+        # -u schreibt das Log sofort, nicht erst am Ende. Den Kurzbericht zeigt GitHub in der Übersicht des Laufs.
+        run: >-
+          python -u redaktion.py
+          ${{ github.event_name == 'schedule' && '--skip-if-exists' || '' }}
+          ${{ github.event_name == 'schedule' && github.event.schedule != '30 3 * * *' && '--retry-later' || '' }}
 
+      # Nichts hochladen, wenn das Token fehlte oder die Redaktion abgebrochen hat (abgebrochen=ja)
       - name: Veröffentlichen
+        if: steps.token.outputs.ok != 'nein' && steps.redaktion.outputs.abgebrochen != 'ja'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -69,3 +104,39 @@ jobs:
           git commit -m "Ausgabe $(TZ=Europe/Berlin date +%F)" || echo "Keine Änderungen"
           git pull --rebase
           git push
+
+  # Statt einer Fehler-Mail pro Termin: ein einziges Issue, wenn die Ausgabe von heute morgens fehlt.
+  # Fehlt sie an weiteren Tagen, kommt höchstens ein Kommentar pro Tag dazu. Ist wieder eine da, schließt er es.
+  waechter:
+    if: github.event.schedule == '30 5 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Ausgabe von heute prüfen
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TZ: Europe/Berlin
+        run: |
+          today=$(date +%F)
+          title="Tagesausgabe fehlt"
+          issue=$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          if gh api "repos/$GH_REPO/contents/docs/editions/$today.json?ref=main" --silent; then
+            echo "Die Ausgabe vom $today ist da."
+            if [ -n "$issue" ]; then
+              gh issue close "$issue" --comment "Die Ausgabe vom $today ist da. Der Wächter schließt das Issue."
+            fi
+            exit 0
+          fi
+          echo "::warning::Die Ausgabe vom $today fehlt."
+          body="Am $today um $(date +%H:%M) Uhr gab es noch keine Ausgabe, docs/editions/$today.json fehlt. Die Läufe der Nacht stehen unter $GITHUB_SERVER_URL/$GH_REPO/actions/workflows/redaktion.yml"
+          if [ -z "$issue" ]; then
+            gh issue create --title "$title" --body "$body"
+          elif gh issue view "$issue" --json comments,body --jq '.body, .comments[].body' | grep -q "Am $today "; then
+            echo "Im Issue $issue steht schon ein Hinweis für heute."
+          else
+            gh issue comment "$issue" --body "$body"
+          fi

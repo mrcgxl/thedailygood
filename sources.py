@@ -70,6 +70,7 @@ FEEDS = [
     ("Guardian Sport", "https://www.theguardian.com/sport/rss", "Englisch"),
     # Bildung
     ("News4teachers", "https://www.news4teachers.de/feed/", "Deutsch"),
+    # Stand 10.10.2026 ohne Datum (pubDate leer), deshalb fallen alle Einträge weg. Einen anderen Feed gibt es nicht.
     ("Deutsches Schulportal", "https://deutsches-schulportal.de/feed/", "Deutsch"),
     ("Hechinger Report", "https://hechingerreport.org/feed/", "Englisch"),
     # Autos und Mobilität
@@ -90,9 +91,8 @@ FEEDS = [
     ("My Modern Met", "https://mymodernmet.com/feed/", "Englisch"),
     ("Colossal", "https://www.thisiscolossal.com/feed/", "Englisch"),
     ("Guardian Photography", "https://www.theguardian.com/artanddesign/photography/rss", "Englisch"),
-    # Küche und Rezepte
-    ("Brigitte Rezepte", "https://www.brigitte.de/rezepte/feed.rss", "Deutsch"),
-    ("Guardian Food", "https://www.theguardian.com/food/rss", "Englisch"),
+    # Küche: Brigitte Rezepte und Guardian Food liefern fast nur Rezepte und stehen deshalb nur noch in RECIPE_SOURCES.
+    # Rezeptseiten aus den übrigen Feeds sortiert die Redaktion vor der Auswahl aus.
     ("Bon Appétit", "https://www.bonappetit.com/feed/rss", "Englisch"),
     ("The Kitchn", "https://www.thekitchn.com/main.rss", "Englisch"),
     # Lifestyle

@@ -27,7 +27,7 @@ RESSORT_GUIDE = """Ressorts:
 - film: Kino, Dokumentarfilme, Kurzfilme, Video und YouTube
 - serien: Serien, Streaming und Fernsehen
 - fotografie: besondere Fotos, Fotowettbewerbe, Fotokunst und Kameras
-- kueche: Rezepte, Kochideen, Zutaten der Saison, Essen und Trinken
+- kueche: Essen und Trinken als Nachricht, zum Beispiel Ernten, Zutaten, Lebensmittel, Restaurants und Kochkultur. Keine Rezepte, dafür gibt es eine eigene Rubrik
 - lifestyle: Reisen, Mode, Wohlbefinden, Alltagsglück
 - promis: schöne Nachrichten über Prominente, zum Beispiel Engagement, Hilfe für andere, Erfolge, Comebacks, Hochzeiten, Nachwuchs und rührende Momente
 - kurioses: Lustiges, Herzerwärmendes, Skurriles"""
@@ -44,10 +44,16 @@ Eine gute Nachricht
 
 Keine gute Nachricht sind
 - Krieg, Terror, Gewalt, Verbrechen, Unfälle, Katastrophen und Todesfälle, auch wenn es einen Lichtblick gibt,
+- Rettungen nach Unfällen, Bränden oder Unglücken, auch wenn alle gerettet wurden,
+- abgewendete Verschlechterungen, zum Beispiel „bleibt erlaubt“, „bleibt erhalten“ oder ein Werk, das bleibt, während trotzdem Stellen wegfallen,
 - Parteipolitik, Wahlkampf, Streit, Skandale, Klagen und Kritik,
 - Krankheitsausbrüche und Studien über Risiken und Gefahren,
-- Börsenkurse, Quartalszahlen, Übernahmen, Entlassungen, Preiserhöhungen, Rabatte, Deals, Kaufberatung und Produktwerbung,
-- Gerüchte, Leaks, Verschiebungen, Tests und Reviews,
+- Börsenkurse, Quartalszahlen, Verkaufszahlen, Umsätze, Übernahmen, Entlassungen, Preiserhöhungen, Rabatte, Deals, Kaufberatung und Produktwerbung,
+- Gerüchte, Leaks, Verschiebungen, Tests, einzelne Kritiken und Reviews,
+- Streamingstarts, Serienstarts, Trailer und Starttermine,
+- Listen und Sammlungen wie „31 Pasta-Rezepte“ oder „Die zehn schönsten Hotels“,
+- Rezepte, dafür gibt es eine eigene Rubrik,
+- Ergebnisse ohne Geschichte über Menschen, zum Beispiel ein gewöhnlicher Sieg im Ligaspiel,
 - Klatsch, Trennungen, Streit und Skandale von Prominenten,
 - Meldungen, die nur eine kleine Fachgruppe interessieren.
 
@@ -55,10 +61,10 @@ Keine gute Nachricht sind
 
 Design und Architektur liegen unseren Lesern besonders am Herzen. Neue Gebäude, Umbauten, Innenräume, Produktdesign, Grafik und Typografie sind gute Nachrichten, wenn sie schön, klug oder nachhaltig sind. Reine Produktwerbung bleibt draußen.
 
-In Dekoration, Film, Serien, Fotografie, Küche, Lifestyle, Sport und Autos zählt auch, was schön, inspirierend oder hilfreich ist, ohne eine große Nachricht zu sein: ein preisgekröntes Foto, ein gefeierter Film, eine Serie mit begeisterten Kritiken, eine kluge Wohnidee, ein Rezept, das gerade Saison hat, ein fairer Sieg. Trailer, Starttermine, Einschaltquoten und Gerüchte zählen nicht.
+In Dekoration, Film, Serien, Fotografie, Küche, Lifestyle, Sport und Autos zählt auch, was schön, inspirierend oder hilfreich ist, ohne eine große Nachricht zu sein: ein preisgekröntes Foto, ein Film oder eine Serie, die einen Preis gewinnt oder überall gefeiert wird, eine kluge Wohnidee, eine Ernte, die gerade Saison hat, ein fairer Sieg mit einer schönen Geschichte. Einschaltquoten und Verkaufszahlen zählen nicht.
 
 Fasse Meldungen über dasselbe Ereignis zu einem Kandidaten zusammen und liste die wichtigste Meldung zuerst.
-Gib jedem Kandidaten 1 bis 10 Punkte: Wie viel Freude macht die Nachricht, wie überraschend und interessant ist sie, und wie gut passt sie zu deutschen Lesern?
+Gib jedem Kandidaten 1 bis 10 Punkte: Wie viel Freude macht die Nachricht, wie überraschend und interessant ist sie, und wie gut passt sie zu deutschen Lesern? Ab 6 Punkten ist es eine echte gute Nachricht, die man gern weitererzählt. Was nur nett oder nur eine Information ist, bekommt höchstens 5.
 Markiere mit heavy, ob die Geschichte trotzdem einen belastenden Hintergrund hat (Krankheit, Krieg, Tod).
 Sei streng, aber denk an jedes Ressort: Wir brauchen pro Ressort bis zu sechs Kandidaten, insgesamt höchstens 100. Lieber ein Ressort mit nur einem guten Kandidaten als mit sechs mittelmäßigen."""
 
@@ -75,10 +81,15 @@ Gute Nachrichten aus der Region sind zum Beispiel
 
 Keine guten Nachrichten sind
 - Verbrechen, Prozesse, Unfälle, Brände, Unwetter, Krankheit und Todesfälle,
-- Streit, Parteipolitik, Streiks, Proteste, Klagen und Skandale,
+- Rettungen nach Unfällen, Stürzen oder Bränden, auch wenn alle gerettet wurden oder es glimpflich ausging,
+- abgewendete Verschlechterungen, zum Beispiel „bleibt erlaubt“, „bleibt erhalten“ oder ein Werk, das bleibt, während trotzdem Stellen wegfallen,
+- Streit, Parteipolitik, Streiks, Proteste, Verbote, Klagen und Skandale,
 - Schließungen, Stellenabbau, Sperrungen, Baustellen, Kosten und Preiserhöhungen,
+- Verkaufszahlen, Umsätze und Bilanzen,
 - Wetterberichte, Verkehrsmeldungen, Terminhinweise, Meinungen und Interviews,
 - Ankündigungen ohne echten Fortschritt.
+
+Die Meldung muss in dem Bundesland spielen, unter dem sie steht. Steht im Feed eines Landes eine Meldung über einen Ort in einem anderen Bundesland, nimm sie dort nicht. Nimm auch nichts, was in den letzten Tagen schon in der Zeitung stand oder heute schon im Hauptteil steht. Beides steht unter den Meldungen, falls es so etwas gibt.
 
 Gib jeder Auswahl 1 bis 10 Punkte: Wie sehr freut die Nachricht die Menschen dort, und wie konkret ist sie? Nimm nur Meldungen ab 5 Punkten und nichts mit belastendem Hintergrund. Lieber kein Eintrag für ein Bundesland als ein mittelmäßiger.
 region ist das Kürzel des Bundeslands, item_id die Nummer der Meldung. Gehört eine Meldung zu zwei Bundesländern, darfst du sie bei beiden nennen."""
@@ -108,9 +119,10 @@ Regeln
   - background: ein kurzer Hintergrund, der etwas verständlich macht, höchstens 350 Zeichen.
   Beginne nicht immer mit derselben Art. Wenn der Artikel wenig hergibt, nimm facts und background.
   Symbole (icon und icons) wählst du nur aus dieser Liste: leaf.fill, tree.fill, drop.fill, flame.fill, bolt.fill, sun.max.fill, moon.fill, cloud.fill, snowflake, wind, water.waves, mountain.2.fill, globe.europe.africa.fill, map.fill, mappin, house.fill, building.2.fill, building.columns.fill, car.fill, bus.fill, tram.fill, bicycle, airplane, ferry.fill, sailboat.fill, fuelpump.fill, bolt.car.fill, battery.100, heart.fill, cross.case.fill, pills.fill, stethoscope, brain.head.profile, figure.walk, figure.run, person.fill, person.2.fill, person.3.fill, figure.and.child.holdinghands, graduationcap.fill, book.fill, books.vertical.fill, pencil, paintbrush.fill, paintpalette.fill, music.note, guitars.fill, film.fill, tv.fill, camera.fill, gamecontroller.fill, trophy.fill, medal.fill, star.fill, sparkles, lightbulb.fill, gearshape.fill, cpu, antenna.radiowaves.left.and.right, atom, flask.fill, microbe.fill, pawprint.fill, bird.fill, fish.fill, tortoise.fill, hare.fill, ladybug.fill, ant.fill, cart.fill, eurosign.circle.fill, banknote.fill, chart.line.uptrend.xyaxis, chart.bar.fill, clock.fill, calendar, hammer.fill, wrench.and.screwdriver.fill, shippingbox.fill, fork.knife, cup.and.saucer.fill, carrot.fill, birthday.cake.fill, arrow.3.trianglepath, trash.fill, tent.fill, binoculars.fill, telescope.fill, magnifyingglass, hand.thumbsup.fill, gift.fill, balloon.fill, party.popper.fill, envelope.fill, phone.fill, wifi, lock.fill, key.fill, scissors, tshirt.fill, bed.double.fill, sofa.fill, lamp.table.fill, basket.fill, soccerball, tennisball.fill, figure.pool.swim, dumbbell.fill, rocket.fill, globe.americas.fill, globe.asia.australia.fill.
-- guess: eine Tippfrage, die man vor dem Lesen beantwortet. Sie macht neugierig und ist mit Bauchgefühl lösbar, nicht mit Fachwissen. Die richtige Antwort steht im Artikel und wird in der Frage nicht verraten. Wichtig: Die Leser sehen headline und teaser vorher auf der Titelseite. Die richtige Antwort darf dort weder als Zahl noch als Stichwort vorkommen. Frag deshalb nach einem überraschenden Detail, das nur weiter unten im Text steht. question höchstens 110 Zeichen. options sind genau drei kurze Antworten mit höchstens 40 Zeichen, eine stimmt, die anderen klingen plausibel. answer ist die Nummer der richtigen Antwort von 0 bis 2. reveal löst in einem Satz auf, höchstens 140 Zeichen. icon zeigt das Hauptmotiv der Geschichte.
+- guess: eine Tippfrage, die man vor dem Lesen beantwortet. Frag nach etwas Überraschendem, das man dabei lernt und sich merken kann: am liebsten eine Größenordnung (wie groß, wie weit, wie viele, wie lange, wie schnell) oder wie etwas funktioniert. Bei Zahlen liegen die drei Antworten weit auseinander, zum Beispiel 3, 32 oder 320 Kilometer. Keine Nebendetails wie eine Baumart, ein Putzgerät, das Material einer Fassade oder Namen, die nur in dieser Geschichte wichtig sind. Genau eine Frage, nie zwei in einer. Sie ist mit Bauchgefühl lösbar, nicht mit Fachwissen. Die richtige Antwort steht im Artikel und wird in der Frage nicht verraten. Wichtig: Die Leser sehen headline und teaser vorher auf der Titelseite. Die richtige Antwort darf dort weder als Zahl noch als Stichwort vorkommen, sie steht nur weiter unten im Text. question höchstens 110 Zeichen. options sind genau drei kurze Antworten mit höchstens 40 Zeichen, eine stimmt, die anderen klingen plausibel. answer ist die Nummer der richtigen Antwort von 0 bis 2. reveal löst in einem Satz auf, höchstens 140 Zeichen. icon zeigt das Hauptmotiv der Geschichte.
 - whyGood: ein bis zwei Sätze, warum die Nachricht Grund zur Freude ist.
-- honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist, zum Beispiel „Bisher nur an Mäusen getestet.“. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
+- honestNote: meistens null. Nur wenn die gute Nachricht selbst einen echten Vorbehalt hat, schreibst du ihn in einem Satz, zum Beispiel „Bisher nur an Mäusen getestet.“ oder „Der Stadtrat muss noch zustimmen.“. Nie eine neue schlechte Nachricht wie Opferzahlen, Unglücke, Entlassungen oder Probleme, um die es in der Geschichte nicht geht. Nie etwas über die Quelle, den Artikel, Kritiker oder die Redaktion. Keine Termine, Preise oder Nebensächlichkeiten.
+- gallery: true, wenn die Bilder selbst die Nachricht sind, zum Beispiel bei Fotopreisen und Fotowettbewerben, Ausstellungen, Kunstwerken oder einem auffälligen Gebäude oder Designprojekt. Sonst false.
 - country: der zweibuchstabige ISO-Code des Landes, in dem die Nachricht spielt, zum Beispiel DE, NZ oder US. null, wenn sie kein bestimmtes Land betrifft, zum Beispiel bei Weltraum oder weltweiten Studien.
 - terms: ein oder zwei Fachbegriffe, die wörtlich in deinem Text vorkommen und die nicht jeder kennt, zum Beispiel „Permafrost“ oder „Stammzellen“. text erklärt den Begriff in ein bis zwei einfachen Sätzen, höchstens 200 Zeichen, so dass ihn auch ein Kind versteht. Erkläre nur, was du sicher weißt. Keine Alltagswörter, keine Namen von Personen oder Firmen. Gibt es keinen solchen Begriff, bleibt die Liste leer.
 - Lass belastende Details weg. Keine Todeszahlen, keine Gewalt, keine Krankheitsbilder im Detail."""
@@ -126,7 +138,8 @@ Regeln
 - kicker: ein bis drei Wörter über der Überschrift, meist Ort oder Thema.
 - teaser: zwei oder drei Sätze, höchstens 320 Zeichen. Was ist passiert, wer steckt dahinter, was bedeutet es?
 - whyGood: ein Satz, warum die Nachricht Grund zur Freude ist.
-- honestNote: eine ehrliche Einordnung der Sache, wenn etwas noch früh, klein oder unsicher ist. Sonst null. Schreib dort nie über dein Material, also nicht, dass der Artikel unvollständig war oder Details fehlen.
+- honestNote: meistens null. Nur wenn die gute Nachricht selbst einen echten Vorbehalt hat, zum Beispiel weil sie noch früh, klein oder unsicher ist, schreibst du ihn in einem Satz. Nie eine neue schlechte Nachricht wie Opferzahlen, Unglücke, Entlassungen oder Probleme, um die es nicht geht. Nie etwas über die Quelle, den Artikel, Kritiker oder die Redaktion. Keine Termine, Preise oder Nebensächlichkeiten.
+- gallery: true, wenn die Bilder selbst die Nachricht sind, zum Beispiel bei Fotopreisen und Fotowettbewerben, Ausstellungen, Kunstwerken oder einem auffälligen Gebäude oder Designprojekt. Sonst false.
 - country: der zweibuchstabige ISO-Code des Landes, in dem die Nachricht spielt, zum Beispiel DE, NZ oder US. null, wenn sie kein bestimmtes Land betrifft.
 - terms: höchstens ein Fachbegriff, der wörtlich in deinem Text vorkommt und den nicht jeder kennt. text erklärt ihn in ein bis zwei einfachen Sätzen, höchstens 200 Zeichen. Erkläre nur, was du sicher weißt. Keine Alltagswörter und keine Namen. Meist bleibt die Liste leer.
 - Lass belastende Details weg."""
@@ -234,6 +247,7 @@ STORY_SCHEMA = obj({
     "terms": {"type": "array", "items": TERM},
     "guess": obj({"question": STRING, "options": {"type": "array", "items": STRING}, "answer": {"type": "integer"},
                   "reveal": STRING, "icon": STRING}),
+    "gallery": {"type": "boolean"},
 })
 
 BRIEF_SCHEMA = obj({
@@ -244,13 +258,21 @@ BRIEF_SCHEMA = obj({
     "honestNote": nullable(STRING),
     "country": nullable(STRING),
     "terms": {"type": "array", "items": TERM},
+    "gallery": {"type": "boolean"},
+})
+
+# Regionalmeldungen nennen zusätzlich das Bundesland, in dem das Ereignis wirklich spielt
+REGIONAL_SCHEMA = obj({
+    **BRIEF_SCHEMA["properties"],
+    "land": nullable({"type": "string", "enum": list(REGIONS)}),
 })
 
 JOKE_SCHEMA = obj({"setup": STRING, "punchline": STRING})
 
 GUESS_FIX_SYSTEM = """Du überarbeitest Tippfragen für „The Daily Good“, eine deutsche Zeitung nur mit guten Nachrichten. Eine Tippfrage wird vor dem Lesen beantwortet und soll neugierig machen.
 Die bisherigen Fragen verraten ihre Antwort schon in Überschrift oder Vorspann, die die Leser vorher sehen. Schreib für jede Geschichte eine neue Frage.
-- Die richtige Antwort steht im Text, aber nicht in Überschrift oder Vorspann, weder als Zahl noch als Stichwort. Frag nach einem überraschenden Detail weiter unten im Text.
+- Die richtige Antwort steht im Text, aber nicht in Überschrift oder Vorspann, weder als Zahl noch als Stichwort.
+- Frag nach etwas Überraschendem, das man dabei lernt und sich merken kann: am liebsten eine Größenordnung (wie groß, wie weit, wie viele, wie lange) oder wie etwas funktioniert. Bei Zahlen liegen die Antworten weit auseinander, zum Beispiel 3, 32 oder 320 Kilometer. Keine Nebendetails, die nur in dieser Geschichte wichtig sind. Genau eine Frage, nie zwei in einer.
 - Mit Bauchgefühl lösbar, nicht mit Fachwissen. Keine Fangfragen.
 - question höchstens 110 Zeichen. options sind genau drei kurze Antworten mit höchstens 40 Zeichen, eine stimmt, die anderen klingen plausibel. answer ist die Nummer der richtigen Antwort von 0 bis 2, nicht immer dieselbe.
 - reveal löst in einem Satz auf, höchstens 140 Zeichen. icon wählst du aus dieser Liste: {icons}.
