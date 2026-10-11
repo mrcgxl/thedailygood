@@ -1,0 +1,1868 @@
+{
+  "date": "2026-10-11",
+  "number": 13,
+  "isSample": false,
+  "leadStoryID": "2026-10-11-01",
+  "stories": [
+    {
+      "id": "2026-10-11-01",
+      "ressort": "natur",
+      "kicker": "Spanien",
+      "headline": "Ein gestrichenes Rotorblatt schützt Vögel an Windrädern",
+      "teaser": "In Spanien half schon etwas Farbe an einem von drei Rotorblättern. Eine Langzeitstudie zeigt, wie stark die Zahl toter Vögel sank.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "74",
+          "unit": "%",
+          "caption": "weniger tote Vögel pro Jahr an den bemalten Windrädern als an den weißen",
+          "icon": "bird.fill"
+        },
+        {
+          "type": "timeline",
+          "title": "So lief die Studie",
+          "items": [
+            {
+              "year": "2012",
+              "text": "Im Windpark El Ruedo bei Cádiz beginnt die tägliche Suche nach toten Vögeln."
+            },
+            {
+              "year": "2020 bis 2021",
+              "text": "Bei vier Windrädern wird ein Rotorblatt schwarz gestrichen. 16 bleiben weiß."
+            },
+            {
+              "year": "2024",
+              "text": "Die Daten werden ausgewertet. Die bemalten Anlagen schneiden deutlich besser ab."
+            }
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Warum Farbe hilft",
+          "text": "Drehen sich weiße Rotorblätter, verschwimmen sie für Vögel zu einem durchsichtigen Schleier. Ein dunkles Blatt unterbricht diese Bewegungsunschärfe. So sehen Vögel die Blätter besser und weichen aus."
+        }
+      ],
+      "whyGood": "Windkraft hilft dem Klima, und Vögel können dabei besser geschützt werden. Die Lösung ist einfach und günstig: ein Eimer Farbe.",
+      "honestNote": "Bisher wurde das Streichen nur in kleinem Maßstab getestet.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/painted-wind-turbines-can-dramatically-reduce-bird-deaths-study-finds/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Bewegungsunschärfe",
+          "text": "Wenn sich etwas sehr schnell dreht, verschwimmt es für das Auge. Man sieht dann keine einzelnen Teile mehr, sondern nur einen Schleier."
+        }
+      ],
+      "guess": {
+        "question": "Wie stark sank die Zahl toter Vögel an den bemalten Windrädern in Spanien pro Jahr?",
+        "options": [
+          "Um etwa 7 Prozent",
+          "Um etwa 30 Prozent",
+          "Um etwa 74 Prozent"
+        ],
+        "answer": 2,
+        "reveal": "Um fast 74 Prozent sank die jährliche Zahl toter Vögel an den bemalten Windrädern gegenüber den weißen.",
+        "icon": "bird.fill"
+      },
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/09193246/Painted-Blades_USGS-Image.png",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/painted-wind-turbines-can-dramatically-reduce-bird-deaths-study-finds/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-02",
+      "ressort": "gesundheit",
+      "kicker": "Großbritannien",
+      "headline": "Darmkrebs kehrt nach kurzer Immuntherapie nicht zurück",
+      "teaser": "In einer britischen Studie blieb bei allen 32 Patienten der Krebs fast drei Jahre lang aus. Sie bekamen das Medikament vor der Operation.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 32,
+          "icon": "person.fill",
+          "caption": "Patienten mit einer bestimmten Form von Darmkrebs nahmen an der Studie teil"
+        },
+        {
+          "type": "share",
+          "value": 59,
+          "label": "ohne erkennbaren Krebs nach der OP",
+          "caption": "Bei so vielen Patienten war nach Medikament und Operation kein Krebs mehr nachweisbar."
+        },
+        {
+          "type": "comparison",
+          "title": "Rückfälle innerhalb von drei Jahren",
+          "before": {
+            "label": "Übliche Behandlung",
+            "value": 25,
+            "display": "etwa 25 %"
+          },
+          "after": {
+            "label": "Studie",
+            "value": 0,
+            "display": "0 %"
+          }
+        }
+      ],
+      "whyGood": "Eine kurze Behandlung vor der Operation schützte in der Studie lange vor einem Rückfall. Bluttests könnten künftig zeigen, wer weniger Therapie braucht.",
+      "honestNote": "Die Studie war klein und gilt nur für eine bestimmte genetische Form von Darmkrebs.",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007042115.htm",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Immuntherapie",
+          "text": "Dabei hilft ein Medikament dem eigenen Immunsystem, Krebszellen zu erkennen und zu bekämpfen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange dauerte die Immuntherapie vor der Operation höchstens?",
+        "options": [
+          "9 Tage",
+          "9 Wochen",
+          "9 Monate"
+        ],
+        "answer": 1,
+        "reveal": "Die Patienten bekamen das Medikament bis zu neun Wochen lang, dann folgte die Operation.",
+        "icon": "cross.case.fill"
+      },
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/tumor-cancer-cell-destruction.webp",
+        "credit": "ScienceDaily Health",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261007042115.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-03",
+      "ressort": "zukunft",
+      "kicker": "Fusionsenergie",
+      "headline": "Neuer Weg zur Kernfusion könnte viel Energie sparen",
+      "teaser": "Forscher in Princeton schlagen vor, die Reihenfolge zu ändern: erst heizen, dann verdichten. Das könnte den Weg zur Zündung deutlich verkürzen.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "70",
+          "unit": "Jahre",
+          "caption": "und mehr gilt schon die Lawson-Regel für die Zündung. Sie sagt aber nicht, welcher Weg der effizienteste ist",
+          "icon": "clock.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Das Plasma wird erst erhitzt und danach verdichtet.",
+            "Vier weitere Einflüsse machen die Rechnung realistischer.",
+            "Das hilft, Reaktoren vor dem Bau besser zu planen."
+          ],
+          "icons": [
+            "flame.fill",
+            "gearshape.fill",
+            "building.2.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Der Weg um den Berg",
+          "text": "Die Forscher vergleichen den Energiebedarf mit einer Berglandschaft. Viele wollen direkt über den Gipfel. Die neue Rechnung zeigt einen Pass drum herum. Dort braucht man weniger Energie für dasselbe Ziel."
+        }
+      ],
+      "whyGood": "Fusionskraftwerke brauchen viel Energie, bis sie von selbst weiterlaufen. Ein sparsamerer Weg und bessere Planung vor dem Bau könnten saubere Energie aus Fusion näher rücken.",
+      "honestNote": "Bisher beruht das Ergebnis auf Berechnungen und wurde noch nicht in einem Reaktor gezeigt.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Plasma",
+          "text": "Plasma ist ein Gas, das so heiß ist, dass seine Teilchen elektrische Ladung tragen. In Fusionsreaktoren steckt darin der Brennstoff."
+        },
+        {
+          "term": "Tokamak",
+          "text": "Ein Tokamak ist ein Fusionsreaktor in Form eines Donuts. Starke Magnetfelder halten darin das heiße Plasma zusammen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel Wolfram im Plasma verdoppelt schon den nötigen Druck für die Zündung?",
+        "options": [
+          "Ein Teil von 10",
+          "Ein Teil von 1.000",
+          "Ein Teil von 10.000"
+        ],
+        "answer": 2,
+        "reveal": "Schon ein Teil Wolfram auf 10.000 Teile kann den nötigen Druck ungefähr verdoppeln.",
+        "icon": "atom"
+      },
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/nuclear-fusion-reactor-tokamak-heated-plasma.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-04",
+      "ressort": "architektur",
+      "kicker": "Norwegen",
+      "headline": "Rogfast wird der längste Straßentunnel unter dem Meer",
+      "teaser": "Unter dem Boknafjord entsteht in Norwegen ein Tunnel, der die Fähre ersetzt. Er soll gleich zwei Rekorde brechen.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Länge der Untersee-Straßentunnel",
+          "before": {
+            "label": "Ryfylketunnel",
+            "value": 14.4,
+            "display": "14,4 km"
+          },
+          "after": {
+            "label": "Rogfast",
+            "value": 26.7,
+            "display": "26,7 km"
+          }
+        },
+        {
+          "type": "bigNumber",
+          "value": "392",
+          "unit": "Meter",
+          "caption": "unter dem Meeresspiegel liegt der tiefste Punkt der Straße.",
+          "icon": "water.waves"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Zwei Röhren mit zusammen vier Fahrstreifen",
+            "Unter der Insel Kvitsøy entstehen zwei Kreisverkehre",
+            "Die Fahrt von Stavanger nach Bergen wird etwa 40 Minuten kürzer"
+          ],
+          "icons": [
+            "car.fill",
+            "arrow.3.trianglepath",
+            "clock.fill"
+          ]
+        }
+      ],
+      "whyGood": "Der Tunnel ersetzt eine Fährverbindung und verkürzt die Reise zwischen zwei großen Städten. Beim Bau sind Fluchtwege schon jetzt Pflicht, und bei einem Brand im Februar 2025 kamen alle sicher ins Freie.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/technik/fachbereiche/bau/392-m-tief-26-7-km-lang-norwegens-neuer-tunnel-bricht-zwei-rekorde/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "NO",
+      "terms": [],
+      "guess": {
+        "question": "Wie tief unter dem Meeresspiegel liegt der tiefste Punkt des Tunnels?",
+        "options": [
+          "92 Meter",
+          "392 Meter",
+          "892 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Der tiefste Punkt liegt 392 Meter unter dem Meeresspiegel, rund 100 Meter tiefer als beim bisherigen Rekordtunnel.",
+        "icon": "car.fill"
+      },
+      "image": {
+        "url": "https://www.ingenieur.de/wp-content/uploads/2026/10/mars2024-arsvagen-innredning1-scaled-e1791548471225.jpg",
+        "credit": "ingenieur.de",
+        "source": "https://www.ingenieur.de/technik/fachbereiche/bau/392-m-tief-26-7-km-lang-norwegens-neuer-tunnel-bricht-zwei-rekorde/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-05",
+      "ressort": "kultur",
+      "kicker": "Ecuador",
+      "headline": "Junge Indigene im Amazonas rappen für ihren Wald",
+      "teaser": "In Ecuador nutzen junge Menschen Rap, um ihre Heimat zu schützen. Sie singen in ihren eigenen Sprachen und finden immer mehr Zuhörer.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "400.000",
+          "unit": "Aufrufe",
+          "caption": "hatte der Song „Ingi Tsampi“ auf TikTok, einen Monat nach der Veröffentlichung",
+          "icon": "music.note"
+        },
+        {
+          "type": "share",
+          "value": 63,
+          "label": "des Landes Indigener Völker",
+          "caption": "Auf so viel Land im ecuadorianischen Amazonasgebiet gibt es Ölkonzessionen. Davon erzählen die Rapper in ihren Liedern."
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Rapper stammen aus Kichwa, A’i Cofán, Shuar und Sapara",
+            "Sie rappen in ihren Muttersprachen, manche Strophen auf Spanisch",
+            "Sie singen über saubere Flüsse und den Schutz des Waldes"
+          ],
+          "icons": [
+            "person.3.fill",
+            "music.note",
+            "drop.fill"
+          ]
+        }
+      ],
+      "whyGood": "Junge Menschen finden eine eigene Stimme für ihre Heimat. Ihre bedrohten Sprachen und ihr Wissen erreichen so ein großes Publikum.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/2026/10/in-ecuador-indigenous-youth-turn-to-rap-music-to-defend-the-amazon/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "EC",
+      "terms": [],
+      "guess": {
+        "question": "Wie oft wurde der Song „Ingi Tsampi“ in einem Monat auf TikTok angesehen?",
+        "options": [
+          "Etwa 4.000 Mal",
+          "Etwa 40.000 Mal",
+          "Mehr als 400.000 Mal"
+        ],
+        "answer": 2,
+        "reveal": "Der Song des 19 Jahre alten Misa17 kam auf TikTok in nur einem Monat auf mehr als 400.000 Aufrufe.",
+        "icon": "music.note"
+      },
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/09141132/Raperos-1-Willan-Gualinga-Taki-Supay-Ecuador.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/2026/10/in-ecuador-indigenous-youth-turn-to-rap-music-to-defend-the-amazon/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-06",
+      "ressort": "lifestyle",
+      "kicker": "Australien",
+      "headline": "Im Ruhestand die Natur Australiens wieder aufbauen",
+      "teaser": "Viele ältere Australier pflanzen Bäume, zählen Seeschnecken und päppeln geschädigtes Land auf. Eine Umfrage zeigt, wie groß diese Bewegung ist.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "45.000",
+          "unit": "Setzlinge",
+          "caption": "hat Susan Downes mit vielen Helfern am Mount Mackie gepflanzt.",
+          "icon": "tree.fill"
+        },
+        {
+          "type": "share",
+          "value": 80,
+          "label": "der Befragten sind 55 Jahre oder älter",
+          "caption": "In einer Umfrage von Landcare Australia sind ältere Menschen die große Mehrheit."
+        },
+        {
+          "type": "map",
+          "place": "York, Westaustralien",
+          "latitude": -31.89,
+          "longitude": 116.77,
+          "caption": "Hier schützt Susan Downes 120 Hektar Land mit einem Schutzvertrag."
+        }
+      ],
+      "whyGood": "Ältere Menschen finden im Ruhestand eine neue Aufgabe und bringen Wälder, Flüsse und Tiere zurück. Ihre Arbeit bleibt für Kinder und Enkel erhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Lifestyle",
+          "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/11/australians-restoring-nature-in-retirement-bush-conservation",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "Schutzvertrag",
+          "text": "Ein Vertrag, der festlegt, dass ein Stück Land dauerhaft geschützt bleibt. Es darf nie wieder gerodet werden."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Setzlinge wurden am Mount Mackie bisher gepflanzt?",
+        "options": [
+          "Etwa 450",
+          "Etwa 4.500",
+          "Etwa 45.000"
+        ],
+        "answer": 2,
+        "reveal": "Rund 45.000 heimische Setzlinge wachsen dort schon, dazu kamen 45 Pflanzenarten von selbst zurück.",
+        "icon": "tree.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/f7c5871948a77c509f374c056f377e92bc7f19a3/651_120_4325_3461/master/4325.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4465f7f57b70560994ff5b062a18a5d5",
+        "credit": "Guardian Lifestyle",
+        "source": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/11/australians-restoring-nature-in-retirement-bush-conservation",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-07",
+      "ressort": "sport",
+      "kicker": "Duisburg",
+      "headline": "Duisburgs Remmert stellt neuen Drittliga-Rekord auf",
+      "teaser": "Peter Remmert dreht für den MSV Duisburg das Spiel gegen die TSG Hoffenheim II und schreibt Liga-Geschichte.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "6",
+          "unit": "Minuten",
+          "caption": "brauchte Peter Remmert, um das Spiel gegen Hoffenheim II zu drehen",
+          "icon": "clock.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Stürmer Peter Remmert spielt für den MSV Duisburg",
+            "Gegner war die TSG Hoffenheim II",
+            "Sein Trainer lobt ihn in höchsten Tönen"
+          ],
+          "icons": [
+            "soccerball",
+            "person.fill",
+            "trophy.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein Spiel scheint verloren, dann dreht ein Stürmer es in kurzer Zeit. Solche Momente zeigen, dass im Fußball bis zum Schluss alles möglich ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "kicker",
+          "url": "https://www.kicker.de/von-grottenschlechten-zebras-zur-hollywood-story-remmerts-drittliga-rekord-in-sechs-minuten-1259914/artikel#omrss",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "guess": {
+        "question": "Wie schnell drehte Peter Remmert das Spiel für Duisburg?",
+        "options": [
+          "In 6 Minuten",
+          "In 16 Minuten",
+          "In 26 Minuten"
+        ],
+        "answer": 0,
+        "reveal": "Remmert drehte die Partie gegen Hoffenheim II in nur sechs Minuten und stellte so einen Rekord auf.",
+        "icon": "soccerball"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Germany_duisburg_wedau-stadion.jpg/1280px-Germany_duisburg_wedau-stadion.jpg",
+        "credit": "Arne Müseler, CC BY-SA 3.0 de, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Germany_duisburg_wedau-stadion.jpg",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-10-11-08",
+      "ressort": "promis",
+      "kicker": "Familie",
+      "headline": "Olivia Culpo und Christian McCaffrey haben einen Sohn",
+      "teaser": "Das frühere Miss Universe und der Footballspieler sind zum zweiten Mal Eltern geworden. Der Junge heißt Roman Augustus.",
+      "blocks": [
+        {
+          "type": "timeline",
+          "title": "Die Familie wächst",
+          "items": [
+            {
+              "year": "Juni 2024",
+              "text": "Olivia Culpo und Christian McCaffrey heiraten."
+            },
+            {
+              "year": "Juli 2025",
+              "text": "Tochter Colette kommt zur Welt."
+            },
+            {
+              "year": "29. September 2026",
+              "text": "Sohn Roman Augustus wird geboren."
+            }
+          ]
+        },
+        {
+          "type": "bigNumber",
+          "value": "14",
+          "unit": "Monate",
+          "caption": "alt ist Colette, die jetzt große Schwester ist",
+          "icon": "figure.and.child.holdinghands"
+        }
+      ],
+      "whyGood": "Eine Familie freut sich über ein neues Kind. Die Geburt war gut geplant, und der Vater konnte dabei sein.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1435520/olivia-culpo-husband-christian-mccaffrey-welcome-baby-no-2?cmpid=rss-syndicate-genericrss-us-top_stories",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie alt ist Colette, die große Schwester, jetzt?",
+        "options": [
+          "3 Monate",
+          "14 Monate",
+          "3 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Colette wurde im Juli 2025 geboren und ist jetzt 14 Monate alt.",
+        "icon": "figure.and.child.holdinghands"
+      },
+      "image": {
+        "url": "https://akns-images.eonline.com/eol_images/Entire_Site/20260828/2d6e4ec4-0f0f-48fa-b28b-f3112eacf3b5_1787948087.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "credit": "E! News",
+        "source": "https://www.eonline.com/news/1435520/olivia-culpo-husband-christian-mccaffrey-welcome-baby-no-2?cmpid=rss-syndicate-genericrss-us-top_stories",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-09",
+      "ressort": "kurioses",
+      "kicker": "Österreich",
+      "headline": "Österreichischer Mountainbiker stellt Weltrekord auf",
+      "teaser": "Er springt von einer Plattform senkrecht nach unten und trifft mit dem Hinterrad genau eine kleine Pappbox.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "3,8",
+          "unit": "Meter",
+          "caption": "tief war der Sprung von der erhöhten Plattform bis zur Zielbox",
+          "icon": "bicycle"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Ein Mountainbiker aus Österreich stellt einen Weltrekord auf.",
+            "Er springt von einer erhöhten Plattform senkrecht nach unten.",
+            "Sein Hinterrad trifft einen kleinen Pappkarton und zerdrückt ihn."
+          ],
+          "icons": [
+            "trophy.fill",
+            "bicycle",
+            "shippingbox.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein Sprung, ein genauer Treffer und ein neuer Weltrekord. Das zeigt, was Mut, Übung und Konzentration schaffen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/09/austria-Guinness-World-Records-mountain-bicycle-vertical-drop/5421791564144/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "AT",
+      "terms": [],
+      "guess": {
+        "question": "Wie tief war der Sprung des Mountainbikers von der Plattform?",
+        "options": [
+          "Etwa 0,8 Meter",
+          "Etwa 3,8 Meter",
+          "Etwa 12 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Es waren etwa 3,8 Meter. Das Hinterrad musste dabei einen kleinen Pappkarton treffen.",
+        "icon": "bicycle"
+      },
+      "image": null
+    },
+    {
+      "id": "2026-10-11-10",
+      "ressort": "natur",
+      "kicker": "Naturschutz",
+      "headline": "Naturschutz gelingt dort, wo Einheimische mitentscheiden",
+      "teaser": "Warum gedeihen manche bedrohten Arten und Lebensräume? Ein Team der Universität Sydney hat Erfolgsgeschichten aus aller Welt verglichen.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 70,
+          "icon": "books.vertical.fill",
+          "caption": "Studien zu Naturschutz-Erfolgen hat ein Team ausgewertet"
+        },
+        {
+          "type": "steps",
+          "title": "Was die Erfolge gemeinsam haben",
+          "items": [
+            "Lokales Wissen zählt so viel wie die Wissenschaft",
+            "Die Gemeinschaft entscheidet vor Ort mit",
+            "Der Schutz passt zu den örtlichen Bedingungen"
+          ],
+          "icons": [
+            "lightbulb.fill",
+            "person.3.fill",
+            "map.fill"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Das sind keine glücklichen Ausnahmen. Sie haben oft gemeinsame Merkmale, von denen andere Orte lernen können.",
+          "author": "Dr. Bing Lin, Universität Sydney"
+        }
+      ],
+      "whyGood": "Erfolge im Naturschutz sind keine Zufälle. Sie folgen Mustern, die man erkennen und an anderen Orten nutzen kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/local-opinion-and-involvement-found-as-key-determinant-in-worlds-conservation-success-stories/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "Korallenriff",
+          "text": "Ein Riff aus den Kalkskeletten winziger Tiere. Es ist Heimat für sehr viele Fische und andere Meerestiere."
+        }
+      ],
+      "guess": {
+        "question": "Was entscheidet laut der Studie vor allem, ob Naturschutz gelingt?",
+        "options": [
+          "Viel Geld",
+          "Die Menschen vor Ort",
+          "Strenge Verbote"
+        ],
+        "answer": 1,
+        "reveal": "Nicht das Geld, sondern Wissen und Mitsprache der Menschen vor Ort waren der gemeinsame Nenner der Erfolge.",
+        "icon": "globe.europe.africa.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Professor-Josh-Cinner-working-on-coral-reef-conservation-with-local-community-in-PNG.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/local-opinion-and-involvement-found-as-key-determinant-in-worlds-conservation-success-stories/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-11",
+      "ressort": "architektur",
+      "kicker": "Comillas",
+      "headline": "Comillas bekommt eine neue Promenade am Meer",
+      "teaser": "Wo früher ein Parkplatz lag, gehen die Menschen jetzt am Wasser entlang. Das Büro ARKHITEKTON hat die Küste für Fußgänger gestaltet.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "5400",
+          "unit": "Quadratmeter",
+          "caption": "neuer öffentlicher Raum entstehen am Meer von Comillas",
+          "icon": "map.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Früher: ein schmaler Gehweg und ein großer Parkplatz",
+            "Jetzt: eine neue Uferpromenade für Fußgänger",
+            "Sie verbindet die Küste mit den öffentlichen Plätzen der Stadt"
+          ],
+          "icons": [
+            "car.fill",
+            "figure.walk",
+            "building.2.fill"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Comillas, Kantabrien",
+          "latitude": 43.3917,
+          "longitude": -4.2917,
+          "caption": "Die neue Promenade liegt direkt an der Küste."
+        }
+      ],
+      "whyGood": "Wo früher Autos standen, können die Menschen jetzt am Meer spazieren. Die Küste gehört wieder allen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186487/comillas-waterfront-promenade",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Promenade",
+          "text": "Eine Promenade ist ein breiter Weg zum Spazieren, oft am Wasser. Dort gehen Menschen zu Fuß, ohne dass Autos fahren."
+        }
+      ],
+      "guess": {
+        "question": "Wie groß ist die neue Fläche am Meer in Comillas ungefähr?",
+        "options": [
+          "540 Quadratmeter",
+          "5400 Quadratmeter",
+          "54 000 Quadratmeter"
+        ],
+        "answer": 1,
+        "reveal": "Die neue Promenade misst 5400 Quadratmeter, etwa so viel wie ein Dreiviertel eines Fußballfeldes.",
+        "icon": "map.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6ac6/5c21/07c3/d100/017f/ddca/large_jpg/010.jpg?1791384720",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186487/comillas-waterfront-promenade",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-12",
+      "ressort": "natur",
+      "kicker": "Indien",
+      "headline": "Gerettet vom Tanzen: Lippenbär Odum lebt heute ruhig im Schutzzentrum",
+      "teaser": "Julia Roberts gab dem Bären seinen Namen, als er gerettet wurde. Neue Bilder zeigen, wie gut es ihm heute geht.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "17",
+          "unit": "Jahre",
+          "caption": "ist es her, dass Odum gerettet wurde. Er wurde gezwungen, für Touristen zu tanzen.",
+          "icon": "pawprint.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Julia Roberts besuchte Odum 2009 bei den Dreharbeiten in Indien.",
+            "Heute ist Odum 26 Jahre alt und lebt in Bannerghatta.",
+            "Er hat einen Pool und eine Hängematte, extra für ihn gemacht."
+          ],
+          "icons": [
+            "star.fill",
+            "house.fill",
+            "bed.double.fill"
+          ]
+        }
+      ],
+      "whyGood": "Odum zeigt, dass Rettung weit über den ersten Tag hinausgeht. Er wird auch im Alter mit Geduld und Fürsorge betreut.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/sloth-bear-given-a-name-by-julia-roberts-is-flourishing/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "IN",
+      "terms": [
+        {
+          "term": "Lippenbär",
+          "text": "Eine Bärenart aus Südasien mit langem, zotteligem Fell."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange ist Odums Rettung aus dem Tanzgeschäft her?",
+        "options": [
+          "7 Jahre",
+          "17 Jahre",
+          "37 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Odum wurde vor 17 Jahren gerettet und lebt heute mit 26 Jahren im Schutzzentrum.",
+        "icon": "pawprint.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/A-sloth-bear-named-Odum-by-Intl-Animal-Rescue-and-Wildlife-SOS-via-SWNS.jpeg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/sloth-bear-given-a-name-by-julia-roberts-is-flourishing/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-k01",
+      "ressort": "architektur",
+      "kicker": "Extremadura",
+      "headline": "Strohwände werden zum lebenden Amphitheater und Saatgutlabor",
+      "teaser": "Im Skulpturenpark La Nave Va in Berrocalejo haben Künstler und eine Landschaftsarchitektin die Installation KURA gebaut. Zwei gebogene Strohwände formen ein Amphitheater. Wildblumen wachsen direkt im Stroh, auf einer Wiese wird heimisches Saatgut erforscht.",
+      "blocks": [],
+      "whyGood": "Kunst, Naturschutz und Forschung wachsen hier zusammen und helfen, heimische Pflanzen zu erhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/art/straw-walls-amphitheater-experimental-garden-walking-path-rural-spain/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "ES",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/dbsub/468054/2026-10-06/straw-walls-shape-an-amphitheatre-experimental-garden-and-walking-path-in-rural-caceres-1-6ac50c2c61a10.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/art/straw-walls-amphitheater-experimental-garden-walking-path-rural-spain/",
+        "kind": "source"
+      }
+    }
+  ],
+  "joke": {
+    "setup": "Was ist orange und wandert durch die Berge?",
+    "punchline": "Eine Wanderine."
+  },
+  "comic": {
+    "series": "busch",
+    "title": "Max und Moritz",
+    "episode": "Dritter Streich",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Max_und_Moritz_%28Busch%29_027.png/960px-Max_und_Moritz_%28Busch%29_027.png",
+    "pages": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Max_und_Moritz_%28Busch%29_027.png/960px-Max_und_Moritz_%28Busch%29_027.png",
+        "width": 900,
+        "height": 906,
+        "caption": "Jedermann im Dorfe kannte\nEinen, der sich Böck benannte."
+      },
+      {
+        "caption": "Alltagsröcke, Sonntagsröcke,\nLange Hosen, spitze Fräcke,\nWesten mit bequemen Taschen,\nWarme Mäntel und Gamaschen\nAlle diese Kleidungssachen\nWußte Schneider Böck zu machen.\nOder wäre was zu flicken,\nAbzuschneiden, anzustücken,\nOder gar ein Knopf der Hose\nAbgerissen oder lose"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Max_und_Moritz_%28Busch%29_028.png/960px-Max_und_Moritz_%28Busch%29_028.png",
+        "width": 900,
+        "height": 475,
+        "caption": "Wie und wo und was es sei,\nHinten, vorne, einerlei\nAlles macht der Meister Böck,\nDenn das ist sein Lebenszweck.\nDrum so hat in der Gemeinde\nJedermann ihn gern zum Freunde.\nAber Max und Moritz dachten,\nWie sie ihn verdrießlich machten."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Max_und_Moritz_%28Busch%29_029.png/960px-Max_und_Moritz_%28Busch%29_029.png",
+        "width": 900,
+        "height": 480,
+        "caption": "Nämlich vor des Meisters Hause\nFloß ein Wasser mit Gebrause.\nÜbers Wasser führt ein Steg\nUnd darüber geht der Weg."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Max_und_Moritz_%28Busch%29_030.png/960px-Max_und_Moritz_%28Busch%29_030.png",
+        "width": 900,
+        "height": 435,
+        "caption": "Max und Moritz, gar nicht träge,\nSägen heimlich mit der Säge,\nRitzeratze! voller Tücke,\nIn die Brücke eine Lücke.\nAls nun diese Tat vorbei,\nHört man plötzlich ein Geschrei:"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Max_und_Moritz_%28Busch%29_031.png/960px-Max_und_Moritz_%28Busch%29_031.png",
+        "width": 900,
+        "height": 441,
+        "caption": "„He, heraus! du Ziegen-Böck!\nSchneider, Schneider, meck, meck, meck!!“\nAlles konnte Böck ertragen,\nOhne nur ein Wort zu sagen;\nAber wenn er dies erfuhr,\nGing’s ihm wider die Natur."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Max_und_Moritz_%28Busch%29_032.png/960px-Max_und_Moritz_%28Busch%29_032.png",
+        "width": 900,
+        "height": 513,
+        "caption": "Schnelle, springt er mit der Elle\nÜber seines Hauses Schwelle,\nDenn schon wieder ihm zum Schreck\nTönt ein lautes: „Meck, meck, meck!!“"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Max_und_Moritz_%28Busch%29_033.png/960px-Max_und_Moritz_%28Busch%29_033.png",
+        "width": 900,
+        "height": 526,
+        "caption": "Und schon ist er auf der Brücke,\nKracks! Die Brücke bricht in Stücke;"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Max_und_Moritz_%28Busch%29_034.png/960px-Max_und_Moritz_%28Busch%29_034.png",
+        "width": 900,
+        "height": 519,
+        "caption": "Wieder tönt es: „Meck, meck, meck!“\nPlumps! da ist der Schneider weg!"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Max_und_Moritz_%28Busch%29_035.png/960px-Max_und_Moritz_%28Busch%29_035.png",
+        "width": 900,
+        "height": 621,
+        "caption": "Grad als dieses vorgekommen,\nKommt ein Gänsepaar geschwommen,\nWelches Böck in Todeshast\nKrampfhaft bei den Beinen faßt."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Max_und_Moritz_%28Busch%29_036.png/960px-Max_und_Moritz_%28Busch%29_036.png",
+        "width": 900,
+        "height": 366,
+        "caption": "Beide Gänse in der Hand,\nFlattert er auf trocknes Land."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Max_und_Moritz_%28Busch%29_037.png/960px-Max_und_Moritz_%28Busch%29_037.png",
+        "width": 900,
+        "height": 897,
+        "caption": "Übrigens bei alledem\nIst so etwas nicht bequem;"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Max_und_Moritz_%28Busch%29_038.png/960px-Max_und_Moritz_%28Busch%29_038.png",
+        "width": 900,
+        "height": 558,
+        "caption": "Wie denn Böck von der Geschichte\nAuch das Magendrücken kriegte."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Max_und_Moritz_%28Busch%29_039.png/960px-Max_und_Moritz_%28Busch%29_039.png",
+        "width": 900,
+        "height": 582,
+        "caption": "Hoch ist hier Frau Böck zu preisen!\nDenn ein heißes Bügeleisen,\nAuf den kalten Leib gebracht,\nHat es wieder gut gemacht."
+      },
+      {
+        "caption": "Bald im Dorf hinauf, hinunter,\nHieß es Böck ist wieder munter!!\nDieses war der dritte Streich,\nDoch der vierte folgt sogleich."
+      }
+    ],
+    "credit": "Wilhelm Busch, 1865, gemeinfrei. Text und Bilder nach Wikisource",
+    "link": "https://de.wikisource.org/wiki/Max_und_Moritz/Dritter_Streich",
+    "linkTitle": "Bei Wikisource lesen"
+  },
+  "recommendation": {
+    "kind": "album",
+    "label": "Album",
+    "title": "creole culture",
+    "creator": "Cameron Richards",
+    "year": "2026",
+    "text": "Pitchfork beschreibt das Album als Feier der Dynamik von New Orleans: farbenfroh, gemeinschaftlich und triumphal in Bewegung. Es ist der dritte Teil einer Trilogie, die der Heimatstadt der Künstlerin gewidmet ist.",
+    "forWhom": "Für alle, die gern mit guter Laune in eine lebendige Musikstadt eintauchen.",
+    "link": null,
+    "source": {
+      "name": "Pitchfork",
+      "url": "https://pitchfork.com/reviews/albums/dawn-richard-creole-culture/"
+    }
+  },
+  "weekly": {
+    "title": "Die schönsten Nachrichten der Woche",
+    "stories": [
+      {
+        "id": "2026-10-06-01",
+        "ressort": "wissenschaft",
+        "kicker": "Nobelpreis",
+        "headline": "Medizin-Nobelpreis für Forscher, die Zellen mit Licht steuern",
+        "teaser": "Peter Hegemann, Georg Nagel und Karl Deisseroth werden für die Optogenetik geehrt. Zwei der drei Preisträger forschen in Deutschland.",
+        "blocks": [
+          {
+            "type": "bigNumber",
+            "value": "1",
+            "unit": "Mio. Euro",
+            "caption": "Preisgeld teilen sich die drei Forscher zu gleichen Teilen",
+            "icon": "medal.fill"
+          },
+          {
+            "type": "count",
+            "value": 3,
+            "icon": "person.fill",
+            "caption": "Forscher teilen sich den Medizin-Nobelpreis 2026"
+          },
+          {
+            "type": "background",
+            "title": "Was ist Optogenetik?",
+            "text": "Bei der Optogenetik werden genetische und optische Methoden verbunden. So lassen sich einzelne Zellen mit Licht an- oder abschalten, etwa Nervenzellen in lebendem Gewebe."
+          }
+        ],
+        "whyGood": "Zwei Forscher aus Deutschland und einer aus den USA werden für eine Methode geehrt, die Zellen gezielt mit Licht beeinflusst. Sie hilft, Nervenzellen besser zu verstehen.",
+        "honestNote": null,
+        "sources": [
+          {
+            "name": "DW",
+            "url": "https://www.dw.com/de/medizin-nobelpreis-deutsche-forscher-geehrt/a-79542661?maca=de-rss-de-all-1119-xml-mrss",
+            "language": "Deutsch"
+          },
+          {
+            "name": "SPIEGEL Wissenschaft",
+            "url": "https://www.spiegel.de/wissenschaft/medizin/nobelpreis-fuer-medizin-geht-an-karl-deisseroth-peter-hegemann-und-georg-nagel-a-702975fd-56ef-4da2-bf7f-151c54d5b3ff#ref=rss",
+            "language": "Deutsch"
+          }
+        ],
+        "score": 9,
+        "country": "DE",
+        "terms": [
+          {
+            "term": "Optogenetik",
+            "text": "Eine Methode, bei der Zellen mit Licht an- oder ausgeschaltet werden. Dafür bekommen die Zellen ein Gen, das sie lichtempfindlich macht."
+          },
+          {
+            "term": "Kanalrhodopsin",
+            "text": "Ein Protein, das Zellen lichtempfindlich macht. Hegemann und Nagel haben es entdeckt."
+          }
+        ],
+        "guess": {
+          "question": "Wessen Nervenzellen aktivierte Deisseroth mit Licht, nachdem er das Gen übertragen hatte?",
+          "options": [
+            "Die von Ratten",
+            "Die von Fruchtfliegen",
+            "Die von Zebrafischen"
+          ],
+          "answer": 0,
+          "reveal": "Deisseroth übertrug das Gen für das Protein in Nervenzellen von Ratten und aktivierte sie mit Licht.",
+          "icon": "brain.head.profile"
+        },
+        "image": null
+      },
+      {
+        "id": "2026-10-10-01",
+        "ressort": "natur",
+        "kicker": "Victoria, Australien",
+        "headline": "Victoria schafft drei neue Nationalparks für seine Wälder",
+        "teaser": "Im Zentrum des australischen Bundesstaates stehen jetzt große Waldgebiete unter Schutz. Dort leben viele seltene Tiere und Pflanzen.",
+        "blocks": [
+          {
+            "type": "bigNumber",
+            "value": "640",
+            "unit": "km²",
+            "caption": "Wald in der Mitte von Victoria sind jetzt Nationalpark",
+            "icon": "tree.fill"
+          },
+          {
+            "type": "count",
+            "value": 3,
+            "icon": "tree.fill",
+            "caption": "neue Nationalparks: Mount Buangor, Pyrenees und Wombat-Lerderderg"
+          },
+          {
+            "type": "facts",
+            "title": null,
+            "items": [
+              "Es sind die ersten großen neuen Parks in Victoria seit 15 Jahren.",
+              "Geschützt werden Schnabeltiere, Gleitbeutler und Kraftkäuze.",
+              "Parks Victoria und die Traditionellen Eigentümer planen die Pflege gemeinsam."
+            ],
+            "icons": [
+              "calendar",
+              "pawprint.fill",
+              "person.3.fill"
+            ]
+          }
+        ],
+        "whyGood": "Hunderte seltene Tiere, Pflanzen und Pilze haben jetzt dauerhaft geschützten Lebensraum. Das Ergebnis kommt von Freiwilligen, die über Jahre Berichte schrieben und nicht aufgaben.",
+        "honestNote": "Die Pläne für die Pflege der Parks werden erst in den nächsten 12 Monaten erarbeitet.",
+        "sources": [
+          {
+            "name": "Good News Network",
+            "url": "https://www.goodnewsnetwork.org/australia-announces-3-new-national-parks-to-protect-gliders-owls-and-other-victoria-wildlife/",
+            "language": "Englisch"
+          },
+          {
+            "name": "Phys.org",
+            "url": "https://phys.org/news/2026-10-odds-ecosystems.html",
+            "language": "Englisch"
+          }
+        ],
+        "score": 8,
+        "country": "AU",
+        "terms": [
+          {
+            "term": "Gleitbeutler",
+            "text": "Gleitbeutler sind kleine Beuteltiere. Sie springen von Baum zu Baum und gleiten dabei durch die Luft."
+          }
+        ],
+        "guess": {
+          "question": "Seit wann setzt sich die Gruppe Wombat Forestcare für diese Wälder ein?",
+          "options": [
+            "Seit 1995",
+            "Seit 2010",
+            "Seit 2020"
+          ],
+          "answer": 1,
+          "reveal": "Wombat Forestcare startete die Kampagne 2010 mit einer Konferenz in Hepburn.",
+          "icon": "tree.fill"
+        },
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Beech_Forest_%28AU%29%2C_Great_Otway_National_Park_--_2019_--_1294.jpg/1280px-Beech_Forest_%28AU%29%2C_Great_Otway_National_Park_--_2019_--_1294.jpg",
+          "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Beech_Forest_(AU),_Great_Otway_National_Park_--_2019_--_1294.jpg"
+        }
+      },
+      {
+        "id": "2026-10-08-01",
+        "ressort": "welt",
+        "kicker": "Kansas",
+        "headline": "Fremde decken nach Sturm das Dach eines Mannes ab",
+        "teaser": "Ein Baum durchschlug das Haus von Gilbert Kirk. Im Fernsehen bat er um eine Plane. Wenig später stand eine ganze Crew vor seiner Tür.",
+        "blocks": [
+          {
+            "type": "count",
+            "value": 4,
+            "icon": "person.fill",
+            "caption": "Helfer aus der Nachbarschaft deckten Kirks Dach ab"
+          },
+          {
+            "type": "facts",
+            "title": null,
+            "items": [
+              "Ein Sturm ließ einen Silberahorn durch das Dach fallen",
+              "Zwei Tage nach dem Hilferuf kam eine Crew mit Plane und Holz",
+              "Gilbert Kirk dankt den Helfern jeden Tag per Anruf"
+            ],
+            "icons": [
+              "wind",
+              "hammer.fill",
+              "phone.fill"
+            ]
+          }
+        ],
+        "whyGood": "Ein Hilferuf im Fernsehen wurde gehört. Nachbarn packten an, und ein Mann hat nach Wochen wieder ein Dach über dem Kopf.",
+        "honestNote": null,
+        "sources": [
+          {
+            "name": "Good News Network",
+            "url": "https://www.goodnewsnetwork.org/strangers-showed-up-to-mans-destroyed-house-to-put-up-a-tarp-having-seen-his-televised-plea/",
+            "language": "Englisch"
+          }
+        ],
+        "score": 8,
+        "country": "US",
+        "terms": [],
+        "guess": {
+          "question": "Welche Baumart stürzte auf Gilbert Kirks Haus?",
+          "options": [
+            "Eiche",
+            "Silberahorn",
+            "Kiefer"
+          ],
+          "answer": 1,
+          "reveal": "Ein Silberahorn fiel im Sturm durch das Dach. Zwei Tage nach dem Hilferuf kam die Crew.",
+          "icon": "tree.fill"
+        },
+        "image": null
+      },
+      {
+        "id": "2026-10-05-01",
+        "ressort": "architektur",
+        "kicker": "Eindhoven",
+        "headline": "Eindhoven baut Museum aus Hanf und gebrauchtem Holz",
+        "teaser": "Das neue Museum Vonk besteht aus Hanfkalk und wiederverwendetem Holz. Das Büro will zeigen, dass nachhaltiges Bauen mit kleinem Budget geht.",
+        "blocks": [
+          {
+            "type": "timeline",
+            "title": "Vom Pavillon zum Museum",
+            "items": [
+              {
+                "year": "2019",
+                "text": "Das Studio baut den Pavillon Biobasecamp für die Dutch Design Week."
+              },
+              {
+                "year": "Danach",
+                "text": "Das Holz wird geprüft und fast vollständig im neuen Museum wiederverwendet."
+              },
+              {
+                "year": "Heute",
+                "text": "Museum Vonk in Eindhoven erzählt 10.000 Jahre Regionalgeschichte."
+              }
+            ]
+          },
+          {
+            "type": "bigNumber",
+            "value": "10.000",
+            "unit": "Jahre",
+            "caption": "Geschichte der Region zeigt das Museum zum Anfassen und Mitmachen",
+            "icon": "calendar"
+          },
+          {
+            "type": "facts",
+            "title": null,
+            "items": [
+              "Die Wände bestehen aus Hanfkalk und sind mit Kalkputz gefärbt",
+              "Der Asphalt der alten Fahrschulbahn liegt jetzt im Fundament",
+              "Nistplätze für Vögel und Fledermäuse sind in die Fassade eingebaut"
+            ],
+            "icons": [
+              "leaf.fill",
+              "arrow.3.trianglepath",
+              "bird.fill"
+            ]
+          }
+        ],
+        "whyGood": "Das Museum zeigt, dass man mit Pflanzenstoffen und gebrauchtem Holz schön und mit begrenztem Budget bauen kann. Das kann anderen Bauprojekten als Vorbild dienen.",
+        "honestNote": "Das Museum ist ein Test. Es soll zeigen, dass günstiges Bauen mit Biomaterialien möglich ist.",
+        "sources": [
+          {
+            "name": "Dezeen",
+            "url": "https://www.dezeen.com/2026/10/04/museum-vonk-studio-marco-vermeulen/",
+            "language": "Englisch"
+          }
+        ],
+        "score": 8,
+        "country": "NL",
+        "terms": [
+          {
+            "term": "Hanfkalk",
+            "text": "Ein Baustoff aus Hanf und Kalk. Er wird für Wände genutzt und kommt aus Pflanzen."
+          },
+          {
+            "term": "Brettsperrholz",
+            "text": "Dicke Holzplatten aus mehreren verleimten Schichten. Man baut damit Wände, Decken und Dächer."
+          }
+        ],
+        "guess": {
+          "question": "Was ist in den Holzteilen des Museums noch zu sehen?",
+          "options": [
+            "Fußspuren",
+            "Graffiti",
+            "Namen der Bauarbeiter"
+          ],
+          "answer": 0,
+          "reveal": "Die verwitterten Holzteile zeigen Farbunterschiede und sogar Fußspuren. Sie gelten als besondere Oberfläche.",
+          "icon": "building.2.fill"
+        },
+        "image": null
+      },
+      {
+        "id": "2026-10-07-02",
+        "ressort": "gesundheit",
+        "kicker": "Gelenke",
+        "headline": "Knorpel wächst nach: Neuer Ansatz gegen Arthrose",
+        "teaser": "Forschende der Stanford Medicine haben bei alten Mäusen Knieknorpel nachwachsen lassen. Auch Knorpel von Menschen reagierte auf die Behandlung.",
+        "blocks": [
+          {
+            "type": "comparison",
+            "title": "Gesunde Knorpelzellen im Mäuseknie",
+            "before": {
+              "label": "Vorher",
+              "value": 22,
+              "display": "22 %"
+            },
+            "after": {
+              "label": "Nachher",
+              "value": 42,
+              "display": "42 %"
+            }
+          },
+          {
+            "type": "share",
+            "value": 50,
+            "label": "Anteil nach Kreuzbandriss mit Arthrose",
+            "caption": "Etwa die Hälfte der Betroffenen bekommt innerhalb von rund 15 Jahren Arthrose im verletzten Gelenk."
+          },
+          {
+            "type": "background",
+            "title": "Was ist 15-PGDH?",
+            "text": "15-PGDH ist ein Eiweiß, das im Alter häufiger wird. Es baut einen Stoff ab, der Heilung unterstützt. Wird es gehemmt, verjüngen sich vorhandene Knorpelzellen. Stammzellen sind dafür nicht nötig."
+          }
+        ],
+        "whyGood": "Bisher gibt es kein Medikament, das Arthrose selbst bremst oder umkehrt. Der neue Ansatz könnte eines Tages Gelenkersatz seltener nötig machen.",
+        "honestNote": "Bisher nur an Mäusen und an Gewebeproben getestet. Ob es Menschen hilft, müssen klinische Studien erst zeigen.",
+        "sources": [
+          {
+            "name": "ScienceDaily",
+            "url": "https://www.sciencedaily.com/releases/2026/10/261005011249.htm",
+            "language": "Englisch"
+          }
+        ],
+        "score": 7,
+        "country": "US",
+        "terms": [
+          {
+            "term": "Arthrose",
+            "text": "Bei Arthrose wird der Knorpel in einem Gelenk dünner und weicher. Das Gelenk tut weh, schwillt an und lässt sich schlechter bewegen."
+          },
+          {
+            "term": "Stammzellen",
+            "text": "Stammzellen sind besondere Körperzellen. Sie können sich vermehren und zu verschiedenen Zelltypen werden."
+          }
+        ],
+        "guess": {
+          "question": "Was bewirkte die Behandlung im Knorpel der alten Mäuse?",
+          "options": [
+            "Neue Stammzellen wanderten ein",
+            "Alte Knorpelzellen wurden jünger",
+            "Knochen ersetzte den Knorpel"
+          ],
+          "answer": 1,
+          "reveal": "Stammzellen waren nicht beteiligt. Vorhandene Knorpelzellen änderten ihre Genaktivität und wirkten jünger.",
+          "icon": "stethoscope"
+        },
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Human_knee_joint_FE_model.png",
+          "credit": "Hamid nbe, CC BY-SA 4.0, Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Human_knee_joint_FE_model.png"
+        }
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-10-11-01",
+        "question": "Wie viele Windräder bekamen in der Studie ein schwarzes Rotorblatt?",
+        "options": [
+          "Zwei",
+          "Vier",
+          "Acht",
+          "Sechzehn"
+        ],
+        "answer": 1
+      },
+      {
+        "storyID": "2026-10-11-04",
+        "question": "Unter welchem Fjord entsteht der Tunnel Rogfast?",
+        "options": [
+          "Hardangerfjord",
+          "Sognefjord",
+          "Oslofjord",
+          "Boknafjord"
+        ],
+        "answer": 3
+      },
+      {
+        "storyID": "2026-10-11-12",
+        "question": "Wo lebt der Lippenbär Odum heute?",
+        "options": [
+          "Bannerghatta",
+          "Jaipur",
+          "Mysore",
+          "Agra"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-10-11-r01",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Merzhausen",
+      "headline": "BürgerBad Merzhausen feiert 50 Jahre und bleibt offen",
+      "teaser": "Das Hallenbad in Merzhausen sollte abgerissen werden. Eine Bürgerinitiative und eine gemeinnützige Gesellschaft betreiben es seit 2004. Über zwei Millionen Euro flossen seitdem in das Bad. Nun wird es 50 Jahre alt.",
+      "blocks": [],
+      "whyGood": "Engagierte Bürgerinnen und Bürger haben ihr Schwimmbad gerettet, und heute gibt es dort sogar Café und Sauna.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/50-jahre-buergerbad-merzhausen-rettung-durch-engagement-von-burgern-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/4aa0e2c0-cce0-41d1-8b7e-3426f6e7a32f/AAABoSUP660/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/50-jahre-buergerbad-merzhausen-rettung-durch-engagement-von-burgern-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r02",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Augsburg",
+      "headline": "Augsburgs Fellhauer trifft nach 8,4 Sekunden zum Bundesliga-Rekord",
+      "teaser": "Robin Fellhauer vom FC Augsburg hat das schnellste Tor der Bundesliga-Geschichte geschossen. Gegen den FC Bayern traf der 28-Jährige nach nur 8,4 Sekunden. Den alten Rekord von neun Sekunden hielten Kevin Volland und Karim Bellarabi.",
+      "blocks": [],
+      "whyGood": "Ein Augsburger schreibt Fußballgeschichte, und der bisherige Rekordhalter Kevin Volland gratuliert herzlich.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Oberbayern",
+          "url": "https://www.br.de/nachrichten/sport/fussball-gegen-fc-bayern-fc-augsburgs-fellhauer-schiesst-schnellstes-tor-der-bundesliga-geschichte,VXeXdwp",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/3f0c825e-3803-43c8-8361-843b791c1d7a.jpeg?q=80&rect=0%2C141%2C4000%2C2253&w=1600&h=900",
+        "credit": "BR24 Oberbayern",
+        "source": "https://www.br.de/nachrichten/sport/fussball-gegen-fc-bayern-fc-augsburgs-fellhauer-schiesst-schnellstes-tor-der-bundesliga-geschichte,VXeXdwp",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r03",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Insel Poel",
+      "headline": "Männerschuppen auf Poel gewinnt Landeswettbewerb",
+      "teaser": "Der „Männerschuppen Insel Poel e.V.“ hat den Landeswettbewerb 2026 „Gesichter für ein gesundes Miteinander“ gewonnen. Dort handwerken Männer gemeinsam, helfen sich und knüpfen neue Kontakte. Die DAK-Gesundheit und Sozialministerin Stefanie Drese zeichnen die Initiative aus.",
+      "blocks": [],
+      "whyGood": "Gemeinsames Handwerken gegen Einsamkeit wird im ganzen Land sichtbar gewürdigt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/maennerschuppen-auf-poel-fuer-gesundheits-engagement-ausgezeichnet,mvregioschwerin-6026.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/dbd5a818-5f29-4a91-bec7-7ca58604b33b/AAABoR_KQWA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/maennerschuppen-auf-poel-fuer-gesundheits-engagement-ausgezeichnet,mvregioschwerin-6026.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r04",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Düsseldorf",
+      "headline": "10.000 Reibekuchen für Obdachlose in Düsseldorf",
+      "teaser": "Die Scholljonges, die Tischgemeinschaft der Düsseldorfer Jonges, braten in der Altstadt 10.000 Reibekuchen aus einer Tonne Kartoffeln. Sie sind gratis, Spenden sind willkommen. Das Geld geht an die Armenküche und den Gute-Nacht-Bus für obdachlose Menschen.",
+      "blocks": [],
+      "whyGood": "Aus einem Imbiss wird Hilfe für Menschen ohne Wohnung, und viele Ehrenamtliche packen dafür mit an.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/duesseldorf-gratis-reibekuchen-freiwillige-spenden-fuer-obdachlose-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/8eaa485c-fda4-4b65-9f24-c8b4afae58af/AAABoScmwdI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/duesseldorf-gratis-reibekuchen-freiwillige-spenden-fuer-obdachlose-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r05",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Lünen",
+      "headline": "Lünen: 200 Drachenflieger lassen den Himmel bunt leuchten",
+      "teaser": "Beim Drachenfest in Lünen kommen rund 200 Drachenflieger aus Deutschland und den Nachbarländern zusammen. Sie lassen Oktopusse, Fantasiefiguren und leuchtende Nachtdrachen steigen. Kinder können eigene Drachen bauen. Der Eintritt ist frei.",
+      "blocks": [],
+      "whyGood": "Ein Fest für alle Generationen, bei dem Kinder selbst Drachen bauen und steigen lassen und Familien gemeinsam in den Himmel schauen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/ruhrgebiet/drachenfest-luenen-bunt-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/d943abca-6ad9-4f24-8f7e-7f5402fd79cf/AAABoSct8Gs/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/ruhrgebiet/drachenfest-luenen-bunt-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r06",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Oberkirch",
+      "headline": "Landespreis für Dialekt in Oberkirch verliehen",
+      "teaser": "Ministerpräsident Cem Özdemir hat in Oberkirch im Ortenaukreis den Landespreis für Dialekt überreicht. 250 Mundartkünstler hatten sich beworben. Ausgezeichnet wurden unter anderem Autoren, Kabarettisten, Musiker und Filmemacher aus dem ganzen Land.",
+      "blocks": [],
+      "whyGood": "Der Preis macht die Vielfalt der Mundarten im Land sichtbar und belohnt Künstler mit insgesamt 60.000 Euro.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/oezdemir-verleiht-landespreis-dialekt-in-oberkirch-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/eab79aa1-f421-4991-9d44-52dd84c5f049/AAABoSfjMIM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/oezdemir-verleiht-landespreis-dialekt-in-oberkirch-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r07",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Fürth",
+      "headline": "Mehr als 90 Kapellen ziehen im Erntedankfestzug durch Fürth",
+      "teaser": "Beim Erntedankfestzug der Michaelis-Kirchweih ziehen mehr als 90 Spielmannszüge und Kapellen aus ganz Franken durch Fürth. Der Umzug gehört zu den größten Brauchtumsumzügen in Bayern. Im Vorjahr kamen 100.000 Menschen. Das BR Fernsehen überträgt live.",
+      "blocks": [],
+      "whyGood": "Ein Brauch aus dem Jahr 1815, der eine reiche Ernte feiert, bringt bis heute Zehntausende zusammen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Mittelfranken",
+          "url": "https://www.br.de/nachrichten/bayern/erntedankfestzug-zehntausende-menschen-ziehen-durch-fuerth,VXd4Aao",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/0a65a45e-142d-4d30-8b0d-f860ba39c3c8.jpeg?q=80&rect=0%2C0%2C1078%2C606&w=1600&h=900",
+        "credit": "BR24 Mittelfranken",
+        "source": "https://www.br.de/nachrichten/bayern/erntedankfestzug-zehntausende-menschen-ziehen-durch-fuerth,VXd4Aao",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r08",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Kniffel bringt junge Leute zurück in Bremens Bars",
+      "teaser": "Das Würfelspiel Kniffel erlebt in Bremen ein Comeback. Eine Community bringt junge Leute in den Bars der Stadt zusammen. Auch beim großen Turnier auf der Alexander von Humboldt geht es um mehr als nur den Sieg.",
+      "blocks": [],
+      "whyGood": "Ein altes Spiel füllt Bremens Kneipen wieder mit jungem Leben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/kniffel-turnier-alex-humboldt-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/kniffel-turnier-zettel-wuerfel-100~_v-1280x720_c-1791656979151.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/kniffel-turnier-alex-humboldt-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r09",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "„Kult Katze!“ im Überseemuseum gestartet",
+      "teaser": "Das Überseemuseum in Bremen zeigt die Sonderausstellung „Kult Katze!“. Sie erzählt von Katzen vom alten Ägypten über die Bodegas in New York bis nach Bremen. Die Katze war in der Geschichte der Menschen nie wegzudenken.",
+      "blocks": [],
+      "whyGood": "Wer Katzen mag, kann in Bremen nun ihre lange Geschichte an einem Ort entdecken.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/kult-katze-sonderausstellung-ueberseemuseum-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/katze-sonderausstellung-ueberseemuseum-komisch-102~_v-1280x720_c-1791655939429.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/kult-katze-sonderausstellung-ueberseemuseum-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r10",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Wetteraukreis",
+      "headline": "11,6 Millionen Euro für eine Frau aus der Wetterau",
+      "teaser": "Eine Frau aus dem Wetteraukreis hat beim Eurojackpot rund 11,6 Millionen Euro gewonnen. Sie hatte sechs von sieben Zahlen richtig und gab ihren Tipp online erst fünfzehn Minuten vor Annahmeschluss ab. Den gleichen Betrag erhält ein Tipper aus Finnland.",
+      "blocks": [],
+      "whyGood": "Ein Tipp in letzter Minute wird für eine Frau aus Hessen zum Millionengewinn.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/panorama/116-millionen-euro-fuer-gewinnerin-aus-der-wetterau--v1,millionengewinn-wetterau-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/0a7a5d3c-1ee9-4090-9642-a91c0c7b6e53/AAABoSVtUrI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/panorama/116-millionen-euro-fuer-gewinnerin-aus-der-wetterau--v1,millionengewinn-wetterau-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r11",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Schwerin",
+      "headline": "Schwerins älteste Straßenbahn wird 100 und fährt gratis",
+      "teaser": "Der historische Triebwagen HTW 26 feiert Jubiläum. Am Sonnabend pendelt er kostenlos zwischen Bertha-Klingberg-Platz und Kliniken. Die Nahverkehr Schwerin GmbH will so die Geschichte der Straßenbahn in der Stadt zeigen.",
+      "blocks": [],
+      "whyGood": "Ein 100 Jahre altes Fahrzeug fährt noch und lässt alle Schweriner kostenlos mitfahren.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/schwerin-letzte-jubilaeumsfahrt-fuer-historische-strassenbahn,mvregioschwerin-5992.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/a1086d79-8336-4a8f-9cac-c1c82365a8cf/AAABoSURZSo/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/schwerin-letzte-jubilaeumsfahrt-fuer-historische-strassenbahn,mvregioschwerin-5992.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r12",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Trier",
+      "headline": "Gladiators Trier schlagen Meister Alba Berlin mit 95:75",
+      "teaser": "Die Gladiators Trier haben in der Basketball-Bundesliga den amtierenden Meister Alba Berlin besiegt. Mit schnellem Offensivspiel und starker Arbeit unter dem eigenen Korb gewannen sie 95:75. Es war der fünfte Sieg in Folge.",
+      "blocks": [],
+      "whyGood": "Trier feiert gegen einen der stärksten Gegner der Liga einen klaren Sieg und hat nun fünf Erfolge in Folge.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/sport/mehr-sport/gladiators-trier-fordern-deutschen-meister-alba-berlin-heraus-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/fa13a863-c1a1-456b-8d1d-d09e84a038ae/AAABoSeSnPw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/sport/mehr-sport/gladiators-trier-fordern-deutschen-meister-alba-berlin-heraus-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r13",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Dresden",
+      "headline": "Globalfoundries feiert Richtfest für Chipwerk-Erweiterung",
+      "teaser": "Der Chiphersteller Globalfoundries baut sein Werk in Dresden für rund 1,1 Milliarden Euro aus. Bis Ende 2028 soll die Produktion von bis zu 950.000 auf mehr als eine Million Wafer im Jahr steigen. Das Unternehmen beschäftigt dort 3.000 Menschen.",
+      "blocks": [],
+      "whyGood": "Die Erweiterung stärkt Dresden als Chipstandort und macht Europa bei wichtigen Chips unabhängiger.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/news-richtfest-wafer-pysical-ai,globalfoundries-chips-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Wafer",
+          "text": "Wafer sind hauchdünne Scheiben, meist aus Silizium. Aus ihnen werden Mikrochips hergestellt."
+        }
+      ],
+      "image": {
+        "url": "https://images.mdr.de/image/00efa2b6-8dd2-484d-a40d-b849bc1131c5/AAABoSCR_io/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/news-richtfest-wafer-pysical-ai,globalfoundries-chips-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r14",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Leipzig und Dresden",
+      "headline": "Mehr Flüge zum Start der Herbstferien in Sachsen",
+      "teaser": "Zu Ferienbeginn bieten die Flughäfen Leipzig/Halle und Dresden mehr Flüge an als im Sommer. Am ersten Wochenende starten 95 Maschinen, 70 in Leipzig/Halle und 25 in Dresden. Beliebtestes Ziel ist Antalya.",
+      "blocks": [],
+      "whyGood": "Wer in den Herbstferien verreisen möchte, hat ab Sachsen mehr Auswahl und kann direkt von zu Hause abheben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/ferien-urlaub-mallorca-tuerkei,flughafen-fluege-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/c0b90853-3ccd-4ed5-a5af-42d2ed9479da/AAABoSG9zVE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/ferien-urlaub-mallorca-tuerkei,flughafen-fluege-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-11-r15",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Weimar",
+      "headline": "17-Jährige aus Weimar schwimmt durch den Bodensee",
+      "teaser": "Johanna Hörsch aus Weimar ist zwölf Kilometer von Friedrichshafen nach Romanshorn geschwommen. Sie brauchte weniger als drei Stunden und sechs Minuten. Damit wurde sie Zweite bei den Frauen und kam insgesamt unter die besten zehn. Nun hat die 17-Jährige noch größere Pläne.",
+      "blocks": [],
+      "whyGood": "Eine Schülerin aus Thüringen schwimmt bei ihrem ersten großen Freiwasser-Wettkampf aufs Podium und denkt schon an die nächste Herausforderung.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/weimar/dlrg-schwimmerin,johanna-rettungsschwimmerin-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/50b3b130-95b0-4515-a0ce-70396219d2c7/AAABoSVlCIU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/weimar/dlrg-schwimmerin,johanna-rettungsschwimmerin-100.html",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Tarte Vaudoise mit Rahm und Zimt",
+    "intro": "Dieser Rahmkuchen aus der Westschweiz braucht nur wenige Zutaten und kein Ausrollen in Etappen. Mit Zimt und Sahne passt er wunderbar in die ersten kühlen Herbstabende.",
+    "servings": 5,
+    "minutes": 70,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 140,
+        "unit": "g",
+        "item": "Weizenmehl (Type 405), plus etwas zum Bestäuben"
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "item": "Backpulver"
+      },
+      {
+        "amount": 1,
+        "unit": "Prise",
+        "item": "Salz"
+      },
+      {
+        "amount": 1,
+        "unit": "Prise",
+        "item": "Zucker für den Teig"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "weiche Butter, in kleinen Stücken"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "item": "kalte Vollmilch"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "item": "Zucker für den Belag"
+      },
+      {
+        "amount": 1,
+        "unit": "Prise",
+        "item": "Weizenmehl für den Belag"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "item": "Sahne"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "kalte Butter, gewürfelt"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "gemahlener Zimt, am besten frisch gemahlen"
+      }
+    ],
+    "steps": [
+      "Den Ofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen.",
+      "Mehl, Backpulver, Salz und Zucker in einer großen Schüssel mischen. Die weiche Butter mit den Fingerspitzen einarbeiten, bis die Masse wie grobe Brösel aussieht.",
+      "Die Milch dazugeben und den Teig mit leichter Hand zu einer Kugel formen. Den Teig nicht ruhen lassen, sonst geht er im Ofen zu stark auf.",
+      "Den Teig auf bemehlter Fläche zu einem Kreis ausrollen und eine Tarteform von 25 cm damit auslegen. Den Boden mehrmals mit einer Gabel einstechen.",
+      "Zucker und die Prise Mehl mischen und gleichmäßig auf dem Teigboden verteilen.",
+      "Die Sahne darübergießen. Die kalten Butterwürfel verteilen und leicht mit Zimt bestreuen.",
+      "Etwa 25 Minuten backen. Der Rand soll schön goldbraun sein und die Sahne dick blubbern, kurz bevor sie zu gerinnen scheint.",
+      "Die Tarte auf einem Gitter ganz auskühlen lassen, dann vorsichtig aus der Form lösen und in Stücke schneiden."
+    ],
+    "tip": "Schmeckt lauwarm oder kalt am besten. Frisch gemahlener Zimt gibt deutlich mehr Aroma.",
+    "icon": "birthday.cake.fill",
+    "source": {
+      "name": "Guardian Food",
+      "url": "https://www.theguardian.com/food/2026/oct/10/tarte-vaudoise-a-la-creme-recipe-henry-harris"
+    }
+  }
+}
