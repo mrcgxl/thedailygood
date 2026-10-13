@@ -1,782 +1,511 @@
 {
-  "date": "2026-10-12",
-  "number": 14,
+  "date": "2026-10-13",
+  "number": 15,
   "isSample": false,
-  "leadStoryID": "2026-10-12-01",
+  "leadStoryID": "2026-10-13-01",
   "stories": [
     {
-      "id": "2026-10-12-01",
-      "ressort": "gesundheit",
-      "kicker": "Gesundheit",
-      "headline": "Anders gehen kann Knieschmerzen bei Arthrose lindern",
-      "teaser": "Eine kleine Änderung beim Gehen half in einer Studie so gut wie Schmerzmittel. Der Knorpel im Knie baute zudem langsamer ab.",
+      "id": "2026-10-13-01",
+      "ressort": "natur",
+      "kicker": "Klamath River",
+      "headline": "Lachse kehren nach Abriss von vier Dämmen in den Klamath zurück",
+      "teaser": "Im Westen der USA wurden vier Dämme aus dem Klamath River entfernt. Die Chinook-Lachse kamen schneller zurück, als die Forscher gedacht hatten.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Lachse, die an den früheren Dämmen vorbeizogen",
+          "before": {
+            "label": "2024",
+            "value": 7742,
+            "display": "7.742"
+          },
+          "after": {
+            "label": "2025",
+            "value": 13000,
+            "display": "über 13.000"
+          }
+        },
+        {
+          "type": "share",
+          "value": 88,
+          "label": "des früheren Lebensraums zurückerobert",
+          "caption": "So viel von ihrem bekannten historischen Lebensraum nutzen die Chinook-Lachse wieder."
+        },
+        {
+          "type": "bigNumber",
+          "value": "345",
+          "unit": "Kilometer",
+          "caption": "Fluss waren vorher für die Lachse versperrt und sind jetzt wieder offen.",
+          "icon": "fish.fill"
+        }
+      ],
+      "whyGood": "Ein Fluss darf wieder fließen, und die Lachse finden ihren alten Weg schon nach kurzer Zeit zurück. Das zeigt, dass sich Natur schnell erholen kann, wenn man ihr Raum gibt.",
+      "honestNote": "Bis die Bestände wieder so groß sind wie früher, braucht es noch mehrere Generationen von Lachsen.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/chinook-salmon-return-to-historical-habitat-following-removal-of-four-us-dams/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 8,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viel Flusslänge wurde für die Lachse durch den Dammabriss wieder frei?",
+        "options": [
+          "35 Kilometer",
+          "345 Kilometer",
+          "1.450 Kilometer"
+        ],
+        "answer": 1,
+        "reveal": "Die Lachse zogen in 345 Kilometer Fluss, die sie rund ein Jahrhundert lang nicht erreichen konnten.",
+        "icon": "fish.fill"
+      },
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/12211046/750x500-chinook-salmon.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/chinook-salmon-return-to-historical-habitat-following-removal-of-four-us-dams/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-02",
+      "ressort": "welt",
+      "kicker": "Berlin",
+      "headline": "Berliner gießen Stadtbäume per App wie Haustiere",
+      "teaser": "Die App „Gieß den Kiez“ zeigt, welcher Baum in der Nachbarschaft durstig ist. Tausende Menschen übernehmen eine Patenschaft.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "900.000",
+          "unit": "Straßenbäume",
+          "caption": "in Berlin sind als Punkte auf der Karte der App zu finden",
+          "icon": "tree.fill"
+        },
+        {
+          "type": "steps",
+          "title": "So funktioniert es",
+          "items": [
+            "Baum auf der Karte auswählen und adoptieren",
+            "Gießhinweise nach Art, Alter, Wetter und Standort erhalten",
+            "Orange oder rote Punkte zeigen durstige Bäume"
+          ],
+          "icons": [
+            "mappin",
+            null,
+            "drop.fill"
+          ]
+        },
+        {
+          "type": "count",
+          "value": 4,
+          "icon": "building.2.fill",
+          "caption": "weitere Orte haben den offenen Code schon für eigene Apps genutzt"
+        }
+      ],
+      "whyGood": "Viele Menschen kümmern sich nun um Bäume, die in heißen Sommern Schatten und Kühle spenden. Auch andere Städte machen die Idee nach.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/like-caring-for-a-pet-the-app-that-lets-you-know-if-your-neighborhood-tree-is-thirsty/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Straßenbäume gibt es in Berlin ungefähr?",
+        "options": [
+          "90.000",
+          "900.000",
+          "9 Millionen"
+        ],
+        "answer": 1,
+        "reveal": "Rund 900.000 Straßenbäume stehen in Berlin, alle als GPS-Punkt in der App.",
+        "icon": "tree.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-Thanh-Thu-Nguyen-CityLAB-Berlin.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/like-caring-for-a-pet-the-app-that-lets-you-know-if-your-neighborhood-tree-is-thirsty/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-03",
+      "ressort": "kurioses",
+      "kicker": "Montana",
+      "headline": "Softballspielerin trifft in Montana ihre leibliche Schwester",
+      "teaser": "Samantha Rensvold wurde als Baby adoptiert. Bei einem Turnier stand ihr plötzlich ein Mädchen gegenüber, das genauso aussah wie sie.",
       "blocks": [
         {
           "type": "count",
-          "value": 68,
-          "icon": "figure.walk",
-          "caption": "Menschen mit Kniearthrose nahmen an der Studie teil"
-        },
-        {
-          "type": "comparison",
-          "title": "Fußwinkel je nach Person",
-          "before": {
-            "label": "Kleine Anpassung",
-            "value": 5,
-            "display": "5 Grad"
-          },
-          "after": {
-            "label": "Große Anpassung",
-            "value": 10,
-            "display": "10 Grad"
-          }
+          "value": 3,
+          "icon": "person.fill",
+          "caption": "Kinder haben die leiblichen Eltern, darunter ein Sohn, der Samantha schon vor Jahren fand"
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Die Studie lief ein Jahr lang und hatte eine Placebo-Gruppe.",
-            "Der Winkel wurde für jede Person einzeln bestimmt.",
-            "Ein Gerät am Schienbein vibrierte als Hilfe beim Üben."
+            "Das Turnier fand am 1. August 2025 statt",
+            "Beide Mütter bestätigten Namen und Geburtsklinik",
+            "Beide spielten Volleyball, auf derselben Position, mit derselben Nummer"
           ],
           "icons": [
             "calendar",
-            "person.fill",
-            "figure.walk"
+            "building.2.fill",
+            null
           ]
         }
       ],
-      "whyGood": "Wer Kniearthrose hat, könnte künftig Schmerzen lindern, ohne Medikamente oder Operation. Der Knorpel baute in der Studie zudem langsamer ab.",
-      "honestNote": "Bevor die Methode eingesetzt werden kann, muss das Training noch einfacher werden.",
+      "whyGood": "Eine Frage, die lange offen war, ist beantwortet. Die Schwestern kennen sich jetzt und wollen künftig Zeit miteinander verbringen.",
+      "honestNote": null,
       "sources": [
         {
           "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/new-way-to-relieve-arthritic-knees-without-drugs-or-surgery-by-changing-your-gait/",
-          "language": "Englisch"
-        },
-        {
-          "name": "ScienceDaily Health",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261009025434.htm",
+          "url": "https://www.goodnewsnetwork.org/montana-high-school-softball-player-discovered-long-lost-sister-on-opposing-team/",
           "language": "Englisch"
         }
       ],
       "score": 7,
       "country": "US",
-      "terms": [
-        {
-          "term": "Arthrose",
-          "text": "Bei Arthrose nutzt sich der Knorpel im Gelenk ab. Der Knorpel wirkt wie ein Polster zwischen den Knochen."
-        },
-        {
-          "term": "Placebo",
-          "text": "Ein Placebo ist eine Behandlung ohne echte Wirkung. So sieht man, was wirklich an der Behandlung liegt."
-        }
-      ],
+      "terms": [],
       "guess": {
-        "question": "Wie stark musste man den Fußwinkel beim Gehen höchstens verändern?",
+        "question": "Woran erkannte Samanthas Adoptivmutter, dass das fremde Mädchen die Schwester sein könnte?",
         "options": [
-          "1 Grad",
-          "10 Grad",
-          "45 Grad"
+          "Am Vornamen auf der Spielerliste",
+          "An einem Muttermal",
+          "An einem alten Familienfoto"
         ],
-        "answer": 1,
-        "reveal": "Je nach Person genügten 5 oder 10 Grad. Das ist nur eine kleine Drehung des Fußes.",
-        "icon": "figure.walk"
+        "answer": 0,
+        "reveal": "Der Name Kyann stand auf der Liste. Samanthas Mutter wusste, dass die leibliche Mutter ihr Kind so genannt hatte.",
+        "icon": "figure.and.child.holdinghands"
       },
       "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Knee-pain-from-arthritis-by-Getty-Images-For-Unsplash-Zfi2Hb_qlaY.jpeg",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Kyann-Dean-left-and-Samantha-Rensvold-right-credit-Rensvold-family-photo.jpg",
         "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/new-way-to-relieve-arthritic-knees-without-drugs-or-surgery-by-changing-your-gait/",
+        "source": "https://www.goodnewsnetwork.org/montana-high-school-softball-player-discovered-long-lost-sister-on-opposing-team/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-02",
-      "ressort": "natur",
-      "kicker": "Seychellen",
-      "headline": "Aldabra: So viele Riesenschildkröten wie nie gezählt",
-      "teaser": "Eine neue Zählung zeigt: Die einst bedrohten Riesenschildkröten auf Aldabra sind wieder zahlreich. Es ist der größte frei lebende Bestand der Welt.",
+      "id": "2026-10-13-04",
+      "ressort": "sport",
+      "kicker": "Tennis",
+      "headline": "Alexander Zverev beendet das Jahr als Nummer eins der Welt",
+      "teaser": "Nach der schweren Knöchelverletzung 2022 erreicht Alexander Zverev die Spitze. Er gewann dieses Jahr in Paris und New York.",
       "blocks": [
         {
-          "type": "comparison",
-          "title": "Riesenschildkröten auf Aldabra",
-          "before": {
-            "label": "Späte 1990er",
-            "value": 100000,
-            "display": "100.000"
-          },
-          "after": {
-            "label": "2018 bis 2022",
-            "value": 180000,
-            "display": "rund 180.000"
-          }
+          "type": "bigNumber",
+          "value": "30",
+          "unit": "Spieler",
+          "caption": "waren seit Einführung der Weltrangliste 1973 die Nummer eins. Zverev ist der 30.",
+          "icon": "trophy.fill"
         },
         {
           "type": "timeline",
-          "title": "Die Rettung von Aldabra",
+          "title": "Deutsche an der Spitze",
           "items": [
             {
-              "year": "19. Jahrhundert",
-              "text": "Weniger als 1.000 Tiere sind übrig."
+              "year": "1973",
+              "text": "Die Weltrangliste im Tennis wird eingeführt."
             },
             {
-              "year": "1981",
-              "text": "Aldabra wird strenges Naturschutzgebiet."
+              "year": "1991",
+              "text": "Boris Becker ist als erster Deutscher die Nummer eins."
             },
             {
-              "year": "1982",
-              "text": "Die Insel wird UNESCO-Stätte."
-            },
-            {
-              "year": "2018 bis 2022",
-              "text": "Fünf Jahre Zählungen zeigen einen stabilen Bestand."
+              "year": "2026",
+              "text": "Zverev steht fest als Nummer eins zum Jahresende."
             }
           ]
         },
         {
-          "type": "map",
-          "place": "Aldabra-Atoll, Seychellen",
-          "latitude": -9.42,
-          "longitude": 46.42,
-          "caption": "Ein Ring aus Koralleninseln im Indischen Ozean östlich von Afrika."
+          "type": "quote",
+          "text": "Wir haben so viel Arbeit und Mühe investiert, um dieses Ziel zu erreichen, insbesondere bei der Rückkehr nach der Knöchelverletzung.",
+          "author": "Alexander Zverev, Tennisspieler"
         }
       ],
-      "whyGood": "Eine Art, von der im 19. Jahrhundert fast nichts übrig war, lebt heute wieder in großer Zahl. Das zeigt, dass langer Einsatz für den Naturschutz wirkt.",
-      "honestNote": "Trockenheit und eingeschleppte Tiere wie Katzen und Ratten bleiben eine Gefahr für die Jungtiere.",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/giant-tortoise-population-is-thriving-survey-finds-180000-on-one-island-chain/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "SC",
-      "terms": [
-        {
-          "term": "Atoll",
-          "text": "Ein Atoll ist eine Inselgruppe aus Korallen, die einen Ring bildet. In der Mitte liegt meist eine flache Lagune."
-        },
-        {
-          "term": "Naturschutzgebiet",
-          "text": "Ein Gebiet, in dem Tiere und Pflanzen besonders geschützt sind. Menschen dürfen dort nur wenig verändern."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele Riesenschildkröten leben heute auf dem Aldabra-Atoll?",
-        "options": [
-          "Etwa 1.800",
-          "Etwa 18.000",
-          "Etwa 180.000"
-        ],
-        "answer": 2,
-        "reveal": "Rund 180.000 Tiere leben dort. Das sind mehr als Menschen auf den ganzen Seychellen.",
-        "icon": "tortoise.fill"
-      },
-      "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Giant-Tortoises-in-the-Seychelles-SWNS.jpeg",
-        "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/giant-tortoise-population-is-thriving-survey-finds-180000-on-one-island-chain/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-03",
-      "ressort": "wissenschaft",
-      "kicker": "Wien",
-      "headline": "Wien: Erste Kernuhr hält sich selbst im Takt",
-      "teaser": "Ein Team in Wien hat eine Uhr gebaut, die Thorium im Atomkern nutzt. Sie läuft allein stabil und könnte einmal genauer werden als heutige Atomuhren.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Größe im Vergleich",
-          "before": {
-            "label": "Atomkern",
-            "value": 1,
-            "display": "1"
-          },
-          "after": {
-            "label": "Atom",
-            "value": 10000,
-            "display": "über 10.000"
-          }
-        },
-        {
-          "type": "steps",
-          "title": "So hält sich die Uhr selbst im Takt",
-          "items": [
-            "Ein Laser strahlt auf einen Kristall mit Thorium.",
-            "Die Thorium-Kerne nehmen nur Licht mit genau der richtigen Frequenz auf.",
-            "Wird weniger Licht aufgenommen, stellt das System den Laser nach."
-          ],
-          "icons": [
-            "sparkles",
-            "atom",
-            "gearshape.fill"
-          ]
-        },
-        {
-          "type": "bigNumber",
-          "value": "24",
-          "unit": "Stunden",
-          "caption": "lief die Uhr stabil, ohne dass jemand eingreifen musste",
-          "icon": "clock.fill"
-        }
-      ],
-      "whyGood": "Genauere Uhren helfen auch, andere Größen feiner zu messen. So können Forschende die Natur besser verstehen. Der erste Prototyp zeigt, dass die Idee funktioniert.",
-      "honestNote": "Noch ist die Uhr nicht so genau wie die besten optischen Atomuhren.",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "AT",
-      "terms": [
-        {
-          "term": "Thorium",
-          "text": "Thorium ist ein seltenes, schweres Metall. Sein Atomkern hat eine besondere Eigenschaft, die man mit Laserlicht nutzen kann."
-        },
-        {
-          "term": "Atomkern",
-          "text": "Der Atomkern ist der winzige Kern in der Mitte eines Atoms. Er ist viel kleiner als das ganze Atom."
-        }
-      ],
-      "guess": {
-        "question": "Um wie viel ist ein Atomkern kleiner als das ganze Atom?",
-        "options": [
-          "etwa 10-mal",
-          "etwa 100-mal",
-          "über 10.000-mal"
-        ],
-        "answer": 2,
-        "reveal": "Atomkerne sind mehr als 10.000-mal kleiner als Atome und darum kaum von Störungen von außen betroffen.",
-        "icon": "atom"
-      },
-      "image": {
-        "url": "https://www.sciencedaily.com/images/1920/nuclear-clock-concept.webp",
-        "credit": "ScienceDaily",
-        "source": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-04",
-      "ressort": "architektur",
-      "kicker": "Shenzhen",
-      "headline": "Naturkundemuseum in Shenzhen wirkt wie ein Flussufer",
-      "teaser": "Am Yanzi-See ist ein Museum eröffnet, dessen Mauern sich wie ein Fluss winden. Auf dem Dach liegt ein Park, den alle betreten dürfen.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "105.300",
-          "unit": "Quadratmeter",
-          "caption": "Fläche hat das Museum. Es ist das größte Naturkundemuseum in Südchina.",
-          "icon": "building.columns.fill"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Die Mauern bestehen aus Granitlamellen aus Shandong",
-            "Die Galerien liegen in fünf großen Kegeln",
-            "Das Dach ist ein Park mit fünf Gartenzonen"
-          ],
-          "icons": [
-            "mountain.2.fill",
-            "building.2.fill",
-            "tree.fill"
-          ]
-        },
-        {
-          "type": "map",
-          "place": "Yanzi-See, Bezirk Pingshan, Shenzhen",
-          "latitude": 22.69,
-          "longitude": 114.35,
-          "caption": "Das Museum steht neben dem Yanzi-See und einem Feuchtgebietspark."
-        }
-      ],
-      "whyGood": "Das Museum öffnet sich zur Natur. Das Dach ist ein kostenloser Park, und der Haupteingang verbindet die Straße mit dem Park dahinter.",
+      "whyGood": "Alexander Zverev kämpfte sich nach einer schweren Verletzung zurück. Jetzt schließt er als erster Deutscher ein Jahr an der Spitze ab.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Yanko Design",
-          "url": "https://www.yankodesign.com/2026/10/11/the-shenzhen-natural-history-museum-looks-like-it-was-carved-by-water-instead-of-architects/?utm_source=rss&utm_medium=rss&utm_campaign=the-shenzhen-natural-history-museum-looks-like-it-was-carved-by-water-instead-of-architects",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "CN",
-      "terms": [],
-      "guess": {
-        "question": "Wie groß ist die Fläche dieses Museums?",
-        "options": [
-          "Etwa 10.500 Quadratmeter",
-          "Etwa 105.300 Quadratmeter",
-          "Etwa 1,05 Millionen Quadratmeter"
-        ],
-        "answer": 1,
-        "reveal": "Das Museum hat rund 105.300 Quadratmeter Fläche und ist damit das größte Naturkundemuseum Südchinas.",
-        "icon": "building.columns.fill"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://www.yankodesign.com/images/design_news/2026/10/653289/shenzhen_natural_history_museum_1.jpg",
-        "credit": "Yanko Design",
-        "source": "https://www.yankodesign.com/2026/10/11/the-shenzhen-natural-history-museum-looks-like-it-was-carved-by-water-instead-of-architects/?utm_source=rss&utm_medium=rss&utm_campaign=the-shenzhen-natural-history-museum-looks-like-it-was-carved-by-water-instead-of-architects",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-05",
-      "ressort": "zukunft",
-      "kicker": "Baustoffe",
-      "headline": "Aus Industrieabfall wird klimafreundlicherer Zement",
-      "teaser": "Forschende machen Rotschlamm und Baggersedimente zu Zementzusatz. So braucht man weniger Klinker, und die Festigkeit bleibt gut.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "800",
-          "unit": "Grad Celsius",
-          "caption": "heiß werden die Reststoffe eine Stunde lang erhitzt, damit sie reaktiver werden.",
-          "icon": "flame.fill"
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/tennis/zverev-wird-weltranglistenerster,zverevs-weg-weltrangliste-platz-eins-100.html",
+          "language": "Deutsch"
         },
         {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Rotschlamm entsteht bei der Aluminiumproduktion",
-            "Einige Mischungen waren so fest wie Portlandzement",
-            "Berechnet: 25 bis 50 Prozent weniger Treibhausgase"
-          ],
-          "icons": [
-            "flask.fill",
-            "building.2.fill",
-            "leaf.fill"
-          ]
-        }
-      ],
-      "whyGood": "Zwei schwer zu entsorgende Abfälle werden nützlich. Zugleich braucht Zement weniger Klinker.",
-      "honestNote": "Bisher sind es Laborversuche und Berechnungen, ein fertiges Produktionsverfahren gibt es noch nicht.",
-      "sources": [
-        {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/technik/industrieabfaelle-koennen-schluesselzutat-fuer-co%e2%82%82-armen-zement-sein/",
+          "name": "DW",
+          "url": "https://www.dw.com/de/alexander-zverev-neue-nummer-eins-der-tennis-weltrangliste/a-79642250?maca=de-rss-de-all-1119-xml-mrss",
           "language": "Deutsch"
         }
       ],
-      "score": 6,
-      "country": null,
-      "terms": [
-        {
-          "term": "Klinker",
-          "text": "Klinker ist der Hauptbestandteil von Zement. Er wird bei sehr hoher Hitze gebrannt und macht Zement fest."
-        },
-        {
-          "term": "Rotschlamm",
-          "text": "Rotschlamm ist ein roter Reststoff, der bei der Herstellung von Aluminium übrig bleibt."
-        }
-      ],
+      "score": 7,
+      "country": "DE",
+      "terms": [],
       "guess": {
-        "question": "Wie heiß werden die Reststoffe erhitzt, damit sie für Zement taugen?",
+        "question": "Wie lange war Boris Becker insgesamt die Nummer eins der Tennis-Weltrangliste?",
         "options": [
-          "etwa 80 Grad",
-          "etwa 800 Grad",
-          "etwa 1800 Grad"
+          "3 Wochen",
+          "11 Wochen",
+          "40 Wochen"
         ],
         "answer": 1,
-        "reveal": "Eine Stunde bei 800 Grad Celsius macht Rotschlamm und Sedimente reaktiver.",
-        "icon": "building.2.fill"
+        "reveal": "Boris Becker führte die Weltrangliste insgesamt elf Wochen lang an.",
+        "icon": "trophy.fill"
       },
       "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Exshaw_Cement_Plant.jpg/1280px-Exshaw_Cement_Plant.jpg",
-        "credit": "The Cosmonaut, CC BY-SA 2.5 ca, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Exshaw_Cement_Plant.jpg",
-        "kind": "symbol"
+        "url": "https://images.sportschau.de/image/1abd2b95-b883-4128-bb7d-e32add4a1fb0/AAABoTAbx9w/AAABnSSvrFg/16x9-big/zverev-1678.jpg?width=1280",
+        "credit": "Sportschau",
+        "source": "https://www.sportschau.de/tennis/zverev-wird-weltranglistenerster,zverevs-weg-weltrangliste-platz-eins-100.html",
+        "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-06",
-      "ressort": "autos",
-      "kicker": "Citroën",
-      "headline": "Citroën zeigt den 2CV als kleines Elektroauto",
-      "teaser": "Der Klassiker „Deux Chevaux“ kehrt zurück. Die elektrische Studie soll 2028 auf die Straße kommen.",
+      "id": "2026-10-13-05",
+      "ressort": "zukunft",
+      "kicker": "Australien",
+      "headline": "Australien deckt Strombedarf zu vier Fünfteln mit Sonne und Wind",
+      "teaser": "Auf dem großen Strommarkt im Osten kamen 80,4 Prozent des Stroms aus Sonne und Wind. Dachanlagen allein trugen zeitweise mehr als die Hälfte.",
       "blocks": [
         {
           "type": "bigNumber",
-          "value": "15.000",
-          "unit": "Euro",
-          "caption": "soll der neue 2CV zum Start kosten, ein Preis für viele Familien.",
-          "icon": "eurosign.circle.fill"
+          "value": "4,3",
+          "unit": "Mio. Haushalte",
+          "caption": "in Australien haben inzwischen Solarzellen auf dem Dach",
+          "icon": "sun.max.fill"
+        },
+        {
+          "type": "comparison",
+          "title": "Anteil von Sonne und Wind am Strom",
+          "before": {
+            "label": "Jahresschnitt bis Juni",
+            "value": 44,
+            "display": "44 %"
+          },
+          "after": {
+            "label": "Rekord am Samstag",
+            "value": 80.4,
+            "display": "80,4 %"
+          }
+        }
+      ],
+      "whyGood": "Sonne und Wind können ein ganzes Stromnetz zeitweise fast allein versorgen. Der Energieforscher Dylan McConnell erwartet, dass der Rekord schon bald wieder fällt.",
+      "honestNote": "Der Rekord gilt für einen sonnigen Tag, im Jahresschnitt lag der Anteil bei 44 Prozent.",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/10/australia-sets-a-new-renewable-energy-record-with-rooftop-solar-leading-the-way/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "AU",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele australische Haushalte haben Solarzellen auf dem Dach?",
+        "options": [
+          "etwa 430.000",
+          "etwa 4,3 Millionen",
+          "etwa 43 Millionen"
+        ],
+        "answer": 1,
+        "reveal": "Mehr als 4,3 Millionen Haushalte nutzen Dachsolar und liefern mittags über die Hälfte des Stroms.",
+        "icon": "sun.max.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/Depositphotos_9578065_S.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/10/australia-sets-a-new-renewable-energy-record-with-rooftop-solar-leading-the-way/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-06",
+      "ressort": "wissenschaft",
+      "kicker": "Waldforschung",
+      "headline": "Forscherin, die Wäldern zuhört, gewinnt Umweltpreis",
+      "teaser": "Zuzana Burivalova erforscht mit Tonaufnahmen, wie gesund tropische Wälder sind. Dafür wurde sie mit dem Pritzker-Preis 2026 ausgezeichnet.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "100.000",
+          "unit": "US-Dollar",
+          "caption": "Preisgeld bekommt die Forscherin für ihre Arbeit",
+          "icon": "banknote.fill"
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Das Stoffdach lässt sich wie beim Original ganz öffnen.",
-            "Der neue 2CV ist gut 10 Zentimeter kürzer als der alte.",
-            "Die Türtaschen haben Platz für sechs Eier."
+            "Kleine Rekorder nehmen Tiere im Wald rund um die Uhr auf, das ganze Jahr.",
+            "Die Töne zeigen, wie ein Wald heute klingt und wie er sich verändert.",
+            "Burivalova forschte in Papua-Neuguinea, Indonesien, Peru, Madagaskar und Ecuador."
           ],
           "icons": [
-            "car.fill",
+            "antenna.radiowaves.left.and.right",
             "clock.fill",
-            "basket.fill"
+            "globe.asia.australia.fill"
           ]
         }
       ],
-      "whyGood": "Ein kleines, günstiges Elektroauto macht Elektromobilität für mehr Menschen möglich. Und ein beliebter Klassiker bekommt eine neue Zukunft.",
-      "honestNote": "Noch ist es eine Studie, Technik und Reichweite sind offen.",
+      "whyGood": "Wer Wälder abhört, kann Veränderungen früh erkennen und Schutzprojekte besser prüfen. Das Preisgeld soll helfen, mehr Forschende und Gemeinden vor Ort einzubinden.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "Electrek",
-          "url": "https://electrek.co/2026/10/11/the-legendary-citroen-2cv-is-back-as-a-e15k-electric-concept-for-2028/",
-          "language": "Englisch"
-        },
-        {
-          "name": "InsideEVs",
-          "url": "https://insideevs.com/news/811436/citroen-2cv-electric-reborn-concept/",
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/researcher-who-listens-to-forests-wins-2026-pritzker-environmental-genius-award/",
           "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "FR",
+      "country": "US",
       "terms": [
         {
-          "term": "Studie",
-          "text": "Ein Auto, das ein Hersteller vorab zeigt. Es zeigt, was er plant. Das fertige Auto kann sich noch verändern."
+          "term": "Artenvielfalt",
+          "text": "Das ist die Vielfalt der Tiere und Pflanzen an einem Ort. Je mehr verschiedene Arten dort leben, desto größer ist die Artenvielfalt."
         }
       ],
       "guess": {
-        "question": "Wie schwer soll der neue elektrische 2CV etwa werden?",
+        "question": "Wie hoch ist das Preisgeld des Pritzker-Preises für die Gewinnerin?",
         "options": [
-          "Etwa 500 Kilogramm",
-          "Etwa 1.000 Kilogramm",
-          "Etwa 1.800 Kilogramm"
+          "1.000 US-Dollar",
+          "10.000 US-Dollar",
+          "100.000 US-Dollar"
         ],
-        "answer": 1,
-        "reveal": "Citroën peilt etwa 1.000 Kilogramm an. Das ist leicht für ein E-Auto und für jedes andere Auto.",
-        "icon": "car.fill"
+        "answer": 2,
+        "reveal": "Die Gewinnerin erhält 100.000 US-Dollar. Die beiden Finalistinnen bekamen je 15.000 US-Dollar.",
+        "icon": "trophy.fill"
       },
       "image": {
-        "url": "https://electrek.co/wp-content/uploads/sites/3/2026/10/cl26-021-302-format-16-9_31bdd1.jpg?quality=82&strip=all&resize=1200,628",
-        "credit": "Electrek",
-        "source": "https://electrek.co/2026/10/11/the-legendary-citroen-2cv-is-back-as-a-e15k-electric-concept-for-2028/",
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/12/03001203/zuzana-burivalova-in-Bavaria.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/researcher-who-listens-to-forests-wins-2026-pritzker-environmental-genius-award/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-07",
-      "ressort": "wirtschaft",
-      "kicker": "Rimini",
-      "headline": "Alte Vespas fahren wieder: mit Elektromotor statt Zweitakter",
-      "teaser": "Italiens Städte sperren alte Roller aus. Ein Start-up baut sie zu E-Rollern um. Karosserie und Charme bleiben erhalten.",
+      "id": "2026-10-13-07",
+      "ressort": "gesundheit",
+      "kicker": "Medizin",
+      "headline": "Herzzellen liefern Strom für künftige Implantate",
+      "teaser": "US-Forscher haben ein feines Gitter entwickelt, das mit Herzzellen verwächst. Jeder Herzschlag erzeugt darin Strom. Das könnte Batteriewechsel überflüssig machen.",
       "blocks": [
         {
           "type": "bigNumber",
-          "value": "85",
-          "unit": "Kilometer",
-          "caption": "schafft die umgebaute Vespa mit einer Akkuladung",
+          "value": "10",
+          "unit": "Mikrowatt",
+          "caption": "pro Kubikzentimeter liefert das Gewebe. Ein Herzschrittmacher braucht etwa ein bis zehn Mikrowatt.",
           "icon": "bolt.fill"
         },
         {
+          "type": "comparison",
+          "title": "Spannung im Vergleich",
+          "before": {
+            "label": "Herzzellen-Netz",
+            "value": 750,
+            "display": "750 Millivolt"
+          },
+          "after": {
+            "label": "AA-Batterie",
+            "value": 1500,
+            "display": "1.500 Millivolt"
+          }
+        },
+        {
           "type": "facts",
           "title": null,
           "items": [
-            "Der alte Motor wird gegen einen Elektromotor getauscht",
-            "Das Kit ist in Italien geprüft und hat eine TÜV-Zulassung",
-            "Laden an der Haushaltssteckdose, etwa vier Stunden"
+            "Das Gitter wächst mit Herzzellen aus dem Labor zusammen.",
+            "Jeder Herzschlag verbiegt das Netz. Der piezoelektrische Effekt macht daraus Strom.",
+            "Entwickelt an der University of Massachusetts Amherst in den USA."
           ],
           "icons": [
-            "gearshape.fill",
-            "hand.thumbsup.fill",
-            "bolt.fill"
+            "heart.fill",
+            "bolt.fill",
+            "graduationcap.fill"
           ]
-        },
-        {
-          "type": "map",
-          "place": "Rimini, Italien",
-          "latitude": 44.06,
-          "longitude": 12.57,
-          "caption": "Hier sitzt das Start-up Retrokit."
         }
       ],
-      "whyGood": "Geliebte Roller müssen nicht in der Garage stehen oder verschrottet werden. Sie fahren leise und ohne Abgase weiter, und Erinnerungen bleiben erhalten.",
-      "honestNote": null,
+      "whyGood": "Wer ein Implantat trägt, muss heute für den Batteriewechsel erneut operiert werden. Ein Gewebe, das selbst Strom macht, könnte solche Eingriffe künftig ersparen.",
+      "honestNote": "Bisher wurde das System nur im Labor an Zellen getestet.",
       "sources": [
         {
-          "name": "tagesschau Wirtschaft",
-          "url": "https://www.tagesschau.de/wirtschaft/energie/vespa-e-roller-100.html",
+          "name": "SPIEGEL Wissenschaft",
+          "url": "https://www.spiegel.de/wissenschaft/technik/herzschrittmacher-biohybrides-system-soll-energie-aus-menschlichen-koerperzellen-gewinnen-a-32cd259b-4ffa-4eff-876c-828ba223b794#ref=rss",
+          "language": "Deutsch"
+        },
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/herzschrittmacher-strom-aus-herzzellen-bio-netz-1767769/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
           "language": "Deutsch"
         }
       ],
       "score": 6,
-      "country": "IT",
+      "country": "US",
       "terms": [
         {
-          "term": "Zweitakter",
-          "text": "Ein Zweitakter ist ein Motor älterer Bauart. Er ist laut und stößt viele Schadstoffe aus."
+          "term": "piezoelektrische Effekt",
+          "text": "Manche Materialien erzeugen Strom, wenn man sie biegt oder drückt. Das nennt man den piezoelektrischen Effekt."
         }
       ],
       "guess": {
-        "question": "Wie weit kommt eine umgebaute Vespa mit einer Akkuladung?",
+        "question": "Wie viel Spannung erzeugt das Herzzellen-Netz im besten Fall?",
         "options": [
-          "Etwa 25 Kilometer",
-          "Etwa 85 Kilometer",
-          "Etwa 250 Kilometer"
+          "7 Millivolt",
+          "750 Millivolt",
+          "7,5 Volt"
         ],
         "answer": 1,
-        "reveal": "Rund 85 Kilometer schafft die Vespa nach vier Stunden Laden an der Steckdose.",
-        "icon": "bolt.fill"
+        "reveal": "Bis zu 750 Millivolt, die Hälfte der Spannung einer AA-Batterie mit 1,5 Volt.",
+        "icon": "heart.fill"
       },
-      "image": {
-        "url": "https://images.tagesschau.de/image/30f7457c-3b96-485b-b92a-980174a24fb6/AAABoRDP92U/AAABnSSvrFg/16x9-big/retrokit-mitarbeiter-100.jpg?width=1280",
-        "credit": "tagesschau Wirtschaft",
-        "source": "https://www.tagesschau.de/wirtschaft/energie/vespa-e-roller-100.html",
-        "kind": "source"
-      }
+      "image": null
     },
     {
-      "id": "2026-10-12-08",
-      "ressort": "sport",
-      "kicker": "Peking",
-      "headline": "Zheng Qinwen gewinnt als erste Chinesin die China Open",
-      "teaser": "In Peking schlägt Zheng Qinwen im Finale Mirra Andreeva. Vor ihr hat das noch keine Chinesin geschafft.",
+      "id": "2026-10-13-08",
+      "ressort": "architektur",
+      "kicker": "Victoria",
+      "headline": "Neues Besucherzentrum an den Twelve Apostles in Australien",
+      "teaser": "Am berühmten Küstenfelsen in Australien steht jetzt ein neues Besucherzentrum. Das Büro Grimshaw hat es gebaut, die Landschaft gestaltete Aspect Studios.",
       "blocks": [
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Zheng Qinwen gewinnt das Tennisturnier in Peking.",
-            "Im Finale schlägt sie Mirra Andreeva in zwei Sätzen.",
-            "Sie ist die erste Chinesin mit diesem Titel."
+            "Das Büro Grimshaw hat das Besucherzentrum gebaut.",
+            "Aspect Studios hat die Landschaft rund um das Gebäude gestaltet.",
+            "Es liegt oben im Port Campbell National Park in Victoria."
           ],
           "icons": [
-            "trophy.fill",
-            "tennisball.fill",
-            "star.fill"
+            "building.2.fill",
+            "leaf.fill",
+            "mappin"
           ]
         },
         {
           "type": "map",
-          "place": "Peking, China",
-          "latitude": 39.9,
-          "longitude": 116.4,
-          "caption": "Hier fand das Finale der China Open statt."
-        }
-      ],
-      "whyGood": "Ein Turnier im eigenen Land zu gewinnen, hat vor Zheng Qinwen keine Chinesin geschafft. Der Sieg zeigt vielen jungen Spielerinnen, was möglich ist.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/tennis/videos/cje36023xr42o?at_medium=RSS&at_campaign=rss",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "CN",
-      "terms": [],
-      "guess": {
-        "question": "In wie vielen Sätzen entschied Zheng das Finale gegen Andreeva?",
-        "options": [
-          "In zwei Sätzen",
-          "In drei Sätzen",
-          "In vier Sätzen"
-        ],
-        "answer": 0,
-        "reveal": "Zheng gewann glatt in zwei Sätzen und musste nicht in den dritten.",
-        "icon": "tennisball.fill"
-      },
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/02b8/live/e7da37b0-c5b0-11f1-9a39-31b474234113.jpg",
-        "credit": "BBC Sport",
-        "source": "https://www.bbc.co.uk/sport/tennis/videos/cje36023xr42o?at_medium=RSS&at_campaign=rss",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-09",
-      "ressort": "design",
-      "kicker": "Reitsport",
-      "headline": "Sattel aus dem 3D-Drucker passt sich dem Pferd von Anfang an an",
-      "teaser": "Die Designerin Hallie Eskey hat einen Springsattel entworfen, der nach dem Körper des einzelnen Pferdes geformt wird. Nicht das Pferd muss sich anpassen.",
-      "blocks": [
-        {
-          "type": "steps",
-          "title": "So entsteht der Sattel",
-          "items": [
-            "Ein LiDAR-Scan erfasst den Rücken des Pferdes digital.",
-            "Eine Software formt daraus eine Gitterstruktur genau nach seinen Rundungen.",
-            "Der Sattel wird gedruckt. Die Carbonfaser ist leicht und fängt Stöße ab."
-          ],
-          "icons": [
-            "camera.fill",
-            "cpu",
-            "gearshape.fill"
-          ]
-        },
-        {
-          "type": "bigNumber",
-          "value": "20",
-          "unit": "Wochen",
-          "caption": "dauerte die Entwicklung mit Prototypen, Tests und Gesprächen mit Reitprofis",
-          "icon": "calendar"
-        }
-      ],
-      "whyGood": "Ein Sattel, der von Beginn an zum Pferd passt, kann Druck und Schmerzen vermeiden. Weil er genietet statt geklebt ist, lässt er sich außerdem reparieren und Teile lassen sich ersetzen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Yanko Design",
-          "url": "https://www.yankodesign.com/2026/10/11/this-3d-printed-saddle-is-designed-around-the-horse-not-adjusted-to-it/?utm_source=rss&utm_medium=rss&utm_campaign=this-3d-printed-saddle-is-designed-around-the-horse-not-adjusted-to-it",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": null,
-      "terms": [
-        {
-          "term": "LiDAR",
-          "text": "Ein Gerät, das mit Laserlicht misst, wie weit etwas entfernt ist. So entsteht ein genaues dreidimensionales Bild eines Gegenstands."
-        },
-        {
-          "term": "Carbonfaser",
-          "text": "Ein Material aus sehr dünnen Kohlenstofffäden. Es ist leicht und trotzdem stabil."
-        }
-      ],
-      "guess": {
-        "question": "Wie lange dauerte es, den Sattel zu entwickeln?",
-        "options": [
-          "Etwa 2 Wochen",
-          "Etwa 20 Wochen",
-          "Etwa 2 Jahre"
-        ],
-        "answer": 1,
-        "reveal": "Die Entwicklung dauerte 20 Wochen, mit zwei Prototypen in voller Größe.",
-        "icon": "calendar"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://www.yankodesign.com/images/design_news/2026/10/this-3d-printed-saddle-is-designed-around-the-horse-not-adjusted-to-it/Catalyst_saddle_product_01.jpg",
-        "credit": "Yanko Design",
-        "source": "https://www.yankodesign.com/2026/10/11/this-3d-printed-saddle-is-designed-around-the-horse-not-adjusted-to-it/?utm_source=rss&utm_medium=rss&utm_campaign=this-3d-printed-saddle-is-designed-around-the-horse-not-adjusted-to-it",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-10",
-      "ressort": "kultur",
-      "kicker": "Athen",
-      "headline": "Schwimmende Porzellanschalen machen Wasser zu Musik",
-      "teaser": "Der französische Künstler Céleste Boursier-Mougenot zeigt sein Werk „clinamen“ erstmals unter freiem Himmel. Der Ort ist ein historisches Theater.",
-      "blocks": [
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Weiße Porzellanschalen treiben über tiefblaue Becken.",
-            "Wenn sie sich berühren, klingen sie leise.",
-            "Wind, Sonne, Regen und Stadtgeräusche gehören zum Klang."
-          ],
-          "icons": [
-            "water.waves",
-            "music.note",
-            "cloud.fill"
-          ]
-        },
-        {
-          "type": "map",
-          "place": "Onassis Mandra, Athen",
-          "latitude": 37.9707,
-          "longitude": 23.7279,
-          "caption": "Das Freilufttheater liegt an der Dionysiou Areopagitou im Viertel Plaka."
+          "place": "Twelve Apostles, Port Campbell National Park",
+          "latitude": -38.6624,
+          "longitude": 143.1048,
+          "caption": "Hier an der Küste von Victoria steht das neue Besucherzentrum."
         },
         {
           "type": "background",
-          "title": "Ein Ort aus der Belle Époque",
-          "text": "Das Onassis Mandra stammt aus der Belle Époque von 1871 bis 1914. Es ist das einzige erhaltene Freilufttheater Athens aus dieser Zeit."
+          "title": "Stampflehm",
+          "text": "Der Titel nennt Stampflehm als Baustoff. Dabei wird Erde in Schichten fest verdichtet, bis feste Wände entstehen. Der Baustoff braucht wenig Energie und sieht aus wie die Landschaft."
         }
       ],
-      "whyGood": "Alltägliche Schalen werden zu einem Instrument, das jeden Moment anders klingt. Die Kunst lädt Besucher ein, langsamer zu werden und zuzuhören.",
+      "whyGood": "Eines der meistbesuchten Naturziele Australiens bekommt ein Gebäude, das zur Landschaft passt. So können viele Menschen die Küste erleben.",
       "honestNote": null,
       "sources": [
         {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/celeste-boursier-mougenot-clinamen-athens/?adt_ei={{ subscriber.email_address }}",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "GR",
-      "terms": [
-        {
-          "term": "Installation",
-          "text": "Eine Installation ist ein Kunstwerk, das einen ganzen Raum füllt. Man kann hineingehen und es von allen Seiten erleben."
-        }
-      ],
-      "guess": {
-        "question": "Aus welcher Epoche stammt das Athener Freilufttheater, in dem die Schalen treiben?",
-        "options": [
-          "Aus der Antike",
-          "Aus der Belle Époque",
-          "Aus den 1960er Jahren"
-        ],
-        "answer": 1,
-        "reveal": "Das Onassis Mandra stammt aus der Belle Époque und ist das einzige erhaltene Freilufttheater Athens aus dieser Zeit.",
-        "icon": "building.columns.fill"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/09/celeste-boursier-mougenot-clinamen-athens-fb-1.jpg",
-        "credit": "My Modern Met",
-        "source": "https://mymodernmet.com/celeste-boursier-mougenot-clinamen-athens/?adt_ei={{ subscriber.email_address }}",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-11",
-      "ressort": "fotografie",
-      "kicker": "Narromine",
-      "headline": "Narromine wird für ein Wochenende zu „Dollymine“",
-      "teaser": "Eine Kleinstadt im australischen Outback färbt sich rosa. Fans, Drag Queens und Familien feiern gemeinsam Dolly Parton.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "1.600",
-          "unit": "Karten",
-          "caption": "wurden verkauft, so viele wie nie. Das ist knapp die Hälfte der Einwohnerzahl von Narromine",
-          "icon": "party.popper.fill"
-        },
-        {
-          "type": "map",
-          "place": "Narromine, New South Wales",
-          "latitude": -32.23,
-          "longitude": 148.24,
-          "caption": "430 Kilometer nordwestlich von Sydney, 15.000 Kilometer von Dollys Heimat Tennessee entfernt"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Die Idee entstand nach einer schweren Dürre von 2017 bis 2019",
-            "Die Hauptstraße ist voller Rosa, Strass und Schmetterlinge",
-            "Kinder, Linedancer und Drag Queens treten gemeinsam auf"
-          ],
-          "icons": [
-            "heart.fill",
-            "sparkles",
-            "person.3.fill"
-          ]
-        }
-      ],
-      "whyGood": "Eine kleine Stadt zeigt, wie ein gemeinsames Fest Menschen zusammenbringt. Alle sind willkommen, und niemand wird beurteilt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Guardian Photography",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/12/dollywood-down-under-dolly-parton-super-fans-and-drag-queens-turn-a-tiny-australian-town-pink-narromine",
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/12/grimshaw-visitor-centre-twelve-apostles-australia/",
           "language": "Englisch"
         }
       ],
@@ -784,188 +513,405 @@
       "country": "AU",
       "terms": [
         {
-          "term": "Drag Queens",
-          "text": "Drag Queens sind Künstler, die sich prächtig als Frauen verkleiden und auf der Bühne auftreten. Sie machen das als Show und zum Spaß."
+          "term": "Stampflehm",
+          "text": "Dabei wird feuchte Erde in Schichten fest zusammengepresst. So entstehen Wände aus Erde, ganz ohne Ziegel."
         }
       ],
       "guess": {
-        "question": "Wie viele Karten wurden für das Dolly-Festival in der Kleinstadt verkauft?",
+        "question": "Wie heißt das Bauverfahren, bei dem Erde in Schichten fest zu Wänden gepresst wird?",
         "options": [
-          "Rund 160",
-          "Rund 1.600",
-          "Rund 16.000"
+          "Stampflehm",
+          "Spritzbeton",
+          "Schaumziegel"
         ],
-        "answer": 1,
-        "reveal": "Es waren 1.600 Karten, ein Rekord und knapp halb so viele, wie Narromine Einwohner hat.",
-        "icon": null
+        "answer": 0,
+        "reveal": "Beim Stampflehm wird Erde in Schichten verdichtet, so entstehen feste Wände.",
+        "icon": "building.2.fill"
       },
       "gallery": true,
       "image": {
-        "url": "https://i.guim.co.uk/img/media/f86c3975346a42265acebd10ad327caf1da37ff6/734_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f676be9de1f6016f8bd840c27601cd1a",
-        "credit": "Guardian Photography",
-        "source": "https://www.theguardian.com/australia-news/2026/oct/12/dollywood-down-under-dolly-parton-super-fans-and-drag-queens-turn-a-tiny-australian-town-pink-narromine",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Princetown_%28AU%29%2C_Port_Campbell_National_Park%2C_Twelve_Apostles_--_2019_--_0930.jpg/1280px-Princetown_%28AU%29%2C_Port_Campbell_National_Park%2C_Twelve_Apostles_--_2019_--_0930.jpg",
+        "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Princetown_(AU),_Port_Campbell_National_Park,_Twelve_Apostles_--_2019_--_0930.jpg",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-10-13-09",
+      "ressort": "promis",
+      "kicker": "Kanada",
+      "headline": "Michael J. Fox erhält Kanadas höchste zivile Auszeichnung",
+      "teaser": "Der Schauspieler wird für seinen Einsatz für Menschen mit Parkinson geehrt. Er wurde im Order of Canada befördert.",
+      "blocks": [
+        {
+          "type": "timeline",
+          "title": "Sein Weg",
+          "items": [
+            {
+              "year": "1991",
+              "text": "Fox erhält die Diagnose Parkinson, mit 29 Jahren."
+            },
+            {
+              "year": "1998",
+              "text": "Er macht die Krankheit öffentlich."
+            },
+            {
+              "year": "2000",
+              "text": "Er gründet seine Stiftung für Parkinson-Forschung."
+            },
+            {
+              "year": "2010",
+              "text": "Er wird Officer des Order of Canada."
+            }
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Der Order of Canada",
+          "text": "Der Order of Canada hat drei Stufen. Companion ist die höchste. Sie ehrt Menschen, deren Leistung und Einsatz außergewöhnlich viel bewirkt haben. Fox bekam sie bei einer Feier in Ottawa."
+        }
+      ],
+      "whyGood": "Ein Mensch macht aus seiner Krankheit Hilfe für andere. Seine Stiftung ist heute der größte gemeinnützige Geldgeber für Parkinson-Forschung weltweit.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/michael-j-fox-canada-award/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "CA",
+      "terms": [
+        {
+          "term": "Parkinson",
+          "text": "Eine Krankheit des Nervensystems. Sie macht es mit der Zeit schwerer, den Körper zu bewegen."
+        }
+      ],
+      "guess": {
+        "question": "Wie alt war Michael J. Fox bei seiner Parkinson-Diagnose?",
+        "options": [
+          "19 Jahre",
+          "29 Jahre",
+          "49 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Fox war 1991 erst 29 Jahre alt. Öffentlich machte er die Krankheit 1998.",
+        "icon": "heart.fill"
+      },
+      "image": {
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/michael-j-fox-canada-award-fb.png",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/michael-j-fox-canada-award/?adt_ei={{ subscriber.email_address }}",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-12",
-      "ressort": "promis",
-      "kicker": "Schlager",
-      "headline": "Schlagerstar Freddy Quinn kehrt auf die Bühne zurück",
-      "teaser": "Nach langer Pause plant der Sänger ein Comeback. Er möchte einem kleinen Zirkus helfen.",
+      "id": "2026-10-13-10",
+      "ressort": "fotografie",
+      "kicker": "Siena",
+      "headline": "Siena Awards 2026: Die Gewinnerfotos stehen fest",
+      "teaser": "Ein Vulkanausbruch in Island, Flamingos über dem Salzwasser und junge Schneeleoparden im Versteck: Die Siegerbilder sind jetzt in Siena zu sehen.",
       "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "95",
-          "unit": "Jahre",
-          "caption": "alt ist Freddy Quinn und geht trotzdem wieder auf die Bühne",
-          "icon": "music.note"
-        },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Freddy Quinn ist ein bekannter Schlagersänger.",
-            "Er stand 20 Jahre lang nicht auf der Bühne.",
-            "Bei seinem Comeback will er einem kleinen Zirkus helfen."
+            "Drohnenfoto: zwei junge Schneeleoparden verstecken sich am Berg",
+            "Naturfoto: ein Vulkanausbruch in Island von Marco Di Marco",
+            "Kreativfoto: Tausende Flamingos steigen über Salzwasser auf"
           ],
           "icons": [
-            "star.fill",
-            "calendar",
-            "heart.fill"
+            "pawprint.fill",
+            "flame.fill",
+            "bird.fill"
           ]
+        },
+        {
+          "type": "map",
+          "place": "Siena, Italien",
+          "latitude": 43.318,
+          "longitude": 11.331,
+          "caption": "Die Siegerbilder hängen bis zum 29. November in der Stadt und der Umgebung."
         }
       ],
-      "whyGood": "Auch nach vielen Jahren Pause ist es nie zu spät für einen neuen Auftritt. Und er setzt sich dabei für einen kleinen Zirkus ein.",
+      "whyGood": "Die Bilder zeigen die Welt von ihrer schönsten Seite, von scheuen Tieren bis zu Naturgewalten. Wer in Siena ist, kann sie in Ausstellungen selbst ansehen.",
       "honestNote": null,
       "sources": [
         {
-          "name": "stern Lifestyle",
-          "url": "https://www.stern.de/lifestyle/leute/freddy-quinn-comeback--mit-95-jahren-kehrt-er-zurueck-auf-die-buehne-38380918.html",
-          "language": "Deutsch"
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/12/hidden-snow-leopard-cubs-among-winners-of-international-photography-awards/",
+          "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "DE",
+      "country": "IT",
       "terms": [],
       "guess": {
-        "question": "Wie lange stand Freddy Quinn vor seinem Comeback nicht mehr auf der Bühne?",
+        "question": "Wie viele internationale Fotowettbewerbe gehören zum Siena Awards Photo Festival?",
         "options": [
-          "Etwa 5 Jahre",
-          "Etwa 12 Jahre",
-          "Etwa 20 Jahre"
+          "3",
+          "9",
+          "30"
         ],
-        "answer": 2,
-        "reveal": "Die Bühnenpause dauerte rund 20 Jahre.",
-        "icon": "music.note"
+        "answer": 0,
+        "reveal": "Es sind drei: die Siena International Photo Awards, die Creative Photo Awards und die Drone Photo Awards.",
+        "icon": "camera.fill"
       },
+      "gallery": true,
       "image": {
-        "url": "https://image.stern.de/38380922/t/CH/v4/w1440/r1.7778/-/11--freddy-quinn-mit-95-jahren-zurueck-auf-die-buehne---16-9---spoton-article-1163275.jpg",
-        "credit": "stern Lifestyle",
-        "source": "https://www.stern.de/lifestyle/leute/freddy-quinn-comeback--mit-95-jahren-kehrt-er-zurueck-auf-die-buehne-38380918.html",
+        "url": "https://petapixel.com/assets/uploads/2026/10/Siena-Photo-Awards-2026.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/10/12/hidden-snow-leopard-cubs-among-winners-of-international-photography-awards/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k01",
-      "ressort": "lifestyle",
-      "kicker": "München, Venedig",
-      "headline": "Catherine läuft 550 Kilometer von München nach Venedig",
-      "teaser": "Catherine ist 44 und Designerin. Nach Jahren mit Depressionen und Ängsten fand sie durch Bewegung zurück zu Kraft. Erst lief sie 170 Kilometer über die Alpen. Dann ging sie allein von München nach Venedig, ein Traum aus Studienzeiten.",
-      "blocks": [],
-      "whyGood": "Catherine zeigt, dass Schritt für Schritt neue Kraft entstehen kann und dass alte Träume wahr werden.",
+      "id": "2026-10-13-11",
+      "ressort": "design",
+      "kicker": "Großbritannien",
+      "headline": "Das älteste Laufteam Großbritanniens steht vor Rankins Kamera",
+      "teaser": "Vier Läuferinnen und Läufer über 75 zeigen in einer neuen Kampagne, wie man ein Leben lang läuft. Der Fotograf Rankin hat sie porträtiert.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 4,
+          "icon": "figure.run",
+          "caption": "Läufer zwischen 75 und 85 bilden das Legacy Team und geben ihr Wissen an Jüngere weiter"
+        },
+        {
+          "type": "bigNumber",
+          "value": "321",
+          "unit": "Jahre",
+          "icon": "calendar",
+          "caption": "alt sind die vier Teammitglieder zusammen"
+        },
+        {
+          "type": "share",
+          "value": 33,
+          "label": "der Aufgebenden nennt Verletzungen",
+          "caption": "Jeder Dritte, der das Laufen aufgegeben hat, hörte wegen einer Verletzung auf."
+        }
+      ],
+      "whyGood": "Die Kampagne zeigt Menschen, die bis ins hohe Alter laufen und dabei Freude haben. Sie macht jungen Menschen Mut, dranzubleiben, und ihr Wissen kommt bald in einem kostenlosen Buch.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Brigitte",
-          "url": "https://www.brigitte.de/liebe/persoenlichkeit/zu-fuss-von-muenchen-nach-venedig---ich-bin-meinen-depressionen-davongelaufen--14110996.html",
-          "language": "Deutsch"
+          "name": "Creative Boom",
+          "url": "https://www.creativeboom.com/news/britains-oldest-running-team-has-a-combined-age-of-321-and-rankin-shot-their-portraits/",
+          "language": "Englisch"
         }
       ],
-      "brief": true,
       "score": 6,
-      "country": "DE",
+      "country": "GB",
       "terms": [],
+      "guess": {
+        "question": "In welchem Alter hören Läufer in Großbritannien im Schnitt auf zu laufen?",
+        "options": [
+          "Mit 29",
+          "Mit 39",
+          "Mit 49"
+        ],
+        "answer": 1,
+        "reveal": "Im Schnitt mit 39 Jahren. Oft sind Verletzungen der Grund.",
+        "icon": "figure.run"
+      },
+      "gallery": true,
       "image": {
-        "url": "https://image.brigitte.de/14110998/t/gB/v2/w1440/r1.7778/-/cathy-bewegt.jpg",
-        "credit": "Brigitte",
-        "source": "https://www.brigitte.de/liebe/persoenlichkeit/zu-fuss-von-muenchen-nach-venedig---ich-bin-meinen-depressionen-davongelaufen--14110996.html",
+        "url": "https://media.creativeboom.com/17f779d4-7c29-4495-954f-3ce9b4d2d988/conversions/a732319876c6de28e0c259151b5d2e81c8a14415-medium.webp",
+        "credit": "Creative Boom",
+        "source": "https://www.creativeboom.com/news/britains-oldest-running-team-has-a-combined-age-of-321-and-rankin-shot-their-portraits/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k02",
-      "ressort": "gesundheit",
-      "kicker": "Abu Dhabi",
-      "headline": "Winziges Implantat per Spritze soll chronische Schmerzen lindern",
-      "teaser": "Forschende der NYU Abu Dhabi und der Cleveland Clinic Abu Dhabi haben ein samenkorngroßes Gerät entwickelt. Es wird per Nadel nahe an einen Nerv gesetzt und beeinflusst ihn mit elektrischen Signalen. Es braucht keine Operation, keine Batterie und keine Kabel.",
-      "blocks": [],
-      "whyGood": "Schmerzpatienten könnten künftig eine einfachere und schonendere Behandlung bekommen, ohne dass dafür eine Operation nötig ist.",
-      "honestNote": "Die Technik wurde bisher nur in frühen Tests erprobt.",
+      "id": "2026-10-13-12",
+      "ressort": "autos",
+      "kicker": "São Paulo",
+      "headline": "Vammo: E-Motorräder mit Akkutausch schreiben schwarze Zahlen",
+      "teaser": "Das brasilianische Unternehmen Vammo ist profitabel, hat über 10.000 aktive Fahrer und geht nun in seine zweite Stadt.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "10",
+          "unit": "Mio. Akkutausche",
+          "caption": "haben Fahrer bisher an rund 1.000 Tauschpunkten in São Paulo gemacht",
+          "icon": "battery.100"
+        },
+        {
+          "type": "share",
+          "value": 65,
+          "label": "Anteil an Brasiliens E-Motorrädern",
+          "caption": "Vammo hält in diesem Jahr mehr als 65 Prozent des Marktes für elektrische Motorräder in Brasilien."
+        },
+        {
+          "type": "background",
+          "title": "Warum Akkutausch bei Motorrädern passt",
+          "text": "Die Akkus sind klein genug, um sie von Hand zu wechseln. Lieferfahrer verlieren keine Stunden beim Laden. Und in dichten Städten lässt sich ein Netz aus Tauschpunkten gut betreiben."
+        }
+      ],
+      "whyGood": "Elektrische Motorräder werden für Lieferfahrer in Brasilien bezahlbar und alltagstauglich. Sie ersetzen Benziner, und Brasilien erzeugt den Großteil seines Stroms aus erneuerbaren Quellen.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261008005253.htm",
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/10/12/this-electric-motorcycle-company-just-hit-10-million-battery-swaps-and-its-profitable/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "BR",
+      "terms": [],
+      "guess": {
+        "question": "Wie viel spart ein typischer Vammo-Fahrer gegenüber einem gebrauchten Benzin-Motorrad?",
+        "options": [
+          "Etwa 5 Prozent",
+          "Etwa 35 Prozent",
+          "Etwa 75 Prozent"
+        ],
+        "answer": 1,
+        "reveal": "Im Schnitt sparen Vammo-Kunden etwa 35 Prozent, vor allem durch geringere Energie- und Wartungskosten.",
+        "icon": "bolt.car.fill"
+      },
+      "image": {
+        "url": "https://electrek.co/wp-content/uploads/sites/3/2026/10/vammo-battery-swap-cabinet-super-soco-scooter.jpg?quality=82&strip=all&resize=1200,628",
+        "credit": "Electrek",
+        "source": "https://electrek.co/2026/10/12/this-electric-motorcycle-company-just-hit-10-million-battery-swaps-and-its-profitable/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-k01",
+      "ressort": "technik",
+      "kicker": "Robotik",
+      "headline": "Altes Handy wird Gehirn eines kleinen Laufroboters",
+      "teaser": "Forschende der University of California, Los Angeles haben PhoneBot gebaut. Der 48,3 Zentimeter große Roboter nutzt ein Smartphone als Torso, Auge und Gehirn. Das spart teure Sensoren und Rechner. Getestet wurde er mit vier Android-Handys, drei davon kosteten nur etwa 50 bis 80 Dollar.",
+      "blocks": [],
+      "whyGood": "Ein altes Handy in der Schublade bekommt ein zweites Leben und macht Robotik für mehr Menschen günstiger zugänglich.",
+      "honestNote": "Die Sprachfunktion läuft noch nicht allein auf dem Handy, sondern über einen Laptop in der Nähe.",
+      "sources": [
+        {
+          "name": "New Atlas",
+          "url": "https://newatlas.com/robotics/ucla-scientists-android-phone-walking-robot-companion/",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "AE",
+      "country": "US",
       "terms": [],
       "image": {
-        "url": "https://www.sciencedaily.com/images/1920/tiny-wireless-device-treats-chronic-pain.webp",
-        "credit": "ScienceDaily",
-        "source": "https://www.sciencedaily.com/releases/2026/10/261008005253.htm",
+        "url": "https://assets.newatlas.com/dims4/default/06ae7bf/2147483647/strip/true/crop/1376x722+0+23/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F0e%2F71%2Fb25311df449aa951e065e299e779%2Fgenerated-image-5.png&na.image_optimisation=0",
+        "credit": "New Atlas",
+        "source": "https://newatlas.com/robotics/ucla-scientists-android-phone-walking-robot-companion/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k03",
+      "id": "2026-10-13-k02",
       "ressort": "natur",
-      "kicker": "Borneo",
-      "headline": "Acht gerettete Orang-Utans zurück in Borneos Wildnis",
-      "teaser": "Auf Borneo wurden acht Orang-Utans in einem Schutzgebiet im Westen der Insel freigelassen. Es sind drei Mütter, ihre drei Töchter und zwei erwachsene Männchen. Indonesische Behörden hatten sie vor den Bränden im August und September gerettet.",
+      "kicker": "Kanada",
+      "headline": "Tla-o-qui-aht pflanzen Kelpwälder in Clayoquot Sound neu",
+      "teaser": "In Clayoquot Sound in British Columbia wachsen wieder Kelpwälder. Die Tla-o-qui-aht First Nation, die Redd Fish Restoration Society und West Coast Kelp betreiben eine Baumschule für junge Algen. Sie pflanzen sie an Stellen, die altes Wissen der Gemeinschaft nennt.",
       "blocks": [],
-      "whyGood": "Die stark bedrohten Menschenaffen leben nach der Rettung wieder frei in der Wildnis.",
-      "honestNote": "Acht Tiere sind erst ein Teil der 46 geretteten Orang-Utans.",
+      "whyGood": "Altes Wissen und neue Methoden helfen zusammen, ein Stück Küstenlebensraum zurückzubringen.",
+      "honestNote": "Bisher ist die neu bepflanzte Fläche mit 4.200 Quadratmetern noch klein.",
       "sources": [
         {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/first-nation-led-effort-replants-kelp-forests-in-clayoquot-sound/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "CA",
+      "terms": [
+        {
+          "term": "Kelp",
+          "text": "Kelp sind große Braunalgen. Sie wachsen im Meer in dichten Beständen und bieten vielen Tieren Lebensraum."
+        }
+      ],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/02164446/Mongabay-Kelp-Photo-3-Teams-working-with-kelp-in-Clayoquot-Sound-photo-credit-Graeme-Owsianski.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/first-nation-led-effort-replants-kelp-forests-in-clayoquot-sound/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-k03",
+      "ressort": "welt",
+      "kicker": "Cincinnati",
+      "headline": "Limonadenstand einer Achtjährigen sammelt 5 Millionen Dollar",
+      "teaser": "Payton Obert bekam als Baby im Krankenhaus einen Teddy geschenkt. Mit acht Jahren startete sie in Ohio einen Limonadenstand für kranke und bedürftige Kinder. Heute sind daraus 5 Millionen Dollar an Spenden und Sachgaben geworden.",
+      "blocks": [],
+      "whyGood": "Aus einem kleinen Dankeschön ist ein Netzwerk geworden, das Tausenden Kindern in Not hilft.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/teens-wish-to-return-kindness-she-received-sees-her-lemonade-stand-become-5-million-charity-engine/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-Patyons-Lemonade-Stand.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/teens-wish-to-return-kindness-she-received-sees-her-lemonade-stand-become-5-million-charity-engine/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-k04",
+      "ressort": "sport",
+      "kicker": "Coventry",
+      "headline": "Coventry gewinnt nach 25 Jahren wieder zu Hause in der Premier League",
+      "teaser": "Coventry City hat Newcastle zu Hause klar besiegt. Es war der erste Heimsieg und das erste Heimtor in der obersten Liga seit 25 Jahren. Tore von Jack Rudoni, Sidiki Cherif, Ellis Simms und Stephen Mfuni hoben das Team von Trainer Frank Lampard aus der Abstiegszone.",
+      "blocks": [],
+      "whyGood": "Die Fans von Coventry feiern nach 25 Jahren Wartezeit wieder einen Heimsieg in der Premier League.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cw78p7l7rp30o?at_medium=RSS&at_campaign=rss",
           "language": "Englisch"
         },
         {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-10-indonesia-orangutans-forest.html",
+          "name": "Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/oct/12/coventry-newcastle-premier-league-match-report",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "ID",
+      "country": "GB",
       "terms": [],
       "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/14aa/live/19e8a2c0-c5cd-11f1-a64c-550be9e3c66b.jpg",
-        "credit": "BBC Science",
-        "source": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d3bb/live/75fce310-c68a-11f1-a387-7d6d38bf2d79.jpg",
+        "credit": "BBC Sport",
+        "source": "https://www.bbc.co.uk/sport/football/articles/cw78p7l7rp30o?at_medium=RSS&at_campaign=rss",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k04",
-      "ressort": "wissenschaft",
-      "kicker": "Urgeschichte",
-      "headline": "Birkenteer: Neandertaler-Kleber wirkte wohl auch gegen Bakterien",
-      "teaser": "Neandertaler nutzten Birkenteer als Kleber für Steinwerkzeuge. Forschende aus Köln, Oxford, Lüttich und Kanada stellten ihn nach alten Methoden nach. Jede Probe hemmte Bakterien, die gefährliche Wundinfektionen auslösen.",
+      "id": "2026-10-13-k05",
+      "ressort": "zukunft",
+      "kicker": "Pforzheim",
+      "headline": "Pforzheim eröffnet Recyclinganlage für seltene Erden",
+      "teaser": "Am Nordrand von Pforzheim hat die Firma HyProMag eine Anlage eröffnet, die seltene Erden recyceln soll. Zur Eröffnung kamen die Firmenchefs und ein Staatssekretär aus Berlin. Das Ziel: mehr Recycling dieser Metalle in Deutschland und Europa.",
       "blocks": [],
-      "whyGood": "Der alte Kleber zeigt, dass Neandertaler wohl klüger mit der Natur umgingen, als man lange dachte.",
-      "honestNote": "Ob Neandertaler Birkenteer wirklich als Medizin nutzten, zeigt die Studie nicht sicher, sie macht es nur plausibel.",
+      "whyGood": "Wenn Magnete für Windräder und Elektroautos wiederverwertet werden, sinkt die Abhängigkeit von Importen.",
+      "honestNote": "Bisher werden in Deutschland erst etwa ein Prozent der seltenen Erden recycelt.",
       "sources": [
         {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261008005256.htm",
-          "language": "Englisch"
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/energiewende-kritische-rohstoffe-aus-recycling/2340265",
+          "language": "Deutsch"
         }
       ],
       "brief": true,
@@ -973,31 +919,31 @@
       "country": "DE",
       "terms": [
         {
-          "term": "Birkenteer",
-          "text": "Eine dicke, klebrige Masse, die beim Erhitzen von Birkenrinde entsteht. Schon Neandertaler stellten sie her."
+          "term": "seltene Erden",
+          "text": "Das sind 17 silbrig schimmernde Metalle. Man braucht sie vor allem für starke Magnete, zum Beispiel in Windkraftanlagen und Elektroautos."
         }
       ],
       "image": {
-        "url": "https://www.sciencedaily.com/images/1920/production-of-birch-tar.webp",
-        "credit": "ScienceDaily",
-        "source": "https://www.sciencedaily.com/releases/2026/10/261008005256.htm",
+        "url": "https://static.spektrum.de/fm/912/f1920x1080/GettyImages-161161978.jpg",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/energiewende-kritische-rohstoffe-aus-recycling/2340265",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k05",
-      "ressort": "architektur",
-      "kicker": "Nantes",
-      "headline": "Altes Stellwerk in Nantes wird zur kleinen Kiosk-Bar",
-      "teaser": "Ein Stellwerk aus den 1960er Jahren hat in Nantes eine neue Aufgabe. Das Studio Téré hat es zur Kiosk-Bar „L'Aiguilleuse“ umgebaut. Sie steht mitten im neuen Park Jardins de l'Estuaire auf der Île de Nantes.",
+      "id": "2026-10-13-k06",
+      "ressort": "wissenschaft",
+      "kicker": "Mars",
+      "headline": "Mars-Wolke über Vulkan Arsia Mons entsteht ganz ohne Staub",
+      "teaser": "Eine bis zu 1.800 Kilometer lange Wolke über dem Mars-Vulkan Arsia Mons gab lange Rätsel auf. Ein Team um Jorge Hernández-Bernal und Franck Forget aus Paris zeigt in „Nature“, wie sie entsteht. Wasserdampf gefriert dort direkt zu Eiskristallen, ohne Staubkörner.",
       "blocks": [],
-      "whyGood": "Ein Stück Eisenbahngeschichte bleibt erhalten und wird zu einem Treffpunkt im neuen Park.",
+      "whyGood": "Das Rätsel um die Wolke ist gelöst, und ein Prozess, der nur als Theorie galt, wurde auf einem anderen Planeten gefunden.",
       "honestNote": null,
       "sources": [
         {
-          "name": "ArchDaily",
-          "url": "https://www.archdaily.com/1186469/laiguilleuse-renovation-of-a-former-railway-signal-box-into-a-kiosk-bar-studio-tere",
-          "language": "Englisch"
+          "name": "t3n",
+          "url": "https://t3n.de/news/mars-wolke-arsia-mons-ohne-staub-1767797/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
         }
       ],
       "brief": true,
@@ -1005,123 +951,58 @@
       "country": "FR",
       "terms": [
         {
-          "term": "Stellwerk",
-          "text": "Ein Stellwerk ist ein Gebäude, von dem aus der Zugverkehr gesteuert wird. Dort werden zum Beispiel Weichen und Signale bedient."
-        }
-      ],
-      "gallery": true,
-      "image": {
-        "url": "https://images.adsttc.com/media/images/6ac6/1386/07c3/d100/017f/dc57/large_jpg/studio-tere-architecte-aiguilleuse-2.jpg?1791366071",
-        "credit": "ArchDaily",
-        "source": "https://www.archdaily.com/1186469/laiguilleuse-renovation-of-a-former-railway-signal-box-into-a-kiosk-bar-studio-tere",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-k06",
-      "ressort": "zukunft",
-      "kicker": "Montreal",
-      "headline": "Aus Plastikmüll und Mondstaub werden Ersatzteile für den Mond",
-      "teaser": "Forscher der Concordia University in Montreal mischen künstlichen Mondstaub mit recyceltem Kunststoff für den 3D-Druck. Aus ausgedienten Bauteilen entsteht so neues Druckmaterial. Das Recycling ließ sich im Labor bis zu dreimal wiederholen, ohne dass das Material messbar schwächer wurde.",
-      "blocks": [],
-      "whyGood": "Müll aus Raumfahrtmissionen wird zum Rohstoff und künftige Mondstationen könnten Ersatzteile selbst herstellen, statt sie teuer von der Erde zu liefern.",
-      "honestNote": "Bisher wurde das Verfahren nur im Labor mit künstlichem Mondstaub getestet.",
-      "sources": [
-        {
-          "name": "t3n",
-          "url": "https://t3n.de/news/recycling-mond-3d-druck-plastikmuell-mondstaub-1767706/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "CA",
-      "terms": [
-        {
-          "term": "Filament",
-          "text": "Ein Filament ist ein dünner Kunststoffstrang. Er dient als Rohmaterial für 3D-Drucker, die damit Objekte Schicht für Schicht aufbauen."
+          "term": "homogene Keimbildung",
+          "text": "Dabei gefriert Wasserdampf direkt zu Eiskristallen, ohne dass Staub oder andere Partikel als Anker nötig sind."
         }
       ],
       "image": {
-        "url": "https://cdn.t3n.de/news/wp-content/uploads/2024/03/mondoberflaeche.jpg?class=content",
+        "url": "https://cdn.t3n.de/news/wp-content/uploads/2026/10/The_Arsia_Mons_Elongated_Cloud_as_seen_by_Mars_Express.jpg?class=content",
         "credit": "t3n",
-        "source": "https://t3n.de/news/recycling-mond-3d-druck-plastikmuell-mondstaub-1767706/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+        "source": "https://t3n.de/news/mars-wolke-arsia-mons-ohne-staub-1767797/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k07",
-      "ressort": "sport",
-      "kicker": "Basketball",
-      "headline": "Kyrie Irving trifft nach 20 Monaten Pause gleich wieder",
-      "teaser": "Kyrie Irving hat nach seinem Kreuzbandriss sein erstes Spiel bestritten. Beim 132:115 der Dallas Mavericks gegen die Houston Rockets in Macau erzielte er 17 Punkte, die meisten seines Teams. Schon den ersten Angriff schloss er mit einem Korbleger ab.",
+      "id": "2026-10-13-k07",
+      "ressort": "architektur",
+      "kicker": "Houston",
+      "headline": "Alte Kaffeerösterei in Houston wird kostenlose Musikschule",
+      "teaser": "Das Büro OMA baut die historische Kaffeefabrik J.A. Folger & Co. aus den 1930er Jahren zur Schule um. Die Frank Liu Jr. Academy for Music and Arts ist eine öffentliche Schule ohne Schulgeld. Gemeinsame Räume für Spiel, Lernen und Konzerte stehen im Mittelpunkt.",
       "blocks": [],
-      "whyGood": "Nach fast 600 Tagen Wartezeit ist ein neunmaliger All-Star zurück auf dem Parkett und spielt, als wäre er nie weg gewesen.",
-      "honestNote": "Es war ein Vorbereitungsspiel, die Saison hat noch nicht begonnen.",
+      "whyGood": "Ein altes Industriegebäude bekommt neues Leben und wird zum Ort, an dem Kinder kostenlos Musik und Kunst erleben.",
+      "honestNote": "Die Schule ist noch im Bau.",
       "sources": [
         {
-          "name": "Guardian Sport",
-          "url": "https://www.theguardian.com/sport/2026/oct/11/kyrie-irving-return-acl-injury-dallas-mavericks-houston-rockets-macau",
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/oma-historic-houston-coffee-plant-music-arts-academy-frank-liu-jr-flama/",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "CN",
-      "terms": [
-        {
-          "term": "Kreuzbandriss",
-          "text": "Das vordere Kreuzband stabilisiert das Kniegelenk. Reißt es, ist meist eine lange Pause nötig, bevor Sportler wieder spielen können."
-        }
-      ],
-      "image": {
-        "url": "https://i.guim.co.uk/img/media/7483619c424e3d10478051a9c187d69e6e529cd0/0_0_6276_5022/master/6276.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=617141639205902260deddf5a913bc14",
-        "credit": "Guardian Sport",
-        "source": "https://www.theguardian.com/sport/2026/oct/11/kyrie-irving-return-acl-injury-dallas-mavericks-houston-rockets-macau",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-k08",
-      "ressort": "kultur",
-      "kicker": "Ägypten",
-      "headline": "Antikes Doppelporträt aus Ägypten strahlt nach Restaurierung neu",
-      "teaser": "Ägypten hat das restaurierte „Tondo der zwei Brüder“ gezeigt. Das Bild stammt aus dem zweiten Jahrhundert. Experten aus Rom und dem Ägyptischen Museum in Kairo haben drei Wochen daran gearbeitet. Die Fayum-Porträts reisen nun erstmals ins Ausland.",
-      "blocks": [],
-      "whyGood": "Ein fast 1.900 Jahre altes Kunstwerk ist gerettet, und die Fayum-Porträts sind bald erstmals im Ausland zu sehen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-10-egypt-fayoum-mummy-portraits.html",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "EG",
+      "country": "US",
       "terms": [],
       "gallery": true,
       "image": {
-        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/egypt-antiquities.jpg",
-        "credit": "Phys.org",
-        "source": "https://phys.org/news/2026-10-egypt-fayoum-mummy-portraits.html",
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/oma-historic-houston-coffee-plant-music-arts-academy-frank-liu-jr-flama-designboom-1200.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/oma-historic-houston-coffee-plant-music-arts-academy-frank-liu-jr-flama/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k09",
-      "ressort": "promis",
-      "kicker": "Johann Lafer",
-      "headline": "Johann Lafer geht es nach Krebserkrankung besser",
-      "teaser": "Der Fernsehkoch Johann Lafer hat in einer TV-Sendung über seine Krebserkrankung gesprochen. Dabei verriet er, dass es ihm besser geht. Das ist eine gute Nachricht für ihn und seine Fans.",
+      "id": "2026-10-13-k08",
+      "ressort": "autos",
+      "kicker": "Deutschland",
+      "headline": "Privatkunden kaufen 171 Prozent mehr neue Elektroautos",
+      "teaser": "Im September 2026 wurden in Deutschland rund 88.600 Elektroautos neu zugelassen, 95 Prozent mehr als im Vorjahr. Mehr als jedes dritte neue Auto fuhr vollelektrisch. Bei Privatkunden stiegen die Zulassungen um 171 Prozent auf 50.418.",
       "blocks": [],
-      "whyGood": "Ein bekannter Koch macht seinen Fans Mut, denn es geht ihm nach der schweren Diagnose wieder besser.",
-      "honestNote": null,
+      "whyGood": "Immer mehr Privathaushalte entscheiden sich für ein Elektroauto, und fast jede zweite private Neuzulassung ist schon ein Stromer.",
+      "honestNote": "Die Analysten sehen das Wachstum des Gesamtmarkts noch auf einem schmalen Fundament.",
       "sources": [
         {
-          "name": "stern Lifestyle",
-          "url": "https://www.stern.de/lifestyle/leute/johann-lafer-spricht-ueber-krebserkrankung---ich-fuehle-mich-besser--38380368.html",
+          "name": "ecomento",
+          "url": "https://feeds.feedblitz.com/~/971273189/0/ecomento_de~EAutoBoom-im-Privatmarkt-Neuzulassungen-steigen-um-Prozent/",
           "language": "Deutsch"
         }
       ],
@@ -1130,296 +1011,253 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://image.stern.de/38380372/t/cA/v1/w1440/r1.7778/-/11--tv-star-geht-es-besser---16-9---spoton-article-1163259.jpg",
-        "credit": "stern Lifestyle",
-        "source": "https://www.stern.de/lifestyle/leute/johann-lafer-spricht-ueber-krebserkrankung---ich-fuehle-mich-besser--38380368.html",
+        "url": "https://ecomento.de/wp-content/uploads/2026/10/Skoda-Elroq.jpg",
+        "credit": "ecomento",
+        "source": "https://feeds.feedblitz.com/~/971273189/0/ecomento_de~EAutoBoom-im-Privatmarkt-Neuzulassungen-steigen-um-Prozent/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k10",
+      "id": "2026-10-13-k09",
       "ressort": "design",
-      "kicker": "Design",
-      "headline": "Anders-Leuchte aus Bananenfasern: Vom Fotoprop zum Designklassiker",
-      "teaser": "Russell Pinch entwarf die Anders-Leuchte 2009 nur für ein Fotoshooting. Heute hängt sie in vielen Wohnungen über dem Esstisch. Der Schirm aus Bananenfasern streut das Licht weich, jede Leuchte wird von Hand gefertigt.",
+      "kicker": "St. Pauli",
+      "headline": "Aus Kiezhelden wird HEARTCORE ST. PAULI mit neuem Markenauftritt",
+      "teaser": "Die Sozial-Initiative des FC St. Pauli heißt jetzt HEARTCORE ST. PAULI. Sie unterstützt Menschen in Armut und ohne Wohnung, fördert Vielfalt und Kultur, etwa kostenlosen Musikunterricht für Kinder. Das Hamburger Studio Karl Anders hat den neuen Auftritt gestaltet.",
       "blocks": [],
-      "whyGood": "Aus einer spontanen Idee für ein Foto wurde ein handgemachtes Stück, das viele Menschen zu Hause lieben.",
+      "whyGood": "Aus einer Initiative von 2013 ist ein breites soziales Engagement geworden, das auf Herz, Gemeinschaft und Solidarität setzt.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Livingetc",
-          "url": "https://www.livingetc.com/features/pinch-london-anders-light",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 5,
-      "country": "GB",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://cdn.mos.cms.futurecdn.net/E8BLWHiV32qyssWTcY5Gg4-2560-80.jpg",
-        "credit": "Livingetc",
-        "source": "https://www.livingetc.com/features/pinch-london-anders-light",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-k11",
-      "ressort": "natur",
-      "kicker": "Kolumbien",
-      "headline": "Neue Riesenseerose per Instagram und Satellit entdeckt",
-      "teaser": "Ein Instagram-Foto brachte den Botaniker Carlos Magdalena von den Royal Botanic Gardens in Kew auf eine Spur. Mit Satellitenbildern und einer Expedition am Inírida-Fluss fand sein Team eine neue Art: Victoria colombiana. Sie wurde nun wissenschaftlich beschrieben.",
-      "blocks": [],
-      "whyGood": "Selbst riesige Pflanzen können noch neu entdeckt werden, und ein Urlaubsfoto kann dabei helfen.",
-      "honestNote": "Die Art gilt nach ersten Einschätzungen als sehr selten und wurde bisher nur in drei Seen nachgewiesen.",
-      "sources": [
-        {
-          "name": "Spektrum",
-          "url": "https://www.spektrum.de/news/neue-riesenseerose-entdeckt-ueber-instagram-und-satellitenbilder/2349131",
+          "name": "PAGE",
+          "url": "https://page-online.de/kreation/genauso-muss-es-sein-karl-anders-branded-heartcore-st-pauli/",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 6,
-      "country": "CO",
+      "score": 5,
+      "country": "DE",
       "terms": [],
+      "gallery": true,
       "image": {
-        "url": "https://static.spektrum.de/fm/912/f1920x1080/Victoria_colombiana_-_CREDIT_-_Carlos_Magdalena.jpg",
-        "credit": "Spektrum",
-        "source": "https://www.spektrum.de/news/neue-riesenseerose-entdeckt-ueber-instagram-und-satellitenbilder/2349131",
+        "url": "https://page-online.de/app/uploads/2026/10/Karl-Anders-Heart-Core-St-Pauli.jpg",
+        "credit": "PAGE",
+        "source": "https://page-online.de/kreation/genauso-muss-es-sein-karl-anders-branded-heartcore-st-pauli/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-k12",
-      "ressort": "architektur",
-      "kicker": "Thailand",
-      "headline": "Aus der Bootswerkstatt wird eine Villa am Fluss",
-      "teaser": "Patara Architects haben am Tha Chin River die Mahachai Residence gebaut. Das Haus steht dort, wo früher die Lagerhalle für Bootsreparaturen des Eigentümers war. Es dient als Tagesvilla, in der er sich ausruhen und den Fluss bei Sonnenuntergang golden leuchten sehen kann.",
+      "id": "2026-10-13-k10",
+      "ressort": "natur",
+      "kicker": "Texas",
+      "headline": "Familie verkauft Seeufer in Texas für einen neuen Staatspark",
+      "teaser": "Die Familie Pollard hat 650 Acres am Lake Palestine verkauft, rund 263 Hektar. Dort gibt es Kiefernwald, Feuchtgebiete und eine Pekannussplantage. Eine Stiftung hält das Land, bis es Teil eines Staatsparks wird.",
       "blocks": [],
-      "whyGood": "Statt die Geschichte des Ortes abzureißen, bewahrt das 180 Quadratmeter große Haus die Erinnerung an die Arbeit am Fluss in Struktur und Materialien.",
+      "whyGood": "Das letzte lange, zusammenhängende Stück Ufer am Lake Palestine bleibt geschützt und wird für alle zugänglich.",
+      "honestNote": "Der Staat soll das Land erst Ende 2027 übernehmen, bis dahin ist der Park noch nicht offiziell gesichert.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/family-sells-650-acres-on-east-texas-lake-to-become-state-park-saying-land-is-part-of-my-soul/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Sunset-on-Lake-Palestine-credit-TexasLand-provided-to-TPWF-as-a-courtesy.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/family-sells-650-acres-on-east-texas-lake-to-become-state-park-saying-land-is-part-of-my-soul/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-k11",
+      "ressort": "architektur",
+      "kicker": "Port Melbourne",
+      "headline": "Port Melbourne bekommt eine Schule in die Höhe",
+      "teaser": "In Port Melbourne steht die erste vertikale Schule im Stadtentwicklungsprojekt Fishermans Bend. Das Büro Billard Leece Partnership hat sie entworfen. Auch die Nachbarschaft darf nach Schulschluss Bibliothek, Turnhalle, Küche und Kunsträume nutzen.",
+      "blocks": [],
+      "whyGood": "Die Schule dient nicht nur den Schülern, sondern wird zum Lernort für das ganze Viertel.",
       "honestNote": null,
       "sources": [
         {
           "name": "ArchDaily",
-          "url": "https://www.archdaily.com/1186228/mahachai-residence-patara-architects",
+          "url": "https://www.archdaily.com/1186451/port-melbourne-secondary-college-billard-leece-partnership",
           "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "TH",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://images.adsttc.com/media/images/6ac6/8b78/90e2/9d01/89d2/e8f9/large_jpg/mahachai-residence-patara-architects_25.jpg?1791396764",
-        "credit": "ArchDaily",
-        "source": "https://www.archdaily.com/1186228/mahachai-residence-patara-architects",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-k13",
-      "ressort": "architektur",
-      "kicker": "Tschechien",
-      "headline": "Roter Anbau macht ehemaligen Schweinestall zum größeren Zuhause",
-      "teaser": "Das Prager Büro Facha Architekti hat ein kleines Familienhaus in der Region Příbram erweitert. Der Anbau besteht aus rotem Wellblech und hebt sich bewusst vom Altbau ab. So bekommt die Familie mehr Platz zum Wohnen.",
-      "blocks": [],
-      "whyGood": "Aus einem alten Schweinestall wird ein Zuhause, das mit mutigem Design noch besser zur Familie passt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/10/11/facha-architekti-red-extension-czech-pigsty-home/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "CZ",
-      "terms": [],
-      "gallery": true
-    },
-    {
-      "id": "2026-10-12-k14",
-      "ressort": "architektur",
-      "kicker": "Athen",
-      "headline": "Athens berühmtes Hilton eröffnet als Conrad Athens The Ilisian neu",
-      "teaser": "Nach vier Jahren Umbau hat das legendäre Athener „Hilton“ wieder geöffnet. Es heißt jetzt „Conrad Athens The Ilisian“. Das Marmorrelief von Yannis Moralis an der Straße ist noch da, und die Lobby erinnert an die Anfangszeit von 1963.",
-      "blocks": [],
-      "whyGood": "Ein Wahrzeichen, das für viele Athener ein Fenster zur Welt war, strahlt wieder mit seinem alten Charme.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "AD Deutschland",
-          "url": "https://www.ad-magazin.de/artikel/conrad-athens-the-ilisian",
-          "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 5,
-      "country": "GR",
-      "terms": [],
+      "country": "AU",
+      "terms": [
+        {
+          "term": "vertikale Schule",
+          "text": "Eine vertikale Schule baut in die Höhe statt in die Breite. Die Räume liegen auf mehreren Stockwerken. Das spart Platz in dicht bebauten Stadtteilen."
+        }
+      ],
       "gallery": true,
       "image": {
-        "url": "https://assets.ad-magazin.de/photos/6abe7836111192beca6f4641/16:9/w_1280,c_limit/conrad-athens-acropolis.jpg",
-        "credit": "AD Deutschland",
-        "source": "https://www.ad-magazin.de/artikel/conrad-athens-the-ilisian",
+        "url": "https://images.adsttc.com/media/images/6ac5/6096/27ac/8d01/89cb/bdf2/large_jpg/port-melbourne-secondary-college-billard-leece-partnership_15.jpg?1791320263",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186451/port-melbourne-secondary-college-billard-leece-partnership",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-k12",
+      "ressort": "natur",
+      "kicker": "London",
+      "headline": "London bekommt einen grünen Ring aus Bäumen",
+      "teaser": "Die Organisation CPRE London plant den London Tree Ring. Ein 200 Kilometer langer grüner Korridor soll die Hauptstadt umgeben. Schulen, Gruppen und Landbesitzer pflanzen über 25 Jahre Bäume und pflegen Grünflächen.",
+      "blocks": [],
+      "whyGood": "Zehn Millionen Menschen sollen von kühlerer Luft und mehr Artenvielfalt profitieren, und viele können beim Pflanzen mithelfen.",
+      "honestNote": "Der offizielle Start folgt erst nach Jahren der Forschung und einzelnen Testflächen.",
+      "sources": [
+        {
+          "name": "Positive News",
+          "url": "https://www.positive.news/society/putting-a-ring-on-it-the-plan-to-green-londons-beloved-edges/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Miyawaki-Methode",
+          "text": "Eine japanische Pflanzmethode. Dabei werden heimische Bäume sehr dicht in pilzreichen Boden gesetzt, damit sie Nährstoffe besser aufnehmen."
+        }
+      ],
+      "image": {
+        "url": "https://www.positive.news/wp-content/uploads/2026/10/iStock-471932407.jpg",
+        "credit": "Positive News",
+        "source": "https://www.positive.news/society/putting-a-ring-on-it-the-plan-to-green-londons-beloved-edges/",
         "kind": "source"
       }
     }
   ],
   "joke": {
-    "setup": "Was ist grün und klopft an die Tür?",
-    "punchline": "Ein Klopfsalat."
+    "setup": "Treffen sich zwei Magnete. Sagt der eine:",
+    "punchline": "„Was soll ich heute bloß anziehen?“"
   },
   "comic": {
-    "series": "sandraundwoo",
-    "title": "Sandra und Woo",
-    "episode": "Hochfliegende Träume und mehr",
-    "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0012.png",
-    "pages": [
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0012.png",
-        "width": 980,
-        "height": 333,
-        "title": "Hochfliegende Träume",
-        "panels": [
-          [
-            0.0071,
-            0.018,
-            0.7357,
-            0.8829
-          ],
-          [
-            0.7561,
-            0.018,
-            0.2357,
-            0.8829
-          ]
-        ]
-      },
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0013.png",
-        "width": 960,
-        "height": 336,
-        "title": "Waldausflug",
-        "panels": [
-          [
-            0.0125,
-            0.0565,
-            0.2333,
-            0.8661
-          ],
-          [
-            0.2604,
-            0.0565,
-            0.7281,
-            0.8661
-          ]
-        ]
-      },
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0014.png",
-        "width": 980,
-        "height": 352,
-        "title": "Auf der Flucht",
-        "panels": [
-          [
-            0.0061,
-            0.0455,
-            0.5122,
-            0.8636
-          ],
-          [
-            0.5316,
-            0.0455,
-            0.2245,
-            0.8636
-          ],
-          [
-            0.7694,
-            0.0455,
-            0.2245,
-            0.8636
-          ]
-        ]
-      }
-    ],
-    "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-    "link": "https://www.sandraandwoo.com/woode/",
-    "linkTitle": "Mehr von Sandra und Woo"
+    "series": "sonnewolke",
+    "title": "Sonne & Wolke",
+    "episode": "Gassi mit der Gießkanne",
+    "strip": {
+      "storyID": "2026-10-13-02",
+      "panels": [
+        {
+          "prop": "tree.fill",
+          "caption": null,
+          "sun": {
+            "mood": "lacht",
+            "text": "Berliner gießen Stadtbäume per App, wie Haustiere!"
+          },
+          "cloud": {
+            "mood": "grübelt",
+            "text": null
+          }
+        },
+        {
+          "prop": "drop.fill",
+          "caption": null,
+          "sun": {
+            "mood": "froh",
+            "text": "Die App zeigt, welcher Baum durstig ist. Tausende helfen mit!"
+          },
+          "cloud": {
+            "mood": "skeptisch",
+            "text": "Ich gieße schon ewig. Ohne App."
+          }
+        },
+        {
+          "prop": "tree.fill",
+          "caption": "Später im Park",
+          "sun": {
+            "mood": "staunt",
+            "text": "Dann bist du die Patin von allen Bäumen?"
+          },
+          "cloud": {
+            "mood": "lacht",
+            "text": "Ja. Und du bist der Grund, warum sie Durst haben."
+          }
+        }
+      ]
+    },
+    "credit": "Ein Comic von The Daily Good"
   },
   "recommendation": {
-    "kind": "buch",
-    "label": "Buch",
-    "title": "Book of Lives",
-    "creator": "Margaret Atwood",
-    "year": "2025",
-    "text": "Die Autorin von „Der Report der Magd“ blickt auf Lieben, Verluste und literarische Erfolge zurück. Die Kritik lobt die Erinnerungen als trocken komisch, klug und witzig. Atwood musste zum Schreiben erst überredet werden, das Ergebnis liest sich dennoch locker und selbstironisch.",
-    "forWhom": "Für alle, die gern mit kluger Gesellschaft und trockenem Humor in ein langes Leben eintauchen.",
-    "link": "https://en.wikipedia.org/wiki/Book_of_Lives%3A_A_Memoir_of_Sorts",
+    "kind": "film",
+    "label": "Film",
+    "title": "Der Mann, der König sein wollte",
+    "creator": "John Huston",
+    "year": "1975",
+    "text": "Sean Connery und Michael Caine erleben als zwei abenteuerlustige Freunde ein bildgewaltiges, unterhaltsames Abenteuer. Christopher Nolan hat den Klassiker bejubelt, und nun kommt er laut Filmstarts erstmals in 4K ins Heimkino.",
+    "forWhom": "Für alle, die gern mit zwei charmanten Haudegen ins große Abenteuer ziehen.",
+    "link": "https://de.wikipedia.org/wiki/Der_Mann%2C_der_K%C3%B6nig_sein_wollte_%28Film%29",
     "source": {
-      "name": "Guardian Books",
-      "url": "https://www.theguardian.com/books/2026/oct/08/book-of-lives-by-margaret-atwood-audiobook-review-a-dryly-funny-memoir"
+      "name": "Filmstarts",
+      "url": "https://www.filmstarts.de/nachrichten/1000226992.html"
     }
   },
   "weekly": null,
   "quiz": {
     "questions": [
       {
-        "storyID": "2026-10-12-03",
-        "question": "Welches Element nutzt die Wiener Kernuhr im Atomkern?",
+        "storyID": "2026-10-13-01",
+        "question": "Wie viel des historischen Lebensraums nutzen die Chinook-Lachse wieder?",
         "options": [
-          "Thorium",
-          "Uran",
-          "Cäsium",
-          "Strontium"
+          "62 Prozent",
+          "75 Prozent",
+          "88 Prozent",
+          "95 Prozent"
+        ],
+        "answer": 2
+      },
+      {
+        "storyID": "2026-10-13-06",
+        "question": "In welchem Land forschte Zuzana Burivalova laut Geschichte?",
+        "options": [
+          "Papua-Neuguinea",
+          "Brasilien",
+          "Kenia",
+          "Thailand"
         ],
         "answer": 0
       },
       {
-        "storyID": "2026-10-12-07",
-        "question": "Wo sitzt das Start-up Retrokit, das alte Vespas umbaut?",
+        "storyID": "2026-10-13-09",
+        "question": "In welcher Stadt bekam Michael J. Fox seine Auszeichnung bei einer Feier?",
         "options": [
-          "Rom",
-          "Rimini",
-          "Mailand",
-          "Turin"
+          "Toronto",
+          "Vancouver",
+          "Montreal",
+          "Ottawa"
         ],
-        "answer": 1
-      },
-      {
-        "storyID": "2026-10-12-10",
-        "question": "Wie heißt das Werk mit schwimmenden Porzellanschalen in Athen?",
-        "options": [
-          "Aqua",
-          "Sonata",
-          "Clinamen",
-          "Plaka"
-        ],
-        "answer": 2
+        "answer": 3
       }
     ]
   },
   "regional": [
     {
-      "id": "2026-10-12-r01",
+      "id": "2026-10-13-r01",
       "ressort": "region",
       "regions": [
-        "NW"
+        "ST"
       ],
-      "kicker": "Mülheim an der Ruhr",
-      "headline": "Helge Schneider wird Ehrenbürger von Mülheim an der Ruhr",
-      "teaser": "Die Stadt Mülheim an der Ruhr hat den Musiker und Komiker Helge Schneider zum Ehrenbürger ernannt. Rund 100 Gäste feierten ihn in der Stadthalle. Oberbürgermeister Marc Buchholz nannte ihn einen künstlerischen Botschafter seiner Heimatstadt.",
+      "kicker": "Magdeburg",
+      "headline": "Seltener Giraffen-Nachwuchs im Zoo Magdeburg",
+      "teaser": "Im Zoo Magdeburg ist am Freitag ein nubisches Giraffen-Mädchen geboren worden. Es folgt seiner Mutter Shani und trinkt regelmäßig. Das Zooteam beobachtet die Entwicklung genau, denn die Art ist in der Natur bedroht.",
       "blocks": [],
-      "whyGood": "Ein Künstler, der seiner Heimatstadt treu geblieben ist, wird dort mit der höchsten Ehre gewürdigt.",
+      "whyGood": "Eine bedrohte Giraffenart hat Nachwuchs bekommen, und das Jungtier entwickelt sich bisher gut.",
       "honestNote": null,
       "sources": [
         {
-          "name": "WDR",
-          "url": "https://www1.wdr.de/nrw/ruhrgebiet/muelheim/ehrenbuerger-helge-schneider-100.html",
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/geburt,giraffe-zoo-102.html",
           "language": "Deutsch"
         }
       ],
@@ -1428,398 +1266,423 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.tagesschau.de/image/46d11f4b-0ae7-4e87-a338-218418d02965/AAABoS2CZ8M/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "WDR",
-        "source": "https://www1.wdr.de/nrw/ruhrgebiet/muelheim/ehrenbuerger-helge-schneider-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r02",
-      "ressort": "region",
-      "regions": [
-        "RP"
-      ],
-      "kicker": "Brauneberg an der Mosel",
-      "headline": "Mosel: Seltene Felsenpflanzen und Eidechsen bekommen mehr Platz",
-      "teaser": "Der BUND eröffnet ein Büro in Mülheim an der Mosel. Drei Jahre lang kümmert er sich um fünf Felsen zwischen Brauneberg und Lieser. Im Winter werden sie von Brombeerhecken freigeschnitten. Dahinter steht die Idee eines Naturparks im Moseltal.",
-      "blocks": [],
-      "whyGood": "Seltene Pflanzen, Schmetterlinge und Mauereidechsen bekommen ihren Lebensraum in den Weinbergen zurück.",
-      "honestNote": "Der Naturpark im Moseltal ist bisher nur ein Ziel einer Initiative.",
-      "sources": [
-        {
-          "name": "SWR",
-          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/pflege-von-felsen-soll-weg-fuer-naturpark-an-der-mosel-ebnen-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/f72e4c48-fbff-4403-b38e-7f6c93faf12b/AAABoSoImpU/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "SWR",
-        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/pflege-von-felsen-soll-weg-fuer-naturpark-an-der-mosel-ebnen-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r03",
-      "ressort": "region",
-      "regions": [
-        "MV"
-      ],
-      "kicker": "Usedom",
-      "headline": "Usedomer Musikfestival feiert Besucherrekord",
-      "teaser": "15.000 Menschen besuchten das 33. Usedomer Musikfestival. So viele waren es noch nie. Bei 15 der 28 Konzerte war der Saal ausverkauft. Im Mittelpunkt stand das Gastland Schweden, unter anderem mit zwei ABBA-Abenden und Klarinettist Martin Fröst.",
-      "blocks": [],
-      "whyGood": "Die Insel Usedom hat in drei Wochen so viele Musikfans angezogen wie noch nie in der Geschichte des Festivals.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/33-usedomer-musikfestival-endet-mit-besucherrekord,mvregiogreifswald-5862.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/cdbd090d-d7c0-47f3-8d61-6bbaada997b8/AAABoLrtZl0/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/33-usedomer-musikfestival-endet-mit-besucherrekord,mvregiogreifswald-5862.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r04",
-      "ressort": "region",
-      "regions": [
-        "NW"
-      ],
-      "kicker": "Menden",
-      "headline": "Zwei Hobbybrauer aus Menden brauen das kreativste Bier Deutschlands",
-      "teaser": "Jonas Dasbeck und Dennis Grote aus Menden haben bei der Deutschen Meisterschaft der Hobbybrauer in Stralsund gewonnen. Ihr Bier „Wundertüte“ ist ein IPA mit Vanille und Blaubeere. Es setzte sich gegen mehr als 100 Konkurrenten durch.",
-      "blocks": [],
-      "whyGood": "Zwei Hobbybrauer aus dem eigenen Keller holen den Titel und dürfen nun in einer großen Brauerei in Berlin brauen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "WDR",
-          "url": "https://www1.wdr.de/nrw/sauerland-siegerland/maerkischer-kreis/deutsche-meister-bier-menden-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "IPA",
-          "text": "IPA steht für Indian Pale Ale. Das ist ein helles, stark gehopftes Bier."
-        }
-      ],
-      "image": {
-        "url": "https://images.tagesschau.de/image/9d055f58-90e5-452a-8e52-2ce4fc41b4b9/AAABoSpZJMs/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "WDR",
-        "source": "https://www1.wdr.de/nrw/sauerland-siegerland/maerkischer-kreis/deutsche-meister-bier-menden-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r05",
-      "ressort": "region",
-      "regions": [
-        "SN"
-      ],
-      "kicker": "Dresden",
-      "headline": "Europride 2029 findet in Dresden statt",
-      "teaser": "Dresden wird 2029 Gastgeber der Europride. Das hat der CSD Dresden mitgeteilt. Das Motto lautet „Turn Walls into Bridges“, also „Mauern in Brücken verwandeln“. Geplant sind Demonstrationen sowie politische und kulturelle Veranstaltungen.",
-      "blocks": [],
-      "whyGood": "Eine der größten europäischen Veranstaltungen für die Rechte queerer Menschen kommt nach Sachsen und kann der Community in Ostdeutschland Mut machen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/news-event-csd,europride-veranstaltung-queer-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "CSD",
-          "text": "CSD steht für Christopher Street Day. So heißen die Demonstrationen und Feste für die Rechte queerer Menschen."
-        }
-      ],
-      "image": {
-        "url": "https://images.mdr.de/image/82572927-413a-4920-997a-3f14dcbc8b11/AAABoSuuu-M/AAABnSSvgNE/16x9-1920.jpg",
+        "url": "https://images.mdr.de/image/1029a3d4-d620-489e-82e5-1c7959a5da64/AAABoTCoMn8/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/news-event-csd,europride-veranstaltung-queer-100.html",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/geburt,giraffe-zoo-102.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-12-r06",
-      "ressort": "region",
-      "regions": [
-        "HE"
-      ],
-      "kicker": "Oberursel",
-      "headline": "Kunsttäter in Oberursel: Jugendliche formen ihre Strafe zu Kunst",
-      "teaser": "In Oberursel arbeiten verurteilte Jugendliche beim Verein „Die Kunsttäter“ in einer Bildhauerwerkstatt. So leisten sie ihre Arbeitsstunden ab und stärken ihre sozialen Kompetenzen. Das Konzept läuft seit 25 Jahren. Jetzt hat der Verein neue Räume im ehemaligen DRK-Gelände.",
-      "blocks": [],
-      "whyGood": "Junge Menschen bekommen eine echte Chance, aus ihrer Strafe etwas Sinnvolles zu machen, und der Verein hat ein neues Zuhause.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "hessenschau",
-          "url": "https://www.hessenschau.de/kultur/verein-kunsttaeter-in-oberursel-wenn-aus-jungen-straftaetern-kuenstler-werden-v1,kunsttaeter-oberursel-resozialisierung-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/9022dbd3-ca6c-4ffa-b529-dac416177769/AAABoSxHctQ/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "hessenschau",
-        "source": "https://www.hessenschau.de/kultur/verein-kunsttaeter-in-oberursel-wenn-aus-jungen-straftaetern-kuenstler-werden-v1,kunsttaeter-oberursel-resozialisierung-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r08",
-      "ressort": "region",
-      "regions": [
-        "BW"
-      ],
-      "kicker": "Stuttgart",
-      "headline": "Erstes elektrisches Hochwasserrettungsboot der DLRG getauft",
-      "teaser": "Die DLRG Stuttgart hat am Neckar das erste vollelektrische Hochwasserrettungsboot Deutschlands getauft. Das vier Meter lange Boot fährt fast geräuschlos und ohne Abgase. Die Idee hatte Einsatzleiter Andreas Bauer, der es seit 2023 entwickelt hat.",
-      "blocks": [],
-      "whyGood": "Retter können künftig emissionsarm und leise helfen, auch in einem Landschaftsschutzgebiet.",
-      "honestNote": "Das Boot ist ein Pilotprojekt und soll erst ab Sommer 2027 regelmäßig im Einsatz sein.",
-      "sources": [
-        {
-          "name": "SWR",
-          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/taufe-erstes-vollelektrisches-rettungsboot-hochwasser-dlrg-max-eyth-see-neckar-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/67b15d94-c0f4-400b-943b-86e9539008c0/AAABoSpbNMs/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "SWR",
-        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/taufe-erstes-vollelektrisches-rettungsboot-hochwasser-dlrg-max-eyth-see-neckar-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r09",
-      "ressort": "region",
-      "regions": [
-        "BY"
-      ],
-      "kicker": "München",
-      "headline": "Marathon München mit Rekord und deutschem Frauen-Podium",
-      "teaser": "Rund 40.000 Menschen hatten sich für den Marathon in München angemeldet, doppelt so viele wie im Vorjahr. Bei den Frauen siegte Nina Reuter vor Katharina Saathoff und Kirsten De Baey-Ruzin. Bei den Männern gewann der Äthiopier Alazar Terefa.",
-      "blocks": [],
-      "whyGood": "Immer mehr Menschen laufen mit, und drei deutsche Läuferinnen standen gemeinsam auf dem Podest.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BR24 Oberbayern",
-          "url": "https://www.br.de/nachrichten/sport/marathon-muenchen-nina-reuter-gewinnt-frauen-rennen-bei-deutschem-dreifach-sieg,VXjS9Zf",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://img.br.de/a78b43f5-7f2a-46f7-86b2-e38ca0fe7254.jpeg?q=80&rect=0%2C414%2C2950%2C1658&w=1600&h=900",
-        "credit": "BR24 Oberbayern",
-        "source": "https://www.br.de/nachrichten/sport/marathon-muenchen-nina-reuter-gewinnt-frauen-rennen-bei-deutschem-dreifach-sieg,VXjS9Zf",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r10",
-      "ressort": "region",
-      "regions": [
-        "RP"
-      ],
-      "kicker": "Dackenheim",
-      "headline": "Neue Bahnbrücke bei Dackenheim sitzt am richtigen Platz",
-      "teaser": "Bei Dackenheim im Kreis Bad Dürkheim ist die neue Eisenbahnbrücke an ihren Platz geschoben worden. Sie lief über spezielle Schienen und stand nach viel Millimeterarbeit am Abend richtig. Die alte Brücke von 1911 war einspurig und für hohe Lastwagen zu niedrig.",
-      "blocks": [],
-      "whyGood": "Die neue Brücke ist deutlich höher und breiter, sodass künftig auch hohe Lastwagen hindurchfahren können.",
-      "honestNote": "Die zweite neue Brücke im benachbarten Freinsheim kann noch nicht eingesetzt werden, beide sollen erst gemeinsam in Betrieb gehen.",
-      "sources": [
-        {
-          "name": "SWR",
-          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/eisenbahnbruecke-bei-dackenheim-wird-an-ihren-platz-geschoben-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/9716095e-6be1-4562-8cdc-bc0d4548c773/AAABoSx6wVk/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "SWR",
-        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/eisenbahnbruecke-bei-dackenheim-wird-an-ihren-platz-geschoben-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r11",
-      "ressort": "region",
-      "regions": [
-        "MV"
-      ],
-      "kicker": "Stahlbrode",
-      "headline": "Stahlbrode: Verein weckt alte Freilichtbühne wieder auf",
-      "teaser": "Seit rund 20 Jahren stand auf der Freilichtbühne in Stahlbrode niemand mehr auf der Bühne. Der neue Verein „Kulturbühne Stahlbrode“ will sie nun restaurieren. Beim ersten Treffen packten fast 20 Leute mit an und machten Bühne und Tanzfläche wieder sauber.",
-      "blocks": [],
-      "whyGood": "Ein vergessener Ort am Strelasund soll wieder ein Treffpunkt für Kultur und die Menschen der Region werden.",
-      "honestNote": "Bis die Bühne wieder ein Veranstaltungsort ist, sollen noch rund drei Jahre vergehen.",
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/stahlbrode-neues-leben-fuer-freilichtbuehne,mvregiogreifswald-5860.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/6351162d-9439-4cbe-a75c-95ed6f8981e0/AAABoSosv7Q/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/stahlbrode-neues-leben-fuer-freilichtbuehne,mvregiogreifswald-5860.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r12",
-      "ressort": "region",
-      "regions": [
-        "TH"
-      ],
-      "kicker": "Oberhof",
-      "headline": "Brandleitetunnel nach Sanierung wieder für Züge frei",
-      "teaser": "Nach monatelanger Sanierung fahren wieder Züge durch den Brandleitetunnel zwischen Gehlberg und Oberhof. Die Deutsche Bahn erneuerte Beleuchtung und Notruftechnik. Auch der digitale Behördenfunk funktioniert nun im Tunnel.",
-      "blocks": [],
-      "whyGood": "Fahrgäste in Südthüringen können wieder ihren gewohnten Weg Richtung Erfurt, Thüringer Wald und Franken nehmen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/thueringen/sued-thueringen/suhl/brandleitetunnel-bahn-freigegeben,gehlberg-tunnel-sperrung-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.mdr.de/image/8b5f3b60-4439-4314-890e-56d16aad6419/AAABoSYtzwk/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/thueringen/sued-thueringen/suhl/brandleitetunnel-bahn-freigegeben,gehlberg-tunnel-sperrung-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r13",
-      "ressort": "region",
-      "regions": [
-        "NI"
-      ],
-      "kicker": "Braunschweig",
-      "headline": "Friseur-Azubi aus Braunschweig schneidet Fußballprofis die Haare",
-      "teaser": "Henrik Werner ist 22 und im zweiten Lehrjahr. Er gab seinen Studienplan auf und folgte seiner Leidenschaft. Heute zählen Profis von Eintracht Braunschweig und Basketballstar Dennis Schröder zu seinen Kunden. Bekannt wurde er über Instagram und Tiktok.",
-      "blocks": [],
-      "whyGood": "Wer mutig seiner Leidenschaft folgt, kann auch als Azubi schon große Namen begeistern.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/traumjob-friseur-braunschweiger-azubi-frisiert-fussballprofis,friseur-202.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/67c95c05-2f4c-4d57-9325-2004866fc7a8/AAABoSXU6sE/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/traumjob-friseur-braunschweiger-azubi-frisiert-fussballprofis,friseur-202.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r14",
-      "ressort": "region",
-      "regions": [
-        "BB"
-      ],
-      "kicker": "Strausberg",
-      "headline": "Strausberg hat wieder eine Bürgermeisterin: Annette Binder gewinnt",
-      "teaser": "In Strausberg in Märkisch-Oderland ist die Bürgermeisterwahl neu entschieden. Die parteilose Annette Binder gewann die Stichwahl mit 64,9 Prozent der Stimmen gegen Robert Krause. Die Wahlbeteiligung lag bei 36 Prozent.",
-      "blocks": [],
-      "whyGood": "Nach der annullierten Wahl im Frühjahr hat Strausberg nun ein klares Ergebnis und eine gewählte Bürgermeisterin.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "rbb24",
-          "url": "https://www.rbb24.de/politik/wahl/brandenburg-buergermeisterwahlen/2026/strausberg-maerkisch-oderland-stichwahl-binder-krause.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 5,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/a62c1064-b84a-4a58-9b5f-70525f0395cb/AAABoSxZxpQ/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "rbb24",
-        "source": "https://www.rbb24.de/politik/wahl/brandenburg-buergermeisterwahlen/2026/strausberg-maerkisch-oderland-stichwahl-binder-krause.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-12-r15",
+      "id": "2026-10-13-r02",
       "ressort": "region",
       "regions": [
         "HB"
       ],
       "kicker": "Bremen",
-      "headline": "Bremerin macht Fahrradfahren zu ihrem Beruf",
-      "teaser": "Lesmona Kapscha aus Bremen arbeitet als Fahrradkurierin. Sie bringt Sendungen ans Ziel, bei denen es besonders eilig ist. Trotz des Zeitdrucks macht ihr das Fahrradfahren weiterhin Freude.",
+      "headline": "Flixtrain fährt bald direkt von Bremen nach Berlin",
+      "teaser": "Ab dem Fahrplanwechsel Mitte Dezember verbindet Flixtrain Bremen und Berlin direkt. Die Züge fahren täglich bis zu zehnmal und halten unterwegs in Hamburg. Sie sind klimatisiert und bieten mehr Beinfreiheit.",
       "blocks": [],
-      "whyGood": "Eine Bremerin hat ihre Leidenschaft zum Beruf gemacht und genießt ihn noch immer.",
+      "whyGood": "Wer zwischen Bremen und Berlin reist, hat bald mehr Auswahl und kommt ohne Umsteigen ans Ziel.",
       "honestNote": null,
       "sources": [
         {
           "name": "buten un binnen",
-          "url": "https://www.butenunbinnen.de/videos/fahrrad-kurier-dicht-bei-bremen-100.html",
+          "url": "https://www.butenunbinnen.de/nachrichten/zugverkehr-bremen-flixtrain-nach-berlin-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/verkehr-zug-flixtrain-100~_v-1280x720_c-1791817478222.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/nachrichten/zugverkehr-bremen-flixtrain-nach-berlin-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r03",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Neubrandenburg",
+      "headline": "Neubrandenburg: Grundschule zieht ins Einkaufszentrum",
+      "teaser": "Auf dem Datzeberg in Neubrandenburg ist eine leerstehende Kaufhausetage zur Grundschule geworden. Die Kinder weihten ihr \"Schulschiff\" mit Konfetti ein. Rund 150 Kinder sollen dort bald lernen, Platz ist für knapp 230.",
+      "blocks": [],
+      "whyGood": "Aus einer leeren Kaufhausetage wird ein heller Lernort, der günstiger war als ein Neubau.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vom-kaufhaus-zur-schule-grundschule-oeffnet-im-datzecenter,grundschule-230.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/fce01e57-22d1-4962-a53d-f816481285a3/AAABoTDJYmI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vom-kaufhaus-zur-schule-grundschule-oeffnet-im-datzecenter,grundschule-230.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r04",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Schleswig",
+      "headline": "Danewerk: Neue Wege und Brücke im Archäologischen Park",
+      "teaser": "Am Danewerk bei Schleswig ist ein Teil des neugestalteten Archäologischen Parks eröffnet worden. Besucher können die historische Wallanlage nach sieben Jahren Planung und Bau auf neuen Wegen erkunden. Eine neue Brücke verbindet zwei Wege.",
+      "blocks": [],
+      "whyGood": "Die alte Wallanlage ist jetzt für alle besser zu erleben, sogar zum Anfassen.",
+      "honestNote": "Der Park ist noch nicht ganz fertig, eine weitere Aussichtsplattform soll folgen.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/danewerk-neue-wege-im-archaeologischen-park-eroeffnet,regionflensburgnews-3570.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/73207520-f53e-421d-babe-c5552149e26d/AAABoTDsHCE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/danewerk-neue-wege-im-archaeologischen-park-eroeffnet,regionflensburgnews-3570.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r05",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Lübeck",
+      "headline": "Lübeck: Erster Abschnitt der Radroute Plus fast fertig",
+      "teaser": "In Lübeck ist der neue Radweg stadteinwärts in der Ratzeburger Allee jetzt freigegeben. Der erste Abschnitt der „Radroute Plus“ zwischen Stresemannstraße und Mönkhofer Weg soll am 23. Oktober ganz fertig sein, teilte die Hansestadt mit.",
+      "blocks": [],
+      "whyGood": "Lübeck bekommt einen sicheren, schnellen Radweg, und der erste Teil ist bald komplett nutzbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/luebeck_herzogtum-lauenburg_ostholstein/radschnellweg-luebeck-erster-abschnitt-bald-komplett-fertig,regionluebecknews-3206.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/f82c33c4-a253-47ea-b5e5-8d2600ab09af/AAABoTCqmYA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/luebeck_herzogtum-lauenburg_ostholstein/radschnellweg-luebeck-erster-abschnitt-bald-komplett-fertig,regionluebecknews-3206.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r06",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Karlsruhe",
+      "headline": "Karlsruhe: 21 Glaubensgemeinschaften gründen Rat der Religionen",
+      "teaser": "In Karlsruhe haben 21 Glaubensgemeinschaften einen Rat der Religionen gegründet. Dabei sind unter anderem Kirchen, jüdische, muslimische, buddhistische und Bahá'í-Gemeinden. Der Rat soll Ansprechpartner für Stadt und Gesellschaft sein und Spannungen früh im Dialog entschärfen.",
+      "blocks": [],
+      "whyGood": "Verschiedene Religionen in Karlsruhe setzen sich an einen Tisch und wollen Konflikte gemeinsam lösen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/rat-der-religionen-gruendung-karlsruhe-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/ee0fca07-66d3-4c99-80b5-1281e68ba882/AAABoTBoENI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/rat-der-religionen-gruendung-karlsruhe-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r07",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Breitnau",
+      "headline": "Ravennaschlucht: 100.000 Tickets für den Weihnachtsmarkt",
+      "teaser": "Der Weihnachtsmarkt in der Ravennaschlucht im Hochschwarzwald war so gefragt, dass das Buchungssystem zeitweise zusammenbrach. Jetzt gibt es rund 100.000 Karten, knapp ein Viertel mehr als im Vorjahr. Dafür öffnet der Markt länger und an drei zusätzlichen Donnerstagen.",
+      "blocks": [],
+      "whyGood": "Mehr Menschen können unter dem beleuchteten Viadukt Glühwein trinken und die besondere Stimmung erleben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/ravennaschlucht-100000-tickets-fuer-weihnachtsmarkt-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Viadukt",
+          "text": "Ein Viadukt ist eine Brücke, die ein Tal überspannt. Hier fährt die Höllentalbahn darüber."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/09e40c7a-3a31-4f2d-9cec-612c0d2ca971/AAABoS_mDAM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/ravennaschlucht-100000-tickets-fuer-weihnachtsmarkt-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r08",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Berchtesgaden",
+      "headline": "Emma Aicher erhält den Bayerischen Sportpreis",
+      "teaser": "Die Skirennfahrerin Emma Aicher wird mit 22 Jahren für eine herausragende Sportlerkarriere ausgezeichnet. Sie wurde am Skiinternat Berchtesgaden ausgebildet. Zuletzt holte sie zehn Weltcup-Podestplätze und olympisches Silber in der Abfahrt.",
+      "blocks": [],
+      "whyGood": "Eine junge Athletin aus der Region wird für ihre Durchbruchssaison geehrt und will nun nach der großen Kristallkugel greifen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Oberbayern",
+          "url": "https://www.br.de/nachrichten/sport/emma-aicher-bayerischer-sportpreis-und-angriff-auf-shiffrin,VXM6H3J",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/59ede1ba-e671-4b67-b958-7832a4c0b22d.jpeg?q=80&rect=0%2C662%2C3866%2C2173&w=1600&h=900",
+        "credit": "BR24 Oberbayern",
+        "source": "https://www.br.de/nachrichten/sport/emma-aicher-bayerischer-sportpreis-und-angriff-auf-shiffrin,VXM6H3J",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r09",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Büchlberg",
+      "headline": "Hotel parkt Poolwasser in der Tiefgarage und spart Millionen Liter",
+      "teaser": "Ein Wellnesshotel in Büchlberg im Landkreis Passau leitet sein Poolwasser in die Tiefgarage, wenn Pools und Teich gereinigt werden. Hotelchef Herbert Stemp spart so nach eigenen Angaben etwa 6,5 Millionen Liter Wasser im Jahr.",
+      "blocks": [],
+      "whyGood": "Eine einfache Idee schont bei Wasserknappheit die Vorräte und begeistert auch noch die Gäste.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Niederbayern",
+          "url": "https://www.br.de/nachrichten/bayern/wie-ein-wellnesshotel-seine-tiefgarage-als-wassertank-nutzt,VXHjxzL",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/3bdd9b70-e249-4893-9991-2226eff22a26.jpeg?q=80&rect=13%2C12%2C1899%2C1068&w=1600&h=900",
+        "credit": "BR24 Niederbayern",
+        "source": "https://www.br.de/nachrichten/bayern/wie-ein-wellnesshotel-seine-tiefgarage-als-wassertank-nutzt,VXHjxzL",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r10",
+      "ressort": "region",
+      "regions": [
+        "BE"
+      ],
+      "kicker": "Berlin-Charlottenburg",
+      "headline": "Juhnkes Smoking wird für Kinder und Jugendliche versteigert",
+      "teaser": "Die Caritas versteigert einen Smoking und Lackschuhe von Harald Juhnke. Er trug sie 1999 in seiner Show \"Typisch Juhnke!\". Das Mindestgebot liegt bei 500 Euro. Der Erlös geht an das Kinder- und Jugendhaus Mariaschutz für Bildungsprojekte.",
+      "blocks": [],
+      "whyGood": "Ein Stück Berliner Showgeschichte hilft Kindern und Jugendlichen, die wenig Geld haben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-harald-juhnke-smoking-versteigerung-caritas.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/860b7484-6487-40ca-849f-bdc93a8763ce/AAABoTAy5hU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-harald-juhnke-smoking-versteigerung-caritas.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r11",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Bremer Weserstadion wird 100 Jahre alt",
+      "teaser": "Das Weserstadion in Bremen feiert in diesen Tagen seinen 100. Geburtstag. Es hat eine bewegte Geschichte hinter sich. Fußball spielte dabei nicht immer eine große Rolle. Heute gilt es als Fußballtempel.",
+      "blocks": [],
+      "whyGood": "Ein Stadion, das viele Menschen in Bremen kennen und lieben, wird ein ganzes Jahrhundert alt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/jubilaeum-ws-hundert-jahre-weserstadion-bremen-geschichte-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/stadion-flutlichtmasten-stadt-gruen-tribuene-100~_v-1280x720_c-1791824825538.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/jubilaeum-ws-hundert-jahre-weserstadion-bremen-geschichte-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r12",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Grevesmühlen",
+      "headline": "Grevesmühlen hat jetzt die erste umzäunte Hundewiese",
+      "teaser": "Am Ploggenseering in Grevesmühlen ist die erste umzäunte Hundewiese eröffnet worden. Sie ist etwa 300 Quadratmeter groß und liegt an der Buswendeschleife. Sie soll ein Treffpunkt für Menschen und ihre Tiere werden.",
+      "blocks": [],
+      "whyGood": "Hunde können jetzt sicher frei laufen, und Hundehalter finden einen Ort zum Treffen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/erste-umzaeunte-hundewiese-in-grevesmuehlen-eroeffnet,mvregioschwerin-6054.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/a90093f5-380e-41b9-9560-b0e6b6d4e5b8/AAABoFhrUFg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/erste-umzaeunte-hundewiese-in-grevesmuehlen-eroeffnet,mvregioschwerin-6054.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r13",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Oldenburg",
+      "headline": "Kramermarkt in Oldenburg feiert Besucherrekord am ersten Wochenende",
+      "teaser": "Der Kramermarkt in Oldenburg ist zu Ende gegangen. Allein am ersten Wochenende kamen rund 200.000 Menschen auf das Gelände vor den Weser-Ems-Hallen, so viele wie nie zuvor. Veranstalter, Stadt und Polizei ziehen ein positives Fazit.",
+      "blocks": [],
+      "whyGood": "Das Volksfest brachte alle Generationen zusammen, von Jugendlichen bis zu Großeltern mit ihren Enkeln, und verlief insgesamt ruhig.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/rekord-am-ersten-wochenende-kramermarkt-in-oldenburg-beendet,kramermarkt-142.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/5969b928-3b9d-4398-a808-80984ea08f3f/AAABoRabSW4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/rekord-am-ersten-wochenende-kramermarkt-in-oldenburg-beendet,kramermarkt-142.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r14",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Neustadt an der Weinstraße",
+      "headline": "70.000 Zuschauer feiern beim Winzerfestumzug in Neustadt",
+      "teaser": "Beim Winzerfestumzug in Neustadt an der Weinstraße zogen knapp 100 Festwagen und Fußgruppen durch die Innenstadt. Rund 70.000 Menschen sahen zu. Auch die neue Deutsche Weinkönigin Paula Löber war mit einem Wagen dabei.",
+      "blocks": [],
+      "whyGood": "Zehntausende Menschen feiern gemeinsam ein buntes Fest und die Tradition des Weinbaus.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/winzerfestumzug-in-neustadt-am-11-oktober-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/ea0e597a-8e66-48b4-a2cf-6e1dbb4b6f88/AAABmYUrPXM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/winzerfestumzug-in-neustadt-am-11-oktober-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r16",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Lorup, Emsland",
+      "headline": "Lehrerin aus Lorup zerlegt sich in die Metzger-Nationalelf",
+      "teaser": "Ulrike Többen aus Lorup ist seit zwei Jahren im Butcher Wolfpack, der deutschen Metzger-Nationalmannschaft. Bei den European Butcher Wars im April wurde sie bei ihrem ersten Wettbewerb Zwölfte. Jetzt trainiert sie in der Familienmetzgerei für 2028.",
+      "blocks": [],
+      "whyGood": "Eine Lehrerin zeigt, wie kreativ der Metzgerberuf ist, und macht damit Nachwuchs Mut.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/lehrerin-aus-dem-emslaenderin-will-zur-weltmeisterschaft-der-metzger,metzger-122.html",
           "language": "Deutsch"
         }
       ],
@@ -1828,100 +1691,151 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://www.butenunbinnen.de/bilder/lesmona-kapscha-fahrrad-kurierin-dicht-bei-100~_v-1280x720_c-1791736172540.jpg",
-        "credit": "buten un binnen",
-        "source": "https://www.butenunbinnen.de/videos/fahrrad-kurier-dicht-bei-bremen-100.html",
+        "url": "https://images.ndr.de/image/92560a79-3aff-451a-95e7-373320f48f71/AAABoI_zFwE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/lehrerin-aus-dem-emslaenderin-will-zur-weltmeisterschaft-der-metzger,metzger-122.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-13-r17",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarbrücken",
+      "headline": "Über 3.000 Menschen laufen beim Saarathon in Saarbrücken",
+      "teaser": "Beim Saarathon sind am Sonntag mehr als 3.000 Läuferinnen und Läufer aus 38 Nationen gestartet. Es gab Strecken vom Schülerlauf über einen Kilometer bis zum Marathon. Stephanie Dörr und Pascal Zewe wurden Saarlandmeister im Marathon.",
+      "blocks": [],
+      "whyGood": "Tausende Menschen jeden Alters sind gemeinsam gelaufen und haben Bewegung und Gemeinschaft gefeiert.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/sport/saarathon_marathon_saarbruecken_2026_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/c0a67391-def9-47a2-b038-992e0bfbe1bb/AAABoSwfJk4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/sport/saarathon_marathon_saarbruecken_2026_100.html",
         "kind": "source"
       }
     }
   ],
   "recipe": {
-    "title": "Geröstete Kürbissuppe",
-    "intro": "Jetzt im Oktober ist Kürbiszeit. Durch das Rösten im Ofen schmeckt die Suppe besonders intensiv und süßlich.",
-    "servings": 5,
-    "minutes": 80,
+    "title": "Türkische Paccheri mit Lammhack und scharfer Paprika",
+    "intro": "Im Herbst darf es herzhaft sein: Würziges Lammhack, Knoblauchjoghurt und Sumach-Butter machen aus Pasta ein Essen mit Wow-Effekt. Dazu braucht es nur eine Pfanne, einen Topf und gut eine halbe Stunde.",
+    "servings": 4,
+    "minutes": 35,
     "difficulty": "einfach",
     "ingredients": [
       {
-        "amount": 1.5,
-        "unit": "kg",
-        "item": "Kürbis (z. B. Hokkaido oder Butternut), gewaschen"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "Öl"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "Salz"
-      },
-      {
-        "amount": 2,
-        "unit": "l",
-        "item": "leichte Hühner- oder Gemüsebrühe"
-      },
-      {
         "amount": 1,
-        "unit": "Stück",
-        "item": "große Zwiebel, geschält und gehackt"
-      },
-      {
-        "amount": 1,
-        "unit": "Stange",
-        "item": "Staudensellerie, fein gewürfelt"
-      },
-      {
-        "amount": 2,
-        "unit": "Stück",
-        "item": "kleine Möhren, geschält und fein gewürfelt"
-      },
-      {
-        "amount": 1,
-        "unit": "Stück",
-        "item": "kleine rote Chilischote, gehackt, oder etwas Chiliflocken (optional)"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "Zucker (optional)"
-      },
-      {
-        "amount": 2,
         "unit": "EL",
-        "item": "Butter (optional)"
+        "item": "Olivenöl"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "große rote Zwiebel, geschält und gewürfelt"
+      },
+      {
+        "amount": 1.25,
+        "unit": "TL",
+        "item": "feines Salz"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "item": "Lammhack"
+      },
+      {
+        "amount": 2,
+        "unit": "TL",
+        "item": "Kreuzkümmelsamen, zerstoßen"
+      },
+      {
+        "amount": 6,
+        "unit": "Stück",
+        "item": "Knoblauchzehen, geschält und zerdrückt"
       },
       {
         "amount": 4,
-        "unit": "Stück",
-        "item": "Salbeiblätter, grob gezupft, oder Blätter von 2 Thymianzweigen (optional)"
+        "unit": "EL",
+        "item": "scharfe türkische Paprikapaste (acı biber salçası)"
+      },
+      {
+        "amount": 3,
+        "unit": "EL",
+        "item": "Tomatenmark"
       },
       {
         "amount": 1,
-        "unit": "Handvoll",
-        "item": "geriebener Parmesan oder Gruyère (optional)"
+        "unit": "TL",
+        "item": "getrocknete Minze"
       },
       {
-        "amount": null,
-        "unit": null,
-        "item": "Muskat (optional)"
+        "amount": 1,
+        "unit": "Prise",
+        "item": "Zucker"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "item": "Paccheri"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "Naturjoghurt"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "große unbehandelte Zitrone, Schale fein gerieben und Saft"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "ungesalzene Butter"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "Pul Biber oder Chiliflocken"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "Sumach"
+      },
+      {
+        "amount": 15,
+        "unit": "g",
+        "item": "frischer Dill, fein gehackt"
       }
     ],
     "steps": [
-      "Ofen auf 200 °C (180 °C Umluft) heizen. Kürbis schälen, die Schale in einen Topf geben. Vierteln, Kerne entfernen und bis auf einen Löffel voll ebenfalls in den Topf geben.",
-      "Kürbisfleisch in große, gleichmäßige Würfel schneiden, auf einem Blech mit etwas Öl und Salz mischen und etwa 40 Minuten backen, bis es weich und leicht braun ist.",
-      "Den zurückgelegten Löffel Kerne waschen, trocken tupfen, mit Öl und Salz mischen und die letzten 10 Minuten mit im Ofen rösten.",
-      "Schalen und Kerne im Topf mit der Brühe etwa 20 Minuten leise köcheln lassen, dann abseihen. So nimmt die Brühe Kürbisaroma auf.",
-      "Zwiebel, Sellerie, Möhren und Chili in etwas Öl bei mittlerer Hitze etwa 10 Minuten weich dünsten.",
-      "Geröstete Kürbiswürfel und Brühe dazugeben, 10 Minuten köcheln lassen und fein pürieren. Mit Salz, Muskat und nach Wunsch einer Prise Zucker abschmecken.",
-      "Butter in einer Pfanne zerlassen und den Salbei kurz darin braten. Suppe mit Salbeibutter, gerösteten Kernen und Parmesan servieren."
+      "Das Olivöl in einer breiten, tiefen Pfanne erhitzen. Zwiebel und ¼ TL Salz darin 4 Minuten anbraten.",
+      "Lammhack, Kreuzkümmel und 4 Knoblauchzehen dazugeben. 6 bis 7 Minuten braten, bis das Fleisch gerade anfängt zu bräunen.",
+      "Paprikapaste, Tomatenmark, Minze, 1 TL Salz und 1 Prise Zucker einrühren und 2 Minuten garen. Mit 250 ml Wasser ablöschen und bei mittlerer bis niedriger Hitze 10 Minuten sanft köcheln lassen.",
+      "Die Paccheri in gesalzenem Wasser nach Packungsanleitung kochen und abgießen.",
+      "Den Joghurt mit den restlichen 2 Knoblauchzehen und der Zitronenschale verrühren.",
+      "Die Butter in einer kleinen Pfanne 3 bis 4 Minuten erhitzen, bis sie leicht bräunt. Pul Biber und Sumach einrühren und vom Herd nehmen.",
+      "Den Großteil des Zitronensafts und des Dills in die Hacksoße rühren. Die Pasta untermischen.",
+      "Knoblauchjoghurt und Sumach-Butter darüber geben. Mit Dill und etwas Zitronensaft abschließen und direkt aus der Pfanne servieren."
     ],
-    "tip": "Die Suppe lässt sich gut einen Tag vorher kochen und schmeckt aufgewärmt noch besser.",
-    "icon": "carrot.fill",
+    "tip": "Keine türkische Paprikapaste im Haus? Eine andere scharfe Paprikapaste geht auch. Dann nach Geschmack dosieren.",
+    "icon": "fork.knife",
     "source": {
       "name": "Guardian Food",
-      "url": "https://www.theguardian.com/food/2026/oct/11/how-to-make-pumpkin-soup-recipe"
+      "url": "https://www.theguardian.com/food/2026/oct/12/gurdeep-loyal-quick-easy-recipe-turkish-lamb-hot-pepper-paccheri"
     }
   }
 }
