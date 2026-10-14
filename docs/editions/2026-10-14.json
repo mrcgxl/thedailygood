@@ -1,0 +1,1954 @@
+{
+  "date": "2026-10-14",
+  "number": 16,
+  "isSample": false,
+  "leadStoryID": "2026-10-14-01",
+  "stories": [
+    {
+      "id": "2026-10-14-01",
+      "ressort": "wissenschaft",
+      "kicker": "Mars",
+      "headline": "Perseverance fährt weiter als jeder Rover vor ihm",
+      "teaser": "Der NASA-Rover Perseverance hat einen alten Rekord gebrochen. Er ist jetzt das Fahrzeug mit der längsten Strecke auf einem anderen Himmelskörper.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Strecke auf dem Mars",
+          "before": {
+            "label": "Opportunity bis 2018",
+            "value": 45.16,
+            "display": "45,16 km"
+          },
+          "after": {
+            "label": "Perseverance, Stand 11. Oktober 2026",
+            "value": 45.17,
+            "display": "mehr als 45,16 km"
+          }
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Opportunity blieb 2018 nach etwa 45,16 Kilometern stehen.",
+            "Perseverance und Curiosity fahren noch immer über den Mars.",
+            "Die Grafik vergleicht auch Rover auf dem Mond."
+          ],
+          "icons": [
+            "clock.fill",
+            "rocket.fill",
+            "moon.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein Rover fährt weiter als jedes Fahrzeug vor ihm auf dem Mars. Er forscht dort noch immer und liefert neue Erkenntnisse über einen fernen Planeten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SPIEGEL Wissenschaft",
+          "url": "https://www.spiegel.de/wissenschaft/weltall/nasa-mars-rover-perseverance-schafft-marathon-in-fuenfeinhalb-jahren-a-57149daa-fc01-4f8b-844a-9f2a932b23bd#ref=rss",
+          "language": "Deutsch"
+        },
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Rover",
+          "text": "Ein Rover ist ein ferngesteuertes Fahrzeug mit Rädern. Es fährt über fremde Himmelskörper und erforscht sie."
+        }
+      ],
+      "guess": {
+        "question": "Wie weit fuhr der bisherige Mars-Rekordhalter Opportunity bis 2018?",
+        "options": [
+          "Etwa 4,5 Kilometer",
+          "Etwa 45 Kilometer",
+          "Etwa 450 Kilometer"
+        ],
+        "answer": 1,
+        "reveal": "Opportunity schaffte etwa 45 Kilometer. Das war lange der Rekord für Fahrzeuge auf dem Mars.",
+        "icon": "rocket.fill"
+      },
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26814/PIA26814.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+        "credit": "NASA",
+        "source": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-02",
+      "ressort": "gesundheit",
+      "kicker": "Medizin",
+      "headline": "Erstes Medikament gegen seltene Hirnkrankheit zugelassen",
+      "teaser": "Die Alexander-Krankheit trifft weniger als einen von einer Million Menschen. Nun gibt es erstmals ein Mittel, das an der Ursache ansetzt.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 54,
+          "icon": "person.3.fill",
+          "caption": "Patienten nahmen an der internationalen Studie teil"
+        },
+        {
+          "type": "steps",
+          "title": "So wirkt das Medikament",
+          "items": [
+            "Ein Eiweiß namens GFAP häuft sich in Hirnzellen an und schadet ihnen.",
+            "Das Medikament bremst die Herstellung dieses Eiweißes.",
+            "Eine Fachkraft spritzt es alle drei Monate in den Rückenmarkskanal."
+          ],
+          "icons": [
+            "brain.head.profile",
+            "pills.fill",
+            "stethoscope"
+          ]
+        },
+        {
+          "type": "timeline",
+          "title": "Der lange Weg",
+          "items": [
+            {
+              "year": "Späte 1990er",
+              "text": "Forscher finden die genetische Ursache der Krankheit."
+            },
+            {
+              "year": "2021",
+              "text": "Im Sommer beginnt die Studie mit Patienten."
+            },
+            {
+              "year": "2026",
+              "text": "Die US-Behörde FDA lässt das Medikament zu."
+            }
+          ]
+        }
+      ],
+      "whyGood": "Menschen mit der Alexander-Krankheit hatten bisher nur Hilfe gegen einzelne Beschwerden. Jetzt gibt es eine Behandlung, die den Verlauf stabilisieren kann.",
+      "honestNote": "Zunächst ist das Medikament nur in den USA erhältlich.",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007042111.htm",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Alexander-Krankheit",
+          "text": "Eine sehr seltene Krankheit des Nervensystems. Sie kann Bewegung, Denken und Atmen stören."
+        },
+        {
+          "term": "Gen",
+          "text": "Ein Bauplan im Körper. Er sagt den Zellen, welches Eiweiß sie herstellen sollen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange forschte das Team an der Universität Wisconsin, bis das Medikament zugelassen wurde?",
+        "options": [
+          "Etwa 3 Jahre",
+          "Etwa 10 Jahre",
+          "Mehr als 30 Jahre"
+        ],
+        "answer": 2,
+        "reveal": "Von den ersten Studien an Zellen und Mäusen bis zur Zulassung vergingen mehr als drei Jahrzehnte.",
+        "icon": "flask.fill"
+      },
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/transparent-brain-inflammation-disease.webp",
+        "credit": "ScienceDaily Health",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261007042111.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-03",
+      "ressort": "welt",
+      "kicker": "Tennessee",
+      "headline": "Junge Kinobesucherin sammelt 146.000 Dollar für ältere Kinokraft",
+      "teaser": "Brooklyn Green sieht im Kino eine ältere Frau hart arbeiten. Ihr Video geht im Netz viral, und viele Menschen spenden, damit Mary sich ausruhen kann.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "146.000",
+          "unit": "US-Dollar",
+          "caption": "kamen für Mary zusammen, damit sie in den Ruhestand gehen kann",
+          "icon": "banknote.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Brooklyn Green, 21, sah Mary im Kino in Maryville Müll einsammeln.",
+            "Sie startete eine Spendenaktion auf GoFundMe und filmte ein TikTok.",
+            "Schon am ersten Tag kamen über 100.000 Dollar zusammen."
+          ],
+          "icons": [
+            "person.fill",
+            "phone.fill",
+            "banknote.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein kurzes Video hat gereicht, damit viele Fremde einer fleißigen Frau danken. Mary kann nun selbst entscheiden, ob und wann sie aufhört.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/elderly-theater-worker-surprised-with-146000-for-retirement-crowdfunded-by-young-moviegoer/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "GoFundMe",
+          "text": "Eine Internetseite, auf der Menschen Geld für einen guten Zweck oder für eine andere Person sammeln. Jeder kann dort etwas spenden."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange arbeitet Mary schon in Kinos?",
+        "options": [
+          "Etwa 5 Jahre",
+          "Etwa 20 Jahre",
+          "Mehr als 45 Jahre"
+        ],
+        "answer": 2,
+        "reveal": "Der Schichtleiter sagte, Mary arbeite seit mehr als 45 Jahren in Kinos.",
+        "icon": "film.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Mary-the-theater-worker-credit-GoFundMe.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/elderly-theater-worker-surprised-with-146000-for-retirement-crowdfunded-by-young-moviegoer/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-04",
+      "ressort": "zukunft",
+      "kicker": "Wasserreinigung",
+      "headline": "Bierabfälle helfen, Wasser von Bakterien zu befreien",
+      "teaser": "Aus Resten des Brauens haben Forscher in Griechenland einen Filterzusatz gemacht. Er hält deutlich mehr Keime zurück als Sand allein.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "5",
+          "unit": "mal",
+          "caption": "so viele E.-coli-Bakterien blieben im Filter hängen wie bei reinem Sand",
+          "icon": "microbe.fill"
+        },
+        {
+          "type": "share",
+          "value": 10,
+          "label": "Biokohle in der Sandmischung",
+          "caption": "Schon dieser kleine Zusatz sorgte dafür, dass die Mikroben an der Mischung festklebten."
+        },
+        {
+          "type": "background",
+          "title": "Wie der Filter arbeitet",
+          "text": "Sand hält Bakterien nur zurück wie ein Sieb. Die Biokohle ist porös und bindet sie zusätzlich. Sie entsteht aus kleinen Trieben, die beim Mälzen aus der Gerste wachsen."
+        }
+      ],
+      "whyGood": "Aus einem Abfall wird ein möglicher Schutz für sauberes Grundwasser. Das hilft dem Trinkwasser und macht das Bierbrauen nachhaltiger.",
+      "honestNote": "Bisher ist die Methode im Labor getestet, Tests unter realen Bedingungen folgen noch.",
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/abfaelle-des-bierbrauens-filtern-bakterien-aus-dem-wasser/2349282",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "GR",
+      "terms": [
+        {
+          "term": "Biokohle",
+          "text": "Biokohle ist eine kohleähnliche Substanz. Sie entsteht, wenn man Pflanzenreste stark erhitzt. Sie ist voller winziger Poren."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel mehr E.-coli-Bakterien hielt der Filter mit Biokohle zurück als Sand allein?",
+        "options": [
+          "Etwa doppelt so viele",
+          "Etwa fünfmal so viele",
+          "Etwa fünfzigmal so viele"
+        ],
+        "answer": 1,
+        "reveal": "Die Mischung aus Sand und Biokohle entfernte etwa fünfmal so viele Bakterien wie reiner Sand.",
+        "icon": "drop.fill"
+      },
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/f1920x1080/GettyImages-1393310438.jpeg",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/abfaelle-des-bierbrauens-filtern-bakterien-aus-dem-wasser/2349282",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-05",
+      "ressort": "natur",
+      "kicker": "Florida Keys",
+      "headline": "Schattennetze helfen Korallen durch die Hitzewelle im Meer",
+      "teaser": "Taucher spannten Netze über Hirnkorallen. Die Tiere darunter bekamen ihre Farbe zurück, die ungeschützten wurden blasser.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 20,
+          "icon": "leaf.fill",
+          "caption": "Hirnkorallen bekamen im August 2024 ein schwimmendes Schattendach"
+        },
+        {
+          "type": "bigNumber",
+          "value": "30",
+          "unit": "Zentimeter",
+          "caption": "über den Korallen hingen die Netze aus Nylon und PVC-Rahmen",
+          "icon": "sun.max.fill"
+        },
+        {
+          "type": "share",
+          "value": 25,
+          "label": "der Meeresarten leben in Riffen",
+          "caption": "Riffe bedecken weniger als 0,2 Prozent des Meeresbodens, bieten aber mindestens so vielen Arten ein Zuhause."
+        }
+      ],
+      "whyGood": "Ein einfaches Schattendach kann wichtige Korallen in einer extremen Hitzewelle schützen. Das verschafft den Riffen Zeit, bis sich das Meer wieder abkühlt.",
+      "honestNote": "Die Methode schützt nur einzelne Korallen und lässt sich nicht auf ganze Riffe übertragen.",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/10/how-a-floating-shade-can-help-coral-survive-a-marine-heatwave/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Korallenbleiche",
+          "text": "Bei zu großer Hitze stoßen Korallen die Algen in ihrem Körper ab. Dann verlieren sie ihre Farbe und können absterben."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Meeresarten leben in Korallenriffen, die nur einen winzigen Teil des Meeresbodens bedecken?",
+        "options": [
+          "Etwa jede zehnte",
+          "Mindestens jede vierte",
+          "Fast alle"
+        ],
+        "answer": 1,
+        "reveal": "Riffe bedecken weniger als 0,2 Prozent des Meeresbodens, doch mindestens ein Viertel aller Meeresarten lebt dort.",
+        "icon": "fish.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/Screenshot-2026-10-11-at-74619-PM.png",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/10/how-a-floating-shade-can-help-coral-survive-a-marine-heatwave/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-06",
+      "ressort": "kurioses",
+      "kicker": "London",
+      "headline": "Londons junge Biber suchen noch Namen",
+      "teaser": "In West London sind zwei Biberbabys zur Welt gekommen. Kinder und Jugendliche aus der Stadt dürfen ihnen Namen geben.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 2,
+          "icon": "pawprint.fill",
+          "caption": "junge Biber wurden dieses Jahr in West London geboren"
+        },
+        {
+          "type": "bigNumber",
+          "value": "4 bis 18",
+          "unit": "Jahre",
+          "caption": "alt müssen Kinder und Jugendliche sein, die Namen vorschlagen dürfen",
+          "icon": "person.3.fill"
+        },
+        {
+          "type": "map",
+          "place": "Paradise Fields, Greenford",
+          "latitude": 51.543,
+          "longitude": -0.352,
+          "caption": "Hier leben die Biber im Stadtteil Ealing. Der Besuch ist kostenlos."
+        }
+      ],
+      "whyGood": "Eine Biberfamilie lebt mitten in London und hat Nachwuchs bekommen. Die Tiere haben Feuchtgebiete geschaffen, das Wasser verbessert und die Gegend widerstandsfähiger gegen Überflutung und Dürre gemacht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/c81dwrxkl0vyo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Feuchtgebiete",
+          "text": "Das sind Flächen, die dauernd oder oft nass sind, etwa Teiche und Sümpfe. Viele Tiere und Pflanzen brauchen sie zum Leben."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange gab es keine Biber mehr im städtischen London, bis 2023 wieder welche kamen?",
+        "options": [
+          "Etwa 40 Jahre",
+          "Mehr als 400 Jahre",
+          "Etwa 4000 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Seit mehr als 400 Jahren lebten keine Biber mehr im städtischen London. 2023 kehrten sie zurück.",
+        "icon": "pawprint.fill"
+      },
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a5c3/live/60d853f0-74a2-11f1-b1a9-bd204fe03b95.jpg",
+        "credit": "BBC Science",
+        "source": "https://www.bbc.co.uk/news/articles/c81dwrxkl0vyo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-07",
+      "ressort": "fotografie",
+      "kicker": "Fotografie",
+      "headline": "Wildlife Photographer of the Year 2026: Die Siegerbilder",
+      "teaser": "Ein Elefant in Namibia gewinnt den Hauptpreis. Auch ein Mädchen mit dem Handy ihres Vaters ist unter den Preisträgern.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Federico Veronesi aus Italien gewinnt den Hauptpreis mit einem Elefantenbild.",
+            "Amelie Davis fotografiert im Garten eine Hummel, mit dem Handy ihres Vaters.",
+            "Die Ausstellung im Natural History Museum öffnet am 16. Oktober 2026."
+          ],
+          "icons": [
+            "trophy.fill",
+            "camera.fill",
+            "building.columns.fill"
+          ]
+        },
+        {
+          "type": "bigNumber",
+          "value": "100",
+          "unit": "Kojoten",
+          "caption": "leben geschätzt in San Francisco, mitten unter vielen Menschen",
+          "icon": "pawprint.fill"
+        },
+        {
+          "type": "quote",
+          "text": "Es ist ein kleines Fenster, das sich nur einen Spalt öffnet in die Komplexität ihrer Welt.",
+          "author": "Federico Veronesi, Fotograf und Gewinner des Hauptpreises"
+        }
+      ],
+      "whyGood": "Die Bilder zeigen Tiere als Individuen mit Beziehungen und Gefühlen. Und sie zeigen, dass ein preisgekröntes Foto auch im eigenen Garten entstehen kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/cw5y4nv05rp8o?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        },
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/13/powerful-photo-of-a-mother-elephant-carrying-dead-calf-wins-wildlife-photographer-of-the-year/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "guess": {
+        "question": "Wie viele ausgewachsene Schuhschnabelstörche leben schätzungsweise noch in freier Wildbahn?",
+        "options": [
+          "Weniger als 530",
+          "Weniger als 5.300",
+          "Weniger als 53.000"
+        ],
+        "answer": 1,
+        "reveal": "Es sind weniger als 5.300. Zwei davon fotografierte Isak Pretorius in einem Sumpf in Uganda.",
+        "icon": "bird.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/39ef/live/bdb3fce0-c6f6-11f1-9a39-31b474234113.jpg",
+        "credit": "BBC Science",
+        "source": "https://www.bbc.co.uk/news/articles/cw5y4nv05rp8o?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-08",
+      "ressort": "architektur",
+      "kicker": "Lodi, Italien",
+      "headline": "Ein Platz in Norditalien wird zur grünen Lichtung",
+      "teaser": "Ghisellini Architetti haben in der Gegend von Lodi einen Dorfplatz neu gestaltet. Bäume, Rasen und ein Wasserspeicher machen ihn zum kühlen Treffpunkt.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 50,
+          "icon": "tree.fill",
+          "caption": "Eichen spenden jetzt Schatten auf dem neuen Platz"
+        },
+        {
+          "type": "steps",
+          "title": "So wird Regenwasser genutzt",
+          "items": [
+            "Der Steinbelag leitet den Regen in einen unterirdischen Speicher.",
+            "Das gesammelte Wasser bewässert Bäume, Rasen und Unterwuchs.",
+            "Bei Starkregen fließt der Überschuss langsam in die Kanalisation.",
+            ""
+          ],
+          "icons": [
+            "drop.fill",
+            "leaf.fill",
+            "water.waves",
+            null
+          ]
+        }
+      ],
+      "whyGood": "Der Platz spendet im Sommer Schatten und kühlt die Stadt. Regenwasser bleibt vor Ort und hilft den Pflanzen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "IT",
+      "terms": [
+        {
+          "term": "Porphyr",
+          "text": "Porphyr ist ein hartes Vulkangestein. Man nutzt es oft für Pflastersteine."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Eichen stehen auf dem neuen Platz?",
+        "options": [
+          "5",
+          "50",
+          "500"
+        ],
+        "answer": 1,
+        "reveal": "Fünfzig Eichen aus drei Arten stehen in einem Raster von 7 mal 7.",
+        "icon": "tree.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/ghisellini-architetti-public-square-madre-francesca-cabrini-italian-piazza-designboom-1200.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-09",
+      "ressort": "autos",
+      "kicker": "Elektroautos",
+      "headline": "Elektroautos machen Länder in der Ölkrise unabhängiger",
+      "teaser": "Wer früh auf E-Autos gesetzt hat, ist in der Energiekrise besser geschützt. Auch Indien und Brasilien holen bei den Neuzulassungen auf.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "20",
+          "unit": "Mrd. US-Dollar",
+          "caption": "an Rohöl mussten Länder dank Elektroautos zwischen März und August nicht kaufen",
+          "icon": "fuelpump.fill"
+        },
+        {
+          "type": "share",
+          "value": 18,
+          "label": "der weltweit neu verkauften Autos",
+          "caption": "waren in den ersten acht Monaten 2026 rein elektrisch. Ein Jahr zuvor waren es 16 Prozent."
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "China sparte nach der Schätzung etwa 14 Milliarden Dollar an Rohöl.",
+            "Indien liegt bei den E-Auto-Anteilen seit April vor den USA.",
+            "In Japan hat sich der Verkauf von E-Autos 2026 verdoppelt."
+          ],
+          "icons": [
+            "globe.asia.australia.fill",
+            "bolt.car.fill",
+            "chart.line.uptrend.xyaxis"
+          ]
+        }
+      ],
+      "whyGood": "Jedes Elektroauto macht ein Land weniger abhängig von teurem Öl aus dem Ausland. Das schützt vor Preissprüngen und hilft zugleich dem Klima.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/10/13/electric-cars-saved-20b-in-oil-and-the-us-is-falling-behind/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "guess": {
+        "question": "Wie viel Rohöl sparten E-Autos in Importländern von März bis August?",
+        "options": [
+          "2 Millionen Barrel",
+          "20 Millionen Barrel",
+          "200 Millionen Barrel"
+        ],
+        "answer": 2,
+        "reveal": "Die Denkfabrik Ember schätzt: 200 Millionen Barrel Rohöl, im Wert von etwa 20 Milliarden Dollar.",
+        "icon": "fuelpump.fill"
+      },
+      "image": {
+        "url": "https://electrek.co/wp-content/uploads/sites/3/2026/10/Volkswagen-low-cost-EV-orders-1.jpeg?quality=82&strip=all&resize=1200,628",
+        "credit": "Electrek",
+        "source": "https://electrek.co/2026/10/13/electric-cars-saved-20b-in-oil-and-the-us-is-falling-behind/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-10",
+      "ressort": "sport",
+      "kicker": "EuroLeague",
+      "headline": "Piräus gelingt in Valencia ein Comeback für die Geschichtsbücher",
+      "teaser": "Olympiakos Piräus dreht in Valencia ein scheinbar verlorenes Spiel. Es ist das geteilt größte Comeback der EuroLeague.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "28",
+          "unit": "Punkte",
+          "caption": "lag Piräus in Valencia zurück und gewann trotzdem",
+          "icon": "chart.bar.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Olympiakos Piräus gewinnt am Dienstagabend in Valencia",
+            "Der Rückstand von 28 Punkten wurde ausgeglichen",
+            "Das ist geteilter Rekord der EuroLeague-Geschichte"
+          ],
+          "icons": [
+            "trophy.fill",
+            "chart.line.uptrend.xyaxis",
+            "star.fill"
+          ]
+        }
+      ],
+      "whyGood": "Das Spiel zeigt, dass man auch bei großem Rückstand nicht aufgeben muss. Die Mannschaft schrieb damit Sportgeschichte.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "kicker",
+          "url": "https://www.kicker.de/groesstes-comeback-der-el-geschichte-piraeus-gewinnt-in-valencia-nach-28-1260930/artikel#omrss",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "EuroLeague",
+          "text": "Die EuroLeague ist die höchste Liga für Basketballvereine in Europa. Die besten Teams vieler Länder spielen dort gegeneinander."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Punkte lag Piräus zurück, bevor es das Spiel noch gewann?",
+        "options": [
+          "14 Punkte",
+          "28 Punkte",
+          "40 Punkte"
+        ],
+        "answer": 1,
+        "reveal": "Piräus holte einen Rückstand von 28 Punkten auf und gewann. Das ist geteilter EuroLeague-Rekord.",
+        "icon": "trophy.fill"
+      },
+      "image": null
+    },
+    {
+      "id": "2026-10-14-11",
+      "ressort": "wissenschaft",
+      "kicker": "Quantenphysik",
+      "headline": "Quantenkraft bringt einen schwebenden Diamanten zum Schwingen",
+      "teaser": "Forschende in Japan zeigen einen Quanteneffekt an einem Gegenstand, den man mit bloßem Auge sieht. Das ist ein Rekord.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "128",
+          "unit": "Milligramm",
+          "caption": "schwer ist der Diamant, der durch Quantenspins in Schwingung geriet",
+          "icon": "atom"
+        },
+        {
+          "type": "steps",
+          "title": "So funktioniert der Versuch",
+          "items": [
+            "Ein Diamant mit Stickstoff-Fehlstellen schwebt über starken Magneten.",
+            "Ein grüner Laser versetzt die Spins der Fehlstellen immer wieder in einen Überlagerungszustand.",
+            "Die vielen schwachen Kräfte addieren sich. Ein Spiegel und ein Laser messen die Schwingung."
+          ],
+          "icons": [
+            "sparkles",
+            "bolt.fill",
+            "magnifyingglass"
+          ]
+        }
+      ],
+      "whyGood": "Quanteneffekte lassen sich nun an viel größeren Objekten nachweisen als bisher. Das hilft, Quantenphysik und Schwerkraft besser zu verstehen, und könnte neue, sehr empfindliche Sensoren möglich machen.",
+      "honestNote": "Von einer echten Überlagerung großer Objekte ist das Experiment noch weit entfernt.",
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/erstmals-bewegen-quantenkraefte-ein-zentimetergrosses-objekt/2349509",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "JP",
+      "terms": [
+        {
+          "term": "Stickstoff-Fehlstellen",
+          "text": "Das sind winzige Fehler im Diamanten. Ein Stickstoffatom sitzt statt eines Kohlenstoffatoms im Kristall, daneben bleibt ein Platz leer."
+        },
+        {
+          "term": "Spins",
+          "text": "Spins sind eine Eigenschaft von Elektronen. Sie wirken wie winzige Magnete."
+        }
+      ],
+      "guess": {
+        "question": "Wie weit lenkte die Quantenkraft den Diamanten aus?",
+        "options": [
+          "Etwa 1 Millimeter",
+          "Etwa 100 Mikrometer",
+          "Etwa 100 Nanometer"
+        ],
+        "answer": 2,
+        "reveal": "Der Diamant bewegte sich um etwa 100 Nanometer. Das ist winzig, aber für die Quantenphysik ein Rekord.",
+        "icon": "atom"
+      },
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/f1920x1080/True_color_photo_of_levitating_diamond.png",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/erstmals-bewegen-quantenkraefte-ein-zentimetergrosses-objekt/2349509",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-12",
+      "ressort": "design",
+      "kicker": "Schweiz",
+      "headline": "Freitag macht neue Taschen aus alten Lkw-Planen",
+      "teaser": "Die Schweizer Marke Freitag setzt beim Upcycling auf Planen aus ganz Europa. Kratzer und Falten bleiben sichtbar. Zu jeder Tasche gibt es ein Reparaturset.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "40",
+          "unit": "Liter",
+          "caption": "passen höchstens in die große Tasche Mazie, die sich an den Seiten zusammenfalten lässt",
+          "icon": "basket.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Planen kommen aus ganz Europa, gefertigt wird in kleinen Serien.",
+            "Kratzer und Falten sind Spuren des früheren Lebens der Plane.",
+            "Das Reparaturset besteht aus derselben Plane wie die Tasche."
+          ],
+          "icons": [
+            "globe.europe.africa.fill",
+            "sparkles",
+            "scissors"
+          ]
+        }
+      ],
+      "whyGood": "Alte Lkw-Planen werden zu Taschen, die lange halten sollen. Das mitgelieferte Reparaturset hilft, sie zu flicken statt wegzuwerfen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/13/freitags-luxury-bags-reuse-truck-tarps-without-hiding-wear/?utm_source=rss&utm_medium=rss&utm_campaign=freitags-luxury-bags-reuse-truck-tarps-without-hiding-wear",
+          "language": "Englisch"
+        }
+      ],
+      "score": 5,
+      "country": "CH",
+      "terms": [
+        {
+          "term": "Upcycling",
+          "text": "Dabei wird aus altem Material etwas Neues gemacht, das oft mehr wert ist als vorher. Hier werden aus Planen Taschen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Liter fasst die größte Tasche der neuen Freitag-Reihe höchstens?",
+        "options": [
+          "12 Liter",
+          "40 Liter",
+          "100 Liter"
+        ],
+        "answer": 1,
+        "reveal": "Die Tasche Mazie fasst 26 bis 40 Liter, je nachdem, wie weit man die Seiten nach innen faltet.",
+        "icon": "basket.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.yankodesign.com/images/design_news/2026/10/freitags-luxury-bags-reuse-truck-tarps-without-hiding-wear/reference-01.jpg",
+        "credit": "Yanko Design",
+        "source": "https://www.yankodesign.com/2026/10/13/freitags-luxury-bags-reuse-truck-tarps-without-hiding-wear/?utm_source=rss&utm_medium=rss&utm_campaign=freitags-luxury-bags-reuse-truck-tarps-without-hiding-wear",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k01",
+      "ressort": "welt",
+      "kicker": "Kalifornien",
+      "headline": "Studierende bauen Wohnraum für Kommilitonen ohne Zuhause",
+      "teaser": "An der University of California, Davis haben Studierende das Aggie House gegründet. Es besteht aus günstigen Apartments für Kommilitonen, die keine sichere Unterkunft haben. Auch anderswo in den USA helfen sich junge Erwachsene so gegenseitig.",
+      "blocks": [],
+      "whyGood": "Junge Menschen in einer Notlage finden Halt bei Gleichaltrigen, die ihre Lage wirklich verstehen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Reasons to be Cheerful",
+          "url": "https://reasonstobecheerful.world/young-adults-are-building-safe-spaces-for-unhoused-peers/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://reasonstobecheerful.world/wp-content/uploads/2026/10/shutterstock_421405048-scaled.jpg",
+        "credit": "Reasons to be Cheerful",
+        "source": "https://reasonstobecheerful.world/young-adults-are-building-safe-spaces-for-unhoused-peers/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k02",
+      "ressort": "natur",
+      "kicker": "Monterey",
+      "headline": "Forscher siedeln Sonnenblumen-Seesterne wieder im Pazifik an",
+      "teaser": "Vor Monterey in Kalifornien setzt das Team des Sunflower Star Laboratory gezüchtete Sonnenblumen-Seesterne in offene Käfige am Meeresboden. Die Tiere mit bis zu 24 Armen sollen die Kelpwälder wieder schützen, von denen 95 Prozent verschwunden sind.",
+      "blocks": [],
+      "whyGood": "Ein kleines Forscherteam bringt eine fast ausgestorbene Art zurück ins Meer und gibt den Kelpwäldern damit neue Hoffnung.",
+      "honestNote": "Die Wiederansiedlung steht noch am Anfang.",
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Kelp",
+          "text": "Kelp sind große Braunalgen. Sie wachsen in kalten Meeren zu dichten Wäldern und bieten vielen Meerestieren Lebensraum."
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/dfcb746c1eb83c289abdeb6dc4a0d699c51d1f17/329_0_2388_1911/master/2388.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=21f2a609acb22089ceee74bb414f878b",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/environment/2026/oct/13/sunflower-sea-star-california-kelp-forests",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k03",
+      "ressort": "kurioses",
+      "kicker": "Idaho",
+      "headline": "Onkel fängt 20 Papierflieger in einer Minute mit dem Mund",
+      "teaser": "Ein Mann aus Idaho hat mit seiner 13 Jahre alten Nichte einen Guinness-Weltrekord aufgestellt. Sie warf Papierflieger, er fing 20 davon in einer Minute mit dem Mund. Das ist ein Rekord für die meisten gefangenen Papierflieger.",
+      "blocks": [],
+      "whyGood": "Zwei Menschen aus einer Familie haben zusammen einen Weltrekord geschafft, und das mit einer Idee, die jeder nachmachen kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/13/guinness-world-records-david-rush-paper-planes-mouth/5211791898743/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-14-k04",
+      "ressort": "architektur",
+      "kicker": "Kapstadt",
+      "headline": "108 neue Wohnungen für Rückkehrer in Kapstadts District Six",
+      "teaser": "In Kapstadt sind 108 Wohnungen für Menschen entstanden, die Land im District Six zurückgefordert haben. Das Büro Jakupa Architects and Urban Designers plante sie. Vorbild sind die engen Straßen und das Gemeinschaftsleben des alten Viertels.",
+      "blocks": [],
+      "whyGood": "Menschen, die 1966 ihr Viertel verlassen mussten, können nun ins Herz von Kapstadt zurückkehren.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186482/district-six-restitution-housing-jakupa-architects-and-urban-designers",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "ZA",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6ac6/4bab/07c3/d100/017f/dd29/large_jpg/01_-_Hero_Image.jpg?1791380427",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186482/district-six-restitution-housing-jakupa-architects-and-urban-designers",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k05",
+      "ressort": "sport",
+      "kicker": "Champions League",
+      "headline": "Tresoldi schießt Brügge mit drei Toren zum 4:3 bei Inter",
+      "teaser": "Nicolo Tresoldi, U21-Nationalstürmer aus Deutschland, hat drei Tore erzielt. Sein Club Brügge gewann am Dienstagabend im Mailänder San Siro mit 4:3 bei Inter. Es war der erste Sieg der Belgier in dieser Champions-League-Saison.",
+      "blocks": [],
+      "whyGood": "Ein 22-Jähriger führt seinen Club mit einem Dreierpack zu einem umjubelten Sieg bei einem großen Gegner.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/fussball/championsleague/tresoldi-gala-sorgt-fuer-bruegges-coup-in-mailand,spielbericht-inter-bruegge-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/oct/13/champions-league-lens-sporting-inter-barcelona-bayern-napoli",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IT",
+      "terms": [],
+      "image": {
+        "url": "https://images.sportschau.de/image/77bce2b8-88d9-4b75-bff9-16442a3affee/AAABoTb9ELk/AAABnSSvrFg/16x9-big/tresoldi-jubel-104.jpg?width=1280",
+        "credit": "Sportschau",
+        "source": "https://www.sportschau.de/fussball/championsleague/tresoldi-gala-sorgt-fuer-bruegges-coup-in-mailand,spielbericht-inter-bruegge-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k06",
+      "ressort": "design",
+      "kicker": "Wearables",
+      "headline": "Fitbit Edge: Akku lässt sich tauschen statt den ganzen Tracker",
+      "teaser": "Google zeigt mit dem Fitbit Edge einen kompakten Fitnesstracker mit austauschbarem Akku. Er hat ein 1,34-Zoll-AMOLED-Display, GPS und eine Taste an der Seite. Das Gehäuse besteht aus recyceltem Aluminium. Wenn der Akku altert, muss nicht das ganze Gerät weg.",
+      "blocks": [],
+      "whyGood": "Ein tauschbarer Akku kann Elektroschrott vermeiden und Geräte länger nutzbar machen.",
+      "honestNote": "Die Akkulaufzeit beträgt laut Google bis zu sieben Tage, mit dauerhaft eingeschaltetem Display nur bis zu zwei Tage.",
+      "sources": [
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/13/google-fitbit-edge-lets-an-aging-battery-be-replaced-instead-of-the-tracker/?utm_source=rss&utm_medium=rss&utm_campaign=google-fitbit-edge-lets-an-aging-battery-be-replaced-instead-of-the-tracker",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": [
+        {
+          "term": "AMOLED",
+          "text": "Eine Bildschirmtechnik, bei der jeder Bildpunkt selbst leuchtet. Das sorgt für kräftige Farben und tiefes Schwarz."
+        }
+      ],
+      "image": {
+        "url": "https://www.yankodesign.com/images/design_news/2026/10/google-fitbit-edge-lets-an-aging-battery-be-replaced-instead-of-the-tracker/fitbit-edge-06.jpg",
+        "credit": "Yanko Design",
+        "source": "https://www.yankodesign.com/2026/10/13/google-fitbit-edge-lets-an-aging-battery-be-replaced-instead-of-the-tracker/?utm_source=rss&utm_medium=rss&utm_campaign=google-fitbit-edge-lets-an-aging-battery-be-replaced-instead-of-the-tracker",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k07",
+      "ressort": "wissenschaft",
+      "kicker": "Yunnan",
+      "headline": "Riesenpilz in Chinas Wäldern bildet neue Pilzfamilie",
+      "teaser": "In den Wäldern von Yunnan haben Forschende einen Pilz entdeckt, der bis zu 50 Zentimeter hoch und 2,2 Kilogramm schwer wird. Er heißt Dianjunus rex und ist der größte bekannte Pilz seiner Gruppe, der Schlauchpilze. Er bildet sogar eine neue Familie.",
+      "blocks": [],
+      "whyGood": "Die Entdeckung zeigt, wie viel Neues die Wälder Ostasiens noch für die Forschung bereithalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-10-scientists-d-rex-giant-fungus.html",
+          "language": "Englisch"
+        },
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/scientists-shocked-to-discover-d-rex-a-giant-fungus-from-chinese-forests-dating-back-65-million-years/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CN",
+      "terms": [
+        {
+          "term": "Schlauchpilze",
+          "text": "Die größte Pilzgruppe mit mehr als 64.000 Arten. Sie setzen ihre Sporen aus winzigen, sackartigen Strukturen frei und bilden keine echten Hutpilze."
+        }
+      ],
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/scientists-discover-d.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-10-scientists-d-rex-giant-fungus.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k08",
+      "ressort": "kurioses",
+      "kicker": "Rhode Island",
+      "headline": "Riesenkürbis wiegt rund 1.431 Kilogramm",
+      "teaser": "Ein Landwirt in Rhode Island hat bei einem Wettbewerb einen riesigen Kürbis gewogen. Die Waage zeigte rund 1.431 Kilogramm. Damit könnte er einen Weltrekord brechen, der noch nicht einmal einen Monat alt ist.",
+      "blocks": [],
+      "whyGood": "Ein einzelner Kürbis, schwerer als ein Kleinwagen, zeigt, was Geduld und Liebe zum Gärtnern schaffen können.",
+      "honestNote": "Ob der Kürbis wirklich als neuer Weltrekord gilt, steht noch nicht fest.",
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/13/Guinness-World-Records-pumpkin/8161791908823/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-10-14-k09",
+      "ressort": "architektur",
+      "kicker": "Bayerischer Wald",
+      "headline": "Marodes Bauernhaus im Bayerischen Wald wird zum Architekturwerk",
+      "teaser": "In Jetzing stand ein Bauernhof ohne Dach kurz vor dem Einsturz. Der Münchner Architekt Peter Haimerl und das Ehepaar Michael und Andrea Skersies rissen ihn nicht ab. Ein weißes Stahlgerüst trägt nun das Dach und hält die Reste der Fassade fest.",
+      "blocks": [],
+      "whyGood": "Statt eines Abrisses bekommt ein verfallener Hof ein neues Leben und bleibt als Teil der Heimat erhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "AD Deutschland",
+          "url": "https://www.ad-magazin.de/artikel/dieser-bauernhof-im-bayerischen-wald-stand-kurz-vor-dem-einsturz-bis-ein-architekt-den-verfall-zur-architektur-machte",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://assets.ad-magazin.de/photos/6ac4cf46b72199a759ee3ff0/16:9/w_1280,c_limit/2K6A2099.jpg",
+        "credit": "AD Deutschland",
+        "source": "https://www.ad-magazin.de/artikel/dieser-bauernhof-im-bayerischen-wald-stand-kurz-vor-dem-einsturz-bis-ein-architekt-den-verfall-zur-architektur-machte",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-k10",
+      "ressort": "architektur",
+      "kicker": "London",
+      "headline": "Holzpavillon in Camden zeigt, wie einfach Schatten sein kann",
+      "teaser": "Das Architekturbüro Pearce+ hat in Camden in London einen schlichten Pavillon aus Holz gebaut. Er soll zeigen, dass Schatten in Großbritannien wichtig ist. Die Menschen sollen ermutigt werden, selbst Schattenspender zu bauen. Beauftragt hat ihn das Festival Camden Inspire.",
+      "blocks": [],
+      "whyGood": "Ein einfacher Holzbau zeigt, dass jeder mit wenig Aufwand für kühlen Schatten sorgen kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/13/shading-pavilion-camden-pearce-plus/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "GB",
+      "terms": [],
+      "gallery": true
+    },
+    {
+      "id": "2026-10-14-k11",
+      "ressort": "architektur",
+      "kicker": "Revémont",
+      "headline": "Alte Kapelle wird zur besonderen Unterkunft",
+      "teaser": "Die Kapelle von Revémont wurde nicht mehr für Gottesdienste genutzt und drohte zu verfallen. Die Gemeinde, der sie gehört, hat sie retten lassen. Das Büro GENS hat sie 2023 auf 140 Quadratmetern zu einer ungewöhnlichen Unterkunft umgebaut.",
+      "blocks": [],
+      "whyGood": "Ein Gebäude, das verfallen sollte, bekommt ein neues Leben und bleibt für alle erhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186224/axe-gens",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": null,
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6abf/6dee/07c3/d100/017f/cad1/large_jpg/GENS_VIV_11_photo_L.Cerveny.jpg?1790930469",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186224/axe-gens",
+        "kind": "source"
+      }
+    }
+  ],
+  "joke": {
+    "setup": "Was ist braun, klebrig und läuft durch die Wüste?",
+    "punchline": "Ein Karamel."
+  },
+  "comic": {
+    "series": "vaterundsohn",
+    "title": "Vater und Sohn",
+    "episode": "Das misslungene Konzert",
+    "image": "https://thumb.wikimedia.org/wikipedia/de/thumb/1/10/Vater_und_Sohn_-_Das_misslungene_Konzert.jpg/1280px-Vater_und_Sohn_-_Das_misslungene_Konzert.jpg",
+    "pages": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/de/thumb/1/10/Vater_und_Sohn_-_Das_misslungene_Konzert.jpg/1280px-Vater_und_Sohn_-_Das_misslungene_Konzert.jpg",
+        "width": 1200,
+        "height": 937
+      }
+    ],
+    "credit": "e.o.plauen (Erich Ohser), 1935, gemeinfrei",
+    "link": "https://de.wikipedia.org/wiki/Vater_und_Sohn",
+    "linkTitle": "Mehr über Vater und Sohn"
+  },
+  "recommendation": {
+    "kind": "serie",
+    "label": "Serie",
+    "title": "Schitt's Creek",
+    "creator": "Eugene Levy und Dan Levy",
+    "year": "2015",
+    "text": "Eine superreiche Familie verliert ihr gesamtes Vermögen und muss in ein heruntergekommenes Provinzkaff ziehen. Aus bissigem Humor wird nach und nach eine der warmherzigsten Serien überhaupt. Die Serie räumte bei den Emmys für ihre letzte Staffel in allen großen Comedy-Kategorien ab.",
+    "forWhom": "Für alle, die gern lachen und dabei ein bisschen gerührt werden.",
+    "link": "https://de.wikipedia.org/wiki/Schitt%E2%80%99s_Creek",
+    "source": null
+  },
+  "weekly": null,
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-10-14-03",
+        "question": "In welcher Stadt sah Brooklyn Green die Frau im Kino arbeiten?",
+        "options": [
+          "Memphis",
+          "Maryville",
+          "Nashville",
+          "Madison"
+        ],
+        "answer": 1
+      },
+      {
+        "storyID": "2026-10-14-11",
+        "question": "Wie schwer ist der Diamant, der durch Quantenspins in Schwingung geriet?",
+        "options": [
+          "12 Milligramm",
+          "64 Milligramm",
+          "128 Milligramm",
+          "500 Milligramm"
+        ],
+        "answer": 2
+      },
+      {
+        "storyID": "2026-10-14-06",
+        "question": "In welchem Stadtteil Londons leben die jungen Biber?",
+        "options": [
+          "Ealing",
+          "Camden",
+          "Hackney",
+          "Richmond"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-10-14-r01",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Oehe-Schleimünde",
+      "headline": "14 junge Zwergseeschwalben an der Schlei flügge geworden",
+      "teaser": "In Oehe-Schleimünde sind in diesem Sommer 14 junge Zwergseeschwalben flügge geworden. Auch zehn bis zwölf Sandregenpfeifer flogen erfolgreich los. Schutzzäune und schnelle Einsätze der Naturschutzteams haben die Küstenvögel vor Fressfeinden bewahrt.",
+      "blocks": [],
+      "whyGood": "Die seltenen Vögel haben mit Hilfe vieler Naturschützer erfolgreich gebrütet, und am Sehlendorfer Binnensee ist sogar ein neuer Brutplatz entstanden.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/vogelschutz-an-der-ostsee-seltene-zwergseeschwalben-sind-fluegge,kuestenvoegel-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "flügge",
+          "text": "Junge Vögel sind flügge, wenn ihre Federn so weit gewachsen sind, dass sie fliegen und das Nest verlassen können."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/c0d0f27c-8aa9-4b18-8d2a-3f8278cf05cc/AAABoTYZvtM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/vogelschutz-an-der-ostsee-seltene-zwergseeschwalben-sind-fluegge,kuestenvoegel-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r02",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Baden-Württemberg",
+      "headline": "Mehr ICE-Sprinter und Direktzüge nach Paris ab Dezember",
+      "teaser": "Ab dem 13. Dezember 2026 gilt der neue Fahrplan der Deutschen Bahn. Zwischen Stuttgart und Berlin fahren dann drei ICE-Sprinter statt einem. Auch nach Paris gibt es mehr Direktzüge, und in Offenburg kehrt der ICE-Stundentakt zurück.",
+      "blocks": [],
+      "whyGood": "Reisende in Baden-Württemberg kommen schneller und öfter direkt nach Berlin, Paris und in andere Städte.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/fahrplanwechsel-deutsche-bahn-2026-das-aendert-sich-fuer-baden-wuerttemberg-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "ICE-Sprinter",
+          "text": "Ein ICE-Sprinter ist ein besonders schneller ICE. Er hält unterwegs nur an wenigen Orten."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/479dbc6b-1b5a-4636-8bb9-2dc490950101/AAABoTVR9j8/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/fahrplanwechsel-deutsche-bahn-2026-das-aendert-sich-fuer-baden-wuerttemberg-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r03",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremerhaven-Lehe",
+      "headline": "Müll-Abwärme heizt rund 1.000 Wohnungen in Bremerhaven-Lehe",
+      "teaser": "Rund 1.000 Wohnungen und Häuser in Bremerhaven-Lehe bekommen Fernwärme aus dem Müllheizkraftwerk. Der Energiedienstleister swb verlegte dafür eine etwa 1.800 Meter lange Leitung. Das spart laut swb rund 1.600 Tonnen CO₂ pro Jahr.",
+      "blocks": [],
+      "whyGood": "Die Abwärme der Müllverbrennung ersetzt Erdgas und schützt so das Klima.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/nachrichten/bremerhaven-fernwaerme-leitung-verlegt-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Fernwärme",
+          "text": "Fernwärme ist Wärme, die zentral erzeugt wird. Sie kommt über isolierte Rohre warm in die Häuser."
+        }
+      ],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/fernwaerme-leitungen-100~_v-1280x720_c-1791898472478.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/nachrichten/bremerhaven-fernwaerme-leitung-verlegt-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r04",
+      "ressort": "region",
+      "regions": [
+        "HH"
+      ],
+      "kicker": "Hamburg",
+      "headline": "Transportsiel Altona pünktlich und günstiger saniert",
+      "teaser": "Das Transportsiel Altona ist wieder in Betrieb. Hamburg Wasser hat den acht Kilometer langen Abwasserkanal zwei Jahre lang saniert. Das Projekt wurde pünktlich fertig und kostete 7,5 statt geplanter 10 Millionen Euro.",
+      "blocks": [],
+      "whyGood": "Die Haushalte von 300.000 Menschen im Hamburger Westen haben wieder ein erneuertes Siel, und das Geld reichte sogar mit Reserve.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/puenktlich-und-guenstiger-als-gedacht-transportsiel-altona-fertig,bauarbeiten-208.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Siel",
+          "text": "So heißen in Hamburg die unterirdischen Abwasserkanäle."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/bda1f020-f99d-44d0-b37c-1a25faa0a948/AAABoTVJFOE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/hamburg/puenktlich-und-guenstiger-als-gedacht-transportsiel-altona-fertig,bauarbeiten-208.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r05",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Frielendorf",
+      "headline": "Erster gehörloser Feuerwehrmann im Schwalm-Eder-Kreis",
+      "teaser": "Tobias Braun aus Frielendorf ist gehörlos und Mitglied der Freiwilligen Feuerwehr in Großroppershausen. Der 39-Jährige hat den Grundlehrgang geschafft und fährt bei Einsätzen mit. Sein Neffe, ein Gebärdendolmetscher, übersetzt für ihn.",
+      "blocks": [],
+      "whyGood": "Die Feuerwehr zeigt, dass Inklusion im Ehrenamt gelingt, wenn alle zusammenhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/panorama/inklusion-gehoerloser-feuerwehrmann-aus-frielendorf-schreibt-geschichte-v1,feuerwehrmann-gehoerlos-frielendorf-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/036e7b5a-a3cf-4e14-b319-6658c02dcf83/AAABoTXqCvg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/panorama/inklusion-gehoerloser-feuerwehrmann-aus-frielendorf-schreibt-geschichte-v1,feuerwehrmann-gehoerlos-frielendorf-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r06",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Osnabrück",
+      "headline": "Muslimische Gemeinde kocht für Bedürftige in Osnabrück",
+      "teaser": "Die Ahmadiyya Gemeinde Osnabrück hat gemeinsam mit der Osnabrücker Tafel warmes Essen gekocht. Es sollte für rund 200 Menschen reichen, unter anderem gab es ein Reisgericht. Das Angebot galt allen Bedürftigen, unabhängig von ihrer Herkunft.",
+      "blocks": [],
+      "whyGood": "Eine Moscheegemeinde und die Tafel sorgen gemeinsam dafür, dass Menschen in Not eine warme Mahlzeit bekommen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/muslimische-gemeinde-kocht-fuer-beduerftige-in-osnabrueck,aktuellosnabrueck-2914.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/5f963550-432b-499c-809e-a78d4e4db89d/AAABoTYD2YQ/AAABnSSveow/16x9-1280.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/muslimische-gemeinde-kocht-fuer-beduerftige-in-osnabrueck,aktuellosnabrueck-2914.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r07",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Leipzig",
+      "headline": "Autobahnpolizei Leipzig rettet Braut im Stau die Hochzeit",
+      "teaser": "Kathrin Gavel steckte auf der A38 bei Leipzig hinter einem liegengebliebenen Lkw fest. Ihre Trauung auf dem Störmthaler See rückte näher. Sie rief die Autobahnpolizei an, und die Beamten halfen ihr, rechtzeitig zur Hochzeit zu kommen.",
+      "blocks": [],
+      "whyGood": "Die Polizei hilft auch an einem ganz besonderen Tag und macht eine Braut glücklich.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/news-stau-einsatz,hochzeit-autobahn-polizei-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/b006055b-c45d-4bd4-8dab-8482bf276239/AAABoSt8r1U/AAABnSSveow/16x9-1280.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/news-stau-einsatz,hochzeit-autobahn-polizei-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r08",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Jena",
+      "headline": "Jena bekommt tagsüber wieder einen direkten ICE nach Berlin",
+      "teaser": "Ab 13. Dezember fährt die Bahn wieder tagsüber ohne Umstieg von Jena nach Berlin. Der Zug startet morgens um 7:13 Uhr und fährt abends zurück. Fahrgastverbände und Politiker hatten sich für die Verbindung starkgemacht.",
+      "blocks": [],
+      "whyGood": "Die Universitätsstadt Jena bekommt eine wichtige Direktverbindung zurück, und Thüringen erhält weitere Direktzüge, etwa nach Wien und Rostock.",
+      "honestNote": "Die Bahn will die Verbindung nur dauerhaft anbieten, wenn genügend Fahrgäste mitfahren.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/jena/fahrplanwechsel-deutsche-bahn-verbindung,ice-berlin-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/cd4ce9fc-5d47-4e22-8c89-fade42ddfac4/AAABoTRmavE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/jena/fahrplanwechsel-deutsche-bahn-verbindung,ice-berlin-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r09",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Schwäbisch Hall",
+      "headline": "Kunsthalle Würth öffnet nach Umbau größer wieder",
+      "teaser": "Nach drei Jahren Umbau ist die Kunsthalle Würth in Schwäbisch Hall wieder offen. Sie hat jetzt 600 Quadratmeter mehr Ausstellungsfläche, insgesamt 3.200. Neu ist ein zusammenhängender Rundgang. Der Eintritt bleibt frei.",
+      "blocks": [],
+      "whyGood": "Eine der größten privaten Kunstsammlungen Europas bleibt für alle kostenlos zugänglich, jetzt auf mehr Fläche.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/wiedereroeffnung-kunsthalle-wuerth-mit-bundespraesident-steinmeier-und-ministerpraesident-oezdemir-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/c8f2b87a-7638-4b46-b4ce-9342229f2680/AAABoTWxKCs/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/wiedereroeffnung-kunsthalle-wuerth-mit-bundespraesident-steinmeier-und-ministerpraesident-oezdemir-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r10",
+      "ressort": "region",
+      "regions": [
+        "BE"
+      ],
+      "kicker": "Berlin",
+      "headline": "Mehr Sprinter und dichterer Takt ab Berlin im neuen Fahrplan",
+      "teaser": "Ab dem 13. Dezember fahren ab Berlin wieder mehr Fernzüge. Nach Hamburg gilt wieder der Halbstundentakt. Nach Stuttgart fährt der Sprinter dreimal statt einmal täglich je Richtung. Auch Jena, Warnemünde, Rostock und Wien sind wieder direkt erreichbar.",
+      "blocks": [],
+      "whyGood": "Wer in Berlin in den Zug steigt, hat bald mehr Direktverbindungen und muss seltener umsteigen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-brandenburg-bahn-fahrplanwechsel-zuege-fernverkehr-sprinter.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Sprinter",
+          "text": "Ein Sprinter ist ein schneller Fernzug mit wenigen Halten. Er braucht deshalb für die Strecke weniger Zeit als ein normaler ICE."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/e7439f4c-9776-4c9b-8a10-685d17fcf145/AAABoTUa97A/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-brandenburg-bahn-fahrplanwechsel-zuege-fernverkehr-sprinter.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r11",
+      "ressort": "region",
+      "regions": [
+        "HH"
+      ],
+      "kicker": "Hamburg-Fischbek",
+      "headline": "Hamburg baut neues Quartier für 5.000 Menschen",
+      "teaser": "Im Süden Hamburgs hat der Bau der „Fischbeker Reethen“ begonnen. Dort entstehen 2.300 Wohnungen, die Hälfte davon Sozialwohnungen. Es gibt auch einen See, Kitas, ein Jugendheim und eine Stadtteilschule.",
+      "blocks": [],
+      "whyGood": "Hamburg schafft auf 70 Hektar viel neuen Wohnraum, der auch für Familien mit kleinerem Budget gedacht ist.",
+      "honestNote": "Das ganze Quartier soll erst in 10 bis 15 Jahren fertig sein.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/wohnraum-fuer-5000-menschen-hamburg-baut-fischbeker-reethen,fischbeker-reethen-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/9f5b7757-ca2f-42fd-bb8b-ae57dbe0d264/AAABoTCIiCI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/hamburg/wohnraum-fuer-5000-menschen-hamburg-baut-fischbeker-reethen,fischbeker-reethen-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r12",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Frankfurt",
+      "headline": "Gitarrist Finn Heine (23) gewinnt das Frankfurter Jazzstipendium",
+      "teaser": "Der Gitarrist Finn Heine ist 23 Jahre alt und lebt schon von seiner Musik. Mit seiner Bigband mit 17 Mitgliedern gewinnt er das Frankfurter Jazzstipendium von 10.000 Euro. Beim Deutschen Jazzfestival spielt er mit Saxophonist Darius Blair.",
+      "blocks": [],
+      "whyGood": "Ein junger Musiker erfüllt sich gleich zwei Träume und kann seine Bigband anständig bezahlen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/kultur/fuer-jungen-gitarristen-wird-beim-deutschen-jazzfestival-ein-traum-wahr-v1,finn-heine-jazzfestival-106.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/4054488f-64f0-407c-8871-9fc9f949af09/AAABoTYMtOw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/kultur/fuer-jungen-gitarristen-wird-beim-deutschen-jazzfestival-ein-traum-wahr-v1,finn-heine-jazzfestival-106.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r13",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Stuer",
+      "headline": "Bärenwald Müritz feiert 20. Geburtstag",
+      "teaser": "Der Bärenwald Müritz bei Stuer besteht seit 20 Jahren. Die Tierschutzorganisation VIER PFOTEN betreibt das Schutzzentrum. Seit 2006 fanden dort mehr als 30 Braunbären aus Zoos, Zirkussen und privater Haltung ein neues Zuhause.",
+      "blocks": [],
+      "whyGood": "Elf gerettete Braunbären leben heute auf mehr als 16 Hektar in einem artgerechten Zuhause.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/baerenwald-mueritz-bei-stuer-feiert-seinen-20-geburtstag,mvregioneubrandenburg-5492.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/b2bd203e-7c98-4fea-b458-e7371bdfe444/AAABoTWKfDY/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/baerenwald-mueritz-bei-stuer-feiert-seinen-20-geburtstag,mvregioneubrandenburg-5492.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r14",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Demmin",
+      "headline": "Demmin hat die erste „Geri Nurse“ in Mecklenburg-Vorpommern",
+      "teaser": "Das Kreiskrankenhaus Demmin stärkt die Altersmedizin. Martin Rumi ist dort der erste „Geri Nurse“ im Land. Er koordiniert Ärzte, Pflegekräfte und Therapeuten, damit ältere Patienten nach Verletzungen wieder selbstständig leben können.",
+      "blocks": [],
+      "whyGood": "Ältere Menschen werden in Demmin gezielt so gestärkt, dass sie nach einer Verletzung wieder zu Hause leben können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/demmin-erste-geri-nurse-des-landes-im-kreiskrankenhaus,mvregioneubrandenburg-5488.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Geriatrie",
+          "text": "Geriatrie ist die Altersmedizin. Sie kümmert sich um die Gesundheit und Behandlung älterer Menschen."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/9fb083cb-e519-48e0-8ea4-365c223b0011/AAABoTU-a48/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/demmin-erste-geri-nurse-des-landes-im-kreiskrankenhaus,mvregioneubrandenburg-5488.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r15",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Damme",
+      "headline": "Riesen-Dino „eLise“ zieht nach Damme um",
+      "teaser": "Das lebensgroße Camarasaurus-Modell „eLise“ ist von Bad Essen nach Damme gezogen. Es ist 15,5 Meter lang und wiegt 11,5 Tonnen. In Damme soll die Dino-Dame „Klimabotschafterin“ in einem neuen CO2-neutralen Wohnviertel werden.",
+      "blocks": [],
+      "whyGood": "Ein Dinosaurier bekommt nach 26 Jahren ein neues Zuhause und wirbt dort für Klimaschutz.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/dino-im-strassenverkehr-ein-15-meter-koloss-zieht-um,aktuellosnabrueck-2906.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/3611f9db-adfc-421b-b56c-3cdf7066b35c/AAABoS69DjM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/dino-im-strassenverkehr-ein-15-meter-koloss-zieht-um,aktuellosnabrueck-2906.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r16",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Weilerswist",
+      "headline": "Vier Kinder finden Geld und suchen den Besitzer",
+      "teaser": "Auf dem Weg zur Grundschule finden Sofia, Manuel, Damián und Matteo in Weilerswist mehrere hundert Euro. Sie fragen an Haustüren nach, bis ein Mann das Geld zum Fundbüro bringt. Der Besitzer ist dankbar und gibt 100 Euro Finderlohn für die Kinder.",
+      "blocks": [],
+      "whyGood": "Die Kinder behalten das Geld nicht, sondern suchen den Besitzer, und ihre Ehrlichkeit wird belohnt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/aachen-eifel/kreis-euskirchen/finderlohn-kinder-siebenhundert-euro-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Finderlohn",
+          "text": "Finderlohn ist eine Belohnung, die der Besitzer einer verlorenen Sache dem ehrlichen Finder gibt."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/769cc8f4-bcb3-4ace-b394-b85318b7562e/AAABoTa-ZCI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/aachen-eifel/kreis-euskirchen/finderlohn-kinder-siebenhundert-euro-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r17",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Koblenz",
+      "headline": "Koblenz bekommt zweite ICE-Direktverbindung nach Berlin",
+      "teaser": "Mit dem neuen Fahrplan ab dem 13. Dezember 2026 fährt ein zweiter ICE direkt von Koblenz nach Berlin. Die Züge halten auch in Remagen. In Andernach halten sie in Richtung Berlin. Das meldet die Deutsche Bahn.",
+      "blocks": [],
+      "whyGood": "Wer in Koblenz, Remagen oder Andernach einsteigt, kommt künftig öfter ohne Umstieg in die Hauptstadt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/fahrplanwechsel-deutsche-bahn-2026-das-aendert-sich-fuer-rheinland-pfalz-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/6f806139-cb8a-4aa6-ab53-bcbffd148491/AAABoTUn0pM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/fahrplanwechsel-deutsche-bahn-2026-das-aendert-sich-fuer-rheinland-pfalz-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r18",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarbrücken",
+      "headline": "Saarbrücken bekommt ICE-Direktverbindung nach Hamburg",
+      "teaser": "Zum Fahrplanwechsel am 13. Dezember fährt ein ICE direkt von Saarbrücken nach Hamburg. Er startet um 9.27 Uhr und kommt um 15.36 Uhr an. Tickets gibt es ab Mittwoch. Oberbürgermeister Uwe Conradt nennt die Verbindung eine gute Nachricht.",
+      "blocks": [],
+      "whyGood": "Wer im Saarland wohnt, kommt bald ohne Umsteigen in den Norden.",
+      "honestNote": "Die Direktverbindung gilt zunächst nur vorübergehend, denn ab dem 14. August fährt der Zug wegen Bauarbeiten nur noch bis Frankfurt.",
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/nachrichten/panorama/neue_direktverbindung_zug_saarbruecken_hamburg_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/833bdbbe-6083-47a5-a462-1b177ed65741/AAABoTamguo/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/nachrichten/panorama/neue_direktverbindung_zug_saarbruecken_hamburg_100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r19",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Annaberg-Buchholz",
+      "headline": "555 Weihnachtsstollen reifen im alten Silberbergwerk",
+      "teaser": "In Annaberg-Buchholz haben Bäcker 555 Stollen in das Besucherbergwerk \"Zum Gößner\" getragen. Dort reifen sie drei Wochen lang in 14 Metern Tiefe. Das Klima unter Tage ist fast immer gleich, das soll das Aroma verbessern.",
+      "blocks": [],
+      "whyGood": "Eine alte Bergwerkstradition bekommt neues Leben, und Besucher können die Stollen bei einer Führung unter Tage sehen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/chemnitz/annaberg-aue-schwarzenberg/reifezeit-klima-weihnachtsgebaeck,stollen-bergwerk-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/3f45ab6e-9d31-4f1d-995a-1b5a1f40c2dc/AAABoTUij3U/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/chemnitz/annaberg-aue-schwarzenberg/reifezeit-klima-weihnachtsgebaeck,stollen-bergwerk-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r20",
+      "ressort": "region",
+      "regions": [
+        "ST"
+      ],
+      "kicker": "Sachsen-Anhalt",
+      "headline": "Pflegeplatzfinder in Sachsen-Anhalt schon 15.000 Mal genutzt",
+      "teaser": "Seit dem Start am 22. September gab es mehr als 15.000 Suchanfragen. Davon kamen über 9.500 über die Webseite und mehr als 5.700 über die Apps. 460 Einrichtungen machen mit, das sind mehr als 85 Prozent der vollstationären Pflegeheime im Land.",
+      "blocks": [],
+      "whyGood": "Pflegebedürftige und ihre Angehörigen müssen nicht mehr so viel herumtelefonieren, um einen freien Platz zu finden.",
+      "honestNote": "Ob aus einer Suche am Ende ein belegter Pflegeplatz wird, erfasst das Portal nicht.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/suche-digital,pflegeplatz-finder-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/4c230b17-16d8-416e-a16f-a5be5a2253e9/AAABoTT0LV4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/suche-digital,pflegeplatz-finder-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-14-r21",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Haidmühle",
+      "headline": "Bunte Trafostation bei Haidmühle schützt vor Stromausfall",
+      "teaser": "Bei Haidmühle entsteht Deutschlands erste „Übergabeschutzstation“. Bayernwerk und der tschechische Partner EG.D bauen sechs solcher Stationen, drei in Deutschland und drei in Tschechien. Bei Störungen kann Strom aus dem Nachbarland fließen, für jeweils rund 500 Haushalte.",
+      "blocks": [],
+      "whyGood": "Das Stromnetz im Bayerischen Wald wird widerstandsfähiger, und ein Ort, an dem einst der Eiserne Vorhang verlief, wird zum Beispiel für Zusammenarbeit.",
+      "honestNote": "Die Leitungen sind nur für Notfälle gedacht, im Alltag werden sie nicht genutzt.",
+      "sources": [
+        {
+          "name": "BR24 Niederbayern",
+          "url": "https://www.br.de/nachrichten/bayern/erste-uebergabeschutzstation-deutschlands-ist-in-haidmuehle,VXqqlUh",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/f856531f-9086-40c9-a32d-c113d4a7ff10.png?q=80&rect=236%2C0%2C1684%2C948&w=1600&h=900",
+        "credit": "BR24 Niederbayern",
+        "source": "https://www.br.de/nachrichten/bayern/erste-uebergabeschutzstation-deutschlands-ist-in-haidmuehle,VXqqlUh",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Ahorn-Hähnchen mit Rosenkohl und Pekannüssen",
+    "intro": "Jetzt im Herbst ist Rosenkohl-Zeit. Mit der würzigen Ahornsauce und knackigen Pekannüssen wird daraus in 45 Minuten ein Pfannengericht, das nach mehr schmeckt.",
+    "servings": 4,
+    "minutes": 45,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "cm",
+        "item": "Ingwer, geschält und fein gerieben"
+      },
+      {
+        "amount": 3,
+        "unit": "Stück",
+        "item": "Knoblauchzehen, fein gehackt"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "Bourbon"
+      },
+      {
+        "amount": 80,
+        "unit": "ml",
+        "item": "Ahornsirup"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "Apfelessig"
+      },
+      {
+        "amount": 0.25,
+        "unit": "TL",
+        "item": "Chiliflocken"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "Speisestärke, geteilt"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "salzarme Sojasauce"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "item": "salzarme Sojasauce für das Hähnchen"
+      },
+      {
+        "amount": 120,
+        "unit": "ml",
+        "item": "Wasser"
+      },
+      {
+        "amount": 680,
+        "unit": "g",
+        "item": "Hähnchenbrust ohne Haut und Knochen"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "Pflanzenöl, bei Bedarf mehr"
+      },
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "Rosenkohl, halbiert, Blätter gelöst"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "item": "gesalzene geröstete Pekannüsse, grob gehackt"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "gedämpfter Reis zum Servieren (optional)"
+      }
+    ],
+    "steps": [
+      "Ingwer, Knoblauch, Bourbon, Ahornsirup, Essig, Chiliflocken, 1 EL Stärke, 60 ml Sojasauce und das Wasser verrühren. Die Sauce beiseitestellen.",
+      "Hähnchenbrust quer halbieren und gegen die Faser in dünne Scheiben schneiden. Mit 1 EL Stärke und 1 EL Sojasauce vermengen.",
+      "2 EL Öl in einer großen Pfanne erhitzen. Den Rosenkohl etwa 5 Minuten braten, selten wenden, bis er bissfest und stellenweise dunkel ist. In eine Schüssel geben.",
+      "Bei Bedarf etwas Öl nachgeben. Das Hähnchen in einer Lage etwa 5 Minuten braten, bis es goldbraun und gar ist. Portionsweise, falls die Pfanne zu voll wird. Zum Rosenkohl geben.",
+      "Die Sauce in die Pfanne gießen, aufkochen und unter ständigem Rühren etwa 1 Minute eindicken lassen. Pfanne vom Herd ziehen.",
+      "Rosenkohl und Hähnchen zurück in die Pfanne geben, Pekannüsse darüberstreuen und alles in der Sauce schwenken. Mit Reis servieren."
+    ],
+    "tip": "Wer keinen Bourbon im Haus hat, nimmt einfach etwas mehr Apfelessig und Wasser. Dann wird die Sauce etwas milder.",
+    "icon": "leaf.fill",
+    "source": {
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/recipe/maple-bourbon-chicken-brussels-sprouts"
+    }
+  }
+}
