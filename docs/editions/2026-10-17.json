@@ -1,0 +1,2093 @@
+{
+  "date": "2026-10-17",
+  "number": 19,
+  "isSample": false,
+  "leadStoryID": "2026-10-17-01",
+  "stories": [
+    {
+      "id": "2026-10-17-01",
+      "ressort": "natur",
+      "kicker": "Colorado",
+      "headline": "Colorados Wildtierbrücke über die I-25 wirkt",
+      "teaser": "Bären, Wapitis und Elche queren die Autobahn jetzt sicher. Nach zehn Monaten zeigen die Zahlen, wie gut die größte Wildtierbrücke Nordamerikas funktioniert.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 91,
+          "label": "weniger Zusammenstöße mit Wildtieren",
+          "caption": "Erwartet hatte man 90 Prozent. Nach zehn Monaten ist der Wert sogar etwas besser."
+        },
+        {
+          "type": "bigNumber",
+          "value": "3.900",
+          "unit": "Quadratmeter",
+          "caption": "misst die Brücke bei Larkspur. Sie ist die größte Wildtierbrücke Nordamerikas.",
+          "icon": "tree.fill"
+        },
+        {
+          "type": "map",
+          "place": "Larkspur, Colorado",
+          "latitude": 39.22,
+          "longitude": -104.89,
+          "caption": "Die Brücke führt über die Interstate 25."
+        }
+      ],
+      "whyGood": "Tiere und Menschen sind auf der Straße sicherer. Gabelböcke wandern seit 30 Jahren zum ersten Mal wieder über die Autobahn, und sechs weitere Wildtierbrücken werden geplant.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/north-americas-largest-wildlife-overpass-is-working-animal-collisions-on-i-25-down-91/",
+          "language": "Englisch"
+        },
+        {
+          "name": "Positive News",
+          "url": "https://www.positive.news/society/good-news-stories-from-week-42-of-2026/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 8,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Gabelböcke",
+          "text": "Gabelböcke sind schlanke Huftiere aus Nordamerika. Sie legen auf ihren Wanderungen weite Strecken zurück."
+        }
+      ],
+      "guess": {
+        "question": "Wie breit ist die Wildtierbrücke über die Autobahn bei Larkspur?",
+        "options": [
+          "Etwa 6 Meter",
+          "Etwa 60 Meter",
+          "Etwa 600 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Die Brücke ist etwa 61 Meter breit und etwa 64 Meter lang. Das ist riesig für eine Tierbrücke.",
+        "icon": "tree.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-Colorado-Department-of-Transportation.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/north-americas-largest-wildlife-overpass-is-working-animal-collisions-on-i-25-down-91/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-02",
+      "ressort": "technik",
+      "kicker": "Istanbul",
+      "headline": "Schüler baut Notfall-App für Katastrophen ohne Handynetz",
+      "teaser": "Der 17 Jahre alte Emirhan Duman aus Istanbul hat Crisis Connect entwickelt. Die App soll Menschen verbinden, wenn Mobilfunk und Internet ausfallen.",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "So funktioniert Crisis Connect",
+          "items": [
+            "Vor dem Notfall verbindet man sich per QR-Code mit Familie und Nachbarn.",
+            "Im Notfall schaltet man die Weiterleitung ein.",
+            "Nachrichten hüpfen von Handy zu Handy, bis sie ankommen."
+          ],
+          "icons": [
+            "person.2.fill",
+            "antenna.radiowaves.left.and.right",
+            "phone.fill"
+          ]
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die App ist kostenlos im App Store und bei Google Play.",
+            "Der Code ist Open Source und für Entwickler in aller Welt offen.",
+            "Dazu gibt es SOS-Signal, Kompass und Standort senden."
+          ],
+          "icons": [
+            "gift.fill",
+            "cpu",
+            "mappin"
+          ]
+        }
+      ],
+      "whyGood": "Ein Jugendlicher macht aus der Erfahrung eines schweren Erdbebens ein Werkzeug, das anderen helfen kann. Jeder darf es kostenlos nutzen und weiterentwickeln.",
+      "honestNote": "Die App ersetzt keine Satelliten, keinen Notfallfunk und keine offiziellen Warnsysteme, und man muss sie vor dem Notfall einrichten.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/teens-disaster-messaging-app-can-hop-across-bluetooth-when-cellular-networks-collapse/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "TR",
+      "terms": [
+        {
+          "term": "Open Source",
+          "text": "Der Bauplan der App ist öffentlich. Jeder darf ihn ansehen, nutzen und verbessern."
+        }
+      ],
+      "guess": {
+        "question": "Wie verbindet man sich in der App vorab mit Familie und Nachbarn?",
+        "options": [
+          "Per QR-Code scannen",
+          "Per Telefonnummer-Suche",
+          "Über ein Passwort per Post"
+        ],
+        "answer": 0,
+        "reveal": "Vor dem Notfall koppelt man sich per QR-Code. Im Ernstfall hüpfen Nachrichten dann von Handy zu Handy, bis sie ankommen.",
+        "icon": "antenna.radiowaves.left.and.right"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Crisis-Connect-Press-1400x700-1.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/teens-disaster-messaging-app-can-hop-across-bluetooth-when-cellular-networks-collapse/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-03",
+      "ressort": "wissenschaft",
+      "kicker": "Astronomie",
+      "headline": "Erster grüner Stern entdeckt",
+      "teaser": "Ein Weißer Zwerg leuchtet grün. Forschende aus Warwick zeigen: Alte Sterne können viele Farben haben, nicht nur Weiß.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "326",
+          "unit": "Lichtjahre",
+          "caption": "entfernt leuchtet der erste bekannte grüne Stern, WD J1330+6435.",
+          "icon": "sparkles"
+        },
+        {
+          "type": "share",
+          "value": 3,
+          "label": "ungewöhnlich gefärbte Weiße Zwerge",
+          "caption": "Nur fünf von 151 Weißen Zwergen in der Nähe der Erde zeigen eine besondere Farbe. Die meisten bleiben weiß."
+        }
+      ],
+      "whyGood": "Das Universum ist bunter als gedacht. Ein alter Stern zeigt uns, was in dichter Materie möglich ist, und die Forschung entdeckt wieder etwas Neues am Himmel.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SPIEGEL Wissenschaft",
+          "url": "https://www.spiegel.de/wissenschaft/weltall/wd-j1330-6435-forscher-finden-gruenen-zwerg-im-weltall-a-5c2d49d8-8ff3-4098-9e67-2cbc21be5ed8#ref=rss",
+          "language": "Deutsch"
+        },
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/erster-gruener-stern-entdeckt-warum-dieser-weisse-zwerg-farbig-leuchtet-1768576/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Weißer Zwerg",
+          "text": "Ein Weißer Zwerg ist ein kleiner, sehr dichter, alter Stern. Er bleibt übrig, wenn einem Stern wie der Sonne der Brennstoff ausgeht."
+        }
+      ],
+      "guess": {
+        "question": "Wie weit ist der erste grüne Stern von der Erde entfernt?",
+        "options": [
+          "Etwa 33 Lichtjahre",
+          "Etwa 326 Lichtjahre",
+          "Etwa 3.260 Lichtjahre"
+        ],
+        "answer": 1,
+        "reveal": "Der grüne Weiße Zwerg WD J1330+6435 ist etwa 326 Lichtjahre von uns entfernt.",
+        "icon": "telescope.fill"
+      },
+      "image": {
+        "url": "https://cdn.t3n.de/news/wp-content/uploads/2023/07/shutterstock_197326970.jpg?class=content",
+        "credit": "t3n",
+        "source": "https://t3n.de/news/erster-gruener-stern-entdeckt-warum-dieser-weisse-zwerg-farbig-leuchtet-1768576/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-04",
+      "ressort": "gesundheit",
+      "kicker": "Gesundheit",
+      "headline": "Neues Implantat kann Sehkraft bei Makuladegeneration zurückbringen",
+      "teaser": "Das PRIMA-System ist in Europa zugelassen. Es soll Menschen helfen, deren Netzhaut durch Makuladegeneration geschädigt ist.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "5",
+          "unit": "Mio. Menschen",
+          "caption": "weltweit haben eine altersbedingte Makuladegeneration, bei der die Netzhaut verkümmert",
+          "icon": "person.3.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Das PRIMA-System ist in Europa seit Juli zugelassen.",
+            "In den USA wartet es noch auf die Freigabe der FDA.",
+            "Bisher konnte keine Behandlung das Sehen zurückbringen."
+          ],
+          "icons": [
+            "calendar",
+            "building.columns.fill",
+            "stethoscope"
+          ]
+        }
+      ],
+      "whyGood": "Für Millionen Menschen gab es bisher keine Behandlung, die das Sehen zurückbringt. Nun gibt es in Europa erstmals ein zugelassenes System dafür.",
+      "honestNote": "In den USA fehlt noch die Zulassung durch die FDA.",
+      "sources": [
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": null,
+      "terms": [
+        {
+          "term": "Makuladegeneration",
+          "text": "Eine Augenkrankheit, bei der die Mitte der Netzhaut nach und nach schwächer wird. Dann sieht man genau dort, wo man hinschaut, immer schlechter."
+        },
+        {
+          "term": "Netzhaut",
+          "text": "Die Netzhaut ist die Schicht hinten im Auge. Sie fängt Licht auf und gibt Bilder an das Gehirn weiter."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Menschen weltweit haben eine altersbedingte Makuladegeneration mit Netzhautschwund?",
+        "options": [
+          "Etwa 500.000",
+          "Mehr als 5 Millionen",
+          "Mehr als 50 Millionen"
+        ],
+        "answer": 1,
+        "reveal": "Mehr als 5 Millionen Menschen sind betroffen. Für sie gab es bisher keine Behandlung, die das Sehen zurückbringt.",
+        "icon": "stethoscope"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/A_woman%27s_eye.JPG/1280px-A_woman%27s_eye.JPG",
+        "credit": "Petar Milošević, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_woman%27s_eye.JPG",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-10-17-05",
+      "ressort": "architektur",
+      "kicker": "Bangladesch",
+      "headline": "Fabrik in Bangladesch gewinnt internationalen Architekturpreis",
+      "teaser": "Die Teppichfabrik Green Field Factory in Rangpur ist das beste neue Gebäude außerhalb Großbritanniens. Alle nutzen denselben Eingang.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "5.000",
+          "unit": "Beschäftigte",
+          "caption": "arbeiten in der Fabrik, die auf ihr Wohlbefinden ausgelegt ist",
+          "icon": "person.3.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Ein Haupteingang und zwei große Treppen für alle Beschäftigten",
+            "Kita auf dem Dach, Arztpraxis, Laden und Gebetsraum",
+            "Innenhöfe, Veranden und Pflanzen bringen Licht und frische Luft"
+          ],
+          "icons": [
+            "building.2.fill",
+            "figure.and.child.holdinghands",
+            "leaf.fill"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Rangpur, Bangladesch",
+          "latitude": 25.75,
+          "longitude": 89.25,
+          "caption": "Hier steht die siebenstöckige Fabrik zwischen Feldern und kleinen Siedlungen."
+        }
+      ],
+      "whyGood": "Die Fabrik zeigt, dass gute Architektur Arbeit würdiger machen kann. Sie stärkt vor allem die Frauen, die dort arbeiten, und schont zugleich die Umwelt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/16/green-field-factory-nakshabid-architects-riba-international-prize/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "BD",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Menschen arbeiten in dieser Teppichfabrik?",
+        "options": [
+          "Etwa 50",
+          "Etwa 500",
+          "Etwa 5.000"
+        ],
+        "answer": 2,
+        "reveal": "Rund 5.000 Menschen arbeiten in der Fabrik in Rangpur.",
+        "icon": "building.2.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://static.dezeen.com/uploads/2026/10/green-field-factory-nakshabid-architects-riba-international-prize_dezeen_2364_hero_1.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/10/16/green-field-factory-nakshabid-architects-riba-international-prize/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-06",
+      "ressort": "design",
+      "kicker": "Japan",
+      "headline": "Toyota entwirft einen Rollstuhl, der auf vier Beinen Treppen steigt",
+      "teaser": "Der Entwurf „walk me“ hat den höchsten Preis des Red Dot Award: Design Concept 2026 gewonnen. Er soll Menschen mit eingeschränkter Mobilität neue Wege öffnen.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "10",
+          "unit": "Monate",
+          "caption": "dauerte der Weg von der Idee bis zum funktionierenden Prototyp",
+          "icon": "clock.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Vier Roboterbeine steigen Stufen und gehen seitlich durch enge Räume",
+            "Der Sitz hebt sich auf Augenhöhe mit Menschen, die stehen",
+            "Gelenke stecken in 3D-gestricktem Stoff, der Körper wirkt wie weicher Filz"
+          ],
+          "icons": [
+            "figure.walk",
+            "person.2.fill",
+            "tshirt.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Von der Webmaschine zum Roboter",
+          "text": "Toyota begann als Hersteller von Webstühlen. Das Design von „walk me“ folgt dem Omotenashi, der japanischen Gastfreundschaft. Die Haltung des Stuhls erinnert an eine höfliche Verbeugung."
+        }
+      ],
+      "whyGood": "Treppen und Bordsteine sind für viele Menschen im Rollstuhl ein Hindernis im Alltag. Dieser Entwurf zeigt, wie Technik sie überwinden und Gespräche auf Augenhöhe möglich machen kann.",
+      "honestNote": "Bisher ist „walk me“ ein Konzept, einen Preis oder Verkaufsstart gibt es nicht.",
+      "sources": [
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/16/toyotas-wheel-less-wheelchair-wins-the-2026-red-dot-concept-luminary-award/?utm_source=rss&utm_medium=rss&utm_campaign=toyotas-wheel-less-wheelchair-wins-the-2026-red-dot-concept-luminary-award",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "JP",
+      "terms": [
+        {
+          "term": "Omotenashi",
+          "text": "Das ist ein japanisches Wort für Gastfreundschaft. Man kümmert sich dabei von Herzen darum, dass sich andere willkommen fühlen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange brauchte Toyota von der Idee bis zum laufenden Prototyp?",
+        "options": [
+          "10 Monate",
+          "3 Jahre",
+          "7 Jahre"
+        ],
+        "answer": 0,
+        "reveal": "Nur 10 Monate, dank KI-Steuerung des Gangs und sparsamem 3D-Druck von Metall.",
+        "icon": "figure.walk"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.yankodesign.com/images/design_news/2026/10/toyotas-wheel-less-wheelchair-wins-the-2026-red-dot-concept-luminary-award/toyota_walk_me_chair_red_dot_luminary_1.jpeg",
+        "credit": "Yanko Design",
+        "source": "https://www.yankodesign.com/2026/10/16/toyotas-wheel-less-wheelchair-wins-the-2026-red-dot-concept-luminary-award/?utm_source=rss&utm_medium=rss&utm_campaign=toyotas-wheel-less-wheelchair-wins-the-2026-red-dot-concept-luminary-award",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-07",
+      "ressort": "kurioses",
+      "kicker": "Niederlande",
+      "headline": "Zoo in den Niederlanden gibt verletztem Vogel einen neuen Schnabel",
+      "teaser": "Ein Südlicher Hornrabe bekommt Ersatz für Ober- und Unterschnabel. Weltweit ist er damit der erste Vogel mit dieser Versorgung.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Ein Südlicher Hornrabe in einem Zoo in den Niederlanden war verletzt.",
+            "Er hat Prothesen für Oberschnabel und Unterschnabel bekommen.",
+            "Die Prothesen stammen aus dem 3D-Drucker."
+          ],
+          "icons": [
+            "bird.fill",
+            "heart.fill",
+            "gearshape.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was ist eine Prothese?",
+          "text": "Eine Prothese ersetzt einen verletzten oder fehlenden Körperteil. Hier ersetzt sie Teile des Schnabels. Gedruckt wurde sie Schicht für Schicht nach einem Entwurf am Computer."
+        }
+      ],
+      "whyGood": "Ein verletzter Vogel bekommt dank neuer Technik einen Ersatzschnabel. Das zeigt, wie Tieren in Zoos besser geholfen werden kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/16/netherlands-artis-zoo-hornbill-prosthetic-beak/3041792171720/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "NL",
+      "terms": [
+        {
+          "term": "Prothese",
+          "text": "Eine Prothese ersetzt einen Körperteil, der verletzt ist oder fehlt. Sie wird so gebaut, dass sie die Aufgabe des Körperteils übernehmen kann."
+        }
+      ],
+      "guess": {
+        "question": "Wie wurde der Ersatzschnabel für den Vogel hergestellt?",
+        "options": [
+          "Von Hand aus Holz geschnitzt",
+          "Mit einem 3D-Drucker gedruckt",
+          "In einer Form aus Metall gegossen"
+        ],
+        "answer": 1,
+        "reveal": "Die Schnabelprothesen wurden mit einem 3D-Drucker hergestellt.",
+        "icon": "bird.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Southern_Ground_Hornbill_%28Bucorvus_leadbeateri%29_male%2C_Kruger_NP_%2851889201069%29.jpg/1280px-Southern_Ground_Hornbill_%28Bucorvus_leadbeateri%29_male%2C_Kruger_NP_%2851889201069%29.jpg",
+        "credit": "Bernard DUPONT from FRANCE, CC BY-SA 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Southern_Ground_Hornbill_(Bucorvus_leadbeateri)_male,_Kruger_NP_(51889201069).jpg",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-10-17-08",
+      "ressort": "zukunft",
+      "kicker": "North Carolina",
+      "headline": "Spezialstoff schützt Erdbeeren vor Insekten",
+      "teaser": "Ein neues Gewebe hält Schädlinge fern und lässt Licht, Regen und Luft durch. Forschende in den USA testeten es auf Feldern.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "3,56",
+          "unit": "mal",
+          "caption": "so hoch war der Ertrag im besten Fall, verglichen mit Pflanzen ohne Decke",
+          "icon": "chart.line.uptrend.xyaxis"
+        },
+        {
+          "type": "steps",
+          "title": "So funktioniert Plant Armor",
+          "items": [
+            "Der Stoff wird einfach über das Erdbeerbeet gelegt.",
+            "Seine dreidimensionale Struktur hält Insekten von den Pflanzen ab.",
+            "Sonne, Regen und Luft kommen durch die Schichten, es bleibt gleichmäßig warm."
+          ],
+          "icons": [
+            "leaf.fill",
+            "ladybug.fill",
+            "sun.max.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Von der Uniform zum Feld",
+          "text": "Plant Armor entstand als Nebenprodukt. Ursprünglich wollten die Forschenden Militäruniformen so gestalten, dass Mücken nicht durchstechen. Danach passten sie den Stoff für den Anbau an."
+        }
+      ],
+      "whyGood": "Mehr Erdbeeren vom selben Beet, und das mit weniger Wasser und weniger Pestiziden. Das hilft Landwirten und der Umwelt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/drape-some-of-this-plant-armor-fabric-over-a-strawberry-patch-to-triple-yields-with-less-pesticides/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Pestiziden",
+          "text": "Pestizide sind Mittel, die Insekten und andere Schädlinge auf Feldern abtöten oder vertreiben."
+        }
+      ],
+      "guess": {
+        "question": "Um wie viel stieg die Ernte der Erdbeeren unter dem Stoff im Test?",
+        "options": [
+          "Um etwa ein Zehntel",
+          "Auf etwa das Doppelte",
+          "Auf mehr als das Dreifache"
+        ],
+        "answer": 2,
+        "reveal": "Im Feldtest brachten die Pflanzen unter dem Stoff bis zu 3,56 mal so viele Früchte.",
+        "icon": "leaf.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Left-uncovered-strawberry-yield-right-yield-from-strawberries-grown-with-Plant-Armor-credit-Gabriel-Olawuyi-released-by-NCSU.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/drape-some-of-this-plant-armor-fabric-over-a-strawberry-patch-to-triple-yields-with-less-pesticides/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-09",
+      "ressort": "sport",
+      "kicker": "Tischtennis",
+      "headline": "Duda und Mittelham holen Mixed-Gold bei der Tischtennis-EM",
+      "teaser": "Das deutsche Duo besiegt in Ljubljana die favorisierten Französinnen und Franzosen. Es ist das erste Gold für Deutschland bei dieser EM.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 6,
+          "icon": "person.fill",
+          "caption": "deutsche Spielerinnen und Spieler stehen in den Einzel-Viertelfinals"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Finale gegen Lebrun/Lutz, die an Position zwei gesetzt waren",
+            "Endstand im Finale: 3:2 nach Sätzen",
+            "Mittelham holte mit Annett Kaufmann schon Doppel-Bronze"
+          ],
+          "icons": [
+            "trophy.fill",
+            "chart.bar.fill",
+            "medal.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein Team aus Linkshänder und Rechtshänderin hat im Finale bis zum letzten Ballwechsel gekämpft und gewonnen. Weitere Medaillen für Deutschland sind möglich.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/regional/wdr/wdr-dudamittelham-holen-gold-bei-tischtennis-em-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Mixed",
+          "text": "Im Mixed spielt in jedem Team eine Frau mit einem Mann zusammen gegen ein anderes Team aus Frau und Mann."
+        }
+      ],
+      "guess": {
+        "question": "Wie endete der Entscheidungssatz im Finale?",
+        "options": [
+          "11:9",
+          "17:15",
+          "21:19"
+        ],
+        "answer": 1,
+        "reveal": "Der Satz ging in die Verlängerung und endete 17:15 für Duda und Mittelham.",
+        "icon": "trophy.fill"
+      },
+      "image": {
+        "url": "https://images.sportschau.de/image/b60df8e8-1ade-4f39-8b1a-2c5fc5d1c32b/AAABoUZQm9M/AAABnSSvrFg/16x9-big/wdr-benedikt-duda-und-nina-mittelham-bei-den-tischtennis-europameisterschaften-100.jpg?width=1280",
+        "credit": "Sportschau",
+        "source": "https://www.sportschau.de/regional/wdr/wdr-dudamittelham-holen-gold-bei-tischtennis-em-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-10",
+      "ressort": "autos",
+      "kicker": "Brandenburg",
+      "headline": "Heidekrautbahn: Wasserstoff- und Akkuzüge laufen stabil",
+      "teaser": "Seit Dezember 2024 fährt die Niederbarnimer Eisenbahn mit alternativen Antrieben. Nach dem holprigen Start zieht sie eine positive Zwischenbilanz.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "31,2",
+          "unit": "Mio. Euro",
+          "caption": "Fördergeld vom Bund machen das Projekt mit Wasserstoff und Akku möglich",
+          "icon": "eurosign.circle.fill"
+        },
+        {
+          "type": "count",
+          "value": 7,
+          "icon": "tram.fill",
+          "caption": "Wasserstoffzüge fahren auf der Heidekrautbahn"
+        },
+        {
+          "type": "comparison",
+          "title": "Abgerissene Oberleitungen durch Akkuzüge",
+          "before": {
+            "label": "2025",
+            "value": 26,
+            "display": "26 Fälle"
+          },
+          "after": {
+            "label": "2026 bisher",
+            "value": 6,
+            "display": "6 Fälle"
+          }
+        }
+      ],
+      "whyGood": "Züge ohne Diesel fahren in Brandenburg zuverlässig. Beide Techniken sind laut Betreiber wirtschaftlicher als gedacht, und die Anfangsprobleme werden weniger.",
+      "honestNote": "Der Wasserstoff wird noch nicht vor Ort erzeugt, sondern soll bis Ende des Jahres angeliefert werden.",
+      "sources": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/hintergrund/Wasserstoff-und-Akku-Heidekrautbahn-zieht-positive-Bilanz-11491358.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Akkuzüge setzt die Niederbarnimer Eisenbahn ein?",
+        "options": [
+          "5",
+          "31",
+          "310"
+        ],
+        "answer": 1,
+        "reveal": "Die Betreiberin fährt 31 Akkuzüge auf Gleisen der Deutschen Bahn, dazu kommen sieben Wasserstoffzüge.",
+        "icon": "tram.fill"
+      },
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/8/4/4/3/6/Titel-f5bbbde936e49dff.jpeg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "credit": "heise online",
+        "source": "https://www.heise.de/hintergrund/Wasserstoff-und-Akku-Heidekrautbahn-zieht-positive-Bilanz-11491358.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-11",
+      "ressort": "fotografie",
+      "kicker": "Naturfotografie",
+      "headline": "Wildlife Photographer of the Year: Elefantenbild gewinnt",
+      "teaser": "Ein Schwarz-Weiß-Foto aus Namibia ist das Bild des Jahres. Der Wettbewerb erlebte einen Rekord.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "65.403",
+          "unit": "Einsendungen",
+          "caption": "aus 121 Ländern gab es in diesem Jahr. So viele wie noch nie in 62 Jahren.",
+          "icon": "camera.fill"
+        },
+        {
+          "type": "count",
+          "value": 100,
+          "icon": "camera.fill",
+          "caption": "der besten Bilder sind ab dem 16. Oktober im Natural History Museum in London zu sehen"
+        },
+        {
+          "type": "background",
+          "title": "Das Siegerbild",
+          "text": "Federico Veronesi fotografierte in Namibia eine Elefantenkuh, die ihr totes Kalb trägt. Das Schwarz-Weiß-Bild zeigt ein Verhalten, das Forscher noch nicht ganz verstehen. Ausgezeichnet wurden auch Schleimpilze, Kojoten in San Francisco und eine Biene."
+        }
+      ],
+      "whyGood": "Die Bilder zeigen, wie vielfältig und empfindlich die Natur ist. So interessieren sich immer mehr Menschen dafür, sie zu verstehen und zu schützen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Colossal",
+          "url": "https://www.thisiscolossal.com/2026/10/wildlife-photographer-of-the-year-2026-winners/",
+          "language": "Englisch"
+        },
+        {
+          "name": "Condé Nast Traveler",
+          "url": "https://www.cntraveler.com/gallery/the-best-wildlife-photographs-of-the-year-are-here-from-microscopic-slime-molds-to-giant-elephants",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Schleimpilze",
+          "text": "Lebewesen, die weder Tiere noch Pflanzen sind. Sie wachsen oft auf feuchtem Holz oder Laub."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Fotos wurden für den Wettbewerb eingereicht?",
+        "options": [
+          "Rund 6.500",
+          "Rund 65.000",
+          "Rund 650.000"
+        ],
+        "answer": 1,
+        "reveal": "Es waren 65.403 Einsendungen aus 121 Ländern, so viele wie noch nie.",
+        "icon": "camera.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/wpy-4.jpg",
+        "credit": "Colossal",
+        "source": "https://www.thisiscolossal.com/2026/10/wildlife-photographer-of-the-year-2026-winners/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-12",
+      "ressort": "promis",
+      "kicker": "Musik",
+      "headline": "Céline Dion bekommt ihre eigene Barbie",
+      "teaser": "Mattel ehrt die Sängerin mit einer Puppe im Look ihres berühmten Auftritts von 1998. Dion ist nach langer Pause wieder auf der Bühne.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "26",
+          "unit": "Konzerte",
+          "caption": "gibt Céline Dion in Paris, und alle sind ausverkauft",
+          "icon": "music.note"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Puppe trägt das blaue Kleid vom Oscar-Auftritt 1998.",
+            "Dazu gehört eine Kopie der Kette „Herz des Ozeans“ aus „Titanic“.",
+            "Die limitierte Puppe ist bei Mattel Creations vorbestellbar."
+          ],
+          "icons": [
+            "sparkles",
+            "star.fill",
+            "gift.fill"
+          ]
+        }
+      ],
+      "whyGood": "Céline Dion steht nach Jahren mit gesundheitlichen Problemen wieder auf der Bühne. Nun ehrt Mattel ihre vierzigjährige Karriere mit einer eigenen Puppe.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/celine-dion-barbie-doll/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Oscars gewann der Film „Titanic“, aus dem Dions Lied stammt?",
+        "options": [
+          "6",
+          "11",
+          "14"
+        ],
+        "answer": 1,
+        "reveal": "„Titanic“ gewann 11 Oscars bei 14 Nominierungen, auch als bester Film.",
+        "icon": "film.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/celine-dion-barbie-fb.jpg",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/celine-dion-barbie-doll/?adt_ei={{ subscriber.email_address }}",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k01",
+      "ressort": "natur",
+      "kicker": "Amazonas",
+      "headline": "Amazonas: So wenig Abholzung wie nie seit 1988",
+      "teaser": "Im brasilianischen Amazonasgebiet ist die Abholzung auf den niedrigsten Stand seit Beginn der Aufzeichnungen 1988 gesunken. Zwischen August 2025 und Juli 2026 verlor der Regenwald 3.335 Quadratkilometer. Das sind fast 42 Prozent weniger als im Vorjahr.",
+      "blocks": [],
+      "whyGood": "Der Regenwald nimmt große Mengen Treibhausgase auf, und weniger Abholzung hilft dem Klima.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/amerika/brasilien-amazonas-abholzung-tiefstand-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "BR",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/9df055c8-2a0e-49b3-be45-f6b26f18a439/AAABlUJTJ2A/AAABnSSvrFg/16x9-big/amazonas-regenwald-108.jpg?width=1280",
+        "credit": "tagesschau",
+        "source": "https://www.tagesschau.de/ausland/amerika/brasilien-amazonas-abholzung-tiefstand-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k02",
+      "ressort": "architektur",
+      "kicker": "Seoul",
+      "headline": "Seouls Insel Nodeul öffnet erste Bereiche für Besucher",
+      "teaser": "Auf der künstlichen Insel Nodeul im Han-Fluss sind die ersten Uferbereiche offen. Es gibt Gärten, Spielplätze, Picknickflächen und einen 1,5 Kilometer langen Weg. Heatherwick Studio plant dort einen Kulturpark namens Soundscape.",
+      "blocks": [],
+      "whyGood": "Die Menschen in Seoul können eine Insel, die sie lieben, schon jetzt wieder betreten, während der Umbau weitergeht.",
+      "honestNote": "Der größere Umbau mit schwebenden Inseln, Kunstzentrum und Strand ist noch nicht gebaut.",
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/nodeul-island-progress-heatherwick-studio/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "KR",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/09/nodeul-island-progress-thumbnail.jpg",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/nodeul-island-progress-heatherwick-studio/?adt_ei={{ subscriber.email_address }}",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k03",
+      "ressort": "technik",
+      "kicker": "Quantencomputer",
+      "headline": "Google senkt Fehlerquote auf Quantenchip mit neuer Methode",
+      "teaser": "Google-Forscher haben erstmals die Methode „Kultivierung“ auf einem Quantenchip eingesetzt. Sie erzeugt „magische Zustände“ mit weniger Aufwand als bisher. Damit sank die Fehlerquote deutlich. Die Studie erschien im Fachmagazin Science.",
+      "blocks": [],
+      "whyGood": "Ein Problem, das die Quantenforschung seit rund 20 Jahren beschäftigt, rückt der Lösung ein Stück näher.",
+      "honestNote": "Die Methode soll magische Zustände angeblich günstiger herstellen als bisher.",
+      "sources": [
+        {
+          "name": "futurezone",
+          "url": "https://futurezone.at/science/durchbruch-nach-20-jahren-google-knackt-problem-quantencomputer-magische-zustaende-kultivierung/403198677",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Qubit",
+          "text": "Ein Qubit ist die kleinste Recheneinheit eines Quantencomputers. Es kann gleichzeitig 0 und 1 sein, in einer sogenannten Überlagerung."
+        }
+      ],
+      "image": {
+        "url": "https://image.futurezone.at/images/facebook/9360318/q_lab_tour_still006_1.width-1300.jpg?versionId=78c6ffd4250b",
+        "credit": "futurezone",
+        "source": "https://futurezone.at/science/durchbruch-nach-20-jahren-google-knackt-problem-quantencomputer-magische-zustaende-kultivierung/403198677",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k04",
+      "ressort": "wissenschaft",
+      "kicker": "Zeitmessung",
+      "headline": "Weltweit künftig keine Schaltsekunde mehr, sondern Schaltstunde",
+      "teaser": "Die Generalkonferenz für Maß und Gewicht hat vom 13. bis 15. Oktober 2026 bei Paris einen Vorschlag angenommen. Statt der Schaltsekunde soll es eine Schaltstunde geben. Die Weltzeit wird erst angepasst, wenn sie 3600 Sekunden von der Erdrotation abweicht.",
+      "blocks": [],
+      "whyGood": "Computersysteme, Stromnetze und Finanzmärkte müssen künftig nicht mehr alle paar Jahre mit einer störanfälligen Zusatzsekunde zurechtkommen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SPIEGEL Wissenschaft",
+          "url": "https://www.spiegel.de/wissenschaft/schaltsekunde-wird-abgeschafft-wegen-gefahr-einer-minus-schaltsekunde-a-dfd1afc8-f300-495b-a366-d72553edb44d#ref=rss",
+          "language": "Deutsch"
+        },
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/weltzeit-schaltsekunde-wird-zur-schaltstunde/2342477",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "FR",
+      "terms": [
+        {
+          "term": "Schaltsekunde",
+          "text": "Eine Schaltsekunde ist eine zusätzliche Sekunde in der Weltzeit UTC. Sie gleicht die Uhrzeit an die Drehung der Erde an."
+        }
+      ],
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/f1920x1080/GettyImages-1251492878_MOD_21zu9.jpeg",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/weltzeit-schaltsekunde-wird-zur-schaltstunde/2342477",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k05",
+      "ressort": "gesundheit",
+      "kicker": "Krebsforschung",
+      "headline": "Forscher züchten erneuerbaren Nachschub an Krebs-Abwehrzellen",
+      "teaser": "Ein Team der University of Southern California hat unreife Immunzellen im Labor vermehrt und genetisch verändert. Sie erkennen Tumoren und können im Körper immer neue Abwehrzellen bilden. Bei Mäusen bremsten sie Blutkrebs und feste Tumoren.",
+      "blocks": [],
+      "whyGood": "Die Methode könnte Krebstherapien mit Immunzellen leichter herstellbar und länger wirksam machen.",
+      "honestNote": "Die Ergebnisse stammen bisher aus Versuchen mit Mäusen.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015003803.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/body-immune-response-lymphocytes-t-cells-cancer-immunotherapy.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261015003803.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k06",
+      "ressort": "design",
+      "kicker": "Schweiz",
+      "headline": "Ausgediente Autos werden in der Schweiz zu Baumaterial",
+      "teaser": "Der Designer Giona Bierens de Haan zeigt in der Installation „It all remains“, wie alte Autos als Bausteine dienen könnten. In der Schweiz werden jedes Jahr 200.000 Fahrzeuge ausgemustert. Zwei Drittel davon gehen bisher ins Ausland.",
+      "blocks": [],
+      "whyGood": "Das Projekt zeigt, dass Autoschrott ein Rohstoff vor der eigenen Haustür sein kann.",
+      "honestNote": "Es handelt sich um eine konzeptionelle Installation und noch nicht um ein Bauprojekt im Alltag.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/design/reclaiming-swiss-auto-waste-it-all-remains-decommissioned-cars-building-resources-giona-bierens-de-haan/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CH",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/it-all-remains-installation-giona-bierens-de-haan-future-cars-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/design/reclaiming-swiss-auto-waste-it-all-remains-decommissioned-cars-building-resources-giona-bierens-de-haan/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k07",
+      "ressort": "kurioses",
+      "kicker": "Kanada",
+      "headline": "Skateboarder aus Spanien fährt Weltrekord mit 151,8 km/h",
+      "teaser": "Ein Skateboarder aus Spanien hat in Kanada einen Guinness-Weltrekord aufgestellt. Auf einer Abfahrt wurde er mit 151,8 Kilometern pro Stunde gemessen. Das sind 94,34 Meilen pro Stunde.",
+      "blocks": [],
+      "whyGood": "Ein Mensch auf einem Brett schafft ein Tempo, das sonst nur Autos auf der Autobahn erreichen, und holt sich damit einen Weltrekord.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/16/canada-Guinness-World-Records-fastest-skateboard-downhill/3261792164806/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CA",
+      "terms": []
+    },
+    {
+      "id": "2026-10-17-k08",
+      "ressort": "zukunft",
+      "kicker": "Binghamton",
+      "headline": "Biobatterie nach Darm-Vorbild liefert mehr Strom aus Bakterien",
+      "teaser": "Forscher der Binghamton University haben eine Elektrode nach dem Vorbild der Darmzotten gebaut. Im Labor erreichte sie bei gleichem Volumen die 8,3-fache Leistungsdichte einer flachen Elektrode. Das Team um Seokheun Choi nutzt dafür Bakterien, die Strom erzeugen.",
+      "blocks": [],
+      "whyGood": "Die Idee aus der Natur könnte kleine Sensoren künftig mit Strom aus Abwasser versorgen.",
+      "honestNote": "Die flexiblen Prototypen liefen bisher nur im Labor und mit künstlicher Nährlösung statt echtem Abwasser.",
+      "sources": [
+        {
+          "name": "scinexx",
+          "url": "https://www.scinexx.de/news/energie/biobatterien-nach-dem-vorbild-des-darms-koennen-strom-aus-abwasser-gewinnen/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Hydrogel",
+          "text": "Ein Hydrogel ist ein wasserhaltiges Material aus Polymeren. Es ist weich und flexibel."
+        }
+      ],
+      "image": {
+        "url": "https://www.scinexx.de/wp-content/uploads/K/_/Kuenstliche-Darmzotten-bieten-stromerzeugenden-Bakterien-eine-vergroesserte-Oberflaeche-und-sollen-gleichzeitig-ihre-Naehrstoffversorgung-verbessern.webp",
+        "credit": "scinexx",
+        "source": "https://www.scinexx.de/news/energie/biobatterien-nach-dem-vorbild-des-darms-koennen-strom-aus-abwasser-gewinnen/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k09",
+      "ressort": "fotografie",
+      "kicker": "Naturfotografie",
+      "headline": "Eisbär am Atemloch gewinnt Ournature-Fotopreis 2026",
+      "teaser": "Der Norweger Audun Rikardsen gewinnt den Ournature Environmental Photo & Video Award. Sein Bild zeigt einen Eisbären, der durch ein Atemloch im Eis in eine Kamera unter Wasser blickt. Der Belgier Alain Schroeder gewinnt mit seiner Serie über die Rettung von Orang-Utans.",
+      "blocks": [],
+      "whyGood": "Die ausgezeichneten Bilder zeigen die Arktis und den Einsatz für bedrohte Orang-Utans und machen Naturschutz sichtbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/15/a-seals-nightmare-menacing-polar-bear-photo-wins-award/",
+          "language": "Englisch"
+        },
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/ournature-environmental-photo-video-award-2026/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "HU",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/10/Ournature-Environmental-Photo-Video-Awards.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/10/15/a-seals-nightmare-menacing-polar-bear-photo-wins-award/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k10",
+      "ressort": "natur",
+      "kicker": "Great Plains",
+      "headline": "Mehr als 1.000 Bisons leben im größten privaten Naturschutzprojekt",
+      "teaser": "Die Bisonherde von American Prairie in den USA zählt erstmals mehr als 1.000 Tiere. Die Organisation baut seit über 20 Jahren das größte zusammenhängende Wildgebiet der nordamerikanischen Prärie auf. Rund 244.000 Hektar sind schon zusammengekommen.",
+      "blocks": [],
+      "whyGood": "Wo einst Millionen Bisons weideten, wächst wieder eine Herde heran, die ziemlich frei umherziehen kann.",
+      "honestNote": "Bisons gibt es heute nur noch in einem kleinen Bruchteil ihrer früheren Zahl, das Projekt hat sein Flächenziel noch nicht erreicht.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/unnamed.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/largest-private-conservation-project-in-the-us-hits-major-milestone-as-free-roaming-bison-pass-1000/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k11",
+      "ressort": "wissenschaft",
+      "kicker": "Ägypten",
+      "headline": "Neue Krokodilart in Sphinx-Gestein entdeckt",
+      "teaser": "Ein Fossil aus dem Gestein, das schon die alten Ägypter für die Sphinx nutzten, gehört zu einer neuen Art. Ein internationales Team hat den Schädel per CT-Scan untersucht. Das Tier heißt nun Herugavialis cairensis. Wie die Sphinx hat es keine Nasenspitze.",
+      "blocks": [],
+      "whyGood": "Moderne Technik hat einen mehr als 100 Jahre alten Irrtum geklärt und ein altes Fossil neu zum Sprechen gebracht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/an-extinct-crocodilians-skull-was-found-in-the-rocks-that-built-the-sphinx-and-its-also-missing-its-nose/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "EG",
+      "terms": [
+        {
+          "term": "Gavial",
+          "text": "Gaviale sind Verwandte der Krokodile und Alligatoren. Sie haben eine lange, schmale Schnauze."
+        }
+      ],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/low-res_herugavialis_cairensis-e1792061695449.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/an-extinct-crocodilians-skull-was-found-in-the-rocks-that-built-the-sphinx-and-its-also-missing-its-nose/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k12",
+      "ressort": "architektur",
+      "kicker": "Chennai",
+      "headline": "Chennai: Neues Gemeindezentrum aus Backstein wächst aus der Landschaft",
+      "teaser": "Das Studio Spaces by Manah hat in Chennai das Gemeindezentrum The Soil & Sea fertiggestellt. Es bietet Platz für Lernangebote, Workshops und Veranstaltungen. Ein Tonnendach aus Backstein ragt über die Baumkronen und dient als Wahrzeichen.",
+      "blocks": [],
+      "whyGood": "Ein Ort zum Lernen und Zusammenkommen entsteht, der mit regionalen Materialien und Rampen für alle zugänglich ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/16/spaces-by-manah-soil-sea-community-centre-india/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IN",
+      "terms": [
+        {
+          "term": "Tonnendach",
+          "text": "Ein Tonnendach ist ein Dach in Form eines halben Zylinders, wie ein langer, gewölbter Tunnel."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://static.dezeen.com/uploads/2026/10/spaces-by-manah-soil-sea-community-centre-india-hero_dezeen_2364_col_0.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/10/16/spaces-by-manah-soil-sea-community-centre-india/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k13",
+      "ressort": "zukunft",
+      "kicker": "Australien",
+      "headline": "Sonnenlicht macht aus Biodiesel-Abfall Wasserstoff und Chemikalien",
+      "teaser": "Forschende der University of New South Wales haben gezeigt, wie Sonnenlicht Glycerin in Wasserstoff und wertvolle Chemikalien verwandelt. Glycerin fällt bei der Biodiesel-Herstellung an und ist kaum etwas wert. Ein neuer Katalysator mit Nickel und Kobalt steigerte die Wasserstoffmenge etwa auf das Zehnfache.",
+      "blocks": [],
+      "whyGood": "Aus einem billigen Abfallstoff entstehen zugleich sauberer Wasserstoff und gefragte Chemikalien.",
+      "honestNote": "Die Ergebnisse stammen aus Laborversuchen und sind noch weit von einer industriellen Anwendung entfernt.",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-10-sunlight-biodiesel-byproduct-life-hydrogen.html",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "Photoreforming",
+          "text": "Dabei treibt Licht chemische Reaktionen an. So entsteht Wasserstoff, und zugleich wird ein organischer Rohstoff in nützliche Stoffe umgewandelt."
+        }
+      ],
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/sunlight-gives-biodies-1.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-10-sunlight-biodiesel-byproduct-life-hydrogen.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k14",
+      "ressort": "design",
+      "kicker": "Design",
+      "headline": "Pavillon aus Myzel macht Bewegung als Licht sichtbar",
+      "teaser": "Das Team um Darya Holub, Selin Ozasik, Pinak Bhapkar, Nikhil Narendiran und Baskar Bharathwaj Subramanian hat „Hypha-Lume“ entworfen. Der Pavillon besteht aus Myzel-Modulen. Sensoren erfassen Wege und Pausen der Besucher und machen daraus Licht und Klang.",
+      "blocks": [],
+      "whyGood": "Ein Bauwerk aus nachwachsendem Material zeigt, wie Architektur lebendig auf Menschen reagieren kann.",
+      "honestNote": "Hypha-Lume ist bisher ein Entwurf, der als Projekt eingereicht wurde.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/mycelium-hypha-lume-pavilion-human-movement-light/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": null,
+      "terms": [
+        {
+          "term": "Myzel",
+          "text": "Myzel ist das feine Geflecht aus Fäden, das Pilze im Untergrund bilden. Es lässt sich als natürliches Baumaterial nutzen."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/hypha-lume-adaptive-modular-pavilion-mycelium-human-movement-light-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/mycelium-hypha-lume-pavilion-human-movement-light/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k15",
+      "ressort": "natur",
+      "kicker": "New York",
+      "headline": "Seltene Schleiereulen nisten erstmals in Manhattan",
+      "teaser": "Eine Schleiereulen-Familie hat sich in einem Wasserturm auf einem Haus an der West 75th Street niedergelassen, nahe dem Central Park. Nach Angaben eines Experten ist es der erste dokumentierte Nistfall in Manhattan in neuerer Zeit. Jeden Abend kommen Menschen, um die Vögel zu sehen.",
+      "blocks": [],
+      "whyGood": "Mitten in einer der größten Städte der Welt brütet eine seltene Eulenart, und die Nachbarschaft freut sich gemeinsam darüber.",
+      "honestNote": "New York liegt am nördlichen Rand des Verbreitungsgebiets der Schleiereule, und ihre Bestände sind dort stark zurückgegangen.",
+      "sources": [
+        {
+          "name": "NPR Science",
+          "url": "https://www.npr.org/2026/10/16/g-s1-148366/owl-family-manhattan",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3851x2166+0+200/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6a%2F71%2Ff7175ee9427ba61a914c9eb16fb9%2Fap26288102891335.jpg",
+        "credit": "NPR Science",
+        "source": "https://www.npr.org/2026/10/16/g-s1-148366/owl-family-manhattan",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k16",
+      "ressort": "wissenschaft",
+      "kicker": "Erdbeobachtung",
+      "headline": "Neuer Satellit Sentinel-3C liefert erste Bilder von Italien und Arktis",
+      "teaser": "Zwei Wochen nach dem Start hat der Satellit Sentinel-3C der Europäischen Weltraumorganisation ESA seine ersten Bilder geschickt. Sie zeigen Italien, die kanadische Arktis und die Karibik. Der Satellit misst auch die Höhe des grönländischen Eisschilds.",
+      "blocks": [],
+      "whyGood": "Ein weiterer Satellit setzt die Beobachtung von Meeren, Land und Eis fort und hilft, Dürren, Waldbrände und Hitzewellen im Meer zu überwachen.",
+      "honestNote": "Die Inbetriebnahme des Satelliten dauert noch etwa fünf Monate.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/esas-new-sentinel-3c-satellite-makes-its-debut-with-sumptuous-images-of-italy-and-the-arctic/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Italy-satellite-image-credit-Copernicus-Sentinel-3C-ESA-copyright-.jpeg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/esas-new-sentinel-3c-satellite-makes-its-debut-with-sumptuous-images-of-italy-and-the-arctic/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k17",
+      "ressort": "architektur",
+      "kicker": "Seto-Binnenmeer",
+      "headline": "Shigeru Ban baut Museum mit Spiegelwand am Meer",
+      "teaser": "Das Architekturbüro von Shigeru Ban hat am Seto-Binnenmeer das SIMOSE Museum & Auberge gebaut. Auf 4,6 Hektar stehen ein Museum, zehn Villen und ein Restaurant. Eine 180 Meter lange Spiegelwand verdoppelt die Landschaft.",
+      "blocks": [],
+      "whyGood": "Ein Bauwerk, das die Küste nicht verdrängt, sondern sie im Spiegel noch einmal zeigt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186422/simose-museum-and-auberge-shigeru-ban-architects",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "JP",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6ac5/00c9/90e2/9d01/89d2/e43b/large_jpg/simose-museum-and-auberge-shigeru-ban-architects_16.jpg?1791295705",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186422/simose-museum-and-auberge-shigeru-ban-architects",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k18",
+      "ressort": "zukunft",
+      "kicker": "Maine",
+      "headline": "Golftees aus Hummerschalen zerfallen in 30 Tagen",
+      "teaser": "Forschende der University of Maine machen aus Hummerschalen biologisch abbaubare Golftees. Sie sind so stabil wie Tees aus Kiefernholz und zerfallen in nur 30 Tagen. In Maine fallen jedes Jahr etwa 45.359 Tonnen Hummerschalen an.",
+      "blocks": [],
+      "whyGood": "Aus Abfall der Fischerei wird ein nützliches Produkt, das weder Holz verschwendet noch Plastik im Boden hinterlässt.",
+      "honestNote": "Die Tees haben ihre Stärke bisher in Labortests gezeigt.",
+      "sources": [
+        {
+          "name": "New Atlas",
+          "url": "https://newatlas.com/good-thinking/lobster-shell-waste-biodegradable-golf-tees/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://assets.newatlas.com/dims4/default/c17169e/2147483647/strip/true/crop/1200x630+0+60/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Fec%2F26%2F64c6644c422bbb7ba7b82db716ce%2F091526-ib-dsc07222-e1789565323404.jpg&na.image_optimisation=0",
+        "credit": "New Atlas",
+        "source": "https://newatlas.com/good-thinking/lobster-shell-waste-biodegradable-golf-tees/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k19",
+      "ressort": "natur",
+      "kicker": "St. Helena",
+      "headline": "Schildkröte Jonathan ist 194 und hat besonders gesunde Gene",
+      "teaser": "Jonathan ist die älteste lebende Landtier der Welt. Forscher haben seine DNA untersucht. Sein Erbgut war besser erhalten als bei Riesenschildkröten, die rund hundert Jahre jünger sind. Das könnte erklären, warum er so alt wird.",
+      "blocks": [],
+      "whyGood": "Das Erbgut eines Tieres könnte helfen zu verstehen, wie Zellen länger gesund bleiben.",
+      "honestNote": "Die Forscher sagen bisher nur, dass die Gene den Grund für sein langes Leben liefern könnten.",
+      "sources": [
+        {
+          "name": "Singularity Hub",
+          "url": "https://singularityhub.com/2026/10/15/the-oldest-living-land-animal-is-194-now-his-dna-may-reveal-secrets-to-longevity/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "SH",
+      "terms": [
+        {
+          "term": "Telomere",
+          "text": "Telomere sind die schützenden Enden der Chromosomen. Mit dem Altern werden sie kürzer."
+        }
+      ],
+      "image": {
+        "url": "https://singularityhub.com/uploads/2026/10/Jonathan-tortoise-oldest-land-animal.jpeg?auto=webp",
+        "credit": "Singularity Hub",
+        "source": "https://singularityhub.com/2026/10/15/the-oldest-living-land-animal-is-194-now-his-dna-may-reveal-secrets-to-longevity/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k20",
+      "ressort": "wissenschaft",
+      "kicker": "La Palma",
+      "headline": "Vier neue Gammastrahlenteleskope auf La Palma eingeweiht",
+      "teaser": "Auf dem Roque de los Muchachos in 2200 Metern Höhe ist die Anlage „LST Subarray“ offiziell eingeweiht worden. Vier große Spiegelteleskope suchen dort nach Gammastrahlung aus fernen Galaxien. Mehr als 15 Jahre internationale Zusammenarbeit steckten darin.",
+      "blocks": [],
+      "whyGood": "Die neuen Teleskope helfen Forschenden, extreme Orte im Universum wie Schwarze Löcher und Neutronensterne besser zu verstehen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/neue-gammastrahlenteleskope-auf-la-palma-eingeweiht/2350093",
+          "language": "Deutsch"
+        },
+        {
+          "name": "SPIEGEL Wissenschaft",
+          "url": "https://www.spiegel.de/wissenschaft/technik/kanaren-warum-auf-la-palma-nun-diese-vier-riesenspiegel-stehen-a-4a5a4e07-3552-40f5-a042-1753eebb348f#ref=rss",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Gammastrahlung",
+          "text": "Gammastrahlung ist besonders energiereiche Strahlung. Sie entsteht zum Beispiel bei extremen Vorgängen im Weltall."
+        }
+      ],
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/f1920x1080/EDIT_BEEDRONRECORD__1_de_3__-_Credits_LST_Collaboration.jpg",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/neue-gammastrahlenteleskope-auf-la-palma-eingeweiht/2350093",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k21",
+      "ressort": "architektur",
+      "kicker": "Oregon",
+      "headline": "Neue Zentralbibliothek in Oregon setzt auf Holz und Gemeinschaft",
+      "teaser": "In Stevens Ranch im Deschutes County ist eine neue Zentralbibliothek entstanden. Die Büros Miller Hull Partnership und STEELE Associates haben sie in Holzbauweise entworfen. Auf rund 9.300 Quadratmetern und drei Etagen finden Lesen, Lernen, Arbeiten und Treffen Platz.",
+      "blocks": [],
+      "whyGood": "Eine Bibliothek, die ganz unterschiedliche Menschen willkommen heißt, stärkt das Miteinander vor Ort.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186856/central-library-at-stevens-ranch-miller-hull-partnership-plus-steele-associates-architects",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6acf/e41e/b2c4/c300/0178/f467/large_jpg/FyV4SfJA.jpg?1792009345",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186856/central-library-at-stevens-ranch-miller-hull-partnership-plus-steele-associates-architects",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-k22",
+      "ressort": "zukunft",
+      "kicker": "Massachusetts",
+      "headline": "Solarstrom bringt stillgelegte Cranberry-Felder zurück",
+      "teaser": "In Plymouth und Kingston wachsen auf zwei lange brachliegenden Mooren wieder Cranberrys. Darüber stehen Solarpaneele, die drei Meter hoch montiert sind. Die Pacht für den Solarstrom macht den Anbau wieder rentabel.",
+      "blocks": [],
+      "whyGood": "Sonnenstrom und Landwirtschaft helfen sich hier gegenseitig, und alte Felder werden wieder genutzt.",
+      "honestNote": "Der Bau dauerte mit rund acht Monaten etwa doppelt so lang wie bei einer gewöhnlichen Solaranlage.",
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/10/16/solar-panels-are-bringing-idle-cranberry-bogs-back-to-life/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Agrivoltaik",
+          "text": "Dabei wird dieselbe Fläche doppelt genutzt: für Landwirtschaft und für Solarstrom."
+        }
+      ],
+      "image": {
+        "url": "https://electrek.co/wp-content/uploads/sites/3/2026/10/DEI-cranberry-bog-solar-agrivoltaics.jpg?quality=82&strip=all&resize=1200,628",
+        "credit": "Electrek",
+        "source": "https://electrek.co/2026/10/16/solar-panels-are-bringing-idle-cranberry-bogs-back-to-life/",
+        "kind": "source"
+      }
+    }
+  ],
+  "joke": {
+    "setup": "Wie nennt man einen Bumerang, der nicht zurückkommt?",
+    "punchline": "Stock."
+  },
+  "comic": {
+    "series": "vaterundsohn",
+    "title": "Vater und Sohn",
+    "episode": "Der kleine Auskneifer",
+    "image": "https://upload.wikimedia.org/wikipedia/de/6/65/Vater_und_Sohn_-_Der_kleine_Auskneifer.jpg",
+    "pages": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/de/6/65/Vater_und_Sohn_-_Der_kleine_Auskneifer.jpg",
+        "width": 1200,
+        "height": 1368
+      }
+    ],
+    "credit": "e.o.plauen (Erich Ohser), 1935, gemeinfrei",
+    "link": "https://de.wikipedia.org/wiki/Vater_und_Sohn",
+    "linkTitle": "Mehr über Vater und Sohn"
+  },
+  "recommendation": {
+    "kind": "doku",
+    "label": "Doku",
+    "title": "Dream of birds: the lost songs of Argentina",
+    "creator": "Guardian Documentaries",
+    "year": null,
+    "text": "Der argentinische Physiker Gabriel Mindlin folgt Spuren, die in den Lauten schlafender Vögel verborgen sind. Was zunächst nach einem leisen Rätsel klingt, wird zu einer Entdeckung über das Gedächtnis der Natur und zu dem Versuch, verlorene Gesänge zurückzubringen. Ein kurzer Film, der staunen lässt.",
+    "forWhom": "Für alle, die gern genau hinhören und sich von Wissenschaft und Vogelstimmen verzaubern lassen.",
+    "link": null,
+    "source": {
+      "name": "Guardian Film Documentary",
+      "url": "https://www.theguardian.com/global/video/2026/oct/13/dream-of-birds-the-lost-songs-of-argentina-documentary"
+    }
+  },
+  "weekly": null,
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-10-17-01",
+        "question": "Um wie viel Prozent sanken die Zusammenstöße mit Wildtieren bei Larkspur?",
+        "options": [
+          "75 Prozent",
+          "85 Prozent",
+          "91 Prozent",
+          "98 Prozent"
+        ],
+        "answer": 2
+      },
+      {
+        "storyID": "2026-10-17-06",
+        "question": "Welchen Preis hat Toyotas Rollstuhl „walk me“ gewonnen?",
+        "options": [
+          "Red Dot Award: Design Concept 2026",
+          "iF Design Award 2026",
+          "Good Design Award 2026",
+          "German Design Award 2026"
+        ],
+        "answer": 0
+      },
+      {
+        "storyID": "2026-10-17-09",
+        "question": "Gegen wen gewannen Duda und Mittelham das Mixed-Finale der Tischtennis-EM?",
+        "options": [
+          "Moregard/Pergel",
+          "Lebrun/Lutz",
+          "Calderano/Takahashi",
+          "Fan/Wang"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-10-17-r01",
+      "ressort": "region",
+      "regions": [
+        "BB"
+      ],
+      "kicker": "Barnim",
+      "headline": "Zwei Wisente aus der Schorfheide ziehen in die Karpaten",
+      "teaser": "Erstmals werden Wisente aus dem Wildpark Schorfheide in Rumänien ausgewildert. Die zwei Weibchen „Schorfheidi“ und „Schorfheike“ wurden 2024 geboren. Zuerst lernen sie im niedersächsischen Springe eine kleine Gruppe kennen.",
+      "blocks": [],
+      "whyGood": "Die beiden Tiere bekommen in Armenis rund 50.000 Hektar Wildnis und helfen mit, die einst fast ausgerottete Art zu erhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/wisente-auswilderung-schorfheide-brandenburg-rumaenien.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/94ebcb74-4928-4fff-ba28-d503a6707e39/AAABoUQxEQg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/wisente-auswilderung-schorfheide-brandenburg-rumaenien.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r02",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Schwerin",
+      "headline": "Im Zoo Schwerin ist ein Giraffenkalb geboren",
+      "teaser": "Im Zoo Schwerin ist ein weibliches Giraffenkalb zur Welt gekommen. Mutter Kahlua kümmert sich gut, und die Kleine trinkt ohne Probleme. Der Zoo ist Teil eines europäischen Zuchtprogramms für Nördliche Giraffen.",
+      "blocks": [],
+      "whyGood": "Das gesunde Kalb hilft, eine Reservegruppe der bedrohten Nördlichen Giraffen aufzubauen.",
+      "honestNote": "Ob sich das Kalb gesund entwickelt, lässt sich erst in einigen Wochen sicher sagen.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/zoo-schwerin-kleine-giraffe-kam-am-dienstag-zur-welt,mvregioschwerin-6134.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/e70dd80b-c714-4250-ada4-b1f41c0a5725/AAABoUUw9ws/AAABnSSvpk8/16x9-960.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/zoo-schwerin-kleine-giraffe-kam-am-dienstag-zur-welt,mvregioschwerin-6134.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r04",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Sinzheim",
+      "headline": "Pflegekräfte aus aller Welt lernen Badisch",
+      "teaser": "Im Seniorenzentrum Sinzheim im Kreis Rastatt gibt es einen Badisch-Kurs. Er richtet sich an Auszubildende der Curatio-Heime, die nicht mit Deutsch aufgewachsen sind. So verstehen sie die Bewohnerinnen und Bewohner besser, etwa bei „Grumbiere“ für Kartoffel.",
+      "blocks": [],
+      "whyGood": "Wer den Dialekt versteht, kann Seniorinnen und Senioren besser verstehen, und die Bewohner freuen sich über badische Grüße.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/badisch-sprachkurs-fuer-pflegekraefte-ausland-in-seniorenzentrum-sinzheim-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/8f2368f9-24b0-435c-adfa-6c89df5e914f/AAABoUPiJzc/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/badisch-sprachkurs-fuer-pflegekraefte-ausland-in-seniorenzentrum-sinzheim-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r05",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Kissing",
+      "headline": "Rasentattoo sagt Danke an Rettungshubschrauber „Christoph 40“",
+      "teaser": "Auf einer Wiese in Kissing steht ein Herz, die Zahl 40 und das Wort „Danke“. Firmenchef Michael Schneider hat es mit einem Mähroboter ins Gras gemäht. Es gilt der Crew des Augsburger Rettungshubschraubers. Sie will beim nächsten Flug Ausschau halten.",
+      "blocks": [],
+      "whyGood": "Ein Unternehmer zeigt mit viel Geduld Wertschätzung für Menschen, die Leben retten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Schwaben",
+          "url": "https://www.br.de/nachrichten/bayern/kissinger-firma-dankt-luftrettern-mit-riesigem-rasentattoo,VYDiRHg",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/7e932dfb-3638-47de-a8cf-e054b550bf57.jpeg?q=80&rect=0%2C142%2C1447%2C814&w=1600&h=900",
+        "credit": "BR24 Schwaben",
+        "source": "https://www.br.de/nachrichten/bayern/kissinger-firma-dankt-luftrettern-mit-riesigem-rasentattoo,VYDiRHg",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r06",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Donauwörth",
+      "headline": "Wadah Aldabel übersetzt ehrenamtlich für neue Geflüchtete",
+      "teaser": "Wadah Aldabel floh 2015 aus Syrien und sprach kein Deutsch. Ehrenamtliche Dolmetscher halfen ihm. Heute übersetzt er in Donauwörth selbst für Geflüchtete, zum Beispiel für Imad und Mousa aus dem Irak. Die Caritas zeichnete sein Engagement mit einem Film aus.",
+      "blocks": [],
+      "whyGood": "Wer einmal Hilfe bekam, gibt sie jetzt weiter und macht anderen den Start in Deutschland leichter.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Schwaben",
+          "url": "https://www.br.de/nachrichten/bayern/gefluechtete-als-integrationshelfer-unterstuetzung-auf-augenhoehe,VXvsXMk",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/63b8c7ec-3d29-403f-8537-4627051bede4.jpeg?q=80&rect=0%2C434%2C3814%2C2143&w=1600&h=900",
+        "credit": "BR24 Schwaben",
+        "source": "https://www.br.de/nachrichten/bayern/gefluechtete-als-integrationshelfer-unterstuetzung-auf-augenhoehe,VXvsXMk",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r07",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Bremer Gewächshaus soll Gemüse auf dem Mond möglich machen",
+      "teaser": "Das Deutsche Zentrum für Luft- und Raumfahrt hat einen Gewächshauscontainer fürs All entwickelt. Er wurde in der Antarktis getestet. Jetzt geht er nach Köln.",
+      "blocks": [],
+      "whyGood": "Frisches Gemüse auf dem Mond rückt ein Stück näher.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/antarktis-gewaechshaus-ariane-space-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/lila-pflanzen-gruenhaus-100~_v-1280x720_c-1792169349391.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/antarktis-gewaechshaus-ariane-space-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r08",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremerhaven",
+      "headline": "Bremerhavener Busfahrer ist „Alltagsheld“ unter den Lieblingsfahrern",
+      "teaser": "Mehmet Yurtsever fährt Bus in Bremerhaven. Eine Jury hat ihn in Berlin zum „Alltagshelden“ unter den Top 5 der Lieblingsbusfahrer 2026 gekürt. Sie lobt seine Freundlichkeit und Wärme gegenüber den Fahrgästen.",
+      "blocks": [],
+      "whyGood": "Ein Busfahrer wird dafür geehrt, dass er Menschen mit kleinen Gesten den Tag verschönert.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/nachrichten/lieblingsbusfahrer-bremerhaven-ergebnis-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/mehmet-yurtsever-lieblingsbusfahrer-alltagsheld-bremerhaven-100~_v-1280x720_c-1792173827807.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/nachrichten/lieblingsbusfahrer-bremerhaven-ergebnis-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r09",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Greifswald",
+      "headline": "Greifswalder Ärztin ist „Mentorin des Jahres 2026“",
+      "teaser": "Die Deutsche Gesellschaft für Mentoring hat Elpiniki Katsari ausgezeichnet. Die Herzchirurgin organisiert an der Universitätsmedizin Greifswald den Girls' Day. Außerdem betreut sie junge Ärztinnen, zum Beispiel bei Vorträgen und bei der Vereinbarkeit von Familie und Karriere.",
+      "blocks": [],
+      "whyGood": "Eine Ärztin wird für ihren langjährigen Einsatz geehrt, mit dem sie junge Frauen in der Medizin stärkt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/greifswalder-medizinerin-wird-mentorin-des-jahres,mvregiogreifswald-5944.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/f2205362-217e-4d35-b27e-9259d48cdd0c/AAABoUWoKsg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/greifswalder-medizinerin-wird-mentorin-des-jahres,mvregiogreifswald-5944.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r10",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Wuppertal",
+      "headline": "Wuppertaler Busfahrer ist „Alltagsheld“ des Jahres",
+      "teaser": "Sven Leihener aus Wuppertal ist zum „Lieblingsbusfahrer“ in der Kategorie „Alltagsheld“ gekürt worden. Er half 2025 auf der Linie 611 einem blinden Mann sicher über die B7. Seine Fahrgäste dankten ihm mit tosendem Applaus.",
+      "blocks": [],
+      "whyGood": "Ein Busfahrer hält an, hilft einem blinden Mann und bekommt dafür von seinen Fahrgästen Applaus und jetzt auch einen Preis.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/bergisches-land/wuppertal/gewinner-beliebtester-busfahrer-deutschland-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/4e288ec1-19a9-41f5-9601-df4523782765/AAABoUX2xk8/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/bergisches-land/wuppertal/gewinner-beliebtester-busfahrer-deutschland-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r11",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Kaiserslautern",
+      "headline": "Pfälzisch lebt in Pennsylvania weiter und wird gefeiert",
+      "teaser": "Zum 20. Deutsch-Pennsylvanischen Tag feiert die Westpfalz ihre amerikanischen Verwandten. Die Familienband „The Shooflies“ aus Pennsylvania spielt Konzerte in Kaiserslautern und Alzey. Nachfahren pfälzischer Auswanderer halten dort bis heute ihre Mundart lebendig.",
+      "blocks": [],
+      "whyGood": "Eine Sprache aus der Pfalz hat sich über drei Jahrhunderte gehalten und verbindet Menschen auf zwei Kontinenten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/westpfalz-feiert-20-jahre-deutsch-pennsylvanischen-tag-mit-mundart-pfaelzischen-auswanderern-und-traditionellen-gerichten-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/b3b06435-92e2-477b-ae88-c4f7bd3e15b2/AAABoUWp6VY/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/westpfalz-feiert-20-jahre-deutsch-pennsylvanischen-tag-mit-mundart-pfaelzischen-auswanderern-und-traditionellen-gerichten-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r12",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Dresden",
+      "headline": "Ein Regenbogen aus Licht leuchtet im Dresdner Zwinger",
+      "teaser": "Im Mathematisch-Physikalischen Salon im Dresdner Zwinger hängt jetzt ein Werk von Ólafur Elíasson. Die zwei Meter große Installation zeigt einen vollständigen Regenbogen als Kreis. Möglich wurde der Ankauf durch die Freunde der Staatlichen Kunstsammlungen Dresden.",
+      "blocks": [],
+      "whyGood": "Ein Kunstwerk bringt Farbe in den dunkelsten Raum des Museums und zeigt, wie ein Regenbogen wirklich aussieht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/licht-kunst-salon,olafur-eliasson-kultur-news-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Prisma",
+          "text": "Ein Prisma ist ein Körper aus Glas. Er bricht Licht und zerlegt es in seine Farben."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://images.mdr.de/image/41367599-15d0-4d0c-8262-e7e6daaa9a1e/AAABoUSHfrE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/licht-kunst-salon,olafur-eliasson-kultur-news-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r13",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Frankfurt",
+      "headline": "Eintracht-Fans helfen, Erinnerungsstücke an Familien zurückzugeben",
+      "teaser": "Die Arolsen Archives suchen Nachfahren von KZ-Häftlingen, um ihnen persönliche Gegenstände zurückzugeben. Dafür steht ein Ausstellungscontainer vor dem Waldstadion. Die Fans von Eintracht Frankfurt sollen bei der Suche mitmachen.",
+      "blocks": [],
+      "whyGood": "Viele Fans können nun mithelfen, dass Eheringe, Uhren und Brieftaschen nach Jahrzehnten wieder bei den Familien ankommen.",
+      "honestNote": "Von den rund 2.000 Gegenständen in den Archiven haben noch längst nicht alle ihre Familien gefunden.",
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/kultur/container-am-waldstadion-eintracht-fans-sollen-arolsen-archives-helfen-v1,stolen-memory-eintracht-frankfurt-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Effekten",
+          "text": "So heißen die persönlichen Gegenstände, die Häftlingen bei der Ankunft im Konzentrationslager abgenommen wurden, etwa Eheringe, Uhren oder Brieftaschen."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/dcd577b7-4ce3-44d5-bdf1-6adfa8160fd8/AAABoUSnqn8/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/kultur/container-am-waldstadion-eintracht-fans-sollen-arolsen-archives-helfen-v1,stolen-memory-eintracht-frankfurt-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r14",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Borkum",
+      "headline": "Borkum braut Bier aus entsalztem Nordseewasser",
+      "teaser": "Auf Borkum gibt es seit dem Sommer eine erste Brauerei. Paolo Richter braut dort ein helles und ein dunkles Bier. Das Wasser kommt aus der Nordsee und wird vorher entsalzt. Die Gäste im Biergarten nehmen die Sorten gut an.",
+      "blocks": [],
+      "whyGood": "Die Insel nutzt ihr Meerwasser für ein eigenes Bier, das den Gästen schmeckt.",
+      "honestNote": "Bisher gibt es die Biere nur vom Fass, Flaschen sind erst für später geplant.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/borkumer-boer-bier-aus-nordseewasser-gebraut,inselbrauerei-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Umkehrosmose",
+          "text": "Bei diesem Verfahren wird Wasser durch eine feine Membran gepresst. Das Salz bleibt zurück und es entsteht entsalztes Wasser."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/706045ef-7fa7-46eb-ae1b-56e15c96c850/AAABoUWF0Vc/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/borkumer-boer-bier-aus-nordseewasser-gebraut,inselbrauerei-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-17-r15",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Rheinhessen",
+      "headline": "Erste Kraniche ziehen über Rheinhessen und die Nahe-Region",
+      "teaser": "Die ersten Kranich-Schwärme fliegen nach Süden. Auch rund um Mainz und Bad Kreuznach sind sie schon zu sehen, zum Beispiel in Zornheim, Ingelheim und Duchroth. Der NABU bittet, Sichtungen auf der Seite „Naturgucker“ zu melden.",
+      "blocks": [],
+      "whyGood": "Der Kranichzug ist ein Naturschauspiel, das viele Menschen bewegt und den Herbst ankündigt.",
+      "honestNote": "Bisher sind etwas weniger Kraniche unterwegs als im Vorjahr, warum, ist noch unklar.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/kraniche-fliegen-ueber-rheinhessen-nahe-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-17-r16",
+      "ressort": "region",
+      "regions": [
+        "BE"
+      ],
+      "kicker": "Berlin-Wedding",
+      "headline": "Burgsdorfstraße in Wedding nach fast zehn Jahren wieder frei",
+      "teaser": "Die Burgsdorfstraße in Berlin-Wedding ist wieder offen. Seit 2017 war sie gesperrt, weil ein Wohnhaus einsturzgefährdet war. Das Haus ist jetzt abgerissen. Das Bezirksamt Mitte gab die Straße am Freitagnachmittag für den Verkehr frei.",
+      "blocks": [],
+      "whyGood": "Nach fast zehn Jahren können Autos, Rad und Anwohner die Straße wieder ganz nutzen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-mitte-burgsdorfstrasse-schrott-immobilie-geisterhaus-abriss-wedding.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/76cca2aa-eb70-44f0-ad53-9f638db50f48/AAABoUP2FrM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-mitte-burgsdorfstrasse-schrott-immobilie-geisterhaus-abriss-wedding.html",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Linsen mit Würstchen in Apfelwein",
+    "intro": "Im Oktober ist Apfelzeit, und dieser Eintopf macht daraus ein wärmendes Abendessen. Alles gart in einer Pfanne, und die Linsen werden herrlich aromatisch.",
+    "servings": 4,
+    "minutes": 65,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "EL",
+        "item": "Olivenöl, geteilt"
+      },
+      {
+        "amount": 6,
+        "unit": "Stück",
+        "item": "geräucherte Würstchen (500 bis 700 g)"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "große Zwiebel, fein gehackt"
+      },
+      {
+        "amount": 3,
+        "unit": "Stück",
+        "item": "Selleriestangen, fein gehackt, Blätter beiseitelegen"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "große Karotte, geschält und fein gehackt"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "Salz, geteilt"
+      },
+      {
+        "amount": 5,
+        "unit": "Stück",
+        "item": "Knoblauchzehen, in dünnen Scheiben"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "item": "milde Hühner- oder Gemüsebrühe"
+      },
+      {
+        "amount": 360,
+        "unit": "ml",
+        "item": "Apfelwein oder naturtrüber Apfelsaft"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "item": "grüne Linsen (Puy-Linsen), verlesen und gespült"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "item": "Petersilie, fein gehackt, plus Blätter zum Servieren"
+      },
+      {
+        "amount": 3,
+        "unit": "EL",
+        "item": "Dijon- oder körniger Senf"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "item": "Apfelessig oder Rotweinessig"
+      }
+    ],
+    "steps": [
+      "2 EL Öl in einer großen, hohen Pfanne bei mittelhoher Hitze erhitzen. Die Würstchen rundum etwa 4 Minuten kräftig anbraten und auf einen Teller legen.",
+      "Zwiebel, Sellerie, Karotte, Pfeffer, die Hälfte des Salzes und das restliche Öl in die Pfanne geben. Bei mittlerer Hitze 6 bis 8 Minuten weich dünsten und den Bratansatz lösen.",
+      "Den Knoblauch dazugeben und etwa 1 Minute rühren, bis er duftet.",
+      "Brühe, Apfelwein, Linsen, gehackte Petersilie, Senf und das übrige Salz zufügen. Aufkochen und etwa 5 Minuten kräftig kochen lassen.",
+      "Zugedeckt bei mittlerer bis niedriger Hitze 30 bis 35 Minuten garen. Die Linsen sollen weich sein und die Mischung noch saftig.",
+      "Essig unterrühren. Die Würstchen mit ihrem Saft vom Teller in die Linsen legen und etwa 5 Minuten durchwärmen.",
+      "Mit Petersilienblättern und Selleriegrün bestreut servieren."
+    ],
+    "tip": "Dazu passt knuspriges Bauernbrot. Statt Würstchen geht auch geräucherter Tofu, dann nimmt man Gemüsebrühe.",
+    "icon": "flame.fill",
+    "source": {
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/recipe/cider-braised-sausage-lentils"
+    }
+  }
+}
