@@ -3,101 +3,53 @@
  "busch": 3,
  "sandraundwoo": 24,
  "last": {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "comic": {
-   "series": "sandraundwoo",
-   "title": "Sandra und Woo",
-   "episode": "Taschengeld-Reverse-Default-Swaps und mehr",
-   "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0021.png",
-   "pages": [
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0021.png",
-     "width": 960,
-     "height": 336,
-     "title": "Taschengeld-Reverse-Default-Swaps",
-     "panels": [
-      [
-       0.0167,
-       0.0536,
-       0.2323,
-       0.8393
-      ],
-      [
-       0.2625,
-       0.0536,
-       0.2323,
-       0.8393
-      ],
-      [
-       0.5083,
-       0.0536,
-       0.2323,
-       0.8393
-      ],
-      [
-       0.7552,
-       0.0536,
-       0.2313,
-       0.8393
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0022.png",
-     "width": 979,
-     "height": 330,
-     "title": "Das nächste große Ding",
-     "panels": [
-      [
-       0.0061,
-       0.0182,
-       0.236,
-       0.8848
-      ],
-      [
-       0.2564,
-       0.0182,
-       0.236,
-       0.8848
-      ],
-      [
-       0.5066,
-       0.0182,
-       0.237,
-       0.8848
-      ],
-      [
-       0.7579,
-       0.0182,
-       0.236,
-       0.8848
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0023.png",
-     "width": 960,
-     "height": 556,
-     "title": "Coon Tools",
-     "panels": [
-      [
-       0.3021,
-       0.0324,
-       0.399,
-       0.464
-      ],
-      [
-       0.301,
-       0.4964,
-       0.399,
-       0.3831
-      ]
-     ]
-    }
-   ],
-   "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-   "link": "https://www.sandraandwoo.com/woode/",
-   "linkTitle": "Mehr von Sandra und Woo"
+   "series": "sonnewolke",
+   "title": "Sonne & Wolke",
+   "episode": "Olive Oil, Finnland!",
+   "strip": {
+    "storyID": "2026-10-20-k18",
+    "panels": [
+     {
+      "prop": "trophy.fill",
+      "caption": null,
+      "sun": {
+       "mood": "lacht",
+       "text": "Finnland ist Weltmeister im Olivenpflücken!"
+      },
+      "cloud": {
+       "mood": "skeptisch",
+       "text": "Finnland? Da wächst doch gar kein Olivenbaum."
+      }
+     },
+     {
+      "prop": "tree.fill",
+      "caption": null,
+      "sun": {
+       "mood": "froh",
+       "text": "Dann haben sie bestimmt heimlich im Schnee geübt!"
+      },
+      "cloud": {
+       "mood": "grübelt",
+       "text": "Woran denn? An Tannenzapfen?"
+      }
+     },
+     {
+      "prop": "medal.fill",
+      "caption": "Auf dem Siegerpodest",
+      "sun": {
+       "mood": "staunt",
+       "text": "Null Training und trotzdem Gold!"
+      },
+      "cloud": {
+       "mood": "froh",
+       "text": "Ohne Bäume gab es wenigstens keine Ausreden."
+      }
+     }
+    ]
+   },
+   "credit": "Ein Comic von The Daily Good"
   }
  }
 }
