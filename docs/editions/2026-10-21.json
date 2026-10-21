@@ -1,0 +1,1775 @@
+{
+  "date": "2026-10-21",
+  "number": 23,
+  "isSample": false,
+  "leadStoryID": "2026-10-21-01",
+  "stories": [
+    {
+      "id": "2026-10-21-01",
+      "ressort": "zukunft",
+      "kicker": "Niederlande",
+      "headline": "Beton, auf dem Moos von allein wächst",
+      "teaser": "Die Beschichtung Mosscrete macht kahle Wände zum Lebensraum. Entwickelt wurde sie aus Forschung der TU Delft.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 8,
+          "icon": "building.2.fill",
+          "caption": "Projekte in Belgien und den Niederlanden tragen schon die Moos-Beschichtung"
+        },
+        {
+          "type": "bigNumber",
+          "value": "450",
+          "unit": "Quadratmeter",
+          "caption": "Lagerhalle in Kortrijk wurden schon beim Bau beschichtet und mit Regenwassernutzung verbunden",
+          "icon": "building.2.fill"
+        }
+      ],
+      "whyGood": "Moos begrünt Wände ohne Erde, Gießanlage und viel Pflege. So können auch kahle Fassaden in dichten Städten grün werden.",
+      "honestNote": "Trockenes Moos kann in der Sonne überhitzen, nur feuchtes Moos kühlt.",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/10/a-dutch-startup-is-making-concrete-that-grows-its-own-moss/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "NL",
+      "terms": [],
+      "guess": {
+        "question": "Woher bekommt das Moos auf der Wand sein Wasser?",
+        "options": [
+          "Aus Leitungen in der Wand",
+          "Aus Regen und Luftfeuchtigkeit",
+          "Aus Tanks hinter der Fassade"
+        ],
+        "answer": 1,
+        "reveal": "Das Moos nimmt Feuchtigkeit aus Regen und Luft auf. Erde oder Bewässerung braucht es nicht.",
+        "icon": "leaf.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/Depositphotos_68561537_S.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/10/a-dutch-startup-is-making-concrete-that-grows-its-own-moss/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-02",
+      "ressort": "natur",
+      "kicker": "Peru",
+      "headline": "Grundeinkommen im Amazonas hilft dem Regenwald",
+      "teaser": "In Peru bekamen Indigene Geld ohne Bedingungen. Danach schützten fast alle von ihnen den Wald auf neue Weise.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 211,
+          "icon": "person.fill",
+          "caption": "Menschen in drei Gemeinden der Asháninka bekamen zwei Jahre lang Geld, über das sie frei verfügen durften"
+        },
+        {
+          "type": "comparison",
+          "title": "Haushalte ohne genug gutes Essen",
+          "before": {
+            "label": "Vorher",
+            "value": 73,
+            "display": "73 %"
+          },
+          "after": {
+            "label": "Nachher",
+            "value": 26,
+            "display": "26 %"
+          }
+        },
+        {
+          "type": "share",
+          "value": 90,
+          "label": "der Teilnehmenden schützten den Wald",
+          "caption": "Fast neun von zehn pflanzten gemeinsam Bäume, schützten Wasserquellen oder brannten weniger Wald ab."
+        }
+      ],
+      "whyGood": "Wer sicher leben kann, muss weniger oft wegziehen oder Wald roden. Das Projekt zeigt, dass Vertrauen und Respekt dem Regenwald helfen können.",
+      "honestNote": "Der Versuch war klein und dauerte zwei Jahre, größere Studien sollen folgen.",
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "PE",
+      "terms": [
+        {
+          "term": "Grundeinkommen",
+          "text": "Das ist Geld, das Menschen regelmäßig bekommen. Sie müssen dafür nichts Bestimmtes tun und dürfen selbst entscheiden, was sie damit kaufen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel Geld bekamen die Menschen im Projekt ungefähr pro Tag?",
+        "options": [
+          "Etwa 2 Pfund",
+          "Etwa 20 Pfund",
+          "Etwa 200 Pfund"
+        ],
+        "answer": 0,
+        "reveal": "Die sechs Zahlungen entsprachen etwa 2 Pfund pro Tag. Das reichte, um den Alltag sicherer zu machen.",
+        "icon": "tree.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/5dcbf6e6a550212dfa34c885265d9ef3a763ed30/353_0_4800_3840/master/4800.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e7b4e3ff67608175a6a2f0ba15c0ec6a",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-03",
+      "ressort": "welt",
+      "kicker": "Uruguay",
+      "headline": "Uruguay erzeugt seinen Strom fast ganz ohne fossile Energie",
+      "teaser": "Nach einer Energiekrise 2008 baute Uruguay sein System um. Heute liefern Wasser, Wind und Biomasse fast den ganzen Strom. Jetzt folgt der Verkehr.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 2,
+          "label": "fossiler Anteil an der Stromerzeugung",
+          "caption": "Im Durchschnitt der letzten Jahre kam nur noch dieser kleine Teil des Stroms aus Öl und Gas."
+        },
+        {
+          "type": "bigNumber",
+          "value": "7",
+          "unit": "Mrd. US-Dollar",
+          "caption": "investierten Staat und private Firmen zwischen 2010 und 2020 in erneuerbare Energien.",
+          "icon": "banknote.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Alle Parteien stimmten dem Umbau zu",
+            "50.000 neue Jobs entstanden",
+            "Heute ist jeder vierte Bus in Montevideo elektrisch"
+          ],
+          "icons": [
+            "building.columns.fill",
+            "hammer.fill",
+            "bus.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein kleines Land ohne große Reserven hat gezeigt, dass ein grundlegender Umbau der Energieversorgung gelingen kann. Das macht es unabhängiger von teuren Importen.",
+      "honestNote": "Erdöl muss weiterhin importiert werden, vor allem für Verkehr und Industrie.",
+      "sources": [
+        {
+          "name": "tagesschau Wirtschaft",
+          "url": "https://www.tagesschau.de/ausland/amerika/uruguay-erneuerbare-energie-klima-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "UY",
+      "terms": [],
+      "guess": {
+        "question": "Wie groß war zuletzt der Anteil von E-Autos an den Neuwagen in Uruguay?",
+        "options": [
+          "Etwa 7 Prozent",
+          "Etwa 30 Prozent",
+          "Fast 70 Prozent"
+        ],
+        "answer": 2,
+        "reveal": "Fast 70 Prozent aller Neuwagen der letzten Monate in Uruguay waren E-Autos.",
+        "icon": "bolt.car.fill"
+      },
+      "image": {
+        "url": "https://images.tagesschau.de/image/5cf93ee8-200a-47a1-8e88-9347f10a2703/AAABoVcFSkg/AAABnSSvrFg/16x9-big/montevideo-110.jpg?width=1280",
+        "credit": "tagesschau Wirtschaft",
+        "source": "https://www.tagesschau.de/ausland/amerika/uruguay-erneuerbare-energie-klima-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-04",
+      "ressort": "gesundheit",
+      "kicker": "Darmgesundheit",
+      "headline": "Naturstoff bekämpft Darmkeim und schont die guten Bakterien",
+      "teaser": "Forschende haben einen Wirkstoff gefunden, der gefährliche Darmbakterien gezielt trifft. Das könnte hartnäckige Infektionen sanfter behandeln.",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "So kommt es zur Infektion",
+          "items": [
+            "Breit wirkende Antibiotika stören das Gleichgewicht im Darm.",
+            "Der Keim C. difficile vermehrt sich schnell und bildet Giftstoffe.",
+            "Argyrin B trifft den Keim gezielt und lässt andere Bakterien weitgehend in Ruhe."
+          ],
+          "icons": [
+            "pills.fill",
+            "microbe.fill",
+            "flask.fill"
+          ]
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Argyrin B wirkte im Labor und bei infizierten Mäusen stark gegen den Keim.",
+            "Der Wirkstoff blieb bei den Mäusen fast ganz im Dickdarm.",
+            "Nützliche Darmbakterien blieben kaum betroffen."
+          ],
+          "icons": [
+            "flask.fill",
+            "pawprint.fill",
+            "heart.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Wenn die Infektion wiederkehrt",
+          "text": "C. difficile kommt oft zurück. Wer mehrfach erkrankt, bekommt manchmal eine Stuhltransplantation. Sie soll die Darmflora erneuern, ist aber aufwendig und für viele unangenehm."
+        }
+      ],
+      "whyGood": "Ein sanfterer Wirkstoff könnte Menschen helfen, die immer wieder an dieser Darminfektion erkranken. Er könnte manchen die Stuhltransplantation ersparen.",
+      "honestNote": "Bisher wurde der Wirkstoff nur im Labor und an Mäusen getestet.",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093353.htm",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Stuhltransplantation",
+          "text": "Dabei bekommt ein kranker Mensch Darmbakterien aus dem Stuhl eines gesunden Spenders. So soll sich die Darmflora wieder erholen."
+        }
+      ],
+      "guess": {
+        "question": "Wo blieb der neue Wirkstoff bei den behandelten Mäusen fast vollständig?",
+        "options": [
+          "Im Blutkreislauf",
+          "Im Dickdarm",
+          "In der Leber"
+        ],
+        "answer": 1,
+        "reveal": "Argyrin B blieb fast ganz im Dickdarm, wo der Keim sitzt. So wurden nützliche Bakterien kaum getroffen.",
+        "icon": "microbe.fill"
+      },
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/escherichia-coli-bacterium-infecting-human-intestine.webp",
+        "credit": "ScienceDaily Health",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261019093353.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-05",
+      "ressort": "autos",
+      "kicker": "Oakland",
+      "headline": "Elektrische Schulbusse stützen das Stromnetz in Oakland",
+      "teaser": "Nach dem Unterricht speisen Schulbusse Strom zurück ins Netz. Das hilft am Abend, wenn viele Menschen zu Hause sind, und bringt dem Betreiber Geld.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 74,
+          "icon": "bus.fill",
+          "caption": "elektrische Schulbusse speisen in Oakland Strom ins Netz"
+        },
+        {
+          "type": "bigNumber",
+          "value": "1,7",
+          "unit": "Gigawattstunden",
+          "caption": "Strom haben die Busse in zwei Jahren ans Netz zurückgegeben",
+          "icon": "bolt.fill"
+        },
+        {
+          "type": "steps",
+          "title": "So funktioniert es",
+          "items": [
+            "Nachts laden die Busse ihre Batterien auf.",
+            "Nach der Schule speisen sie über V2G Strom ins Netz.",
+            "Der Betreiber verkauft den Strom, wenn er teuer ist."
+          ],
+          "icons": [
+            "battery.100",
+            "bus.fill",
+            "banknote.fill"
+          ]
+        }
+      ],
+      "whyGood": "Schon vorhandene Batterien helfen jetzt, das Stromnetz am Abend zu entlasten. Die Busse waren zudem über 99,5 Prozent der Zeit einsatzbereit und bringen Geld ein.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/10/20/how-electric-school-buses-power-1000-homes-in-california-and-make-money/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "V2G",
+          "text": "Das steht für „Vehicle to Grid“. Ein Fahrzeug gibt dabei Strom aus seiner Batterie zurück ins Stromnetz."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Haushalte können die 74 Busse am Abend mit Strom versorgen?",
+        "options": [
+          "etwa 10",
+          "etwa 100",
+          "etwa 1000"
+        ],
+        "answer": 2,
+        "reveal": "Die Busse leisten zusammen etwa 2 Megawatt und versorgen so rund tausend Haushalte.",
+        "icon": "bus.fill"
+      },
+      "image": {
+        "url": "https://electrek.co/wp-content/uploads/sites/3/2024/05/Zum_electric-school-buses-v2g.jpg?quality=82&strip=all&resize=1200,628",
+        "credit": "Electrek",
+        "source": "https://electrek.co/2026/10/20/how-electric-school-buses-power-1000-homes-in-california-and-make-money/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-06",
+      "ressort": "architektur",
+      "kicker": "Eindhoven",
+      "headline": "Schwimmende Sandsack-Burg zeigt klimafreundlichere Betonarten",
+      "teaser": "In der Dommel neben dem Van Abbemuseum liegt eine Burg aus Beton. Die Künstlerin Yvonne Mak zeigt damit, wie Bauen mit weniger CO₂ gehen kann.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "10",
+          "unit": "Betonarten und mehr",
+          "caption": "mit weniger CO₂ stecken in der Burg",
+          "icon": "building.2.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Burg ist fünf Meter breit und drei Meter hoch.",
+            "Hunderte Module in Sandsack-Form erinnern an Flutschutz.",
+            "Dabei sind Geopolymerbeton und selbstheilender Beton."
+          ],
+          "icons": [
+            "building.columns.fill",
+            "water.waves",
+            "flask.fill"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Van Abbemuseum, Eindhoven",
+          "latitude": 51.4339,
+          "longitude": 5.4817,
+          "caption": "Die Burg schwimmt in der Dommel."
+        }
+      ],
+      "whyGood": "Beton verursacht viel CO₂. Die Burg macht sichtbar, dass es schon heute und bald noch mehr Alternativen gibt, die weniger belasten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/art/sandbag-castle-sustainable-concrete-alternatives-floating-installation-eindhoven-yvonne-mak/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "NL",
+      "terms": [
+        {
+          "term": "Geopolymerbeton",
+          "text": "Das ist Beton, der ohne den üblichen Zement auskommt. Er wird aus anderen Bindemitteln hergestellt und kann weniger CO₂ verursachen."
+        },
+        {
+          "term": "selbstheilender Beton",
+          "text": "Das ist Beton, der kleine Risse selbst wieder schließen kann. So hält er länger."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele verschiedene Betonarten stecken in der schwimmenden Burg?",
+        "options": [
+          "3",
+          "Über 10",
+          "Über 50"
+        ],
+        "answer": 1,
+        "reveal": "Die Burg vereint über zehn Betonarten mit weniger CO₂, zum Beispiel mit Kalzinierung von Ton und recycelten Zuschlägen.",
+        "icon": "building.2.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/yvonne-mak-installation-sandbag-castle-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/art/sandbag-castle-sustainable-concrete-alternatives-floating-installation-eindhoven-yvonne-mak/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-07",
+      "ressort": "design",
+      "kicker": "Paris",
+      "headline": "Ein altes Pariser Theater wird zum märchenhaften Hotel",
+      "teaser": "Der Designer Vincent Darré hat in Montparnasse ein historisches Haus neu belebt. Es gibt Wandbilder, Mythen und überraschende Räume.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 5,
+          "icon": "building.2.fill",
+          "caption": "Etagen erzählen jeweils eine eigene Fantasiewelt"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Das Haus war einst das Theater Les Mille Colonnes.",
+            "Handbemalte Fresken und weiße Gipsvögel schmücken den Eingang.",
+            "Die Bar Le Picabia läutet eine Glocke, wenn Vorstellungen beginnen."
+          ],
+          "icons": [
+            "building.columns.fill",
+            "paintbrush.fill",
+            "music.note"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Warum „Le Magnifique“?",
+          "text": "Der Name erinnert an die Künstler von Montparnasse. Ihr Anfangsbuchstabe M gab den Anstoß. Außerdem spielt er auf den Geist der französischen Nouvelle Vague an, einer Welle neuer Filme."
+        }
+      ],
+      "whyGood": "Ein Haus mit langer Theatergeschichte bleibt lebendig. Handwerk und Fantasie machen es wieder zu einem Ort, an dem Nachbarn, Künstler und Gäste zusammenkommen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/vincent-darre-le-magnifique-hotel-paris-theatrical-interiors/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "FR",
+      "terms": [
+        {
+          "term": "Fresko",
+          "text": "Ein Fresko ist ein großes Bild, das direkt auf eine Wand gemalt wird."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Etagen hat das Hotel mit eigenen Themenwelten?",
+        "options": [
+          "Zwei",
+          "Fünf",
+          "Zwölf"
+        ],
+        "answer": 1,
+        "reveal": "Fünf Etagen, jede mit eigener Welt, etwa Garten Eden, Tiefsee oder Milchstraße.",
+        "icon": "building.2.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/vincent-darre-le-magnifique-hotel-paris-theatrical-interiors-designboom-5.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/vincent-darre-le-magnifique-hotel-paris-theatrical-interiors/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-08",
+      "ressort": "fotografie",
+      "kicker": "New York",
+      "headline": "Verlorenes Archiv: Straßenfotos von John Baer erstmals zu sehen",
+      "teaser": "Sein Sohn fand die Bilder nach seinem Tod. Nun erscheinen die Straßenfotos des US-Fotografen John Baer zum ersten Mal in einem Buch.",
+      "blocks": [
+        {
+          "type": "timeline",
+          "title": "Ein Fotografenleben",
+          "items": [
+            {
+              "year": "1942",
+              "text": "Baer wird im Zweiten Weltkrieg eingezogen."
+            },
+            {
+              "year": "1948",
+              "text": "Er zieht mit seiner Frau Louise nach New York, in den East Village."
+            },
+            {
+              "year": "1950",
+              "text": "Das Paar lebt in Montpellier. Er fotografiert Alltag, Freunde und politische Plakate."
+            },
+            {
+              "year": "1952",
+              "text": "Die Familie zieht nach Brooklyn. Dort trifft er Künstler und Schriftsteller."
+            }
+          ]
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Baer fiel kaum auf und fing Menschen in unbeobachteten Momenten ein.",
+            "Er zeigte seine Bilder in der Galerie der Abingdon Square Painters.",
+            "Sein Sohn Andrew Baer schrieb den Text zum Buch."
+          ],
+          "icons": [
+            "camera.fill",
+            "paintpalette.fill",
+            "book.fill"
+          ]
+        }
+      ],
+      "whyGood": "Bilder, die jahrzehntelang niemand sah, sind jetzt für alle da. Sie zeigen den Alltag der Nachkriegszeit aus ungewöhnlichen Blickwinkeln.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Culture",
+          "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/20/archive-john-baer-street-photography-1940s",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Jahre lang fotografierte John Baer, bevor er die Kamera weglegte?",
+        "options": [
+          "2 Jahre",
+          "9 Jahre",
+          "30 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Baer fotografierte von 1945 bis 1954, also etwa neun Jahre, und legte dann die Kamera weg.",
+        "icon": "camera.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/c085d26d0f118bd79e2413f10cbda2e7e4f24ebb/270_0_9790_7827/master/9790.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f538bd91dcc35331192d3224eaef71a6",
+        "credit": "Guardian Culture",
+        "source": "https://www.theguardian.com/artanddesign/gallery/2026/oct/20/archive-john-baer-street-photography-1940s",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-09",
+      "ressort": "kultur",
+      "kicker": "New York und China",
+      "headline": "Kopie eines Wandbilds deckt Fehler im New Yorker Met auf",
+      "teaser": "Ein chinesisches Team hat im Metropolitan Museum ein altes Tempelbild nachgemalt. Dabei fand es einen Fehler, den bis dahin niemand bemerkt hatte.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "2",
+          "unit": "Zentimeter",
+          "caption": "war der Kopf des Buddha im Museum verschoben. Das fiel erst bei der Kopie auf.",
+          "icon": "magnifyingglass"
+        },
+        {
+          "type": "count",
+          "value": 40,
+          "icon": "paintpalette.fill",
+          "caption": "alte Wandbilder aus Höhlen und Tempeln Westchinas wurden bisher untersucht und kopiert"
+        },
+        {
+          "type": "background",
+          "title": "Das Wandbild",
+          "text": "Das Bild des Medizinbuddha entstand vor etwa 700 Jahren im Guangsheng-Tempel in Zentralchina. Arme Mönche zerschnitten es und verkauften es, um das Dach ihres Tempels zu reparieren. 1965 kam es als Spende ins Met."
+        }
+      ],
+      "whyGood": "Zwei Museen aus zwei Ländern arbeiten eng zusammen und lernen voneinander. So wird ein altes Kunstwerk besser verstanden, und der Fehler kann behoben werden.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/unprecedented-collab-between-china-and-the-met-uncovers-secrets-of-chinese-mural-during-exhaustive-reproduction/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie lang ist das Wandbild im Metropolitan Museum?",
+        "options": [
+          "5 Meter",
+          "15 Meter",
+          "50 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Das Wandbild ist rund 15 Meter lang und füllt einen ganzen Saal.",
+        "icon": "paintpalette.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/From-the-Met-public-domain.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/unprecedented-collab-between-china-and-the-met-uncovers-secrets-of-chinese-mural-during-exhaustive-reproduction/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-10",
+      "ressort": "wissenschaft",
+      "kicker": "Nildelta",
+      "headline": "Ein Stein auf dem Grundstück führt zu Statuen von Ramses II.",
+      "teaser": "Ein Bewohner im Nildelta meldete einen beschrifteten Stein. Archäologen fanden daneben die Reste zweier gewaltiger Königsstatuen.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Kopf und ganze Statue",
+          "before": {
+            "label": "Erhaltener Kopf",
+            "value": 1.6,
+            "display": "1,60 Meter"
+          },
+          "after": {
+            "label": "Geschätzte Höhe der Statue",
+            "value": 8.5,
+            "display": "8,5 Meter"
+          }
+        },
+        {
+          "type": "count",
+          "value": 2,
+          "icon": "building.columns.fill",
+          "caption": "Königsstatuen kamen bei Rettungsgrabungen in Behbeit el-Hagar zum Vorschein"
+        }
+      ],
+      "whyGood": "Ein aufmerksamer Bewohner hat einen wichtigen Fund gemeldet. So können Forschende mehr über die Geschichte des Ortes lernen.",
+      "honestNote": "Dass die zweite Statue ebenfalls Ramses II. zeigt, gilt bisher nur als wahrscheinlich.",
+      "sources": [
+        {
+          "name": "scinexx",
+          "url": "https://www.scinexx.de/news/archaeologie/bauer-hat-im-nildelta-eine-kolossale-statue-von-ramses-ii-entdeckt/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "EG",
+      "terms": [
+        {
+          "term": "Rettungsgrabungen",
+          "text": "Das sind Grabungen, die schnell gemacht werden, damit Funde nicht verloren gehen oder zerstört werden."
+        }
+      ],
+      "guess": {
+        "question": "Wie hoch war die Statue, zu der der Kopf gehörte, geschätzt ursprünglich?",
+        "options": [
+          "Etwa 2,5 Meter",
+          "Etwa 8,5 Meter",
+          "Etwa 25 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Aus dem 1,60 Meter hohen Kopf schließen die Fachleute auf etwa 8,5 Meter mit Sockel.",
+        "icon": "building.columns.fill"
+      },
+      "image": {
+        "url": "https://www.scinexx.de/wp-content/uploads/D/e/Der-rund-160-Meter-hohe-Kopf-von-Ramses-II.-gehoerte-vermutlich-zu-einer-etwa-85-Meter-hohen-Kolossalstatue-einschliesslich-ihres-Sockels.webp",
+        "credit": "scinexx",
+        "source": "https://www.scinexx.de/news/archaeologie/bauer-hat-im-nildelta-eine-kolossale-statue-von-ramses-ii-entdeckt/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-11",
+      "ressort": "sport",
+      "kicker": "Fußball",
+      "headline": "McTominay trifft nach Herz-OP wieder doppelt",
+      "teaser": "Napoli gewinnt ein packendes Spiel gegen Bodo/Glimt. Für Scott McTominay sind es die ersten Tore seit seiner Herzoperation.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 4,
+          "icon": "soccerball",
+          "caption": "Tore schoss Napoli im Spiel gegen Bodo/Glimt"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Scott McTominay trifft zweimal für Napoli",
+            "Es sind seine ersten Tore nach der Herzoperation",
+            "Napoli gewinnt 4:3 gegen Bodo/Glimt"
+          ],
+          "icons": [
+            "soccerball",
+            "heart.fill",
+            "trophy.fill"
+          ]
+        }
+      ],
+      "whyGood": "Scott McTominay steht nach seiner Herzoperation wieder auf dem Platz und trifft gleich zweimal. Das zeigt, dass der Weg zurück gelingen kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "IT",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Tore fielen insgesamt im Spiel von Napoli gegen Bodo/Glimt?",
+        "options": [
+          "3 Tore",
+          "7 Tore",
+          "11 Tore"
+        ],
+        "answer": 1,
+        "reveal": "Napoli gewann 4:3, also fielen in dem Spiel sieben Tore.",
+        "icon": "soccerball"
+      },
+      "image": null
+    },
+    {
+      "id": "2026-10-21-12",
+      "ressort": "kurioses",
+      "kicker": "Kalifornien",
+      "headline": "Weißer Hai springt vor Strandbesuchern aus dem Wasser",
+      "teaser": "Eine Gruppe Freunde machte Fotos am Marina State Beach. Im Hintergrund schnellte ein Weißer Hai aus dem Meer.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "6",
+          "unit": "Meter",
+          "caption": "lang können Weiße Haie werden. Sie wiegen bis zu 1.800 Kilogramm.",
+          "icon": "fish.fill"
+        },
+        {
+          "type": "share",
+          "value": 90,
+          "label": "Rückgang in manchen Regionen",
+          "caption": "Im 20. Jahrhundert schrumpften die Bestände dort um mehr als 90 Prozent. Der Schutz der Tiere ist wichtig."
+        },
+        {
+          "type": "background",
+          "title": "Wichtig fürs Meer",
+          "text": "Der Weiße Hai ist ein Spitzenräuber. Er hält die Zahl seiner Beutetiere im Gleichgewicht und frisst kranke oder verletzte Tiere. So bleibt das Meer gesünder."
+        }
+      ],
+      "whyGood": "Das Video zeigt einen seltenen Blick auf ein beeindruckendes Tier. Es erinnert daran, wie wichtig Haie für das Meer sind und dass Begegnungen mit Menschen selten sind.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/us-news/2026/oct/20/great-white-shark-photobomb-california",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Spitzenräuber",
+          "text": "Ein Spitzenräuber steht ganz oben in der Nahrungskette. Er wird selbst von keinem anderen Tier gejagt."
+        }
+      ],
+      "guess": {
+        "question": "Wie lang können Weiße Haie höchstens werden?",
+        "options": [
+          "3 Meter",
+          "6 Meter",
+          "10 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Weiße Haie werden bis zu 6 Meter lang und wiegen bis zu 1.800 Kilogramm.",
+        "icon": "fish.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/19f614e306f6f9d245e3190eabb51ee1e6b01abb/854_721_3600_2879/master/3600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a215edbb919c5bdeb798780d08b9d26b",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/us-news/2026/oct/20/great-white-shark-photobomb-california",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k01",
+      "ressort": "zukunft",
+      "kicker": "Fusionsforschung",
+      "headline": "Google-KI findet neue Lösungen für ein Rätsel der Fusionsforschung",
+      "teaser": "Die KI Gemini 4 hat mit einem Forscherteam neue Gegenbeispiele zur Gradschen Vermutung von 1967 gefunden. Damit lassen sich erstmals auch asymmetrische Gleichgewichtszustände für Stellaratoren mathematisch exakt modellieren.",
+      "blocks": [],
+      "whyGood": "Genauere Modelle helfen, Fusionsreaktoren wie Stellaratoren besser zu verstehen und zu entwickeln.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "futurezone",
+          "url": "https://futurezone.at/science/google-ki-gemini-4-argon-stellarator-knackt-jahrzehntealtes-raetsel-zu-fusionsenergie/403199607",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Stellarator",
+          "text": "Ein Stellarator ist ein Fusionsreaktor, der heißes Plasma mit einem dreidimensional verdrehten Magnetfeld einschließt. Ein Beispiel ist der Wendelstein 7-X."
+        }
+      ],
+      "image": {
+        "url": "https://image.futurezone.at/images/facebook/9002653/original-1748926950_webp.jpg",
+        "credit": "futurezone",
+        "source": "https://futurezone.at/science/google-ki-gemini-4-argon-stellarator-knackt-jahrzehntealtes-raetsel-zu-fusionsenergie/403199607",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k02",
+      "ressort": "natur",
+      "kicker": "Großbritannien",
+      "headline": "Neues Siegel macht Solarparks zu Lebensräumen für Tiere",
+      "teaser": "Die Initiative Wild Power hat ein Zertifikat für Solarparks entwickelt, die Natur schützen und fördern. Betreiber messen mit einer kostenlosen Bewertungsliste, wie gut ihr Gelände für die Artenvielfalt ist. Ab 70 Punkten können sie sich zertifizieren lassen.",
+      "blocks": [],
+      "whyGood": "Saubere Energie und Naturschutz lassen sich auf derselben Fläche verbinden, und ein Siegel gibt dafür jetzt klare Maßstäbe.",
+      "honestNote": "Bisher haben erst zwei Solarparks in Großbritannien das Siegel erhalten.",
+      "sources": [
+        {
+          "name": "Positive News",
+          "url": "https://www.positive.news/environment/the-new-certification-scheme-helping-solar-farms-become-havens-for-wildlife/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://positivenews.kinsta.cloud/wp-content/uploads/2026/10/20220713_122129.jpg",
+        "credit": "Positive News",
+        "source": "https://www.positive.news/environment/the-new-certification-scheme-helping-solar-farms-become-havens-for-wildlife/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k03",
+      "ressort": "gesundheit",
+      "kicker": "Statine",
+      "headline": "Forschende klären, warum Statine Muskelschmerzen auslösen können",
+      "teaser": "Ein Team der University of British Columbia hat mit der Universität Wisconsin-Madison gezeigt, wie Statine in Muskelzellen wirken. Sie halten einen Kanal für Kalzium offen, sodass es dauernd austritt. Das könnte den Weg zu verträglicheren Statinen ebnen.",
+      "blocks": [],
+      "whyGood": "Wer Statine nimmt, kann künftig auf Medikamente hoffen, die das Herz schützen und die Muskeln schonen.",
+      "honestNote": "Die Ergebnisse stammen aus der Grundlagenforschung, ein verbessertes Medikament gibt es noch nicht.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CA",
+      "terms": [
+        {
+          "term": "Kryo-Elektronenmikroskopie",
+          "text": "Ein Bildverfahren, mit dem sich der Aufbau winziger Eiweiße sehr genau darstellen lässt."
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/human-muscle-fibers-pain-healing.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k04",
+      "ressort": "architektur",
+      "kicker": "London",
+      "headline": "Londoner Restaurant Kid setzt auf Ziegel aus Bauschutt",
+      "teaser": "Das Studio Box 9 hat das Restaurant Kid in London-Soho fast ganz mit Ziegeln aus recyceltem Bauschutt gestaltet. Sie verkleiden den Grill ebenso wie den Weinraum. Nach Angaben des Studios verursachen sie nur ein Zehntel der Emissionen gebrannter Tonziegel.",
+      "blocks": [],
+      "whyGood": "Aus Abfall vom Bau wird ein warmer, schöner Gastraum, und dabei entsteht deutlich weniger CO₂.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/20/box-9-brick-soho-restaurant-kid/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/10/box-9-kid-soho_dezeen_2364_col_sq2.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/10/20/box-9-brick-soho-restaurant-kid/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k05",
+      "ressort": "design",
+      "kicker": "London",
+      "headline": "Glasskunst macht den Wind sichtbar",
+      "teaser": "Das Amsterdamer Studio DRIFT zeigt in London die Installation „Aeolus“. Hunderte hängende Glasstäbe bilden einen Moment des Windes nach. Kleine Lichter darin reagieren auf die Besucher und lassen Wellen aus Licht durch das Werk laufen.",
+      "blocks": [],
+      "whyGood": "Eine Kunst, die Unsichtbares sichtbar macht, lässt uns die Luft um uns herum neu entdecken.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/20/drifts-glass-sculpture-traces-wind-without-moving/?utm_source=rss&utm_medium=rss&utm_campaign=drifts-glass-sculpture-traces-wind-without-moving",
+          "language": "Englisch"
+        },
+        {
+          "name": "Colossal",
+          "url": "https://www.thisiscolossal.com/2026/10/aeolus-studio-drift-light-glass-installation/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Borosilikatglas",
+          "text": "Ein besonders robustes, hitzebeständiges Glas. Man kennt es zum Beispiel von Laborgeräten."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://www.yankodesign.com/images/design_news/2026/10/drifts-glass-sculpture-traces-wind-without-moving/Aeolus-01.jpg",
+        "credit": "Yanko Design",
+        "source": "https://www.yankodesign.com/2026/10/20/drifts-glass-sculpture-traces-wind-without-moving/?utm_source=rss&utm_medium=rss&utm_campaign=drifts-glass-sculpture-traces-wind-without-moving",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k06",
+      "ressort": "wissenschaft",
+      "kicker": "Urknall",
+      "headline": "Helium aus den ersten fünf Minuten so genau gemessen wie nie",
+      "teaser": "Ein internationales Team hat gemessen, wie viel Helium in den ersten fünf Minuten nach dem Urknall entstand. Es nutzte 130 Stunden Beobachtung am Large Binocular Telescope und 15 besonders ursprüngliche Galaxien. Die Messung ist dreimal genauer als frühere Schätzungen.",
+      "blocks": [],
+      "whyGood": "Die genauere Messung hilft, die Anfänge des Universums besser zu verstehen und das Standardmodell der Physik zu prüfen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Standardmodell",
+          "text": "Das Standardmodell der Physik beschreibt die bekannten Elementarteilchen und die Kräfte zwischen ihnen."
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/leo-p-dwarf-galaxy-webb.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k07",
+      "ressort": "kurioses",
+      "kicker": "Isle of Man",
+      "headline": "Acht Capybara-Babys lösen Besucherrekord im Wildpark aus",
+      "teaser": "Im Curraghs Wildlife Park auf der Isle of Man sind acht Capybara-Junge zur Welt gekommen. Der Park erlebte sein bestes Oktoberwochenende aller Zeiten. Jeder Gast gibt ein Pfund für den Artenschutz, wenn er nicht verzichtet.",
+      "blocks": [],
+      "whyGood": "Die kleinen Capybaras bringen Besuchern viel Freude und dem Naturschutz zusätzliches Geld.",
+      "honestNote": "Capybaras sind nicht bedroht, sie helfen dem Park aber, bedrohte Feuchtgebiete bekannt zu machen.",
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vplvjd3elo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IM",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7b36/live/c3ff4750-cbcc-11f1-aba9-2bb2608f11d9.jpg",
+        "credit": "BBC Science",
+        "source": "https://www.bbc.co.uk/news/articles/cw7vplvjd3elo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k08",
+      "ressort": "zukunft",
+      "kicker": "Tiefsee",
+      "headline": "Erstes Kraftwerk am Meeresboden nutzt Wärme eines Vulkans",
+      "teaser": "Das Start-up Endurance Energy aus Seattle hat vor der Küste von Oregon ein Geothermie-Kraftwerk am Meeresboden getestet. Es liegt rund 1,5 Kilometer tief an einem aktiven Unterwasser-Vulkan. Die Anlage erzeugte 8,7 Sekunden lang mehr Strom, als sie selbst brauchte.",
+      "blocks": [],
+      "whyGood": "Die Demonstration zeigt, dass sich erneuerbare Energie aus der Tiefsee grundsätzlich nutzen lässt, auch für Inselstaaten, die bisher auf importierten Diesel angewiesen sind.",
+      "honestNote": "Ob sich Strom aus der Tiefsee wirtschaftlich lohnt, ist noch offen, denn Bau und Betrieb sind aufwendig.",
+      "sources": [
+        {
+          "name": "futurezone",
+          "url": "https://futurezone.at/science/vulkan-kraftwerk-pazifik-erreicht-meilenstein-endurance-energy/403199515",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Geothermie",
+          "text": "Geothermie nutzt Wärme aus dem Inneren der Erde. Mit ihr lässt sich Dampf erzeugen, der eine Turbine antreibt und so Strom macht."
+        }
+      ],
+      "image": {
+        "url": "https://image.futurezone.at/images/facebook/9362136/endurance-energys-adelie-on-the-ocean-guardian-1440x1027.jpeg?versionId=752f1f8fed4c",
+        "credit": "futurezone",
+        "source": "https://futurezone.at/science/vulkan-kraftwerk-pazifik-erreicht-meilenstein-endurance-energy/403199515",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k09",
+      "ressort": "natur",
+      "kicker": "Kambodscha",
+      "headline": "Sechs Delfinkälber: Kambodschas Irrawaddy-Delfine werden mehr",
+      "teaser": "Im Mekong im Nordosten Kambodschas sind in diesem Jahr sechs Irrawaddy-Delfine geboren worden. Die Zahl der Tiere steigt damit auf geschätzt 118. Naturschützer sehen darin ein Zeichen, dass sich die Art erholen kann.",
+      "blocks": [],
+      "whyGood": "Die stark gefährdeten Flussdelfine bekommen Nachwuchs und damit neue Chancen zu überleben.",
+      "honestNote": "Der Bestand liegt noch deutlich unter den rund 200 Tieren aus den späten 1990er Jahren.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/six-new-calves-offer-hope-amid-ongoing-threats-to-cambodias-irrawaddy-dolphins/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "KH",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/20125459/Irrawaddy-dolphins-in-Cambodia.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/six-new-calves-offer-hope-amid-ongoing-threats-to-cambodias-irrawaddy-dolphins/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k10",
+      "ressort": "kurioses",
+      "kicker": "Lewisville, Texas",
+      "headline": "Friseur gibt auf Geldautomat gefundene 128.514 Dollar zurück",
+      "teaser": "Ein Mann entdeckte in Lewisville eine prall gefüllte Tasche auf einem Geldautomaten. Er rief sofort die Polizei und gab alles ab. Die Beamten zählten 128.514 Dollar nach, es fehlte kein Dollar. Die Bank hat das Geld und 19 Schecks zurück.",
+      "blocks": [],
+      "whyGood": "Ein Mann hätte das Geld leicht behalten können und gab es ohne Zögern ab.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/texas-man-finds-more-than-128000-on-top-of-a-banks-atm-and-returns-every-dollar/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/maxresdefault-4.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/texas-man-finds-more-than-128000-on-top-of-a-banks-atm-and-returns-every-dollar/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k11",
+      "ressort": "zukunft",
+      "kicker": "Indien",
+      "headline": "Handbetriebene Waschmaschine spart Zeit und Wasser",
+      "teaser": "Der Ingenieur Navjot Sawhney hat die Waschmaschine „Divya“ erfunden. Sie braucht keinen Strom und wird von Hand gekurbelt. Laut seiner Firma The Washing Machine Project spart sie 75 Prozent der Arbeitszeit und die Hälfte des Wassers.",
+      "blocks": [],
+      "whyGood": "Das einfache Gerät gibt Menschen ohne Strom viele Stunden Zeit zurück, die sie bisher mit Handwäsche verbracht haben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "New Atlas",
+          "url": "https://newatlas.com/good-thinking/divya-hand-cranked-washing-machine/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IN",
+      "terms": [],
+      "image": {
+        "url": "https://assets.newatlas.com/dims4/default/a20bd1a/2147483647/strip/true/crop/7008x3679+0+496/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F74%2F47%2Fae2a41f643aabd2f0ae043d0ac47%2Fdsc05389.jpeg&na.image_optimisation=0",
+        "credit": "New Atlas",
+        "source": "https://newatlas.com/good-thinking/divya-hand-cranked-washing-machine/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k12",
+      "ressort": "natur",
+      "kicker": "Jersey",
+      "headline": "Jersey schützt mehr als ein Fünftel seiner Gewässer vor Grundschleppnetzen",
+      "teaser": "Die Kanalinsel Jersey weitet ihre Meeresschutzgebiete aus. Nun sind 21,7 Prozent der Gewässer vor Schleppnetzen und anderen schädlichen Fangmethoden geschützt. Die Regeln gelten seit dem 1. September und betreffen besonders wertvolle Lebensräume.",
+      "blocks": [],
+      "whyGood": "Wichtige Kinderstuben und Futterplätze für Fische und andere Meerestiere bekommen mehr Schutz.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/isle-of-jersey-expands-marine-protections-to-cover-21-of-territorial-waters/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "JE",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Jersey-as-seen-from-Copernicus-Sentinel-2-credit-ESA-CC-3.0.-SA-IGO.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/isle-of-jersey-expands-marine-protections-to-cover-21-of-territorial-waters/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-k13",
+      "ressort": "natur",
+      "kicker": "Wales",
+      "headline": "Finnwal vor der Küste von Pembrokeshire gefilmt",
+      "teaser": "Der Hobbyfotograf Rhys Morgan war mit Freunden vor der Küste von Pembrokeshire in Wales unterwegs. Dort sahen sie in der Ferne die Blasen eines Finnwals. Sie erkannten ihn an der Flosse nahe dem Schwanz und am Kiefer, der links dunkel und rechts weiß ist.",
+      "blocks": [],
+      "whyGood": "Eines der größten Tiere der Erde zeigte sich vor der walisischen Küste und wurde auf Video festgehalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/videos/cxly491v6p7yo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        },
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/environment/video/2026/oct/20/whale-in-wales-amateur-photographer-captures-stunning-footage-video",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/019f/live/1b569770-cc6c-11f1-a64c-550be9e3c66b.jpg",
+        "credit": "BBC Science",
+        "source": "https://www.bbc.co.uk/news/videos/cxly491v6p7yo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    }
+  ],
+  "joke": {
+    "setup": "Was sagt ein Schneemann zum anderen?",
+    "punchline": "„Riechst du auch Möhren?“"
+  },
+  "comic": {
+    "series": "vaterundsohn",
+    "title": "Vater und Sohn",
+    "episode": "Die Unterschrift",
+    "image": "https://upload.wikimedia.org/wikipedia/de/7/78/Vater_und_Sohn_-_Die_Unterschrift.jpg",
+    "pages": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/de/7/78/Vater_und_Sohn_-_Die_Unterschrift.jpg",
+        "width": 1200,
+        "height": 1618
+      }
+    ],
+    "credit": "e.o.plauen (Erich Ohser), 1935, gemeinfrei",
+    "link": "https://de.wikipedia.org/wiki/Vater_und_Sohn",
+    "linkTitle": "Mehr über Vater und Sohn"
+  },
+  "recommendation": {
+    "kind": "serie",
+    "label": "Serie",
+    "title": "Ludwig",
+    "creator": "Mark Brozel (Idee und Drehbuch: Neil Pearson, David Mitchell)",
+    "year": "2024",
+    "text": "Die britische Krimiserie mit David Mitchell als Rätselbauer, der in die Rolle seines Zwillingsbruders, eines Detektivs, schlüpft, kommt laut Meldung mit 97 Prozent bei den Kritikern an. Das ZDF hat sie nun für Deutschland übernommen und steigt sogar als Co-Produzent ein. Ein gemütlicher Krimi mit Witz und Herz.",
+    "forWhom": "Für alle, die gern mitraten und dabei lachen.",
+    "link": null,
+    "source": {
+      "name": "Serienjunkies",
+      "url": "https://www.serienjunkies.de/news/serien/britische-krimiserie-mit-97-bei-kritikern-kommt-endlich-nach-deutschland-94549283.html"
+    }
+  },
+  "weekly": null,
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-10-21-03",
+        "question": "Wie hoch war der fossile Anteil an Uruguays Stromerzeugung zuletzt im Durchschnitt?",
+        "options": [
+          "2 Prozent",
+          "12 Prozent",
+          "25 Prozent",
+          "40 Prozent"
+        ],
+        "answer": 0
+      },
+      {
+        "storyID": "2026-10-21-09",
+        "question": "Wo wurde das Bild des Medizinbuddha ursprünglich gemalt?",
+        "options": [
+          "Im Guangsheng-Tempel in Zentralchina",
+          "In einer Höhle in Tibet",
+          "In einem Kloster in Japan",
+          "In einem Palast in Peking"
+        ],
+        "answer": 0
+      },
+      {
+        "storyID": "2026-10-21-11",
+        "question": "Wie ging das Spiel von Napoli gegen Bodo/Glimt aus?",
+        "options": [
+          "2:1",
+          "4:3",
+          "3:3",
+          "5:2"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-10-21-r01",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Kaufungen",
+      "headline": "Kaufungen hat wieder einen Buchladen",
+      "teaser": "Nach der Schließung der einzigen Buchhandlung 2023 gründete sich in Kaufungen die „Initiative Dorfbuchladen“. Daraus wurde ein Verein mit mehr als 50 Mitgliedern. Nun hat der Dorfbuchladen eröffnet, mit Café, Spielecke und geplanten Lesungen.",
+      "blocks": [],
+      "whyGood": "Engagierte Menschen haben ihrem Ort einen Buchladen zurückgebracht, der auch ein Treffpunkt sein soll.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/kultur/nach-drei-jahren-pause-kaufungen-hat-wieder-einen-buchladen-v1,dorfbuchladen-kaufungen-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/db74b2b5-aa7c-4cbf-b567-9750d435ecf2/AAABoVmegtk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/kultur/nach-drei-jahren-pause-kaufungen-hat-wieder-einen-buchladen-v1,dorfbuchladen-kaufungen-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r02",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Bodman",
+      "headline": "13-Jähriger spielt mitten im Bodensee Klavier",
+      "teaser": "Levin Giesler aus Sipplingen hat auf dem Felsplateau „Teufelstisch“ vor Bodman Klavier gespielt. Der Flügel wurde zerlegt und mit Schlauchboot und Segelschiff zum Plateau gebracht. Das Plateau ist bei Niedrigwasser nur knietief überspült.",
+      "blocks": [],
+      "whyGood": "Eine verrückte Idee wurde wahr, und der Vater und Menschen am Ufer freuten sich mit dem jungen Pianisten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/13-jaehriger-spielt-klavier-im-bodensee-auf-teufelstisch-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Hybridflügel",
+          "text": "Ein Hybridflügel ist ein Klavier, das mechanische und elektronische Technik verbindet. Er kann auch über Elektronik klingen."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/fafe178f-8e0b-4923-a964-35feb97644a3/AAABoVpR9xk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/13-jaehriger-spielt-klavier-im-bodensee-auf-teufelstisch-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r03",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Garbsen",
+      "headline": "Technik Emmy für Start-up aus Garbsen",
+      "teaser": "Das Start-up „Proton Camera Innovations“ aus Garbsen hat in Hollywood einen Technik Emmy gewonnen. Es hat eine Minikamera für Drohnen entwickelt, die so groß ist wie eine Zwei-Euro-Münze. Sie kam bei den Olympischen Winterspielen zum Einsatz.",
+      "blocks": [],
+      "whyGood": "Eine kleine Firma aus der Region Hannover bekommt einen der wichtigsten Preise der Branche.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/fuer-mini-kamera-geehrt-technik-emmy-geht-nach-garbsen,technikemmy-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/a56d9db2-ed34-410d-977d-42638108776f/AAABoVl07G0/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/fuer-mini-kamera-geehrt-technik-emmy-geht-nach-garbsen,technikemmy-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r05",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Kiel",
+      "headline": "Kieler Woche steht im Finale des Deutschen Tourismuspreises",
+      "teaser": "Die Kieler Woche gehört zu den fünf Finalisten des Deutschen Tourismuspreises 2026. Es gab 57 Bewerbungen. Die Jury überzeugte vor allem das inklusive Konzept mit Gebärdensprache bei Konzerten, Fahrradrikschas und inklusiven Segelangeboten.",
+      "blocks": [],
+      "whyGood": "Ein großes Fest zeigt, wie viele Menschen mit ganz unterschiedlichen Voraussetzungen mitfeiern können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/kieler-woche-im-finale-des-deutschen-tourismuspreises,regionkielnews-3100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/0bc8200c-fe7d-4cd6-a9be-15d01691d90f/AAABl6cQJYA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/kieler-woche-im-finale-des-deutschen-tourismuspreises,regionkielnews-3100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r06",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Landshut",
+      "headline": "Landshuter Hochzeit sucht 2.500 Darsteller fürs Mittelalterfest",
+      "teaser": "Für die „Landshuter Hochzeit von 1475“ im kommenden Sommer werden rund 2.500 Rollen besetzt. Bewerben können sich Menschen aus Stadt und Landkreis Landshut, die Frist endet Ende Oktober. Das Brautpaar wird aus den Bewerbern ausgewählt und im März vorgestellt.",
+      "blocks": [],
+      "whyGood": "Ein jahrhundertealtes Fest lebt weiter, und viele junge Menschen in der Region können mitmachen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Niederbayern",
+          "url": "https://www.br.de/nachrichten/bayern/brautpaar-gesucht-bewerbungsphase-fuer-landshuter-hochzeit-laeuft,VYa0jwc",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/87ac1bb2-ba04-4e3b-8f47-83f3b2236aa9.jpeg?q=80&rect=0%2C60%2C1669%2C940&w=1600&h=900",
+        "credit": "BR24 Niederbayern",
+        "source": "https://www.br.de/nachrichten/bayern/brautpaar-gesucht-bewerbungsphase-fuer-landshuter-hochzeit-laeuft,VYa0jwc",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r07",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Hof",
+      "headline": "Hofer Filmtage feiern 60. Geburtstag als Talentschmiede",
+      "teaser": "Die Internationalen Hofer Filmtage finden zum 60. Mal statt. 1967 zeigten Heinz Badewitz, Werner Herzog und Kollegen dort 20 Kurzfilme vor 300 Gästen. Heute dauert das Festival fünfeinhalb Tage und startet viele Karrieren.",
+      "blocks": [],
+      "whyGood": "Aus einem Sonntagnachmittag im Kino wurde ein Festival, das junge Filmschaffende bis heute fördert.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Oberfranken",
+          "url": "https://www.br.de/nachrichten/bayern/home-of-films-60-jahre-internationale-hofer-filmtage,VYa38rX",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/74fa58b9-5eb6-48f6-8518-93e1ee7240cf.jpeg?q=80&rect=8%2C138%2C1013%2C569&w=1600&h=900",
+        "credit": "BR24 Oberfranken",
+        "source": "https://www.br.de/nachrichten/bayern/home-of-films-60-jahre-internationale-hofer-filmtage,VYa38rX",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r09",
+      "ressort": "region",
+      "regions": [
+        "BE"
+      ],
+      "kicker": "Marzahn",
+      "headline": "Berlin darf in Marzahn fast zwei Kilometer tief nach Erdwärme bohren",
+      "teaser": "Die BEW Berliner Energie und Wärme GmbH hat vom Land Berlin den Zuschlag für eine Geothermie-Bohrung erhalten. Am Kraftwerkstandort Marzahn geht es etwa 1.950 Meter tief. Dort sollen vier wasserführende Schichten untersucht werden, um Wärme zum Heizen zu nutzen.",
+      "blocks": [],
+      "whyGood": "Unter Berlin liegt eine Wärmequelle, die unabhängig vom Weltmarkt ist und nahezu ohne Emissionen auskommt.",
+      "honestNote": "Die erste Anlage soll nach den Plänen der BEW erst 2031 in Betrieb gehen.",
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-geothermie-2-kilometer-bohrung-marzahn.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Aquiferen",
+          "text": "Aquifere sind Gesteinsschichten im Untergrund, die Wasser führen. Bei der Geothermie kann das warme Wasser aus ihnen zum Heizen genutzt werden."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/84972ca8-fb8b-47d8-ab69-332d036334dd/AAABoVRXTAQ/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-geothermie-2-kilometer-bohrung-marzahn.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r10",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Garz und Putbus",
+      "headline": "Drei Alleen aus MV gewinnen den Fotowettbewerb des BUND",
+      "teaser": "Beim bundesweiten Wettbewerb „Allee des Jahres“ kommen die drei besten Fotos aus Mecklenburg-Vorpommern. Sieger ist Hobby-Fotograf Axel Plate aus Stralsund mit der Krimlinden-Allee zwischen Garz und Putbus im Winter. Es gab 218 Einsendungen.",
+      "blocks": [],
+      "whyGood": "Die Bilder zeigen, wie schön und vielfältig Alleen im Land sind, und lenken den Blick auf ihren Schutz.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/allee-des-jahres-die-drei-besten-fotos-kommen-aus-mv,allee-106.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.ndr.de/image/7d152863-cd99-4370-8b71-0ec101c26df6/AAABoVidb1A/AAABnSSveow/16x9-1280.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/allee-des-jahres-die-drei-besten-fotos-kommen-aus-mv,allee-106.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r13",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Dresden",
+      "headline": "Sachsenring-Geschichte kommt online",
+      "teaser": "Die SLUB Dresden digitalisiert erstmals historische Dokumente vom Sachsenring. Dazu gehören Programmhefte und Postkarten aus der Sammlung des ADAC Sachsen. Bis zum 100. Jubiläum 2027 soll die Geschichte der Rennstrecke seit 1927 öffentlich zugänglich sein.",
+      "blocks": [],
+      "whyGood": "Wer sich für den Sachsenring interessiert, kann seine Geschichte bald von zu Hause aus erkunden.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/rennstrecke-motorsport-slub-adac-geschichte,sachsenring-digitalisierung-kultur-news-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/f7cb2b3a-2aa7-4aae-8795-169d31fcbfa3/AAABoVhlCKI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/rennstrecke-motorsport-slub-adac-geschichte,sachsenring-digitalisierung-kultur-news-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r14",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Mittelherwigsdorf",
+      "headline": "Neue Brücke in Mittelherwigsdorf wächst, Freigabe noch 2026",
+      "teaser": "In Mittelherwigsdorf bei Zittau wurden am Wochenende die mehr als 20 Meter langen Fertigteilträger der neuen Brücke eingebaut. Als Nächstes folgen die Abdichtung und der Straßenbau. Das Landratsamt Görlitz will die Brücke noch in diesem Jahr freigeben.",
+      "blocks": [],
+      "whyGood": "Die Brücke über die Bahnstrecke kommt voran und soll bald wieder für den Verkehr offen sein.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/bautzen/goerlitz-weisswasser-zittau/ersatzneubau-freigabe-2026,bruecke-mittelherwigsdorf-116.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Fertigteilträger",
+          "text": "Das sind tragende Bauteile, die schon vorher in einem Werk gefertigt werden. Auf der Baustelle werden sie nur noch eingesetzt."
+        }
+      ],
+      "image": {
+        "url": "https://images.mdr.de/image/3aeadf82-d59a-4ecf-a284-32c314512f92/AAABoVnUTcg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/bautzen/goerlitz-weisswasser-zittau/ersatzneubau-freigabe-2026,bruecke-mittelherwigsdorf-116.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r15",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Jardelund und Nübbel",
+      "headline": "Zwei Höfe in Schleswig-Holstein für Tierwohl geehrt",
+      "teaser": "Die Landwirtschaftskammer hat den Milchviehbetrieb Hansen aus Jardelund und die Pferdezüchterin Antonia Döllner aus Nübbel ausgezeichnet. Beide verbinden Wirtschaftlichkeit mit viel Tierwohl. Bei Hansen entscheiden die Kühe selbst, wann sie gemolken werden.",
+      "blocks": [],
+      "whyGood": "Wer Tiere gut hält und dabei modern wirtschaftet, bekommt Anerkennung.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/tierfreundlich-und-zukunftsorientiert-landwirte-aus-sh-geehrt,auszeichnunglandwirte-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Melkroboter",
+          "text": "Ein Melkroboter melkt Kühe automatisch. Die Tiere gehen selbst hin, wenn sie gemolken werden möchten."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/8d5acf12-ab0b-4f3d-9036-86399a5bf3d5/AAABoQ_tr2g/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/tierfreundlich-und-zukunftsorientiert-landwirte-aus-sh-geehrt,auszeichnunglandwirte-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r16",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Zwei Teenager arbeiten zwei Tage als Radioreporter",
+      "teaser": "Luisa und Musa, beide 17 Jahre alt, sind zwei Tage für Radio Bremen unterwegs. Sie machen Umfragen und schauen bei Bremen Next vorbei. Sogar vor der Kamera stehen sie selbst.",
+      "blocks": [],
+      "whyGood": "Junge Menschen bekommen die Chance, den Journalismus live auszuprobieren.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/bremen-radio-next-junge-reporter-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/importbild-89896~_v-1280x720_c-1792510041637.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/bremen-radio-next-junge-reporter-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r17",
+      "ressort": "region",
+      "regions": [
+        "BB"
+      ],
+      "kicker": "Grünheide",
+      "headline": "Teilautonomer Tesla-Shuttle soll Lehrkräfte durch Grünheide fahren",
+      "teaser": "Tesla plant noch in diesem Jahr Testfahrten in Grünheide. Ein Tesla Model Y soll Lehrkräfte der Gerhart-Hauptmann-Grundschule zwischen zwei Schulstandorten fahren. Ein geschulter Sicherheitsfahrer sitzt am Lenkrad und kann jederzeit eingreifen.",
+      "blocks": [],
+      "whyGood": "Ein kurzer Schulweg im Alltag wird zum Testfeld für neue Technik, und Brandenburg kommt dem Ziel einer Modellregion für autonomes Fahren näher.",
+      "honestNote": "Die Testfahrten sind vorerst nur für wenige Monate geplant.",
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/10/tesla-plant-teilautonome-shuttles-in-gruenheide-lehrer.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/a4b0497a-577b-4d75-bd4a-53ecd9dbb06f/AAABoVobBfM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/wirtschaft/beitrag/2026/10/tesla-plant-teilautonome-shuttles-in-gruenheide-lehrer.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-21-r18",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Großrosseln-Karlsbrunn",
+      "headline": "Karlsbrunn baut einen der größten Batteriespeicher im Saarland",
+      "teaser": "In Karlsbrunn hat der Spatenstich für einen Großbatteriespeicher stattgefunden. Der Energieversorger Enovos baut ihn für rund 7,2 Millionen Euro. Er kann Solarstrom vom Tag speichern und bei Bedarf wieder ins Netz geben.",
+      "blocks": [],
+      "whyGood": "Mehr Speicher machen das Stromnetz stabiler und helfen, Solarstrom besser zu nutzen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/karlsbrunn_enovos_grossbatteriespeicher_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/27a6b9b2-3e4d-46e2-bdee-91e36c4da81e/AAABoVqvTiA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/karlsbrunn_enovos_grossbatteriespeicher_100.html",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Chili-Crisp-Joghurt-Hähnchen mit Knusperreis",
+    "intro": "Ein Blech, wenig Aufwand und viel Geschmack: Das Hähnchen wird durch den Joghurt zart, und der Reis nimmt den Bratensaft auf. Der frische Krautsalat passt genau in die Herbstzeit.",
+    "servings": 4,
+    "minutes": 50,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "Stück",
+        "item": "Hähnchenschenkel ohne Haut und Knochen (700 bis 900 g)"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "feines Salz, aufgeteilt"
+      },
+      {
+        "amount": 240,
+        "unit": "g",
+        "item": "griechischer Vollmilchjoghurt, aufgeteilt"
+      },
+      {
+        "amount": 90,
+        "unit": "ml",
+        "item": "Chili Crisp, gut umgerührt"
+      },
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "gekochter Jasmin- oder Rundkornreis"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "item": "fein abgeriebene Limettenschale"
+      },
+      {
+        "amount": 60,
+        "unit": "ml",
+        "item": "frisch gepresster Limettensaft"
+      },
+      {
+        "amount": 0.5,
+        "unit": "TL",
+        "item": "Zucker"
+      },
+      {
+        "amount": 450,
+        "unit": "g",
+        "item": "Weißkohl, sehr fein geschnitten"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "kleine rote Zwiebel, in dünnen Scheiben"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "item": "Koriandergrün, fein gehackt"
+      }
+    ],
+    "steps": [
+      "Den Ofen auf 220 Grad vorheizen. Die Hähnchenschenkel mit ½ TL Salz würzen.",
+      "180 g Joghurt und das Chili Crisp in einer großen Schüssel verrühren. Das Fleisch darin wenden, bis es überall bedeckt ist.",
+      "Die Schenkel auf ein Backblech mit Rand legen und die restliche Joghurtmischung darübergeben. 25 bis 30 Minuten backen, bis sie tief gebräunt sind und innen 74 Grad haben.",
+      "Das Hähnchen herausnehmen. Den Reis auf dem Blech im Bratensaft verteilen und 12 bis 15 Minuten backen, bis er die Flüssigkeit aufgenommen hat und stellenweise knusprig wird.",
+      "Inzwischen Limettenschale, Limettensaft, Zucker, ¼ TL Salz und die übrigen 60 g Joghurt zu einem Dressing verrühren.",
+      "Den Kohl mit einer großen Prise Salz in einer Schüssel mit den Händen leicht kneten, bis er weicher wird. Zwiebel, Koriander und Dressing untermischen und abschmecken.",
+      "Das Hähnchen in Scheiben schneiden und mit dem Knusperreis und dem Krautsalat servieren."
+    ],
+    "tip": "Wer es milder mag, nimmt weniger Chili Crisp und gibt etwas mehr Joghurt dazu.",
+    "icon": "flame.fill",
+    "source": {
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/recipe/chili-crisp-yogurt-chicken"
+    }
+  }
+}
