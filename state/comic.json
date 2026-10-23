@@ -3,119 +3,53 @@
  "busch": 3,
  "sandraundwoo": 29,
  "last": {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "comic": {
-   "series": "sandraundwoo",
-   "title": "Sandra und Woo",
-   "episode": "Wildfütterung und mehr",
-   "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0024.png",
-   "pages": [
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0024.png",
-     "width": 980,
-     "height": 631,
-     "title": "Wildfütterung",
-     "panels": [
-      [
-       0.0071,
-       0.0095,
-       0.2265,
-       0.4469
-      ],
-      [
-       0.2469,
-       0.0095,
-       0.2286,
-       0.4469
-      ],
-      [
-       0.4888,
-       0.0095,
-       0.2276,
-       0.4469
-      ],
-      [
-       0.7306,
-       0.0095,
-       0.2276,
-       0.4469
-      ],
-      [
-       0.0061,
-       0.4786,
-       0.2276,
-       0.4691
-      ],
-      [
-       0.2469,
-       0.4786,
-       0.2286,
-       0.4691
-      ],
-      [
-       0.4888,
-       0.4786,
-       0.2286,
-       0.4691
-      ],
-      [
-       0.7296,
-       0.4786,
-       0.2643,
-       0.4691
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0026.png",
-     "width": 980,
-     "height": 395,
-     "title": "Regen",
-     "panels": [
-      [
-       0.0061,
-       0.0253,
-       0.2776,
-       0.8911
-      ],
-      [
-       0.301,
-       0.0253,
-       0.2786,
-       0.8911
-      ],
-      [
-       0.7163,
-       0.0253,
-       0.2776,
-       0.8911
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0028.png",
-     "width": 980,
-     "height": 541,
-     "title": "Zielgruppen",
-     "panels": [
-      [
-       0.1796,
-       0.0111,
-       0.7469,
-       0.3235
-      ],
-      [
-       0.0061,
-       0.3346,
-       0.9878,
-       0.5915
-      ]
-     ]
-    }
-   ],
-   "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-   "link": "https://www.sandraandwoo.com/woode/",
-   "linkTitle": "Mehr von Sandra und Woo"
+   "series": "sonnewolke",
+   "title": "Sonne & Wolke",
+   "episode": "Der Baum hat Hausrecht",
+   "strip": {
+    "storyID": "2026-10-23-08",
+    "panels": [
+     {
+      "prop": "house.fill",
+      "caption": null,
+      "sun": {
+       "mood": "froh",
+       "text": "In Mexiko wird ein Haus um die Bäume herum gebaut!"
+      },
+      "cloud": {
+       "mood": "skeptisch",
+       "text": "Die Bäume waren wohl zuerst da."
+      }
+     },
+     {
+      "prop": "tree.fill",
+      "caption": null,
+      "sun": {
+       "mood": "staunt",
+       "text": "Die Stämme bestimmen, wo Räume und Wege liegen!"
+      },
+      "cloud": {
+       "mood": "grübelt",
+       "text": "Endlich ein Chef, der nicht dauernd redet."
+      }
+     },
+     {
+      "prop": "tree.fill",
+      "caption": "Später …",
+      "sun": {
+       "mood": "lacht",
+       "text": "Und mitten im Wohnzimmer steht ein Baum!"
+      },
+      "cloud": {
+       "mood": "froh",
+       "text": "Super. Dann hab ich endlich Schatten für mein Nickerchen."
+      }
+     }
+    ]
+   },
+   "credit": "Ein Comic von The Daily Good"
   }
  }
 }
