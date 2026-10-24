@@ -1,0 +1,1922 @@
+{
+  "date": "2026-10-24",
+  "number": 26,
+  "isSample": false,
+  "leadStoryID": "2026-10-24-01",
+  "stories": [
+    {
+      "id": "2026-10-24-01",
+      "ressort": "gesundheit",
+      "kicker": "Indien",
+      "headline": "Indien senkt die Preise für Krebsmedikamente",
+      "teaser": "Eine pensionierte Bankangestellte zog vor Gericht. Nun sollen Krebsmedikamente in Indien deutlich billiger werden.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 137,
+          "icon": "pills.fill",
+          "caption": "Krebsmedikamente werden in Indien günstiger"
+        },
+        {
+          "type": "comparison",
+          "title": "Preis eines Krebsmedikaments",
+          "before": {
+            "label": "Einkaufspreis der Klinik",
+            "value": 2700,
+            "display": "2.700 Rupien"
+          },
+          "after": {
+            "label": "Verkaufspreis an Patienten",
+            "value": 27000,
+            "display": "27.000 Rupien"
+          }
+        },
+        {
+          "type": "bigNumber",
+          "value": "70",
+          "unit": "%",
+          "caption": "weniger sollen manche Medikamente künftig kosten",
+          "icon": "chart.bar.fill"
+        }
+      ],
+      "whyGood": "Wer an Krebs erkrankt, muss in Indien künftig weniger Angst vor dem finanziellen Ruin haben. Eine einzelne Patientin hat mit ihrer Klage viele Familien entlastet.",
+      "honestNote": "Das Gericht prüft noch, ob die Preisgrenze auch für weitere Medikamente gelten soll.",
+      "sources": [
+        {
+          "name": "Guardian Science",
+          "url": "https://www.theguardian.com/global-development/2026/oct/23/india-cuts-cost-cancer-drugs",
+          "language": "Englisch"
+        }
+      ],
+      "score": 8,
+      "country": "IN",
+      "terms": [
+        {
+          "term": "Aufschlag",
+          "text": "Das ist der Betrag, den Händler oder Kliniken auf den Einkaufspreis legen, wenn sie ein Medikament weiterverkaufen."
+        }
+      ],
+      "guess": {
+        "question": "Um wie viel war der Preis eines Krebsmedikaments im Gerichtsfall aufgeschlagen?",
+        "options": [
+          "Etwa das Doppelte",
+          "Etwa das Zehnfache",
+          "Etwa das Dreifache"
+        ],
+        "answer": 1,
+        "reveal": "Die Klinik bezahlte 2.700 Rupien, Patienten sollten 27.000 Rupien zahlen. Das ist das Zehnfache.",
+        "icon": "pills.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/5949b37784145f170b9a40cdf06c532b40e2925d/10_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4d796de74babf8cb83395b8b3774f487",
+        "credit": "Guardian Science",
+        "source": "https://www.theguardian.com/global-development/2026/oct/23/india-cuts-cost-cancer-drugs",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-02",
+      "ressort": "sport",
+      "kicker": "Rotterdam",
+      "headline": "Skye Blakely wird nach Achillessehnenriss Mehrkampf-Weltmeisterin",
+      "teaser": "Die 21-jährige US-Turnerin gewinnt in Rotterdam den WM-Titel im Mehrkampf. Vor dem Olympia-Ausscheid 2024 hatte sie sich die Achillessehne gerissen.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "55,733",
+          "unit": "Punkte",
+          "caption": "reichten Skye Blakely an vier Geräten zum WM-Titel vor der Russin Liudmila Roshchina.",
+          "icon": "medal.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Silber mit dem US-Team hinter China am Mittwoch",
+            "Erste US-Siegerin im Mehrkampf seit Simone Biles 2023",
+            "Bronze ging an Ke Qinqin aus China"
+          ],
+          "icons": [
+            "trophy.fill",
+            "star.fill",
+            "medal.fill"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Ich bin fähig, ich bin bereit. Und ich habe jede Version von mir selbst sehr stolz gemacht.",
+          "author": "Skye Blakely, Turnerin und Weltmeisterin"
+        }
+      ],
+      "whyGood": "Skye Blakely musste nach zwei schweren Verletzungen zweimal von vorn anfangen. Jetzt hat sie den wichtigsten Einzeltitel im Turnen außerhalb der Olympischen Spiele gewonnen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/oct/23/skye-blakely-caps-remarkable-injury-comeback-with-world-gymnastics-all-around-title",
+          "language": "Englisch"
+        },
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/regional/swr/swr-blakely-mehrkampf-weltmeisterin-nemour-vergibt-afrika-coup-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 8,
+      "country": "NL",
+      "terms": [
+        {
+          "term": "Achillessehne",
+          "text": "Die starke Sehne an der Ferse. Sie verbindet die Wadenmuskeln mit dem Fuß und wird zum Laufen und Springen gebraucht."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele große Operationen musste Skye Blakely in ihrer Karriere überstehen?",
+        "options": [
+          "Eine",
+          "Zwei",
+          "Fünf"
+        ],
+        "answer": 1,
+        "reveal": "Blakely sprach von zwei großen Operationen: nach dem Ellbogen und nach der Achillessehne.",
+        "icon": "figure.run"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/e5a9c0028f24ce846e56fff48d2556376f3e2b6a/643_0_6425_5140/master/6425.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7aa415b510e21773606da425bd50d39c",
+        "credit": "Guardian Sport",
+        "source": "https://www.theguardian.com/sport/2026/oct/23/skye-blakely-caps-remarkable-injury-comeback-with-world-gymnastics-all-around-title",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-03",
+      "ressort": "zukunft",
+      "kicker": "Apulien",
+      "headline": "Trauben gedeihen unter Solarmodulen besser und liefern Strom",
+      "teaser": "In Süditalien wuchsen Reben im Halbschatten von Solarmodulen kräftiger. Forschende der Universität Bari testeten das in einem Weinberg.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "3",
+          "unit": "mal",
+          "caption": "so schwer war fast jede Traube unter den Modulen wie in der vollen Sonne",
+          "icon": "leaf.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Agrivoltaik: Solarmodule stehen über den Reben und spenden Halbschatten",
+            "Die Triebe der Reben wuchsen mehr als doppelt so lang",
+            "Die Beeren hatten weniger Zucker und mehr Polyphenole"
+          ],
+          "icons": [
+            "sun.max.fill",
+            "leaf.fill",
+            "sparkles"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Apulien, Italien",
+          "latitude": 40.8,
+          "longitude": 17.2,
+          "caption": "Der Versuchsweinberg liegt im Süden Italiens, im „Absatz des Stiefels“."
+        }
+      ],
+      "whyGood": "Auf derselben Fläche entstehen Strom und gesündere Trauben. Die Reben brauchen im trockenen Süden zudem weniger Wasser, das schont Grundwasser und Kosten.",
+      "honestNote": "Nicht jede Region und nicht jede Rebsorte verträgt den Schatten gleich gut.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/vines-produce-bigger-healthier-wine-grapes-when-grown-under-solar-panels/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "IT",
+      "terms": [
+        {
+          "term": "Agrivoltaik",
+          "text": "Dabei wachsen Pflanzen und Solarmodule auf derselben Fläche. Die Module machen Strom, und die Pflanzen darunter bekommen etwas Schatten."
+        },
+        {
+          "term": "Polyphenole",
+          "text": "Das sind natürliche Stoffe in Pflanzen, zum Beispiel in Trauben. Sie gelten als gesund."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel schwerer waren die Trauben im Halbschatten der Module?",
+        "options": [
+          "etwa 10 Prozent",
+          "etwa doppelt so schwer",
+          "fast dreimal so schwer"
+        ],
+        "answer": 2,
+        "reveal": "Jede Traube wog unter den Modulen fast dreimal so viel wie die Trauben in der vollen Sonne.",
+        "icon": "sun.max.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-supplied-to-PV-Magazine-by-Giuseppe-Ferrara.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/vines-produce-bigger-healthier-wine-grapes-when-grown-under-solar-panels/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-04",
+      "ressort": "natur",
+      "kicker": "Australien",
+      "headline": "Neue Spinne in Australien fängt Ameisen mit einem Seidenkatapult",
+      "teaser": "Eine neu entdeckte Spinne baut eine Falle wie eine gespannte Feder. Sie ist offenbar auf eine einzige Ameisenart zugeschnitten.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Spinne wurde in Australien neu entdeckt.",
+            "Ihr Netz wirkt wie eine gespannte Feder aus Seide.",
+            "Es zielt offenbar nur auf eine Art: die Grüne Weberameise."
+          ],
+          "icons": [
+            "magnifyingglass",
+            "map.fill",
+            "ant.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was ist besonders?",
+          "text": "Die Spinne jagt nicht selbst. Sie baut eine Falle, die wie ein Katapult schnellt. Forschende vermuten, dass sie die Ameisen sogar zum Angriff auf die Falle bringt. Dann lösen die Ameisen sie selbst aus."
+        }
+      ],
+      "whyGood": "Die Natur hält immer noch neue Arten und Tricks bereit. Diese Spinne zeigt, wie fein sich Tiere an ihre Beute anpassen können.",
+      "honestNote": "Forschende vermuten bisher nur, dass die Spinne die Ameisen zum Angriff auf die Falle lockt.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/this-spider-catapults-ants/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "Katapult",
+          "text": "Ein Katapult ist eine Maschine, die etwas mit gespannter Kraft weit wegschleudert. Die Spinne baut so etwas aus Seide."
+        }
+      ],
+      "guess": null,
+      "image": null
+    },
+    {
+      "id": "2026-10-24-05",
+      "ressort": "kurioses",
+      "kicker": "Italien und Irland",
+      "headline": "Drei Italiener bringen Iren den verlorenen Ehering zurück",
+      "teaser": "Ein Ire verliert im Urlaub seinen Ehering in einem Bergbach. Drei junge Fremde suchen ihn und bringen ihn persönlich nach Hause, verkleidet als Hobbits.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 3,
+          "icon": "person.fill",
+          "caption": "junge Männer suchten im Bach nach dem Ring eines Fremden"
+        },
+        {
+          "type": "bigNumber",
+          "value": "16",
+          "unit": "Jahre",
+          "caption": "trug Patrick Mohr seinen Ehering, bevor ihn der Bach mitnahm",
+          "icon": "heart.fill"
+        }
+      ],
+      "whyGood": "Drei Fremde geben nicht auf und helfen, obwohl sie kaum Hoffnung haben. Am Ende bekommt ein Mann ein Stück Erinnerung zurück und die Helfer gewinnen neue Freunde.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/3-italian-hobbits-searched-for-irishmans-precious-wedding-ring-for-days-before-bringing-it-to-his-home/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "IT",
+      "terms": [],
+      "guess": {
+        "question": "Wie lange suchten die drei Freunde nach dem Ring im Bach?",
+        "options": [
+          "Etwa eine Stunde",
+          "Drei Tage",
+          "Drei Wochen"
+        ],
+        "answer": 1,
+        "reveal": "Zwei Tage mit Kajaks blieben erfolglos. Am dritten Tag fanden sie den Ring beim Tauchen im Sand.",
+        "icon": "magnifyingglass"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Irishman-Patrick-Mohr-second-from-left-holds-up-his-wedding-ring-alongside-the-three-Italian-friends-who-found-it-provided-to-CBC-by-Patrick-Mohr.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/3-italian-hobbits-searched-for-irishmans-precious-wedding-ring-for-days-before-bringing-it-to-his-home/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-06",
+      "ressort": "design",
+      "kicker": "Apple Music",
+      "headline": "Apple Music macht Klang sichtbar, ganz von Hand",
+      "teaser": "Die neue Identity von Apple Music entstand analog. Der britische Produzent Fred Again.. und NEST Acoustics haben dafür einen Sound komponiert und gefilmt.",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "So entstand das Bild",
+          "items": [
+            "Fred Again.. und NEST Acoustics komponieren einen eigenen Sound.",
+            "Ein Transducer verwandelt die Töne in Vibrationen. Das bewegt eine Flüssigkeit in einer Wanne.",
+            "Eine gewölbte Glasscheibe bricht das Licht. So formt sich das Erscheinungsbild."
+          ],
+          "icons": [
+            "music.note",
+            "water.waves",
+            "sparkles"
+          ]
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Der Titel lautet „Made By Sound“.",
+            "Die Schrift ist die Apple Schrift SF Pro in fetter Version.",
+            "Dazu gehört ein überarbeitetes Notensymbol."
+          ],
+          "icons": [
+            "music.note",
+            "pencil",
+            "sparkles"
+          ]
+        }
+      ],
+      "whyGood": "Statt am Computer zu entstehen, wurde das neue Bild mit echtem Material und echtem Klang gemacht. Handwerk und Experimentierfreude bekommen so eine große Bühne.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PAGE",
+          "url": "https://page-online.de/kreation/neue-identity-fuer-apple-music-und-das-in-schoenster-handarbeit/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Transducer",
+          "text": "Ein Transducer ist ein Wandler. Er verwandelt Töne in Vibrationen, die zum Beispiel eine Flüssigkeit zum Schwingen bringen."
+        }
+      ],
+      "guess": {
+        "question": "Wie haben die Gestalter den Klang sichtbar gemacht?",
+        "options": [
+          "Mit einer Computeranimation",
+          "Mit schwingender Flüssigkeit und Licht",
+          "Mit Rauch und Kameras"
+        ],
+        "answer": 1,
+        "reveal": "Ein Transducer ließ Flüssigkeit in einer Wanne im Takt der Töne schwingen. Eine Glasscheibe brach das Licht.",
+        "icon": "music.note"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/FredAgainCPBowl100825-21.jpg/1280px-FredAgainCPBowl100825-21.jpg",
+        "credit": "Raph_PH, CC BY 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:FredAgainCPBowl100825-21.jpg",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-10-24-07",
+      "ressort": "fotografie",
+      "kicker": "Ungarn",
+      "headline": "Imre Potyó ist Europas Wildlife Fotograf des Jahres 2026",
+      "teaser": "Sein Bild zeigt Fledermäuse im Winterschlaf und einen kleinen Schimmelpilz im Vordergrund. Es gewann den Wettbewerb der Gesellschaft für Naturfotografie.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "26.000",
+          "unit": "Fotos",
+          "caption": "und mehr ließ das Siegerbild hinter sich",
+          "icon": "camera.fill"
+        },
+        {
+          "type": "background",
+          "title": "Das Siegerfoto",
+          "text": "Kleine Hufeisennasen schlafen im Winter in Stollen. Ab und zu wachen sie auf und jagen Insekten. Ihr Kot, der Guano, sammelt sich am Boden. Dort wächst ein feiner Schimmelpilz, den Potyó im Vordergrund fotografierte."
+        }
+      ],
+      "whyGood": "Das Foto macht eine verborgene Welt sichtbar, die wir sonst kaum wahrnehmen. Es entstand bei einer genehmigten Zählung, ohne die schlafenden Tiere zu stören.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/23/20-winners-of-european-wildlife-photographer-of-the-year-2026/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "HU",
+      "terms": [
+        {
+          "term": "Guano",
+          "text": "Guano ist der Kot von Fledermäusen oder Vögeln. Wenn er sich über lange Zeit sammelt, entsteht eine dunkle Schicht am Boden."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Jahre fotografiert Imre Potyó schon Fledermäuse in Stollen?",
+        "options": [
+          "3 Jahre",
+          "13 Jahre",
+          "30 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Seit 13 Jahren fotografiert Potyó Fledermäuse in geschützten Stollen in Ungarn.",
+        "icon": "camera.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/10/european-wildlife-photographer-2026-featured.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/10/23/20-winners-of-european-wildlife-photographer-of-the-year-2026/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-08",
+      "ressort": "technik",
+      "kicker": "Cambridge",
+      "headline": "Kleiner Sensor soll Labormessungen ans Handgelenk bringen",
+      "teaser": "Forschende in Cambridge haben ein winziges Spektrometer gebaut. Es ist günstig und genau. Es könnte Blutzucker ohne Nadel messen.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "10",
+          "unit": "US-Dollar",
+          "caption": "soll der neue Sensor kosten und misst so genau wie große Laborgeräte",
+          "icon": "banknote.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Der Sensor ist nur wenige Zentimeter groß und passt in tragbare Geräte.",
+            "Er erkannte Kunststoffe, Medikamente, Kaffee, Mehl und Tee in den Tests fehlerfrei.",
+            "Er maß Hautfeuchte, Alkohol, Laktat und Blutzucker im Blut ohne Nadel."
+          ],
+          "icons": [
+            "cpu",
+            null,
+            "heart.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was macht ein Spektrometer?",
+          "text": "Ein Spektrometer untersucht Licht, das auf einen Stoff trifft. Daraus lässt sich ablesen, woraus der Stoff besteht. Kleine Geräte waren bisher oft ungenau. Das neue Gerät rechnet einfacher und braucht wenig Rechenleistung."
+        }
+      ],
+      "whyGood": "Genaue Messungen waren bisher oft nur in Laboren möglich. Ein günstiger Sensor könnte sie in den Alltag bringen, etwa für Menschen, die ihren Blutzucker ohne Stiche prüfen wollen.",
+      "honestNote": "Der Blutzucker wurde bisher nur bei einer Person über längere Zeit verfolgt, weitere Tests sind nötig.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Spektrometer",
+          "text": "Ein Messgerät, das Licht zerlegt und auswertet. So erkennt man, woraus ein Stoff besteht."
+        }
+      ],
+      "guess": {
+        "question": "Bis zu welcher Hitze arbeitet der Sensor noch zuverlässig?",
+        "options": [
+          "Bis 40 Grad",
+          "Bis 80 Grad",
+          "Bis 200 Grad"
+        ],
+        "answer": 1,
+        "reveal": "Der Sensor arbeitet von minus 20 bis 80 Grad Celsius zuverlässig, auch draußen und in Fabriken.",
+        "icon": "cpu"
+      },
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/wearable-spectrometer-chip.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-09",
+      "ressort": "wissenschaft",
+      "kicker": "Helsinki",
+      "headline": "Schall formt in Helsinki eine Röhre ohne Wände",
+      "teaser": "Forscher lenken einen Wasserstrahl waagerecht durch die Luft. Nur Ultraschall hält ihn in der Spur, ganz ohne Rohr.",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "So funktioniert es",
+          "items": [
+            "256 Lautsprecher senden Ultraschall von allen Seiten aus.",
+            "Die Wellen überlagern sich und bilden einen Kanal mit ruhigem Kern.",
+            "Was in den Kern gerät, fließt entlang der Achse weiter."
+          ],
+          "icons": [
+            "antenna.radiowaves.left.and.right",
+            "wind",
+            "drop.fill"
+          ]
+        },
+        {
+          "type": "bigNumber",
+          "value": "50",
+          "unit": "Watt",
+          "caption": "zieht der Prototyp aus der Steckdose, ungefähr so viel wie eine alte Glühbirne",
+          "icon": "bolt.fill"
+        }
+      ],
+      "whyGood": "Wo keine Wand ist, kann nichts verstopfen oder zerfressen werden. Das könnte den Transport heikler Stoffe sicherer machen.",
+      "honestNote": "Bisher gibt es nur einen kurzen Prototyp, bis zur Anlage dauert es noch.",
+      "sources": [
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/wie-256-lautsprecher-einen-wasserstrahl-durch-die-luft-lenken-b02593f1-570b-453f-8996-b5629190a6ac/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "FI",
+      "terms": [
+        {
+          "term": "Ultraschall",
+          "text": "Schall mit so hoher Tonhöhe, dass Menschen ihn nicht hören. Hunde können ihn dagegen bemerken."
+        },
+        {
+          "term": "akustische Levitation",
+          "text": "Eine Technik, bei der Schallwellen kleine Dinge in der Luft schweben lassen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lang ist der Prototyp der Schallröhre?",
+        "options": [
+          "8 Zentimeter",
+          "80 Zentimeter",
+          "8 Meter"
+        ],
+        "answer": 0,
+        "reveal": "Der Prototyp ist nur 8 Zentimeter lang, kürzer als sein eigener Durchmesser.",
+        "icon": "antenna.radiowaves.left.and.right"
+      },
+      "image": {
+        "url": "https://www.ingenieur.de/wp-content/uploads/2026/10/Ultraaeaeniletku-vaaka-1-scaled-e1792755078934.jpg",
+        "credit": "ingenieur.de",
+        "source": "https://www.ingenieur.de/wie-256-lautsprecher-einen-wasserstrahl-durch-die-luft-lenken-b02593f1-570b-453f-8996-b5629190a6ac/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-10",
+      "ressort": "bildung",
+      "kicker": "Kansas",
+      "headline": "Positive Sätze zum Schulschluss machen Schule in Kansas stärker",
+      "teaser": "Ein Lehrer lässt seine Erstklässler jeden Tag aufbauende Sätze sprechen. Die Idee hat inzwischen die ganze Schule erfasst.",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Es ist eine gute Möglichkeit, dass sie sich geliebt und wertgeschätzt fühlen und den Tag mit einem guten Gefühl beenden.",
+          "author": "Shane Paulus, Schulleiter der Rex Elementary School"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Tyler Richards unterrichtet die erste Klasse in Haysville, Kansas.",
+            "Die Kinder sprechen Sätze wie „Ich bin freundlich“ oder „Ich schaffe auch Schweres“.",
+            "Andere Lehrkräfte der Schule haben ähnliche Ideen übernommen."
+          ],
+          "icons": [
+            "person.fill",
+            "heart.fill",
+            null
+          ]
+        }
+      ],
+      "whyGood": "Kinder gehen mit einem guten Gefühl nach Hause und wissen, dass Schule ein sicherer Ort ist. Eine kleine Idee hilft nun vielen Kindern.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/one-teachers-idea-for-daily-positivity-practice-sweeps-through-his-elementary-school/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wann sprechen die Kinder in Tyler Richards' Klasse ihre positiven Sätze?",
+        "options": [
+          "Morgens vor dem Unterricht",
+          "Zum Ende des Schultages",
+          "Nur freitags in der Pause"
+        ],
+        "answer": 1,
+        "reveal": "Die Kinder beenden den Schultag mit den Sätzen, bevor sie nach Hause oder zu Aktivitäten gehen.",
+        "icon": "graduationcap.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/maxresdefault-6.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/one-teachers-idea-for-daily-positivity-practice-sweeps-through-his-elementary-school/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-11",
+      "ressort": "welt",
+      "kicker": "Kansas City",
+      "headline": "Kansas City pflanzt Obstgärten, die allen gehören",
+      "teaser": "Die Organisation Giving Grove legt auf freien Flächen Obstgärten an. Jeder darf dort ernten. Das Vorbild wächst jetzt von Stadt zu Stadt.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "847",
+          "unit": "Obstgärten",
+          "caption": "hat der Giving Grove in 17 Städten angelegt.",
+          "icon": "tree.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Alle Früchte sind frei: Jeder darf pflücken.",
+            "Rund 1.700 Obstpaten pflegen die Gärten.",
+            "Mehr als eine Million Menschen wohnen nur einen Fußweg entfernt."
+          ],
+          "icons": [
+            "hand.thumbsup.fill",
+            "person.3.fill",
+            "figure.walk"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Kansas City",
+          "latitude": 39.0997,
+          "longitude": -94.5786,
+          "caption": "Hier wurde vor 13 Jahren der erste Obstgarten gepflanzt. Heute gibt es in der Stadt 248."
+        }
+      ],
+      "whyGood": "Auf ungenutzten Flächen wachsen Früchte für alle. Die Gärten bleiben in Pflege, weil die Organisation Wissen und Hilfe teilt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/10/the-giving-grove-how-kansas-citys-free-community-orchards-became-a-national-model/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Obstpaten",
+          "text": "Das sind Freiwillige, die sich um einen Obstgarten kümmern. Sie gießen, schneiden die Bäume und organisieren die Ernte."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Bäume hat der Giving Grove bisher gepflanzt?",
+        "options": [
+          "Etwa 140",
+          "Etwa 1.400",
+          "Etwa 14.000"
+        ],
+        "answer": 2,
+        "reveal": "Es sind rund 14.000 Bäume in 847 Obstgärten.",
+        "icon": "tree.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/jujube-05-Depositphotos_10053331_S.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/10/the-giving-grove-how-kansas-citys-free-community-orchards-became-a-national-model/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-12",
+      "ressort": "architektur",
+      "kicker": "Bali",
+      "headline": "Laden auf Bali wird zur Werkstatt für Recycling und Handwerk",
+      "teaser": "In Seminyak steht ein neuer Laden, in dem man Dinge nicht nur kauft. Man lernt auch, wie sie aus Abfall und mit traditionellem Handwerk entstehen.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 5,
+          "icon": "building.2.fill",
+          "caption": "verbundene Bereiche zeigen den Weg der Dinge, vom Handwerk bis zum Recycling"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Fassade aus Alang-Alang-Gras, Wände aus Lehm der Region",
+            "Terrazzoböden mit Resten von recyceltem Bambus",
+            "Färbestudio nutzt Pflanzen und Essensreste als Farbe"
+          ],
+          "icons": [
+            "leaf.fill",
+            "arrow.3.trianglepath",
+            "paintbrush.fill"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Seminyak, Bali, Indonesien",
+          "latitude": -8.69,
+          "longitude": 115.16,
+          "caption": "Der Good Times General Store liegt im Desa Potato Head."
+        }
+      ],
+      "whyGood": "Der Laden zeigt, wie Einkaufen anders gehen kann. Besucher lernen, woher Dinge kommen und was aus Abfall werden kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/oma-potato-head-good-times-general-store-bali-indonesia/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "ID",
+      "terms": [
+        {
+          "term": "Terrazzo",
+          "text": "Ein Boden aus Zement, in den kleine Stücke anderer Materialien gemischt werden. Danach wird er glatt geschliffen."
+        },
+        {
+          "term": "Stampflehm",
+          "text": "Eine Bauweise, bei der feuchter Lehm fest in eine Form gepresst wird. So entstehen stabile Wände."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Bereiche hat der neue Laden, die den Weg der Dinge zeigen?",
+        "options": [
+          "2",
+          "5",
+          "12"
+        ],
+        "answer": 1,
+        "reveal": "Fünf verbundene Bereiche zeigen Handwerk, Mode, Recycling-Möbel, Färben und Plastikformen.",
+        "icon": "building.2.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/oma-potato-head-good-times-general-store-bali-indonesia-designboom-5.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/oma-potato-head-good-times-general-store-bali-indonesia/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k01",
+      "ressort": "dekoration",
+      "kicker": "Athen",
+      "headline": "Altes Bacchus-Mosaik inspiriert gelbe Wohnung in Athen",
+      "teaser": "Das Studio Space is around us hat in Athen eine Wohnung von 100 Quadratmetern umgebaut. Den Anstoß gab ein Bacchus-Mosaik im Eingang. Dessen Buttergelb prägt nun Küche und Bad, dazu kommen gelber Terrazzo und Marmor.",
+      "blocks": [],
+      "whyGood": "Ein altes Bodenmosaik wurde nicht ersetzt, sondern zum Herzstück einer warmen, freundlichen Wohnung.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/bacchus-floor-mosaic-yellow-terrazzo-marble-apartment-renovation-athens-space-is-around-us/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GR",
+      "terms": [
+        {
+          "term": "Terrazzo",
+          "text": "Terrazzo ist ein Bodenbelag aus kleinen Stein- oder Marmorstücken in Bindemittel. Er wird geschliffen und glatt poliert."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/space-is-around-us-bacchus-apartment-renovation-kypseli-athens-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/bacchus-floor-mosaic-yellow-terrazzo-marble-apartment-renovation-athens-space-is-around-us/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k02",
+      "ressort": "wirtschaft",
+      "kicker": "Dallas",
+      "headline": "Cheerleader der Dallas Cowboys gründen anerkannte Gewerkschaft",
+      "teaser": "Die Dallas Cowboys haben die Cheerleader-Vereinigung DCCA freiwillig als Verhandlungspartner anerkannt. Das Team und die Tänzerinnen wollen nun über einen Tarifvertrag sprechen. Zuvor hatten die Cheerleader jahrelang für faire Bezahlung gekämpft.",
+      "blocks": [],
+      "whyGood": "Die Tänzerinnen können jetzt gemeinsam über ihre Bezahlung verhandeln, nachdem sie jahrelang dafür gekämpft haben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/oct/23/dallas-cowboys-cheerleaders-unionize",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Tarifvertrag",
+          "text": "Ein Tarifvertrag regelt Bezahlung und Arbeitsbedingungen. Eine Gewerkschaft handelt ihn für ihre Mitglieder mit dem Arbeitgeber aus."
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/e6a7855668f4a437596b1d2fd9dc7ff9268c9ca9/0_0_4944_3960/master/4944.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=04daa0722b59408245b326f342021cd7",
+        "credit": "Guardian Sport",
+        "source": "https://www.theguardian.com/sport/2026/oct/23/dallas-cowboys-cheerleaders-unionize",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k03",
+      "ressort": "autos",
+      "kicker": "China",
+      "headline": "Chery stellt Schnelllader vor: 500 Kilometer in 5 Minuten",
+      "teaser": "Der chinesische Hersteller Chery hat ein Ladesystem mit 1,44 Megawatt vorgestellt. In fünf Minuten lädt es Strom für 500 Kilometer Reichweite. Von 10 auf 97 Prozent dauert es 6 Minuten und 50 Sekunden.",
+      "blocks": [],
+      "whyGood": "Der Wettbewerb unter den Herstellern macht das Laden von E-Autos immer schneller und fast so kurz wie einen Tankstopp.",
+      "honestNote": "Chery hat gerade erst begonnen, das System aufzubauen, und nannte keine Ladezeiten bei sehr kaltem oder sehr heißem Wetter.",
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/10/22/another-megawatt-level-charger-enters-china-300-miles-in-5-minutes/",
+          "language": "Englisch"
+        },
+        {
+          "name": "Golem",
+          "url": "https://www.golem.de/news/megawatt-lader-chery-laedt-in-6-minuten-und-50-sekunden-auf-97-prozent-2610-214457.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CN",
+      "terms": [
+        {
+          "term": "Megawatt",
+          "text": "Ein Megawatt sind 1.000 Kilowatt. Es misst die Leistung, mit der ein Ladegerät Strom in die Batterie bringt."
+        }
+      ],
+      "image": {
+        "url": "https://electrek.co/wp-content/uploads/sites/3/2026/10/cherycharge_f-scaled-1.jpg?quality=82&strip=all&resize=1200,628",
+        "credit": "Electrek",
+        "source": "https://electrek.co/2026/10/22/another-megawatt-level-charger-enters-china-300-miles-in-5-minutes/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k04",
+      "ressort": "kultur",
+      "kicker": "Wales",
+      "headline": "Jamie Miller bringt Wales nach 15 Jahren wieder auf Platz eins",
+      "teaser": "Der Sänger Jamie Miller aus Cardiff führt mit „Babydoll“ die britischen Single-Charts an. Er schlug knapp Tate McRae. Zuletzt hatte 2011 ein walisischer Act einen Nummer-eins-Hit.",
+      "blocks": [],
+      "whyGood": "Ein Sänger, der kurz ans Aufhören dachte, erreicht mit einem Hit aus dem Netz die Spitze der britischen Charts.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Entertainment",
+          "url": "https://www.bbc.co.uk/news/articles/c6r7ylzp148eo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1e6d/live/c20f57c0-cef9-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC Entertainment",
+        "source": "https://www.bbc.co.uk/news/articles/c6r7ylzp148eo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k05",
+      "ressort": "gesundheit",
+      "kicker": "PTSD-Therapie",
+      "headline": "Neue Hirnstimulation gegen PTSD erhält FDA-Zulassung",
+      "teaser": "Eine neue Behandlung bei PTSD misst die Hirnaktivität und setzt dann gezielt magnetische Impulse. Entwickelt hat sie Wave Neuroscience mit der Texas A&M University. In einer Studie sanken die Symptome laut Firma um 52 Prozent, 68 Prozent der Patienten erreichten eine Remission.",
+      "blocks": [],
+      "whyGood": "Menschen, denen bisherige Behandlungen nicht genug geholfen haben, bekommen eine neue, auf sie zugeschnittene Möglichkeit.",
+      "honestNote": "Die vollständigen Studiendaten sind noch nicht veröffentlicht, die Zahlen stammen bisher vom Hersteller.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Remission",
+          "text": "Remission heißt, dass die Krankheitszeichen so weit zurückgehen, dass sie kaum noch oder gar nicht mehr festzustellen sind."
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/head-brain-waves-neural-activity-signals.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k06",
+      "ressort": "sport",
+      "kicker": "Rotterdam",
+      "headline": "Alice Kinsella kehrt nach der Geburt zurück ins WM-Finale",
+      "teaser": "Alice Kinsella hat ein Jahr lang nicht trainiert, weil sie ein Kind bekommen hat. Jetzt turnte sie bei der Kunstturn-WM in Rotterdam im Mehrkampf-Finale der Frauen. Ihre Übung am Boden wurde als „brillant“ gelobt.",
+      "blocks": [],
+      "whyGood": "Eine Turnerin zeigt, dass der Weg zurück in den Spitzensport nach der Geburt eines Kindes möglich ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c9146vp0jddro?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "NL",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3b05/live/d8a354e0-cf1d-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC Sport",
+        "source": "https://www.bbc.co.uk/sport/gymnastics/videos/c9146vp0jddro?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k07",
+      "ressort": "zukunft",
+      "kicker": "Deutschland",
+      "headline": "Neue Batteriespeicher: Zubau in Deutschland fast verdoppelt",
+      "teaser": "In Deutschland ist die Kapazität neu installierter Akkuspeicher um 91 Prozent gestiegen. Das ist der Vergleich zu 2025. Weitere Maßnahmen könnten den Zubau noch beschleunigen.",
+      "blocks": [],
+      "whyGood": "Mehr Speicher helfen, Solarstrom besser zu nutzen und die Energiekosten zu senken.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Golem",
+          "url": "https://www.golem.de/news/energiekosten-zubau-von-batteriespeichern-hat-sich-fast-verdoppelt-2610-214460.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-10-24-k08",
+      "ressort": "natur",
+      "kicker": "Griechenland",
+      "headline": "Neue Hirschkäferart in Griechenland entdeckt",
+      "teaser": "Jonas Kristl und Gaëtan Flocon haben Lucanus apollon beschrieben. Es ist die erste neue Hirschkäferart in Europa seit 180 Jahren. Aufgefallen war sie ihnen auf Fotos der Plattform iNaturalist. Dann fanden sie die Tiere in den Geraneia-Bergen.",
+      "blocks": [],
+      "whyGood": "Selbst im gut erforschten Europa gibt es noch große Käfer zu entdecken, und Fotos von Naturfreunden helfen dabei.",
+      "honestNote": "Bisher stammen alle Funde aus der Geraneia-Bergkette.",
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/artenvielfalt-forscher-entdecken-neue-hirschkaeferart-in-europa/2351127",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GR",
+      "terms": [],
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/f1920x1080/Hirschkaefer_Lucanus_appolon_1_.jpg",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/artenvielfalt-forscher-entdecken-neue-hirschkaeferart-in-europa/2351127",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k09",
+      "ressort": "fotografie",
+      "kicker": "Astrofotografie",
+      "headline": "Evan McKay ist Astrofotograf des Jahres 2026",
+      "teaser": "Evan McKay hat den Astrophotography Prize 2026 gewonnen. Sein Bild „Cathedral Cove, New Zealand“ wurde als bestes ausgezeichnet. Er erhielt 3.000 Dollar. Rund 500 Bilder aus 22 Ländern waren eingereicht worden.",
+      "blocks": [],
+      "whyGood": "Ein Foto vom Sternenhimmel über Neuseeland begeistert eine internationale Jury und zeigt, wie schön das All sein kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/23/the-wonders-of-space-sparkle-in-the-2026-astrophotography-prize/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "NZ",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/10/Astrophotography-Prize-2026.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/10/23/the-wonders-of-space-sparkle-in-the-2026-astrophotography-prize/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k10",
+      "ressort": "wissenschaft",
+      "kicker": "Antimaterie",
+      "headline": "Positron monatelang in Falle gehalten und gezielt gesteuert",
+      "teaser": "Ein Team der Northwestern University um Gerald Gabrielse hat ein einzelnes Positron über Monate gespeichert. Es brachte das Teilchen in einen energiearmen Quantenzustand und löste einzelne Quantensprünge aus, ohne es zu zerstören. Das bereitet neue Präzisionsmessungen vor.",
+      "blocks": [],
+      "whyGood": "Die Forschenden können Antimaterie nun sehr genau untersuchen und nach winzigen Unterschieden zur Materie suchen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/monatelang-gefangen-physiker-schaffen-das-fast-unmoegliche-mit-antimaterie-449b837d-9459-405c-b5ed-ec410c330e68/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Positron",
+          "text": "Das Positron ist das Antiteilchen des Elektrons. Es hat die gleiche Masse, aber eine positive statt einer negativen elektrischen Ladung."
+        }
+      ],
+      "image": {
+        "url": "https://www.ingenieur.de/wp-content/uploads/2026/10/IMG_3507-scaled-e1792734553160.jpeg",
+        "credit": "ingenieur.de",
+        "source": "https://www.ingenieur.de/monatelang-gefangen-physiker-schaffen-das-fast-unmoegliche-mit-antimaterie-449b837d-9459-405c-b5ed-ec410c330e68/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k11",
+      "ressort": "architektur",
+      "kicker": "Paris",
+      "headline": "Zwei Pariser Wohnprojekte gewinnen Europas Preis für Gemeinschaftswohnen",
+      "teaser": "Der European Collective Housing Award geht an zwei Projekte in Paris. La Métropolitaine entstand über einer Verkehrsanlage. Das zweite Haus ist eine alte Garage, die jetzt 63 Wohnungen hat. Es gab 192 Einsendungen aus 36 Ländern.",
+      "blocks": [],
+      "whyGood": "Beide Projekte zeigen, dass bezahlbares Wohnen in gefragten Stadtlagen mit Gärten und Höfen möglich ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186870/two-projects-in-paris-win-the-european-collective-housing-award",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "FR",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6ad0/0f4d/7887/fb01/8910/7445/large_jpg/two-projects-in-paris-win-the-european-collective-housing-award_1.jpg?1792020384",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186870/two-projects-in-paris-win-the-european-collective-housing-award",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k12",
+      "ressort": "gesundheit",
+      "kicker": "Krebsforschung",
+      "headline": "Maßgeschneiderte mRNA-Impfung senkt Rückfallrisiko bei Hautkrebs",
+      "teaser": "Ein persönlicher mRNA-Impfstoff gegen Melanom senkt in einer Studie mit 1.137 Patienten das Risiko für Rückfall oder Tod nach zwei Jahren um 42 Prozent. Er wurde zusammen mit dem Medikament Pembrolizumab gegeben. Es ist der erste individuelle Krebsimpfstoff mit positivem Ergebnis in Phase III.",
+      "blocks": [],
+      "whyGood": "Eine auf jeden Menschen zugeschnittene Krebsimpfung wirkt erstmals in einer großen Studie und gibt vielen Patienten neue Hoffnung.",
+      "honestNote": "Die Ergebnisse müssen noch von unabhängigen Fachleuten geprüft werden, bevor sie veröffentlicht werden.",
+      "sources": [
+        {
+          "name": "Guardian Science",
+          "url": "https://www.theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia",
+          "language": "Englisch"
+        },
+        {
+          "name": "SPIEGEL Wissenschaft",
+          "url": "https://www.spiegel.de/wissenschaft/hautkrebs-impfung-neuer-impfstoff-senkt-rueckfallrisiko-laut-hersteller-um-42-prozent-a-77c994e4-e5ba-4493-89ee-a3e955a6000a#ref=rss",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "mRNA",
+          "text": "mRNA ist ein Bauplan, den Körperzellen ablesen. Er kann dem Immunsystem zeigen, wogegen es sich richten soll."
+        }
+      ],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/232fbd88066078d298d90c2b66c2b213eae282fd/797_249_4113_3292/master/4113.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=40e66933347fb091ceb8fe5f6cd9f5e0",
+        "credit": "Guardian Science",
+        "source": "https://www.theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k13",
+      "ressort": "sport",
+      "kicker": "Tyrone",
+      "headline": "Edendork gewinnt nach 94 Jahren erstmals den Titel in Tyrone",
+      "teaser": "Mit dem letzten Schuss des Finales traf Niall Morgan zum Sieg für Edendork. Sein Zwei-Punkte-Wurf machte den Club erstmals zum Meister im Senior Football von Tyrone. Es war das erste Endspiel des Vereins überhaupt.",
+      "blocks": [],
+      "whyGood": "Ein kleiner Dorfclub hat nach 94 Jahren Warten seinen größten Traum wahr gemacht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/articles/cwj348l2jr72o?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/9287/live/59297780-cf27-11f1-89f6-f5ef8a187796.jpg",
+        "credit": "BBC Sport",
+        "source": "https://www.bbc.co.uk/sport/articles/cwj348l2jr72o?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k14",
+      "ressort": "zukunft",
+      "kicker": "Texas und Kalifornien",
+      "headline": "Solar und Speicher senken Strompreise in Texas und Kalifornien",
+      "teaser": "Der Großhandelspreis für Strom ist im Sommer 2026 in Texas um 42 Prozent und in Kalifornien um 51 Prozent niedriger als 2021. Das zeigt eine Analyse des Branchenverbands SEIA. Der Strombedarf stieg in beiden Staaten, trotzdem sanken die Preise.",
+      "blocks": [],
+      "whyGood": "Mehr Sonnenstrom und Batterien machen Strom billiger, selbst wenn der Verbrauch deutlich wächst.",
+      "honestNote": "Die Zahlen stammen vom Solarverband SEIA und betreffen die Großhandelspreise, nicht die gesamte Stromrechnung.",
+      "sources": [
+        {
+          "name": "CleanTechnica",
+          "url": "https://cleantechnica.com/2026/10/22/analysis-solar-storage-growth-drives-down-summer-wholesale-electricity-prices-by-42-in-texas-51-in-california/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Großhandelspreis",
+          "text": "Das ist der Preis, den Stromversorger beim Einkauf von Strom zahlen. Er ist nur ein Teil dessen, was Haushalte am Ende auf der Rechnung sehen."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-24-k15",
+      "ressort": "natur",
+      "kicker": "Mosambik",
+      "headline": "Mosambik: Safari-Firma erhält Markhor-Preis für Artenschutz",
+      "teaser": "Zambeze Delta Safaris hat auf der UN-Biodiversitätskonferenz COP17 in Eriwan den Markhor-Preis 2026 gewonnen. Die Firma half, die Tierbestände im Sambesi-Delta nach dem Bürgerkrieg wieder aufzubauen. Die Büffel stiegen laut Nominierung von etwa 1.100 auf 35.000.",
+      "blocks": [],
+      "whyGood": "Im Sambesi-Delta, das der Krieg stark verwüstet hatte, leben heute wieder Zehntausende Wildtiere.",
+      "honestNote": "Die Zahlen stammen aus der Nominierung der Firma und wurden nicht alle unabhängig geprüft.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/mozambique-safari-operator-wins-conservation-award-at-cop17/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "MZ",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/23213221/488504017_17850218328436140_7523769475865190060_n.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/mozambique-safari-operator-wins-conservation-award-at-cop17/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k16",
+      "ressort": "architektur",
+      "kicker": "Jerewan",
+      "headline": "Zwei Hochhäuser mit Gartenbrücken sollen Jerewan prägen",
+      "teaser": "Das britische Büro Foster + Partners hat zwei Hochhäuser für das World Trade Center Jerewan entworfen. Ein Turm bekommt Büros, der andere Wohnungen und ein Hotel. Drei Brücken mit begrünten Terrassen verbinden beide Türme.",
+      "blocks": [],
+      "whyGood": "Die Türme heben sich über den Boden, so bleibt die Hälfte des Geländes frei für die Stadt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/23/world-trade-center-yerevan-foster-partners-armenia/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "AM",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/10/world-trade-center-yerevan-foster-partners-armenia_dezeen_2364_col_2.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/10/23/world-trade-center-yerevan-foster-partners-armenia/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k17",
+      "ressort": "gesundheit",
+      "kicker": "Parkinson",
+      "headline": "Bewegung hilft bei Parkinson dem Gedächtnis und dem Körper",
+      "teaser": "Wer mit Parkinson körperlich aktiver ist, verliert langsamer an Gedächtnis, Denkvermögen und Beweglichkeit. Das zeigt eine Studie mit 294 Erwachsenen, die bis zu sieben Jahre lang begleitet wurden. Bei mehr als acht Stunden Bewegung pro Woche gab es im Schnitt kaum geistigen Abbau.",
+      "blocks": [],
+      "whyGood": "Aktiv zu bleiben könnte Menschen mit Parkinson gleich doppelt helfen, für Kopf und Körper.",
+      "honestNote": "Die Studie zeigt einen Zusammenhang, aber noch keinen Beweis, dass Bewegung den Verlauf der Krankheit direkt verlangsamt.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261022081306.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/happy-senior-woman-stretches-outdoor-yoga.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261022081306.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-k18",
+      "ressort": "sport",
+      "kicker": "Florida",
+      "headline": "Fitnesstrainerin aus Florida stemmt 290 Kilo mit der Hüfte",
+      "teaser": "Eine Fitnesstrainerin aus Florida hat einen Guinness-Weltrekord aufgestellt. Sie hob beim Hip Thrust ein Gewicht von rund 290 Kilogramm allein mit der Hüfte.",
+      "blocks": [],
+      "whyGood": "Ein Weltrekord zeigt, was mit Training und Ausdauer möglich ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/23/guinness-world-records-weighted-hip-thrust-female/9771792772361/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Hip Thrust",
+          "text": "Eine Kraftübung für Gesäß und Hüfte. Der Rücken liegt oben auf einer Bank, dann drückt man die Hüfte mit Gewicht nach oben."
+        }
+      ]
+    }
+  ],
+  "joke": {
+    "setup": "Wer wohnt im Dschungel und schummelt?",
+    "punchline": "Mogli."
+  },
+  "comic": {
+    "series": "vaterundsohn",
+    "title": "Vater und Sohn",
+    "episode": "Die vergessenen Rosinen",
+    "image": "https://upload.wikimedia.org/wikipedia/de/a/a4/Vater_und_Sohn_-_Die_vergessenen_Rosinen.jpg",
+    "pages": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/de/a/a4/Vater_und_Sohn_-_Die_vergessenen_Rosinen.jpg",
+        "width": 1200,
+        "height": 1785
+      }
+    ],
+    "credit": "e.o.plauen (Erich Ohser), 1935, gemeinfrei",
+    "link": "https://de.wikipedia.org/wiki/Vater_und_Sohn",
+    "linkTitle": "Mehr über Vater und Sohn"
+  },
+  "recommendation": {
+    "kind": "doku",
+    "label": "Doku",
+    "title": "Once Upon a Time in Harlem",
+    "creator": "William Greaves",
+    "year": "1972",
+    "text": "Ein Cocktailparty-Abend im Jahr 1972 bringt Kreative der Harlem Renaissance zusammen, die miteinander reden und diskutieren. Der Guardian nennt den Archivfilm „dazzling“ und „fascinating“. Ein lebendiger Blick auf eine Gruppe brillanter Menschen.",
+    "forWhom": "Für alle, die gern klugen Menschen beim Erzählen und Streiten zuhören.",
+    "link": "https://de.wikipedia.org/wiki/Once_Upon_a_Time_in_Harlem",
+    "source": {
+      "name": "Guardian Film Documentary",
+      "url": "https://www.theguardian.com/film/2026/oct/19/harlem-renaissance-documentary-once-upon-a-time"
+    }
+  },
+  "weekly": null,
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-10-24-03",
+        "question": "Wo liegt der Versuchsweinberg mit den Solarmodulen?",
+        "options": [
+          "Toskana",
+          "Sizilien",
+          "Apulien",
+          "Piemont"
+        ],
+        "answer": 2
+      },
+      {
+        "storyID": "2026-10-24-04",
+        "question": "Auf welche Ameisenart zielt die neu entdeckte Spinne offenbar?",
+        "options": [
+          "Rote Waldameise",
+          "Grüne Weberameise",
+          "Schwarze Wegameise",
+          "Blattschneiderameise"
+        ],
+        "answer": 1
+      },
+      {
+        "storyID": "2026-10-24-09",
+        "question": "Wie viele Lautsprecher senden in Helsinki den Ultraschall aus?",
+        "options": [
+          "64",
+          "128",
+          "256",
+          "512"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-10-24-r01",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Soest",
+      "headline": "Soester Schüler machen Alltagsrassismus in Videos sichtbar",
+      "teaser": "Der 16-jährige Jonas Lohöfer vom Archigymnasium Soest dreht mit Freunden Videos gegen Rassismus. Mitschüler spielen darin Sprüche vom Schulhof nach. Das erste Video wurde nach wenigen Tagen mehr als 400.000 Mal aufgerufen. Acht Videos sind geplant.",
+      "blocks": [],
+      "whyGood": "Jugendliche sorgen selbst dafür, dass über Rassismus im Alltag offen gesprochen wird.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-soest/aktion-soest-schueler-gegen-alltagsrassismus-mit-videos-social-media-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/999e45d7-cb21-4720-a4c0-b0309b0e2ccf/AAABoWgnV7Q/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-soest/aktion-soest-schueler-gegen-alltagsrassismus-mit-videos-social-media-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r02",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Bonn",
+      "headline": "Bonner IT-Experte hilft, große Sicherheitslücke in PHP zu schließen",
+      "teaser": "Volker Dusch arbeitet für eine Firma in Bonn. Mit drei Kollegen der PHP Foundation hat er etwa zwei Monate lang eine Sicherheitslücke in der Programmiersprache PHP behoben. Er war dafür jede Woche 70 bis 80 Stunden im Einsatz.",
+      "blocks": [],
+      "whyGood": "Ein kleines Team hat mit viel Einsatz eine Lücke geschlossen, die Millionen Websites bedroht hat.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/volker-dusch-interview-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "PHP",
+          "text": "PHP ist eine Programmiersprache. Sie läuft auf den Servern vieler Websites."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/a2e9f1d4-f378-43c0-8347-6a826ebac54c/AAABoWl_fSk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/volker-dusch-interview-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r03",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Schwalbach",
+      "headline": "Neues Herzenssache-Mobil bringt Erste Hilfe an Grundschulen",
+      "teaser": "An der Kirchbergschule in Schwalbach wurde das neue Herzenssache-Mobil der M-A-U-S Charity enthüllt. Rund 100 Kinder waren dabei. Das Elektro-Auto fährt nun zu Grundschulen im Saarland und zeigt den Kindern spielerisch Erste Hilfe.",
+      "blocks": [],
+      "whyGood": "Schon Grundschulkinder lernen so, hilfsbereit zu sein und Verantwortung zu übernehmen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/sr3/themen/sr_3-land/neues_herzenssache_mobil_enthuellt_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/65359477-85e9-447f-9acf-4d7ef36b3a0f/AAABoWk2MQg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/sr3/themen/sr_3-land/neues_herzenssache_mobil_enthuellt_100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r04",
+      "ressort": "region",
+      "regions": [
+        "ST"
+      ],
+      "kicker": "Kelbra",
+      "headline": "Tausende Kraniche rasten am Stausee Kelbra",
+      "teaser": "Am Stausee Kelbra machen wieder tausende Kraniche Rast auf dem Weg nach Süden. Am Dienstagabend zählte Sarah Backhaus vom Landschaftspflegeverband 6.000 Vögel. Ablenkfütterungen halten sie von frisch bestellten Feldern fern.",
+      "blocks": [],
+      "whyGood": "Das Naturschauspiel ist zurück, und Naturschützer und Landwirte finden gemeinsam einen Weg, es zu schützen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/voegel-rast-gefluegelpest,kraniche-stausee-kelbra-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Ablenkfütterung",
+          "text": "Dabei werden Kraniche gezielt an einer bestimmten Stelle gefüttert. So bleiben sie von frisch bestellten Äckern weg und fressen dort die Saat nicht."
+        }
+      ],
+      "image": {
+        "url": "https://images.mdr.de/image/06b2f666-ff02-4f59-9e8e-b5abec35a297/AAABoWMa8eY/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/voegel-rast-gefluegelpest,kraniche-stausee-kelbra-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r05",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Judenbach",
+      "headline": "Jens Kaufmann hält Judenbach mit Dorfladen am Leben",
+      "teaser": "Als der einzige Supermarkt in Judenbach bei Sonneberg schloss, eröffnete Jens Kaufmann einen Dorfladen. Er leitet auch den Verein „Dorfleben Judenbach“ und hat schon mit 13 Jahren einen Jugendklub gegründet. Dafür ist er Thüringer des Monats Oktober.",
+      "blocks": [],
+      "whyGood": "Ein Mann sorgt dafür, dass in seinem Dorf weiter eingekauft, gefeiert und zusammen gelebt wird.",
+      "honestNote": "Der Dorfladen schreibt nach drei Jahren noch keine schwarzen Zahlen.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/sued-thueringen/sonneberg/thueringer-des-monats-oktober-jens-kaufmann,judenbach-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/2c277635-5fa1-4bb0-bae3-94e544f2c070/AAABoWfJ4Ec/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/sued-thueringen/sonneberg/thueringer-des-monats-oktober-jens-kaufmann,judenbach-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r07",
+      "ressort": "region",
+      "regions": [
+        "HH"
+      ],
+      "kicker": "Hamburg",
+      "headline": "„PapaMap“ zeigt Vätern, wo sie ihr Kind wickeln können",
+      "teaser": "Der Hamburger Softwareentwickler Jakub Waller hat in Elternzeit die kostenlose „PapaMap“ gebaut. Sie zeigt Wickeltische, die auch Väter nutzen können, mit Öffnungszeiten und Route. Jeder kann neue Orte ergänzen.",
+      "blocks": [],
+      "whyGood": "Väter müssen unterwegs nicht mehr lange suchen und wissen vorher, wo sie ihr Kind sicher wickeln können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/Artikelvorlage-HH,papamap-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/a99f89df-856e-4e20-a091-778b8a503ac1/AAABoWn0KLs/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/hamburg/Artikelvorlage-HH,papamap-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r08",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Kalbach",
+      "headline": "Kleine Bücherei in Kalbach verleiht 16.000 Medien",
+      "teaser": "Die Bücherei in Kalbach im Landkreis Fulda ist nur an zwei Tagen geöffnet. Trotzdem hat sie bis Oktober rund 16.000 Medien verliehen. Ein Team von 14 Ehrenamtlichen hört genau hin, was die Leute lesen wollen.",
+      "blocks": [],
+      "whyGood": "Ein Team aus Ehrenamtlichen zeigt, dass eine kleine Dorfbücherei mit Gesprächen und offenen Ohren groß werden kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/kultur/diese-buecherei-in-osthessen-boomt-v1,tag-der-bibliotheken-104.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/21428f60-1528-4edf-946a-9f04039d7d07/AAABoWma6kc/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/kultur/diese-buecherei-in-osthessen-boomt-v1,tag-der-bibliotheken-104.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r09",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Wiesbaden",
+      "headline": "Weltpremiere: Museum Wiesbaden zeigt „Die Blauen Reiterinnen“",
+      "teaser": "Das Museum Wiesbaden zeigt erstmals Werke von zwölf Künstlerinnen aus dem Umfeld des „Blauen Reiters“, darunter Else Lasker-Schüler, Maria Franck-Marc und Gabriele Münter. Sie standen bisher im Schatten ihrer Kollegen. Mehrere Museen haben die Schau gemeinsam möglich gemacht.",
+      "blocks": [],
+      "whyGood": "Frauen, die den Expressionismus mitgeprägt haben, bekommen endlich die Bühne, die sie verdienen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/kultur/weltpremiere-ausstellung-in-wiesbaden-die-blauen-reiterinnen-v1,blaue-reiterinnen-122.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Expressionismus",
+          "text": "Eine Kunstrichtung des frühen 20. Jahrhunderts. Die Künstler wollten Gefühle und das innere Wesen der Dinge zeigen, oft mit kräftigen, freien Farben."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://images.tagesschau.de/image/fc61b174-f183-47dc-a0c4-046352eb7e12/AAABoWjVKBg/AAABnSSveow/16x9-1280.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/kultur/weltpremiere-ausstellung-in-wiesbaden-die-blauen-reiterinnen-v1,blaue-reiterinnen-122.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r10",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Alfeld",
+      "headline": "Alfeld: Deutschlands größter Einzelspeicher geht in Betrieb",
+      "teaser": "In Alfeld im Landkreis Hildesheim läuft jetzt der größte Einzelspeicher Deutschlands. Er hat 138 Megawatt Leistung und 282 Megawattstunden Kapazität. Er nimmt Wind- und Sonnenstrom auf, wenn viel da ist, und gibt ihn bei knappem Angebot wieder ab.",
+      "blocks": [],
+      "whyGood": "Der Speicher hilft, mehr Wind- und Sonnenstrom zu nutzen, und könnte laut Energieminister Meyer die Strompreise senken.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/xxl-batteriespeicher-geht-in-alfeld-ans-netz,alfeld-114.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Megawattstunden",
+          "text": "Eine Megawattstunde sind 1.000 Kilowattstunden. Die Einheit zeigt, wie viel Strom ein Speicher aufnehmen kann."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/c74779ed-db34-4da5-bd82-ef0707604a02/AAABoWlu4MA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/xxl-batteriespeicher-geht-in-alfeld-ans-netz,alfeld-114.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r11",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Buxtehude",
+      "headline": "Buxtehude ehrt Theatergründerin Nina Zober mit einem „frauenORT“",
+      "teaser": "Am Sonntag wird in Buxtehude eine Plakette für Nina Zober enthüllt. Sie gründete 2003 das „Theater im Hinterhof“, das erste freie Privattheater am Ort. Es ist der 54. „frauenORT“ in Niedersachsen.",
+      "blocks": [],
+      "whyGood": "Eine Frau, die den Kulturbetrieb ihrer Stadt geprägt hat, bekommt einen sichtbaren Platz in der Erinnerung.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/fuer-kuenstlerin-nina-zober-buxtehude-bekommt-einen-frauenort,frauenort-104.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/332ef70f-2615-4a39-9f4a-ffc33d025a13/AAABoWh3mOw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/fuer-kuenstlerin-nina-zober-buxtehude-bekommt-einen-frauenort,frauenort-104.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r12",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Probsteierhagen",
+      "headline": "Nach 46 Jahren: Züge sollen wieder nach Probsteierhagen fahren",
+      "teaser": "Ab dem 13. Dezember sollen Regionalbahnen stündlich von Kiel nach Probsteierhagen fahren. Der Personenverkehr war 1981 eingestellt worden. Die Fahrt zum Kieler Hauptbahnhof dauert dann 19 Minuten, der Bus braucht rund 30.",
+      "blocks": [],
+      "whyGood": "Eine stillgelegte Bahnstrecke wird wieder lebendig und verkürzt den Weg nach Kiel deutlich.",
+      "honestNote": "Noch wird an Signalen und Bahnübergängen gearbeitet, und das Bahnhofsumfeld muss erst noch gebaut werden.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/bahnstrecke-kiel-schoenberger-strand-reaktivierung-gehts-voran,bahnstrecke-180.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/981e79bb-1142-4ae4-b063-3d33c30c82d7/AAABoWe70Fg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/bahnstrecke-kiel-schoenberger-strand-reaktivierung-gehts-voran,bahnstrecke-180.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r13",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Leinefelde",
+      "headline": "Leinefelde hat jetzt einen Stillen Buchclub",
+      "teaser": "Im Stadtteilbüro der Leinefelder Südstadt lesen Menschen jetzt gemeinsam eine Stunde lang still. Danach sprechen sie über ihre Bücher. Markus Friedrich hat die Idee aus Leipzig mitgebracht. Alle Teilnehmenden wollen wiederkommen.",
+      "blocks": [],
+      "whyGood": "Ein Buch, ein Sofa und nette Gesellschaft bringen Nachbarn zusammen und lassen neue Kontakte entstehen.",
+      "honestNote": "Der Club ist noch ganz neu und startete mit vier Teilnehmerinnen und einem Teilnehmer.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/nord-thueringen/eichsfeld/lesen-hobby,leinefelde-buchclub-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/ca3bb65f-2a6c-4c47-b8f3-d6ec54025582/AAABoWNV51Q/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/nord-thueringen/eichsfeld/lesen-hobby,leinefelde-buchclub-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r14",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "A281 in Bremen ist ab Sonntag wieder frei befahrbar",
+      "teaser": "Die Bauarbeiten auf der A281 im Bremer Süden enden laut Autobahn GmbH pünktlich. Zwei Wochen lang wurde die Fahrbahn zwischen „Neustädter Hafen“ und „Airport-Stadt“ erneuert. Zum Berufsverkehr am Montag ist die Strecke wieder offen.",
+      "blocks": [],
+      "whyGood": "Pendler kommen wieder ohne Umleitungen und lange Staus zur Arbeit.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/nachrichten/autobahn-fahrbahn-erneuerung-baustelle-abschluss-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/baustelle-walze-100~_v-1280x720_c-1792769779094.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/nachrichten/autobahn-fahrbahn-erneuerung-baustelle-abschluss-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r15",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Mecklenburgische Seenplatte",
+      "headline": "Sechs Feuerwehren bekommen neue Löschfahrzeuge",
+      "teaser": "Sechs Feuerwehren zwischen Haff und Müritz haben in den Herbstferien ein neues Löschfahrzeug vom Typ LF 10 erhalten. Es geht um Blumenhagen, Liepgarten, Rehberg, Neuenkirchen, Sabel und Ivenack. Das Land hat die Fahrzeuge zentral ausgeschrieben.",
+      "blocks": [],
+      "whyGood": "Die Einsatzkräfte in den Dörfern haben jetzt moderne Technik für ihre Arbeit.",
+      "honestNote": "Die Einsatzkräfte müssen noch an den Fahrzeugen ausgebildet werden, in Liepgarten wird das neue Auto erst ab dem Frühjahr eingesetzt.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/sechs-neue-loeschfahrzeuge-fuer-feuerwehren,mvregioneubrandenburg-5622.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "LF 10",
+          "text": "LF 10 steht für Löschgruppenfahrzeug 10. Es ist ein Feuerwehrauto mit Wassertank und Pumpe sowie Ausrüstung für eine Gruppe von Einsatzkräften."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/7137485e-a365-4a61-bb42-aedc9338cd83/AAABoWf2Uhw/AAABnSSveow/16x9-1280.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/sechs-neue-loeschfahrzeuge-fuer-feuerwehren,mvregioneubrandenburg-5622.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-24-r16",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Annaberg-Buchholz",
+      "headline": "Neues Katastrophenschutzzentrum im Erzgebirge eingeweiht",
+      "teaser": "In Annaberg-Buchholz hat der Erzgebirgskreis sein neues Katastrophenschutzzentrum eröffnet. Einsatzzug, Feuerwehrtechnisches Zentrum und Verwaltungsstab sitzen nun an einem Ort. Gebaut wurde rund vier Jahre, der Kreis investierte 11,2 Millionen Euro.",
+      "blocks": [],
+      "whyGood": "Die Einsatzkräfte im Erzgebirge haben jetzt kurze Wege und bessere Bedingungen, um bei Hochwasser, Sturm oder Waldbränden schnell zu helfen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/chemnitz/annaberg-aue-schwarzenberg/news-feuerwehr-krisenstab-strom-autark,katastrophenschutz-erzgebirge-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/419e387d-cc7f-49cd-b0d8-aee19804d3ce/AAABoWgCyEs/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/chemnitz/annaberg-aue-schwarzenberg/news-feuerwehr-krisenstab-strom-autark,katastrophenschutz-erzgebirge-100.html",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Rote-Bete-Salat mit Apfel, Minze und Walnüssen",
+    "intro": "Im Oktober sind Rote Bete, Äpfel und Walnüsse frisch und aromatisch. Dieser Salat ist in 15 Minuten fertig und braucht keinen Herd.",
+    "servings": 4,
+    "minutes": 15,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "EL",
+        "item": "milder, gereifter Rotweinessig (oder guter Rotweinessig mit einer Prise Zucker)"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "natives Olivenöl extra"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Salz und schwarzer Pfeffer"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "rohe Rote Bete, geschält und grob geraspelt"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "große Granny Smith, ungeschält, geviertelt, entkernt und in sehr dünne Streifen geschnitten"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "fein geschnittene Minzblätter"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "item": "Walnüsse, leicht geröstet und in Scheiben geschnitten"
+      }
+    ],
+    "steps": [
+      "Verrühre Essig und Olivenöl in einer kleinen Schüssel. Schmecke mit Salz und Pfeffer ab und stelle das Dressing beiseite.",
+      "Raspele die Rote Bete grob. Schneide den Apfel mit Schale in sehr dünne Streifen.",
+      "Gib Rote Bete und Apfel in eine große Schüssel. Mische die Hälfte der Minze und die Hälfte der Walnüsse unter.",
+      "Gieße das Dressing darüber und hebe alles vorsichtig unter.",
+      "Schmecke noch einmal mit Salz und Pfeffer ab. Streue vor dem Servieren die restliche Minze und die restlichen Walnüsse darüber."
+    ],
+    "tip": "Zieh beim Raspeln Küchenhandschuhe an, sonst färbt die Rote Bete die Hände rot.",
+    "icon": "leaf.fill",
+    "source": {
+      "name": "Guardian Food",
+      "url": "https://www.theguardian.com/food/2026/oct/23/autumn-meze-recipes-tabbouleh-yoghurt-dips-mushrooms-morito-sam-and-sam-clark"
+    }
+  }
+}
