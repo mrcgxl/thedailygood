@@ -3,101 +3,53 @@
  "busch": 4,
  "sandraundwoo": 37,
  "last": {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "comic": {
-   "series": "sandraundwoo",
-   "title": "Sandra und Woo",
-   "episode": "überraschungsangriff und mehr",
-   "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0029.png",
-   "pages": [
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0029.png",
-     "width": 980,
-     "height": 701,
-     "title": "überraschungsangriff",
-     "panels": [
-      [
-       0.0061,
-       0.0086,
-       0.3265,
-       0.4337
-      ],
-      [
-       0.3469,
-       0.0086,
-       0.6153,
-       0.4337
-      ],
-      [
-       0.0286,
-       0.4722,
-       0.301,
-       0.4807
-      ],
-      [
-       0.3418,
-       0.4722,
-       0.302,
-       0.4807
-      ],
-      [
-       0.6684,
-       0.4722,
-       0.3255,
-       0.4807
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0032.png",
-     "width": 980,
-     "height": 372,
-     "title": "Fast Food",
-     "panels": [
-      [
-       0.0061,
-       0.0161,
-       0.2378,
-       0.7796
-      ],
-      [
-       0.2571,
-       0.0161,
-       0.4837,
-       0.7796
-      ],
-      [
-       0.7541,
-       0.0161,
-       0.2398,
-       0.7796
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0036.png",
-     "width": 980,
-     "height": 547,
-     "title": "Neuste Ausgabe",
-     "panels": [
-      [
-       0.0061,
-       0.011,
-       0.9878,
-       0.351
-      ],
-      [
-       0.0061,
-       0.362,
-       0.9878,
-       0.5795
-      ]
-     ]
-    }
-   ],
-   "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-   "link": "https://www.sandraandwoo.com/woode/",
-   "linkTitle": "Mehr von Sandra und Woo"
+   "series": "sonnewolke",
+   "title": "Sonne & Wolke",
+   "episode": "Beton mit Koffein",
+   "strip": {
+    "storyID": "2026-10-27-02",
+    "panels": [
+     {
+      "prop": "cup.and.saucer.fill",
+      "caption": null,
+      "sun": {
+       "mood": "froh",
+       "text": "Forschende mischen verkohlten Kaffeesatz in Beton!"
+      },
+      "cloud": {
+       "mood": "skeptisch",
+       "text": "Kaffee gehört in die Tasse, nicht in die Wand."
+      }
+     },
+     {
+      "prop": "building.2.fill",
+      "caption": null,
+      "sun": {
+       "mood": "lacht",
+       "text": "Er ersetzt etwas Sand und der Beton wird druckfester!"
+      },
+      "cloud": {
+       "mood": "grübelt",
+       "text": "Druckfest. Wie ich vor dem ersten Kaffee."
+      }
+     },
+     {
+      "prop": "house.fill",
+      "caption": "Später …",
+      "sun": {
+       "mood": "staunt",
+       "text": "Dann ist ein Haus daraus ja ein Café!"
+      },
+      "cloud": {
+       "mood": "lacht",
+       "text": "Bei Regen gibt's Filterkaffee. Ich ziehe ein."
+      }
+     }
+    ]
+   },
+   "credit": "Ein Comic von The Daily Good"
   }
  }
 }

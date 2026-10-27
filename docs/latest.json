@@ -1,1209 +1,1424 @@
 {
-  "date": "2026-10-26",
-  "number": 28,
+  "date": "2026-10-27",
+  "number": 29,
   "isSample": false,
-  "leadStoryID": "2026-10-26-01",
+  "leadStoryID": "2026-10-27-01",
   "stories": [
     {
-      "id": "2026-10-26-01",
-      "ressort": "natur",
-      "kicker": "Virginia",
-      "headline": "Live-Kamera zeigt Gepardenmutter Zura mit ihren fünf Jungen",
-      "teaser": "Im Smithsonian-Institut in Virginia hat Gepardin Zura fünf Junge geboren. Eine Webcam überträgt Bild und Ton aus der Wurfhöhle, Tag und Nacht.",
-      "blocks": [
-        {
-          "type": "count",
-          "value": 5,
-          "icon": "pawprint.fill",
-          "caption": "Gepardenjunge hat Zura am 5. Oktober zur Welt gebracht"
-        },
-        {
-          "type": "bigNumber",
-          "value": "7.000",
-          "unit": "Geparde",
-          "caption": "leben nur noch in freier Wildbahn",
-          "icon": "globe.europe.africa.fill"
-        },
-        {
-          "type": "map",
-          "place": "Front Royal, Virginia",
-          "latitude": 38.92,
-          "longitude": -78.19,
-          "caption": "Hier betreut das Smithsonian-Institut die Geparde."
-        }
-      ],
-      "whyGood": "Die Jungen wachsen mit wenig Menschenkontakt bei ihrer Mutter auf. Wer zuschaut, bekommt seltene Einblicke und unterstützt den Artenschutz.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/live-smithsonian-webcam-for-cheetah-den-and-5-cubs/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "US",
-      "terms": [
-        {
-          "term": "Artenschutz",
-          "text": "Artenschutz heißt, bedrohte Tier- und Pflanzenarten zu schützen, damit sie nicht für immer verschwinden."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele Geparde leben heute noch in freier Wildbahn?",
-        "options": [
-          "etwa 700",
-          "etwa 7.000",
-          "etwa 70.000"
-        ],
-        "answer": 1,
-        "reveal": "Nur etwa 7.000 Geparde leben noch in freier Wildbahn.",
-        "icon": "pawprint.fill"
-      },
-      "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Cheetah-Cam-screenshot-via-Smithsonian-Conservation-Biology-Institute-.jpg",
-        "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/live-smithsonian-webcam-for-cheetah-den-and-5-cubs/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-02",
-      "ressort": "wissenschaft",
-      "kicker": "Sheffield",
-      "headline": "Forscher knacken das Geheimnis des römischen Wunderglases",
-      "teaser": "Der Lycurgus-Becher wechselt die Farbe, je nachdem, woher das Licht kommt. Ein Team in Sheffield hat dieses Glas nun sehr genau nachgebaut.",
+      "id": "2026-10-27-01",
+      "ressort": "sport",
+      "kicker": "Fußball",
+      "headline": "Harry Kane gewinnt den Ballon d'Or",
+      "teaser": "Der Bayern-Stürmer wird bei der Gala in London geehrt. Zuletzt gelang das einem Bundesliga-Spieler im Jahr 1996.",
       "blocks": [
         {
           "type": "bigNumber",
-          "value": "1600",
-          "unit": "Jahre",
-          "caption": "alt ist der römische Becher im British Museum, der von grün zu rot wechselt",
-          "icon": "clock.fill"
-        },
-        {
-          "type": "steps",
-          "title": "So entsteht der Farbwechsel",
-          "items": [
-            "Dickes Glas wird geschmolzen und kühlt von weit über 1000 Grad ab.",
-            "Dabei wachsen winzige Gold und Silber Nanokristalle im Glas.",
-            "Von hinten beleuchtet erscheint es rot, von vorn grün."
-          ],
-          "icons": [
-            "flame.fill",
-            "atom",
-            "lightbulb.fill"
-          ]
-        }
-      ],
-      "whyGood": "Ein Rätsel aus der Antike ist gelöst. Das Wissen hilft zu verstehen, wie römische Handwerker wirklich gearbeitet haben.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "SPIEGEL Wissenschaft",
-          "url": "https://www.spiegel.de/wissenschaft/technik/lycurgus-becher-wissenschaftler-kopieren-ein-roemisches-meisterwerk-nach-1600-jahren-a-bbe621cd-61f2-4a78-b3e9-88e3421606fd#ref=rss",
-          "language": "Deutsch"
-        },
-        {
-          "name": "Guardian Science",
-          "url": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "GB",
-      "terms": [
-        {
-          "term": "Nanokristalle",
-          "text": "Das sind winzig kleine Kristalle, viel kleiner als die Wellenlänge des Lichts. Sie lassen manche Farben durch und halten andere zurück."
-        }
-      ],
-      "guess": {
-        "question": "Wie viel kleiner als ein Sandkorn sind die Gold- und Silberteilchen im Glas?",
-        "options": [
-          "Etwa 10 Mal",
-          "Etwa 1000 Mal",
-          "Etwa 1 Million Mal"
-        ],
-        "answer": 1,
-        "reveal": "Die Teilchen sind etwa tausendmal kleiner als ein Sandkorn und färben das Glas.",
-        "icon": "sparkles"
-      },
-      "image": {
-        "url": "https://i.guim.co.uk/img/media/36274fa02586505fbfdfcdc84de3302a298d0f0e/84_0_2690_2152/master/2690.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=badd0a21e62d14264925d0c3a098a939",
-        "credit": "Guardian Science",
-        "source": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-03",
-      "ressort": "natur",
-      "kicker": "Azoren",
-      "headline": "Corvo schaltet das Licht aus, damit junge Seevögel fliegen können",
-      "teaser": "Auf der kleinsten Azoren-Insel bleibt es jeden Herbst dunkel. So finden junge Sturmtaucher mithilfe der Sterne den Weg zum Meer.",
-      "blocks": [
-        {
-          "type": "timeline",
-          "title": "Wie alles begann",
-          "items": [
-            {
-              "year": "1991",
-              "text": "Die Bewohner bemerken viele tote junge Sturmtaucher."
-            },
-            {
-              "year": "1995",
-              "text": "Die Regierung der Azoren startet die Kampagne „SOS Cagarro“."
-            },
-            {
-              "year": "2019",
-              "text": "Corvo schaltet erstmals die öffentliche Beleuchtung ab."
-            }
-          ]
-        },
-        {
-          "type": "bigNumber",
-          "value": "30.000",
-          "unit": "Jungvögel",
-          "caption": "wurden seit 2015 auf den Azoren gerettet. Rund 6.000 davon auf Corvo.",
-          "icon": "bird.fill"
-        },
-        {
-          "type": "background",
-          "title": "Warum das Licht stört",
-          "text": "Die Jungvögel bleiben drei Monate im Nest. Beim ersten Flug zum Meer orientieren sie sich an den Sternen. Straßenlampen verwirren sie, und viele landen in den Gassen des Dorfes."
-        }
-      ],
-      "whyGood": "Mit einfachen Mitteln bekommen Tausende junge Vögel eine zweite Chance. Die Insel zeigt, dass weniger Lichtverschmutzung der Natur schnell helfen kann.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Guardian Environment",
-          "url": "https://www.theguardian.com/environment/2026/oct/25/corvo-azores-corys-shearwaters-switch-off-saving-seabirds-aoe",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "PT",
-      "terms": [
-        {
-          "term": "Lichtverschmutzung",
-          "text": "So nennt man zu viel künstliches Licht in der Nacht. Es stört Tiere, die sich am Licht der Sterne oder des Mondes orientieren."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele junge Sturmtaucher wurden auf Corvo seit 2015 gerettet?",
-        "options": [
-          "etwa 60",
-          "etwa 600",
-          "etwa 6.000"
-        ],
-        "answer": 2,
-        "reveal": "Rund 6.000 Jungvögel sammelten die Helfer auf Corvo ein, auf den Azoren waren es mehr als 30.000.",
-        "icon": "bird.fill"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://i.guim.co.uk/img/media/63b9af7209a505695cd1ba9b5f0ff2ec06943393/168_0_1719_1376/master/1719.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=aab957c7ab6de2971c9d1ce927abf54a",
-        "credit": "Guardian Environment",
-        "source": "https://www.theguardian.com/environment/2026/oct/25/corvo-azores-corys-shearwaters-switch-off-saving-seabirds-aoe",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-04",
-      "ressort": "architektur",
-      "kicker": "London",
-      "headline": "Londons Oxford Street wird zur Fußgängerzone",
-      "teaser": "Der belebteste Abschnitt von Europas meistbesuchter Einkaufsstraße ist bald autofrei. Bürgermeister Sadiq Khan verfolgte den Plan seit 2016.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Anteil der Fahrten mit dem Auto, 2024",
-          "before": {
-            "label": "Britannien",
-            "value": 59,
-            "display": "59 %"
-          },
-          "after": {
-            "label": "London",
-            "value": 34,
-            "display": "34 %"
-          }
-        },
-        {
-          "type": "bigNumber",
-          "value": "82",
-          "unit": "Mio. Pfund",
-          "caption": "zusätzlicher Wert pro Jahr sollen mehr Besucher und längere Aufenthalte bringen",
-          "icon": "banknote.fill"
-        },
-        {
-          "type": "map",
-          "place": "Oxford Street, London",
-          "latitude": 51.5154,
-          "longitude": -0.1419,
-          "caption": "Der meistbesuchte Abschnitt wird für Autos gesperrt."
-        }
-      ],
-      "whyGood": "Weniger Autos bedeuten saubere Luft und mehr Platz für Menschen. Die Straße kann zum Vorbild für andere Städte werden.",
-      "honestNote": "Ob die Straße wieder mehr Kundschaft anzieht, muss sich erst zeigen.",
-      "sources": [
-        {
-          "name": "Guardian Environment",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/25/the-guardian-view-on-oxford-streets-pedestrianisation-cities-should-be-designed-around-people-not-cars",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "GB",
-      "terms": [
-        {
-          "term": "Ulez",
-          "text": "Das ist eine Zone in London, in der Autos mit schmutzigen Abgasen eine Gebühr zahlen. So soll die Luft sauberer werden."
-        },
-        {
-          "term": "Stickstoffdioxid",
-          "text": "Das ist ein Abgas, das vor allem aus Motoren kommt. Es verschmutzt die Luft und ist schlecht für die Lunge."
-        }
-      ],
-      "guess": {
-        "question": "Wie hoch war der Anteil der Autofahrten in London 2024?",
-        "options": [
-          "Etwa 14 Prozent",
-          "Etwa 34 Prozent",
-          "Etwa 64 Prozent"
-        ],
-        "answer": 1,
-        "reveal": "In London waren es 34 Prozent. In ganz Britannien lag der Anteil bei 59 Prozent.",
-        "icon": "car.fill"
-      },
-      "image": {
-        "url": "https://i.guim.co.uk/img/media/853c4cc5b4cef20225119306fd51261424ec1e20/595_0_2324_1860/master/2324.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=8ab5c74c24cb7d06d813233789d02856",
-        "credit": "Guardian Environment",
-        "source": "https://www.theguardian.com/commentisfree/2026/oct/25/the-guardian-view-on-oxford-streets-pedestrianisation-cities-should-be-designed-around-people-not-cars",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-05",
-      "ressort": "welt",
-      "kicker": "Leißnitz",
-      "headline": "Ein Dorf in Brandenburg baut Treffpunkt vor seinem Gasthof",
-      "teaser": "Immer mehr Dorfgaststätten schließen. In Leißnitz packen die Einwohner an und schaffen mit Architekten einen neuen Platz zum Zusammenkommen.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "65.000",
-          "unit": "Euro",
-          "caption": "Anschubfinanzierung kamen vom Land Brandenburg für das Projekt „Dorf.Fragen“",
-          "icon": "eurosign.circle.fill"
+          "value": "61",
+          "unit": "Tore",
+          "caption": "schoss Harry Kane in der Saison 2025/2026 für den FC Bayern.",
+          "icon": "soccerball"
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Dorfbewohner bauten im Sommer große Holztische und Bänke",
-            "Die Möbel lassen sich umstellen, auch zur kleinen Tribüne",
-            "Der neue Treffpunkt draußen steht auch bei geschlossenem Gasthof offen"
+            "Kane ist der erste Engländer seit Michael Owen mit dem Preis.",
+            "Er spielt im Angriff auch als Spielgestalter und lenkt das Spiel.",
+            "Alexia Putellas gewinnt den Ballon d'Or Féminin."
           ],
           "icons": [
-            "hammer.fill",
-            "sofa.fill",
-            "person.3.fill"
+            "trophy.fill",
+            "soccerball",
+            "medal.fill"
           ]
         },
         {
-          "type": "map",
-          "place": "Leißnitz, Landkreis Oder-Spree",
-          "latitude": 52.3,
-          "longitude": 14.4,
-          "caption": "Südöstlich von Berlin"
+          "type": "background",
+          "title": "So wird gewählt",
+          "text": "Das Magazin „France Football“ richtet die Wahl aus. Aus den Top 100 der Fußballnationen stimmt je ein Sportjournalist ab. Jeder wählt zehn von 30 Spielern und vergibt 15 bis 1 Punkt."
         }
       ],
-      "whyGood": "Dorfbewohner, Verein und Architekten halten gemeinsam einen Ort lebendig, an dem sich Menschen treffen. So bleibt der Zusammenhalt im Dorf stark.",
-      "honestNote": "Ob die Kinder der Wirtin den Gasthof weiterführen, ist noch offen.",
+      "whyGood": "Nach 30 Jahren geht der Preis wieder an einen Spieler der Bundesliga. Auch die Frauen und der beste Nachwuchsspieler werden geehrt.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "tagesschau Wirtschaft",
-          "url": "https://www.tagesschau.de/wirtschaft/dorfkneipe-rettung-brandenburg-100.html",
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/fussball/bayern-stuermer-harry-kane-gewinnt-ballon-dor,ballon-d-or-kane-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "tagesschau",
+          "url": "https://www.tagesschau.de/sport/eilmeldung-9588.html",
           "language": "Deutsch"
         }
       ],
-      "score": 6,
+      "score": 7,
       "country": "DE",
       "terms": [
         {
-          "term": "Anschubfinanzierung",
-          "text": "Das ist Geld, mit dem ein Projekt am Anfang gestartet wird. Danach soll es möglichst gut weiterlaufen."
+          "term": "Spielgestalter",
+          "text": "Ein Spielgestalter bereitet Angriffe vor und gibt den Mitspielern die Bälle. Er lenkt das Spiel seiner Mannschaft."
         }
       ],
       "guess": {
-        "question": "In der wievielten Generation führt Astrid Pagel den Gasthof in Leißnitz?",
+        "question": "Wie viele Tore schoss Harry Kane in der Saison 2025/2026 für den FC Bayern?",
         "options": [
-          "In zweiter",
-          "In vierter",
-          "In siebter"
+          "31 Tore",
+          "46 Tore",
+          "61 Tore"
         ],
-        "answer": 1,
-        "reveal": "Schon ihr Großvater war Gastwirt. Pagel führt den Gasthof in vierter Generation.",
-        "icon": "house.fill"
+        "answer": 2,
+        "reveal": "Kane traf 61 Mal für die Bayern und zwölf Mal für England.",
+        "icon": "soccerball"
       },
       "image": {
-        "url": "https://images.tagesschau.de/image/79aafefc-acd1-4a74-af02-874d792db655/AAABoUVCKdI/AAABnSSvrFg/16x9-big/dorfbewohner-leissnitz-100.jpg?width=1280",
-        "credit": "tagesschau Wirtschaft",
-        "source": "https://www.tagesschau.de/wirtschaft/dorfkneipe-rettung-brandenburg-100.html",
+        "url": "https://images.sportschau.de/image/5c3653b7-8e00-4823-9551-6bc2299162ee/AAABoXpqJUM/AAABnSSvrFg/16x9-big/kane-354.jpg?width=1280",
+        "credit": "Sportschau",
+        "source": "https://www.sportschau.de/fussball/bayern-stuermer-harry-kane-gewinnt-ballon-dor,ballon-d-or-kane-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-06",
+      "id": "2026-10-27-02",
       "ressort": "zukunft",
-      "kicker": "Klimaschutz",
-      "headline": "Mehr CO₂ wird tief im Boden eingelagert als je zuvor erfasst",
-      "teaser": "Ein neues Register zeigt, dass die geologische CO₂-Speicherung wächst. Die Forscher legen offen, wo ihre Zahlen noch unsicher sind.",
+      "kicker": "Melbourne",
+      "headline": "Kaffeesatz macht Beton im Labor deutlich druckfester",
+      "teaser": "Forschende in Melbourne verkohlen Kaffeesatz und mischen ihn in Beton. Er ersetzt dort einen Teil des Sands.",
       "blocks": [
         {
-          "type": "comparison",
-          "title": "Eingelagertes CO₂ pro Jahr",
-          "before": {
-            "label": "2016",
-            "value": 21,
-            "display": "21,0 Mio. Tonnen"
-          },
-          "after": {
-            "label": "2024",
-            "value": 43.6,
-            "display": "43,6 Mio. Tonnen"
-          }
+          "type": "bigNumber",
+          "value": "29,3",
+          "unit": "%",
+          "caption": "mehr Druckfestigkeit erreichte die beste Mischung im Labor",
+          "icon": "chart.line.uptrend.xyaxis"
         },
         {
+          "type": "share",
+          "value": 15,
+          "label": "des Feinsands durch Biokohle ersetzt",
+          "caption": "Bei der besten Mischung stammte dieser Anteil des Sands aus verkohltem Kaffeesatz."
+        },
+        {
+          "type": "map",
+          "place": "Melbourne, Australien",
+          "latitude": -37.81,
+          "longitude": 144.96,
+          "caption": "Der Kaffeesatz stammt aus Cafés in Melbourne."
+        }
+      ],
+      "whyGood": "Aus einem Abfall wird ein nützlicher Baustoff. So könnte weniger Kaffeesatz auf der Deponie landen und weniger Sand aus Flüssen gewonnen werden.",
+      "honestNote": "Im Gehwegversuch in Gisborne erreichte der Beton nur die Festigkeit gewöhnlichen Betons.",
+      "sources": [
+        {
+          "name": "scinexx",
+          "url": "https://www.scinexx.de/news/technik/verkohlter-kaffeesatz-macht-beton-deutlich-druckfester/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "Biokohle",
+          "text": "Biokohle ist ein Material aus viel Kohlenstoff. Es entsteht, wenn man Pflanzenreste ohne Sauerstoff stark erhitzt."
+        },
+        {
+          "term": "Druckfestigkeit",
+          "text": "Sie zeigt, wie viel Druck ein Material aushält, bevor es bricht."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel gebrauchter Kaffeesatz wurde für zwei Tonnen Biokohle gebraucht?",
+        "options": [
+          "Etwa 2 Tonnen",
+          "Etwa 5 Tonnen",
+          "Etwa 20 Tonnen"
+        ],
+        "answer": 1,
+        "reveal": "Aus fünf Tonnen Kaffeesatz wurden zwei Tonnen Biokohle für einen Gehweg.",
+        "icon": "cup.and.saucer.fill"
+      },
+      "image": {
+        "url": "https://www.scinexx.de/wp-content/uploads/B/e/Beton-ist-auf-grosse-Mengen-Sand-angewiesen.webp",
+        "credit": "scinexx",
+        "source": "https://www.scinexx.de/news/technik/verkohlter-kaffeesatz-macht-beton-deutlich-druckfester/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-03",
+      "ressort": "gesundheit",
+      "kicker": "Zahngesundheit",
+      "headline": "Karies stoppen ohne Bohren: Flüssigkeit wirkt bei kleinen Kindern",
+      "teaser": "Eine große Studie zeigt: Ein Lack aus Silberdiaminfluorid kann Karies bei Kindern aufhalten. Spritze und Bohrer sind dafür nicht nötig.",
+      "blocks": [
+        {
           "type": "count",
-          "value": 70,
-          "icon": "building.2.fill",
-          "caption": "Vorhaben in 17 Ländern auf sechs Kontinenten sind im Register erfasst"
+          "value": 830,
+          "icon": "person.fill",
+          "caption": "Kinder unter 6 Jahren nahmen an der Studie in Michigan, New York und Iowa teil"
+        },
+        {
+          "type": "share",
+          "value": 40,
+          "label": "US-Kinder mit Karies (mehr als)",
+          "caption": "Karies ist die häufigste chronische Krankheit bei Kindern. Behandeln lässt sie sich nun oft einfacher."
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Die USA melden mit 23 Projekten 20,2 Millionen Tonnen.",
-            "Das größte Einzelprojekt liegt im Santos-Becken in Brasilien.",
-            "Das Register bündelt Daten und zeigt die Rechenregeln offen."
+            "Die Flüssigkeit wird mit einem kleinen Schwämmchen auf den Zahn gestrichen",
+            "Sie stoppte die Karies bei mehr als der Hälfte der betroffenen Milchzähne",
+            "Behandelt wurde alle sechs Monate, auch Einjährige sind geeignet"
           ],
           "icons": [
-            "globe.americas.fill",
-            "mappin",
-            "books.vertical.fill"
+            "paintbrush.fill",
+            "tortoise.fill",
+            "calendar"
           ]
         }
       ],
-      "whyGood": "Die Speicherung von CO₂ im Untergrund hat sich in acht Jahren mehr als verdoppelt. Und die Forscher machen ihre Zahlen transparent, damit man ihnen vertrauen kann.",
-      "honestNote": "Für das 1,5-Grad-Ziel müsste die Speicherung bis 2050 auf mindestens eine Milliarde Tonnen im Jahr wachsen.",
+      "whyGood": "Viele kleine Kinder könnten künftig schmerzhafte Eingriffe und Narkosen vermeiden. Die Behandlung ist günstig und dauert nur Sekunden.",
+      "honestNote": "Die behandelte Stelle am Zahn wird dauerhaft dunkel, was vor allem an Frontzähnen auffällt.",
       "sources": [
         {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/energie/unterirdische-co%e2%82%82-speicherung-hat-sich-seit-2016-mehr-als-verdoppelt/",
-          "language": "Deutsch"
-        },
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-10-global-underground-storage-million-metric.html",
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261025222339.htm",
           "language": "Englisch"
         }
       ],
-      "score": 6,
-      "country": "GB",
+      "score": 7,
+      "country": "US",
       "terms": [
         {
-          "term": "geologisch",
-          "text": "Das heißt: im Gestein der Erde. CO₂ wird dabei in tiefe Gesteinsschichten gepresst und soll dort bleiben."
+          "term": "Silberdiaminfluorid",
+          "text": "Eine Flüssigkeit mit Silber und Fluorid. Silber bekämpft Bakterien, Fluorid macht den Zahn härter und widerstandsfähiger."
+        },
+        {
+          "term": "Karies",
+          "text": "Zahnfäule. Bakterien greifen den Zahn an und machen Löcher hinein."
         }
       ],
       "guess": {
-        "question": "Wie viel CO₂ wurde 2024 weltweit im Untergrund eingelagert?",
+        "question": "Wie viele Kinder in den USA haben Karies?",
         "options": [
-          "Etwa 4 Millionen Tonnen",
-          "Etwa 44 Millionen Tonnen",
-          "Etwa 440 Millionen Tonnen"
+          "Etwa jedes 20.",
+          "Etwa jedes 10.",
+          "Mehr als 4 von 10"
         ],
-        "answer": 1,
-        "reveal": "Es waren 43,6 Millionen Tonnen, so viel wie in keinem zuvor erfassten Jahr.",
-        "icon": "globe.europe.africa.fill"
-      },
-      "image": null
-    },
-    {
-      "id": "2026-10-26-07",
-      "ressort": "gesundheit",
-      "kicker": "Kanada",
-      "headline": "Seegurken als Vorbild: Gel hilft verletzten Sehnen beim Heilen",
-      "teaser": "Forscher haben ein Hydrogel entwickelt, dessen Festigkeit sich einstellen lässt. Bei Ratten wuchsen damit verletzte Sehnen geordneter nach.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Kollagen im Gewebe nach zwölf Wochen",
-          "before": {
-            "label": "Nur genäht",
-            "value": 46,
-            "display": "46 %"
-          },
-          "after": {
-            "label": "Mit Hydrogel",
-            "value": 81,
-            "display": "81 %"
-          }
-        },
-        {
-          "type": "background",
-          "title": "Das Prinzip der Seegurke",
-          "text": "Seegurken können die Festigkeit ihres Körpers verändern. Die Forscher stellten die Steifigkeit des Gels mit Salzlösungen ein. So passt es zu weichem oder festem Gewebe. Das Gel baut sich im Körper wieder ab."
-        }
-      ],
-      "whyGood": "Ein Gerüst, das sich von selbst abbaut, könnte Sehnen helfen, besser zu heilen. Und es lässt sich an unterschiedliche Gewebe anpassen.",
-      "honestNote": "Bisher wurde das Gel nur an Ratten getestet, Studien am Menschen fehlen noch.",
-      "sources": [
-        {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/medizin/seegurken-hydrogel-koennte-geschaedigtes-menschliches-gewebe-heilen/",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 6,
-      "country": "CA",
-      "terms": [
-        {
-          "term": "Hydrogel",
-          "text": "Ein Hydrogel ist ein weiches Material, das viel Wasser enthält. Es ist ähnlich wie Wackelpudding, kann aber als Stützgerüst für Gewebe dienen."
-        },
-        {
-          "term": "Kollagen",
-          "text": "Kollagen ist ein Eiweiß, das Sehnen, Haut und Knochen Halt gibt. Es bildet feste Fasern im Körper."
-        }
-      ],
-      "guess": {
-        "question": "Wie lange dauerte es, bis sich das Gel im Körper der Ratten fast ganz aufgelöst hatte?",
-        "options": [
-          "Etwa 2 Tage",
-          "Etwa 8 Wochen",
-          "Etwa 2 Jahre"
-        ],
-        "answer": 1,
-        "reveal": "Nach etwa acht Wochen war das Gel auf den Magnetresonanzbildern nahezu vollständig abgebaut.",
-        "icon": "flask.fill"
+        "answer": 2,
+        "reveal": "Mehr als 40 Prozent der Kinder in den USA sind von Karies betroffen.",
+        "icon": "heart.fill"
       },
       "image": {
-        "url": "https://www.scinexx.de/wp-content/uploads/D/a/Das-Hydrogel-ist-so-aufgebaut-dass-es-neue-Kollagenfasern-in-eine-geordnete-Richtung-lenken-kann.webp",
-        "credit": "scinexx",
-        "source": "https://www.scinexx.de/news/medizin/seegurken-hydrogel-koennte-geschaedigtes-menschliches-gewebe-heilen/",
+        "url": "https://www.sciencedaily.com/images/1920/molar-teeth-cavities.webp",
+        "credit": "ScienceDaily Health",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261025222339.htm",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-08",
-      "ressort": "bildung",
-      "kicker": "Kapstadt",
-      "headline": "Zauberschule in Kapstadt gibt Kindern Selbstvertrauen",
-      "teaser": "Am College of Magic lernen junge Menschen Kartentricks, Jonglieren und Bühnenzauber. Viele kommen aus ärmeren Vierteln.",
-      "blocks": [
-        {
-          "type": "count",
-          "value": 190,
-          "icon": "person.fill",
-          "caption": "Kinder und Jugendliche zwischen 10 und 18 lernen hier jeden Samstag zaubern"
-        },
-        {
-          "type": "share",
-          "value": 80,
-          "label": "Schüler mit Stipendium",
-          "caption": "Sie können die Gebühr nicht selbst zahlen. Meist übernehmen private Spenden die Kosten."
-        },
-        {
-          "type": "quote",
-          "text": "Das ist das Tolle an der Magie: Nichts ist für uns unmöglich.",
-          "author": "David Gore, Gründer des College of Magic"
-        }
-      ],
-      "whyGood": "Die Schule bringt seit 1980 junge Menschen aus allen Gruppen zusammen. Zaubern stärkt Selbstvertrauen und Kreativität, auch ohne teure Ausrüstung.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/10/25/g-s1-149089/magic-magicians-south-africa-school-students",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "ZA",
-      "terms": [],
-      "guess": {
-        "question": "Wie viele Kinder und Jugendliche lernen samstags an der Zauberschule?",
-        "options": [
-          "19",
-          "190",
-          "1900"
-        ],
-        "answer": 1,
-        "reveal": "Rund 190 Schüler zwischen 10 und 18 Jahren besuchen jeden Samstag den Unterricht.",
-        "icon": "sparkles"
-      },
-      "image": {
-        "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5374x3023+0+280/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2Fe2%2F9fe8cd294f2f8e01cfd1568a33db%2Fmagic-school-2-2.jpg",
-        "credit": "NPR",
-        "source": "https://www.npr.org/2026/10/25/g-s1-149089/magic-magicians-south-africa-school-students",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-09",
-      "ressort": "sport",
-      "kicker": "Gehen",
-      "headline": "Rebecca Henderson stellt Weltrekord im Marathon der Geher auf",
-      "teaser": "Die Australierin geht in Japan bei Regen ihr erstes Marathon-Rennen und schlägt die Bestmarke. So einen Rekord gab es für Australien lange nicht.",
+      "id": "2026-10-27-04",
+      "ressort": "wissenschaft",
+      "kicker": "Kosmologie",
+      "headline": "Junger Kanadier erhält EU-Preis für Modell zum Universum",
+      "teaser": "Liam Desre prüfte, ob sich das sich beschleunigende Universum ohne Dunkle Energie erklären lässt. Dafür wurde er in Kiel ausgezeichnet.",
       "blocks": [
         {
           "type": "bigNumber",
-          "value": "19",
-          "unit": "Sekunden",
-          "caption": "schneller als der bisherige Weltrekord war Henderson, trotz Regen",
-          "icon": "clock.fill"
+          "value": "5000",
+          "unit": "Euro",
+          "caption": "Preisgeld gab es beim European Union Contest for Young Scientists in Kiel",
+          "icon": "trophy.fill"
+        },
+        {
+          "type": "background",
+          "title": "Worum es in der Arbeit geht",
+          "text": "Das Universum dehnt sich immer schneller aus. Dafür nimmt man eine Dunkle Energie an, deren Ursprung unbekannt ist. Desre prüfte eine Erklärung über Entropie. Dabei verschwindet die Hubble-Konstante als Widerspruch."
+        }
+      ],
+      "whyGood": "Ein Jugendlicher trägt zu einer der größten offenen Fragen der Physik bei. Seine Arbeit zeigt, dass auch junge Menschen an echter Forschung mitwirken können.",
+      "honestNote": "Das Modell löst nicht alle Probleme der Kosmologie, die Dunkle Energie bleibt vorerst im Standardbild.",
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/14-jaehriger-gewinnt-preis-fuer-alternative-theorie-zu-dunkler-energie/2351372",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Entropie",
+          "text": "Entropie beschreibt grob, wie viel Unordnung oder verlorene Information in einem System steckt."
+        },
+        {
+          "term": "Hubble-Konstante",
+          "text": "Sie gibt an, wie schnell sich das Universum ausdehnt. Zwei Messmethoden liefern dafür bisher verschiedene Werte."
+        }
+      ],
+      "guess": {
+        "question": "Wie alt ist der Kanadier, der den EU-Preis für junge Forschende bekam?",
+        "options": [
+          "9 Jahre",
+          "14 Jahre",
+          "19 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Liam Desre ist 14 Jahre alt. Der Wettbewerb ist für 14 bis 20 Jahre offen.",
+        "icon": "telescope.fill"
+      },
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/f1920x1080/Euclid_spots_interacting_galaxies.jpg",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/14-jaehriger-gewinnt-preis-fuer-alternative-theorie-zu-dunkler-energie/2351372",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-05",
+      "ressort": "autos",
+      "kicker": "Río de la Plata",
+      "headline": "Größtes Elektroschiff der Welt fährt jetzt mit Passagieren",
+      "teaser": "Die „China Zorrilla“ verbindet Argentinien und Uruguay. Sie fährt allein mit Batteriestrom und hat nun ihre erste kommerzielle Fahrt hinter sich.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 225,
+          "icon": "car.fill",
+          "caption": "Fahrzeuge passen auf die elektrische Fähre"
+        },
+        {
+          "type": "bigNumber",
+          "value": "250",
+          "unit": "Tonnen",
+          "caption": "wiegen die Batterien an Bord zusammen, mindestens",
+          "icon": "battery.100"
+        },
+        {
+          "type": "map",
+          "place": "Río de la Plata",
+          "latitude": -34.6,
+          "longitude": -57.9,
+          "caption": "Der Katamaran fährt zwischen Buenos Aires und Colonia in Uruguay."
+        }
+      ],
+      "whyGood": "Ein großes Schiff fährt vollständig mit Batteriestrom. Das zeigt, dass auch große Fähren ohne Dieselmotor Passagiere und Autos transportieren können. An Bord gibt es weniger Lärm und Vibrationen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "electrive",
+          "url": "https://www.electrive.net/2026/10/26/groesstes-elektroschiff-der-welt/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "AR",
+      "terms": [
+        {
+          "term": "Katamaran",
+          "text": "Ein Katamaran ist ein Schiff mit zwei Rümpfen, die nebeneinander liegen. Das macht es stabil."
+        }
+      ],
+      "guess": {
+        "question": "Wie schwer sind die Batterien der größten Elektrofähre der Welt?",
+        "options": [
+          "etwa 25 Tonnen",
+          "mehr als 250 Tonnen",
+          "etwa 2.500 Tonnen"
+        ],
+        "answer": 1,
+        "reveal": "Die Batterien wiegen zusammen mehr als 250 Tonnen und speichern über 40 MWh.",
+        "icon": "ferry.fill"
+      },
+      "image": {
+        "url": "https://www.electrive.net/media/2026/10/elektroschiff-china-zorrilla-buquebus-incat-tasmania-hull-096.jpg",
+        "credit": "electrive",
+        "source": "https://www.electrive.net/2026/10/26/groesstes-elektroschiff-der-welt/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-06",
+      "ressort": "natur",
+      "kicker": "Pilze",
+      "headline": "Pilze bekommen erstmals eine weltweite Schutzstrategie",
+      "teaser": "Forschende aus 30 Ländern haben bei der UN-Artenschutzkonferenz in Armenien einen Plan vorgestellt. Er soll Pilze endlich in den Naturschutz einbeziehen.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "160.000",
+          "unit": "Arten",
+          "caption": "von Pilzen kennt die Wissenschaft bisher, doch über die meisten ist wenig bekannt.",
+          "icon": "leaf.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Strategie wurde am 21. Oktober bei der UN-Konferenz COP17 vorgestellt.",
+            "Sie soll Forschung, den Schutz seltener Arten und die Renaturierung stärken.",
+            "In Benin gibt es 70 essbare Pilzarten. Frauen lernen, sie anzubauen und zu verkaufen."
+          ],
+          "icons": [
+            "globe.europe.africa.fill",
+            "magnifyingglass",
+            "basket.fill"
+          ]
+        }
+      ],
+      "whyGood": "Pilze halten Ökosysteme am Laufen, wurden aber lange übersehen. Jetzt gibt es einen gemeinsamen Plan, der sie schützt und Menschen vor Ort Einkommen bringt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/fungi-now-have-a-global-conservation-strategy/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "AM",
+      "terms": [
+        {
+          "term": "Renaturierung",
+          "text": "Dabei hilft man der Natur, sich zu erholen, zum Beispiel in Wäldern oder Feuchtgebieten, die zuvor Schaden genommen haben."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Pilzarten kennt die Wissenschaft ungefähr?",
+        "options": [
+          "16.000",
+          "160.000",
+          "1,6 Millionen"
+        ],
+        "answer": 1,
+        "reveal": "Rund 160.000 Pilzarten sind bekannt, doch über die meisten weiß man kaum etwas.",
+        "icon": "leaf.fill"
+      },
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/26134949/SPUN-Indonesia-Bantimurung-Bulusaraung-National-Park-Garry-Lotulung-C-Garry-Lotulung-SPUN.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/fungi-now-have-a-global-conservation-strategy/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-07",
+      "ressort": "architektur",
+      "kicker": "Singapur",
+      "headline": "Singapurs Parks dürfen bei Starkregen überfluten",
+      "teaser": "Aus Betonkanälen werden naturnahe Flüsse. Bei starkem Regen läuft das Wasser gewollt in die umliegenden Parks.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "2,7",
+          "unit": "Kilometer",
+          "caption": "ehemaliger Betonkanal sind jetzt ein naturnaher Fluss im Park",
+          "icon": "water.waves"
+        },
+        {
+          "type": "comparison",
+          "title": "Breite des Kanals bei Sungei Tampines",
+          "before": {
+            "label": "Mehr Platz für Wasser",
+            "value": 0,
+            "display": "0 Meter"
+          },
+          "after": {
+            "label": "Verbreitert um bis zu",
+            "value": 4.5,
+            "display": "4,5 Meter"
+          }
         },
         {
           "type": "timeline",
-          "title": "Der Weg zum Rekord",
+          "title": "Der Weg des Programms",
           "items": [
             {
               "year": "2006",
-              "text": "Nathan Deakes aus Australien stellt in Geelong den Weltrekord über 50 km auf."
+              "text": "Singapur startet das Programm ABC Waters."
             },
             {
-              "year": "Januar 2026",
-              "text": "Marathon und Halbmarathon werden offizielle Gehstrecken und ersetzen 20 und 35 km."
+              "year": "2013",
+              "text": "Am Sungei Ulu Pandan ist der erste Abschnitt von 600 Metern fertig."
             },
             {
-              "year": "August 2026",
-              "text": "Die Italienerin Sofia Fiorini setzt bei der EM in Birmingham die bisherige Bestmarke."
+              "year": "2022",
+              "text": "Weitere 1,9 Kilometer sind fertig. Am Sungei Tampines wird der Kanal ausgebaut."
             }
           ]
         }
       ],
-      "whyGood": "Eine 25-Jährige gibt ihr Marathon-Debüt und schreibt Sportgeschichte, und das bei schlechtem Wetter. Für Australien ist es der erste Weltrekord in einer Meisterschaftsdisziplin seit 20 Jahren.",
-      "honestNote": null,
+      "whyGood": "Parks können Hochwasser aufnehmen und sind zugleich Orte zum Spazieren und Verweilen. So schützt die Stadt sich vor Starkregen und gibt Menschen und Tieren mehr Platz am Wasser.",
+      "honestNote": "Wie gut die Anlagen Wasser reinigen und Hochwasser mindern, muss sich über die Jahre erst zeigen.",
       "sources": [
         {
-          "name": "Guardian Sport",
-          "url": "https://www.theguardian.com/sport/2026/oct/26/australian-rebecca-henderson-breaks-athletics-world-record-race-walk-marathon-japan",
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1186715/planned-overflow-how-singapore-balances-floods-canals-and-public-space",
           "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "JP",
-      "terms": [],
+      "country": "SG",
+      "terms": [
+        {
+          "term": "Biotop",
+          "text": "Ein Biotop ist ein kleiner Lebensraum für Pflanzen und Tiere. In Singapur filtern Pflanzen und Boden dort Schmutz aus dem Regenwasser."
+        },
+        {
+          "term": "Kanal",
+          "text": "Ein Kanal ist eine künstlich gebaute Rinne, in der Wasser fließt. In Singapur leiten viele Kanäle Regenwasser ab."
+        }
+      ],
       "guess": {
-        "question": "Wie lange brauchte Henderson für die 42,195 Kilometer?",
+        "question": "Um wie viel Prozent stieg die Wassermenge, die ein Kanal bei Sungei Tampines aufnehmen kann?",
         "options": [
-          "Etwa 2 Stunden",
-          "Etwa 3 Stunden 15 Minuten",
-          "Etwa 5 Stunden"
+          "Etwa 3 Prozent",
+          "Etwa 30 Prozent",
+          "Etwa 300 Prozent"
         ],
         "answer": 1,
-        "reveal": "Sie schaffte die Strecke in 3 Stunden, 14 Minuten und 52 Sekunden.",
-        "icon": "figure.walk"
+        "reveal": "Durch Verbreitern und Vertiefen nimmt der Kanal laut Bericht rund 30 Prozent mehr Regenwasser auf.",
+        "icon": "water.waves"
       },
       "image": {
-        "url": "https://i.guim.co.uk/img/media/5ae2e2b5c728df396ec763e71bf7d1f68373afde/49_0_3642_2913/master/3642.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bef3728b661ececf668ee80348466321",
-        "credit": "Guardian Sport",
-        "source": "https://www.theguardian.com/sport/2026/oct/26/australian-rebecca-henderson-breaks-athletics-world-record-race-walk-marathon-japan",
+        "url": "https://images.adsttc.com/media/images/6acd/e5e9/c599/0e01/8860/0ff2/large_jpg/the-canal-is-not-a-drain_7.jpg?1791878639",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1186715/planned-overflow-how-singapore-balances-floods-canals-and-public-space",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-10",
-      "ressort": "promis",
-      "kicker": "Wales",
-      "headline": "Töpfer Keith Brymer Jones heiratet in seiner alten Kapelle",
-      "teaser": "Der TV Juror und die Schauspielerin Marj Hogarth wollen im Mai 2027 in Pwllheli heiraten. Dort bauen sie eine alte Kapelle zum Zuhause um.",
+      "id": "2026-10-27-08",
+      "ressort": "design",
+      "kicker": "Singapur",
+      "headline": "Ärmel mit Touchscreen aus Fäden übersteht die Waschmaschine",
+      "teaser": "Forschende in Singapur weben Bildschirm und Touchfunktion direkt in Stoff. Der Ärmel zeigt Videos und bleibt weich und luftig wie normale Kleidung.",
       "blocks": [
         {
+          "type": "count",
+          "value": 54,
+          "icon": "scissors",
+          "caption": "Fäden mit Leuchtdioden bilden zusammen den Bildschirm im Ärmel"
+        },
+        {
+          "type": "comparison",
+          "title": "Nach dem Waschen fast wie neu",
+          "before": {
+            "label": "Waschgänge",
+            "value": 0,
+            "display": "0"
+          },
+          "after": {
+            "label": "Waschgänge",
+            "value": 50,
+            "display": "50"
+          }
+        },
+        {
           "type": "bigNumber",
-          "value": "163",
-          "unit": "Jahre",
-          "caption": "alt ist die Kapelle Capel Salem, die das Paar 2022 gekauft hat",
-          "icon": "building.columns.fill"
+          "value": "5000",
+          "unit": "Chips",
+          "caption": "hat das Team über mehr als 20 000 elektrische Verbindungen in die Fäden gesetzt",
+          "icon": "cpu"
+        }
+      ],
+      "whyGood": "Technik muss nicht mehr starr am Körper sitzen. Sie kann in Kleidung stecken, die man wie gewohnt trägt und wäscht.",
+      "honestNote": "Medizinische Anwendungen sind bisher nur eine Idee und noch nicht Teil des Prototyps.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
+          "language": "Englisch"
+        },
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/26/nus-researchers-turn-electronic-threads-into-a-touchscreen-sleeve/?utm_source=rss&utm_medium=rss&utm_campaign=nus-researchers-turn-electronic-threads-into-a-touchscreen-sleeve",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "SG",
+      "terms": [
+        {
+          "term": "Leuchtdioden",
+          "text": "Das sind winzige Lämpchen, die sehr wenig Strom brauchen. Man nennt sie auch LEDs. Viele davon zusammen ergeben ein Bild."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Waschgänge hat der Stoff-Bildschirm fast unverändert überstanden?",
+        "options": [
+          "5",
+          "50",
+          "500"
+        ],
+        "answer": 1,
+        "reveal": "Nach 50 Waschgängen mit Waschmittel blieben Licht und Touchfunktion fast gleich.",
+        "icon": "tshirt.fill"
+      },
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev-designboom-1200.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-09",
+      "ressort": "kultur",
+      "kicker": "Paris",
+      "headline": "Sagmeister zeigt in Paris, was in der Welt besser geworden ist",
+      "teaser": "Der Designer Stefan Sagmeister macht Daten zu Kunst. Seine Ausstellung zeigt, wie sich Gesundheit, Demokratie und Gleichheit über lange Zeit verbessert haben.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Daten stammen von den Vereinten Nationen und der Weltbank",
+            "Die Ausstellung zieht sich über alle Etagen bis in die Toiletten",
+            "Der Gini-Index wird zu Objekten aus Lebensmitteln"
+          ],
+          "icons": [
+            "globe.europe.africa.fill",
+            "building.2.fill",
+            "basket.fill"
+          ]
         },
         {
           "type": "map",
-          "place": "Pwllheli, Halbinsel Llŷn",
-          "latitude": 52.888,
-          "longitude": -4.417,
-          "caption": "Hier an der Küste von Nordwales entsteht das neue Zuhause."
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Der Antrag kam bei einem Auftritt in Cardiff, auf walisischem Boden.",
-            "Der frühere Sonntagsschulraum ist jetzt ein Töpferatelier.",
-            "Das Paar will örtliche Lehrlinge einstellen."
-          ],
-          "icons": [
-            "heart.fill",
-            "paintpalette.fill",
-            "hammer.fill"
-          ]
-        }
-      ],
-      "whyGood": "Ein altes Gotteshaus bekommt neues Leben. Es wird Zuhause, Atelier und Treffpunkt für den Ort, und es sollen Lehrstellen entstehen.",
-      "honestNote": "Die Renovierung ist erst etwa zur Hälfte geschafft.",
-      "sources": [
-        {
-          "name": "BBC Entertainment",
-          "url": "https://www.bbc.co.uk/news/articles/cw30ej25lvypo?at_medium=RSS&at_campaign=rss",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "GB",
-      "terms": [
-        {
-          "term": "Keramiker",
-          "text": "Ein Keramiker formt Dinge aus Ton und brennt sie im Ofen hart, zum Beispiel Tassen, Teller und Vasen."
-        }
-      ],
-      "guess": {
-        "question": "Wie groß ist die Kapelle, die das Paar zum Zuhause umbaut?",
-        "options": [
-          "Etwa 79 Quadratmeter",
-          "Etwa 790 Quadratmeter",
-          "Etwa 7.900 Quadratmeter"
-        ],
-        "answer": 1,
-        "reveal": "Das denkmalgeschützte Gebäude misst rund 790 Quadratmeter. Dort kommen Wohnung, Atelier und Veranstaltungsraum unter.",
-        "icon": "building.columns.fill"
-      },
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4071/live/9c7f01c0-3aef-11f1-9961-936cc21d3655.jpg",
-        "credit": "BBC Entertainment",
-        "source": "https://www.bbc.co.uk/news/articles/cw30ej25lvypo?at_medium=RSS&at_campaign=rss",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-11",
-      "ressort": "dekoration",
-      "kicker": "New York",
-      "headline": "Historisches Haus in Roslyn wird mit Respekt für heute umgebaut",
-      "teaser": "Ein Haus von 1898 wurde einst abgebaut und an anderer Stelle neu aufgebaut. Jetzt bekommt es mehr Platz und bleibt in seinem Charakter erhalten.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "12",
-          "unit": "Jahre",
-          "caption": "wohnt die Familie schon im Haus und wollte seinen Charakter bewahren",
-          "icon": "house.fill"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Das Queen Anne Haus wurde 1898 gebaut und später Stück für Stück versetzt",
-            "Fenster, Zierleisten und Rahmen blieben erhalten, die Treppe wurde nachgebaut",
-            "Alte Küchenschränke dienen jetzt in der Waschküche weiter"
-          ],
-          "icons": [
-            "building.columns.fill",
-            "hammer.fill",
-            "arrow.3.trianglepath"
-          ]
+          "place": "La Gaîté Lyrique, Paris",
+          "latitude": 48.8666,
+          "longitude": 2.3547,
+          "caption": "Die Ausstellung läuft bis zum 18. April 2027."
         },
         {
           "type": "background",
-          "title": "Denkmalschutz vor Ort",
-          "text": "Für den Umbau brauchte es die Zustimmung des örtlichen Denkmalgremiums und der Roslyn Landmark Society. Architekt Matthew Korn und die Eigentümer legten ihre Pläne mehrmals neu vor."
+          "title": "Warum lange Zeiträume zählen",
+          "text": "Schlechte Nachrichten prägen den Alltag, weil sie schnell und laut sind. Sagmeister schaut weiter zurück. Über Jahrhunderte zeigen die Daten, dass sich viele Lebensbedingungen deutlich verbessert haben."
         }
       ],
-      "whyGood": "Ein altes Haus, das schon einmal gerettet wurde, bleibt erhalten und passt nun zum Alltag einer Familie. Alte Teile werden repariert oder weiterverwendet, statt weggeworfen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Homes & Gardens",
-          "url": "https://www.homesandgardens.com/houses/explore-a-historic-queen-anne-home-in-new-york",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "US",
-      "terms": [
-        {
-          "term": "Queen Anne",
-          "text": "Das ist ein Baustil aus der Zeit um 1900. Solche Häuser haben oft Erker, Türmchen und viele verzierte Details."
-        }
-      ],
-      "guess": {
-        "question": "Wie oft musste der Umbauplan überarbeitet werden, bis die Denkmalpfleger zustimmten?",
-        "options": [
-          "Zweimal",
-          "Viermal",
-          "Vierzehnmal"
-        ],
-        "answer": 1,
-        "reveal": "Vier Überarbeitungen waren nötig, bis das Denkmalgremium und die Landmark Society zustimmten.",
-        "icon": "house.fill"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://cdn.mos.cms.futurecdn.net/kXW2U7a7VEWz39xQHnwGTZ-2560-80.jpg",
-        "credit": "Homes & Gardens",
-        "source": "https://www.homesandgardens.com/houses/explore-a-historic-queen-anne-home-in-new-york",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-12",
-      "ressort": "wissenschaft",
-      "kicker": "Römisches Reich",
-      "headline": "Neue Karte zeigt verschollene Straßen der Römer",
-      "teaser": "Forschende haben erstmals eine frei zugängliche Karte des römischen Straßennetzes in hoher Auflösung erstellt. Das Netz war viel größer als gedacht.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "300 000",
-          "unit": "Kilometer",
-          "caption": "lang war das römische Straßennetz im 2. Jahrhundert, fast doppelt so lang wie bisher bekannt",
-          "icon": "map.fill"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Das Team verband Daten, Satellitenbilder und moderne Karten",
-            "Es nutzte mehr als 8000 Meilensteine und etwa 14 000 antike Orte",
-            "Die Karte ist in einer einzigen, frei zugänglichen Quelle abrufbar"
-          ],
-          "icons": [
-            "cpu",
-            "magnifyingglass",
-            "globe.europe.africa.fill"
-          ]
-        },
-        {
-          "type": "background",
-          "title": "Meilensteine als Wegweiser",
-          "text": "Die Römer stellten beschriftete Steinpfeiler an ihre Straßen. Man konnte daran den Ort und die Entfernung ablesen. Für die Forschung wirken sie wie antike GPS-Markierungen."
-        }
-      ],
-      "whyGood": "Wir verstehen jetzt besser, wie das Römische Reich zusammenhing. Die frei zugängliche Karte hilft Forschenden, noch mehr verlorene Wege zu finden.",
-      "honestNote": "Von nur 2,7 Prozent des Netzes kennt man bisher die genaue Lage.",
-      "sources": [
-        {
-          "name": "Spektrum",
-          "url": "https://www.spektrum.de/news/imperium-romanum-die-verschollenen-strassen-der-roemer/2325492",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 6,
-      "country": "IT",
-      "terms": [
-        {
-          "term": "Meilensteine",
-          "text": "Das waren beschriftete Steinpfeiler am Straßenrand. Sie zeigten, wo man war und wie weit es bis zu einem Ort war."
-        }
-      ],
-      "guess": {
-        "question": "Wie lang war das römische Straßennetz im 2. Jahrhundert ungefähr?",
-        "options": [
-          "30 000 Kilometer",
-          "300 000 Kilometer",
-          "3 Millionen Kilometer"
-        ],
-        "answer": 1,
-        "reveal": "Es war etwa 300 000 Kilometer lang, fast doppelt so viel wie bisher bekannt.",
-        "icon": "map.fill"
-      },
-      "image": {
-        "url": "https://static.spektrum.de/fm/912/f1920x1080/sa0626Brug01_2T4RM62_Alamy-viaSciAm.jpg",
-        "credit": "Spektrum",
-        "source": "https://www.spektrum.de/news/imperium-romanum-die-verschollenen-strassen-der-roemer/2325492",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-k01",
-      "ressort": "architektur",
-      "kicker": "Düsseldorf",
-      "headline": "Düsseldorfer Altbauwohnung ist ganz auf Kreislaufwirtschaft gebaut",
-      "teaser": "Das Büro Urselmann Interior hat eine Wohnung von 1939 in Düsseldorf umgebaut. Alles ist verschraubt oder reversibel geklebt, damit sich die Materialien später sortenrein trennen lassen. Neun Hersteller nehmen ihre Produkte am Ende zurück.",
-      "blocks": [],
-      "whyGood": "Die Wohnung zeigt, dass Umbauten Material im Kreislauf halten und dabei trotzdem schön und flexibel sein können.",
+      "whyGood": "Die Ausstellung erinnert daran, dass Fortschritt oft langsam und leise passiert. Wer weiter zurückschaut, sieht, dass sich Einsatz für eine bessere Gesellschaft lohnt.",
       "honestNote": null,
       "sources": [
         {
           "name": "designboom",
-          "url": "https://www.designboom.com/architecture/stepped-timber-platforms-operable-textiles-circular-dusseldorf-home-urselmann-interior/",
+          "url": "https://www.designboom.com/design/stefan-sagmeisters-la-gaite-lyrique/",
           "language": "Englisch"
         }
       ],
-      "brief": true,
       "score": 6,
-      "country": "DE",
-      "terms": [],
+      "country": "FR",
+      "terms": [
+        {
+          "term": "Gini-Index",
+          "text": "Eine Zahl, die misst, wie gerecht Einkommen in einem Land verteilt sind. Je kleiner sie ist, desto gleicher geht es zu."
+        }
+      ],
+      "guess": {
+        "question": "Worüber legt Sagmeister seine bunten Flächen mit Daten?",
+        "options": [
+          "Über Stadtpläne von Paris",
+          "Über alte Ölgemälde",
+          "Über Fotos von heute"
+        ],
+        "answer": 1,
+        "reveal": "Er überlagert Ölgemälde aus dem 18. und 19. Jahrhundert mit geometrischen Farbfeldern, die Daten zeigen.",
+        "icon": "paintpalette.fill"
+      },
       "gallery": true,
       "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/dusseldorf-apartment-urselmann-interior-designboom-1200-1.jpg",
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/stefan-sagmeister-lagaite-lyrique-designboom-facebook.jpg",
         "credit": "designboom",
-        "source": "https://www.designboom.com/architecture/stepped-timber-platforms-operable-textiles-circular-dusseldorf-home-urselmann-interior/",
+        "source": "https://www.designboom.com/design/stefan-sagmeisters-la-gaite-lyrique/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-k02",
+      "id": "2026-10-27-10",
+      "ressort": "kurioses",
+      "kicker": "Los Angeles",
+      "headline": "Das größte Pop-up-Buch der Welt ist in Los Angeles zu sehen",
+      "teaser": "Die Stadtbibliothek von Los Angeles feiert ein besonderes Jubiläum. Zu Gast ist ein ungewöhnlicher Wälzer.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Los Angeles Public Library feiert ihr Jubiläum.",
+            "Zu Gast ist das größte Pop-up-Buch der Welt.",
+            "Das Buch ist in der Bibliothek ausgestellt."
+          ],
+          "icons": [
+            "building.columns.fill",
+            "book.fill",
+            "sparkles"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was ist ein Pop-up-Buch?",
+          "text": "Bei einem Pop-up-Buch stellen sich beim Aufschlagen der Seiten Figuren und Bauten aus Papier auf. So wird aus einer flachen Seite eine kleine Bühne."
+        }
+      ],
+      "whyGood": "Ein riesiges Buch macht Papier zum Erlebnis. Es lädt Besucher ein, die Bibliothek neu zu entdecken.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/10/26/guinness-world-records-largest-pop-up-book/9571793036865/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Pop-up-Buch",
+          "text": "Ein Buch, bei dem sich beim Aufschlagen Figuren oder Gebäude aus Papier aufrichten."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Jahre besteht die Bibliothek von Los Angeles, die jetzt feiert?",
+        "options": [
+          "50 Jahre",
+          "100 Jahre",
+          "200 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Die Bibliothek feiert ihr 100. Jubiläum, dazu zeigt sie das größte Pop-up-Buch der Welt.",
+        "icon": "book.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Los_Angeles_Central_Library_09.jpg/1280px-Los_Angeles_Central_Library_09.jpg",
+        "credit": "Visitor7, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Central_Library_09.jpg",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-10-27-11",
+      "ressort": "welt",
+      "kicker": "New York",
+      "headline": "New York verteilt kostenloses Tierfutter in Lebensmittelausgaben",
+      "teaser": "Die Stadt unterstützt Ausgabestellen in allen fünf Stadtteilen. So müssen Familien nicht wählen, ob sie selbst oder ihr Haustier satt wird.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 22,
+          "icon": "building.2.fill",
+          "caption": "Lebensmittelausgaben in allen fünf Stadtteilen verteilen jetzt Tierfutter"
+        },
+        {
+          "type": "bigNumber",
+          "value": "500.000",
+          "unit": "Dollar",
+          "caption": "stellt die Stadt für das Programm bereit",
+          "icon": "banknote.fill"
+        },
+        {
+          "type": "quote",
+          "text": "Niemand in New York sollte wählen müssen, ob er sich selbst oder sein Haustier füttert.",
+          "author": "Zohran Mamdani, Bürgermeister von New York"
+        }
+      ],
+      "whyGood": "Familien in Geldnot können ihr Haustier behalten und müssen es nicht im Tierheim abgeben. Die Ausgabestellen müssen nicht mehr allein von Spenden und Zuschüssen abhängen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/10/nyc-food-pantries-are-now-stocking-pet-food-for-struggling-households/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Ausgabestellen in New York bekommen Geld für Tierfutter?",
+        "options": [
+          "5",
+          "22",
+          "220"
+        ],
+        "answer": 1,
+        "reveal": "Die Stadt fördert 22 Lebensmittelausgaben in allen fünf Stadtteilen.",
+        "icon": "pawprint.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/cat-food-in-scoop-on-Depositphotos_96912150_S.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/10/nyc-food-pantries-are-now-stocking-pet-food-for-struggling-households/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-12",
+      "ressort": "gaming",
+      "kicker": "Schweiz",
+      "headline": "Student baut die ganze Schweiz in Minecraft nach",
+      "teaser": "Ein Block ist ein Meter: Beda Good rechnet amtliche Geodaten in eine begehbare Welt um. Ein Ausschnitt mit den Alpen ist gratis.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "41.285",
+          "unit": "km²",
+          "caption": "Landesfläche deckt die Minecraft-Welt ab, ein Block entspricht dabei einem Meter",
+          "icon": "map.fill"
+        },
+        {
+          "type": "comparison",
+          "title": "Gratis und komplett",
+          "before": {
+            "label": "Gratis-Ausschnitt",
+            "value": 2400,
+            "display": "rund 2400 km²"
+          },
+          "after": {
+            "label": "Ganze Schweiz",
+            "value": 41285,
+            "display": "41.285 km²"
+          }
+        }
+      ],
+      "whyGood": "Ein Student macht amtliche Daten zu einem Spiel, in dem man durch die Alpen laufen kann. Den Ausschnitt um Jungfrau und Aletsch gibt es kostenlos und ohne Anmeldung.",
+      "honestNote": "Die Welt ist nicht metergenau, Gebäude sind vereinfacht.",
+      "sources": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Schweiz-im-Massstab-1-1-in-Minecraft-ETH-Student-baut-Land-aus-Geodaten-nach-11500785.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "CH",
+      "terms": [
+        {
+          "term": "Geodaten",
+          "text": "Das sind Daten, die beschreiben, wie die Erde an einem Ort aussieht, zum Beispiel wie hoch Berge sind und wo Häuser, Straßen und Seen liegen."
+        }
+      ],
+      "guess": {
+        "question": "Wie hoch ragt die Dufourspitze in der Minecraft-Schweiz?",
+        "options": [
+          "1634 Blöcke",
+          "4634 Blöcke",
+          "8848 Blöcke"
+        ],
+        "answer": 1,
+        "reveal": "Die Dufourspitze ragt 4634 Blöcke hoch, ein Block entspricht einem Meter.",
+        "icon": "mountain.2.fill"
+      },
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/8/9/2/4/8/aletsch-048994d5589bdfbf.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "credit": "heise online",
+        "source": "https://www.heise.de/news/Schweiz-im-Massstab-1-1-in-Minecraft-ETH-Student-baut-Land-aus-Geodaten-nach-11500785.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k01",
+      "ressort": "promis",
+      "kicker": "Großbritannien",
+      "headline": "Busted-Gitarrist James Bourne: Bruder spendet ihm eine Niere",
+      "teaser": "James Bourne von der Band Busted hat eine Niere von seinem jüngsten Bruder Chris bekommen. Die Ärzte hatten ihm zuvor nur noch wenige Jahre gegeben. Beide erholen sich gut von den Operationen, und James fühlt sich schon besser.",
+      "blocks": [],
+      "whyGood": "Ein Bruder rettet dem anderen das Leben, und beiden geht es nach der Operation gut.",
+      "honestNote": "James Bourne braucht nach der Operation noch Zeit, um ganz zu genesen.",
+      "sources": [
+        {
+          "name": "BBC Entertainment",
+          "url": "https://www.bbc.co.uk/news/articles/cm0rljq0dzvxo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d8a8/live/698b5f80-d170-11f1-9d71-6d5ae0660afe.jpg",
+        "credit": "BBC Entertainment",
+        "source": "https://www.bbc.co.uk/news/articles/cm0rljq0dzvxo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k02",
+      "ressort": "sport",
+      "kicker": "Fußball",
+      "headline": "Alexia Putellas gewinnt zum dritten Mal den Ballon d'Or",
+      "teaser": "Die Spanierin wurde bei der Gala in London ausgezeichnet. Mit dem FC Barcelona holte sie in der Saison vier Titel, darunter die Champions League. Schon 2021 und 2022 hatte sie den Preis gewonnen.",
+      "blocks": [],
+      "whyGood": "Nach einem Kreuzbandriss und langem Kampf zurück steht Putellas wieder an der Spitze des Frauenfußballs.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "tagesschau",
+          "url": "https://www.sportschau.de/fussball/alexia-putellas-gewinnt-zum-dritten-mal-ballon-dor,alexia-putellas-ballon-d-or-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://images.sportschau.de/image/a1a67031-0807-44aa-8235-3e034c38917b/AAABoXl6fDM/AAABnSSvrFg/16x9-big/putellas-122.jpg?width=1280",
+        "credit": "tagesschau",
+        "source": "https://www.sportschau.de/fussball/alexia-putellas-gewinnt-zum-dritten-mal-ballon-dor,alexia-putellas-ballon-d-or-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k03",
       "ressort": "zukunft",
-      "kicker": "Argentinien",
-      "headline": "KI aus Argentinien erkennt Waldbrände früher",
-      "teaser": "Das Start-up Satellites on Fire wertet Satellitenbilder und Wetterdaten mit KI aus. Einsatzkräfte bekommen Warnungen per WhatsApp, SMS und E-Mail. Die Plattform überwacht 92 Millionen Hektar in 21 Ländern. Sie ist Finalist beim Earthshot Prize.",
+      "kicker": "Hochwasserschutz",
+      "headline": "Klebeband hält Hochwasser besser ab als Sandsäcke",
+      "teaser": "Forschende der britischen University of Hull haben Notmaßnahmen für Haustüren getestet. Flexibles Gummiband senkte das Eindringen von Wasser um 99 Prozent, Panzerband um 97 bis 98 Prozent. Sandsäcke schafften etwa 70 Prozent.",
       "blocks": [],
-      "whyGood": "Wenn Feuerwehren Brände früher entdecken, bleibt mehr Zeit, sie zu löschen, bevor sie sich ausbreiten.",
-      "honestNote": null,
+      "whyGood": "Wer sein Haus vor Wasser schützen will, kann das mit günstigen, leichten Mitteln besser tun als mit schweren Sandsäcken.",
+      "honestNote": "Getestet wurde an Haustüren bei Wasserständen bis 60 Zentimeter.",
       "sources": [
         {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/earthshot-prize-finalist-satellites-on-fire/?adt_ei={{ subscriber.email_address }}",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/tape-can-block-99-of-water-compared-to-expensive-sandbags/",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "AR",
+      "country": "GB",
       "terms": [],
       "image": {
-        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/earthshot-prize-finalist-satellites-on-fire-thumbnail-1.jpg",
-        "credit": "My Modern Met",
-        "source": "https://mymodernmet.com/earthshot-prize-finalist-satellites-on-fire/?adt_ei={{ subscriber.email_address }}",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2023/07/Vermont-Montpelier-Flood-submitted-Credit-to-Bob-Fitch.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/tape-can-block-99-of-water-compared-to-expensive-sandbags/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-k03",
-      "ressort": "wissenschaft",
-      "kicker": "Blue Mountains",
-      "headline": "Laserscans finden drei unbekannte Felsunterstände in Australien",
-      "teaser": "Forscher der University of Sydney haben in den Blue Mountains drei bislang nicht registrierte Felsunterstände entdeckt. Sie nutzten Laserscans aus Drohnen und Flugzeugen und arbeiteten mit der Dharug Custodian Aboriginal Corporation zusammen. Überall lagen Steinartefakte, in einem Unterstand auch zwei rote Handschablonen.",
+      "id": "2026-10-27-k04",
+      "ressort": "gesundheit",
+      "kicker": "Krebsforschung",
+      "headline": "KI erkennt Bauchspeicheldrüsenkrebs Monate vor der Diagnose",
+      "teaser": "Das KI-Modell REDMOD findet feine Veränderungen im Gewebe der Bauchspeicheldrüse, die auf normalen CT-Bildern unsichtbar sind. Im Schnitt erkannte es Warnzeichen 475 Tage vor der Diagnose. Es war fast doppelt so empfindlich wie erfahrene Radiologen.",
       "blocks": [],
-      "whyGood": "Eine neue Methode hilft, Zeugnisse indigener Kultur schneller zu finden und zu schützen.",
-      "honestNote": "Nicht jeder automatische Treffer der Software ist ein echter archäologischer Fundplatz.",
+      "whyGood": "Wird der Krebs früher entdeckt, steigen die Chancen auf eine erfolgreiche Behandlung bei einer der gefährlichsten Krebsarten.",
+      "honestNote": "Das System muss noch an Menschen mit hohem Risiko getestet werden, bevor es in der Routine eingesetzt werden kann.",
       "sources": [
         {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/archaeologie/drohnen-haben-verborgene-felskunst-der-aborigines-in-australiens-blue-mountains-entdeckt/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "AU",
-      "terms": [
-        {
-          "term": "LiDAR",
-          "text": "Ein Verfahren, bei dem Sensoren Laserpulse zur Erdoberfläche senden und das zurückgeworfene Licht messen. So entstehen dreidimensionale Karten, auch von Gelände unter Baumkronen."
-        }
-      ],
-      "image": {
-        "url": "https://www.scinexx.de/wp-content/uploads/S/t/Steile-Sandsteinhaenge-und-dichter-Eukalyptuswald-erschweren-in-den-australischen-Blue-Mountains-die-Suche-nach-Spuren-indigener-Kultur.webp",
-        "credit": "scinexx",
-        "source": "https://www.scinexx.de/news/archaeologie/drohnen-haben-verborgene-felskunst-der-aborigines-in-australiens-blue-mountains-entdeckt/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-k04",
-      "ressort": "architektur",
-      "kicker": "Spanien",
-      "headline": "Casa Vereda hält sich mit Korkwänden und Gewölben von selbst kühl",
-      "teaser": "Das Büro L’Aura Ortín Architecture For Happiness hat auf dem spanischen Land ein langes, flaches Haus gebaut. Die Dächer sind gewölbt, gemauert aus handgemachten Ziegeln. Außen schützt eine helle Korkschicht vor Hitze und Feuchtigkeit.",
-      "blocks": [],
-      "whyGood": "Ein altes Handwerk und natürliche Materialien sorgen für ein angenehmes Raumklima, ganz ohne viel Technik.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Yanko Design",
-          "url": "https://www.yankodesign.com/2026/10/25/this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool/?utm_source=rss&utm_medium=rss&utm_campaign=this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool",
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "ES",
+      "country": null,
       "terms": [
         {
-          "term": "Terrazzo",
-          "text": "Terrazzo ist ein Bodenbelag aus Steinstückchen, die in Bindemittel eingebettet und glatt geschliffen werden."
+          "term": "CT",
+          "text": "CT steht für Computertomografie. Dabei entstehen mit Röntgenstrahlen detaillierte Schnittbilder vom Körperinneren."
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/pancreatic-cancer-male-anatomy.webp",
+        "credit": "ScienceDaily Health",
+        "source": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k05",
+      "ressort": "wissenschaft",
+      "kicker": "Schottland",
+      "headline": "Kleiner Verein entdeckt frühes Kloster auf schottischer Insel",
+      "teaser": "Auf der Insel Lismore haben Grabungen ein bedeutendes frühmittelalterliches Kloster belegt. Die Historische Gesellschaft der Insel hatte sie angestoßen, viele der 170 Einwohner spendeten dafür. Gefunden wurden Gräber, Werkstätten und Spuren von Edelmetallarbeit.",
+      "blocks": [],
+      "whyGood": "Eine kleine Dorfgemeinschaft hat mit eigenem Geld ein Stück europäischer Geschichte sichtbar gemacht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/tiny-scottish-islands-little-historical-society-makes-massive-discovery/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/An-aerial-view-of-the-archaeological-trenches-dug-around-Lismores-parish-church-credit-Clare-Ellis-et-al.-Antiquity-2026-e1793014269132.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/tiny-scottish-islands-little-historical-society-makes-massive-discovery/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k06",
+      "ressort": "autos",
+      "kicker": "Massachusetts",
+      "headline": "Massachusetts bestellt 20 neue Loks, darunter 10 mit Batterie",
+      "teaser": "Die Verkehrsbehörde MBTA hat einstimmig 20 neue Lokomotiven von Siemens bewilligt. Zehn fahren mit Batterie oder Oberleitung, zehn sind Diesel-Hybride. Sie ersetzen Loks, die mehr als 50 Jahre alt sind.",
+      "blocks": [],
+      "whyGood": "Alte Diesellokomotiven im Großraum Boston werden durch neue, sauberere Modelle ersetzt, und die Hälfte davon fährt elektrisch.",
+      "honestNote": "Wie die Batterie-Loks mit den vorhandenen Steuerwagen bedient werden, muss noch geklärt werden.",
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/10/26/all-aboard-massachusetts-is-getting-10-new-electric-transit-trains/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://electrek.co/wp-content/uploads/sites/3/2026/10/boston_train.png?resize=1200,628",
+        "credit": "Electrek",
+        "source": "https://electrek.co/2026/10/26/all-aboard-massachusetts-is-getting-10-new-electric-transit-trains/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k07",
+      "ressort": "natur",
+      "kicker": "Artenschutz",
+      "headline": "Neues Bündnis sagt über 500 Millionen Dollar für bedrohte Arten zu",
+      "teaser": "Der Bezos Earth Fund und acht weitere Organisationen wollen in fünf Jahren mehr als 500 Millionen Dollar einsetzen. Die Species Recovery Alliance wurde beim UN-Biodiversitätsgipfel COP17 in Eriwan vorgestellt. Sie soll Geld und Schutzprojekte für bedrohte Tiere und Pflanzen abstimmen.",
+      "blocks": [],
+      "whyGood": "Bedrohte Arten bekommen mehr Aufmerksamkeit und Geld, damit sie sich erholen können.",
+      "honestNote": "Nur etwa ein Drittel der Summe ist neues Geld.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/bezos-earth-fund-and-partners-pledge-500m-for-threatened-species-recovery/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "AM",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/26180346/Rufous_Necked_Hornbill_Facts_01-scaled.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/bezos-earth-fund-and-partners-pledge-500m-for-threatened-species-recovery/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k08",
+      "ressort": "architektur",
+      "kicker": "Indien",
+      "headline": "Öko-Resort in Indien versteckt sich unter einem Steindach",
+      "teaser": "Das Studio Biome Environmental Solutions hat bei Hyderabad das Resort Gamaya Farms gebaut. Ein hügelartiges Dach aus Spritzbeton ist mit Steinen aus der Region bedeckt. Die Wände bestehen aus gepressten Lehmziegeln. So fügt sich das Resort in die Landschaft ein.",
+      "blocks": [],
+      "whyGood": "Das Resort zeigt, dass Bauen mit Lehm und regionalem Stein leise und schön zugleich sein kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/26/gamaya-farms-biome-environmental-solutions/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IN",
+      "terms": [
+        {
+          "term": "Spritzbeton",
+          "text": "Spritzbeton ist Beton, der mit Druck auf eine Fläche gesprüht wird. So lassen sich auch gewölbte Formen bauen."
         }
       ],
       "gallery": true,
       "image": {
-        "url": "https://www.yankodesign.com/images/design_news/2026/10/this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool/Casa_verada_architecture_01.jpg",
-        "credit": "Yanko Design",
-        "source": "https://www.yankodesign.com/2026/10/25/this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool/?utm_source=rss&utm_medium=rss&utm_campaign=this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool",
+        "url": "https://static-2026.dezeen.com/uploads/2026/10/gamaya-farms-biome-environmental-solutions-architecture-india-hyderabad-stone-earth_dezeen_2364_hero.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/10/26/gamaya-farms-biome-environmental-solutions/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-k05",
-      "ressort": "wissenschaft",
-      "kicker": "Südafrika",
-      "headline": "Erste Schablonen-Felskunst im südlichen Afrika entdeckt",
-      "teaser": "Im Felsunterstand La Rochelle in der Provinz Mpumalanga haben David Pearce und Kiah Johnson Schablonenbilder gefunden. Es sind die ersten bekannten im südlichen Afrika. Sie entstanden mit einer Vorlage statt mit einem echten Gegenstand. Das ist selbst weltweit selten.",
+      "id": "2026-10-27-k09",
+      "ressort": "kultur",
+      "kicker": "London",
+      "headline": "Bayeux-Teppich lockt vor allem junge Menschen ins British Museum",
+      "teaser": "Der 1.000 Jahre alte Bayeux-Teppich ist erstmals seit dem 11. Jahrhundert wieder in England zu sehen. In der ersten Stunde der zweiten Ticketrunde kamen 55 Prozent der Käufer mit Monzo-Karte aus der Gruppe unter 35. Die Plätze waren in drei Stunden weg.",
       "blocks": [],
-      "whyGood": "Selbst gut erforschte Orte können noch Überraschungen bieten, und die Felskunst Afrikas hat ein neues Kapitel.",
+      "whyGood": "Ein jahrhundertealtes Kunstwerk begeistert eine junge Generation so sehr wie sonst nur Popkultur.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-10-southern-africa-stenciled-art-plain.html",
+          "name": "Guardian Culture",
+          "url": "https://www.theguardian.com/world/2026/oct/26/young-britons-bayeux-tapestry-tickets-british-museum-hollywood-blockbusters",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "ZA",
-      "terms": [
-        {
-          "term": "Schablone",
-          "text": "Eine Schablone ist eine Vorlage mit Aussparungen. Wird Farbe darüber aufgetragen, bleibt die Form als Bild zurück."
-        }
-      ],
+      "country": "GB",
+      "terms": [],
       "image": {
-        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/researchers-identify-s-3.jpg",
-        "credit": "Phys.org",
-        "source": "https://phys.org/news/2026-10-southern-africa-stenciled-art-plain.html",
+        "url": "https://i.guim.co.uk/img/media/bfc206be8c79379be3126be1d918aae081856f0b/654_0_4261_3410/master/4261.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cc6a5ed0048561a920308a6a843b745f",
+        "credit": "Guardian Culture",
+        "source": "https://www.theguardian.com/world/2026/oct/26/young-britons-bayeux-tapestry-tickets-british-museum-hollywood-blockbusters",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-k06",
-      "ressort": "architektur",
-      "kicker": "Ostsee",
-      "headline": "Ferienhaus an der Ostsee wird zum Abenteuerspielplatz",
-      "teaser": "Der Berliner Architekt Thomas Kröger hat an der Ostsee ein Ferienhaus für eine Familie mit acht Personen gebaut. Von außen wirkt es wie eine kleine Kate. Innen gibt es eine Röhre und zwei Treppen, die sich drehen und verbinden.",
+      "id": "2026-10-27-k10",
+      "ressort": "welt",
+      "kicker": "New York",
+      "headline": "Pendler räumt wilde Müllkippe in Brooklyn selbst auf",
+      "teaser": "Joshua Service aus Queens sah auf dem Heimweg Müllberge unter einer Brücke in Crown Heights. Er filmte sie, packte dann aber selbst an. Mit Handschuhen und Rechen füllte er in etwa zwei Stunden zehn Müllsäcke.",
       "blocks": [],
-      "whyGood": "Ein Haus zeigt, dass Architektur Platz zum Spielen, Zusammensein und Zurückziehen für drei Generationen schaffen kann.",
+      "whyGood": "Ein einzelner Mann zeigt, dass man nicht auf andere warten muss, um seine Nachbarschaft sauberer zu machen.",
       "honestNote": null,
       "sources": [
         {
-          "name": "AD Deutschland",
-          "url": "https://www.ad-magazin.de/artikel/ferienhaus-fur-drei-generationen-dieser-betonbau-an-der-ostsee-wird-zum-ruckzugsort-und-abenteuerspielplatz-zugleich",
-          "language": "Deutsch"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/man-named-service-cleans-up-nyc-dumping-site-on-his-own-initiative/",
+          "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "DE",
+      "country": "US",
       "terms": [],
-      "gallery": true,
       "image": {
-        "url": "https://assets.ad-magazin.de/photos/6ad5e7518f94669baed335ac/16:9/w_1280,c_limit/OK_2026_AD_Thomas%20Kro%CC%88ger__61A1973YSH.jpg",
-        "credit": "AD Deutschland",
-        "source": "https://www.ad-magazin.de/artikel/ferienhaus-fur-drei-generationen-dieser-betonbau-an-der-ostsee-wird-zum-ruckzugsort-und-abenteuerspielplatz-zugleich",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-@thegeneraljo_-via-Instagram.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/man-named-service-cleans-up-nyc-dumping-site-on-his-own-initiative/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-k07",
-      "ressort": "architektur",
-      "kicker": "Zaragoza",
-      "headline": "Zaragoza macht aus einem Schaden einen neuen Stadtpark",
-      "teaser": "Auf der Plaza de Salamero in Zaragoza war die Decke der Tiefgarage beschädigt. Die Stadt schrieb einen Wettbewerb aus. Architekt Héctor Fernández Elorza nutzte die Chance und gestaltete auf 11.000 Quadratmetern einen neuen Park für die Altstadt.",
+      "id": "2026-10-27-k11",
+      "ressort": "design",
+      "kicker": "Apple Music",
+      "headline": "Apple Music bekommt ein Logo, das aus Klang entstanden ist",
+      "teaser": "Apple hat zum ersten Mal seit 2015 das Logo von Apple Music erneuert. Der Musiker Fred Again schickte Töne durch ein Becken mit Mineralöl. Die Schwingungen formten das Wellenmuster auf dem Logo.",
       "blocks": [],
-      "whyGood": "Aus einem Bauschaden ist ein grüner Platz für alle im historischen Zentrum geworden.",
+      "whyGood": "Ein Logo entsteht ganz von Hand und mit Klang, mitten in einer Zeit, in der Design meist am Computer passiert.",
       "honestNote": null,
       "sources": [
         {
-          "name": "ArchDaily",
-          "url": "https://www.archdaily.com/1187180/plaza-salamero-infrastructure-landscape-and-city-hector-fernandez-elorza",
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound/",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 5,
-      "country": "ES",
+      "country": null,
       "terms": [],
       "gallery": true,
       "image": {
-        "url": "https://images.adsttc.com/media/images/6a8e/ab83/4253/0500/01ca/0d33/large_jpg/Plaza_Salamero_in_Zaragoza_Spain___He_ctor_F_Elorza___photo___Montse_Zamorano_05.jpg?1787734934",
+        "url": "https://static-2026.dezeen.com/uploads/2026/10/apple-music-rebrand_dezeen_2364_hero_14.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k12",
+      "ressort": "architektur",
+      "kicker": "Japan",
+      "headline": "Orange Aussichtsplattform öffnet eine Mülldeponie für Besucher",
+      "teaser": "Der Architekt Ryue Nishizawa hat auf einer Mülldeponie in Japan eine leuchtend orange Aussichtsplattform gebaut. Sie gehört zum Festival Setouchi Art and Industry 2026 in den Präfekturen Okayama und Ehime. Besucher können so einen Ort sehen, der sonst nicht zugänglich ist.",
+      "blocks": [],
+      "whyGood": "Ein Ort, der sonst verborgen bleibt, wird zu einem Platz zum Schauen und Nachdenken über unsere Abfälle.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/ryue-nishizawa-vivid-orange-peak-turquoise-landfill-japan-setouchi-art-industry-2026-sanaa-kazuyo-sejima/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "JP",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/ryue-nishizawa-vivid-orange-peak-turquoise-landfill-japan-setouchi-art-industry-2026-sanaa-kazuyo-sejima-designboom-1200.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/ryue-nishizawa-vivid-orange-peak-turquoise-landfill-japan-setouchi-art-industry-2026-sanaa-kazuyo-sejima/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k13",
+      "ressort": "welt",
+      "kicker": "Kamerun",
+      "headline": "Vertriebene Jugendliche bringen Solarstrom in Kameruns Kliniken",
+      "teaser": "In Kameruns Nordwesten und Südwesten haben mindestens 300 junge Vertriebene mehr als 100 Entbindungsstationen mit Solarstrom ausgestattet. Sie wurden von der Firma Solar Bright Future ausgebildet. Nun ist das Projekt für einen UN-Preis nominiert.",
+      "blocks": [],
+      "whyGood": "Junge Menschen finden Arbeit, und Mütter und Neugeborene bekommen Licht und sicher gekühlte Impfstoffe.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/2026/10/solar-initiative-brings-power-to-clinics-and-jobs-to-displaced-youths-in-cameroon/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CM",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/26131319/Solar-Bright-Future-Img-20-1-1.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/2026/10/solar-initiative-brings-power-to-clinics-and-jobs-to-displaced-youths-in-cameroon/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k14",
+      "ressort": "design",
+      "kicker": "Design aus Jakarta",
+      "headline": "Indonesisches Archiv gestaltet das Erscheinungsbild des TDC",
+      "teaser": "Der 73. Type Directors Club hat sein neues Erscheinungsbild vorgestellt. Es kommt vom digitalen Archiv Grafis Nusantara aus Jakarta. Die Kampagne in Pink, Grün und Gelb ruft zu „Be Bold, Be Seen“ auf und wirkt zugleich retro und zeitgemäß.",
+      "blocks": [],
+      "whyGood": "Indonesisches Alltagsdesign von Etiketten und Aufklebern bekommt eine große internationale Bühne.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PAGE",
+          "url": "https://page-online.de/kreation/das-diesjaehrige-tdc-design-ist-eine-ueberraschung/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "ID",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://page-online.de/app/uploads/2026/10/TDC73_deadline.jpeg",
+        "credit": "PAGE",
+        "source": "https://page-online.de/kreation/das-diesjaehrige-tdc-design-ist-eine-ueberraschung/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k15",
+      "ressort": "architektur",
+      "kicker": "Santiago de Chile",
+      "headline": "Sozialer Wohnungsbau für Santiago: Neues Projekt Santa Rosa",
+      "teaser": "Das Architekturbüro FAR frohn&rojas hat in Santiago de Chile das Projekt „Santa Rosa Social Housing“ entworfen. Auftraggeber sind das Komitee Comunidad Esperanza, die Wohnungsbaubehörde SERVIU und die Stadt Santiago. Sozialer Wohnraum soll so nicht am Stadtrand entstehen.",
+      "blocks": [],
+      "whyGood": "Wer wenig Geld hat, bekommt hier Wohnraum, der nicht abgelegen am Stadtrand liegt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1187477/santa-rosa-social-housing-far-frohn-and-rojas",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CL",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6adf/0555/20d6/d801/8852/1031/large_jpg/santa-rosa-social-housing-far-frohn-and-rojas_1.jpg?1793000800",
         "credit": "ArchDaily",
-        "source": "https://www.archdaily.com/1187180/plaza-salamero-infrastructure-landscape-and-city-hector-fernandez-elorza",
+        "source": "https://www.archdaily.com/1187477/santa-rosa-social-housing-far-frohn-and-rojas",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k16",
+      "ressort": "design",
+      "kicker": "Lego und Daft Punk",
+      "headline": "Lego baut Daft-Punk-Set nach Idee eines Vaters und seines Sohnes",
+      "teaser": "Lego und das Duo Daft Punk starten eine Partnerschaft. Der erste Bausatz zeigt die Pyramidenbühne der Alive-Tour von 2007. Entworfen haben sie ein Vater aus Luxemburg, Patrick Harboun, und sein Sohn im Lockdown.",
+      "blocks": [],
+      "whyGood": "Ein Hobbyprojekt von Vater und Sohn wird zum echten Lego-Set.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Creative Boom",
+          "url": "https://www.creativeboom.com/insight/lego-and-daft-punks-team-up-highlights-exactly-how-brands-should-interact-with-fans/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "LU",
+      "terms": [],
+      "image": {
+        "url": "https://media.creativeboom.com/ee963d43-4301-4e19-99d3-db4ca9e05404/conversions/d36bbc9be1ef4dabd2a0d6930d7053fd8b583228-medium.webp",
+        "credit": "Creative Boom",
+        "source": "https://www.creativeboom.com/insight/lego-and-daft-punks-team-up-highlights-exactly-how-brands-should-interact-with-fans/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-k17",
+      "ressort": "architektur",
+      "kicker": "Shanghai",
+      "headline": "Shanghais neues Opernhaus lädt alle auf seine Wendeltreppe ein",
+      "teaser": "Am Ufer des Huangpu ist das Grand Opera House eröffnet. Das norwegische Büro Snøhetta hat es entworfen. Eine Wendeltreppe an der Fassade führt auch Menschen ohne Eintrittskarte hinauf zu einer Aussichtsplattform.",
+      "blocks": [],
+      "whyGood": "Ein Opernhaus öffnet sich der Stadt, denn die Treppe und der Blick über das Geschäftsviertel stehen allen offen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/stunning-new-opera-house-welcomes-you-with-gravity-defying-grand-staircase-look/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "CN",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/2016299_OS_N814.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/stunning-new-opera-house-welcomes-you-with-gravity-defying-grand-staircase-look/",
         "kind": "source"
       }
     }
   ],
   "joke": {
-    "setup": "Was ist grau und kann nicht fliegen?",
-    "punchline": "Ein Parkhaus."
+    "setup": "Wie nennt man einen Hund, der zaubern kann?",
+    "punchline": "Labrakadabrador."
   },
   "comic": {
-    "series": "sandraundwoo",
-    "title": "Sandra und Woo",
-    "episode": "überraschungsangriff und mehr",
-    "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0029.png",
-    "pages": [
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0029.png",
-        "width": 980,
-        "height": 701,
-        "title": "überraschungsangriff",
-        "panels": [
-          [
-            0.0061,
-            0.0086,
-            0.3265,
-            0.4337
-          ],
-          [
-            0.3469,
-            0.0086,
-            0.6153,
-            0.4337
-          ],
-          [
-            0.0286,
-            0.4722,
-            0.301,
-            0.4807
-          ],
-          [
-            0.3418,
-            0.4722,
-            0.302,
-            0.4807
-          ],
-          [
-            0.6684,
-            0.4722,
-            0.3255,
-            0.4807
-          ]
-        ]
-      },
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0032.png",
-        "width": 980,
-        "height": 372,
-        "title": "Fast Food",
-        "panels": [
-          [
-            0.0061,
-            0.0161,
-            0.2378,
-            0.7796
-          ],
-          [
-            0.2571,
-            0.0161,
-            0.4837,
-            0.7796
-          ],
-          [
-            0.7541,
-            0.0161,
-            0.2398,
-            0.7796
-          ]
-        ]
-      },
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0036.png",
-        "width": 980,
-        "height": 547,
-        "title": "Neuste Ausgabe",
-        "panels": [
-          [
-            0.0061,
-            0.011,
-            0.9878,
-            0.351
-          ],
-          [
-            0.0061,
-            0.362,
-            0.9878,
-            0.5795
-          ]
-        ]
-      }
-    ],
-    "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-    "link": "https://www.sandraandwoo.com/woode/",
-    "linkTitle": "Mehr von Sandra und Woo"
+    "series": "sonnewolke",
+    "title": "Sonne & Wolke",
+    "episode": "Beton mit Koffein",
+    "strip": {
+      "storyID": "2026-10-27-02",
+      "panels": [
+        {
+          "prop": "cup.and.saucer.fill",
+          "caption": null,
+          "sun": {
+            "mood": "froh",
+            "text": "Forschende mischen verkohlten Kaffeesatz in Beton!"
+          },
+          "cloud": {
+            "mood": "skeptisch",
+            "text": "Kaffee gehört in die Tasse, nicht in die Wand."
+          }
+        },
+        {
+          "prop": "building.2.fill",
+          "caption": null,
+          "sun": {
+            "mood": "lacht",
+            "text": "Er ersetzt etwas Sand und der Beton wird druckfester!"
+          },
+          "cloud": {
+            "mood": "grübelt",
+            "text": "Druckfest. Wie ich vor dem ersten Kaffee."
+          }
+        },
+        {
+          "prop": "house.fill",
+          "caption": "Später …",
+          "sun": {
+            "mood": "staunt",
+            "text": "Dann ist ein Haus daraus ja ein Café!"
+          },
+          "cloud": {
+            "mood": "lacht",
+            "text": "Bei Regen gibt's Filterkaffee. Ich ziehe ein."
+          }
+        }
+      ]
+    },
+    "credit": "Ein Comic von The Daily Good"
   },
   "recommendation": {
-    "kind": "buch",
-    "label": "Buch",
-    "title": "Black Bag",
-    "creator": "Luke Kennard",
-    "year": "2026",
-    "text": "Ein arbeitsloser Schauspieler wird dafür bezahlt, in einer schwarzen Ledertasche zu leben. Daraus macht Luke Kennard eine auf die Booker-Shortlist gewählte Campuskomödie. Die Guardian-Kritik lobt vor allem das meisterhafte komische Timing.",
-    "forWhom": "Für alle, die gern über absurde Ideen lachen und englische Literatur im Original lesen.",
-    "link": "https://en.wikipedia.org/wiki/Black_Bag_%28novel%29",
+    "kind": "film",
+    "label": "Film",
+    "title": "That Thing You Do!",
+    "creator": "Tom Hanks (Regie und Drehbuch)",
+    "year": "1996",
+    "text": "Tom Hanks erzählt von einer kleinen Band aus den 60ern, die mit einem einzigen Song plötzlich ganz oben mitspielt. Der Film gilt als Wohlfühlklassiker, den manche immer wieder schauen, und er steckt voller Musik und Herz. Der Guardian hat ihn gerade als seinen liebsten Comfort Film gefeiert.",
+    "forWhom": "Für alle, die gern Musikgeschichten über Freundschaft und Bandträume sehen.",
+    "link": "https://de.wikipedia.org/wiki/That_Thing_You_Do%21",
     "source": {
-      "name": "Guardian Books",
-      "url": "https://www.theguardian.com/books/2026/oct/22/black-bag-by-luke-kennard-audiobook-review-brilliant-booker-shortlisted-campus-comedy"
+      "name": "Guardian Film",
+      "url": "https://www.theguardian.com/film/2026/oct/26/that-thing-you-do-feelgood-movie"
     }
   },
   "weekly": null,
   "quiz": {
     "questions": [
       {
-        "storyID": "2026-10-26-01",
-        "question": "In welchem US-Bundesstaat wurden Zuras fünf Jungen geboren?",
+        "storyID": "2026-10-27-02",
+        "question": "In welcher Stadt forschen die Leute, die Kaffeesatz in Beton mischen?",
         "options": [
-          "Texas",
-          "Virginia",
-          "Florida",
-          "Kalifornien"
+          "Sydney",
+          "Melbourne",
+          "Auckland",
+          "Perth"
         ],
         "answer": 1
       },
       {
-        "storyID": "2026-10-26-03",
-        "question": "Wie heißt die Kampagne, mit der die Azoren die jungen Sturmtaucher schützen?",
+        "storyID": "2026-10-27-05",
+        "question": "Zwischen welchen Städten fährt die „China Zorrilla“?",
         "options": [
-          "Licht aus Azoren",
-          "Rettet den Cagarro",
-          "SOS Cagarro",
-          "Sterne für Corvo"
+          "Buenos Aires und Colonia",
+          "Lima und Santiago",
+          "Montevideo und Rio",
+          "Buenos Aires und Asunción"
         ],
-        "answer": 2
+        "answer": 0
       },
       {
-        "storyID": "2026-10-26-08",
-        "question": "Wie viele Prozent der Schüler an der Kapstädter Zauberschule haben ein Stipendium?",
+        "storyID": "2026-10-27-06",
+        "question": "In welchem Land fand die UN-Konferenz COP17 statt?",
         "options": [
-          "20 Prozent",
-          "50 Prozent",
-          "65 Prozent",
-          "80 Prozent"
+          "Georgien",
+          "Armenien",
+          "Benin",
+          "Kanada"
         ],
-        "answer": 3
+        "answer": 1
       }
     ]
   },
   "regional": [
     {
-      "id": "2026-10-26-r01",
+      "id": "2026-10-27-r01",
       "ressort": "region",
       "regions": [
-        "NW"
+        "BY"
       ],
-      "kicker": "Bad Oeynhausen",
-      "headline": "Café ohne Preise: Gäste zahlen, was sie geben können",
-      "teaser": "Das Café „Einfach so“ in Bad Oeynhausen hat keine festen Preise. Gäste spenden für Kaffee und Kuchen, was sie möchten oder können. Mehr als 20 Ehrenamtliche halten es am Laufen. Eigentlich sollte es vor vier Jahren nur drei Monate lang öffnen.",
+      "kicker": "Aschaffenburg",
+      "headline": "Jörg Klößinger aus Franken ist Staplerfahrer-Weltmeister",
+      "teaser": "Jörg Klößinger aus Oberdachstetten im Landkreis Ansbach hat die Stapler-Cup-Finals in Aschaffenburg gewonnen. Mehr als 110 Fahrerinnen und Fahrer aus 11 Ländern traten an. Mit seinem Firmenteam holte der 45-Jährige auch den Titel in der Firmenwertung.",
       "blocks": [],
-      "whyGood": "Ein Café für alle zeigt, dass Gemeinschaft und Vertrauen auch ohne Preisschild funktionieren.",
+      "whyGood": "Ein Mittelfranke zeigt mit Feingefühl und Tempo, dass er weltweit der Beste am Gabelstapler ist.",
       "honestNote": null,
       "sources": [
         {
-          "name": "WDR",
-          "url": "https://www1.wdr.de/nrw/ostwestfalen-lippe/kreis-minden-luebbecke/bad-oeynhausen-cafe-spenden-preise-100.html",
+          "name": "BR24 Mittelfranken",
+          "url": "https://www.br.de/nachrichten/bayern/keiner-stapelt-besser-franke-holt-gabelstaplerfahrer-wm-titel,VZ9KKo9",
           "language": "Deutsch"
         }
       ],
@@ -1212,28 +1427,28 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.tagesschau.de/image/0c974f22-d270-4059-bf45-0b7cbe02034d/AAABoXJ3oVo/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "WDR",
-        "source": "https://www1.wdr.de/nrw/ostwestfalen-lippe/kreis-minden-luebbecke/bad-oeynhausen-cafe-spenden-preise-100.html",
+        "url": "https://img.br.de/7538ec07-f74e-4c5f-ae91-c0809bea8923.jpeg?q=80&rect=821%2C0%2C2256%2C1270&w=1600&h=900",
+        "credit": "BR24 Mittelfranken",
+        "source": "https://www.br.de/nachrichten/bayern/keiner-stapelt-besser-franke-holt-gabelstaplerfahrer-wm-titel,VZ9KKo9",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-r02",
+      "id": "2026-10-27-r03",
       "ressort": "region",
       "regions": [
-        "SH"
+        "TH"
       ],
-      "kicker": "Wentorf",
-      "headline": "Ölverklebter Uhu „Horst“ fliegt wieder in Freiheit",
-      "teaser": "Falknerin Heike Knesebeck aus Wentorf hat einen Uhu gerettet, der voller Altöl auf einer Mülldeponie lag. Sie duschte ihn täglich und trainierte ihn in einer Voliere. Nun ließ sie „Horst“ bei Geesthacht wieder frei.",
+      "kicker": "Weimar",
+      "headline": "Weimarer Gedenkweg erhält Deutschen Denkmalschutzpreis",
+      "teaser": "Die Initiative „Gedenkweg Buchenwaldbahn“ aus Weimar wird mit dem Deutschen Denkmalschutzpreis ausgezeichnet. Seit fast 20 Jahren erinnern Freiwillige aus 20 Ländern mit hunderten Gedenksteinen an deportierte Kinder und Jugendliche. Der Weg führt durch den Wald auf dem Ettersberg.",
       "blocks": [],
-      "whyGood": "Ein Uhu, der fast gestorben wäre, ist wieder gesund und zurück in seinem Revier.",
+      "whyGood": "Die Erinnerung an die Opfer des Holocaust wird gewürdigt, und viele Freiwillige halten sie wach.",
       "honestNote": null,
       "sources": [
         {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/aufgepaeppelter-uhu-horst-aus-wentorf-fliegt-wieder,uhu-158.html",
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/weimar/gedenken-denkmalschutz-preis-holocaust-shoa,buchenwald-bahn-initiative-kultur-news-100.html",
           "language": "Deutsch"
         }
       ],
@@ -1242,33 +1457,63 @@
       "country": "DE",
       "terms": [
         {
-          "term": "Voliere",
-          "text": "Eine Voliere ist ein großer Käfig oder Flugraum für Vögel. Dort können sie fliegen und ihre Muskeln trainieren."
+          "term": "Bodendenkmal",
+          "text": "Ein Bodendenkmal ist ein Denkmal im oder auf dem Boden, zum Beispiel alte Wege oder Mauerreste. Es zeigt, was früher an einem Ort geschehen ist."
         }
       ],
       "image": {
-        "url": "https://images.ndr.de/image/d67c0fa7-265b-4476-826c-f19ea59005ae/AAABoXSr8mI/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/aufgepaeppelter-uhu-horst-aus-wentorf-fliegt-wieder,uhu-158.html",
+        "url": "https://images.mdr.de/image/8a2b64bc-dcc9-4a13-951d-d0f8d227af82/AAABoW3heig/AAABnSSveow/16x9-1280.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/weimar/gedenken-denkmalschutz-preis-holocaust-shoa,buchenwald-bahn-initiative-kultur-news-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-r04",
+      "id": "2026-10-27-r04",
       "ressort": "region",
       "regions": [
-        "BY"
+        "BE"
       ],
-      "kicker": "Grafing",
-      "headline": "Waisenjunge aus Nepal lernt beim Architekten seines Waisenhauses",
-      "teaser": "Ishal Bhandari aus Nepal macht in Grafing bei München eine Ausbildung zum Bautechnischen Konstrukteur. Sein Chef Niko Rinkes hat vor etwa 30 Jahren das Waisenhaus geplant, in dem Ishal aufwuchs. Vermittelt hat den Platz die Nepalhilfe Beilngries.",
+      "kicker": "Berlin",
+      "headline": "Humboldt-Uni öffnet Ostflügel nach zehn Jahren Sanierung wieder",
+      "teaser": "Der Ostflügel des Hauptgebäudes der Humboldt-Universität ist wieder offen. Im Audimax mit 600 Plätzen und im Kinosaal mit 450 Plätzen finden wieder Lehrveranstaltungen statt. Beide Säle haben moderne Medientechnik.",
       "blocks": [],
-      "whyGood": "Aus einem alten Hilfsprojekt wird eine echte Zukunftschance für einen jungen Menschen.",
+      "whyGood": "Studierende haben nach zehn Jahren ihre großen Hörsäle im Hauptgebäude zurück, und das Gebäude ist nun sicherer und energiesparender.",
       "honestNote": null,
       "sources": [
         {
-          "name": "BR24 Oberbayern",
-          "url": "https://www.br.de/nachrichten/bayern/warum-ein-waisenjunge-aus-nepal-eine-ausbildung-in-grafing-macht,VYltFsO",
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/humboldt-universitaet-ostfluegel-sanierung-eroeffnung.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/9f893014-145b-4ec1-827e-906216e6ef4b/AAABoXefx3E/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/humboldt-universitaet-ostfluegel-sanierung-eroeffnung.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-r06",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Ribnitz-Damgarten",
+      "headline": "Bernsteinschule: Sanierung des Campus ist abgeschlossen",
+      "teaser": "Auf dem Campus der Bernsteinschule in Ribnitz-Damgarten ist der dritte Gebäudeteil saniert. Dort lernen künftig die Klassen sieben bis zehn. Die Sanierung kostete mehr als zehn Millionen Euro. Rund 900 Kinder und Jugendliche lernen auf dem Campus.",
+      "blocks": [],
+      "whyGood": "Rund 900 Schülerinnen und Schüler lernen jetzt in einem komplett sanierten Schulcampus.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/ribnitz-damgarten-campus-bernsteinschule-fertig,mvregiogreifswald-6054.html",
           "language": "Deutsch"
         }
       ],
@@ -1277,376 +1522,357 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://img.br.de/5fdead1d-9f3c-413b-aee5-8a28d59a0da6.jpeg?q=80&rect=82%2C959%2C3675%2C2065&w=1600&h=900",
-        "credit": "BR24 Oberbayern",
-        "source": "https://www.br.de/nachrichten/bayern/warum-ein-waisenjunge-aus-nepal-eine-ausbildung-in-grafing-macht,VYltFsO",
+        "url": "https://images.ndr.de/image/b099b5dd-34da-41b8-b10d-2ed0972c76d9/AAABoXgG5Oo/AAABnSSveow/16x9-1280.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/ribnitz-damgarten-campus-bernsteinschule-fertig,mvregiogreifswald-6054.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-r06",
+      "id": "2026-10-27-r08",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Schwentinental",
+      "headline": "Weltmeister Peter Rodenwald (84) wird im Rathaus empfangen",
+      "teaser": "Peter Rodenwald aus Schwentinental im Kreis Plön ist Weltmeister der Ü80 im Fußball. Das deutsche Team gewann in Australien das Finale gegen die USA mit 2:0. Bürgermeister Thomas Haß begrüßt den 84-Jährigen am Montag im Bürgersaal des Rathauses.",
+      "blocks": [],
+      "whyGood": "Ein 84-Jähriger holt den WM-Titel und wird dafür in seiner Heimatstadt gefeiert.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/ue80-fussball-weltmeister-rodenwald-wird-in-schwentinental-empfangen,regionkielnews-3130.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/ac0f444d-2822-4350-b277-cb954a0d8e58/AAABoQscbrQ/AAABnSSveow/16x9-1280.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/ue80-fussball-weltmeister-rodenwald-wird-in-schwentinental-empfangen,regionkielnews-3130.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-r09",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Mannheim",
+      "headline": "Jüdisches Museum Berlin kommt ins Klassenzimmer",
+      "teaser": "Vermittler des Jüdischen Museums Berlin haben Schulen im Schwarzwald, in Mannheim und am Bodensee besucht. In Mannheim zeigten sie Siebtklässlern eine kleine Tora und eine Kippa. Sie erklärten, was das Judentum mit anderen Religionen gemeinsam hat.",
+      "blocks": [],
+      "whyGood": "Schülerinnen und Schüler lernen neugierig jüdische Kultur kennen und entdecken Gemeinsamkeiten mit anderen Religionen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/vermittler-juedisches-museum-berlin-wollen-schueler-aufklaeren-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Kippa",
+          "text": "Die Kippa ist eine kleine Kopfbedeckung für jüdische Männer. Sie wird zum Beispiel in der Synagoge getragen."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/aa0859e2-516c-48c4-b7e1-3063a00ea23d/AAABoXlkEeM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/vermittler-juedisches-museum-berlin-wollen-schueler-aufklaeren-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-r10",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Memmingen",
+      "headline": "Memmingen als „Doomstadt“: Kampagne für PR-Preis nominiert",
+      "teaser": "Der Memminger Marktplatz sieht der Stadt Doomstadt aus einem Marvel-Film ähnlich. Die Stadt drehte ein Video mit Oberbürgermeister Jan Rothenbacher als Doctor Doom. Dafür ist sie nun für den European Excellence Award 2026 nominiert.",
+      "blocks": [],
+      "whyGood": "Eine Idee mit Humor bringt Memmingen Aufmerksamkeit über Deutschland hinaus und ein Fan-Event zum Kinostart.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Schwaben",
+          "url": "https://www.br.de/nachrichten/bayern/memminger-ob-als-marvel-boesewicht-kampagne-fuer-preis-nominiert,VZ9Jg0o",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/6001bd9e-3cf8-4cc1-9b69-45bcc34905f4.jpeg?q=80&rect=50%2C312%2C5200%2C2923&w=1600&h=900",
+        "credit": "BR24 Schwaben",
+        "source": "https://www.br.de/nachrichten/bayern/memminger-ob-als-marvel-boesewicht-kampagne-fuer-preis-nominiert,VZ9Jg0o",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-r11",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Kassel",
+      "headline": "Kassel ernennt Hans Eichel zum Ehrenbürger",
+      "teaser": "Die Stadtverordneten haben Hans Eichel zum Ehrenbürger von Kassel ernannt. Der 84-Jährige war Oberbürgermeister, hessischer Ministerpräsident und Bundesfinanzminister. Unter ihm wurden der ICE-Bahnhof Wilhelmshöhe gebaut und die Uni gegründet.",
+      "blocks": [],
+      "whyGood": "Kassel würdigt einen Mann, der die Stadt in 16 Jahren als Oberbürgermeister sichtbar geprägt hat.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/gesellschaft/kassel-macht-hans-eichel-zum-ehrenbuerger--und-der-reagiert-fast-euphorisch-v1,hans-eichel-ehrenbuerger-kassel-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/51156b64-de4b-4614-8f7d-54feec4d7d0b/AAABoXn8CC4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/gesellschaft/kassel-macht-hans-eichel-zum-ehrenbuerger--und-der-reagiert-fast-euphorisch-v1,hans-eichel-ehrenbuerger-kassel-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-r12",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Osnabrück",
+      "headline": "Student aus Osnabrück gewinnt den Deutschen Jugendfotopreis",
+      "teaser": "Timon Wichmann aus Osnabrück hat den Deutschen Jugendfotopreis gewonnen. Sein Siegerfoto zeigt eine pinke Stretchlimousine vor einem gelben Discounter. Er machte es spontan mit dem Handy und bekam 300 Euro Preisgeld.",
+      "blocks": [],
+      "whyGood": "Ein zufälliger Schnappschuss aus dem Osnabrücker Nachtleben hat unter über 8.000 Einsendungen die Jury überzeugt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/jugendfotopreis-siegermotiv-aus-dem-nachtleben-osnabruecks,fotograf-132.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.ndr.de/image/bc02f7e9-151b-4dad-8978-4606950de3a8/AAABoXluzmw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/jugendfotopreis-siegermotiv-aus-dem-nachtleben-osnabruecks,fotograf-132.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-r13",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Ludwigshafen",
+      "headline": "Kurt-Schumacher-Brücke öffnet zwei Tage früher als geplant",
+      "teaser": "Am Montagnachmittag gegen 16 Uhr hat die Stadt Ludwigshafen eine Spur der Kurt-Schumacher-Brücke freigegeben. Sie führt in Richtung Ludwigshafen-Oppau und ist für Autos und Lastwagen offen. Geplant war die Öffnung erst für Mittwoch.",
+      "blocks": [],
+      "whyGood": "Pendlerinnen, Pendler und Firmen auf beiden Seiten des Rheins kommen schneller ans Ziel.",
+      "honestNote": "Vorerst ist nur eine Spur frei, und es gilt Tempo 30.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/kurt-schumacher-bruecke-in-richtung-luwigshafen-teilweise-wieder-offen-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/9b4e8259-7520-44c5-b4bb-f632571733b9/AAABoXkP2Oo/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/kurt-schumacher-bruecke-in-richtung-luwigshafen-teilweise-wieder-offen-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-27-r15",
       "ressort": "region",
       "regions": [
         "HB"
       ],
       "kicker": "Bremen",
-      "headline": "Bremer Kneipe ist für „Musikkneipe des Jahres“ nominiert",
-      "teaser": "„Betty's Black Pearl“ im Schnoor ist für den GEMA-Award „Musikkneipe des Jahres 2026“ nominiert. Es ist die einzige Nominierung aus Bremen. Betty Otieno Glenewinkel und Tim Glenewinkel bieten Gospel, Rock, Afrobeats und Reggae und bringen so ganz verschiedene Menschen zusammen.",
+      "headline": "Bremer Literaturfestival Globale feiert 20 Jahre",
+      "teaser": "Die Bremer Globale gibt es seit 20 Jahren. Das Literaturfestival gibt grenzüberschreitender Literatur eine Bühne. Trotz anfänglicher Skepsis kamen im Lauf der Jahre viele Literatur-Stars aus Nah und Fern nach Bremen.",
       "blocks": [],
-      "whyGood": "Eine kleine Bremer Bar wird dafür geehrt, dass sie Menschen mit Musik zusammenbringt.",
-      "honestNote": "Nominiert heißt noch nicht gewonnen, die Entscheidung über den Preis steht noch aus.",
+      "whyGood": "Aus einem skeptisch beäugten Start ist ein Festival geworden, das Literatur aus aller Welt nach Bremen bringt.",
+      "honestNote": null,
       "sources": [
         {
           "name": "buten un binnen",
-          "url": "https://www.butenunbinnen.de/nachrichten/bremen-schnoor-musikkneipe-black-pearl-100.html",
+          "url": "https://www.butenunbinnen.de/videos/literatur-festival-bremen-globale-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 7,
+      "score": 5,
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://www.butenunbinnen.de/bilder/kneipe-bettys-black-pearl-106~_v-1280x720_c-1792762822622.jpg",
+        "url": "https://www.butenunbinnen.de/bilder/holz-tisch-hefte-literatur-100~_v-1280x720_c-1793042692809.jpg",
         "credit": "buten un binnen",
-        "source": "https://www.butenunbinnen.de/nachrichten/bremen-schnoor-musikkneipe-black-pearl-100.html",
+        "source": "https://www.butenunbinnen.de/videos/literatur-festival-bremen-globale-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-26-r07",
-      "ressort": "region",
-      "regions": [
-        "NW"
-      ],
-      "kicker": "Aachen",
-      "headline": "Umweltpreis für Filter, der Kläranlagen-Wasser sauberer macht",
-      "teaser": "Der Ingenieur Klaus Vossenkaul aus Roetgen hat den Deutschen Umweltpreis bekommen. Seine Filtermembran sorgt für saubereres Wasser aus Kläranlagen. Bundespräsident Steinmeier überreichte den Preis im Aachener Eurogress. Das Preisgeld teilt er mit der Juristin Roda Verheyen.",
-      "blocks": [],
-      "whyGood": "Eine Erfindung aus der Region hilft, Abwasser besser zu reinigen, und wird mit einem der höchstdotierten Umweltpreise Europas geehrt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "WDR",
-          "url": "https://www1.wdr.de/nrw/aachen-eifel/staedteregion-aachen/deutscher-umweltpreis-steinmeier-aachen-vossenkaul-verheyen-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/fc761f06-d68d-42fe-b458-b2553248d8a7/AAABoXR00fo/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "WDR",
-        "source": "https://www1.wdr.de/nrw/aachen-eifel/staedteregion-aachen/deutscher-umweltpreis-steinmeier-aachen-vossenkaul-verheyen-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-r08",
-      "ressort": "region",
-      "regions": [
-        "HE"
-      ],
-      "kicker": "Bad Nauheim",
-      "headline": "Hollywoodstar Jeff Bridges sucht in Bad Nauheim Hilfe für Kamera",
-      "teaser": "Jeff Bridges will seine Lieblingskamera, die Widelux, wiederbeleben. Dabei helfen ihm Charys Schuler und Marwan El-Mozayen aus Bad Nauheim. Sie geben ein Magazin für Analogfotografie heraus. Eine neue ARD-Doku begleitet das Projekt.",
-      "blocks": [],
-      "whyGood": "Zwei Foto-Fans aus der hessischen Provinz helfen einem Hollywoodstar, eine ausgestorbene Kamera zu retten.",
-      "honestNote": "Ob die Widelux sich wirklich wieder bauen lässt, ist noch offen.",
-      "sources": [
-        {
-          "name": "hessenschau",
-          "url": "https://www.hessenschau.de/kultur/ard-doku-schauspieler-jeff-bridges-findet-hilfe-in-hessen-v2,jeff-bridges-doku-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Widelux",
-          "text": "Die Widelux ist eine analoge Panoramakamera. Sie macht besonders breite und teils verzerrte Bilder."
-        }
-      ],
-      "image": {
-        "url": "https://images.tagesschau.de/image/c781fbea-f6c9-45d8-826b-7fe65c14aef0/AAABoXS8BqA/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "hessenschau",
-        "source": "https://www.hessenschau.de/kultur/ard-doku-schauspieler-jeff-bridges-findet-hilfe-in-hessen-v2,jeff-bridges-doku-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-r09",
-      "ressort": "region",
-      "regions": [
-        "RP"
-      ],
-      "kicker": "Speyer",
-      "headline": "21.000 Besucher bei LEGO-Ausstellung im Museum in Speyer",
-      "teaser": "Die LEGO-Ausstellung im Historischen Museum der Pfalz startet so gut wie lange nicht mehr. In drei Wochen kamen 21.000 Menschen. Sechs Millionen Steine wurden verbaut, darunter der Speyerer Dom und Szenen aus Star Wars.",
-      "blocks": [],
-      "whyGood": "Bauen und Staunen bringt Jung und Alt zusammen und füllt das Museum.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "SWR",
-          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/lego-ausstellung-in-speyer-riesen-andrang-im-historischen-museum-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://images.tagesschau.de/image/55490f20-dfe3-4833-a932-2d7488ae667a/AAABoXO2ODc/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "SWR",
-        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/lego-ausstellung-in-speyer-riesen-andrang-im-historischen-museum-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-r11",
-      "ressort": "region",
-      "regions": [
-        "BY"
-      ],
-      "kicker": "Würzburg",
-      "headline": "MusiCare: Würzburg bekommt Zentrum für Musik und Medizin",
-      "teaser": "In Würzburg haben die Hochschule für Musik, die Universität und das Klinikum das Netzwerk „MusiCare“ gestartet. Bei einer Live-Endoskopie wurden die Stimmlippen einer Sängerin beim Singen gefilmt. Ein solches Zentrum gab es in Bayern bisher nicht.",
-      "blocks": [],
-      "whyGood": "Musikerinnen und Musiker bekommen so Hilfe für ihre körperliche und mentale Gesundheit, und Ärzte lernen ihre Bedürfnisse besser kennen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BR24 Unterfranken",
-          "url": "https://www.br.de/nachrichten/bayern/einzigartig-in-bayern-wie-passen-musik-und-medizin-zusammen,VZ2nR9z",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Endoskopie",
-          "text": "Bei einer Endoskopie schaut ein Arzt mit einer kleinen Kamera am Schlauch in den Körper. So sieht man zum Beispiel die Stimmlippen im Kehlkopf."
-        }
-      ],
-      "image": {
-        "url": "https://img.br.de/20839c8e-087e-4153-ab2e-2dafdef639e0.jpeg?q=80&rect=0%2C557%2C4022%2C2264&w=1600&h=900",
-        "credit": "BR24 Unterfranken",
-        "source": "https://www.br.de/nachrichten/bayern/einzigartig-in-bayern-wie-passen-musik-und-medizin-zusammen,VZ2nR9z",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-r14",
+      "id": "2026-10-27-r16",
       "ressort": "region",
       "regions": [
         "MV"
       ],
-      "kicker": "Greifswald",
-      "headline": "Ladebow pflanzt mehr als 600 Blumenzwiebeln",
-      "teaser": "Im Greifswalder Ortsteil Ladebow haben Anwohner mehrere Hundert Frühblüher gepflanzt. Der Verein „Unser Ladebow“ hatte dazu eingeladen. Die Blumen sollen den „Sonnengarten“ am Ochsensteg verschönern.",
+      "kicker": "Zingst",
+      "headline": "Neues Ferienhaus in Zingst schenkt Krebsfamilien eine Auszeit",
+      "teaser": "Der Greifswalder Kinderkrebsverein hat in Zingst ein Ferienhaus mit zwei Wohnungen für sieben Menschen gebaut. Familien, deren Kinder an Krebs erkrankt sind oder waren, urlauben dort kostenlos. Die Baukosten von mehr als 570.000 Euro kamen größtenteils aus Spenden.",
       "blocks": [],
-      "whyGood": "Wenn Nachbarn gemeinsam anpacken, wird ihr Ortsteil im Frühling bunter.",
+      "whyGood": "Familien nach schwerer Krankheit können ein paar Tage die Sorgen vergessen und einfach Familie sein.",
       "honestNote": null,
       "sources": [
         {
           "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/ladebow-pflanzt-mehr-als-600-blumenzwiebeln-in-erde-gebracht,mvregiogreifswald-6046.html",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/nach-schwerer-krankheit-ferienhaus-in-zingst-bietet-familien-eine-auszeit,familien-110.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 6,
+      "score": 5,
       "country": "DE",
-      "terms": [
-        {
-          "term": "Frühblüher",
-          "text": "Frühblüher sind Pflanzen, die schon früh im Jahr blühen, oft im Frühling. Dazu gehören zum Beispiel Krokusse und Narzissen."
-        }
-      ],
+      "terms": [],
       "image": {
-        "url": "https://images.ndr.de/image/3160370f-3136-4c90-bac7-c5a24fff25fc/AAABoW8ew5k/AAABnSSveow/16x9-1280.jpg",
+        "url": "https://images.ndr.de/image/9c38c0e8-c72c-40b2-8645-1653f02b18c5/AAABoXiGmkg/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/ladebow-pflanzt-mehr-als-600-blumenzwiebeln-in-erde-gebracht,mvregiogreifswald-6046.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-r15",
-      "ressort": "region",
-      "regions": [
-        "NI"
-      ],
-      "kicker": "Bramsche",
-      "headline": "Feuerwehrmann aus Tansania lernt bei der Feuerwehr Bramsche",
-      "teaser": "Gregory Gody Kinyunyu ist Berufsfeuerwehrmann in Tansania. In Bramsche übt der 23-Jährige mit 35 Einsatzkräften, wie man Menschen aus Unfallwagen befreit und Brände löscht. Der Austausch läuft über den Verein EFRSA, der Feuerwehren in Ostafrika aufbaut.",
-      "blocks": [],
-      "whyGood": "Wissen aus Niedersachsen hilft, in Tansania Feuerwehren aufzubauen und Menschen besser zu schützen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/wissen-tanken-fuer-tansania-feuerwehrmann-lernt-in-bramsche,feuerwehr-1214.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/72cde2bc-61c5-4e32-82fc-b29c01d10aaa/AAABoWinHmI/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/wissen-tanken-fuer-tansania-feuerwehrmann-lernt-in-bramsche,feuerwehr-1214.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-r16",
-      "ressort": "region",
-      "regions": [
-        "SN"
-      ],
-      "kicker": "Leipzig",
-      "headline": "Michael Krebs erhält den Leipziger Löwenzahn",
-      "teaser": "Die 36. Lachmesse in Leipzig startet am Sonntag. Zur Eröffnung wird der Kabarettist und Pianist Michael Krebs mit dem Leipziger Löwenzahn ausgezeichnet. Bei den Academixern zeigt er sein Programm „Optimismus, stark reduziert“.",
-      "blocks": [],
-      "whyGood": "Das größte Humorfestival im Osten ehrt einen Kabarettisten, der auch in schwierigen Zeiten Optimismus auf die Bühne bringt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/lachmesse-michael-krebs-kabarettist-leipziger-loewenzahn,lachmesse-kultur-news-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.mdr.de/image/88f2f5e2-936c-40d3-a7b2-21e7269efa17/AAABoWRmW4Q/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/lachmesse-michael-krebs-kabarettist-leipziger-loewenzahn,lachmesse-kultur-news-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-26-r17",
-      "ressort": "region",
-      "regions": [
-        "ST"
-      ],
-      "kicker": "Wanzleben",
-      "headline": "Wanzleben: Straßenlaterne wieder ohne Geheimschalter",
-      "teaser": "In Wanzleben im Landkreis Börde hat ein 42-Jähriger eine Platine in eine Straßenlaterne nahe seinem Zuhause eingebaut. Damit konnte er das Licht selbst steuern. Nun fiel der Eingriff auf, und ein Elektriker entfernte die Platine.",
-      "blocks": [],
-      "whyGood": "Die Laterne leuchtet wieder ganz normal, so wie es für die Sicherheit auf der Straße sein soll.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/boerde/polizei-ermittelt-verkehr-gefahr,strassenlaterne-schaltung-wanzleben-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.mdr.de/image/53c5ca12-2c91-4fa2-a0f8-e6d653f9f1b5/AAABoWTIyPg/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/boerde/polizei-ermittelt-verkehr-gefahr,strassenlaterne-schaltung-wanzleben-100.html",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/nach-schwerer-krankheit-ferienhaus-in-zingst-bietet-familien-eine-auszeit,familien-110.html",
         "kind": "source"
       }
     }
   ],
   "recipe": {
-    "title": "Pilz-Stroganoff mit Senf und saurer Sahne",
-    "intro": "Im Herbst haben Pilze Saison, und dieses Stroganoff bringt ihren vollen Geschmack auf den Teller. Es kommt mit wenigen Zutaten aus und ist in unter einer Stunde fertig.",
-    "servings": 4,
-    "minutes": 55,
+    "title": "Hähnchensuppe mit geröstetem Orzo und Zitrone",
+    "intro": "Jetzt, wo die Abende kühler werden, tut eine wärmende Suppe richtig gut. Die gerösteten Nudeln, die Gewürze und die frische Zitrone machen sie besonders aromatisch.",
+    "servings": 5,
+    "minutes": 50,
     "difficulty": "einfach",
     "ingredients": [
       {
-        "amount": 15,
+        "amount": 570,
         "unit": "g",
-        "item": "getrocknete Steinpilze"
+        "item": "Hähnchenschenkel ohne Haut und Knochen (4 bis 5 Stück)"
       },
       {
-        "amount": 2,
-        "unit": "Stück",
-        "item": "große Zwiebeln"
+        "amount": 1.5,
+        "unit": "TL",
+        "item": "grobes Salz, geteilt, plus etwas mehr zum Abschmecken"
       },
       {
-        "amount": 50,
-        "unit": "g",
-        "item": "Butter"
+        "amount": 3,
+        "unit": "EL",
+        "item": "Olivenöl"
       },
       {
-        "amount": null,
-        "unit": null,
-        "item": "Salz und schwarzer Pfeffer"
+        "amount": 1,
+        "unit": "TL",
+        "item": "Fenchelsamen, zerstoßen"
       },
       {
-        "amount": null,
-        "unit": null,
-        "item": "frisch geriebene Muskatnuss oder gemahlenes Nelkenpfeffer-Gewürz"
+        "amount": 1,
+        "unit": "TL",
+        "item": "frisch gemahlener Pfeffer, geteilt"
       },
       {
-        "amount": 300,
-        "unit": "g",
-        "item": "weiße oder braune Champignons"
+        "amount": 0.5,
+        "unit": "TL",
+        "item": "gemahlener Kardamom"
       },
       {
-        "amount": 4,
-        "unit": "Stück",
-        "item": "große Portobello-Pilze (Egerlinge)"
+        "amount": 0.25,
+        "unit": "TL",
+        "item": "gemahlene Nelken"
       },
       {
-        "amount": 250,
+        "amount": 2.5,
+        "unit": "cm",
+        "item": "Ingwer, geschält und fein gerieben"
+      },
+      {
+        "amount": 950,
         "unit": "ml",
-        "item": "saure Sahne, am besten Śmietana"
+        "item": "salzarme Hühnerbrühe"
+      },
+      {
+        "amount": 700,
+        "unit": "ml",
+        "item": "Wasser"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "ungesalzene Butter"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "item": "Orzo (Reisnudeln)"
       },
       {
         "amount": 1,
         "unit": "EL",
-        "item": "polnischer Sarepska-Senf oder englischer Senf"
+        "item": "fein geriebene Zitronenschale"
       },
       {
-        "amount": 1,
-        "unit": "Spritzer",
-        "item": "Zitronensaft (optional)"
+        "amount": 140,
+        "unit": "g",
+        "item": "junger Grünkohl oder Spinat"
       },
       {
-        "amount": null,
-        "unit": null,
-        "item": "gehackter Schnittlauch oder Dill zum Bestreuen"
+        "amount": 3,
+        "unit": "EL",
+        "item": "frischer Zitronensaft"
       }
     ],
     "steps": [
-      "Die Steinpilze in einer hitzefesten Schüssel mit 200 ml frisch gekochtem Wasser übergießen und einweichen lassen. Zwiebeln schälen und in dünne Scheiben schneiden.",
-      "Die Hälfte der Butter (25 g) in einer großen Pfanne bei mittlerer bis niedriger Hitze schmelzen. Zwiebeln mit einer Prise Salz und Muskat darin weich, goldbraun und süß braten.",
-      "Zwiebeln aus der Pfanne nehmen und möglichst viel Butter in der Pfanne lassen. Champignons säubern, große halbieren oder vierteln.",
-      "Hitze erhöhen und die Champignons in der Butter kräftig braun anbraten. Zu den Zwiebeln geben.",
-      "Die großen Pilze säubern, putzen und in etwa 1,5 cm dicke Scheiben schneiden. Mit etwas Salz in die heiße Pfanne geben und 8 bis 10 Minuten braten, bis die Flüssigkeit verdampft ist.",
-      "Steinpilze aus dem Einweichwasser heben und hacken. Das Wasser aufbewahren. Zwiebeln und Champignons zurück in die Pfanne geben, Steinpilze und einen Schuss Einweichwasser dazugeben.",
-      "Saure Sahne und Senf unterrühren und alles kurz erwärmen, nicht stark kochen lassen. Mit Salz, Pfeffer und nach Wunsch Zitronensaft abschmecken. Mit Schnittlauch oder Dill servieren."
+      "Die Hähnchenschenkel rundum mit 1 TL Salz würzen.",
+      "Das Öl in einem großen Topf bei mittlerer Hitze erwärmen. Fenchel, ½ TL Pfeffer, Kardamom und Nelken etwa 20 Sekunden rösten, bis es duftet.",
+      "Hähnchen, Ingwer, Brühe und Wasser dazugeben und aufkochen. Teilweise zugedeckt bei mittlerer bis niedriger Hitze 15 bis 18 Minuten köcheln, bis das Fleisch innen 74 °C hat.",
+      "Das Hähnchen herausnehmen, etwas abkühlen lassen und mit zwei Gabeln zerzupfen. Die Brühe bleibt im Topf.",
+      "Die Butter in einer großen Pfanne bei mittlerer Hitze schmelzen. Den Orzo unter Rühren etwa 5 Minuten goldbraun rösten.",
+      "Die Pfanne vom Herd nehmen. Zitronenschale, ½ TL Salz und den übrigen ½ TL Pfeffer unterrühren.",
+      "Den Orzo in die Brühe geben und offen bei mittlerer Hitze 8 bis 10 Minuten bissfest köcheln.",
+      "Den Topf vom Herd nehmen. Hähnchen, Grünkohl oder Spinat und Zitronensaft einrühren, bis die Blätter zusammenfallen. Mit Salz abschmecken."
     ],
-    "tip": "Dazu passen Nudeln, Reis oder Salzkartoffeln. Die restliche Butter kann man zum Braten der Pilze verwenden, falls die Pfanne zu trocken wird.",
+    "tip": "Statt Hähnchenschenkeln passt auch Hähnchenbrust. Die Garzeit kann dann etwas kürzer sein.",
     "icon": "leaf.fill",
     "source": {
-      "name": "Guardian Food",
-      "url": "https://www.theguardian.com/food/2026/oct/25/how-to-make-mushroom-stroganoff-recipe"
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/recipe/toasted-orzo-chicken-soup"
     }
   }
 }
