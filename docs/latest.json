@@ -1,907 +1,1123 @@
 {
-  "date": "2026-10-28",
-  "number": 30,
+  "date": "2026-10-29",
+  "number": 31,
   "isSample": false,
-  "leadStoryID": "2026-10-28-01",
+  "leadStoryID": "2026-10-29-01",
   "stories": [
     {
-      "id": "2026-10-28-01",
-      "ressort": "architektur",
-      "kicker": "Essen",
-      "headline": "Aus dem Kaufhaus wird Essens neues Wohnzimmer der Stadt",
-      "teaser": "Rote Regale, Spielbereiche und ein Dachsaal: Die neue Zentralbibliothek in Essen soll mehr sein als ein Ort für Bücher.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "11.000",
-          "unit": "Quadratmeter",
-          "caption": "groß ist die Bibliothek im ehemaligen Kaufhaus Boeckerhaus am Kennedyplatz",
-          "icon": "building.2.fill"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Rote Regale bilden „Medien Dörfer“ mit Spiel und Hobbybereichen",
-            "Große Glasflächen zeigen das Leben in der Bibliothek",
-            "Café im Erdgeschoss, Veranstaltungsraum auf dem Dach"
-          ],
-          "icons": [
-            "books.vertical.fill",
-            "building.columns.fill",
-            "cup.and.saucer.fill"
-          ]
-        },
-        {
-          "type": "background",
-          "title": "Was sind dritte Orte?",
-          "text": "Der Soziologe Ray Oldenburg beschrieb Dritte Orte. Das sind freie und lockere Treffpunkte neben Zuhause, Schule und Arbeit. Die Bibliothek in Essen folgt dieser Idee und steht allen offen."
-        }
-      ],
-      "whyGood": "Die Stadt bekommt einen Ort, an dem alle willkommen sind, auch ohne Grund und ohne Eintritt. Ein leeres Kaufhaus wird wieder zum Treffpunkt für Menschen jeden Alters.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/10/27/mvrdv-essen-central-library/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Dritte Orte",
-          "text": "Das sind Orte außerhalb von Zuhause, Schule und Arbeit. Man trifft dort andere Menschen, ohne dass es etwas kosten muss."
-        }
-      ],
-      "guess": {
-        "question": "Wie groß ist die neue Zentralbibliothek in Essen?",
-        "options": [
-          "1.100 Quadratmeter",
-          "11.000 Quadratmeter",
-          "110.000 Quadratmeter"
-        ],
-        "answer": 1,
-        "reveal": "Die Bibliothek füllt alle sechs Stockwerke des alten Kaufhauses und misst 11.000 Quadratmeter.",
-        "icon": "books.vertical.fill"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/10/essen-central-library-mvrdv-germany-architectre-public-leisure_dezeen_2364_hero2.jpg",
-        "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/10/27/mvrdv-essen-central-library/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-02",
-      "ressort": "natur",
-      "kicker": "Patagonien",
-      "headline": "Frauenteam bringt Darwin-Nandus zurück nach Patagonien",
-      "teaser": "Im chilenischen Patagonia-Nationalpark bereitet ein Team aus Frauen die Auswilderung großer Laufvögel vor. Sie waren in der Region fast verschwunden.",
-      "blocks": [
-        {
-          "type": "count",
-          "value": 13,
-          "icon": "bird.fill",
-          "caption": "Darwin-Nandus werden in Patagonien in die Freiheit entlassen"
-        },
-        {
-          "type": "comparison",
-          "title": "Darwin-Nandus in der Region",
-          "before": {
-            "label": "Vor etwa 20 Jahren",
-            "value": 1,
-            "display": "fast ausgestorben"
-          },
-          "after": {
-            "label": "Heute",
-            "value": 13,
-            "display": "13 Tiere vor der Auswilderung"
-          }
-        }
-      ],
-      "whyGood": "Ein Vogel, der in der Region fast verschwunden war, bekommt eine neue Chance. Ein Team aus Frauen hilft mit, dass wieder eine stabile Population entsteht.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Mongabay",
-          "url": "https://news.mongabay.com/short-article/2026/10/these-giant-birds-nearly-disappeared/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "CL",
-      "terms": [
-        {
-          "term": "Auswilderung",
-          "text": "Tiere, die in menschlicher Obhut leben, werden wieder in die Natur entlassen. Dort sollen sie selbstständig leben und sich vermehren."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele Darwin-Nandus sollen im Patagonia-Nationalpark ausgewildert werden?",
-        "options": [
-          "3",
-          "13",
-          "130"
-        ],
-        "answer": 1,
-        "reveal": "Es sind 13 Darwin-Nandus. Sie sollen helfen, eine eigene Population aufzubauen.",
-        "icon": "bird.fill"
-      },
-      "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Rhea_pennata_-Patagonia_-Chile-8.jpg/1280px-Rhea_pennata_-Patagonia_-Chile-8.jpg",
-        "credit": "Jeremy Vandel, CC BY 2.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Rhea_pennata_-Patagonia_-Chile-8.jpg",
-        "kind": "symbol"
-      }
-    },
-    {
-      "id": "2026-10-28-03",
-      "ressort": "sport",
-      "kicker": "Fleetwood",
-      "headline": "Fleetwood wirft Meister Arsenal aus dem Ligapokal",
-      "teaser": "Der Club aus League Two steht im Viertelfinale des Carabao Cups. Gegen den Premier-League-Meister fiel die Entscheidung erst ganz am Ende.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "83",
-          "unit": "Plätze",
-          "caption": "lagen in der Tabelle zwischen Fleetwood und Arsenal",
-          "icon": "soccerball"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Aaron Loupalo-Bi traf zum 1:0, Viktor Gyokeres glich aus.",
-            "Torhüter Jay Lynch hielt drei Elfmeter der Gäste.",
-            "Conor Haughey traf zum Sieg für Fleetwood."
-          ],
-          "icons": [
-            "soccerball",
-            "hand.thumbsup.fill",
-            "trophy.fill"
-          ]
-        }
-      ],
-      "whyGood": "Ein kleiner Club aus einem Küstenort schlägt den Meister. Für die Stadt und die Fans ist es ein Abend, den sie nie vergessen werden.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss",
-          "language": "Englisch"
-        },
-        {
-          "name": "Guardian Sport",
-          "url": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "GB",
-      "terms": [],
-      "guess": {
-        "question": "Wie oft ist Fleetwood in 12 Jahren aufgestiegen?",
-        "options": [
-          "Zweimal",
-          "Sechsmal",
-          "Zehnmal"
-        ],
-        "answer": 1,
-        "reveal": "Sechs Aufstiege in 12 Jahren führten den Club aus der Nichtliga bis in den Profifußball.",
-        "icon": "soccerball"
-      },
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5033/live/74cba6c0-d256-11f1-aea4-e9d772bed98c.jpg",
-        "credit": "BBC Sport",
-        "source": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-04",
+      "id": "2026-10-29-01",
       "ressort": "zukunft",
-      "kicker": "Cambridge, USA",
-      "headline": "Gefaltetes Metall könnte leichte Dächer stabiler machen",
-      "teaser": "Forscher des MIT falten Aluminiumbleche zu Modulen. Verbunden bilden sie starre Gitterschalen für leichte Tragwerke.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "3,5",
-          "unit": "mal",
-          "caption": "steifer war das verwobene Faltgitter im Computermodell als die Vergleichskonstruktion bei gleicher Masse",
-          "icon": "chart.line.uptrend.xyaxis"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Zwei dreibeinige Zellen verriegeln sich zu einem starren Baustein",
-            "Die Module werden gefaltet und mit Nieten oder Schrauben verbunden",
-            "Ohne schwere Schweißtechnik entstand eine etwa sieben Meter lange Schale"
-          ],
-          "icons": [
-            "gearshape.fill",
-            "hammer.fill",
-            "building.columns.fill"
-          ]
-        },
-        {
-          "type": "map",
-          "place": "Cambridge, Massachusetts",
-          "latitude": 42.36,
-          "longitude": -71.09,
-          "caption": "Hier am MIT entstand das Verfahren."
-        }
-      ],
-      "whyGood": "Leichte Bauwerke brauchen weniger Material, wenn sie klug gefaltet sind. Das Verfahren lässt sich ohne aufwendige Fertigung aufbauen und könnte aus dem Labor auf die Baustelle kommen.",
-      "honestNote": "Bisher gibt es Ergebnisse aus einer Simulation und von kleinen Prototypen, nicht von fertigen Gebäuden.",
-      "sources": [
-        {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/technik/origami-bauweise-kann-leichte-bauwerke-stabiler-machen/",
-          "language": "Deutsch"
-        },
-        {
-          "name": "ingenieur.de",
-          "url": "https://www.ingenieur.de/wie-papier-gefaltet-aus-metall-gebaut-mit-entwickelt-neuartige-tragwerke-2001a27c-0403-450b-802f-a087e5d49ddf/",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 6,
-      "country": "US",
-      "terms": [
-        {
-          "term": "Gitterschale",
-          "text": "Eine Gitterschale ist ein gewölbtes Dach aus vielen verbundenen Stäben oder Trägern. Sie ist leicht und trägt trotzdem viel."
-        }
-      ],
-      "guess": {
-        "question": "Wie viel steifer war das gefaltete Gitter im Computermodell als ein Vergleichsgitter gleicher Masse?",
-        "options": [
-          "1,2-mal",
-          "3,5-mal",
-          "35-mal"
-        ],
-        "answer": 1,
-        "reveal": "Im Modell war das verwobene Faltgitter bis zu 3,5-mal steifer als die Vergleichsanordnung.",
-        "icon": "building.columns.fill"
-      },
-      "image": {
-        "url": "https://www.scinexx.de/wp-content/uploads/D/a/Das-modulare-Origami-Prinzip-koennte-leichte-Gitterschalen-wie-diese-zu-tragfaehigen-Gebaeudestrukturen-machen.webp",
-        "credit": "scinexx",
-        "source": "https://www.scinexx.de/news/technik/origami-bauweise-kann-leichte-bauwerke-stabiler-machen/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-05",
-      "ressort": "gesundheit",
-      "kicker": "Zürich",
-      "headline": "Implantat senkt Blutzucker ganz ohne Insulin",
-      "teaser": "Forschende der ETH Zürich haben ein Implantat für Typ-2-Diabetes entwickelt. Es wandelt überschüssigen Zucker im Blut chemisch um.",
-      "blocks": [
-        {
-          "type": "steps",
-          "title": "So funktioniert es",
-          "items": [
-            "Ein Sensor am Oberarm misst durchgehend den Zucker im Gewebe.",
-            "Steigt der Wert zu stark, schickt er ein Signal an Smartphone oder Smartwatch. Das aktiviert den Katalysator.",
-            "Der Katalysator wandelt Glukose in Glukonat um. Ist der Zielwert erreicht, schaltet er sich ab."
-          ],
-          "icons": [
-            "antenna.radiowaves.left.and.right",
-            "phone.fill",
-            "flask.fill"
-          ]
-        },
-        {
-          "type": "bigNumber",
-          "value": "5",
-          "unit": "Liter",
-          "caption": "Nährlösung bauten die Forschenden im Labor ab, so viel wie das Blut eines Erwachsenen.",
-          "icon": "drop.fill"
-        }
-      ],
-      "whyGood": "Das Implantat zeigt einen neuen Weg gegen Typ-2-Diabetes. Es senkt den Zucker, ohne Insulin zu geben, und schaltet sich von selbst ab.",
-      "honestNote": "Bisher wurde das System nur im Labor und an Mäusen getestet.",
-      "sources": [
-        {
-          "name": "ingenieur.de",
-          "url": "https://www.ingenieur.de/diabetes-dieses-implantat-baut-blutzucker-ohne-insulin-ab-ba1308f6-79e6-41cf-aacb-91ceffa2a6ea/",
-          "language": "Deutsch"
-        },
-        {
-          "name": "Ärzteblatt",
-          "url": "https://www.aerzteblatt.de/news/diabesity-elektronisches-implantat-baut-blutzucker-ab-und-senkt-korpergewicht-bei-mausen-1e73414a-a507-47b3-961d-6a4e15cbc171",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 6,
-      "country": "CH",
-      "terms": [
-        {
-          "term": "Katalysator",
-          "text": "Ein Katalysator bringt eine chemische Reaktion in Gang oder macht sie schneller. Er selbst wird dabei nicht verbraucht."
-        },
-        {
-          "term": "Glukonat",
-          "text": "Glukonat entsteht, wenn Glukose (Traubenzucker) chemisch umgewandelt wird. Der Körper scheidet es mit dem Urin aus."
-        }
-      ],
-      "guess": {
-        "question": "Wie schnell normalisierte sich bei den diabetischen Mäusen der Blutzucker nach dem Einschalten?",
-        "options": [
-          "Innerhalb einer Stunde",
-          "Nach etwa einem Tag",
-          "Nach etwa einer Woche"
-        ],
-        "answer": 0,
-        "reveal": "Der Blutzucker der Mäuse normalisierte sich innerhalb einer Stunde.",
-        "icon": "clock.fill"
-      },
-      "image": {
-        "url": "https://www.ingenieur.de/wp-content/uploads/2026/10/stock-image-663312778-XL1-scaled-1.jpg",
-        "credit": "ingenieur.de",
-        "source": "https://www.ingenieur.de/diabetes-dieses-implantat-baut-blutzucker-ohne-insulin-ab-ba1308f6-79e6-41cf-aacb-91ceffa2a6ea/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-06",
-      "ressort": "wissenschaft",
-      "kicker": "Weltraum",
-      "headline": "Lavaplanet schützt sich offenbar mit Wolken wie mit Sonnencreme",
-      "teaser": "Das James-Webb-Teleskop zeigt einen glühend heißen Planeten, der trotz extremer Strahlung eine dichte Atmosphäre behalten haben könnte.",
+      "kicker": "Atlantic City",
+      "headline": "Pflanzen als Vorbild: Filter holt Mikroplastik aus Abwasser",
+      "teaser": "Zwei Princeton-Absolventen haben einen großen Filter gebaut. In Atlantic City reinigt er nun Abwasser, bevor es in den Atlantik fließt.",
       "blocks": [
         {
           "type": "share",
-          "value": 75,
-          "label": "des Sternenlichts wirft der Planet zurück",
-          "caption": "Das ist ähnlich viel wie bei der Venus. Wolken aus Silikat könnten das Licht abfangen."
-        },
-        {
-          "type": "bigNumber",
-          "value": "280",
-          "unit": "Lichtjahre",
-          "caption": "entfernt liegt der Planet TOI-561 b von der Erde.",
-          "icon": "telescope.fill"
-        },
-        {
-          "type": "background",
-          "title": "Ein Ozean aus Gestein",
-          "text": "Der Planet kreist so nah um seinen Stern, dass seine Oberfläche mit geschmolzenem Gestein bedeckt ist. Dieser Ozean könnte ständig Gase abgeben und so die Atmosphäre immer wieder auffüllen."
-        }
-      ],
-      "whyGood": "Webb zeigt, dass selbst auf einer Glutwelt eine Atmosphäre überleben kann. Das hilft Forschenden, ferne Planeten besser zu verstehen.",
-      "honestNote": "Welche Gase die Atmosphäre genau enthält, ist noch unklar.",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "CA",
-      "terms": [
-        {
-          "term": "Silikat",
-          "text": "Silikate sind Verbindungen aus Silizium und Sauerstoff. Sie bilden einen großen Teil von Gestein und Sand."
-        }
-      ],
-      "guess": {
-        "question": "Wie viel vom Licht seines Sterns wirft dieser Lavaplanet ungefähr zurück?",
-        "options": [
-          "Etwa 5 Prozent",
-          "Etwa 25 Prozent",
-          "Etwa 75 Prozent"
-        ],
-        "answer": 2,
-        "reveal": "Rund 75 Prozent des Sternenlichts werden zurückgeworfen, ähnlich viel wie bei der Venus.",
-        "icon": "globe.europe.africa.fill"
-      },
-      "image": {
-        "url": "https://www.sciencedaily.com/images/1920/lava-world-toi-561-b.webp",
-        "credit": "ScienceDaily",
-        "source": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-07",
-      "ressort": "wirtschaft",
-      "kicker": "Großbritannien",
-      "headline": "Günstige Kredite für Solaranlagen und Wärmepumpen in Großbritannien",
-      "teaser": "Zinsfreie oder zinsgünstige Kredite sollen Haushalten helfen, ihr Zuhause sauberer und billiger zu heizen. Vorab muss nichts gezahlt werden.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "550",
-          "unit": "Pfund",
-          "caption": "pro Jahr können Haushalte laut Regierung mit Wärmepumpe, Batterie und Solaranlage sparen",
-          "icon": "banknote.fill"
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Die Kredite reichen von 7.500 bis 35.000 Pfund.",
-            "Zuschüsse bis 9.000 Pfund lassen sich mit dem Kredit verbinden.",
-            "British Gas und E.On bieten die Kredite mit Partnerbanken an."
-          ],
-          "icons": [
-            "eurosign.circle.fill",
-            "hand.thumbsup.fill",
-            "bolt.fill"
-          ]
-        }
-      ],
-      "whyGood": "Wer ein Haus sauberer heizen will, braucht nicht mehr viel Geld auf einmal. Die Rückzahlung verteilt sich über viele Jahre, und die Energiekosten sinken.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Guardian Environment",
-          "url": "https://www.theguardian.com/environment/2026/oct/27/homes-across-uk-to-get-low--or-no-interest-loans-to-fund-solar-panels-and-heat-pumps",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "GB",
-      "terms": [
-        {
-          "term": "Wärmepumpe",
-          "text": "Eine Wärmepumpe holt Wärme aus der Luft oder aus dem Boden und heizt damit das Haus. Sie braucht dafür nur wenig Strom."
-        }
-      ],
-      "guess": {
-        "question": "Wie hoch kann der Kredit für eine Wärmepumpe mit Erdwärme höchstens sein?",
-        "options": [
-          "3.500 Pfund",
-          "35.000 Pfund",
-          "350.000 Pfund"
-        ],
-        "answer": 1,
-        "reveal": "Bis zu 35.000 Pfund. Für Luft-Wärmepumpen sind es bis zu 10.000 Pfund.",
-        "icon": "house.fill"
-      },
-      "image": {
-        "url": "https://i.guim.co.uk/img/media/17b54a4bae860244d70120676fcb8af95df60102/433_0_4624_3701/master/4624.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3c0c2df33891bde26608d0c83be81083",
-        "credit": "Guardian Environment",
-        "source": "https://www.theguardian.com/environment/2026/oct/27/homes-across-uk-to-get-low--or-no-interest-loans-to-fund-solar-panels-and-heat-pumps",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-08",
-      "ressort": "kultur",
-      "kicker": "London",
-      "headline": "V&A East Storehouse gehört zu den besten Orten der Welt",
-      "teaser": "Das Londoner Museumsdepot zeigt, was sonst im Lager bleibt. Das TIME Magazin nimmt es in seine Liste der „World's Greatest Places“ 2026 auf.",
-      "blocks": [
-        {
-          "type": "count",
-          "value": 5,
-          "icon": "shippingbox.fill",
-          "caption": "Objekte können Besucher kostenlos bestellen und aus der Nähe ansehen"
-        },
-        {
-          "type": "bigNumber",
-          "value": "20",
-          "unit": "Meter",
-          "caption": "hoch ist die Collections Hall, die sich über drei Etagen erstreckt",
-          "icon": "building.2.fill"
-        },
-        {
-          "type": "map",
-          "place": "V&A East Storehouse, Queen Elizabeth Olympic Park",
-          "latitude": 51.5385,
-          "longitude": -0.0095,
-          "caption": "Das Depot liegt im Osten Londons und ist seit Mai 2025 geöffnet."
-        }
-      ],
-      "whyGood": "Tausende Kunstwerke, Kleider und Design-Stücke, die sonst im Lager liegen, sind nun für alle sichtbar. Man kann sogar zusehen, wie Fachleute sie pflegen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/va-east-storehouse-time-worlds-greatest-places-2026/?adt_ei={{ subscriber.email_address }}",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "GB",
-      "terms": [],
-      "guess": {
-        "question": "Wie viele Stücke aus dem Depot darf man pro Termin kostenlos zum Anschauen bestellen?",
-        "options": [
-          "1",
-          "5",
-          "50"
-        ],
-        "answer": 1,
-        "reveal": "Bis zu fünf Objekte holen Mitarbeiter bei „Order an Object“ für einen Termin heraus.",
-        "icon": "building.columns.fill"
-      },
-      "image": {
-        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/va-east-storehouse-time-worlds-greatest-places-2026-fb-2.jpg",
-        "credit": "My Modern Met",
-        "source": "https://mymodernmet.com/va-east-storehouse-time-worlds-greatest-places-2026/?adt_ei={{ subscriber.email_address }}",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-09",
-      "ressort": "fotografie",
-      "kicker": "Arizona",
-      "headline": "Pionier der Fotografie bekommt nach 102 Jahren einen Grabstein",
-      "teaser": "George Herman Rothrock hatte in Phoenix das erste Fotostudio. Sein altes Grab war verwittert. Nun erinnert ein neuer Stein an ihn.",
-      "blocks": [
-        {
-          "type": "timeline",
-          "title": "Rothrocks Weg",
-          "items": [
-            {
-              "year": "1876",
-              "text": "Rothrock fotografiert in Phoenix, Arizona."
-            },
-            {
-              "year": "1912",
-              "text": "Arizona wird ein Bundesstaat der USA."
-            },
-            {
-              "year": "1924",
-              "text": "George Herman Rothrock stirbt."
-            },
-            {
-              "year": "2026",
-              "text": "Ein neuer Grabstein wird auf dem Mesa Cemetery gesetzt."
-            }
-          ]
-        },
-        {
-          "type": "bigNumber",
-          "value": "3.500",
-          "unit": "US-Dollar",
-          "caption": "und mehr sammelte die Arizona Photography Alliance für den Stein, durch Auktionen eigener Werke.",
-          "icon": "banknote.fill"
-        }
-      ],
-      "whyGood": "Ein früher Fotograf bekommt nach über hundert Jahren wieder einen lesbaren Grabstein. Fotografinnen und Fotografen erinnern so an die Anfänge ihres Fachs in Arizona.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "PetaPixel",
-          "url": "https://petapixel.com/2026/10/27/pioneering-photographer-is-honored-with-headstone-102-years-after-death/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "US",
-      "terms": [
-        {
-          "term": "Stereobilder",
-          "text": "Zwei leicht verschiedene Fotos nebeneinander. Mit einem besonderen Gerät sieht man sie als ein Bild, das räumlich wirkt."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele verschiedene Stereobilder schuf Rothrock in Arizona?",
-        "options": [
-          "Etwa 25",
-          "Mehr als 250",
-          "Mehr als 2.500"
-        ],
-        "answer": 1,
-        "reveal": "Er schuf mehr als 250 verschiedene Stereobilder, die mit einem Spezialgerät räumlich wirkten.",
-        "icon": "camera.fill"
-      },
-      "image": {
-        "url": "https://petapixel.com/assets/uploads/2026/10/pioneering-photographer-headstone.jpg",
-        "credit": "PetaPixel",
-        "source": "https://petapixel.com/2026/10/27/pioneering-photographer-is-honored-with-headstone-102-years-after-death/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-10",
-      "ressort": "bildung",
-      "kicker": "Köln",
-      "headline": "Zwei Lehrkräfte erhalten Preis für Zivilcourage",
-      "teaser": "Laura Nickel und Max Teske machten rechtsextreme Vorfälle an ihrer Schule öffentlich. Nun werden sie in Köln geehrt.",
-      "blocks": [
-        {
-          "type": "timeline",
-          "title": "Von der Schule zum Preis",
-          "items": [
-            {
-              "year": "April 2023",
-              "text": "Brandbrief über rechtsextreme Vorfälle an einer Schule in Burg im Spreewald"
-            },
-            {
-              "year": "2024",
-              "text": "Brandenburg verschärft das Schulgesetz. Solche Vorfälle müssen gemeldet werden."
-            },
-            {
-              "year": "März 2026",
-              "text": "Die beiden veröffentlichen ein Buch über ihre Erfahrungen"
-            }
-          ]
-        },
-        {
-          "type": "bigNumber",
-          "value": "10.000",
-          "unit": "Euro",
-          "caption": "Preisgeld bekommt das Duo mit dem Karl-Küpper-Preis für Zivilcourage",
-          "icon": "trophy.fill"
-        }
-      ],
-      "whyGood": "Wer sich für Demokratie einsetzt und dafür Druck erlebt, bekommt nun öffentlich Anerkennung. Ihr Brief hat außerdem eine neue Meldepflicht an Brandenburgs Schulen bewirkt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "News4teachers",
-          "url": "https://www.news4teachers.de/2026/10/erst-bedroht-jetzt-ausgezeichnet-zwei-lehrkraefte-erhalten-preis-fuer-zivilcourage/",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 6,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Brandbrief",
-          "text": "Ein Brandbrief ist ein dringender Brief. Man schreibt ihn, um auf ein ernstes Problem aufmerksam zu machen und Hilfe zu bekommen."
-        }
-      ],
-      "guess": {
-        "question": "Wie viel Preisgeld gibt es beim Karl-Küpper-Preis?",
-        "options": [
-          "1.000 Euro",
-          "10.000 Euro",
-          "100.000 Euro"
-        ],
-        "answer": 1,
-        "reveal": "Der Karl-Küpper-Preis ist mit 10.000 Euro dotiert und wird alle zwei Jahre vergeben.",
-        "icon": "trophy.fill"
-      },
-      "image": {
-        "url": "https://www.news4teachers.de/wp-content/uploads/csm_Verleihung_Karl-Kuepper-Preis-2026-1_2ac7219d87.jpg",
-        "credit": "News4teachers",
-        "source": "https://www.news4teachers.de/2026/10/erst-bedroht-jetzt-ausgezeichnet-zwei-lehrkraefte-erhalten-preis-fuer-zivilcourage/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-11",
-      "ressort": "kurioses",
-      "kicker": "Mexiko",
-      "headline": "Mexikanerin (17) erfindet Feuerlöscher, der mit Schall arbeitet",
-      "teaser": "Ángela Karime Hernández Venegas löscht Flammen ohne Wasser und ohne Chemie. Für ihr tragbares Gerät gewann sie in Indonesien eine Goldmedaille.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "30",
-          "unit": "Hertz",
-          "caption": "tiefer Ton erzeugt 30 Schallstöße pro Sekunde und pustet die Flamme aus",
-          "icon": "antenna.radiowaves.left.and.right"
-        },
-        {
-          "type": "count",
-          "value": 5,
-          "icon": "gearshape.fill",
-          "caption": "Prototypen hat die Schülerin bisher gebaut"
+          "value": 98,
+          "label": "der Mikroplastik-Teilchen im Labortest",
+          "caption": "Der Prototyp entfernte im Labor fast alle Teilchen aus dem Abwasser. Das soll nun im großen Maßstab gelingen."
         },
         {
           "type": "steps",
-          "title": "So funktioniert Vortex Tech",
+          "title": "So funktioniert der Filter",
           "items": [
-            "Ein Generator erzeugt einen tiefen Ton, ein Verstärker macht ihn kräftiger.",
-            "Der Lautsprecher schickt Schallwellen durch eine kleine runde Öffnung.",
-            "Wirbelringe treffen die Flamme und treiben den Sauerstoff weg."
+            "Das Gerät ahmt Pflanzen nach, von denen Wasser abperlt.",
+            "Mikroplastik bleibt daran hängen, das Wasser fließt weiter.",
+            "Die Teilchen werden gesammelt und zum Recycling gebracht."
           ],
           "icons": [
-            "bolt.fill",
-            "wind",
-            "flame.fill"
+            "leaf.fill",
+            "drop.fill",
+            "arrow.3.trianglepath"
           ]
+        },
+        {
+          "type": "map",
+          "place": "Atlantic City, New Jersey",
+          "latitude": 39.36,
+          "longitude": -74.42,
+          "caption": "Hier läuft die zweijährige Testphase in einer Stadt mit 40.000 Einwohnern."
         }
       ],
-      "whyGood": "Eine 17-Jährige zeigt, dass Feuer sich auch ohne Wasser und Chemikalien löschen lassen könnte. So sparen Löscher künftig vielleicht Ressourcen.",
-      "honestNote": "Bis zur Marktreife ist es noch ein weiter Weg.",
+      "whyGood": "Mikroplastik gelangt oft über Kläranlagen ins Meer. Dieser Filter setzt dort an, braucht wenig Material und wenig Energie und wird schon im Alltag erprobt.",
+      "honestNote": "Ob der Filter im großen Maßstab ebenso gut arbeitet wie im Labor, soll die Testphase zeigen.",
       "sources": [
         {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/vortex-tech-angela-karime-hernandez-venegas/?adt_ei={{ subscriber.email_address }}",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/nature-inspired-tech-prevents-microplastics-entering-atlantic-ocean-through-wastewater/",
           "language": "Englisch"
         }
       ],
-      "score": 6,
-      "country": "MX",
+      "score": 7,
+      "country": "US",
       "terms": [
         {
-          "term": "Wirbelringe",
-          "text": "Das sind ringförmige Luftwirbel, ähnlich wie Rauchringe. Sie können Luft in Bewegung bringen und so eine Kerzenflamme ausblasen."
+          "term": "Mikroplastik",
+          "text": "Mikroplastik sind winzige Kunststoffteilchen, oft kleiner als ein Reiskorn. Sie entstehen zum Beispiel beim Waschen von Kleidung oder wenn Müll zerfällt."
         }
       ],
       "guess": {
-        "question": "Aus welcher Entfernung löscht das Gerät kleine Flammen?",
+        "question": "Wie viel Mikroplastik filterte der Prototyp im Labor aus dem Abwasser?",
         "options": [
-          "Etwa 20 Zentimeter",
-          "Etwa 2 Meter",
-          "Etwa 20 Meter"
+          "Etwa 28 Prozent",
+          "Etwa 68 Prozent",
+          "Etwa 98 Prozent"
         ],
-        "answer": 1,
-        "reveal": "Die aktuelle Version löscht kleine Flammen aus rund 1,8 Metern Entfernung.",
-        "icon": "flame.fill"
+        "answer": 2,
+        "reveal": "Im Labortest entfernte der Prototyp 98 Prozent der Mikroplastik-Teilchen.",
+        "icon": "drop.fill"
       },
       "image": {
-        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/vortex-tech-angela-karime-hernandez-venegas-fb.jpg",
-        "credit": "My Modern Met",
-        "source": "https://mymodernmet.com/vortex-tech-angela-karime-hernandez-venegas/?adt_ei={{ subscriber.email_address }}",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-supplied-to-WHYY-as-a-courtesy-PolyGone-Systems.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/nature-inspired-tech-prevents-microplastics-entering-atlantic-ocean-through-wastewater/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-12",
-      "ressort": "design",
-      "kicker": "Madrid",
-      "headline": "Berühmte Kunstwerke werden zu 3D-Buchstaben",
-      "teaser": "Der Designer César Cid baut aus Werken bekannter Künstler ein ganzes Alphabet. Jetzt erscheint dazu ein Buch.",
+      "id": "2026-10-29-02",
+      "ressort": "natur",
+      "kicker": "Australien",
+      "headline": "Neuer Koala-Nationalpark in New South Wales beschlossen",
+      "teaser": "Nach über zehn Jahren Kampagne hat das Parlament den Great Koala National Park beschlossen. Staatswald wird geschützt, statt gefällt.",
       "blocks": [
         {
-          "type": "count",
-          "value": 26,
-          "icon": "paintpalette.fill",
-          "caption": "Künstler und ihre Werke wurden zu Buchstaben"
+          "type": "bigNumber",
+          "value": "475.000",
+          "unit": "Hektar",
+          "caption": "Schutzgebiet entstehen im Nordosten von New South Wales.",
+          "icon": "tree.fill"
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Das A ist eine Suppendose, inspiriert von Andy Warhol.",
-            "Das B stammt von Banksys Girl with Balloon.",
-            "Das D zeigt den Hai aus Damien Hirsts Installation."
+            "178.000 Hektar Staatswald kommen neu zum Schutzgebiet hinzu.",
+            "Acht Aborigines-Ranger werden eingestellt.",
+            "Der Park soll vor Ende 2026 eröffnen."
           ],
           "icons": [
-            "fork.knife",
-            "balloon.fill",
-            "fish.fill"
+            "leaf.fill",
+            "person.2.fill",
+            "calendar"
           ]
         },
         {
-          "type": "quote",
-          "text": "Der Prozess war für mich eine Möglichkeit, mehr über Kunst zu lernen und genauer hinzusehen.",
-          "author": "César Cid, Creative Lead im Studio CESS"
+          "type": "map",
+          "place": "Mid North Coast, New South Wales",
+          "latitude": -30.4,
+          "longitude": 152.9,
+          "caption": "Hier entsteht der Great Koala National Park."
         }
       ],
-      "whyGood": "Das Projekt macht Kunst leicht zugänglich. Wer die Buchstaben ansieht, lernt nebenbei große Namen und ihre Werke kennen.",
-      "honestNote": null,
+      "whyGood": "Wald, der für Holzernte vorgesehen war, wird geschützt. Das hilft Koalas, die in New South Wales als gefährdet gelten, und vielen anderen seltenen Arten.",
+      "honestNote": "Die Finanzierung auf Dauer soll über CO2-Zertifikate laufen.",
       "sources": [
         {
-          "name": "Creative Boom",
-          "url": "https://www.creativeboom.com/work/cesar-cid-turns-famous-artists-into-letters-in-his-playful-alphabet-series/",
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/2026/10/historic-win-australian-state-approves-national-koala-park-despite-controversial-funding/",
           "language": "Englisch"
         }
       ],
-      "score": 6,
-      "country": "ES",
-      "terms": [],
+      "score": 7,
+      "country": "AU",
+      "terms": [
+        {
+          "term": "CO2-Zertifikate",
+          "text": "Firmen können damit ihren Ausstoß von Treibhausgasen ausgleichen. Das Geld dafür fließt in Projekte, die Wald schützen oder CO2 sparen."
+        }
+      ],
       "guess": {
-        "question": "Welches berühmte Bild wird in der Reihe zum Buchstaben Z?",
+        "question": "Wie viele Koalas leben schätzungsweise im neuen Schutzgebiet?",
         "options": [
-          "Die Mona Lisa",
-          "Der Schrei",
-          "Die Sonnenblumen"
+          "Etwa 120",
+          "Etwa 1.200",
+          "Etwa 12.000"
         ],
-        "answer": 1,
-        "reveal": "Die verängstigte Figur aus Edvard Munchs Der Schrei wird zum Zickzack des Z.",
-        "icon": "paintbrush.fill"
+        "answer": 2,
+        "reveal": "Rund 12.000 Koalas leben dort, dazu mehr als 100 weitere bedrohte Tier- und Pflanzenarten.",
+        "icon": "pawprint.fill"
       },
-      "gallery": true,
       "image": {
-        "url": "https://media.creativeboom.com/726dd27b-b04b-4de9-b227-df28995ee596/conversions/b7f2ba3b532ca2049386b351a3310ca0bdd75040-medium.webp",
-        "credit": "Creative Boom",
-        "source": "https://www.creativeboom.com/work/cesar-cid-turns-famous-artists-into-letters-in-his-playful-alphabet-series/",
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/28133825/kenny-van-roosbroek-CG2AtzDOLFg-unsplash.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/2026/10/historic-win-australian-state-approves-national-koala-park-despite-controversial-funding/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-k01",
+      "id": "2026-10-29-03",
+      "ressort": "design",
+      "kicker": "Sambia",
+      "headline": "Tragbarer Wärmer hält Neugeborene auch ohne Strom warm",
+      "teaser": "Otter wärmt Neugeborene in Kliniken mit wenig Ausstattung. Das Gerät lässt sich leicht tragen und läuft auch mit Akku weiter.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "3,6",
+          "unit": "Kilogramm",
+          "caption": "wiegt Otter und kann zwischen Abteilungen getragen werden",
+          "icon": "shippingbox.fill"
+        },
+        {
+          "type": "count",
+          "value": 5,
+          "icon": "bed.double.fill",
+          "caption": "Geräte werden seit Mai 2025 in einem Krankenhaus in Sambia getestet"
+        },
+        {
+          "type": "map",
+          "place": "Kapiri District Hospital, Sambia",
+          "latitude": -13.97,
+          "longitude": 28.67,
+          "caption": "Hier läuft die Praxisstudie zu Otter."
+        }
+      ],
+      "whyGood": "Zu kleine oder zu früh geborene Babys kühlen schnell aus. Otter hilft, sie auch bei Stromausfall und in Kliniken mit wenig Technik warm zu halten.",
+      "honestNote": "Die Studie in Sambia läuft noch.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/design/otter-portable-newborn-warmer-hospitals-unreliable-power-design-matters-mtts-2026-seoul-design-award/",
+          "language": "Englisch"
+        },
+        {
+          "name": "Yanko Design",
+          "url": "https://www.yankodesign.com/2026/10/28/otter-keeps-newborns-warm-without-a-reliable-power-supply/?utm_source=rss&utm_medium=rss&utm_campaign=otter-keeps-newborns-warm-without-a-reliable-power-supply",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "ZM",
+      "terms": [],
+      "guess": {
+        "question": "Wie lange dauern Stromausfälle im Testkrankenhaus in Sambia?",
+        "options": [
+          "Etwa 20 Minuten",
+          "Sieben bis elf Stunden",
+          "Etwa zwei Tage"
+        ],
+        "answer": 1,
+        "reveal": "Dort gab es Stromausfälle von sieben bis elf Stunden. Otter hat einen Akku für mehr als zwei Stunden.",
+        "icon": "bolt.fill"
+      },
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/otter-portable-newborn-warmer-hospitals-unreliable-power-design-matters-mtts-2026-seoul-design-award-designboom-1200.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/design/otter-portable-newborn-warmer-hospitals-unreliable-power-design-matters-mtts-2026-seoul-design-award/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-04",
       "ressort": "architektur",
-      "kicker": "Båtsfjord",
-      "headline": "Studierende bauen Sauna und Treffpunkt am Hafen von Båtsfjord",
-      "teaser": "Fünfzehn Architekturstudierende der NTNU haben in Båtsfjord in Norwegen den Pavillon Skroget gebaut. Er ist fast 40 Meter lang und besteht aus 19 Holzrahmen aus gebrauchtem Holz. Entworfen wurde er in zwei Tagen, gebaut in zehn.",
-      "blocks": [],
-      "whyGood": "Aus altem Holz ist in wenigen Tagen ein offener Treffpunkt mit Sauna für alle am Hafen entstanden.",
+      "kicker": "Kopenhagen",
+      "headline": "Kopenhagen bekommt ein Badehaus mit zehn Becken am Hafen",
+      "teaser": "Auf der Halbinsel Papirøen entsteht ein öffentliches Badehaus von Kengo Kuma. Ein Becken liegt unter freiem Himmel zwischen Backsteintürmen.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 5,
+          "icon": "building.2.fill",
+          "caption": "unregelmäßige Backsteintürme prägen das neue Badehaus"
+        },
+        {
+          "type": "bigNumber",
+          "value": "300.000",
+          "unit": "Ziegel",
+          "caption": "von Hand gefertigte Backsteine bedecken die schrägen Wände",
+          "icon": "hammer.fill"
+        },
+        {
+          "type": "timeline",
+          "title": "Der Weg zum Badehaus",
+          "items": [
+            {
+              "year": "2015",
+              "text": "Die Stadt sammelt 160 Vorschläge der Bürger, die meisten wünschen ein Schwimmbad."
+            },
+            {
+              "year": "2017",
+              "text": "Kengo Kuma & Associates gewinnen den Architekturwettbewerb."
+            },
+            {
+              "year": "5. Dezember 2026",
+              "text": "Das Badehaus soll eröffnen."
+            },
+            {
+              "year": "2027",
+              "text": "Die Badestellen im Hafen sollen folgen."
+            }
+          ]
+        }
+      ],
+      "whyGood": "Ein Wunsch der Bürger wird Wirklichkeit: Aus dem früheren Industrieviertel wird ein Ort zum Schwimmen für alle. Die Becken im Freien sind dank Erdwärme das ganze Jahr nutzbar.",
       "honestNote": null,
       "sources": [
         {
           "name": "designboom",
-          "url": "https://www.designboom.com/architecture/reclaimed-timber-frames-skroget-coastal-sauna-community-hub-norway-rare-collectiv/",
+          "url": "https://www.designboom.com/architecture/kengo-kuma-brick-towers-pools-copenhagen-bathhouse-water-culture-house-denmark/",
+          "language": "Englisch"
+        },
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1187649/kengo-kuma-and-associates-water-culture-house-to-open-in-copenhagen-on-december-5-2026",
           "language": "Englisch"
         }
       ],
-      "brief": true,
       "score": 7,
-      "country": "NO",
-      "terms": [],
+      "country": "DK",
+      "terms": [
+        {
+          "term": "Onsen",
+          "text": "Ein Onsen ist ein heißes Bad nach japanischer Tradition. Das Wasser ist warm, und man badet dort zur Entspannung."
+        },
+        {
+          "term": "Erdwärme",
+          "text": "Erdwärme ist Wärme aus dem Boden. Eine Pumpe holt sie aus der Tiefe und nutzt sie zum Heizen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Schwimmbecken hat das neue Badehaus in Kopenhagen?",
+        "options": [
+          "3",
+          "10",
+          "25"
+        ],
+        "answer": 1,
+        "reveal": "Das Badehaus bringt zehn Becken an den Hafen, darunter eines unter freiem Himmel.",
+        "icon": "figure.pool.swim"
+      },
       "gallery": true,
       "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/arctic-circle-batsfjord-norway-skroget-coastal-sauna-pavilion-rare-collectiv-designboom-1200.jpg",
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/kengo-kuma-associates-water-culture-house-opening-copenhagen-announcement-designboom-FB.jpg",
         "credit": "designboom",
-        "source": "https://www.designboom.com/architecture/reclaimed-timber-frames-skroget-coastal-sauna-community-hub-norway-rare-collectiv/",
+        "source": "https://www.designboom.com/architecture/kengo-kuma-brick-towers-pools-copenhagen-bathhouse-water-culture-house-denmark/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-k02",
-      "ressort": "natur",
-      "kicker": "Somerset",
-      "headline": "Seltene Zebra-Biene erstmals in Somerset entdeckt",
-      "teaser": "Die winzige Asternbiene mit den Zebrastreifen lebt sonst an Englands Süd- und Ostküste. Nun hat der Naturkundler Nigel Phillips sie in den Steart Marshes in Somerset gefunden. Dort gab es viele Tiere und mehrere Nistplätze im trockenen Sandboden.",
-      "blocks": [],
-      "whyGood": "Die renovierte Salzmarsch bietet seltenen Arten ein neues Zuhause, und das zeigt, dass Naturschutz an der Küste wirkt.",
+      "id": "2026-10-29-05",
+      "ressort": "welt",
+      "kicker": "Punjab, Indien",
+      "headline": "Im Punjab bauen Nachbarn verfallene Moscheen wieder auf",
+      "teaser": "Sikhs und Hindus helfen Muslimen, alte Gebetshäuser zu erneuern. Viele waren seit der Teilung Indiens 1947 zerstört oder verlassen.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 165,
+          "icon": "building.columns.fill",
+          "caption": "Moscheen haben Menschen anderer Religionen in neun Jahren mitgebaut"
+        },
+        {
+          "type": "bigNumber",
+          "value": "4",
+          "unit": "Kilometer",
+          "caption": "weit mussten Muslime in Jakhiwal bisher zum Beten in ein anderes Dorf gehen",
+          "icon": "figure.walk"
+        },
+        {
+          "type": "quote",
+          "text": "Es gibt keine bessere Tat, als jemandem einen Ort zum Beten zu geben.",
+          "author": "Bibi Rajinder Kaur, 77, Sikh aus dem Dorf Jakhiwal"
+        }
+      ],
+      "whyGood": "Dörfer, die einst von Gewalt geprägt waren, zeigen heute Nachbarschaft. Der 87-jährige Gajju Khan kann bald den Gebetsruf in seinem Dorf wieder hören.",
       "honestNote": null,
       "sources": [
         {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/c3dxwjx7xpj0o?at_medium=RSS&at_campaign=rss",
+          "name": "Guardian Photography",
+          "url": "https://www.theguardian.com/global-development/2026/oct/28/punjab-india-mosques-restored-heal-sectarian-wounds",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "IN",
+      "terms": [
+        {
+          "term": "Teilung Indiens",
+          "text": "1947 wurde Britisch-Indien in zwei Staaten geteilt. Der Punjab wurde dabei in zwei Teile getrennt. Viele Menschen mussten fliehen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Moscheen haben Nicht-Muslime im Punjab in neun Jahren mit aufgebaut?",
+        "options": [
+          "Etwa 16",
+          "Mehr als 165",
+          "Etwa 1.650"
+        ],
+        "answer": 1,
+        "reveal": "Mehr als 165 Moscheen wurden in neun Jahren mit Hilfe von Sikhs und Hindus wieder aufgebaut.",
+        "icon": "building.columns.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/51802ead034fcdf13a1218c82157218f0206f699/290_0_4800_3840/master/4800.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1113f24aaf32ddb77ffb6754399686c9",
+        "credit": "Guardian Photography",
+        "source": "https://www.theguardian.com/global-development/2026/oct/28/punjab-india-mosques-restored-heal-sectarian-wounds",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-06",
+      "ressort": "wissenschaft",
+      "kicker": "Medizin",
+      "headline": "Forscher frieren Mäusehirne ein und tauen sie wieder auf",
+      "teaser": "Ein spezielles Verfahren konserviert Gehirne von Mäusen in der Kälte. Das könnte für die Organmedizin wichtig werden.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Forscher haben Gehirne von Mäusen tiefgefroren.",
+            "Dafür nutzten sie eine spezielle Kryokonservierung.",
+            "Nach dem Auftauen nahmen die Nervenzellen ihre Aktivität wieder auf."
+          ],
+          "icons": [
+            "snowflake",
+            "flask.fill",
+            "brain.head.profile"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Warum Organe eingefroren werden sollen",
+          "text": "Gespendete Organe halten nur kurze Zeit. Könnte man sie sicher einfrieren und später wieder nutzen, ließen sie sich länger lagern. Die neue Arbeit ist ein Schritt in diese Richtung."
+        }
+      ],
+      "whyGood": "Gefrorenes Hirngewebe von Mäusen konnte wieder arbeiten. Das macht Hoffnung auf bessere Lagerung von Organen in der Medizin.",
+      "honestNote": "Bisher wurde das Verfahren nur an Mäusehirnen gezeigt.",
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/tiefgefrorene-maeusegehirne-zeigen-wieder-lebenszeichen/2314515",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [
+        {
+          "term": "Kryokonservierung",
+          "text": "Dabei wird etwas bei sehr großer Kälte aufbewahrt, damit es sich nicht verändert. Später kann man es wieder auftauen."
+        },
+        {
+          "term": "Nervenzellen",
+          "text": "Nervenzellen sind die Zellen im Gehirn. Sie schicken sich kleine elektrische Signale zu."
+        }
+      ],
+      "guess": {
+        "question": "Was geschah in den Mäusehirnen, nachdem sie tiefgefroren und wieder aufgetaut waren?",
+        "options": [
+          "Sie blieben komplett inaktiv",
+          "Die Nervenzellen wurden wieder aktiv",
+          "Nur die Hirnrinde erwachte wieder"
+        ],
+        "answer": 1,
+        "reveal": "Nach dem Auftauen nahmen die Nervenzellen ihre Aktivität wieder auf, ein Schritt hin zu länger lagerbaren Spenderorganen.",
+        "icon": "snowflake"
+      },
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/thumbnails/GettyImages-678818181.jpg.8345631.jpg?f=1280x720",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/tiefgefrorene-maeusegehirne-zeigen-wieder-lebenszeichen/2314515",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-07",
+      "ressort": "autos",
+      "kicker": "Laden",
+      "headline": "Schnelllader mit 400 kW nutzt alte Autobatterien",
+      "teaser": "Die Firma Allye baut einen Schnelllader, der gebrauchte Akkus als Speicher nutzt. Teure Ausbauten im Stromnetz sind dafür kaum nötig.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "400",
+          "unit": "Kilowatt",
+          "caption": "Ladeleistung schafft der neue Schnelllader von Allye",
+          "icon": "bolt.car.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Der Lader nutzt gebrauchte Batterien aus Elektroautos.",
+            "Ein einfacher Netzanschluss mit 16 Ampere reicht aus.",
+            "Depots und temporäre Standorte können in Stunden starten."
+          ],
+          "icons": [
+            "battery.100",
+            "bolt.fill",
+            "clock.fill"
+          ]
+        }
+      ],
+      "whyGood": "Alte Batterien bekommen ein zweites Leben. Schnelles Laden wird an mehr Orten möglich, ohne lange auf einen Netzausbau zu warten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "InsideEVs",
+          "url": "https://insideevs.com/news/813566/allye-ev-fast-charger-used-batteries-backup/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [
+        {
+          "term": "Depots",
+          "text": "Depots sind Betriebshöfe, auf denen Firmenfahrzeuge wie Busse oder Lieferwagen parken und geladen werden."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange dauert es oft, bis ein Schnelllader-Standort einen Netzanschluss bekommt?",
+        "options": [
+          "Einige Stunden",
+          "Einige Tage",
+          "Oft mehrere Monate"
+        ],
+        "answer": 2,
+        "reveal": "Oft dauert es Monate. Allyes Lader soll Standorte dagegen in wenigen Stunden in Betrieb nehmen.",
+        "icon": "bolt.car.fill"
+      },
+      "image": {
+        "url": "https://cdn.motor1.com/images/mgl/P3VQx2/s3/allye-mev-battery-backed-dc-fast-charger.jpg",
+        "credit": "InsideEVs",
+        "source": "https://insideevs.com/news/813566/allye-ev-fast-charger-used-batteries-backup/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-08",
+      "ressort": "gesundheit",
+      "kicker": "Zahngesundheit",
+      "headline": "Karies bei Kindern stoppen, ohne zu bohren",
+      "teaser": "Eine Flüssigkeit zum Aufpinseln kann Karies bei kleinen Kindern aufhalten. Eine große US-Studie liefert nun die Belege für eine mögliche Zulassung.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 830,
+          "icon": "person.3.fill",
+          "caption": "Kinder unter 6 Jahren nahmen an der Studie teil"
+        },
+        {
+          "type": "share",
+          "value": 40,
+          "label": "der US-Kinder haben Karies",
+          "caption": "Mehr als 40 Prozent der Kinder in den USA sind betroffen. Karies ist die häufigste chronische Krankheit im Kindesalter."
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Flüssigkeit wird mit einem kleinen Schwämmchen auf den Zahn gestrichen.",
+            "Es braucht keinen Bohrer, keine Spritze und keine Narkose.",
+            "Der Zahn wird an der behandelten Stelle dauerhaft dunkel."
+          ],
+          "icons": [
+            "drop.fill",
+            "hand.thumbsup.fill",
+            "sparkles"
+          ]
+        }
+      ],
+      "whyGood": "Viele kleine Kinder könnten Schmerzen, Entzündungen und Operationen in Narkose erspart bleiben. Die Behandlung ist einfach und günstig.",
+      "honestNote": "Die Zulassung durch die US-Arzneimittelbehörde FDA steht noch aus.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/fda-approval-for-drill-free-cavity-care-may-be-imminent-after-great-phase-3-treatment-trial/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Silberdiaminfluorid",
+          "text": "Eine Flüssigkeit, die auf einen kariösen Zahn gestrichen wird. Sie stoppt die Karies, ohne dass gebohrt werden muss."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange dauert es etwa, einen Zahn mit der Flüssigkeit zu behandeln?",
+        "options": [
+          "Einige Sekunden",
+          "Etwa fünf Minuten",
+          "Rund eine halbe Stunde"
+        ],
+        "answer": 0,
+        "reveal": "Das Auftragen dauert nur einige Sekunden pro Zahn, ganz ohne Bohren, Spritze oder Narkose.",
+        "icon": "clock.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2018/01/Teeth-dentist-caveties-by-Ozkan-Guner-lQNl2Vdn0fs-unsplash.jpeg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/fda-approval-for-drill-free-cavity-care-may-be-imminent-after-great-phase-3-treatment-trial/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-09",
+      "ressort": "bildung",
+      "kicker": "Student Makers",
+      "headline": "Schüler bringen Schülern kostenlos Technik bei, auf drei Kontinenten",
+      "teaser": "Die Organisation Student Makers startete an einer kalifornischen Schule. Heute unterrichten Jugendliche in den USA, Kenia und Indien.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 12,
+          "icon": "person.3.fill",
+          "caption": "Studierende aus Atlanta halfen einer Schule in Kenia beim Bau eines Gartenroboters"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Alle Kurse sind kostenlos, alle Lehrenden waren selbst Schüler.",
+            "In Gujarat in Indien haben mehr als 25 Jugendliche den Kurs abgeschlossen.",
+            "Neue Programme starten in Mexiko, Kolumbien, Äthiopien und Illinois."
+          ],
+          "icons": [
+            "graduationcap.fill",
+            "person.2.fill",
+            "globe.americas.fill"
+          ]
+        }
+      ],
+      "whyGood": "Wer gut lernt, gibt sein Wissen weiter. So kommen Technikkurse auch zu Kindern, die sonst kaum Zugang dazu hätten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/10/student-makers-a-deeper-dive-bringing-free-stem-to-students-on-three-continents/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "CAD",
+          "text": "Das ist ein Computerprogramm, mit dem man Bauteile am Bildschirm zeichnet. Danach kann man sie zum Beispiel mit einem 3D-Drucker herstellen."
+        }
+      ],
+      "guess": {
+        "question": "Wie kam der erste 3D-Drucker an die Schule in Migori in Kenia?",
+        "options": [
+          "Per Frachtschiff",
+          "Im Koffer eines Reisenden",
+          "Mit einer Drohne"
+        ],
+        "answer": 1,
+        "reveal": "Dilans Vater hatte auf seiner Reise nach Kenia noch Platz im Koffer. So kam der Drucker nach Migori.",
+        "icon": "shippingbox.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/Local-Changemakers-Story-Covers-6-1.png",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/10/student-makers-a-deeper-dive-bringing-free-stem-to-students-on-three-continents/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-10",
+      "ressort": "sport",
+      "kicker": "Frauenfußball",
+      "headline": "Russo trifft dreimal und führt Arsenal zum 3:0 gegen Benfica",
+      "teaser": "Alessia Russo ist jetzt die beste englische Torschützin in der Champions League der Frauen. Arsenal klettert auf Rang zwei.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "10",
+          "unit": "Tore",
+          "caption": "hat Alessia Russo in ihren letzten sieben Spielen für Verein und Nationalteam erzielt",
+          "icon": "soccerball"
+        },
+        {
+          "type": "comparison",
+          "title": "Platz in der Ligaphase",
+          "before": {
+            "label": "Vor dem Spiel",
+            "value": 5,
+            "display": "Platz 5"
+          },
+          "after": {
+            "label": "Nach dem Spiel",
+            "value": 2,
+            "display": "Platz 2"
+          }
+        },
+        {
+          "type": "quote",
+          "text": "Sie führt als Vorbild voran und tut konsequent die richtigen Dinge.",
+          "author": "Renée Slegers, Trainerin des FC Arsenal"
+        }
+      ],
+      "whyGood": "Eine Stürmerin schreibt Geschichte und kommt genau dann in Form, wenn ihr Team sie braucht. Ihre Trainerin lobt sie auch als Vorbild für die Mannschaft.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        },
+        {
+          "name": "Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Ligaphase",
+          "text": "Das ist die erste Runde der Champions League. Alle Teams stehen dabei in einer gemeinsamen Tabelle."
+        }
+      ],
+      "guess": {
+        "question": "In wie vielen Spielen erzielte Russo zuletzt zehn Tore für Verein und Nationalteam?",
+        "options": [
+          "In 3 Spielen",
+          "In 7 Spielen",
+          "In 15 Spielen"
+        ],
+        "answer": 1,
+        "reveal": "Zehn Tore in nur sieben Spielen für Arsenal und Englands Nationalteam.",
+        "icon": "soccerball"
+      },
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e961/live/0fec4210-d31d-11f1-a701-fddedf244c16.jpg",
+        "credit": "BBC Sport",
+        "source": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-11",
+      "ressort": "fotografie",
+      "kicker": "USA",
+      "headline": "Das Foto-Magazin „Life“ erscheint wieder gedruckt",
+      "teaser": "Nach vielen Jahren ohne reguläre Ausgabe kehrt eine berühmte Bilderzeitschrift zurück. Das erste neue Heft erscheint am 23. November.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "8",
+          "unit": "Mio. Exemplare",
+          "caption": "verkaufte „Life“ in den 1960er Jahren pro Woche",
+          "icon": "book.fill"
+        },
+        {
+          "type": "timeline",
+          "title": "Die Geschichte von „Life“",
+          "items": [
+            {
+              "year": "1936",
+              "text": "„Life“ startet als wöchentliche Zeitschrift, die vor allem von Bildern lebt."
+            },
+            {
+              "year": "1972",
+              "text": "Das wöchentliche Erscheinen endet. Das Fernsehen macht dem Heft Konkurrenz."
+            },
+            {
+              "year": "1978",
+              "text": "„Life“ kommt als Monatsheft zurück."
+            },
+            {
+              "year": "2000",
+              "text": "Das Magazin wird nicht mehr regelmäßig gedruckt. Es gibt nur einzelne Sonderhefte."
+            }
+          ]
+        }
+      ],
+      "whyGood": "Ein Magazin, das große Fotografen bekannt machte, bekommt eine neue Chance. Der Fotojournalismus bekommt wieder eine große Bühne auf Papier.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/28/life-magazine-champion-of-photography-to-publish-again/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Fotojournalismus",
+          "text": "Das ist Journalismus, der Geschichten vor allem mit Fotos erzählt. Die Bilder zeigen, was in der Welt passiert."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Hefte verkaufte „Life“ in den 1960ern pro Woche?",
+        "options": [
+          "Etwa 80.000",
+          "Etwa 800.000",
+          "Über 8 Millionen"
+        ],
+        "answer": 2,
+        "reveal": "In den 1960er Jahren verkaufte „Life“ mehr als acht Millionen Hefte pro Woche.",
+        "icon": "camera.fill"
+      },
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/10/Life-Magazine.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/10/28/life-magazine-champion-of-photography-to-publish-again/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-12",
+      "ressort": "zukunft",
+      "kicker": "Batterien",
+      "headline": "Neue Membran könnte Lithium sauberer gewinnen",
+      "teaser": "Eine neue Membran soll Lithium für Batterien umweltfreundlicher gewinnen. Die Technik braucht noch mehr Tests.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Eine neue Membran soll helfen, Lithium zu gewinnen.",
+            "Sie ist von der Biologie inspiriert.",
+            "Die Technik muss noch weiter getestet werden."
+          ],
+          "icons": [
+            "flask.fill",
+            "leaf.fill",
+            "magnifyingglass"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Warum Lithium?",
+          "text": "Lithium ist ein wichtiger Rohstoff für Batterien, zum Beispiel in Elektroautos. Bisher ist es oft aufwendig, ihn zu gewinnen. Eine sauberere Methode wäre deshalb ein großer Schritt."
+        }
+      ],
+      "whyGood": "Wenn sich die Methode bewährt, könnten Batterien mit weniger Schaden für die Umwelt entstehen. Das hilft dem Umstieg auf Elektroautos und Ökostrom.",
+      "honestNote": "Die Technik braucht noch mehr Tests, bevor sie im Alltag eingesetzt werden kann.",
+      "sources": [
+        {
+          "name": "InsideEVs",
+          "url": "https://insideevs.com/news/813622/new-bio-lithium-extraction-tech/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [
+        {
+          "term": "Membran",
+          "text": "Eine Membran ist eine sehr dünne Schicht. Sie lässt manche Stoffe durch und hält andere zurück, wie ein feines Sieb."
+        }
+      ],
+      "guess": {
+        "question": "Woher stammt die Idee für die neue Membran?",
+        "options": [
+          "Aus der Biologie",
+          "Aus der Raumfahrt",
+          "Aus der Textilindustrie"
+        ],
+        "answer": 0,
+        "reveal": "Die Membran ist von biologischen Vorbildern inspiriert.",
+        "icon": "flask.fill"
+      },
+      "image": {
+        "url": "https://cdn.motor1.com/images/mgl/E63ZAB/s3/lithium-metal.jpg",
+        "credit": "InsideEVs",
+        "source": "https://insideevs.com/news/813622/new-bio-lithium-extraction-tech/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k01",
+      "ressort": "natur",
+      "kicker": "Queensland",
+      "headline": "Fast 20 Millionen Dollar für Schutzgebiet in Nordqueensland",
+      "teaser": "Die Naturschutzgruppe Bush Heritage hat über 19 Millionen Dollar an privaten Spenden gesammelt. Damit will sie die Wooroora Station kaufen, mehr als 20.000 Hektar Wald und Savanne. Dort leben mindestens 12 bedrohte Arten, darunter Kasuar und Baumkänguru.",
+      "blocks": [],
+      "whyGood": "Ein großes, kaum berührtes Stück Natur mit bedrohten Tieren soll für immer geschützt werden.",
+      "honestNote": "Für den Kauf fehlen noch 5,3 Millionen Dollar, die bis zum 24. Dezember zusammenkommen sollen.",
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/29/worldwide-legacy-almost-20m-raised-to-protect-majestic-tract-of-land-in-far-north-queensland",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "AU",
+      "terms": [],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/d4ba7963d29c474ea5b6a53aee97a4182cbdb851/0_0_1000_800/master/1000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=538890b01c590fcdce3f648fa13e7079",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/australia-news/2026/oct/29/worldwide-legacy-almost-20m-raised-to-protect-majestic-tract-of-land-in-far-north-queensland",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k02",
+      "ressort": "architektur",
+      "kicker": "Oakland",
+      "headline": "Oakland: 59 bezahlbare Wohnungen für Familien mit wenig Geld",
+      "teaser": "In Oakland steht ein neues sechsstöckiges Haus mit 59 bezahlbaren Wohnungen. Es ist für Familien mit geringem Einkommen und für Familien, die zuvor obdachlos waren. Entworfen hat es David Baker Architects. Dazu gibt es soziale Hilfsangebote im Haus.",
+      "blocks": [],
+      "whyGood": "Familien mit wenig Geld oder ohne frühere Wohnung bekommen ein sicheres Zuhause und Hilfe direkt im Haus.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1024398/coliseum-place-building-david-baker-architects",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6751/8dfd/3080/cf00/0100/d010/large_jpg/21503_ColiseumPlace_BruceDamonte_02.jpg?1733398062",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1024398/coliseum-place-building-david-baker-architects",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k03",
+      "ressort": "welt",
+      "kicker": "Incheon",
+      "headline": "Unbekannter bezahlt Grillessen für 27 Menschen mit Behinderung",
+      "teaser": "Eine Gruppe aus Incheon in Südkorea machte einen Ausflug und aß in einem Grillrestaurant. Ein anderer Gast bestellte noch Rindfleisch dazu und zahlte die ganze Rechnung von rund 420 Dollar. Dann ging er, ohne seinen Namen zu nennen.",
+      "blocks": [],
+      "whyGood": "Ein Fremder schenkt einer Gruppe einen schönen Tag, ganz ohne Dank zu erwarten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/anonymously-pays-dinner-tab-for-27-disability-staff-in-south-korea/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "KR",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Getty-Images-for-Unsplash-.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/anonymously-pays-dinner-tab-for-27-disability-staff-in-south-korea/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k04",
+      "ressort": "wissenschaft",
+      "kicker": "Mars",
+      "headline": "Nasa-Sonde Mars Odyssey kreist seit 25 Jahren um den Mars",
+      "teaser": "Am 24. Oktober 2001 erreichte Mars Odyssey die Umlaufbahn des Mars. Eingeplant waren nur wenige Jahre. Die Sonde hat den Planeten über 100.000 Mal umrundet und mehr als eine Million Infrarotbilder gemacht. Gemeinsam mit dem Mars Reconnaissance Orbiter leitet sie Daten der Rover zur Erde weiter.",
+      "blocks": [],
+      "whyGood": "Dank kluger Technik und der Arbeit der Teams liefern zwei alte Sonden bis heute Daten und halten den Kontakt zu den Rovern am Mars.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/mars-odyssey-25-jahre-nasa-sonde-orbit-1770491/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://cdn.t3n.de/news/wp-content/uploads/2021/09/nasa-mars-vulkan-calderas.jpg?class=content",
+        "credit": "t3n",
+        "source": "https://t3n.de/news/mars-odyssey-25-jahre-nasa-sonde-orbit-1770491/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k05",
+      "ressort": "autos",
+      "kicker": "EU",
+      "headline": "EU: Elektroautos überholen Benziner und Diesel zusammen",
+      "teaser": "In der EU wurden zuletzt mehr Elektroautos verkauft als Benziner und Diesel zusammen. Die Verkäufe von Elektroautos steigen in fast jedem EU-Land. Bald könnten sie auch die Hybride überholen.",
+      "blocks": [],
+      "whyGood": "Saubere Antriebe setzen sich in Europa auf breiter Front durch.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "InsideEVs",
+          "url": "https://insideevs.com/news/813621/ev-beats-ice-europe-sales/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "image": {
+        "url": "https://cdn.motor1.com/images/mgl/W8KbOr/s3/hyundai-ioniq-3.jpg",
+        "credit": "InsideEVs",
+        "source": "https://insideevs.com/news/813621/ev-beats-ice-europe-sales/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k06",
+      "ressort": "sport",
+      "kicker": "Nova Scotia",
+      "headline": "Baseballteam ohne Sieg in sechs Jahren hat trotzdem Spaß",
+      "teaser": "Die Spartans der Dartmouth High School in Nova Scotia haben seit sechs Jahren kein Spiel gewonnen. Viele im Team spielen zum ersten Mal Baseball. Die Stimmung bleibt gut, sagt Kapitän Curtis Snelgrove: „Wir haben eine tolle Zeit!“",
+      "blocks": [],
+      "whyGood": "Hier zählt die Freude am Spiel und nicht das Ergebnis, und jeder darf mitmachen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/high-school-baseball-team-has-all-the-vibes-of-success-but-never-won-a-game-kids-dont-mind/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CA",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/baseball-unsplash.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/high-school-baseball-team-has-all-the-vibes-of-success-but-never-won-a-game-kids-dont-mind/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k07",
+      "ressort": "fotografie",
+      "kicker": "Wetterfotografie",
+      "headline": "Wetterfotos: Die Shortlist 2026 zeigt Natur von ihrer wildesten Seite",
+      "teaser": "Die Royal Meteorological Society hat die Shortlist für den „Weather Photographer of the Year 2026“ veröffentlicht. Es gab mehr als 5.500 Einsendungen. Nun kann das Publikum seinen Favoriten wählen.",
+      "blocks": [],
+      "whyGood": "Die Bilder zeigen, wie schön und kraftvoll das Wetter sein kann, und erzählen auch vom Klimawandel.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/2026-weather-photographer-of-the-year-shortlist/?adt_ei={{ subscriber.email_address }}",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
       "country": "GB",
-      "terms": [
-        {
-          "term": "Salzmarsch",
-          "text": "Eine Salzmarsch ist ein Küstengebiet, das vom Meerwasser überflutet wird. Dort wachsen Pflanzen, die Salz vertragen."
-        }
-      ],
+      "terms": [],
+      "gallery": true,
       "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cf0f/live/507a4be0-d135-11f1-be77-d1864d279cb0.jpg",
-        "credit": "BBC Science",
-        "source": "https://www.bbc.co.uk/news/articles/c3dxwjx7xpj0o?at_medium=RSS&at_campaign=rss",
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/weather-photographer-of-the-year-shortlist-thumbnail-1.jpg",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/2026-weather-photographer-of-the-year-shortlist/?adt_ei={{ subscriber.email_address }}",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-k03",
-      "ressort": "sport",
-      "kicker": "Basel",
-      "headline": "Stan Wawrinka beendet seine Karriere in seiner Heimat Basel",
-      "teaser": "Stan Wawrinka hat in Basel sein letztes Spiel auf der ATP-Tour gespielt. Es war das 985. Einzel seiner Karriere. Am Dienstagabend verlor er gegen Jiri Lehecka und trat damit von der Tennis-Bühne ab.",
+      "id": "2026-10-29-k08",
+      "ressort": "zukunft",
+      "kicker": "Viladecans",
+      "headline": "Dünger entsteht jetzt direkt auf dem Feld aus Sonne und CO₂",
+      "teaser": "Ein EU-Team unter Leitung der Universitat Autònoma de Barcelona stellt Harnstoff direkt auf dem Acker her. Die Anlage nutzt Sonnenlicht, CO₂ aus der Luft und Rest-Nitrate im Wasser. Eine Pilotanlage lief in Viladecans durchgehend unter echten Bedingungen.",
       "blocks": [],
-      "whyGood": "Eine lange Tennis-Karriere endet mit einem emotionalen Abschied vor heimischem Publikum.",
-      "honestNote": null,
+      "whyGood": "Dünger lässt sich so nachhaltig dort herstellen, wo er gebraucht wird, und muss nicht gelagert werden.",
+      "honestNote": "Die Daten der Pilotanlage werden noch ausgewertet, Umweltverträglichkeit und Wirtschaftlichkeit müssen erst noch geprüft werden.",
       "sources": [
         {
-          "name": "kicker",
-          "url": "https://www.kicker.de/emotionaler-schlusspunkt-in-basel-wawrinka-tritt-von-der-tennis-buehne-1265928/artikel#omrss",
+          "name": "futurezone",
+          "url": "https://futurezone.at/science/duenger-harnstoff-urea-nachhaltig-produzieren-confeti-pilotanlage/403201333",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "CH",
-      "terms": []
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Harnstoff",
+          "text": "Harnstoff ist ein wichtiger Dünger. Er versorgt Pflanzen mit Stickstoff und wird in Wasser gelöst in den Boden gebracht."
+        }
+      ],
+      "image": {
+        "url": "https://image.futurezone.at/images/facebook/4642286/46-167452829.jpg",
+        "credit": "futurezone",
+        "source": "https://futurezone.at/science/duenger-harnstoff-urea-nachhaltig-produzieren-confeti-pilotanlage/403201333",
+        "kind": "source"
+      }
     },
     {
-      "id": "2026-10-28-k04",
-      "ressort": "zukunft",
-      "kicker": "Fusionsforschung",
-      "headline": "Radiowellen treiben erstmals Strom im Fusionsplasma an",
-      "teaser": "Physiker haben erstmals nachgewiesen, dass spezielle Radiowellen in einem Tokamak einen Strom im heißen Plasma antreiben. Eine Antenne mit 30 Elementen sendete die Wellen. Im Zentrum kamen rund 20.000 Ampere Zusatzstrom zusammen.",
+      "id": "2026-10-29-k09",
+      "ressort": "natur",
+      "kicker": "Tropenwälder",
+      "headline": "Niederlande sagen 500 Millionen Dollar für Tropenwälder zu",
+      "teaser": "Die Niederlande zahlen über zehn Jahre 500 Millionen Dollar in den Tropenwaldfonds TFFF ein. Brasilien hat ihn 2025 auf der UN-Klimakonferenz gestartet. Insgesamt sind rund 7,8 Milliarden Dollar zugesagt. Langfristig sollen es 125 Milliarden werden.",
       "blocks": [],
-      "whyGood": "Das ist ein Schritt hin zu Fusionsanlagen, die dauerhaft statt nur in kurzen Pulsen laufen könnten.",
-      "honestNote": "Der Zusatzstrom ist mit rund 20.000 Ampere noch klein gegenüber dem gesamten Plasmastrom von etwa einer Million Ampere.",
+      "whyGood": "Der Fonds kann Ländern verlässlich Geld dafür geben, dass sie ihre Wälder stehen lassen.",
+      "honestNote": "Der Fonds ist noch jung, und bisher ist erst ein kleiner Teil des Ziels von 125 Milliarden Dollar zugesagt.",
       "sources": [
         {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/energie/spezielle-radiowellen-haben-erstmals-fusionsplasmastrom-angetrieben/",
-          "language": "Deutsch"
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/10/netherlands-pledges-500-million-to-help-conserve-tropical-forests/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "NL",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/28223755/Mountain_gorilla_Gorilla_beringei_beringei_three_2-year-olds.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/10/netherlands-pledges-500-million-to-help-conserve-tropical-forests/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k10",
+      "ressort": "architektur",
+      "kicker": "Dänemark",
+      "headline": "Altes Psychiatriegebäude in Dänemark wird zum Museum",
+      "teaser": "Das Büro C.F. Møller hat ein früheres Gebäude für psychiatrische Patienten in ein Museum verwandelt. Das MIND Museum hat 1500 Quadratmeter. Es bewahrt die Geschichte des Ortes und zeigt in flexiblen Räumen, wie sich die Psychiatrie in Dänemark entwickelt hat.",
+      "blocks": [],
+      "whyGood": "Aus einem Ort mit schwieriger Geschichte wird ein offener Ort, an dem man über psychische Gesundheit lernen kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1187560/mind-museum-cf-moller",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DK",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6adf/8cc2/3271/8400/01d0/ec79/large_jpg/04_MIND_Photo_by_Kirstine_Mengel.jpg?1793035560",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1187560/mind-museum-cf-moller",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k11",
+      "ressort": "wissenschaft",
+      "kicker": "Webb-Teleskop",
+      "headline": "Webb zeigt brodelnde Sternenwiege in der Nachbargalaxie",
+      "teaser": "Das Weltraumteleskop Webb hat ein neues Bild der Region N159 veröffentlicht. Sie liegt 161.000 Lichtjahre entfernt in der Großen Magellanschen Wolke. Dort entstehen Sterne in dichten Gasklumpen.",
+      "blocks": [],
+      "whyGood": "Das Bild zeigt eindrucksvoll, wie Sterne entstehen, und hilft Forschenden, die frühe Zeit des Universums besser zu verstehen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+          "language": "Englisch"
         }
       ],
       "brief": true,
@@ -909,204 +1125,31 @@
       "country": null,
       "terms": [
         {
-          "term": "Tokamak",
-          "text": "Ein Tokamak ist eine ringförmige Fusionsanlage. Starke Magnetfelder halten darin das heiße Plasma zusammen."
+          "term": "Metallizität",
+          "text": "Sie gibt an, wie groß der Anteil von Elementen ist, die schwerer sind als Wasserstoff und Helium. N159 hat weniger davon als die Milchstraße."
         }
       ],
-      "image": {
-        "url": "https://www.scinexx.de/wp-content/uploads/S/p/Spezielle-Radiowellen-beschleunigen-Elektronen-bevorzugt-in-eine-Richtung-und-erzeugen-so-zusaetzlichen-Strom-im-Fusionsplasma.webp",
-        "credit": "scinexx",
-        "source": "https://www.scinexx.de/news/energie/spezielle-radiowellen-haben-erstmals-fusionsplasmastrom-angetrieben/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k05",
-      "ressort": "gesundheit",
-      "kicker": "Krebsforschung",
-      "headline": "Neuer Wirkstoff hilft bei metastasiertem Bauchspeicheldrüsenkrebs",
-      "teaser": "In der Studie RASolute-302 half der Wirkstoff Daraxonrasib Erkrankten mit metastasiertem Bauchspeicheldrüsenkrebs. Sie lebten damit länger als mit einer Chemotherapie, auch ohne Fortschreiten der Erkrankung. Zev Wainberg stellte weitere Auswertungen auf dem ESMO-Kongress in Madrid vor.",
-      "blocks": [],
-      "whyGood": "Bei einer sehr schwer behandelbaren Krebsart gibt es nun eine Therapie, die besser wirkt als die Chemotherapie.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Ärzteblatt",
-          "url": "https://www.aerzteblatt.de/news/metastasiertes-pankreaskarzinom-daraxonrasib-in-verschiedenen-subgruppen-wirksam-31550a0d-dfe7-4f8e-b846-7b2d809888ba",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "ES",
-      "terms": [
-        {
-          "term": "progressionsfreies Überleben",
-          "text": "Das ist die Zeit, in der sich die Krebserkrankung nicht weiter verschlechtert. Sie wird in Studien gemessen, um die Wirkung einer Therapie zu beurteilen."
-        }
-      ],
-      "image": {
-        "url": "https://www.aerzteblatt.de/_next/image?url=%2Ff7d61c1b-84a8-406f-a2de-57d949ec619e%2Fimg275799485.jpeg&w=1200&q=75",
-        "credit": "Ärzteblatt",
-        "source": "https://www.aerzteblatt.de/news/metastasiertes-pankreaskarzinom-daraxonrasib-in-verschiedenen-subgruppen-wirksam-31550a0d-dfe7-4f8e-b846-7b2d809888ba",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k06",
-      "ressort": "wissenschaft",
-      "kicker": "Astronomie",
-      "headline": "Rubin-Teleskop entdeckt möglichen neuen Zwergplaneten",
-      "teaser": "Der Astrophysiker Matthew Holman hat im Datensatz des Vera C. Rubin Observatory einen eisigen Körper jenseits von Pluto gefunden. Er heißt vorläufig 2026 ED138 und misst etwa 1.000 Kilometer. Es wäre das größte solche Objekt seit rund 20 Jahren.",
-      "blocks": [],
-      "whyGood": "Unser Sonnensystem hält noch Überraschungen bereit, und das neue Teleskop liefert schon in der Testphase große Funde.",
-      "honestNote": "Noch ist ED138 nur ein Kandidat und als Zwergplanet nicht offiziell bestätigt.",
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-10-rubin-observatory-reveals-dwarf-planet.html",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [],
-      "image": {
-        "url": "https://scx2.b-cdn.net/gfx/news/2026/rubin-observatory-reve.jpg",
-        "credit": "Phys.org",
-        "source": "https://phys.org/news/2026-10-rubin-observatory-reveals-dwarf-planet.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k07",
-      "ressort": "wirtschaft",
-      "kicker": "USA",
-      "headline": "Erneuerbare überholen in den USA bald Erdgas bei der Kapazität",
-      "teaser": "Der Anteil erneuerbarer Energien an der Kraftwerkskapazität der USA steigt binnen eines Jahres von 37,7 auf 40,4 Prozent. Damit liegen sie vor Erdgas. Von Januar bis August 2026 wuchs der Ökostrom um 10,2 Prozent, die Kohle ging um 8,7 Prozent zurück.",
-      "blocks": [],
-      "whyGood": "Sonne und Wind liefern in den USA immer mehr Strom, während die Kohle weiter an Bedeutung verliert.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Electrek",
-          "url": "https://electrek.co/2026/10/27/renewables-to-reach-40-of-total-generating-capacity-beat-gas-within-a-year-eia/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [],
-      "image": {
-        "url": "https://electrek.co/wp-content/uploads/sites/3/2025/09/Orsted-Revolution-Wind.jpg?quality=82&strip=all&resize=1200,628",
-        "credit": "Electrek",
-        "source": "https://electrek.co/2026/10/27/renewables-to-reach-40-of-total-generating-capacity-beat-gas-within-a-year-eia/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k08",
-      "ressort": "kultur",
-      "kicker": "London",
-      "headline": "Ladenbesitzer aus Catford wird von Hofmaler porträtiert",
-      "teaser": "Der Porträtmaler Nick Bashall, der schon Prinzessin Anne gemalt hat, hat Kaual Patel porträtiert. Patel führt einen Eckladen in Catford im Süden Londons. Das Bild hängt in der Ausstellung „Local Royalty“ in der Saatchi Gallery.",
-      "blocks": [],
-      "whyGood": "Ein Ladenbesitzer wird so gewürdigt, wie sonst nur Royals und Stars, und seine Kundschaft schaut beim Malen zu.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BBC Entertainment",
-          "url": "https://www.bbc.co.uk/news/articles/c3kgqngpx92ko?at_medium=RSS&at_campaign=rss",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "GB",
-      "terms": [],
       "gallery": true,
       "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/41f7/live/12ca04d0-d134-11f1-be77-d1864d279cb0.jpg",
-        "credit": "BBC Entertainment",
-        "source": "https://www.bbc.co.uk/news/articles/c3kgqngpx92ko?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.nasa.gov/wp-content/uploads/2026/10/55604475252-31d25bf2e0-o.jpg",
+        "credit": "NASA",
+        "source": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-k09",
+      "id": "2026-10-29-k12",
       "ressort": "fotografie",
-      "kicker": "Norfolk",
-      "headline": "17-Jähriger fotografiert Baumfalken nach 200 Stunden Geduld",
-      "teaser": "Maksym Breus hat drei Jahre auf dieses Bild hingearbeitet. Über 200 Stunden beobachtete er Baumfalken in England. Dann gelang ihm ein Falke im Flug über dem Wasser, der eine Libelle jagt. Das Foto gewann die Publikumswahl der Norfolk Wildlife Trust.",
+      "kicker": "Qingdao",
+      "headline": "Qingdaos Küste färbt sich im Herbst leuchtend rot",
+      "teaser": "An der Küste von Qingdao in der Provinz Shandong entsteht im Herbst der „rote Strand“. Eine heimische Pflanze, das Suaeda glauca, nimmt beim Reifen Wasser auf. Sie wechselt von Grün zu Purpurrot, zwischen September und November.",
       "blocks": [],
-      "whyGood": "Ausdauer und Liebe zur Natur haben einen Jugendlichen zum Sieger unter mehr als 1.200 Einsendungen gemacht.",
+      "whyGood": "Eine heimische Pflanze verwandelt Salzwiesen und Feuchtgebiete jedes Jahr in ein Meer aus Rot.",
       "honestNote": null,
       "sources": [
         {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/norfolk-wildlife-trust-photo-contest-winner/?adt_ei={{ subscriber.email_address }}",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "GB",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/norfolk-wildlife-trust-photo-contest-fb.png",
-        "credit": "My Modern Met",
-        "source": "https://mymodernmet.com/norfolk-wildlife-trust-photo-contest-winner/?adt_ei={{ subscriber.email_address }}",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k10",
-      "ressort": "design",
-      "kicker": "Berlin",
-      "headline": "Biodesignerin züchtet Verpackung und Snacks aus Mikroben",
-      "teaser": "Die Berliner Biodesignerin Emma Sicher lässt Bakterien und Hefen Material wachsen. Daraus entstehen durchsichtige Verpackungen und essbare Prototypen wie Chips, Eiswaffeln und Eis am Stiel. Für ihre Verpackungen nutzte sie Apfelschalen und Rote-Bete-Reste.",
-      "blocks": [],
-      "whyGood": "Aus Essensresten und Mikroben könnten abbaubare Verpackungen und neue Lebensmittel entstehen.",
-      "honestNote": "Die essbaren Prototypen sind noch experimentell.",
-      "sources": [
-        {
-          "name": "designboom",
-          "url": "https://www.designboom.com/design/emma-sicher-biomaterials-microorganisms-cellulose-eating-scoby/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "SCOBY",
-          "text": "Eine Gemeinschaft aus Bakterien und Hefen, die man von Kombucha kennt. Sie bildet auf der Flüssigkeit eine gelartige Haut aus Zellulose."
-        }
-      ],
-      "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/emma-sicher-microorganisms-biomaterials-designboom-FB.jpg",
-        "credit": "designboom",
-        "source": "https://www.designboom.com/design/emma-sicher-biomaterials-microorganisms-cellulose-eating-scoby/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k11",
-      "ressort": "architektur",
-      "kicker": "Xianning",
-      "headline": "Neues Museum in China schmiegt sich in die Wiese am See",
-      "teaser": "Das Büro Ziyu Zhuang hat am Zishan-See in Xianning vier öffentliche Gebäude in einen Park gesetzt. Das Zi Museum ist 3.000 Quadratmeter groß und hat einen Innenhof. Ein Lehmbau trägt ein begrüntes Dach, das man über eine Rampe begehen kann.",
-      "blocks": [],
-      "whyGood": "Hier wird Architektur zum Teil der Landschaft, und Besucher können Kunst und Natur auf ihrem eigenen Weg erleben.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/10/27/buro-ziyu-zhuang-zi-museum-cluster-xianning/",
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/world/gallery/2026/oct/28/vivid-red-beach-transforms-chinas-wetlands-qinqdao-in-pictures",
           "language": "Englisch"
         }
       ],
@@ -1115,439 +1158,298 @@
       "country": "CN",
       "terms": [
         {
-          "term": "Lehmbau",
-          "text": "Ein Gebäude aus gestampfter Erde. Dabei wird feuchter Lehm in Schichten fest verdichtet, bis feste Wände entstehen."
+          "term": "Salzwiesen",
+          "text": "Salzwiesen sind Küstenflächen, die vom Meerwasser überflutet werden können. Nur Pflanzen, die viel Salz vertragen, wachsen dort."
         }
       ],
       "gallery": true,
       "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/10/zi-museum-Buro-Ziyu-Zhuang_dezeen_2364_col_sq5.jpg",
-        "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/10/27/buro-ziyu-zhuang-zi-museum-cluster-xianning/",
+        "url": "https://i.guim.co.uk/img/media/d3a673cab9d9dc3a4f1e849d6d0bdca183f554b3/546_0_2825_2260/master/2825.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cae17daea5cc138518a77415d3294483",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/world/gallery/2026/oct/28/vivid-red-beach-transforms-chinas-wetlands-qinqdao-in-pictures",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-k12",
-      "ressort": "natur",
-      "kicker": "Südliche USA",
-      "headline": "Fünf neue Muschelarten in Flüssen der Südstaaten entdeckt",
-      "teaser": "Forschende haben in Flüssen im Süden der USA fünf bisher unbekannte Süßwassermuscheln beschrieben. Die Tiere sahen bekannten Arten ähnlich, erst ihre DNA zeigte den Unterschied. Die Proben nahmen sie meist ohne Schaden, die Muscheln kamen lebend zurück in den Fluss.",
+      "id": "2026-10-29-k13",
+      "ressort": "zukunft",
+      "kicker": "Solarforschung",
+      "headline": "Oxford: Bismutsulfid verliert deutlich weniger Solarenergie",
+      "teaser": "Forschende der Universität Oxford haben erklärt, warum Bismutsulfid so wenig Ladung verliert. Die besondere Bandstruktur bremst die sogenannte bimolekulare Rekombination bei Raumtemperatur rechnerisch um etwa 75 %. Das Team berichtet in der Fachzeitschrift Nature.",
       "blocks": [],
-      "whyGood": "Die Entdeckung zeigt, dass unsere Flüsse noch voller unbekannter Natur sind, die nun erforscht und geschützt werden kann.",
-      "honestNote": "Mehrere der neuen Arten sind selten, und nur eine wurde bisher für den Schutz auf Bundesebene vorgeschlagen.",
+      "whyGood": "Das Ergebnis zeigt einen Weg, wie Solarzellen mehr des aufgenommenen Sonnenlichts in nutzbaren Strom umwandeln könnten.",
+      "honestNote": "Der Wert von 75 % ist rechnerisch ermittelt und gilt im Vergleich zu einem Halbleiter mit rein direktem Übergang.",
       "sources": [
         {
-          "name": "Mongabay",
-          "url": "https://news.mongabay.com/2026/10/five-new-mussel-species-reveal-how-much-biodiversity-us-rivers-still-conceal/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [],
-      "image": {
-        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/27053936/Shedd_048A1940_hpr.jpg",
-        "credit": "Mongabay",
-        "source": "https://news.mongabay.com/2026/10/five-new-mussel-species-reveal-how-much-biodiversity-us-rivers-still-conceal/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k13",
-      "ressort": "gesundheit",
-      "kicker": "Darmerkrankungen",
-      "headline": "Neue Ursache für chronische Darmentzündung entdeckt",
-      "teaser": "Forschende aus Oxford, Newcastle und Cambridge haben bei mehr als 4.900 Menschen mit Morbus Crohn oder Colitis ulcerosa untersucht, was die Krankheit auslöst. Bei manchen Patienten blockieren Antikörper das Eiweiß IL-10, das Entzündungen bremst. Das könnte genauere Diagnosen und gezielte Therapien möglich machen.",
-      "blocks": [],
-      "whyGood": "Wer die Ursache kennt, kann Betroffene künftig gezielter behandeln, und das könnte ihnen viele erfolglose Therapieversuche ersparen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261025073053.htm",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "GB",
-      "terms": [
-        {
-          "term": "Antikörper",
-          "text": "Antikörper sind Eiweiße des Immunsystems. Normalerweise greifen sie Krankheitserreger an. Hier richten sie sich gegen einen körpereigenen Stoff."
-        }
-      ],
-      "image": {
-        "url": "https://www.sciencedaily.com/images/1920/human-body-digestive-system-boost.webp",
-        "credit": "ScienceDaily",
-        "source": "https://www.sciencedaily.com/releases/2026/10/261025073053.htm",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k14",
-      "ressort": "wissenschaft",
-      "kicker": "Jordantal",
-      "headline": "Frühe Menschen erreichten das Jordantal schon vor 1,9 Millionen Jahren",
-      "teaser": "Die Fundstätte 'Ubeidiya im Jordantal ist mindestens 1,9 Millionen Jahre alt. Ein Team um Ari Matmon, Omry Barzilai und Miriam Belmaker nutzte drei Datierungsmethoden. Damit ist sie etwa so alt wie Dmanisi in Georgien.",
-      "blocks": [],
-      "whyGood": "Die Forschung rückt die Reise früher Menschen aus Afrika um mehrere hunderttausend Jahre nach vorn und verbessert unser Bild von unserer Herkunft.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261025073042.htm",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "IL",
-      "terms": [
-        {
-          "term": "Acheuléen",
-          "text": "Eine frühe Steinwerkzeug-Tradition. Typisch sind große, auf beiden Seiten bearbeitete Werkzeuge wie Faustkeile."
-        }
-      ],
-      "image": {
-        "url": "https://www.sciencedaily.com/images/1920/ubeidiya-hippopotamus-ivory-tusk.webp",
-        "credit": "ScienceDaily",
-        "source": "https://www.sciencedaily.com/releases/2026/10/261025073042.htm",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k15",
-      "ressort": "kultur",
-      "kicker": "New Jersey",
-      "headline": "Kunst am Gleis: Bahnhöfe in New Jersey werden zu Galerien",
-      "teaser": "NJ Transit zeigt seit 2019 Wandbilder und Fotos von Künstlern aus New Jersey in Bahnhöfen. Acht Stationen sind inzwischen dabei, zuletzt Morris Plains mit einer Schau über 250 Jahre Eisenbahngeschichte. Das Projekt läuft mit dem State Council on the Arts.",
-      "blocks": [],
-      "whyGood": "Pendler stoßen im Alltag auf Kunst, und die Künstler werden dafür bezahlt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Optimist Daily",
-          "url": "https://www.optimistdaily.com/2026/10/new-jersey-transit-is-turning-commuter-stations-into-art-galleries/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://www.optimistdaily.com/wp-content/uploads/new-jersey-transit-commuter-train-Depositphotos_473170438_S.jpg",
-        "credit": "Optimist Daily",
-        "source": "https://www.optimistdaily.com/2026/10/new-jersey-transit-is-turning-commuter-stations-into-art-galleries/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k16",
-      "ressort": "design",
-      "kicker": "Japan",
-      "headline": "Aus altem Stall wird ein Pavillon, den zwei Menschen tragen",
-      "teaser": "Das Dobedo Studio hat aus einer abgerissenen Scheune in der Präfektur Gunma den tragbaren Mini-Pavillon „Ehho!²“ gebaut. Er besteht aus altem Wellblech, Holz und handgeflochtenen Seilen. Zwei Menschen tragen ihn wie eine traditionelle Sänfte.",
-      "blocks": [],
-      "whyGood": "Aus den Resten einer Scheune entsteht ein neuer Treffpunkt, der durch die Stadt wandern kann.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "designboom",
-          "url": "https://www.designboom.com/design/upcycled-timber-iron-portable-micro-barn-japan-dobedo-studio-ehho-2/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "JP",
-      "terms": [
-        {
-          "term": "Sänfte",
-          "text": "Eine Sänfte ist ein Sitz oder eine Kabine, die von Menschen getragen wird. In Japan heißt die traditionelle Form Kago."
-        }
-      ],
-      "gallery": true,
-      "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/dobedo-studio-ehho-2-portable-micro-barn-japan-designboom-1200.jpg",
-        "credit": "designboom",
-        "source": "https://www.designboom.com/design/upcycled-timber-iron-portable-micro-barn-japan-dobedo-studio-ehho-2/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k17",
-      "ressort": "architektur",
-      "kicker": "Abu Dhabi",
-      "headline": "Abu Dhabi baut Konzerthaus für junge Musiker nach Gehry-Entwurf",
-      "teaser": "Abu Dhabi hat Pläne für ein Konzerthaus für junge Musikerinnen und Musiker vorgestellt. Es entsteht nach einem Entwurf von Frank Gehry und hat einen Saal mit 600 Plätzen und 18 Proberäume. Kinder von sechs bis neun Jahren lernen dort kostenlos Musik.",
-      "blocks": [],
-      "whyGood": "Kinder bekommen kostenlosen Zugang zu hochwertiger Musikausbildung, und das in einem Haus von einem der berühmtesten Architekten der Welt.",
-      "honestNote": "Der Bau ist noch nicht fertig, die ersten 100 Kinder sollen starten, wenn das Haus öffnet.",
-      "sources": [
-        {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/10/27/youth-orchestra-abu-dhabi-frank-gehry/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "AE",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/10/youth-orchestra-abu-dhabi-frank-gehry_dezeen_2364_hero_0.jpg",
-        "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/10/27/youth-orchestra-abu-dhabi-frank-gehry/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k18",
-      "ressort": "natur",
-      "kicker": "Bolivien",
-      "headline": "Neues Schutzgebiet am Río Iténez in Bolivien",
-      "teaser": "In Bolivien ist am Fluss Iténez ein Schutzgebiet von rund 290.000 Hektar entstanden. Die Organisation Faunagua hat das Projekt geleitet, die Rainforest Trust hat es unterstützt. Das Gebiet verbindet Schutzzonen in Bolivien und Brasilien.",
-      "blocks": [],
-      "whyGood": "Jaguare, Flussdelfine und Riesenotter bekommen einen geschützten Wanderweg zwischen zwei Ländern.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/ngo-celebrates-70-million-amazon-acres-conserved-after-protecting-are-called-a-link-of-life/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "BO",
-      "terms": [],
-      "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Sunrise-on-the-Itenez-River-credit-Gabriela-Villaneuva-CC-4.0.-BY-SA-e1793094098653.jpg",
-        "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/ngo-celebrates-70-million-amazon-acres-conserved-after-protecting-are-called-a-link-of-life/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k19",
-      "ressort": "wissenschaft",
-      "kicker": "Bonn",
-      "headline": "Spinnen schlafen in Phasen und haben wohl eine Art Traumschlaf",
-      "teaser": "Forschende der Universität Bonn haben die Australische Springspinne Portia fimbriata mehrere Tage und Nächte beobachtet. Sie fanden mehrere Schlafphasen. In einer davon bewegen die Tiere die Augen und zucken mit den Muskeln, ähnlich wie im REM-Schlaf des Menschen.",
-      "blocks": [],
-      "whyGood": "Wir lernen, dass Schlaf bei ganz verschiedenen Tieren ähnliche Züge haben kann, und das erklärt vielleicht, wie er entstanden ist.",
-      "honestNote": "Ob Spinnen wirklich träumen, ist damit noch nicht belegt, es ist ein Hinweis auf einen traumähnlichen Zustand.",
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
-          "language": "Englisch"
-        },
-        {
-          "name": "Spektrum",
-          "url": "https://www.spektrum.de/news/australische-springspinne-bloss-keine-schlafenden-spinnen-wecken/2351398",
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/solarzellen-neuer-halbleiter-reduziert-ladungsverluste-um-75-c04b83f9-9cdf-4c6e-9f3a-0cd5261c9569/",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "DE",
+      "country": "GB",
       "terms": [
         {
-          "term": "REM-Schlaf",
-          "text": "REM steht für „rapid eye movement“, also schnelle Augenbewegungen. Es ist eine Schlafphase, in der Menschen oft träumen."
+          "term": "Rekombination",
+          "text": "Dabei treffen ein angeregtes Elektron und ein Loch wieder aufeinander. Die Energie wird frei und kann nicht mehr als Strom genutzt werden."
         }
       ],
       "image": {
-        "url": "https://www.sciencedaily.com/images/1920/spider-portia-fimbriata.webp",
-        "credit": "ScienceDaily",
-        "source": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
+        "url": "https://www.ingenieur.de/wp-content/uploads/2026/10/Semiconductor-experiment-3.jpg",
+        "credit": "ingenieur.de",
+        "source": "https://www.ingenieur.de/solarzellen-neuer-halbleiter-reduziert-ladungsverluste-um-75-c04b83f9-9cdf-4c6e-9f3a-0cd5261c9569/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-k20",
-      "ressort": "design",
-      "kicker": "Design",
-      "headline": "Kanzlei White & Case wagt ein mutiges neues Markendesign",
-      "teaser": "Die globale Kanzlei White & Case aus New York hat nach 13 Jahren ihr Erscheinungsbild erneuert. Uncommon Creative Studio ersetzt das übliche Marineblau durch ein elektrisches „Catalyst Blue“. Dazu kommen bewegte Schriften und ein Werkzeug, das Fotos in Datenströme verwandelt.",
+      "id": "2026-10-29-k14",
+      "ressort": "natur",
+      "kicker": "Tiefsee",
+      "headline": "Seltener Fisch mit durchsichtigem Kopf in 4K gefilmt",
+      "teaser": "Forschende des MBARI haben vom Schiff David Packard aus einen Tiefsee-Fisch mit durchsichtigem Kopf entdeckt. Der Fass-Augen-Fisch schwamm etwa 600 Meter tief, rund 90 Kilometer vor der Küste. Es ist die elfte Beobachtung dieser Art durch das Institut.",
       "blocks": [],
-      "whyGood": "Selbst eine 125 Jahre alte Kanzlei zeigt, dass man mit Mut und Kreativität aus der Masse herausstechen kann.",
+      "whyGood": "Ein seltener Blick auf ein geheimnisvolles Tiefseetier begeisterte Forschende und Schiffscrew gleichermaßen.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Creative Boom",
-          "url": "https://www.creativeboom.com/work/this-rebrand-ditches-every-law-firm-cliche-as-white-case-loses-the-navy-blue/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 5,
-      "country": "US",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://media.creativeboom.com/ead7f8e1-6e7e-4dbc-8725-9d753ad1f787/conversions/29af68975195296e65ae0634c48e164223f65e21-medium.webp",
-        "credit": "Creative Boom",
-        "source": "https://www.creativeboom.com/work/this-rebrand-ditches-every-law-firm-cliche-as-white-case-loses-the-navy-blue/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-k21",
-      "ressort": "natur",
-      "kicker": "Northumberland",
-      "headline": "Naturschützer fast am Ziel: 29 von 30 Millionen Pfund gesammelt",
-      "teaser": "Mehrere Naturschutzgruppen wollen das Rothbury Estate in England kaufen, rund 3.800 Hektar Hochland. Die Regierung gibt nun 1,9 Millionen Pfund dazu. Damit sind 29 von 30 Millionen Pfund beisammen. Auch Sir David Attenborough unterstützt die Aktion.",
-      "blocks": [],
-      "whyGood": "Eines der größten Naturprojekte Englands rückt in Reichweite, mit mehr Platz für Wildtiere und wiederhergestellten Mooren.",
-      "honestNote": "Das Spendenziel von 30 Millionen Pfund ist noch nicht ganz erreicht.",
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/c69wznnn4p7yo?at_medium=RSS&at_campaign=rss",
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-10-rarely-deep-sea-barreleye-fish.html",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "GB",
+      "country": "US",
       "terms": [],
       "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8414/live/4454db30-d204-11f1-b3b6-c1e79e957e40.jpg",
-        "credit": "BBC Science",
-        "source": "https://www.bbc.co.uk/news/articles/c69wznnn4p7yo?at_medium=RSS&at_campaign=rss",
+        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/mbari-researchers-film.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-10-rarely-deep-sea-barreleye-fish.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-k22",
+      "id": "2026-10-29-k15",
       "ressort": "architektur",
-      "kicker": "Neue Baustoffe",
-      "headline": "Aus Abfall wird Baustoff: Asbest und Kriegsschutt neu genutzt",
-      "teaser": "Ein australisches Studio, Besley & Spresser, will Asbest umkristallisieren. So sollen neue, ungefährliche Produkte entstehen. In Kiew mischen Forschende Schutt zerstörter Gebäude mit Abfällen zu druckbarem Beton für den Wiederaufbau von Wohnungen.",
+      "kicker": "New Orleans",
+      "headline": "New Orleans öffnet sein Flussufer als Park für alle",
+      "teaser": "Jahrzehntelang trennten Lagerhallen, Lastwagen und Zäune die Menschen vom Mississippi. Das Büro Eskew+Dumez+Ripple hat daraus den Goldring Woldenberg Riverfront Park gemacht. Er gehört zu einem Plan, der nach dem Hurrikan Katrina mehr als zehn Kilometer öffentlichen Raum am Fluss vorsieht.",
       "blocks": [],
-      "whyGood": "Stoffe, die bisher als Abfall galten, können zu sicheren Baumaterialien werden.",
-      "honestNote": "Die Asbest-Methode wurde bisher nur als Testinstallation gezeigt, und die Angaben dazu stammen vom Studio selbst.",
+      "whyGood": "Aus einer abgesperrten Industriekante wird ein öffentlicher Ort, an dem Menschen wieder an den Fluss kommen.",
+      "honestNote": "Der Park ist ein Teil des Plans, der mehr als zehn Kilometer durchgehenden öffentlichen Raum am Fluss vorsieht.",
       "sources": [
         {
           "name": "ArchDaily",
-          "url": "https://www.archdaily.com/1187576/from-asbestos-to-fungi-eight-new-materials-made-from-waste-and-living-matter",
+          "url": "https://www.archdaily.com/1187234/goldring-woldenberg-riverfront-park-eskew-plus-dumez-plus-ripple",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6ad7/9927/aadf/a000/01e3/b903/large_jpg/_Tim_Hursley_TH060226_EDR_GWP_DR003.jpg?1792514452",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1187234/goldring-woldenberg-riverfront-park-eskew-plus-dumez-plus-ripple",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-k16",
+      "ressort": "architektur",
+      "kicker": "Edinburgh",
+      "headline": "Neues Gesundheitszentrum für Schule in Edinburgh aus Holz und Stein",
+      "teaser": "Das Architekturbüro Page\\Park hat für das Fettes College in Edinburgh das Allardice Centre fertiggestellt. Es bietet medizinische und seelsorgerische Hilfe unter einem Dach. Gebaut wurde es aus schottischem Holz und Stein aus der Nähe.",
+      "blocks": [],
+      "whyGood": "Schülerinnen und Schüler finden Hilfe für Körper und Seele nun in einem hellen, barrierefreien Haus mitten im Wald.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/10/28/pagepark-allardice-centre/",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 5,
-      "country": "AU",
+      "country": "GB",
       "terms": [
         {
-          "term": "Asbest",
-          "text": "Asbest ist ein Mineral, das früher in Zement, Dämmung und Putz steckte. Es ist giftig und wird seit den 1970er Jahren nach und nach verboten."
+          "term": "Brettschichtholz",
+          "text": "Brettschichtholz besteht aus vielen verleimten Holzlagen. So entstehen stabile Balken, die große Räume tragen können."
         }
       ],
+      "gallery": true,
       "image": {
-        "url": "https://images.adsttc.com/media/images/6adf/d39a/20d6/d801/8852/15e0/large_jpg/new-materials_7.jpg?1793053608",
-        "credit": "ArchDaily",
-        "source": "https://www.archdaily.com/1187576/from-asbestos-to-fungi-eight-new-materials-made-from-waste-and-living-matter",
+        "url": "https://static-2026.dezeen.com/uploads/2026/10/allardice-centre-fettes-college-page-park-edinburgh-scotland-education-wellbeing-architecture_dezeen_2364_hero.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/10/28/pagepark-allardice-centre/",
         "kind": "source"
       }
     }
   ],
   "joke": {
-    "setup": "Treffen sich zwei Schafe. Sagt das eine: „Mäh.“",
-    "punchline": "Sagt das andere: „Mäh doch selber!“"
+    "setup": "Was ist weiß und stört beim Essen?",
+    "punchline": "Eine Lawine."
   },
   "comic": {
-    "series": "vaterundsohn",
-    "title": "Vater und Sohn",
-    "episode": "Friedensstifter",
-    "image": "https://upload.wikimedia.org/wikipedia/de/c/cb/Vater_und_Sohn_-_Friedensstifter.jpg",
+    "series": "sandraundwoo",
+    "title": "Sandra und Woo",
+    "episode": "Product Placement und mehr",
+    "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0038.png",
     "pages": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/de/c/cb/Vater_und_Sohn_-_Friedensstifter.jpg",
-        "width": 1200,
-        "height": 1320
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0038.png",
+        "width": 980,
+        "height": 332,
+        "title": "Product Placement",
+        "panels": [
+          [
+            0.0061,
+            0.0211,
+            0.3224,
+            0.8765
+          ],
+          [
+            0.3408,
+            0.0211,
+            0.3235,
+            0.8765
+          ],
+          [
+            0.6776,
+            0.0211,
+            0.3153,
+            0.8765
+          ]
+        ]
+      },
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0039.png",
+        "width": 980,
+        "height": 332,
+        "title": "Menschen wie du und ich",
+        "panels": [
+          [
+            0.0071,
+            0.0211,
+            0.3224,
+            0.8765
+          ],
+          [
+            0.3408,
+            0.0211,
+            0.2612,
+            0.8765
+          ],
+          [
+            0.6143,
+            0.0211,
+            0.3786,
+            0.8765
+          ]
+        ]
+      },
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0040.png",
+        "width": 980,
+        "height": 329,
+        "title": "Schlafende Fenneks soll man nicht wecken",
+        "panels": [
+          [
+            0.0061,
+            0.0182,
+            0.2388,
+            0.8815
+          ],
+          [
+            0.2571,
+            0.0182,
+            0.4837,
+            0.8815
+          ],
+          [
+            0.7541,
+            0.0182,
+            0.2398,
+            0.8815
+          ]
+        ]
       }
     ],
-    "credit": "e.o.plauen (Erich Ohser), 1935, gemeinfrei",
-    "link": "https://de.wikipedia.org/wiki/Vater_und_Sohn",
-    "linkTitle": "Mehr über Vater und Sohn"
+    "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
+    "link": "https://www.sandraandwoo.com/woode/",
+    "linkTitle": "Mehr von Sandra und Woo"
   },
   "recommendation": {
-    "kind": "serie",
-    "label": "Serie",
-    "title": "The Gilded Age",
-    "creator": "Julian Fellowes",
-    "year": "2022",
-    "text": "Die Kritik feiert die vierte Staffel als „TV-Kaviar“: dekadent, genüsslich und rundum entzückend. Sie verbindet hohe Handwerkskunst mit einer ordentlichen Portion altmodischem Camp. Wer prächtige Kostüme und Intrigen im New York des 19. Jahrhunderts mag, ist hier genau richtig.",
-    "forWhom": "Für alle, die gern in opulente Kostümwelten mit Augenzwinkern eintauchen.",
-    "link": "https://de.wikipedia.org/wiki/The_Gilded_Age",
-    "source": {
-      "name": "Decider",
-      "url": "https://decider.com/2026/10/27/the-gilded-age-season-4-on-hbo-review/"
-    }
+    "kind": "podcast",
+    "label": "Podcast",
+    "title": "Methodisch inkorrekt!",
+    "creator": "Nicolas Wöhrl und Reinhard Remfort",
+    "year": "2013",
+    "text": "Zwei Physiker sprechen über Wissenschaftsnachrichten, Alltagsphänomene und skurrile Studien und bleiben dabei immer locker. Der Podcast ist einer der bekanntesten deutschen Wissenschaftspodcasts und zeigt, wie unterhaltsam Neugier sein kann.",
+    "forWhom": "Für alle, die gern lachen und dabei nebenbei etwas Neues lernen.",
+    "link": "https://de.wikipedia.org/wiki/Methodisch_inkorrekt%21",
+    "source": null
   },
   "weekly": null,
   "quiz": {
     "questions": [
       {
-        "storyID": "2026-10-28-03",
-        "question": "Welcher Torhüter von Fleetwood hielt drei Elfmeter von Arsenal?",
+        "storyID": "2026-10-29-02",
+        "question": "Wo entsteht der Great Koala National Park?",
         "options": [
-          "Jay Lynch",
-          "Conor Haughey",
-          "Aaron Loupalo-Bi",
-          "Viktor Gyokeres"
-        ],
-        "answer": 0
-      },
-      {
-        "storyID": "2026-10-28-05",
-        "question": "Wohin schickt der Sensor des ETH-Implantats sein Signal, wenn der Zucker zu hoch ist?",
-        "options": [
-          "An den Hausarzt",
-          "An Smartphone oder Smartwatch",
-          "An eine Insulinpumpe",
-          "An ein Krankenhaus"
+          "Im Südwesten von Victoria",
+          "Im Nordosten von New South Wales",
+          "Im Norden von Queensland",
+          "Auf Tasmanien"
         ],
         "answer": 1
       },
       {
-        "storyID": "2026-10-28-12",
-        "question": "Welche Form hat das A im Alphabet von César Cid?",
+        "storyID": "2026-10-29-04",
+        "question": "Wer hat das neue Badehaus in Kopenhagen entworfen?",
         "options": [
-          "Ein Hai",
-          "Ein Mädchen mit Ballon",
-          "Eine Suppendose",
-          "Eine Banane"
+          "Bjarke Ingels",
+          "Zaha Hadid",
+          "Kengo Kuma",
+          "Norman Foster"
         ],
         "answer": 2
+      },
+      {
+        "storyID": "2026-10-29-07",
+        "question": "Welche Ladeleistung schafft der neue Schnelllader von Allye?",
+        "options": [
+          "150 Kilowatt",
+          "400 Kilowatt",
+          "600 Kilowatt",
+          "50 Kilowatt"
+        ],
+        "answer": 1
       }
     ]
   },
   "regional": [
     {
-      "id": "2026-10-28-r01",
+      "id": "2026-10-29-r01",
       "ressort": "region",
       "regions": [
-        "NI"
+        "HE"
       ],
-      "kicker": "Landkreis Cloppenburg",
-      "headline": "Fischotter nach rund 70 Jahren zurück im Landkreis Cloppenburg",
-      "teaser": "In Kampe und Barßel haben Jäger im Sommer Fischotter entdeckt. Es ist das erste Mal seit rund 70 Jahren. Nun wird beobachtet, ob die Tiere dauerhaft bleiben.",
+      "kicker": "Wiesbaden",
+      "headline": "Sozialpreis für Wiesbadener Technikhilfe \"Die gute Stunde\"",
+      "teaser": "Das Projekt \"Die gute Stunde\" aus Wiesbaden hilft Menschen ab 60 Jahren kostenlos bei Fragen zu Smartphone, Tablet und PC. Die Hilfe gibt es am Telefon und in Online-Veranstaltungen. Dafür gab es den hessischen Sozialpreis 2026 mit 12.000 Euro.",
       "blocks": [],
-      "whyGood": "Sauberere Gewässer und Schutzmaßnahmen bringen die Fischotter zurück.",
-      "honestNote": "Noch ist offen, ob sich die Fischotter im Landkreis dauerhaft niederlassen.",
+      "whyGood": "Wer Technik nicht versteht, bekommt geduldige Hilfe und findet dabei oft neue Gespräche gegen die Einsamkeit.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/otter-zurueck-im-landkreis-cloppenburg-nach-mehr-als-70-jahren,aktuelloldenburg-4726.html",
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/gesellschaft/projekt-die-gute-stunde-gewinnt-sozialpreis-fuer-hilfe-gegen-technikfrust-und-einsamkeit-im-alter-v1,sozialpreis-digitale-projekte-senioren-hilfe-100.html",
           "language": "Deutsch"
         }
       ],
@@ -1556,63 +1458,28 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.ndr.de/image/06d44615-7aec-4973-aef3-ce6e50038f45/AAABkXhKKeA/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/otter-zurueck-im-landkreis-cloppenburg-nach-mehr-als-70-jahren,aktuelloldenburg-4726.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-r02",
-      "ressort": "region",
-      "regions": [
-        "HE"
-      ],
-      "kicker": "Frankfurt",
-      "headline": "Bridges Kammerorchester erhält den Binding-Kulturpreis 2026",
-      "teaser": "Das Frankfurter Bridges Kammerorchester wird mit dem Binding-Kulturpreis 2026 geehrt. 25 Musizierende aus 15 Nationen spielen dort zusammen, auch auf Instrumenten wie Oud, Kamanche und Kanun. Europaweit hat kein Orchester eine so große Vielfalt an Musikstilen.",
-      "blocks": [],
-      "whyGood": "Ein Orchester, das Kulturen zusammenbringt, bekommt einen der wichtigsten regionalen Kulturpreise Deutschlands.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "hessenschau",
-          "url": "https://www.hessenschau.de/kultur/binding-kulturpreis-2026-geht-an-bridges-kammerorchester---was-es-anders-macht-v1,bridges-orchester-binding-kulturpreis-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Kamanche",
-          "text": "Die Kamanche ist eine persische Geige mit einem Stachel wie ein Cello. Sie ruht beim Spielen auf diesem Stachel. Im Iran ist sie weit verbreitet."
-        }
-      ],
-      "image": {
-        "url": "https://images.tagesschau.de/image/54303ba0-395b-412c-85bb-82ca99b34f41/AAABoX4lvuM/AAABnSSvgNE/16x9-1920.jpg",
+        "url": "https://images.tagesschau.de/image/9ada5781-beb4-47cb-b0df-ad3b5039e3b2/AAABoYNIaUw/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "hessenschau",
-        "source": "https://www.hessenschau.de/kultur/binding-kulturpreis-2026-geht-an-bridges-kammerorchester---was-es-anders-macht-v1,bridges-orchester-binding-kulturpreis-100.html",
+        "source": "https://www.hessenschau.de/gesellschaft/projekt-die-gute-stunde-gewinnt-sozialpreis-fuer-hilfe-gegen-technikfrust-und-einsamkeit-im-alter-v1,sozialpreis-digitale-projekte-senioren-hilfe-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r03",
+      "id": "2026-10-29-r02",
       "ressort": "region",
       "regions": [
-        "RP"
+        "BW"
       ],
-      "kicker": "Mainz",
-      "headline": "Mainzer Fünftklässler programmieren Botschaften für die ISS",
-      "teaser": "24 Fünftklässler des Schlossgymnasiums Mainz schreiben Programme für die Raumstation ISS. Sie sollen in ein paar Monaten die Astronauten unterhalten. Das Gymnasium macht dafür bei einer Initiative der Europäischen Weltraumorganisation ESA mit.",
+      "kicker": "Dornstadt",
+      "headline": "Dornstadt schnitzt Rübengeister statt Halloween-Kürbisse",
+      "teaser": "In Dornstadt im Alb-Donau-Kreis haben Kinder und Eltern gemeinsam Rübengeister geschnitzt. Der alte schwäbische Brauch ist älter als das Kürbisfest aus den USA. Mit 100 Kindern kamen so viele wie noch nie.",
       "blocks": [],
-      "whyGood": "Kinder lernen mit Spaß Programmieren und lösen knifflige Probleme selbst, und am Ende landet ihr Werk im Weltall.",
+      "whyGood": "Ein alter Brauch lebt wieder auf und begeistert so viele Kinder wie nie zuvor.",
       "honestNote": null,
       "sources": [
         {
           "name": "SWR",
-          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/schlossgymnasium-schueler-programmieren-fuer-raumstation-iss-100.html",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/rueben-schnitzen-tradition-hilmahexa-halloween-dornstadt-100.html",
           "language": "Deutsch"
         }
       ],
@@ -1621,28 +1488,28 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.tagesschau.de/image/d4482819-d15c-4285-87a6-f00d9e9efc2d/AAABoX22CA8/AAABnSSvgNE/16x9-1920.jpg",
+        "url": "https://images.tagesschau.de/image/a65bf799-9743-400a-b82e-4c93a04a92fb/AAABoYLgG-U/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "SWR",
-        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/schlossgymnasium-schueler-programmieren-fuer-raumstation-iss-100.html",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/rueben-schnitzen-tradition-hilmahexa-halloween-dornstadt-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r04",
+      "id": "2026-10-29-r03",
       "ressort": "region",
       "regions": [
-        "SN"
+        "BY"
       ],
-      "kicker": "Ringenhain",
-      "headline": "381 Menschen helfen Biathlonverein bei Ringenhain zum Sieg",
-      "teaser": "Der Oberlausitzer Biathlonverein Ringenhain hat bei „Vereint stark“ 2.500 Euro für seine Nachwuchsarbeit gewonnen. Gefragt waren 82 Helfer, gekommen sind 381, teils als Bäume oder Rocker verkleidet. Vom Geld kauft der Verein zwei Sportgewehre.",
+      "kicker": "München",
+      "headline": "Para-Sportpreis in München: Jakob Klinge ist Sportler des Jahres",
+      "teaser": "Der Behinderten- und Rehabilitations-Sportverband Bayern hat in München seine Para-Sportpreise vergeben. Rad-Profi Jakob Klinge wurde Para-Sportler des Jahres. Er war Europameister im Straßenrennen. Die Kletterin Ronja Bauer wurde Nachwuchssportlerin des Jahres.",
       "blocks": [],
-      "whyGood": "Ein ganzer Ort hat zusammengehalten, und nun profitieren die jungen Sportlerinnen und Sportler im Verein.",
+      "whyGood": "Para-Sportlerinnen und Para-Sportler bekommen Anerkennung, und auch ein Verein für mehr Teilhabe wurde geehrt.",
       "honestNote": null,
       "sources": [
         {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen/bautzen/bautzen-hoyerswerda-kamenz/gewinn-2500-euro-aktion-vereint-stark,biathlonverein-ringenhain-100.html",
+          "name": "BR24 Oberbayern",
+          "url": "https://www.br.de/nachrichten/sport/bsv-verleiht-para-sportpreis-klinge-wird-sportler-des-jahres,VZLEZgL",
           "language": "Deutsch"
         }
       ],
@@ -1651,253 +1518,233 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.mdr.de/image/8e9e2a82-ceef-4a8e-9d87-d0e156121058/AAABoXj7O1E/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen/bautzen/bautzen-hoyerswerda-kamenz/gewinn-2500-euro-aktion-vereint-stark,biathlonverein-ringenhain-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-r05",
-      "ressort": "region",
-      "regions": [
-        "BY"
-      ],
-      "kicker": "Aschau",
-      "headline": "Polka statt House: Blasmusik füllt die Disko Eiskeller",
-      "teaser": "In Aschau spielen bei „Blech trifft Club“ bayerische Musiker im Eiskeller unter Schloss Hohenaschau. Die Tanzfläche füllt sich schnell, Junge und Ältere feiern in Tracht zusammen. Die Betreiber planen schon weitere Abende.",
-      "blocks": [],
-      "whyGood": "Tradition und Clubkultur finden zusammen, und Jung und Alt tanzen gemeinsam.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BR24 Oberbayern",
-          "url": "https://www.br.de/nachrichten/bayern/blech-trifft-club-blasmusik-in-aschauer-disko-ein-erfolg,VZEUTsj",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://img.br.de/663502c6-9760-4a30-8874-8d7ccb6a36dd.jpeg?q=80&rect=4%2C27%2C1870%2C1053&w=1600&h=900",
+        "url": "https://img.br.de/41fb5967-497a-4385-a070-f9fc382b8115.jpeg?q=80&rect=9%2C70%2C1991%2C1120&w=1600&h=900",
         "credit": "BR24 Oberbayern",
-        "source": "https://www.br.de/nachrichten/bayern/blech-trifft-club-blasmusik-in-aschauer-disko-ein-erfolg,VZEUTsj",
+        "source": "https://www.br.de/nachrichten/sport/bsv-verleiht-para-sportpreis-klinge-wird-sportler-des-jahres,VZLEZgL",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r06",
+      "id": "2026-10-29-r04",
       "ressort": "region",
       "regions": [
-        "BY"
+        "HE"
       ],
-      "kicker": "München-Harlaching",
-      "headline": "Neue Struktur verkürzt Wartezeit in Münchner Notaufnahme",
-      "teaser": "Das Klinikum Harlaching hat seine Notaufnahme umgebaut. Nach Klinikangaben werden Patienten deutlich schneller behandelt, der Wartebereich bleibt oft leer. Das Konzept stammt vom Notfallmediziner Tim Flasbeck, der auch die Notaufnahme in Cottbus neu gestaltet hat.",
+      "kicker": "Wiesbaden",
+      "headline": "Erster hessischer Verfassungspreis geht an Demnig und Nguyen-Kim",
+      "teaser": "Im Landtag in Wiesbaden ist zum ersten Mal der hessische Verfassungspreis verliehen worden. Ihn erhalten der Stolpersteine-Künstler Gunter Demnig und die Wissenschaftsjournalistin Mai Thi Nguyen-Kim. Sie stärken auf ihre Weise die Demokratie.",
       "blocks": [],
-      "whyGood": "Wer in der Notaufnahme Hilfe braucht, muss in Harlaching deutlich weniger warten.",
-      "honestNote": "Das Konzept wird in Harlaching erst seit rund einem Jahr erprobt.",
+      "whyGood": "Zwei Menschen werden geehrt, die mit Erinnerung und verständlicher Wissenschaft die Demokratie stärken.",
+      "honestNote": "Der Preis ist neu und undotiert, er bringt eine Urkunde und eine Bronzeskulptur in Löwenform.",
       "sources": [
         {
-          "name": "BR24 Oberbayern",
-          "url": "https://www.br.de/nachrichten/bayern/neues-system-schneller-in-der-notaufnahme-was-hilft-konkret,VYmH1Yj",
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/gesellschaft/mai-thi-nguyen-kim-und-gunter-demnig-erhalten-ersten-hessischen-verfassungspreis-v2,verfassungspreis-verliehen-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://img.br.de/aa9c0f59-8b10-481e-a61f-eb0d0fff5fc4.jpeg?q=80&rect=17%2C0%2C1884%2C1060&w=1600&h=900",
-        "credit": "BR24 Oberbayern",
-        "source": "https://www.br.de/nachrichten/bayern/neues-system-schneller-in-der-notaufnahme-was-hilft-konkret,VYmH1Yj",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-r07",
-      "ressort": "region",
-      "regions": [
-        "BE"
-      ],
-      "kicker": "Berlin",
-      "headline": "Berlinale zeigt unveröffentlichtes Bowie-Konzert als Weltpremiere",
-      "teaser": "Die Berlinale zeigt im Februar neu entdecktes Filmmaterial von David Bowies Isolar-II-Tournee von 1978. Das Publikum erlebt die Show auf drei Leinwänden und LED-Bildschirmen, mit Licht und Sound. Regisseur Brett Morgen hatte die Kameranegative bei der Arbeit an „Moonage Daydream“ gefunden.",
-      "blocks": [],
-      "whyGood": "Ein verloren geglaubtes Bowie-Konzert kehrt in die Stadt zurück, in der er sein Album „Heroes“ aufnahm.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "rbb24",
-          "url": "https://www.rbb24.de/kultur/beitrag/2026/10/berlinale-konzertmaterial-david-bowie-filmfestspiele.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
+      "score": 7,
       "country": "DE",
       "terms": [
         {
-          "term": "immersiv",
-          "text": "Immersiv bedeutet, dass man mithilfe von Medien in eine Welt eintaucht und mittendrin ist, statt nur zuzuschauen."
+          "term": "Stolpersteine",
+          "text": "Stolpersteine sind kleine Gedenktafeln im Boden. Sie erinnern vor dem letzten Wohnort an Menschen, die in der NS-Zeit verfolgt wurden."
         }
       ],
       "image": {
-        "url": "https://images.tagesschau.de/image/521db561-0bc8-4f02-a9ae-5db341dbcd9d/AAABoX5N_fI/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "rbb24",
-        "source": "https://www.rbb24.de/kultur/beitrag/2026/10/berlinale-konzertmaterial-david-bowie-filmfestspiele.html",
+        "url": "https://images.tagesschau.de/image/73f92f27-5fe9-4a6b-904d-9b7ebe9456f8/AAABoYSDVCU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/gesellschaft/mai-thi-nguyen-kim-und-gunter-demnig-erhalten-ersten-hessischen-verfassungspreis-v2,verfassungspreis-verliehen-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r08",
+      "id": "2026-10-29-r05",
       "ressort": "region",
       "regions": [
-        "BB"
+        "SH"
       ],
-      "kicker": "Rathenow",
-      "headline": "Rathenow baut DDR-Plattenbau für Senioren barrierefrei um",
-      "teaser": "In Rathenow baut die Wohnungsbaugenossenschaft einen Plattenbau vom Typ WBS 70 um. Es entstehen Aufzüge, ebenerdige Bäder und weniger Stufen. Ältere Mitglieder sollen so länger selbstständig in ihrer Wohnung leben können.",
+      "kicker": "Passade, Kreis Plön",
+      "headline": "Hof Moorhörn ist „Hofladen des Jahres 2026“",
+      "teaser": "Der Hof Moorhörn in Passade hat sich gegen 137 andere Direktvermarkter aus Deutschland, Österreich und der Schweiz durchgesetzt. Die Familie Klindt stellt Beeren in den Mittelpunkt, auch gefriergetrocknet. Der Preis geht erstmals nach Schleswig-Holstein.",
       "blocks": [],
-      "whyGood": "Ältere Menschen können in ihrer vertrauten Wohnung bleiben, und der Großteil des Gebäudes bleibt erhalten.",
-      "honestNote": "Es ist zunächst ein Pilotprojekt an einem einzelnen Gebäude.",
-      "sources": [
-        {
-          "name": "rbb24",
-          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/havelland-rathenow-ddr-platte-sanierung-wbs70.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "WBS 70",
-          "text": "WBS 70 ist ein Typ von Plattenbauten, der in der DDR gebaut wurde. Die Wohnungen bestehen aus vorgefertigten Betonplatten."
-        }
-      ],
-      "image": {
-        "url": "https://images.tagesschau.de/image/b75760d5-e95e-4ef3-b942-eb1f60ef51c9/AAABoX4rMnI/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "rbb24",
-        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/havelland-rathenow-ddr-platte-sanierung-wbs70.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-r10",
-      "ressort": "region",
-      "regions": [
-        "HH"
-      ],
-      "kicker": "Hamburg-Farmsen",
-      "headline": "Eissporthalle Farmsen wird für 1,1 Millionen Euro saniert",
-      "teaser": "Die Eissporthalle in Farmsen wird saniert. Der Senat rechnet mit Kosten von 1,1 Millionen Euro. Eine Luft-Wärmepumpe ersetzt die kaputte Heizung, außerdem gibt es mehr Brandschutz und neue Sicherheitsbeleuchtung. So bleibt die Halle für die Eissportvereine der Stadt erhalten.",
-      "blocks": [],
-      "whyGood": "Die Halle bleibt offen und bekommt eine neue, moderne Heizung, damit alle Eissportvereine Hamburgs weiter Platz auf dem Eis haben.",
-      "honestNote": "Nur die neue Heizung hat bisher einen festen Zeitplan, sie soll im kommenden Jahr fertig sein.",
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/hamburg/hamburger-senat-gibt-geld-fuer-eissporthalle-in-farmsen-frei,eissportanlage-104.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Luft-Wärmepumpe",
-          "text": "Eine Luft-Wärmepumpe holt Wärme aus der Außenluft und macht daraus Heizwärme. Sie braucht dafür deutlich weniger Strom, als sie an Wärme liefert."
-        }
-      ],
-      "image": {
-        "url": "https://images.ndr.de/image/eeef03bb-a79d-4c7b-b294-2ede5072c463/AAABoTTtvYQ/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/hamburg/hamburger-senat-gibt-geld-fuer-eissporthalle-in-farmsen-frei,eissportanlage-104.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-r12",
-      "ressort": "region",
-      "regions": [
-        "MV"
-      ],
-      "kicker": "Vorpommern-Rügen",
-      "headline": "Bogenschützin Bianca Bade ist Sportlerin des Jahres",
-      "teaser": "Bianca Bade aus Marlow ist Sportlerin des Jahres im Landkreis Vorpommern-Rügen. Die 45-jährige Marinesoldatin schießt erst seit fünf Jahren mit dem Bogen. Trotzdem wurde sie schon mehrfach Landes-, Europa- und Weltmeisterin.",
-      "blocks": [],
-      "whyGood": "Eine Quereinsteigerin zeigt, dass man auch mit 40 noch zur Weltspitze finden kann.",
+      "whyGood": "Ein Familienbetrieb aus dem Norden gewinnt mit seinen Beeren und eigenen Ideen den wichtigen Preis für Hofläden.",
       "honestNote": null,
       "sources": [
         {
           "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/bogenschuetzin-ist-sportlerin-des-jahres-im-kreis-vorpommern-ruegen,mvregiogreifswald-6076.html",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/hofladen-des-jahres-2026-auszeichung-fuer-hof-moorhoern,hofladen-114.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 6,
+      "score": 7,
       "country": "DE",
-      "terms": [],
+      "terms": [
+        {
+          "term": "Direktvermarkter",
+          "text": "Das sind Betriebe, die ihre Produkte selbst an Kundinnen und Kunden verkaufen, zum Beispiel im Hofladen, und nicht über den Handel."
+        }
+      ],
       "image": {
-        "url": "https://images.ndr.de/image/3e15248b-3d11-4d7e-88aa-e44fe2674d6b/AAABoX4FpHE/AAABnSSvmjA/16x9-640.jpg",
+        "url": "https://images.ndr.de/image/b706e71e-5f77-4fa2-9c79-c82c3dd1a485/AAABoYG7OPY/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/bogenschuetzin-ist-sportlerin-des-jahres-im-kreis-vorpommern-ruegen,mvregiogreifswald-6076.html",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/hofladen-des-jahres-2026-auszeichung-fuer-hof-moorhoern,hofladen-114.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r13",
+      "id": "2026-10-29-r06",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Altenmoor, Kreis Steinburg",
+      "headline": "Neuer Lebensraum für Moorfrosch und Kiebitz in der Krempermarsch",
+      "teaser": "Bei Altenmoor im Kreis Steinburg rückt der Bagger an. Die Ausgleichsagentur Schleswig-Holstein gestaltet knapp elf Hektar Grünland um. Entwässerungsrohre werden unterbrochen und Gräben umgebaut, damit das Wasser länger auf den Wiesen bleibt.",
+      "blocks": [],
+      "whyGood": "Kiebitze, Libellen und der Moorfrosch bekommen mehr Platz zum Leben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/dithmarschen_steinburg/krempermarsch-neuer-lebensraum-fuer-moorfroesche-und-wiesenvoegel,regionheidenews-4072.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/c3b8a534-a83d-4010-b387-2fba3f668e46/AAABoYLaBwU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/dithmarschen_steinburg/krempermarsch-neuer-lebensraum-fuer-moorfroesche-und-wiesenvoegel,regionheidenews-4072.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-r07",
       "ressort": "region",
       "regions": [
         "NI"
       ],
-      "kicker": "Nordhorn",
-      "headline": "Nordhorn eröffnet neues Lernforum für die berufliche Bildung",
-      "teaser": "In Nordhorn hat das Lernforum des Campus Berufliche Bildung eröffnet. Schüler können dort Räume zum Lernen und für Gruppenarbeit buchen. Es gibt 15 Lernräume und einen flexiblen Veranstaltungsraum. Der Landkreis Grafschaft Bentheim investierte rund 4,6 Millionen Euro.",
+      "kicker": "Grafschaft Bentheim",
+      "headline": "Landjugend sammelt 550 Tonnen Silofolie zum Recyceln",
+      "teaser": "Die Kreis-Landjugend in der Grafschaft Bentheim hat auf mehr als 400 landwirtschaftlichen Betrieben 550 Tonnen Silofolie eingesammelt. Eine Spezialfirma macht daraus Kunststoffgranulat. Aus ihm entstehen neue Silofolien.",
       "blocks": [],
-      "whyGood": "Schüler, Auszubildende und Lehrkräfte bekommen einen Ort, an dem sie in Ruhe lernen und sich austauschen können.",
+      "whyGood": "Die alte Folie landet nicht im Restmüll, sondern wird vollständig zu neuer Folie.",
       "honestNote": null,
       "sources": [
         {
           "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/nordhorn-neues-lernforum-will-einzigartigen-lernort-schaffen,aktuellosnabrueck-3022.html",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/recycling-aktion-landjugend-sammelt-550-tonnen-silofolie,aktuellosnabrueck-3034.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Kunststoffgranulat",
+          "text": "Das sind kleine Kunststoffkörner. Sie entstehen aus eingeschmolzenem Altplastik und dienen als Rohstoff, um neue Kunststoffprodukte herzustellen."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/c8442705-18d1-482e-8660-a30ff640eb71/AAABoYIOqdM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/recycling-aktion-landjugend-sammelt-550-tonnen-silofolie,aktuellosnabrueck-3034.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-r08",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Kusel",
+      "headline": "Großtomograph durchleuchtet 300 Millionen Jahre alte Ursaurier",
+      "teaser": "Am Remigiusberg bei Kusel wurden zwei Ursaurier ausgegraben. Sie könnten bisher unbekannte Arten sein. Der Großtomograph „Gulliver“ der RPTU Kaiserslautern scannt die Skelette, ohne sie zu beschädigen. Das Urweltmuseum Geoskop hofft auf neue Erkenntnisse.",
+      "blocks": [],
+      "whyGood": "Dank moderner Technik können Forscher seltene Fossilien untersuchen, ohne sie zu zerstören.",
+      "honestNote": "Ob es wirklich neue Arten sind, ist noch nicht geklärt.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/ursaurier-vom-remigiusberg-kusel-in-ct-der-rptu-untersucht-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 6,
       "country": "DE",
-      "terms": [],
+      "terms": [
+        {
+          "term": "Tomograph",
+          "text": "Ein Tomograph ist ein Gerät, das mit Röntgenstrahlen viele Bilder aus verschiedenen Richtungen macht. Der Computer setzt daraus ein Bild vom Inneren eines Objekts zusammen."
+        }
+      ],
       "image": {
-        "url": "https://images.ndr.de/image/b4568b10-9364-4785-bf2b-2fcf690c48eb/AAABnDKnxJo/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/nordhorn-neues-lernforum-will-einzigartigen-lernort-schaffen,aktuellosnabrueck-3022.html",
+        "url": "https://images.tagesschau.de/image/ace6288a-f28e-4116-8715-735175612e6a/AAABoYN9jXU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/ursaurier-vom-remigiusberg-kusel-in-ct-der-rptu-untersucht-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r14",
+      "id": "2026-10-29-r09",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Göttingen",
+      "headline": "Göttingen baut Zentrum für Hörforschung mit Licht",
+      "teaser": "In Göttingen ist der Grundstein für den Neubau des Instituts für Auditorische Neurowissenschaft gelegt worden. Das Team um Tobias Moser forscht an Hörimplantaten, die den Hörnerv mit Licht statt mit Strom ansteuern. Der Bau kostet 38,3 Millionen Euro.",
+      "blocks": [],
+      "whyGood": "Die Forschung weckt Hoffnung auf bessere Hilfe für Menschen mit Hörstörungen.",
+      "honestNote": "Die Therapie mit Licht wird noch erforscht und ist noch nicht im Alltag angekommen.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/hoerforschung-in-goettingen-grundstein-fuer-neues-gebaeude-gelegt,hoerforschung-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Optogenetik",
+          "text": "Dabei werden Zellen mit einem lichtempfindlichen Eiweiß ausgestattet. So lassen sie sich mit Licht steuern."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/06cbf239-66b2-4544-bd27-7ac583b078f4/AAABlhv4NpU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/hoerforschung-in-goettingen-grundstein-fuer-neues-gebaeude-gelegt,hoerforschung-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-r10",
       "ressort": "region",
       "regions": [
         "SN"
       ],
-      "kicker": "Leipzig",
-      "headline": "Tupoka Ogette erhält den Louise-Otto-Peters-Preis",
-      "teaser": "Die Stadt Leipzig zeichnet die Autorin Tupoka Ogette mit dem Louise-Otto-Peters-Preis aus. Der Preis ist mit 5.000 Euro dotiert. Die 46-Jährige wird für ihr Engagement für Gleichstellung und Selbstbestimmung geehrt.",
+      "kicker": "Chemnitz",
+      "headline": "Billardclub Chemnitz gewinnt 2.500 Euro für neues Licht",
+      "teaser": "Der 1. Billardclub Chemnitz hat bei der Aktion „Vereint stark“ von MDR SACHSEN und der Deutschen Fernsehlotterie 2.500 Euro gewonnen. Der Verein erkannte den Promi des Tages und löste die Tagesaufgabe. Mit dem Geld kommt neue Beleuchtung über die Billardtische.",
       "blocks": [],
-      "whyGood": "Eine Leipziger Autorin wird dafür geehrt, dass sie Räume für Gespräche über Identität, Gleichberechtigung und Zusammenhalt schafft.",
+      "whyGood": "Ein Verein bekommt Hilfe von Vätern, Töchtern und Freiwilligen und kann nun sein Vereinsheim besser ausleuchten.",
       "honestNote": null,
       "sources": [
         {
           "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/tupoka-ogette-peters-preis-kultur-news-100.html",
+          "url": "https://www.mdr.de/nachrichten/sachsen/chemnitz/chemnitz-stollberg/gewinn-billiardclub,vereint-stark-170.html",
           "language": "Deutsch"
         }
       ],
@@ -1906,118 +1753,87 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.mdr.de/image/2f7e32a1-d087-4462-888f-de7155d99497/AAABoXjGyEA/AAABnSSveow/16x9-1280.jpg",
+        "url": "https://images.mdr.de/image/b7b9fdd8-e6ca-4dc9-8f6c-796bcef90bbd/AAABoX3DuwU/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/tupoka-ogette-peters-preis-kultur-news-100.html",
+        "source": "https://www.mdr.de/nachrichten/sachsen/chemnitz/chemnitz-stollberg/gewinn-billiardclub,vereint-stark-170.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r15",
+      "id": "2026-10-29-r11",
       "ressort": "region",
       "regions": [
         "ST"
       ],
-      "kicker": "Burgenlandkreis",
-      "headline": "Kloster Pforta sucht Winzer für zwei Weinberge",
-      "teaser": "Sachsen-Anhalts Landesweingut Kloster Pforta sucht Betriebe, die den Heideberg bei Eulau und das „Naumburger Paradies“ bewirtschaften. Gefragt sind vor allem Winzer aus der Saale-Unstrut-Region. Die Trauben sollen weiter im Kloster verarbeitet werden.",
+      "kicker": "Halle (Saale)",
+      "headline": "„Wetten, dass..?“ in Halle bekommt eine Vorab-Show",
+      "teaser": "Das ZDF zeigt vor „Wetten, dass..?“ am 5. Dezember in Halle eine Vorab-Show. Sie beginnt 50 Minuten vor der Sendung, mit dabei ist Lutz van der Horst. Für die Ausgabe mit Bill und Tom Kaulitz gingen 250.000 Ticketwünsche ein, so viele wie noch nie.",
       "blocks": [],
-      "whyGood": "Die Weinberge bleiben im Besitz des Landesweinguts, und neue Betriebe aus der Region bekommen die Chance, hier zu arbeiten.",
-      "honestNote": "Die Bewirtschaftung durch andere Betriebe ist zunächst auf zwei Jahre begrenzt.",
+      "whyGood": "Das große Interesse zeigt, dass die Fernsehshow in Halle viele Menschen begeistert.",
+      "honestNote": "Die Neuauflage mit den Kaulitz-Brüdern ist einmalig, weitere Ausgaben sind nicht geplant.",
       "sources": [
         {
           "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/burgenland/weinberge-winzer-wirtschaft,landesweingut-flaechen-100.html",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/kaulitz-vorab-sendung,wetten-dass-178.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 6,
       "country": "DE",
-      "terms": [],
+      "terms": []
+    },
+    {
+      "id": "2026-10-29-r12",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Reichmannsdorf",
+      "headline": "Thüringen hat ein achtes Wolfsterritorium",
+      "teaser": "In Reichmannsdorf im Kreis Saalfeld-Rudolstadt ist ein neues Wolfsterritorium bestätigt. Im Frühjahr zeigte eine Fotofalle erste Tiere. Ein halbes Jahr lang meldeten Jäger Sichtungen. Deshalb gilt ein Wolfspaar dort als sesshaft.",
+      "blocks": [],
+      "whyGood": "Die Wölfe kehren nach Thüringen zurück, rund 30 Tiere leben dort inzwischen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saalfeld-rudolstadt/woelfe,wolfsterritorium-reichmannsdorf-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Wolfsterritorium",
+          "text": "Ein Wolfsterritorium ist das Gebiet, in dem ein Wolfspaar oder ein Rudel dauerhaft lebt."
+        }
+      ],
       "image": {
-        "url": "https://images.mdr.de/image/3d832c59-4810-4f30-9330-299c7d3966f5/AAABoXnG9V4/AAABnSSvgNE/16x9-1920.jpg",
+        "url": "https://images.mdr.de/image/d8c4a61d-2f9e-4bf0-b709-db2fb95d32c2/AAABoEhlSjA/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/burgenland/weinberge-winzer-wirtschaft,landesweingut-flaechen-100.html",
+        "source": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saalfeld-rudolstadt/woelfe,wolfsterritorium-reichmannsdorf-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r16",
+      "id": "2026-10-29-r13",
       "ressort": "region",
       "regions": [
-        "SH"
+        "SL"
       ],
-      "kicker": "Nordfriesland",
-      "headline": "Spanischer Mönchsgeier zu Gast bei Struckum",
-      "teaser": "Bei Struckum im Kreis Nordfriesland hält sich ein Mönchsgeier auf den Wiesen auf. Der beringte Vogel schlüpfte vor vier Jahren nördlich von Madrid. Wahrscheinlich trugen ihn günstige Luftströmungen über die Alpen nach Deutschland.",
+      "kicker": "Berus",
+      "headline": "Opernfestspiele spielen ab 2027 mit der Radio Philharmonie",
+      "teaser": "Die Deutsche Radio Philharmonie wird musikalischer Partner der Opernfestspiele. Im August 2027 gibt es Puccinis „Tosca“ in sechs Vorstellungen. Gespielt wird am historischen Europa-Sender in Berus, unter freiem Himmel.",
       "blocks": [],
-      "whyGood": "Einer der größten Geier der Welt zeigt sich in Nordfriesland und macht die Region zum Ziel für Vogelfreunde.",
+      "whyGood": "Große Oper bekommt einen starken musikalischen Partner und einen besonderen neuen Ort im Saarland.",
       "honestNote": null,
       "sources": [
         {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/moenchsgeier-in-nordfriesland-gesichtet,regionflensburgnews-3664.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/acbb12b2-2fec-4b58-8a7f-7d6460e7e3c5/AAABoXw8MYc/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/moenchsgeier-in-nordfriesland-gesichtet,regionflensburgnews-3664.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-r17",
-      "ressort": "region",
-      "regions": [
-        "SH"
-      ],
-      "kicker": "Neumünster",
-      "headline": "Tierpark Neumünster wird zum Waldtierpark mit heimischen Arten",
-      "teaser": "Die Stadt Neumünster will ihren Tierpark mit einem neuen Konzept sichern. Es soll ein Waldtierpark mit großzügigen Anlagen für Elche, Wisente und Luchse entstehen. Der alte Baumbestand bleibt dabei erhalten, und die Eintrittspreise sollen stabil bleiben.",
-      "blocks": [],
-      "whyGood": "Der Tierpark bekommt eine Zukunft, und heimische Tiere erhalten viel Platz unter alten Bäumen.",
-      "honestNote": "Der Umbau soll mindestens fünf Jahre dauern, und die Gesamtkosten stehen noch nicht fest.",
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/tierpark-neumuenster-vor-neustart-fokus-auf-heimische-arten,tierpark-154.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/fc5e9268-d0db-48ad-80b2-4f24af7ac8fc/AAABkWtF9GM/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/tierpark-neumuenster-vor-neustart-fokus-auf-heimische-arten,tierpark-154.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-10-28-r18",
-      "ressort": "region",
-      "regions": [
-        "BE"
-      ],
-      "kicker": "Berlin",
-      "headline": "Berliner Ensemble stellt Regenbogenbank auf",
-      "teaser": "Am Berliner Ensemble steht jetzt eine Bank in Regenbogenfarben. Sie ist ein Zeichen der Solidarität mit der queeren Community. Weitere Kulturhäuser wie das Deutsche Theater, das Maxim-Gorki-Theater und die Staatsoper Unter den Linden machen in den kommenden Tagen mit.",
-      "blocks": [],
-      "whyGood": "Berlins Kultureinrichtungen setzen gemeinsam ein sichtbares Zeichen für Vielfalt und ein friedliches Miteinander.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "rbb24",
-          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/berliner-ensemble-regenbogenbank-kulturinstitutionen-queerfeindlichkeit.html",
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/der_sr/so_kommunizieren_wir/aktuell/20261018_drp_wird_partner_der_opernfestspiele_am_europa-sender_berus_100.html",
           "language": "Deutsch"
         }
       ],
@@ -2026,124 +1842,185 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.tagesschau.de/image/8fb47656-55ab-4579-ae57-2480b2458999/AAABoX2s9kM/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "rbb24",
-        "source": "https://www.rbb24.de/panorama/beitrag/2026/10/berliner-ensemble-regenbogenbank-kulturinstitutionen-queerfeindlichkeit.html",
+        "url": "https://images.tagesschau.de/image/2267f6cf-3a85-43f6-b3b1-22d2ac1b6553/AAABoYMgKno/AAABnSSveow/16x9-1280.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/der_sr/so_kommunizieren_wir/aktuell/20261018_drp_wird_partner_der_opernfestspiele_am_europa-sender_berus_100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-10-28-r19",
+      "id": "2026-10-29-r14",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Landkreis Rostock",
+      "headline": "Kreisstraße bei Diekhof ist komplett saniert",
+      "teaser": "Die Kreisstraße LRO 29 zwischen Knegendorf und Diekhof ist wieder befahrbar. Der dritte und letzte Bauabschnitt ist fertig. Damit ist die Straße zwischen Spoitgendorf und Diekhof ganz erneuert. Die Arbeiten an der Fahrbahn kosteten rund 3,2 Millionen Euro.",
+      "blocks": [],
+      "whyGood": "Autofahrer haben nun wieder eine durchgehend glatte, neue Straße ohne Baustelle.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/kreisstrasse-zwischen-knegendorf-und-diekhof-fertig-saniert,mvregiorostock-5146.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/0924aa94-1f58-4f62-99aa-2c151c624383/AAABoYOFdMI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/kreisstrasse-zwischen-knegendorf-und-diekhof-fertig-saniert,mvregiorostock-5146.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-10-29-r15",
       "ressort": "region",
       "regions": [
         "HB"
       ],
       "kicker": "Bremen",
-      "headline": "Bremen verteilt Kita-Geld nach dem Bedarf der Kinder",
-      "teaser": "Der Bremer Senat hat eine neue Kita-Finanzierung beschlossen. Kitas bekommen künftig mehr Geld, wenn sie viele Kinder mit Förderbedarf betreuen. Kitas mit Sprachförderung erhalten zusätzlich rund 1.000 Euro pro Jahr.",
+      "headline": "Alte Fibeln: Ausstellung zeigt, wie Kinder Lesen lernten",
+      "teaser": "Studierende der Universität Bremen zeigen alte Fibeln in einer Ausstellung. Mit diesen Büchern haben Kinder früher das Lesen gelernt. Besucher sehen, wie sich das Lernen im Lauf der Zeit verändert hat.",
       "blocks": [],
-      "whyGood": "Das Geld kommt dorthin, wo Kinder die meiste Unterstützung brauchen, und das System wird einfacher.",
-      "honestNote": "Das neue Konzept startet erst am 1. Januar 2028.",
+      "whyGood": "Junge Menschen machen die Geschichte des Lesenlernens für alle anschaulich.",
+      "honestNote": null,
       "sources": [
         {
           "name": "buten un binnen",
-          "url": "https://www.butenunbinnen.de/nachrichten/kitas-finanzierung-senat-bremen-100.html",
+          "url": "https://www.butenunbinnen.de/videos/schulmuseum-fibeln-abloesung-unterricht-lesen-schreiben-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 5,
       "country": "DE",
-      "terms": [],
+      "terms": [
+        {
+          "term": "Fibeln",
+          "text": "Fibeln sind Lehrbücher für den ersten Lese- und Schreibunterricht. Kinder lernen damit in der Grundschule die Buchstaben und das Lesen."
+        }
+      ],
+      "gallery": true,
       "image": {
-        "url": "https://images.tagesschau.de/image/702c09ec-3470-4242-9bb4-b2c40b6037bf/AAABoX7_mw4/AAABnSSvgNE/16x9-1920.jpg",
+        "url": "https://www.butenunbinnen.de/bilder/fibeln-museum-ausstellung-buecher-100~_v-1280x720_c-1793213612683.jpg",
         "credit": "buten un binnen",
-        "source": "https://www.butenunbinnen.de/nachrichten/kitas-finanzierung-senat-bremen-100.html",
+        "source": "https://www.butenunbinnen.de/videos/schulmuseum-fibeln-abloesung-unterricht-lesen-schreiben-100.html",
         "kind": "source"
       }
     }
   ],
   "recipe": {
-    "title": "Kürbis-Spinat-Eintopf mit roten Linsen",
-    "intro": "Jetzt im Herbst hat der Hokkaido Hochsaison. Mit Linsen, Spinat und Kokosmilch wird daraus ein cremiger, wärmender Eintopf, der in einem Topf gelingt.",
-    "servings": 4,
-    "minutes": 55,
+    "title": "Deftige Gulaschsuppe",
+    "intro": "Im späten Oktober wird es draußen kühl, und eine heiße Gulaschsuppe wärmt von innen. Sie gelingt ganz einfach, denn das meiste erledigt der Topf allein.",
+    "servings": 6,
+    "minutes": 110,
     "difficulty": "einfach",
     "ingredients": [
       {
+        "amount": 500,
+        "unit": "g",
+        "item": "Rindergulasch"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "Butterschmalz"
+      },
+      {
         "amount": 1,
         "unit": "Stück",
-        "item": "Hokkaidokürbis, mittelgroß"
+        "item": "große Zwiebel, fein gewürfelt"
       },
       {
-        "amount": 250,
-        "unit": "g",
-        "item": "Blattspinat, tiefgekühlt"
+        "amount": 2,
+        "unit": "Stück",
+        "item": "Knoblauchzehen, fein gewürfelt"
       },
       {
-        "amount": 400,
+        "amount": 800,
         "unit": "ml",
-        "item": "Kokosmilch (1 Dose)"
-      },
-      {
-        "amount": 750,
-        "unit": "ml",
-        "item": "Gemüsebrühe"
+        "item": "Rinderbrühe"
       },
       {
         "amount": 150,
-        "unit": "g",
-        "item": "rote Linsen"
+        "unit": "ml",
+        "item": "Rotwein"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Salz und Pfeffer"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "Zucker"
+      },
+      {
+        "amount": 3,
+        "unit": "TL",
+        "item": "rosenscharfes Paprikapulver"
+      },
+      {
+        "amount": 3,
+        "unit": "EL",
+        "item": "edelsüßes Paprikapulver"
       },
       {
         "amount": 2,
         "unit": "Stück",
-        "item": "Zwiebeln, mittelgroß"
+        "item": "Lorbeerblätter"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "item": "Tomatenmark"
+      },
+      {
+        "amount": 4,
+        "unit": "Zweig",
+        "item": "Majoran, Blätter grob gehackt"
+      },
+      {
+        "amount": 3,
+        "unit": "Stück",
+        "item": "große Kartoffeln, in Würfeln"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "große Karotte, in Scheiben"
       },
       {
         "amount": 2,
-        "unit": "Zehen",
-        "item": "Knoblauch"
+        "unit": "Stück",
+        "item": "Paprikaschoten, klein gewürfelt"
       },
       {
-        "amount": null,
-        "unit": null,
-        "item": "Salz"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "Pfeffer"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "Kurkumapulver"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "Koriandergrün"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "Öl zum Braten"
+        "amount": 0.5,
+        "unit": "Bund",
+        "item": "Petersilie, fein gehackt"
       }
     ],
     "steps": [
-      "Den Kürbis entkernen und das Fruchtfleisch in mundgerechte Stücke schneiden. Zwiebeln und Knoblauch schälen und fein hacken.",
-      "Etwas Öl in einem großen Topf erhitzen. Zwiebeln, Knoblauch und Kürbis darin bei mittlerer Hitze leicht anschwitzen.",
-      "Die Linsen kurz mitbraten, sie sollen nicht braun werden. Dann gleich mit der Brühe ablöschen.",
-      "Den gefrorenen Spinat zugeben und zugedeckt 15 bis 20 Minuten köcheln lassen. Ab und zu umrühren, damit sich der Spinat verteilt.",
-      "Die Kokosmilch einrühren und mit Salz, Pfeffer und Kurkuma würzen. Offen weitere 10 bis 15 Minuten köcheln, bis der Eintopf schön sämig ist.",
-      "Mit Koriandergrün bestreut servieren."
+      "Das Butterschmalz in einem großen Topf erhitzen. Das Rindfleisch darin etwa 5 Minuten anbraten und dabei öfter umrühren.",
+      "Zwiebel und Knoblauch dazugeben und weitere 5 Minuten mitdünsten.",
+      "Mit Brühe und Rotwein ablöschen. Salz, Pfeffer, Zucker, beide Paprikapulver, Lorbeer, Tomatenmark und Majoran einrühren.",
+      "Den Deckel auflegen und die Suppe bei kleiner Hitze etwa 60 Minuten schmoren lassen.",
+      "Kartoffeln, Karotte und Paprika zugeben. Weitere ca. 20 Minuten köcheln lassen, bis das Gemüse gar ist.",
+      "Lorbeerblätter herausnehmen, die Petersilie unterrühren, abschmecken und heiß servieren."
     ],
-    "tip": "Statt Koriander passt auch glatte Petersilie. Wer es scharf mag, gibt eine Prise Chili dazu.",
-    "icon": "leaf.fill",
+    "tip": "Dazu passt frisches Baguette. Die Suppe schmeckt am nächsten Tag aufgewärmt noch besser.",
+    "icon": "flame.fill",
     "source": {
       "name": "Chefkoch",
-      "url": "https://www.chefkoch.de/rezepte/2051831331801614/Kuerbis-Spinat-Eintopf-mit-Linsen.html"
+      "url": "https://www.chefkoch.de/rezepte/2183131350572745/Deftige-Gulaschsuppe.html"
     }
   }
 }
