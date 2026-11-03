@@ -1,0 +1,2151 @@
+{
+  "date": "2026-11-03",
+  "number": 36,
+  "isSample": false,
+  "leadStoryID": "2026-11-03-01",
+  "stories": [
+    {
+      "id": "2026-11-03-01",
+      "ressort": "kurioses",
+      "kicker": "Hull, England",
+      "headline": "Karl Bushby ist nach seiner Weltwanderung wieder zu Hause",
+      "teaser": "Der Engländer Karl Bushby ist zu Fuß in seine Heimatstadt Hull zurückgekehrt. Seine Mutter nahm ihn in Empfang.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "50.000",
+          "unit": "Kilometer",
+          "caption": "ist Karl Bushby zu Fuß gegangen, von Chile bis zurück nach Hull",
+          "icon": "figure.walk"
+        },
+        {
+          "type": "comparison",
+          "title": "Reisedauer und Gehzeit",
+          "before": {
+            "label": "Gelaufen",
+            "value": 15,
+            "display": "15 Jahre"
+          },
+          "after": {
+            "label": "Ganze Reise",
+            "value": 28,
+            "display": "28 Jahre"
+          }
+        },
+        {
+          "type": "quote",
+          "text": "Man muss einfach irgendwann diesen Schritt wagen und da raus gehen.",
+          "author": "Karl Bushby, Abenteurer"
+        }
+      ],
+      "whyGood": "Karl Bushby hat sein Ziel nach 28 Jahren erreicht. Er sieht seine Familie wieder, und seine Mutter und seine zwölfjährige Enkelin konnten ihn endlich in die Arme schließen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/bushby-lauf-100.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/karl-bushby-arrives-home/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "score": 8,
+      "country": "GB",
+      "terms": [],
+      "guess": {
+        "question": "Karl Bushbys Reise dauerte 28 Jahre. Wie viele Jahre davon war er wirklich zu Fuß unterwegs?",
+        "options": [
+          "Etwa 5 Jahre",
+          "Etwa 15 Jahre",
+          "Etwa 25 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Nach eigenen Worten lief er nur etwa 15 Jahre. Den Rest verbrachte er mit Warten und Organisieren.",
+        "icon": "figure.walk"
+      },
+      "image": {
+        "url": "https://images.tagesschau.de/image/688ee8d6-3e55-4916-8f91-46b5893a539a/AAABoZ2xu6Q/AAABnSSvrFg/16x9-big/bushby-102.jpg?width=1280",
+        "credit": "tagesschau",
+        "source": "https://www.tagesschau.de/ausland/bushby-lauf-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-02",
+      "ressort": "zukunft",
+      "kicker": "Kalifornien",
+      "headline": "Kalifornien erlaubt Steckersolar für Mieter",
+      "teaser": "Wer zur Miete wohnt, darf bald eigenen Solarstrom erzeugen. Gouverneur Gavin Newsom hat ein Gesetz für kleine Solarmodule unterschrieben.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 20,
+          "label": "des Strombedarfs einer Wohnung",
+          "caption": "So viel kann ein Steckersolar-System bis zu abdecken."
+        },
+        {
+          "type": "bigNumber",
+          "value": "500",
+          "unit": "US-Dollar",
+          "caption": "pro Jahr kann eine kleine Wohnung bis zu sparen.",
+          "icon": "banknote.fill"
+        },
+        {
+          "type": "comparison",
+          "title": "Kosten der Anmeldung",
+          "before": {
+            "label": "Bisher, bis zu",
+            "value": 800,
+            "display": "800 US-Dollar"
+          },
+          "after": {
+            "label": "Künftig",
+            "value": 0,
+            "display": "0 US-Dollar"
+          }
+        }
+      ],
+      "whyGood": "Solarstrom war bisher vor allem etwas für Hausbesitzer. Jetzt können auch Mieter und Haushalte mit wenig Geld ihre Stromrechnung senken.",
+      "honestNote": "Passende Geräte gibt es noch nicht, sie werden erst Mitte 2027 im Handel erwartet.",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/11/california-legalizes-balcony-solar-for-renters-and-beyond/",
+          "language": "Englisch"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Balkonkraftwerk-als-Exportschlager-Die-Welt-uebernimmt-deutsche-Regeln-11508094.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Steckersolar",
+          "text": "Das sind kleine Solarmodule, die man selbst aufstellt, zum Beispiel am Balkongeländer. Der Strom fließt in die Wohnung."
+        }
+      ],
+      "guess": {
+        "question": "Der wievielte US-Staat ist Kalifornien, der Steckersolar per Gesetz erlaubt?",
+        "options": [
+          "der dritte",
+          "der zehnte",
+          "der dreißigste"
+        ],
+        "answer": 1,
+        "reveal": "Kalifornien ist der zehnte Staat. Utah machte im März 2025 den Anfang.",
+        "icon": "sun.max.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/Balkonkraftwerk2-scaled-e1793582907457.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/11/california-legalizes-balcony-solar-for-renters-and-beyond/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-03",
+      "ressort": "wissenschaft",
+      "kicker": "Paläontologie",
+      "headline": "Spuren von Blut in Dinosaurier-Knochen entdeckt",
+      "teaser": "Forschende aus Australien haben im Bein eines kleinen Raubsauriers aus Brasilien Hinweise auf rote Blutkörperchen gefunden.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "115",
+          "unit": "Mio. Jahre",
+          "caption": "alt ist der Knochen des Aratasaurus, in dem die Spuren steckten",
+          "icon": "clock.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Runde Strukturen lagen in feinen Kanälen, wo einst Blutgefäße verliefen",
+            "Tests zeigten Häm, den Stoff, mit dem Blut Sauerstoff transportiert",
+            "Auch Bausteine von Kollagen wurden gefunden, einem wichtigen Eiweiß"
+          ],
+          "icons": [
+            "microbe.fill",
+            "flask.fill",
+            "bird.fill"
+          ]
+        }
+      ],
+      "whyGood": "Alte Fossilien können mehr über das Leben von Dinosauriern verraten als gedacht. Vielleicht lagern in Museen schon Funde, die neue Antworten bereithalten.",
+      "honestNote": "Ob es wirklich rote Blutkörperchen sind, muss noch bestätigt werden.",
+      "sources": [
+        {
+          "name": "Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone",
+          "language": "Englisch"
+        },
+        {
+          "name": "scinexx",
+          "url": "https://www.scinexx.de/news/biowissen/versteinertes-blut-eines-dinosauriers-in-115-millionen-jahre-altem-knochen-entdeckt/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "BR",
+      "terms": [
+        {
+          "term": "Häm",
+          "text": "Häm ist ein Stoff im Blut. Er sitzt im roten Blutfarbstoff und bindet Sauerstoff. Er macht das Blut rot."
+        },
+        {
+          "term": "Kollagen",
+          "text": "Kollagen ist ein Eiweiß, das Haut, Knochen und anderes Gewebe zusammenhält."
+        }
+      ],
+      "guess": {
+        "question": "Wie alt ist der Dinosaurier-Knochen, in dem die Spuren steckten?",
+        "options": [
+          "Etwa 11 Millionen Jahre",
+          "Etwa 115 Millionen Jahre",
+          "Etwa 500 Millionen Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Der Knochen des Aratasaurus aus Brasilien ist rund 115 Millionen Jahre alt.",
+        "icon": "bird.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/808d3d6670b293910bf2e300b7328a07c2c4872c/432_0_4320_3456/master/4320.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bf0d99ebf21cd5bf96faa729db390914",
+        "credit": "Guardian Science",
+        "source": "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-04",
+      "ressort": "lifestyle",
+      "kicker": "Schottland",
+      "headline": "Rentner baut sich den Porsche seiner Jugendträume selbst",
+      "teaser": "Bill Drysdale konnte sich den Sportwagen nie leisten. Nach dem Berufsleben lernte er schweißen und baute ihn in seiner Garage nach.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "1",
+          "unit": "Mio. Pfund",
+          "caption": "und mehr kostet ein echter Porsche 904 heute. Zu viel für Bill Drysdale.",
+          "icon": "banknote.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Er lernte in einem Abendkurs sechs Monate lang schweißen.",
+            "Die Karosserie formte er erst aus Holz, dann aus Gips und Fiberglas.",
+            "Chassis und Aufhängung baute er komplett selbst."
+          ],
+          "icons": [
+            "flame.fill",
+            "hammer.fill",
+            "wrench.and.screwdriver.fill"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Ich glaube fest daran, dass man einen Traum haben muss.",
+          "author": "Bill Drysdale, Autobauer und Rennfahrer"
+        }
+      ],
+      "whyGood": "Bill Drysdale hat einen Jugendtraum nicht aufgegeben, sondern ihn im Ruhestand selbst gebaut. Sein Auto fährt bis heute Rennen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Lifestyle",
+          "url": "https://www.theguardian.com/lifeandstyle/2026/nov/02/a-new-start-after-60-at-26-i-saw-my-dream-porsche-at-68-i-built-one-from-scratch",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Chassis",
+          "text": "Das ist das tragende Gestell eines Autos. Daran sind Motor, Räder und Karosserie befestigt."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange baute Bill Drysdale an seinem Porsche?",
+        "options": [
+          "2 Jahre",
+          "8 Jahre",
+          "20 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Es dauerte acht Jahre, bis das Auto fertig war. Da war Drysdale 68.",
+        "icon": "car.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/f95f7b04d1805bc6842f8718f04ccd6560d5f516/514_0_4200_3360/master/4200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a3ee369dae51aa18aa282a468b11a9fe",
+        "credit": "Guardian Lifestyle",
+        "source": "https://www.theguardian.com/lifeandstyle/2026/nov/02/a-new-start-after-60-at-26-i-saw-my-dream-porsche-at-68-i-built-one-from-scratch",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-05",
+      "ressort": "design",
+      "kicker": "Design",
+      "headline": "Bakterien färben Seide in Indigo und Rosa",
+      "teaser": "Das Studio von Neri Oxman lässt Bakterien einen Seidenstoff färben. Sie wachsen auf dem Stoff und hinterlassen blasse Farbtöne.",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "So entsteht die Farbe",
+          "items": [
+            "Eine Lösung mit Bakterien wird auf einen gestrickten Seidenstoff gesprüht.",
+            "Der Stoff liegt 24 Stunden. Die Bakterien wachsen und färben ihn.",
+            "Danach wird der Stoff gewaschen und getrocknet. Die Bakterien sind weg, die Farbe bleibt."
+          ],
+          "icons": [
+            "drop.fill",
+            "clock.fill",
+            "sparkles"
+          ]
+        },
+        {
+          "type": "count",
+          "value": 4,
+          "icon": "tshirt.fill",
+          "caption": "Capes zeigen die Farbtöne und Muster der Bakterien"
+        },
+        {
+          "type": "background",
+          "title": "Forschung statt Fabrik",
+          "text": "Das Projekt heißt Vigils und ist noch ein Prototyp. Es soll zeigen, wie Biologie und Material zusammenwirken. Ein fertiges Verfahren für die Industrie ist es noch nicht."
+        }
+      ],
+      "whyGood": "Das Projekt zeigt, dass Bakterien Stoffe färben können. Es könnte eines Tages eine Alternative zu aufwendigen Färbeverfahren sein.",
+      "honestNote": "Das Verfahren ist noch ein Prototyp und seine Umweltwirkung wurde nicht umfassend untersucht.",
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/02/neri-oxman-vigils-fabric-silk-pigment/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Bioreaktor",
+          "text": "Ein Bioreaktor ist ein Behälter oder Ort, an dem lebende Zellen wachsen und etwas herstellen. Hier übernimmt die beschichtete Seide diese Rolle."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange liegt der besprühte Stoff, bis die Bakterien ihn gefärbt haben?",
+        "options": [
+          "24 Minuten",
+          "24 Stunden",
+          "24 Tage"
+        ],
+        "answer": 1,
+        "reveal": "Der Stoff liegt 24 Stunden. In dieser Zeit wachsen Milliarden Bakterienzellen darauf.",
+        "icon": "microbe.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/10/oxman-vigils-fabric-dying_dezeen_2364_hero-1.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/02/neri-oxman-vigils-fabric-silk-pigment/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-06",
+      "ressort": "architektur",
+      "kicker": "Mailand",
+      "headline": "Mailands Torre Velasca bekommt neue Wohnungen",
+      "teaser": "Im geschützten Hochhaus entstehen Suiten und Apartments mit rosa Samtwänden und italienischen Designklassikern. Das Büro Matteo Thun gestaltet die Räume.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 72,
+          "icon": "building.2.fill",
+          "caption": "Wohneinheiten entstehen im Torre Velasca, darunter Suiten und Penthouses"
+        },
+        {
+          "type": "timeline",
+          "title": "Der Turm im Wandel",
+          "items": [
+            {
+              "year": "1958",
+              "text": "Das Büro BBPR vollendet den Torre Velasca."
+            },
+            {
+              "year": "2025",
+              "text": "Die umfassende Restaurierung des Gebäudes ist abgeschlossen."
+            },
+            {
+              "year": "Herbst 2026",
+              "text": "Die Wohnungen öffnen nach und nach."
+            }
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Ein Turm mit besonderer Form",
+          "text": "Der Torre Velasca steht auf einem Grundstück, das im Zweiten Weltkrieg stark beschädigt wurde. Oben ragt ein breiter Wohnteil über den schmaleren Büroturm hinaus. Schräge Stützen aus Beton tragen ihn. Die Form erinnert an mittelalterliche Bauten der Lombardei."
+        }
+      ],
+      "whyGood": "Ein berühmtes Hochhaus bleibt erhalten und wird neu nutzbar. Fliesen, Türen, Fensterrahmen und Loggien aus der Bauzeit bleiben sichtbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/matteo-thun-72-apartments-milan-iconic-brutalist-torre-velasca-interior-residences/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "IT",
+      "terms": [
+        {
+          "term": "Loggien",
+          "text": "Loggien sind Freiplätze am Haus, die auf einer Seite offen sind. Sie haben ein Dach und Wände an den Seiten, ähnlich wie ein Balkon."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Stockwerke des Hochhauses nehmen die neuen Wohnungen ein?",
+        "options": [
+          "3 Stockwerke",
+          "8 Stockwerke",
+          "20 Stockwerke"
+        ],
+        "answer": 1,
+        "reveal": "Die Wohnungen liegen im 19. bis 26. Stock, also auf acht Etagen.",
+        "icon": "building.2.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/torre-velasca-matteo-thun-partners-interiors-milan-italy-designboom-FB.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/matteo-thun-72-apartments-milan-iconic-brutalist-torre-velasca-interior-residences/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-07",
+      "ressort": "autos",
+      "kicker": "Elektroauto",
+      "headline": "Dieser Chevy Bolt zeigt, wie langlebig E-Autos sein können",
+      "teaser": "Ein Chevrolet Bolt EV von 2019 fährt und fährt. Sein Besitzer will noch deutlich weiter kommen.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "759.000",
+          "unit": "Kilometer",
+          "caption": "hat dieser Chevrolet Bolt EV von 2019 schon zurückgelegt",
+          "icon": "bolt.car.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Das Auto ist ein Chevrolet Bolt EV, Baujahr 2019.",
+            "Der Tacho steht bei rund 759.000 Kilometern.",
+            "Der Besitzer will über 800.000 Kilometer fahren."
+          ],
+          "icons": [
+            "car.fill",
+            "chart.bar.fill",
+            "trophy.fill"
+          ]
+        }
+      ],
+      "whyGood": "Das Auto zeigt, dass ein Elektroauto sehr viele Kilometer schaffen kann. Das macht Mut für alle, die über einen Umstieg nachdenken.",
+      "honestNote": "Es ist ein einzelnes Auto und kein Beweis für alle Modelle.",
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/11/02/after-471625-miles-this-chevy-bolt-is-doing-better-than-you-think-video/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Kilometer hat dieser Chevrolet Bolt von 2019 schon auf dem Tacho?",
+        "options": [
+          "etwa 160.000",
+          "etwa 380.000",
+          "etwa 760.000"
+        ],
+        "answer": 2,
+        "reveal": "Es sind rund 759.000 Kilometer, umgerechnet aus 471.625 Meilen.",
+        "icon": "bolt.car.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/2019_Chevrolet_Bolt_EV_-_April_2019_%282796%29.jpg/1280px-2019_Chevrolet_Bolt_EV_-_April_2019_%282796%29.jpg",
+        "credit": "Gregory Varnum, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Bolt_EV_-_April_2019_(2796).jpg",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-11-03-08",
+      "ressort": "gesundheit",
+      "kicker": "London",
+      "headline": "Boxabende für Frauen finanzieren Gratiskurse nach Gewalt",
+      "teaser": "In London sollen reine Frauen-Kampfabende kostenlose Boxkurse für Überlebende häuslicher Gewalt bezahlen. Die Kurse stärken das Selbstvertrauen.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 25,
+          "label": "der Gewinne jedes Abends",
+          "caption": "Ein Viertel der Gewinne fließt in die Kurse für Frauen, die häusliche Gewalt erlebt haben."
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Knapp 40 Frauen haben das Boxprogramm bisher abgeschlossen.",
+            "Die Einführungskurse sind gratis. Sparring ist freiwillig.",
+            "Der erste Abend soll 40 bis 60 weitere Gratisplätze bezahlen."
+          ],
+          "icons": [
+            "person.3.fill",
+            "heart.fill",
+            "gift.fill"
+          ]
+        }
+      ],
+      "whyGood": "Frauen finden durch Boxen neues Selbstvertrauen, in ihrem eigenen Tempo. Die Kampfabende sollen die Kurse dauerhaft finanzieren.",
+      "honestNote": "Ob der erste Abend genug Geld für alle geplanten Plätze einbringt, ist noch offen.",
+      "sources": [
+        {
+          "name": "Positive News",
+          "url": "https://www.positive.news/society/the-womens-boxing-nights-helping-abuse-survivors/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "guess": {
+        "question": "Bis zu welchem Jahr war Frauen das Profiboxen in Großbritannien verboten?",
+        "options": [
+          "1948",
+          "1998",
+          "2012"
+        ],
+        "answer": 1,
+        "reveal": "Erst 1998 durften Frauen in Großbritannien Profiboxerinnen werden. Olympia folgte 2012.",
+        "icon": "trophy.fill"
+      },
+      "image": {
+        "url": "https://www.positive.news/wp-content/uploads/2026/10/BQ3A3519-scaled.jpg",
+        "credit": "Positive News",
+        "source": "https://www.positive.news/society/the-womens-boxing-nights-helping-abuse-survivors/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-09",
+      "ressort": "fotografie",
+      "kicker": "Boston",
+      "headline": "Fotograf schenkt jedes Jahr einem Paar die Hochzeitsfotos",
+      "teaser": "Ein Studio in Boston fotografiert einmal im Jahr eine Hochzeit gratis. Es hilft Paaren, die sich einen Fotografen sonst nicht leisten könnten.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Acht Stunden Fotos, zweite Fotografin oder zweiter Fotograf bei Bedarf",
+            "Dazu eine Verlobungs-Fotosession und eine fertig bearbeitete Galerie",
+            "Das Paar behält die Galerie, Bilder werden nur mit Erlaubnis gezeigt"
+          ],
+          "icons": [
+            "clock.fill",
+            "camera.fill",
+            "heart.fill"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Boston, Massachusetts",
+          "latitude": 42.36,
+          "longitude": -71.06,
+          "caption": "Hier arbeitet das Studio Perla Images. Die Anreise ist in vier Bundesstaaten kostenlos."
+        }
+      ],
+      "whyGood": "Ein Fotograf schenkt Paaren in schweren Zeiten bleibende Erinnerungen an ihren Hochzeitstag. Auch alle, die sich bewerben und nicht gewählt werden, bekommen eine Antwort.",
+      "honestNote": "Ausgewählt wird nur ein Paar pro Jahr, und die Hochzeit muss 2027 stattfinden.",
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/11/02/photographer-offers-free-wedding-photography-services-to-a-couple-facing-hardship-each-year/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Jahre fotografiert Will Hall schon Hochzeiten?",
+        "options": [
+          "5 Jahre",
+          "15 Jahre",
+          "35 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Will Hall fotografiert seit 15 Jahren Hochzeiten und gründete sein Studio 2018.",
+        "icon": "camera.fill"
+      },
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/11/wedding-photographer-free-package.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/11/02/photographer-offers-free-wedding-photography-services-to-a-couple-facing-hardship-each-year/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-10",
+      "ressort": "serien",
+      "kicker": "Köln",
+      "headline": "Vier Studierende gewinnen den „Storytellers“-Wettbewerb von RTL+",
+      "teaser": "Ihre Comedy „Zivis“ wird jetzt als Serie produziert. Gedreht wird 2027, Regie führt eine der Studentinnen.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 4,
+          "icon": "graduationcap.fill",
+          "caption": "Studierende der ifs Köln haben die Serienidee „Zivis“ entwickelt"
+        },
+        {
+          "type": "bigNumber",
+          "value": "112",
+          "unit": "Projekte",
+          "caption": "wurden eingereicht. Fünf Teams kamen ins Finale, „Zivis“ gewann",
+          "icon": "film.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Drei Teenager leisten Zivildienst in einer Seniorenresidenz",
+            "Apollonia Film produziert die Serie für RTL+",
+            "Beth Barnes übernimmt die Regie"
+          ],
+          "icons": [
+            "person.3.fill",
+            "tv.fill",
+            "camera.fill"
+          ]
+        }
+      ],
+      "whyGood": "Junge Filmschaffende bekommen die Chance, ihre eigene Idee als echte Serie umzusetzen. Frühere Finalisten wie „Tschappel“ haben diesen Weg schon geschafft.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Serienjunkies",
+          "url": "https://www.serienjunkies.de/news/serien/zivis-gewinnt-2026-den-storytellers-preis-fuer-rtl-94569813.html",
+          "language": "Deutsch"
+        },
+        {
+          "name": "DWDL",
+          "url": "https://www.dwdl.de/nachrichten/108426/youngadultcomedy_zivis_setzt_sich_bei_storytellers_durch/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Zivildienst",
+          "text": "Das ist ein Dienst für die Gemeinschaft, zum Beispiel in einer Pflegeeinrichtung. Junge Menschen helfen dort mit."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Projekte wurden beim Wettbewerb eingereicht?",
+        "options": [
+          "12",
+          "52",
+          "112"
+        ],
+        "answer": 2,
+        "reveal": "Es waren 112 Einreichungen. Nur fünf Teams schafften es ins Finale.",
+        "icon": "film.fill"
+      },
+      "image": {
+        "url": "https://www.serienjunkies.de/assets/images/44/706/44706006-paul-safran-sofia-magalhaes-beth-barnes-gabriel-rios-hef.jpg",
+        "credit": "Serienjunkies",
+        "source": "https://www.serienjunkies.de/news/serien/zivis-gewinnt-2026-den-storytellers-preis-fuer-rtl-94569813.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-11",
+      "ressort": "sport",
+      "kicker": "Judo",
+      "headline": "Jolina Reinhold gewinnt Judo-Gold bei den Jugendspielen",
+      "teaser": "Die 17-jährige Fahnenträgerin holt bei den Youth Olympic Games die erste deutsche Medaille. Es ist Gold, und der Tag begann holprig.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "48",
+          "unit": "Sekunden",
+          "caption": "dauerte das Finale, dann war der Kampf mit einem Ippon entschieden",
+          "icon": "clock.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Jolina Reinhold ist 17 und kämpft für den TSV Abensberg",
+            "Sie besiegte im Finale bis 63 Kilogramm die Inderin Khushbu Rajakbhai Darjada",
+            "Sie war schon Fahnenträgerin bei der Eröffnungsfeier"
+          ],
+          "icons": [
+            "person.fill",
+            "medal.fill",
+            "star.fill"
+          ]
+        }
+      ],
+      "whyGood": "Jolina Reinhold hat einen Rückschlag am Morgen weggesteckt und sich einen Kindheitstraum erfüllt. Ihr Erfolg kann auch andere junge Sportler motivieren.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/olympia/judoka-jolina-reinhold-holt-erstes-deutsches-gold,youth-olympic-games-2026-108.html",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Ippon",
+          "text": "Ippon ist die höchste Wertung im Judo. Wer sie bekommt, hat den Kampf sofort gewonnen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange dauerte das Judo-Finale von Jolina Reinhold?",
+        "options": [
+          "Unter einer Minute",
+          "Etwa drei Minuten",
+          "Etwa acht Minuten"
+        ],
+        "answer": 0,
+        "reveal": "Nach nur 48 Sekunden gewann Reinhold mit einem Ippon, der höchsten Wertung im Judo.",
+        "icon": "medal.fill"
+      },
+      "image": {
+        "url": "https://images.sportschau.de/image/4b242a8b-d122-4216-afc5-1b0e00b3b115/AAABoZ2CZRM/AAABnSSvrFg/16x9-big/judo-278.jpg?width=1280",
+        "credit": "Sportschau",
+        "source": "https://www.sportschau.de/olympia/judoka-jolina-reinhold-holt-erstes-deutsches-gold,youth-olympic-games-2026-108.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-12",
+      "ressort": "kueche",
+      "kicker": "Kaschmir",
+      "headline": "Safranernte in Kaschmir: Ein Gewürz aus lila Blüten",
+      "teaser": "In der Region Pampore blüht der Safran. Eine Bildergeschichte zeigt die Ernte eines der teuersten Gewürze der Welt.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Kaschmirer Safran zählt zu den teuersten Gewürzen der Welt",
+            "Angebaut wird er vor allem in der Region Pampore in Indien",
+            "Geschätzt für sein reiches Aroma und seinen besonderen Geschmack"
+          ],
+          "icons": [
+            "star.fill",
+            "mappin",
+            "leaf.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Rotes Gold",
+          "text": "Safran gilt wegen seines hohen Werts als „rotes Gold“. Er wächst aus lila Blüten. Die Ernte in Pampore ist für viele Bauernfamilien in Kaschmir eine wichtige Einkommensquelle."
+        }
+      ],
+      "whyGood": "Die Bilder erinnern an eine alte Anbautradition. Sie zeigen, wie aus zarten Blüten ein Gewürz wird, von dem ganze Familien leben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/world/gallery/2026/nov/03/red-gold-from-purple-flowers-saffron-harvest-in-kashmir-in-pictures",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "IN",
+      "terms": [],
+      "guess": {
+        "question": "Welchen Beinamen trägt Safran wegen seines hohen Werts?",
+        "options": [
+          "Weißes Gold",
+          "Rotes Gold",
+          "Grüner Diamant"
+        ],
+        "answer": 1,
+        "reveal": "Safran heißt „rotes Gold“, weil er so wertvoll ist und aus lila Blüten gewonnen wird.",
+        "icon": "sparkles"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/7f77e18940c16aec6ed1b4634c3f21df82d87c0a/590_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=062534e17c99b6c425b0659ec3ea1e67",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/world/gallery/2026/nov/03/red-gold-from-purple-flowers-saffron-harvest-in-kashmir-in-pictures",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k01",
+      "ressort": "dekoration",
+      "kicker": "Upcycling",
+      "headline": "Aus einem alten Ledersessel werden neun Wohnobjekte",
+      "teaser": "Designer Jan-Micha Gamer hat einen Ledersessel aus dem Sperrmüll zerlegt. Daraus entstanden unter anderem ein Bodenkorb, eine Lampe, ein Hocker, ein Schrank, ein Teppich und ein Tisch. Die Teile sind ohne Kleber verbunden und lassen sich später wieder trennen.",
+      "blocks": [],
+      "whyGood": "Ein Möbelstück, das sonst im Müll gelandet wäre, bekommt gleich neun neue Aufgaben.",
+      "honestNote": "Das Projekt ist eine Designstudie an einem einzelnen Sessel.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/design/discarded-leather-armchair-nine-functional-domestic-objects-jan-micha-gamer/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/10/raw-material-armchair-resource-jan-micha-gamer-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/design/discarded-leather-armchair-nine-functional-domestic-objects-jan-micha-gamer/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k02",
+      "ressort": "natur",
+      "kicker": "Amazonas",
+      "headline": "Kleine Fledermäuse bauen Blätterzelte und pflanzen den Wald nach",
+      "teaser": "Im Amazonasgebiet beißen und falten manche kleinen Fledermausarten große Blätter zu versteckten Zelten. In ihrem Kot stecken Samen wilder Früchte. Indigene und lokale Gemeinschaften ziehen daraus später essbare Pflanzen. Bernal Rodríguez Herrera und sein Team erforschen das.",
+      "blocks": [],
+      "whyGood": "Die winzigen Tiere helfen offenbar dabei, Wald nachwachsen zu lassen und Menschen mit Nahrung zu versorgen.",
+      "honestNote": "Die Forschung dazu läuft noch, wie viel die Fledermäuse genau zur Waldregeneration beitragen, wird gerade untersucht.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/11/how-bats-can-be-forest-architects/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": []
+    },
+    {
+      "id": "2026-11-03-k03",
+      "ressort": "wissenschaft",
+      "kicker": "Astronomie",
+      "headline": "Erste Trojaner-Asteroiden des Neptun entdeckt",
+      "teaser": "Ein internationales Team unter Leitung der Queen's University Belfast hat Neptuns vermisste Trojaner gefunden. Die Forschenden nutzten Daten des Vera C. Rubin Observatoriums in Chile. Zwei Asteroiden und ein Kandidat gehören dauerhaft zu Neptuns nachlaufender Gruppe.",
+      "blocks": [],
+      "whyGood": "Ein Rätsel, das Astronomen seit Jahrzehnten beschäftigt hat, ist nun gelöst.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-queen-university-belfast-students-neptune.html",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Trojaner",
+          "text": "Trojaner sind Asteroiden, die dieselbe Bahn um die Sonne ziehen wie ein Planet. Sie laufen ihm voraus oder folgen ihm."
+        }
+      ],
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/queens-university-belf.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-11-queen-university-belfast-students-neptune.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k04",
+      "ressort": "kurioses",
+      "kicker": "Pennsylvania",
+      "headline": "Mann sieht 1.207 Filme im Kino und holt Guinness-Rekord",
+      "teaser": "Ein 60-jähriger Mann aus Pennsylvania hat einen Guinness-Weltrekord aufgestellt. Er besuchte in einem Jahr 1.207 Filmvorführungen. Das sind im Schnitt 3,3 Filme pro Tag.",
+      "blocks": [],
+      "whyGood": "Ein Mann zeigt, wie viel Freude ein Hobby machen kann, und das Kino bekommt einen ganz besonderen Stammgast.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/11/02/guinness-world-records-movies-cinema-one-year/2311793639017/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-11-03-k05",
+      "ressort": "zukunft",
+      "kicker": "Japan",
+      "headline": "Dünne Schicht macht aus Abwärme Strom, Titan steigert Leistung",
+      "teaser": "Forscher der Tohoku University in Sendai haben eine hauchdünne Schicht entwickelt. Sie wandelt Abwärme in Strom um und lässt sich bei Raumtemperatur herstellen. Ein kleiner Zusatz Titan steigert ihre Leistung um das 250-Fache.",
+      "blocks": [],
+      "whyGood": "Wärme, die bisher ungenutzt verpufft, könnte künftig Sensoren mit Strom versorgen, die an keine Steckdose kommen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/250-mal-leistungsfahiger-etwas-titan-macht-aus-abwarme-strom-69615f91-31bb-4326-9a1c-32b1b64c4e0d/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "JP",
+      "terms": [],
+      "image": {
+        "url": "https://www.ingenieur.de/wp-content/uploads/2026/11/461565349-scaled-e1793624265703.jpg",
+        "credit": "ingenieur.de",
+        "source": "https://www.ingenieur.de/250-mal-leistungsfahiger-etwas-titan-macht-aus-abwarme-strom-69615f91-31bb-4326-9a1c-32b1b64c4e0d/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k06",
+      "ressort": "lifestyle",
+      "kicker": "Sardinien",
+      "headline": "Sardinische Restaurants bitten Familien: Handys weg beim Essen",
+      "teaser": "15 Restaurants auf Sardinien testen einen Monat lang die Aktion „A tavola senza schermi“. Familien legen ihre Handys weg und bekommen dafür eine Spielebox, die Kinderärzte entwickelt haben. Die Idee stammt von der Kinderbeauftragten Anna Cau.",
+      "blocks": [],
+      "whyGood": "Ein Familienessen soll wieder Zeit zum Reden sein, und die Eltern bekommen dabei Hilfe von ihrer Umgebung.",
+      "honestNote": "Der Versuch ist klein und dauert zunächst nur einen Monat.",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/11/sardinian-restaurants-are-banning-phones-for-families-at-meals/",
+          "language": "Englisch"
+        },
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/digital-detox-beim-abendessen-sardinische-gaststaetten-verbannen-tablets-und-smartphones-vom-tisch-1771038/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IT",
+      "terms": [],
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/family-eating-in-the-garden-Depositphotos_10848206_S.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/11/sardinian-restaurants-are-banning-phones-for-families-at-meals/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k07",
+      "ressort": "design",
+      "kicker": "Los Angeles",
+      "headline": "LA28 zeigt Slogan und bunte Identität der Spiele",
+      "teaser": "Die Spiele 2028 in Los Angeles haben einen Slogan: „Stars Align“, auf Deutsch etwa „Wenn die Sterne günstig stehen“. Das Design leuchtet in den Farben der Strelizie und nutzt 13 Muster. Sie erzählen von Wüste, Hollywood, dem Pazifik und den vielen Nationalitäten der Stadt.",
+      "blocks": [],
+      "whyGood": "Das Design der Spiele feiert die Vielfalt von Los Angeles und lädt alle ein, dabei zu sein.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PAGE",
+          "url": "https://page-online.de/kreation/flowers-first-nations-so-werden-die-olympischen-spiele-in-la28-aussehen/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Strelizie",
+          "text": "Die Strelizie ist eine Blume mit orangefarbenen und blauen Blüten. Man nennt sie auch Papageienblume."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://page-online.de/app/uploads/2026/10/Copyright_-LA28-1.jpg",
+        "credit": "PAGE",
+        "source": "https://page-online.de/kreation/flowers-first-nations-so-werden-die-olympischen-spiele-in-la28-aussehen/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k08",
+      "ressort": "architektur",
+      "kicker": "Berlin",
+      "headline": "Diamantscheiben glätten Kopfsteinpflaster, Preis für Verfahren",
+      "teaser": "Am Priesterweg in Berlin-Schöneberg schliff eine Fräse mit 385 Diamantscheiben 1200 m² Pflaster in fünf Tagen eben. Die Steine blieben liegen, nur die Kuppen sind weg. Das Verfahren erhält den Deutschen Nachhaltigkeitspreis 2026.",
+      "blocks": [],
+      "whyGood": "Alte Pflasterstraßen bleiben erhalten und werden für Rad, Rollstuhl und Kinderwagen befahrbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/1200-m2-in-funf-tagen-wie-diamantscheiben-kopfsteinpflaster-glatt-schleifen-21a8cdff-3e1a-49d5-a743-13f7670f3635/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.ingenieur.de/wp-content/uploads/2026/11/TH_News_Nachhaltigkeitspreis_Kopfsteinpflaster-scaled-e1793616641995.jpg",
+        "credit": "ingenieur.de",
+        "source": "https://www.ingenieur.de/1200-m2-in-funf-tagen-wie-diamantscheiben-kopfsteinpflaster-glatt-schleifen-21a8cdff-3e1a-49d5-a743-13f7670f3635/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k09",
+      "ressort": "autos",
+      "kicker": "China",
+      "headline": "Jeder zweite neue Schwerlaster in China fährt elektrisch",
+      "teaser": "Im September waren 50,3 Prozent der verkauften schweren Lkw in China elektrisch. Das waren 33.100 Fahrzeuge in einem Monat, 37 Prozent mehr als vor einem Jahr. Der gesamte Markt für schwere Lkw schrumpfte dagegen um 21 Prozent.",
+      "blocks": [],
+      "whyGood": "Elektro-Lkw ersetzen dort immer mehr Diesel, und das zeigt sich schon in den Daten zum Ölverbrauch.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/11/02/electric-trucks-50-percent-china-heavy-truck-sales-diesel-demand/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CN",
+      "terms": []
+    },
+    {
+      "id": "2026-11-03-k10",
+      "ressort": "fotografie",
+      "kicker": "Großbritannien",
+      "headline": "British Photography Awards 2026 küren ihre Gewinner",
+      "teaser": "Die British Photography Awards haben die Sieger 2026 bekannt gegeben. Der Wettbewerb steht allen Fotografinnen und Fotografen aus Großbritannien offen. Die Preise gingen in London an Bilder von Dachshunden als Gardisten, einem Bären in Alaska und Sonnenblumen unter der Milchstraße.",
+      "blocks": [],
+      "whyGood": "Die Bilder zeigen, wie viel Humor, Staunen und Handwerk in der britischen Fotoszene steckt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/11/02/18-splendid-winners-from-the-british-photography-awards/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/11/British-Photography-Awards-2026.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/11/02/18-splendid-winners-from-the-british-photography-awards/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k11",
+      "ressort": "kurioses",
+      "kicker": "Äthiopien",
+      "headline": "Stier und Esel: Seltene Freundschaft überrascht Forschende",
+      "teaser": "Forschende aus Pisa haben in Äthiopien eine Bindung zwischen dem Stier Achille und dem Esel Patroclo entdeckt. Die beiden lecken und reiben sich aneinander. Das Team fand es zufällig, als es eigentlich Blutbrustpaviane beobachtete.",
+      "blocks": [],
+      "whyGood": "Die Natur überrascht uns immer wieder, und zwei sehr verschiedene Tiere zeigen einander Zuneigung.",
+      "honestNote": "Es ist ein einzelner Fall, und es gibt keinen Hinweis darauf, dass solche Bindungen häufig sind.",
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/science/2026/nov/02/tender-bond-male-donkey-bull-baffles-scientists",
+          "language": "Englisch"
+        },
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/11/02/ethiopia-university-of-pisa-study-bull-donkey/9291793642411/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "ET",
+      "terms": [],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/74e23a9ba9aa035a78105d417d6d35d8be671625/234_79_888_710/master/888.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5f355659b362b4962b7042ab552f976b",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/science/2026/nov/02/tender-bond-male-donkey-bull-baffles-scientists",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k12",
+      "ressort": "zukunft",
+      "kicker": "Chemie",
+      "headline": "Winzige Tröpfchen helfen bei der Herstellung abbaubarer Kunststoffe",
+      "teaser": "Forschende um Yukiya Kitayama haben einen schwer nutzbaren Baustein mithilfe von Nanotröpfchen in Kunststoffe eingebaut. In den Tröpfchen steigt der Druck, und der Baustein reagiert besser. So entstehen Kunststoffe mit Sollbruchstellen, die sich chemisch zerlegen lassen.",
+      "blocks": [],
+      "whyGood": "Der neue Weg erweitert die Auswahl an Materialien für Kunststoffe, die sich gezielt wieder abbauen lassen.",
+      "honestNote": "Die Kunststoffe sind chemisch spaltbar, aber nicht automatisch biologisch abbaubar.",
+      "sources": [
+        {
+          "name": "scinexx",
+          "url": "https://www.scinexx.de/news/technik/nanotroepfchen-eroeffnen-neuen-weg-zu-abbaubaren-kunststoffen/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "JP",
+      "terms": [],
+      "image": {
+        "url": "https://www.scinexx.de/wp-content/uploads/D/e/Der-Druck-in-Nanotroepfchen-hilft-dabei-einen-sonst-wenig-reaktionsfreudigen-Molekuelbaustein-in-Kunststoffketten-einzubauen.webp",
+        "credit": "scinexx",
+        "source": "https://www.scinexx.de/news/technik/nanotroepfchen-eroeffnen-neuen-weg-zu-abbaubaren-kunststoffen/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k13",
+      "ressort": "lifestyle",
+      "kicker": "Kalifornien",
+      "headline": "Miniaturpferd Black Pearl tröstet Veteranen in Klinik",
+      "teaser": "Die Stute Black Pearl besucht mit acht weiteren Miniaturpferden Patienten in Krankenhäusern in Los Angeles. Ihre Besitzerin gründete dafür die Organisation Mini Therapy Horses. Veteranen in der psychiatrischen Station dürfen die Tiere streicheln und umarmen.",
+      "blocks": [],
+      "whyGood": "Die kleinen Pferde helfen Menschen, sich weniger einsam zu fühlen, und bringen Kindern und Erwachsenen im Krankenhaus Trost.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Lifestyle",
+          "url": "https://www.theguardian.com/lifeandstyle/2026/nov/02/the-pet-ill-never-forget-the-tiny-horse-with-a-big-personality-who-helps-psychiatric-patients",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/f1077ddc2358f9ba1710294dc4f6661ce3095b9e/103_0_3144_2514/master/3144.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4e444a8cd325f9aa7e4fe1d0395e4d40",
+        "credit": "Guardian Lifestyle",
+        "source": "https://www.theguardian.com/lifeandstyle/2026/nov/02/the-pet-ill-never-forget-the-tiny-horse-with-a-big-personality-who-helps-psychiatric-patients",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k14",
+      "ressort": "architektur",
+      "kicker": "Portugal",
+      "headline": "Pavillon aus Vollkork lädt im Alentejo zur Stille ein",
+      "teaser": "Das Studio Corkinho aus Antwerpen hat bei Casa No Tempo im Süden Portugals einen „Still Room“ gebaut. Seine Wände bestehen aus gestapelten Korkblöcken, ohne Kleber und ohne Schrauben. Man kann ihn abbauen und an anderer Stelle neu aufstellen.",
+      "blocks": [],
+      "whyGood": "Der Pavillon zeigt, dass ein Bau aus regionalem Material ohne Abfall und ohne Schaden für den Boden möglich ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/02/still-room-casa-no-tempo-corkinho/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "PT",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/10/still-room-casa-no-tempo-corkinho_dezeen_2364_sq_0.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/02/still-room-casa-no-tempo-corkinho/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k15",
+      "ressort": "autos",
+      "kicker": "Norwegen",
+      "headline": "Norwegen: 98,8 Prozent der neuen Autos fahren elektrisch",
+      "teaser": "Im Oktober wurden in Norwegen 15.536 neue E-Autos zugelassen. Das sind 98,8 Prozent aller neuen Pkw. Insgesamt kamen 15.725 Autos auf die Straße, 41 Prozent mehr als im Oktober des Vorjahres.",
+      "blocks": [],
+      "whyGood": "Ein ganzes Land zeigt, dass der Wechsel zum Elektroauto gelingen kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "electrive",
+          "url": "https://www.electrive.net/2026/11/02/oktober-china-marken-werden-auf-norwegens-pkw-markt-praesenter/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "NO",
+      "terms": [],
+      "image": {
+        "url": "https://www.electrive.net/media/2025/03/xpeng-g6-china-jahrgang-2025.jpg",
+        "credit": "electrive",
+        "source": "https://www.electrive.net/2026/11/02/oktober-china-marken-werden-auf-norwegens-pkw-markt-praesenter/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k16",
+      "ressort": "fotografie",
+      "kicker": "Südafrika",
+      "headline": "Laura Pannack gewinnt ersten Tom-Stoddart-Preis für Südafrika-Projekt",
+      "teaser": "Die britische Fotografin Laura Pannack hat den erstmals vergebenen Tom Stoddart Award for Excellence 2025 gewonnen. Ihr Projekt „Crossings“ zeigt den Schulweg junger Menschen in Südafrika. Dazu gab es Workshops mit Fotografie, Malerei und Schreiben.",
+      "blocks": [],
+      "whyGood": "Ein Preis für langfristige Dokumentarfotografie gibt jungen Menschen in Südafrika eine Stimme und macht ihren Alltag sichtbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Culture",
+          "url": "https://www.theguardian.com/artanddesign/gallery/2026/nov/02/crossings-laura-pannack-south-africa-youth-in-pictures",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "ZA",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/0485513e9a0da71653a5dbbf4809705e93c07d84/0_466_3543_2834/master/3543.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=909438b0f883232ad4a6b147c48e0382",
+        "credit": "Guardian Culture",
+        "source": "https://www.theguardian.com/artanddesign/gallery/2026/nov/02/crossings-laura-pannack-south-africa-youth-in-pictures",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k17",
+      "ressort": "zukunft",
+      "kicker": "KI und Biologie",
+      "headline": "KI entwirft Proteine nach einfacher Beschreibung in Alltagssprache",
+      "teaser": "Forschende der Westlake University in China haben die KI Pinal entwickelt. Man beschreibt in normaler Sprache, was ein Protein können soll, und das System erstellt dazu eine Aminosäuresequenz. Laut Studie in „Nature“ klappt das in Labortests zuverlässig, wenn man genug Versuche macht.",
+      "blocks": [],
+      "whyGood": "Mehr Biologinnen und Biologen können nun Proteine entwerfen, ohne Spezialwissen oder schwierige Software zu brauchen.",
+      "honestNote": "Das Modell liefert viele unbrauchbare Entwürfe, deshalb braucht es mehrere Versuche.",
+      "sources": [
+        {
+          "name": "Singularity Hub",
+          "url": "https://singularityhub.com/2026/11/02/scientists-can-now-ask-ai-to-design-proteins-using-plain-language/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CN",
+      "terms": [
+        {
+          "term": "Aminosäuresequenz",
+          "text": "Das ist die Abfolge der Bausteine, aus denen ein Protein besteht. Sie bestimmt, wie das Protein aufgebaut ist und was es kann."
+        }
+      ],
+      "image": {
+        "url": "https://singularityhub.com/uploads/2026/11/protein-structure-homoglobin.jpeg?auto=webp",
+        "credit": "Singularity Hub",
+        "source": "https://singularityhub.com/2026/11/02/scientists-can-now-ask-ai-to-design-proteins-using-plain-language/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k18",
+      "ressort": "architektur",
+      "kicker": "Pordenone",
+      "headline": "Arthouse-Kino Cinemazero verbindet drei Orte in leuchtendem Blau",
+      "teaser": "In Pordenone hat Architekt Alberto Caiola das Kino Cinemazero erneuert und erweitert. Das Foyer aus den 1950er Jahren ist wieder freigelegt, dazu kommen ein neuer Pavillon für die Gemeinschaft und eine größere Mediathek im Palazzo Badini.",
+      "blocks": [],
+      "whyGood": "Ein altes Kino wird zu einem offenen Ort für Film, Begegnung und Lernen, und das historische Gebäude bleibt erhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/ultramarine-drapes-restored-1950s-marble-cinemazero-redesign-alberto-caiola/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IT",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/italy-alberto-caiola-renovation-cinemazero-blue-designboom-1200.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/ultramarine-drapes-restored-1950s-marble-cinemazero-redesign-alberto-caiola/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-k19",
+      "ressort": "architektur",
+      "kicker": "London",
+      "headline": "Alte Molkerei in London wird zu acht hellen Wohnungen",
+      "teaser": "Eine Molkerei von 1860 in London ist jetzt ein Wohnhaus. Studio Echlin und Frost Architekts bauten sie in acht Wohneinheiten um. Die alten Tonnengewölbe und die Spuren der Industrie blieben erhalten.",
+      "blocks": [],
+      "whyGood": "Ein altes Industriegebäude bekommt ein neues Leben, und seine Geschichte bleibt sichtbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "AD Deutschland",
+          "url": "https://www.ad-magazin.de/artikel/zuhause-molkerei-familie-london-vintage",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Tonnengewölbe",
+          "text": "Ein Tonnengewölbe ist eine Decke mit halbrundem Querschnitt. Sie sieht aus wie eine halbierte Röhre."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://assets.ad-magazin.de/photos/6a85acc4b86f6d1f5229b78c/16:9/w_1280,c_limit/Echlin_Chapel_Side_LR_01.jpg",
+        "credit": "AD Deutschland",
+        "source": "https://www.ad-magazin.de/artikel/zuhause-molkerei-familie-london-vintage",
+        "kind": "source"
+      }
+    }
+  ],
+  "joke": {
+    "setup": "Was ist das Gegenteil von Reformhaus?",
+    "punchline": "Reh hinterm Haus."
+  },
+  "comic": {
+    "series": "sonnewolke",
+    "title": "Sonne & Wolke",
+    "episode": "Stier trifft Esel",
+    "strip": {
+      "storyID": "2026-11-03-k11",
+      "panels": [
+        {
+          "prop": "pawprint.fill",
+          "caption": null,
+          "sun": {
+            "mood": "lacht",
+            "text": "In Äthiopien sind ein Stier und ein Esel beste Freunde!"
+          },
+          "cloud": {
+            "mood": "skeptisch",
+            "text": "Aha. Und ich dachte, der Esel sei der Stur-Kopf."
+          }
+        },
+        {
+          "prop": "binoculars.fill",
+          "caption": "Später …",
+          "sun": {
+            "mood": "staunt",
+            "text": "Forschende wollten Paviane beobachten und fanden die zwei!"
+          },
+          "cloud": {
+            "mood": "grübelt",
+            "text": "Die Paviane sind jetzt bestimmt beleidigt."
+          }
+        },
+        {
+          "prop": "heart.fill",
+          "caption": null,
+          "sun": {
+            "mood": "froh",
+            "text": "Achille und Patroclo lecken und reiben sich aneinander!"
+          },
+          "cloud": {
+            "mood": "lacht",
+            "text": "Sturer Stier, sturer Esel. Endlich gibt keiner nach."
+          }
+        }
+      ]
+    },
+    "credit": "Ein Comic von The Daily Good"
+  },
+  "recommendation": {
+    "kind": "film",
+    "label": "Film",
+    "title": "Short Term 12",
+    "creator": "Destin Daniel Cretton",
+    "year": "2013",
+    "text": "Filmstarts nennt das Drama mit Brie Larson eine berührende Kino-Perle und ein herausragendes Drama. Statt auf Spektakel setzt Regisseur Destin Daniel Cretton auf leise, menschliche Momente, die lange nachwirken.",
+    "forWhom": "Für alle, die gern warmherzige, ehrliche Dramen sehen.",
+    "link": "https://en.wikipedia.org/wiki/Short_Term_12",
+    "source": {
+      "name": "Filmstarts",
+      "url": "https://www.filmstarts.de/nachrichten/1000229133.html"
+    }
+  },
+  "weekly": null,
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-11-03-01",
+        "question": "Von welchem Land aus ist Karl Bushby zu Fuß nach Hull zurückgegangen?",
+        "options": [
+          "Argentinien",
+          "Chile",
+          "Peru",
+          "Mexiko"
+        ],
+        "answer": 1
+      },
+      {
+        "storyID": "2026-11-03-03",
+        "question": "Aus welchem Land stammt der Raubsaurier Aratasaurus, in dem Blutspuren steckten?",
+        "options": [
+          "Argentinien",
+          "China",
+          "Brasilien",
+          "Marokko"
+        ],
+        "answer": 2
+      },
+      {
+        "storyID": "2026-11-03-04",
+        "question": "Woraus formte Bill Drysdale die Karosserie zuerst?",
+        "options": [
+          "Aus Holz",
+          "Aus Ton",
+          "Aus Blech",
+          "Aus Styropor"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-11-03-r01",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Augsburg",
+      "headline": "Lego-Brücke mit 17,28 Metern wohl neuer Weltrekord",
+      "teaser": "Gerhard Lasser aus München und sein Sohn Florian haben auf der Ausstellung „Bricking Bavaria“ in Augsburg die wohl längste freitragende Lego-Brücke der Welt gebaut. Sie ist 17,28 Meter lang. Nach sechs Jahren Planung hielt sie lange genug, um sie zu messen.",
+      "blocks": [],
+      "whyGood": "Vater und Sohn haben nach einem Einsturz nicht aufgegeben und ihre Brücke noch einmal aufgebaut.",
+      "honestNote": "Ob der Rekord offiziell anerkannt wird, zeigt sich erst in einigen Wochen.",
+      "sources": [
+        {
+          "name": "BR24 Schwaben",
+          "url": "https://www.br.de/nachrichten/bayern/wohl-neuer-weltrekord-17-28-meter-lange-bruecke-aus-lego-teilen,VZp6exs",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Schrägseilbrücke",
+          "text": "Bei einer Schrägseilbrücke hängt die Fahrbahn an schräg gespannten Seilen. Diese sind an hohen Pylonen befestigt, den Türmen der Brücke."
+        }
+      ],
+      "image": {
+        "url": "https://img.br.de/d115711d-96b7-4395-aa72-c8e36a87524c.jpeg?q=80&rect=2%2C2%2C1918%2C1077&w=1600&h=900",
+        "credit": "BR24 Schwaben",
+        "source": "https://www.br.de/nachrichten/bayern/wohl-neuer-weltrekord-17-28-meter-lange-bruecke-aus-lego-teilen,VZp6exs",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r02",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Helgoland",
+      "headline": "Erste Kegelrobbenbabys der Saison auf Helgoland gesichtet",
+      "teaser": "Auf Helgoland hat die Kegelrobbensaison früher begonnen als sonst. Dünenranger Michael Janßen sah die ersten Jungtiere am Nordstrand. Eins wird von seiner Mutter versorgt, das andere kam in die Seehundstation Friedrichskoog.",
+      "blocks": [],
+      "whyGood": "Der Nachwuchs der Kegelrobben ist da, und eines der Jungtiere wird in Friedrichskoog umsorgt.",
+      "honestNote": "Ob die Zahl der Jungtiere wie in den vergangenen Jahren weiter steigt, lässt sich erst im Januar sagen.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/dithmarschen_steinburg/helgoland-die-ersten-robbenbabys-der-saison-gesichtet,heuler-138.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Heuler",
+          "text": "Ein Heuler ist ein junges Robbenbaby, das allein am Strand liegt und von seiner Mutter getrennt wurde."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/215d3bc7-dbc5-4e9d-8978-23b1fda35117/AAABoZy_rCw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/dithmarschen_steinburg/helgoland-die-ersten-robbenbabys-der-saison-gesichtet,heuler-138.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r03",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Freiburg",
+      "headline": "Freiburger Start-up baut Stromspeicher aus alten E-Bike-Akkus",
+      "teaser": "Das Start-up EDENenergy schaltet gebrauchte Akkus aus E-Bikes und E-Scootern zu Speichern für die Industrie zusammen. Das erste Modell hat 112 Akkus und 70 Kilowattstunden Kapazität. Das Verfahren stammt vom Fraunhofer ISE.",
+      "blocks": [],
+      "whyGood": "Akkus, die noch gut funktionieren, landen nicht mehr im Müll, sondern bekommen ein zweites Leben.",
+      "honestNote": "Noch ist es schwierig, genug gebrauchte Akkus für die Speicher zu bekommen.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/freiburger-start-up-verwedendet-akkus-aus-e-bikes-weiter-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/1067e09e-fc76-44b4-81d8-68ad006b249d/AAABoZzjoBE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/freiburger-start-up-verwedendet-akkus-aus-e-bikes-weiter-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r04",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Eixen",
+      "headline": "Eixen hat wieder einen Dorfladen, der rund um die Uhr offen ist",
+      "teaser": "Im ehemaligen „Schmugglerkrug“ in Eixen bei Ribnitz-Damgarten gibt es einen neuen Dorfladen. Auf 110 Quadratmetern liegen mehr als 1.000 Artikel, viele aus der Region. Mit einer speziellen Kundenkarte kann man jederzeit einkaufen.",
+      "blocks": [],
+      "whyGood": "Im Dorf lässt sich wieder vor Ort einkaufen, und der nächste Laden ist nicht mehr neun Kilometer entfernt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/eixen-neuer-dorfladen-im-ehemaligen-schmugglerkrug-eroeffnet,mvregiogreifswald-6180.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/44212da4-2f8f-43de-b4cb-2460d011d151/AAABkh4sgTs/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/eixen-neuer-dorfladen-im-ehemaligen-schmugglerkrug-eroeffnet,mvregiogreifswald-6180.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r05",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Braunschweig",
+      "headline": "Hunderttausende sehen das „Festival of Lights“ in Braunschweig",
+      "teaser": "Mehrere Hunderttausend Menschen haben in Braunschweig das Lichtkunst-Event „Festival of Lights“ besucht. Es fand zum ersten Mal in Niedersachsen statt. An fünf Tagen wurden zwölf Gebäude angestrahlt, etwa das Rathaus und der Dom.",
+      "blocks": [],
+      "whyGood": "Das Festival hat die Innenstadt zum Leuchten gebracht, und der Eintritt war für alle kostenlos.",
+      "honestNote": "Ob das Festival wiederkommt, ist noch offen und hängt davon ab, ob ein Sponsor gefunden wird.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/hunderttausende-besuchen-festival-of-lights-in-braunschweig,aktuellbraunschweig-4172.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.ndr.de/image/f69e4b08-e1d8-4db7-8bc0-c52b884782c3/AAABoZ0Yu5Y/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/hunderttausende-besuchen-festival-of-lights-in-braunschweig,aktuellbraunschweig-4172.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r06",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarbrücken",
+      "headline": "Saar-Uni verlängert kostenloses Essen für bedürftige Studierende",
+      "teaser": "Das Mensahilfe-Projekt der Universität des Saarlandes läuft weiter. Bedürftige Studierende bekommen auch im Wintersemester täglich eine kostenlose vegetarische Mahlzeit. Seit acht Semestern wurden so 4.546 Essen ausgegeben.",
+      "blocks": [],
+      "whyGood": "Studierende mit wenig Geld müssen sich um ihre tägliche Mahlzeit keine Sorgen machen, auch dank vieler Spenden.",
+      "honestNote": "Das Projekt ist als kurzfristige Hilfe gedacht und läuft voraussichtlich bis Ende März 2027, solange das Geld reicht.",
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/nachrichten/panorama/saarbruecken_mensahilfe_projekt_wintersemester_2026_2027_kostenloses_essen_fuer_studierende_der_universitaet_saarland_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "AStA",
+          "text": "Das ist der Allgemeine Studierendenausschuss. Er vertritt die Studierenden an einer Hochschule und bietet ihnen Beratung und Hilfe an."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/58c0dfd7-fa3a-4375-ab2b-6a6f6575c072/AAABoZzJ6gk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/nachrichten/panorama/saarbruecken_mensahilfe_projekt_wintersemester_2026_2027_kostenloses_essen_fuer_studierende_der_universitaet_saarland_100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r07",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Südschwarzwald",
+      "headline": "Paar macht Pilze zum Beruf und begeistert online Hunderttausende",
+      "teaser": "Vanessa und Norman Glatzer filmen im Wald Pilze und teilen ihr Wissen online. Seit 2019 betreiben sie das Medienprojekt „Buschfunkistan“. Mehr als 400.000 Follower schauen auf YouTube, Instagram und TikTok zu. Dieses Jahr sind sie für den Umweltmedienpreis der Deutschen Umwelthilfe nominiert.",
+      "blocks": [],
+      "whyGood": "Zwei Menschen machen ihre Neugier auf Pilze zum Beruf und bringen vielen anderen die Natur näher.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/pilzfluencer-dieses-paar-hat-seine-leidenschaft-fuer-pilze-zum-beruf-gemacht-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/d73de513-f018-4c55-a7b7-beb1e5f057e8/AAABoZt3OaY/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/pilzfluencer-dieses-paar-hat-seine-leidenschaft-fuer-pilze-zum-beruf-gemacht-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r08",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Memmingen",
+      "headline": "Bungalow aus Bierbänken und Kirchenparkett entsteht im Allgäu",
+      "teaser": "Das Architektur-Kollektiv Supertecture hat in Dickenreishausen bei Memmingen einen Zwei-Zimmer-Bungalow aus gebrauchten Bauteilen gebaut. Die Fassade besteht aus alten Bierbänken, das Parkett kommt aus einer abgerissenen Kirche. Die Fliesen stammen aus einem Schwimmbad.",
+      "blocks": [],
+      "whyGood": "Das Haus zeigt, dass aus Abfall ein schönes Zuhause werden kann und Bauteile eine zweite Chance bekommen.",
+      "honestNote": "Ganz ohne neue Teile ging es nicht, denn die tragende Konstruktion kam von einem Fertighaushersteller.",
+      "sources": [
+        {
+          "name": "BR24 Schwaben",
+          "url": "https://www.br.de/nachrichten/kultur/recycling-architektur-wie-aus-abfall-ein-haus-entsteht,VZpARf0",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://img.br.de/e60107ff-f988-48c1-8b98-96ea21ecb105.png?q=80&rect=0%2C2%2C1920%2C1078&w=1600&h=900",
+        "credit": "BR24 Schwaben",
+        "source": "https://www.br.de/nachrichten/kultur/recycling-architektur-wie-aus-abfall-ein-haus-entsteht,VZpARf0",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r09",
+      "ressort": "region",
+      "regions": [
+        "BB"
+      ],
+      "kicker": "Cottbus",
+      "headline": "Filmfestival Cottbus zeigt 147 Filme aus 43 Ländern",
+      "teaser": "In Cottbus beginnt das Filmfestival für osteuropäischen Film. Sechs Tage lang laufen 147 Filme aus 43 Ländern. Schwerpunkte sind in diesem Jahr Lettland und Montenegro, dazu kommt der Oscar-prämierte Animationsfilm „Flow“.",
+      "blocks": [],
+      "whyGood": "Das Festival öffnet den Blick auf Filme und Alltag in Ländern, die sonst selten auf der Leinwand zu sehen sind.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/11/cottbus-filmfestival-osteuropa-lettland-montenegro-ukraine.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/d9514c2b-cad3-4fda-b98c-3f9f1d8436aa/AAABoZuk-sc/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/kultur/beitrag/2026/11/cottbus-filmfestival-osteuropa-lettland-montenegro-ukraine.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r10",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Überseemuseum zeigt neue Ausstellung über Katzen",
+      "teaser": "Im Bremer Überseemuseum gibt es eine neue Ausstellung über Katzen. Sie fragt, wie die Katze zum beliebtesten Haustier in Deutschland wurde. Und sie geht der Frage nach, was uns an den Tieren so fasziniert.",
+      "blocks": [],
+      "whyGood": "Wer Katzen mag, findet in Bremen jetzt einen Ort, an dem sich alles um sie dreht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/katzen-haustiere-deutschland-beliebt-katzenausstellung-wochenserie-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/katze-fell-augen-ohren-100~_v-1280x720_c-1793642163713.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/katzen-haustiere-deutschland-beliebt-katzenausstellung-wochenserie-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r11",
+      "ressort": "region",
+      "regions": [
+        "HH"
+      ],
+      "kicker": "Hamburg",
+      "headline": "Hamburger Flughafen: Kleinflugzeuge tanken Sprit aus Pflanzenresten",
+      "teaser": "Am Hamburger Flughafen können Kleinflugzeuge jetzt klimafreundlichen Kraftstoff tanken. Er wird aus gebrauchtem Speiseöl und pflanzlichen Reststoffen hergestellt. Die Cessnas des Hanseatischen Fliegerclubs nutzen ihn ab sofort für Ausbildung und Training.",
+      "blocks": [],
+      "whyGood": "Auch in der Luftfahrt kommt ein klimafreundlicherer Kraftstoff im Alltag an.",
+      "honestNote": "Der Kraftstoff gilt als klimafreundlich, ist aber bisher nur für Kleinflugzeuge im Einsatz.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/airport-hamburg-kleinflugzeuge-koennen-klimafreundlich-tanken,tanken-296.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/d672a63a-3b5a-48db-81c0-56bb720c9978/AAABoZ1q9r8/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/hamburg/airport-hamburg-kleinflugzeuge-koennen-klimafreundlich-tanken,tanken-296.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r12",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Rövershagen",
+      "headline": "Alte Rostocker Straßenbahnen werden zu Eisbahnen",
+      "teaser": "Mehrere ausgediente Rostocker Straßenbahnen stehen jetzt in Karls Erlebnisdorf in Rövershagen. Besucher können in den Bahnen Schlittschuh laufen. Der Umbau dauerte mehrere Monate.",
+      "blocks": [],
+      "whyGood": "Alte Straßenbahnen bekommen ein neues Leben und machen Besuchern Freude.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/karls-erlebnisdorf-eislaufen-in-rostocker-strassenbahnen,mvregiorostock-5184.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/6357f627-8999-4bb4-842c-fe5307494f9a/AAABoZ0ra7Y/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/karls-erlebnisdorf-eislaufen-in-rostocker-strassenbahnen,mvregiorostock-5184.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r13",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Frankenthal",
+      "headline": "Zwei Frankenthaler gründen Jobplattform für Remote-Arbeit",
+      "teaser": "Lars Schreiner (23) und Anton Petuchow (22) haben die Plattform „Nomado24“ gegründet. Sie vermittelt nur Stellen, die zu 100 Prozent aus der Ferne möglich sind, ohne versteckte Präsenzpflicht. Im Oktober gab es rund 20.000 Zugriffe.",
+      "blocks": [],
+      "whyGood": "Zwei junge Pfälzer helfen anderen, ortsunabhängig zu arbeiten, und das Land fördert ihre Idee.",
+      "honestNote": "Die Plattform ging erst diesen Sommer online und ist noch jung.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/digitale-nomaden-aus-frankenthal-erfinden-remote-job-plattform-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": []
+    },
+    {
+      "id": "2026-11-03-r14",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Mainz",
+      "headline": "App erzählt die Geschichten hinter den Stolpersteinen in RLP",
+      "teaser": "Die App „Stolpersteine digital“ zeigt nun auch in Rheinland-Pfalz die Biografien der Opfer des Nationalsozialismus. Man scannt einfach den Stolperstein. Rund 4600 Steine im Land werden aufgenommen. Bis Ende nächsten Jahres sollen möglichst alle in Deutschland erfasst sein.",
+      "blocks": [],
+      "whyGood": "Die Lebensgeschichten der Opfer bleiben so sichtbar und die Erinnerung an sie wird wachgehalten.",
+      "honestNote": "Bisher sind noch nicht alle Stolpersteine in Deutschland in der App erfasst.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/stolpersteine-digital-rlp-opfer-nationalsozialismus-gedenken-app-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Stolperstein",
+          "text": "Ein Stolperstein ist eine kleine Gedenktafel im Boden. Sie erinnert vor dem letzten frei gewählten Wohnort an einen Menschen, der in der NS-Zeit verfolgt wurde."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/4702bd2a-4d80-48c4-b033-c14427b4d896/AAABoZ3GnOo/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/stolpersteine-digital-rlp-opfer-nationalsozialismus-gedenken-app-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r15",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarbrücken",
+      "headline": "Bakterienfamilie trägt jetzt den Namen des Saarlands",
+      "teaser": "Forschende haben im August eine Bakterienfamilie nach dem Saarland benannt. Die Proben stammen auch aus dem Bürgerprojekt Microbelix des Helmholtz-Instituts für Pharmazeutische Forschung Saarland. Über 2.000 Menschen machen mit, mehr als die Hälfte aus dem Saarland.",
+      "blocks": [],
+      "whyGood": "Ein Bürgerprojekt trägt dazu bei, dass der Boden im Saarland erforscht wird und eine ganze Bakterienfamilie den Namen der Region bekommt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/nachrichten/panorama/saarbruecken_microbelix_buergerprojekt_hips_bodenproben_studie_saarlandbakterien_medikamente_wirkstoffe_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/ed3f503a-4833-4da1-a741-d595705b57e1/AAABoZz_JfM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/nachrichten/panorama/saarbruecken_microbelix_buergerprojekt_hips_bodenproben_studie_saarlandbakterien_medikamente_wirkstoffe_100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r16",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Leipzig",
+      "headline": "Angela Merkel erhält Mendelssohn-Preis für Verdienste um Europa",
+      "teaser": "Die Altbundeskanzlerin ist in Leipzig mit dem Internationalen Mendelssohn-Preis 2026 in der Kategorie „Europa“ geehrt worden. Die Stiftung lobte ihre Verantwortung und Handlungsfähigkeit im Amt. Nach ihrer Rede gab es Standing Ovations.",
+      "blocks": [],
+      "whyGood": "Ein klares Bekenntnis zu Europa, Frieden und Demokratie wird in Leipzig mit großem Applaus gefeiert.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/merkel-mendelssohn-preis-europa,mendelssohn-preis-kultur-news-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/2b259597-4286-49a5-a73c-c40e90908889/AAABnvnmn4Y/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/merkel-mendelssohn-preis-europa,mendelssohn-preis-kultur-news-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r17",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Jena",
+      "headline": "17 Studenten starten über Landarztquote ins Medizinstudium",
+      "teaser": "In Jena haben die ersten 17 Studenten über die neue Thüringer Landarztquote ihr Medizinstudium begonnen. Insgesamt gab es 173 Bewerbungen. Viele kommen aus Thüringen und haben schon Erfahrung im Gesundheitsbereich, etwa als Rettungsassistenten.",
+      "blocks": [],
+      "whyGood": "Die neuen Studenten wollen später mindestens zehn Jahre als Hausärzte in Thüringen arbeiten und helfen so gegen den Ärztemangel.",
+      "honestNote": "Die ersten Hausärzte aus dem Programm werden voraussichtlich erst in zehn bis zwölf Jahren ihre Arbeit aufnehmen.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/jena/medizinstudium-hausarzt-fsu,landarztquote-122.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/c1856162-280a-4563-b63a-acfe1045db83/AAABoZyltBw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/jena/medizinstudium-hausarzt-fsu,landarztquote-122.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r18",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Uni Bremen macht Gelegenheitsschriften aus 4 Jahrhunderten zugänglich",
+      "teaser": "Die Universität Bremen hat Gelegenheitsschriften aus vier Jahrhunderten veröffentlicht. Sie geben einen direkten Einblick in die Stadtgesellschaft vergangener Zeiten. Rund 1.000 Personen sind in den Aufzeichnungen schon zu finden.",
+      "blocks": [],
+      "whyGood": "Wer sich für Bremens Geschichte interessiert, kann jetzt selbst in den Schriften vergangener Jahrhunderte stöbern.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/gelegenheitsschriften-projekt-bremen-freiwillige-universitaetsbibliothek-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Gelegenheitsschriften",
+          "text": "Das sind Texte, die zu einem besonderen Anlass entstanden sind. Das kann zum Beispiel eine Hochzeit oder ein Todesfall sein."
+        }
+      ],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/menschen-buch-raum-tisch-100~_v-1280x720_c-1793647638892.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/gelegenheitsschriften-projekt-bremen-freiwillige-universitaetsbibliothek-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r19",
+      "ressort": "region",
+      "regions": [
+        "HH"
+      ],
+      "kicker": "Hamburg",
+      "headline": "Holstenstraße: Sechs Hilfsbrücken für die Bahn eingehoben",
+      "teaser": "Die Deutsche Bahn hat an der Holstenstraße in Hamburg sechs Hilfsbrücken eingehoben. Die schwerste wiegt 80 Tonnen und ist 30 Meter lang. Nun folgen Schwellen und Gleise, damit die S-Bahn bald wieder ihre gewohnte Strecke fährt.",
+      "blocks": [],
+      "whyGood": "Nach der Sperrung wegen Rissen im Beton geht es an der wichtigen Strecke zügig voran.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/hamburger-holstenstrasse-hilfsbruecken-fertig-eingehoben,einhub-bruecken-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/cef76bb1-35bb-491a-a46e-efde07ecadbc/AAABoY1B0lc/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/hamburg/hamburger-holstenstrasse-hilfsbruecken-fertig-eingehoben,einhub-bruecken-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-03-r20",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Hannover",
+      "headline": "Hannover startet Winternothilfe mit vier Straßensozialarbeitern",
+      "teaser": "In Hannover beginnt die Kältehilfe für wohnungslose Menschen. Erstmals sind vier Straßensozialarbeiter für einzelne Bezirke im Einsatz. Dazu öffnen die Nacht-Cafés, und der Kältehilfebus der Johanniter bringt Essen, Tee und Schlafsäcke.",
+      "blocks": [],
+      "whyGood": "Wer im Winter auf der Straße lebt, findet in Hannover mehr Wärme, Essen und feste Ansprechpersonen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/gegen-kaelte-und-not-start-der-winternothilfe-in-hannover,winternothilfe-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/7c59a1be-970b-4d3a-9682-4afe60b0863d/AAABnCP8HhE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/gegen-kaelte-und-not-start-der-winternothilfe-in-hannover,winternothilfe-102.html",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Auberginen-Eintopf mit Zitronen-Couscous",
+    "intro": "Ein warmer, würziger Eintopf für kühle Novemberabende, der ohne viel Aufwand auskommt. Der frische Zitronen-Couscous macht ihn schön leicht.",
+    "servings": 2,
+    "minutes": 40,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "item": "Auberginen"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "item": "Olivenöl"
+      },
+      {
+        "amount": 1,
+        "unit": "Dose",
+        "item": "Kichererbsen"
+      },
+      {
+        "amount": 5,
+        "unit": "EL",
+        "item": "Tomatenmark"
+      },
+      {
+        "amount": 160,
+        "unit": "g",
+        "item": "Couscous"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "Bio-Zitrone"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "item": "Petersilie"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "Garam Masala"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "Currypulver"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Salz"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Pfeffer"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Wasser"
+      }
+    ],
+    "steps": [
+      "Die Auberginen grob würfeln. Die Kichererbsen abgießen und abspülen.",
+      "Das Olivenöl in einem Topf erhitzen. Das Garam Masala darin anschwitzen, bis es duftet.",
+      "Die Auberginenwürfel dazugeben und kurz leicht anbraten.",
+      "Tomatenmark, einen Schuss Wasser und die Kichererbsen zufügen. Alles etwa 15 Minuten köcheln lassen.",
+      "Mit dem Saft einer halben Zitrone, Curry, Salz und Pfeffer abschmecken.",
+      "Den Couscous nach Packungsanweisung zubereiten. Die Petersilie hacken.",
+      "Den Saft der anderen Zitronenhälfte, die Petersilie und etwas Salz unter den Couscous mischen. Mit dem Eintopf servieren."
+    ],
+    "tip": "Etwas fein gehackte Zitronenschale im Couscous gibt noch mehr Frische.",
+    "icon": "leaf.fill",
+    "source": {
+      "name": "Chefkoch",
+      "url": "https://www.chefkoch.de/rezepte/2802171432328002/Aubergineneintopf-mit-Zitronencouscous.html"
+    }
+  }
+}
