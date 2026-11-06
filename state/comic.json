@@ -3,88 +3,53 @@
  "busch": 5,
  "sandraundwoo": 54,
  "last": {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "comic": {
-   "series": "sandraundwoo",
-   "title": "Sandra und Woo",
-   "episode": "Sonnenuntergang und mehr",
-   "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0050.jpg",
-   "pages": [
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0050.jpg",
-     "width": 980,
-     "height": 359,
-     "title": "Sonnenuntergang",
-     "panels": null
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0051.png",
-     "width": 980,
-     "height": 328,
-     "title": "Demokratie",
-     "panels": [
-      [
-       0.0061,
-       0.0183,
-       0.2378,
-       0.8841
-      ],
-      [
-       0.2571,
-       0.0183,
-       0.2357,
-       0.8841
-      ],
-      [
-       0.5051,
-       0.0183,
-       0.2357,
-       0.8841
-      ],
-      [
-       0.7541,
-       0.0183,
-       0.2398,
-       0.8841
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0052.png",
-     "width": 980,
-     "height": 328,
-     "title": "The Dark Knight",
-     "panels": [
-      [
-       0.0061,
-       0.0183,
-       0.2378,
-       0.8841
-      ],
-      [
-       0.2571,
-       0.0183,
-       0.2357,
-       0.8841
-      ],
-      [
-       0.5051,
-       0.0183,
-       0.2357,
-       0.8841
-      ],
-      [
-       0.7541,
-       0.0183,
-       0.2398,
-       0.8841
-      ]
-     ]
-    }
-   ],
-   "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-   "link": "https://www.sandraandwoo.com/woode/",
-   "linkTitle": "Mehr von Sandra und Woo"
+   "series": "sonnewolke",
+   "title": "Sonne & Wolke",
+   "episode": "Code vergessen? Ab in den Scanner!",
+   "strip": {
+    "storyID": "2026-11-06-01",
+    "panels": [
+     {
+      "prop": "lock.fill",
+      "caption": null,
+      "sun": {
+       "mood": "lacht",
+       "text": "Ein 400 Jahre altes Schloss aus einem Wrack ist offen!"
+      },
+      "cloud": {
+       "mood": "skeptisch",
+       "text": "Wer hat denn so lange den Schlüssel gesucht?"
+      }
+     },
+     {
+      "prop": "magnifyingglass",
+      "caption": null,
+      "sun": {
+       "mood": "staunt",
+       "text": "Am Strand gefunden! Und 20 Jahre blieb es zu!"
+      },
+      "cloud": {
+       "mood": "grübelt",
+       "text": "Mein Fahrradcode hält auch nur zwei Tage in meinem Kopf."
+      }
+     },
+     {
+      "prop": "key.fill",
+      "caption": "Später beim Arzt",
+      "sun": {
+       "mood": "froh",
+       "text": "Der CT-Scanner hat durchgeschaut und den Code gefunden!"
+      },
+      "cloud": {
+       "mood": "verlegen",
+       "text": "Dann scannen wir mich. Da drin ist nur Nebel."
+      }
+     }
+    ]
+   },
+   "credit": "Ein Comic von The Daily Good"
   }
  }
 }
