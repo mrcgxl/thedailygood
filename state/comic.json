@@ -3,113 +3,53 @@
  "busch": 1,
  "sandraundwoo": 57,
  "last": {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "comic": {
-   "series": "sandraundwoo",
-   "title": "Sandra und Woo",
-   "episode": "Der Joker und mehr",
-   "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0053.png",
-   "pages": [
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0053.png",
-     "width": 980,
-     "height": 848,
-     "title": "Der Joker",
-     "panels": [
-      [
-       0.0061,
-       0.0071,
-       0.3204,
-       0.4752
-      ],
-      [
-       0.3327,
-       0.0071,
-       0.3276,
-       0.4752
-      ],
-      [
-       0.6776,
-       0.0071,
-       0.3163,
-       0.4752
-      ],
-      [
-       0.0061,
-       0.5024,
-       0.6541,
-       0.4599
-      ],
-      [
-       0.6776,
-       0.5024,
-       0.3163,
-       0.4599
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0054.png",
-     "width": 980,
-     "height": 636,
-     "title": "Fearundfünfzig",
-     "panels": [
-      [
-       0.0061,
-       0.0094,
-       0.3224,
-       0.4591
-      ],
-      [
-       0.3418,
-       0.0094,
-       0.3235,
-       0.4591
-      ],
-      [
-       0.6776,
-       0.0094,
-       0.3163,
-       0.4591
-      ],
-      [
-       0.3408,
-       0.4906,
-       0.6531,
-       0.4591
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0055.png",
-     "width": 980,
-     "height": 328,
-     "title": "Sie haben Post",
-     "panels": [
-      [
-       0.0061,
-       0.0183,
-       0.2102,
-       0.8841
-      ],
-      [
-       0.2296,
-       0.0183,
-       0.5163,
-       0.8841
-      ],
-      [
-       0.7541,
-       0.0183,
-       0.2398,
-       0.8841
-      ]
-     ]
-    }
-   ],
-   "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-   "link": "https://www.sandraandwoo.com/woode/",
-   "linkTitle": "Mehr von Sandra und Woo"
+   "series": "sonnewolke",
+   "title": "Sonne & Wolke",
+   "episode": "Pretty, spiel Doom!",
+   "strip": {
+    "storyID": "2026-11-10-k04",
+    "panels": [
+     {
+      "prop": "antenna.radiowaves.left.and.right",
+      "caption": null,
+      "sun": {
+       "mood": "lacht",
+       "text": "Funker in Oslo ließen einen Satelliten per Sprache Doom spielen!"
+      },
+      "cloud": {
+       "mood": "skeptisch",
+       "text": "Doom? Klingt nach meinem Wetterbericht."
+      }
+     },
+     {
+      "prop": "rocket.fill",
+      "caption": null,
+      "sun": {
+       "mood": "staunt",
+       "text": "Sie funkten 59 Tage lang vom Dach und gaben rund 700 Euro aus!"
+      },
+      "cloud": {
+       "mood": "grübelt",
+       "text": "Und der Satellit heißt ausgerechnet „Pretty“."
+      }
+     },
+     {
+      "prop": "bed.double.fill",
+      "caption": "Später auf dem Sofa …",
+      "sun": {
+       "mood": "verlegen",
+       "text": "Ich bin nicht der Satellit, aber okay, kurz."
+      },
+      "cloud": {
+       "mood": "froh",
+       "text": "Pretty, mach Pause, Pause, Pause."
+      }
+     }
+    ]
+   },
+   "credit": "Ein Comic von The Daily Good"
   }
  }
 }
