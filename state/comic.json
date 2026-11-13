@@ -3,107 +3,53 @@
  "busch": 1,
  "sandraundwoo": 68,
  "last": {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "comic": {
-   "series": "sandraundwoo",
-   "title": "Sandra und Woo",
-   "episode": "Schlüsselqualifikationen und mehr",
-   "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0056.png",
-   "pages": [
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0056.png",
-     "width": 980,
-     "height": 330,
-     "title": "Schlüsselqualifikationen",
-     "panels": [
-      [
-       0.0061,
-       0.0182,
-       0.3224,
-       0.8848
-      ],
-      [
-       0.3418,
-       0.0182,
-       0.3235,
-       0.8848
-      ],
-      [
-       0.6776,
-       0.0182,
-       0.3163,
-       0.8848
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0057.png",
-     "width": 980,
-     "height": 328,
-     "title": "Problemlösung",
-     "panels": [
-      [
-       0.0061,
-       0.0183,
-       0.2378,
-       0.8841
-      ],
-      [
-       0.2571,
-       0.0183,
-       0.2347,
-       0.8841
-      ],
-      [
-       0.5051,
-       0.0183,
-       0.2347,
-       0.8841
-      ],
-      [
-       0.7531,
-       0.0183,
-       0.2408,
-       0.8841
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0066.png",
-     "width": 980,
-     "height": 328,
-     "title": "Kompromiss",
-     "panels": [
-      [
-       0.0061,
-       0.0183,
-       0.2378,
-       0.8841
-      ],
-      [
-       0.2571,
-       0.0183,
-       0.2347,
-       0.8841
-      ],
-      [
-       0.5051,
-       0.0183,
-       0.2347,
-       0.8841
-      ],
-      [
-       0.7531,
-       0.0183,
-       0.2408,
-       0.8841
-      ]
-     ]
-    }
-   ],
-   "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-   "link": "https://www.sandraandwoo.com/woode/",
-   "linkTitle": "Mehr von Sandra und Woo"
+   "series": "sonnewolke",
+   "title": "Sonne & Wolke",
+   "episode": "Doppelgänger im Dschungel",
+   "strip": {
+    "storyID": "2026-11-13-08",
+    "panels": [
+     {
+      "prop": "leaf.fill",
+      "caption": null,
+      "sun": {
+       "mood": "staunt",
+       "text": "Ein bekannter Tropenfalter ist in Wahrheit mehrere Arten!"
+      },
+      "cloud": {
+       "mood": "skeptisch",
+       "text": "Und wie hat das vorher keiner gemerkt?"
+      }
+     },
+     {
+      "prop": "magnifyingglass",
+      "caption": null,
+      "sun": {
+       "mood": "froh",
+       "text": "Die neue Art sieht ihren Verwandten fast zum Verwechseln ähnlich."
+      },
+      "cloud": {
+       "mood": "grübelt",
+       "text": "Also ein Falter mit Zwilling. Praktisch beim Versteckspiel."
+      }
+     },
+     {
+      "prop": "cloud.fill",
+      "caption": null,
+      "sun": {
+       "mood": "verlegen",
+       "text": "Ich sehe bei dir auch nur eine Art: grau."
+      },
+      "cloud": {
+       "mood": "lacht",
+       "text": "Typisch. Ich bin Cumulus. Der Stratus da drüben ist mein Cousin."
+      }
+     }
+    ]
+   },
+   "credit": "Ein Comic von The Daily Good"
   }
  }
 }

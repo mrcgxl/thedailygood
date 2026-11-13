@@ -1,501 +1,514 @@
 {
-  "date": "2026-11-12",
-  "number": 45,
+  "date": "2026-11-13",
+  "number": 46,
   "isSample": false,
-  "leadStoryID": "2026-11-12-01",
+  "leadStoryID": "2026-11-13-01",
   "stories": [
     {
-      "id": "2026-11-12-01",
-      "ressort": "natur",
-      "kicker": "Spanien",
-      "headline": "Kantabrische Braunbären erobern ihr Gebiet zurück",
-      "teaser": "Im Norden Spaniens leben wieder deutlich mehr Braunbären als vor 20 Jahren. Auch ihr Lebensraum ist stark gewachsen.",
+      "id": "2026-11-13-01",
+      "ressort": "zukunft",
+      "kicker": "China",
+      "headline": "China baut riesigen Speicher aus flüssiger Luft",
+      "teaser": "In der Provinz Qinghai läuft die weltweit größte Anlage dieser Art. Sie speichert Ökostrom für Zeiten ohne Sonne und Wind.",
       "blocks": [
         {
-          "type": "comparison",
-          "title": "Braunbären in Spanien",
-          "before": {
-            "label": "Anfang des Jahrhunderts",
-            "value": 140,
-            "display": "140 Bären"
-          },
-          "after": {
-            "label": "Heute",
-            "value": 370,
-            "display": "370 Bären"
-          }
+          "type": "bigNumber",
+          "value": "600",
+          "unit": "Megawattstunden",
+          "caption": "Speicherkapazität hat die Anlage und kann bis zu 10 Stunden lang Strom liefern",
+          "icon": "battery.100"
         },
         {
-          "type": "bigNumber",
-          "value": "17.000",
-          "unit": "km²",
-          "caption": "und mehr umfasst das Gebiet, in dem die Bären heute leben",
-          "icon": "mountain.2.fill"
+          "type": "steps",
+          "title": "So funktioniert es",
+          "items": [
+            "Mit überschüssigem Ökostrom wird Luft verdichtet und stark gekühlt, bis sie flüssig ist.",
+            "Die flüssige Luft liegt in isolierten Tanks und braucht viel weniger Platz als Gas.",
+            "Wird Strom gebraucht, erwärmt sich die Luft und dehnt sich aus. Das treibt eine Turbine an."
+          ],
+          "icons": [
+            "wind",
+            "shippingbox.fill",
+            "bolt.fill"
+          ]
         }
       ],
-      "whyGood": "Eine Tierart, die fast verschwunden war, kommt zurück. Schutzgebiete und hohe Strafen für das illegale Töten haben dabei geholfen.",
+      "whyGood": "Ökostrom lässt sich so für windstille und dunkle Stunden aufheben. Laut der Analysefirma Lazard kostet das Verfahren deutlich weniger als Lithium-Ionen-Batterien.",
       "honestNote": null,
       "sources": [
         {
           "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 8,
-      "country": "ES",
-      "terms": [],
-      "guess": {
-        "question": "Wie viele Kantabrische Braunbären leben heute in Spanien?",
-        "options": [
-          "Etwa 37",
-          "Etwa 370",
-          "Etwa 3.700"
-        ],
-        "answer": 1,
-        "reveal": "Es sind rund 370 Bären. Anfang des Jahrhunderts waren es nur etwa 140.",
-        "icon": "pawprint.fill"
-      },
-      "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-Cantabrian-brown-bear-credit-Juan-Iacruz-CC-BY-SA-4.0.jpg",
-        "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-02",
-      "ressort": "wissenschaft",
-      "kicker": "Katalonien",
-      "headline": "Katalonien: Besucher übersahen uralte Höhlenkunst",
-      "teaser": "In einer Höhle in Katalonien gingen Besucher jahrzehntelang an uralten Bildern vorbei. Nun haben Forscher sie erkannt.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "280",
-          "unit": "Ritzungen",
-          "caption": "fanden Forscher in der Höhle Cova de la Font Major, darunter 55 Tiere wie Pferde, Bären und Hirsche",
-          "icon": "paintbrush.fill"
-        },
-        {
-          "type": "share",
-          "value": 75,
-          "label": "der spanischen Höhlen mit höchstens 5 Bildern",
-          "caption": "Die meisten bekannten Kunsthöhlen in Spanien haben nur wenige Darstellungen. Diese Höhle ist eine große Ausnahme."
-        },
-        {
-          "type": "map",
-          "place": "Cova de la Font Major, Katalonien",
-          "latitude": 41.38,
-          "longitude": 1.1,
-          "caption": "Etwa 230 Meter vom Eingang entfernt liegen die Ritzungen."
-        }
-      ],
-      "whyGood": "Selbst ein viel besuchter Ort kann noch Überraschungen bergen. Die Entdeckung zeigt neue Seiten der Kunst der Eiszeit und regt dazu an, andere Höhlen noch einmal genau anzusehen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/for-centuries-visitors-walked-right-by-280-unseen-ice-age-cave-paintings/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "ES",
-      "terms": [
-        {
-          "term": "Ritzungen",
-          "text": "Das sind Linien oder Bilder, die Menschen mit einem spitzen Gegenstand in Stein kratzen."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele Ritzungen entdeckten Forscher in der Höhle?",
-        "options": [
-          "28",
-          "280",
-          "2.800"
-        ],
-        "answer": 1,
-        "reveal": "Es sind 280 Ritzungen, darunter 55 Tiere. Das ist für Katalonien ein Rekord.",
-        "icon": "mountain.2.fill"
-      },
-      "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-horse-representaion-where-cave-floor-is-used-to-represent-the-ground-credit-2026-Verges-et-al.-Antiquiry-CC-4.0.-BY-SA-e1794413594768.jpg",
-        "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/for-centuries-visitors-walked-right-by-280-unseen-ice-age-cave-paintings/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-03",
-      "ressort": "welt",
-      "kicker": "Los Angeles",
-      "headline": "Los Angeles verbietet Ölförderung in der Stadt",
-      "teaser": "Nach mehr als zehn Jahren Druck aus den Nachbarschaften beschließt der Stadtrat das Ende der Ölbohrungen. Keine andere große US-Stadt geht so weit.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "20",
-          "unit": "Jahre",
-          "caption": "haben die aktiven Ölbetriebe in der Stadt Zeit, bis sie ganz schließen",
-          "icon": "calendar"
-        },
-        {
-          "type": "share",
-          "value": 43,
-          "label": "weniger Öl im Becken von Los Angeles",
-          "caption": "So viel niedriger ist die Förderung im Vergleich zu vor acht Jahren. Sie sinkt seit Jahrzehnten."
-        },
-        {
-          "type": "background",
-          "title": "Was die Verordnung regelt",
-          "text": "Neue Bohrungen sind sofort verboten. Auch bestehende Bohrlöcher dürfen nicht tiefer oder neu gebohrt werden. Stillgelegte Bohrlöcher können Methan austreten lassen, ein Gas, das dem Klima schadet."
-        }
-      ],
-      "whyGood": "Menschen in dicht besiedelten Vierteln müssen künftig nicht mehr neben Ölbohrstellen leben. Die Stadt ist die größte der USA, die Ölförderung verbietet.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Optimist Daily",
-          "url": "https://www.optimistdaily.com/2026/11/after-a-decade-of-community-pressure-la-bans-oil-drilling-for-good/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "US",
-      "terms": [
-        {
-          "term": "Methan",
-          "text": "Methan ist ein Gas ohne Farbe. Es entweicht zum Beispiel aus Bohrlöchern und heizt das Klima auf."
-        }
-      ],
-      "guess": {
-        "question": "Welchen Anteil des weltweiten Öls förderte Kalifornien im frühen 20. Jahrhundert?",
-        "options": [
-          "Etwa ein Fünfzigstel",
-          "Etwa ein Viertel",
-          "Etwa drei Viertel"
-        ],
-        "answer": 1,
-        "reveal": "Kalifornien förderte damals etwa ein Viertel des weltweiten Öls, vieles davon in und um Los Angeles.",
-        "icon": "drop.fill"
-      },
-      "image": {
-        "url": "https://www.optimistdaily.com/wp-content/uploads/oil-pump-jack-city-limits-Depositphotos_199434004_S.jpg",
-        "credit": "Optimist Daily",
-        "source": "https://www.optimistdaily.com/2026/11/after-a-decade-of-community-pressure-la-bans-oil-drilling-for-good/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-04",
-      "ressort": "sport",
-      "kicker": "Senegal",
-      "headline": "Senegals Breakdancer tanzen bei den Jugendspielen",
-      "teaser": "Junge Breakdancer in Dakar bereiten sich auf die Olympischen Jugendspiele vor. Sie mischen afrikanische Tänze in ihre Moves.",
-      "blocks": [
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Zum ersten Mal findet ein Olympia-Event in Afrika statt.",
-            "Suzanne Toure, 15, ist das einzige Mädchen im Breakdance-Team.",
-            "Das Team mischt Tänze wie Mbalax und Yela in seine Routinen."
-          ],
-          "icons": [
-            "globe.europe.africa.fill",
-            "person.fill",
-            "music.note"
-          ]
-        },
-        {
-          "type": "map",
-          "place": "Dakar, Senegal",
-          "latitude": 14.69,
-          "longitude": -17.44,
-          "caption": "In der Hauptstadt Dakar üben die Tänzerinnen und Tänzer."
-        },
-        {
-          "type": "quote",
-          "text": "Es geht darum, diese afrikanischen Tänze in das Breaking zu mischen.",
-          "author": "Francis Siméon Gomis, Trainer des senegalesischen Teams"
-        }
-      ],
-      "whyGood": "Olympia kommt zum ersten Mal nach Afrika. Junge Tänzerinnen und Tänzer zeigen dort vor heimischem Publikum ihren eigenen Stil.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/11/11/g-s1-150228/senegal-youth-olympic-games-breakdancing",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "SN",
-      "terms": [
-        {
-          "term": "Breakdance",
-          "text": "Ein Tanzstil aus dem Hip-Hop. Die Tänzer drehen sich, gleiten über den Boden und halten Posen in der Luft."
-        }
-      ],
-      "guess": {
-        "question": "Wie oft fand ein Olympia-Event bisher in Afrika statt?",
-        "options": [
-          "Nie",
-          "Einmal",
-          "Dreimal"
-        ],
-        "answer": 0,
-        "reveal": "Bisher nie. Erst jetzt, in Senegal, findet zum ersten Mal ein Olympia-Event auf afrikanischem Boden statt.",
-        "icon": "globe.europe.africa.fill"
-      },
-      "image": {
-        "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F66%2Fdc%2F0abbbb464785bfcf43a99355caab%2Ffarflungpostcard-s.jpg",
-        "credit": "NPR",
-        "source": "https://www.npr.org/2026/11/11/g-s1-150228/senegal-youth-olympic-games-breakdancing",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-05",
-      "ressort": "natur",
-      "kicker": "Marshallinseln",
-      "headline": "Zwei Atolle im Pazifik sind kaum von Menschen berührt",
-      "teaser": "Forschende haben Bikar und Bokak untersucht. Sie gehören zu den unberührtesten Lebensräumen der Meere und sind jetzt geschützt.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "48.000",
-          "unit": "km² Meer",
-          "caption": "rund um die Atolle sind jetzt das erste nationale Meeresschutzgebiet des Landes.",
-          "icon": "water.waves"
-        },
-        {
-          "type": "map",
-          "place": "Bikar und Bokak, Marshallinseln",
-          "latitude": 12.2,
-          "longitude": 167.5,
-          "caption": "Die nördlichsten Atolle der Marshallinseln im Pazifik."
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "15 Seevogelkolonien brüten dort oder brüten wahrscheinlich dort",
-            "132 Nester grüner Meeresschildkröten wurden auf Bikar gezählt",
-            "Zwei Fischgruppen sind vielleicht neu für die Wissenschaft"
-          ],
-          "icons": [
-            "bird.fill",
-            "tortoise.fill",
-            "fish.fill"
-          ]
-        }
-      ],
-      "whyGood": "Ein großes Stück Meer mit gesunden Riffen, vielen Vögeln und großen Raubfischen bleibt geschützt. Es zeigt auch, wie gesunde Natur aussieht, und hilft beim Schutz anderer Orte.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-scientists-wild-healthy-ecosystems-world.html",
+          "url": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
           "language": "Englisch"
         },
         {
-          "name": "SPIEGEL Wissenschaft",
-          "url": "https://www.spiegel.de/wissenschaft/natur/bikar-und-bokak-ein-naturparadies-im-pazifik-zeigt-was-andere-orte-verloren-haben-a-2c03b3d5-f01b-4d5b-bb26-6ad4def818d1#ref=rss",
+          "name": "scinexx",
+          "url": "https://www.scinexx.de/news/energie/gravitationskraftwerk-meeresbatterie-speichert-energie-mit-schwerer-salzloesung/",
           "language": "Deutsch"
         }
       ],
       "score": 7,
-      "country": "MH",
+      "country": "CN",
       "terms": [
         {
-          "term": "Atolle",
-          "text": "Ein Atoll ist eine Inselgruppe aus Korallen, die wie ein Ring um eine flache Lagune liegt."
+          "term": "Megawattstunden",
+          "text": "Eine Einheit für Energie. Eine Megawattstunde entspricht 1000 Kilowattstunden."
         }
       ],
       "guess": {
-        "question": "Wie weit liegt Bokak vom nächsten bewohnten Atoll entfernt?",
+        "question": "Wie kalt muss Luft werden, damit sie flüssig wird?",
         "options": [
-          "Etwa 38 Kilometer",
-          "Etwa 385 Kilometer",
-          "Etwa 3.850 Kilometer"
+          "etwa minus 20 Grad",
+          "etwa minus 90 Grad",
+          "etwa minus 190 Grad"
         ],
-        "answer": 1,
-        "reveal": "Bokak liegt etwa 385 Kilometer vom nächsten bewohnten Atoll entfernt, Bikar etwa 116 Kilometer.",
-        "icon": "water.waves"
+        "answer": 2,
+        "reveal": "Die Anlage kühlt die Luft auf rund minus 190 Grad Celsius. Dann braucht sie viel weniger Platz.",
+        "icon": "snowflake"
       },
       "image": {
-        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/scientists-find-some-o.jpg",
-        "credit": "Phys.org",
-        "source": "https://phys.org/news/2026-11-scientists-wild-healthy-ecosystems-world.html",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Qinghai-60MW-Liquid-Air-Energy-Storage-Project-credit-China-Green-Development-Investment-Group.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-06",
-      "ressort": "gesundheit",
-      "kicker": "Krebsforschung",
-      "headline": "Bohnen-Kaugummi bekämpft im Labor krebsnahe Viren und Bakterien",
-      "teaser": "Ein Team der University of Pennsylvania hat einen besonderen Kaugummi entwickelt. Er verringerte in Proben von Krebspatienten Mikroben, die mit Mund- und Rachenkrebs zusammenhängen.",
+      "id": "2026-11-13-02",
+      "ressort": "wissenschaft",
+      "kicker": "Weltraum",
+      "headline": "Euclid zeigt das Universum so scharf wie nie",
+      "teaser": "Das europäische Teleskop liefert die bisher größte hochauflösende Karte des Alls. Sie soll helfen, Dunkle Materie und Dunkle Energie zu verstehen.",
       "blocks": [
         {
+          "type": "bigNumber",
+          "value": "900",
+          "unit": "Mio.",
+          "caption": "Galaxien zeigt die erste große Datenfreigabe der Euclid-Mission",
+          "icon": "sparkles"
+        },
+        {
+          "type": "comparison",
+          "title": "Starke Gravitationslinsen",
+          "before": {
+            "label": "Bisher bekannt",
+            "value": 1000,
+            "display": "etwa 1.000"
+          },
+          "after": {
+            "label": "In Euclid-Daten",
+            "value": 15000,
+            "display": "etwa 15.000"
+          }
+        },
+        {
           "type": "share",
-          "value": 93,
-          "label": "weniger HPV im Speichel",
-          "caption": "So stark sank die HPV-Menge in Speichelproben von Krebspatienten. In Mundspülproben waren es 80 Prozent."
+          "value": 14,
+          "label": "der geplanten Himmelskarte",
+          "caption": "So viel der gesamten Fläche, die Euclid kartieren wird, steckt schon in diesen Daten."
+        }
+      ],
+      "whyGood": "Die neue Karte gibt Forschenden viel Material, um zwei große Rätsel des Universums zu lösen. Bis zum Ende der Mission sollen noch weit mehr Entdeckungen folgen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
+          "language": "Englisch"
+        },
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/die-vermessung-des-alls-euclid-enthuellt-erste-3d-karte-des-universums/2353375",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": null,
+      "terms": [
+        {
+          "term": "Gravitationslinse",
+          "text": "Eine Galaxie biegt mit ihrer Schwerkraft das Licht einer weiter hinten liegenden Galaxie. Dadurch erscheinen helle Bögen oder Ringe."
+        },
+        {
+          "term": "Dunkle Materie",
+          "text": "Ein unsichtbarer Stoff im All. Man sieht ihn nicht, aber seine Schwerkraft wirkt auf Galaxien."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele starke Gravitationslinsen kannte man vor Euclid ungefähr?",
+        "options": [
+          "etwa 10",
+          "etwa 1.000",
+          "etwa 100.000"
+        ],
+        "answer": 1,
+        "reveal": "Bekannt waren etwa 1.000 Fälle. In den Euclid-Daten stecken rund 15.000 wahrscheinliche.",
+        "icon": "telescope.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/f34df7d417d910669b174c3dbab3585140a694df/428_0_2700_2160/master/2700.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0452da45b7b3a29d72547cb1e3396a5",
+        "credit": "Guardian Science",
+        "source": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-03",
+      "ressort": "architektur",
+      "kicker": "Neapel",
+      "headline": "Neapel: Neue Metrostation unter einem Dach aus Holz",
+      "teaser": "Das Architekturbüro EMBT hat in Neapel eine Station gebaut, die zwischen Glas und Beton Wärme und Natur in die Stadt bringt.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "10.000",
+          "unit": "Quadratmeter",
+          "caption": "groß ist die neue Station, mit einem Platz, der sich zur Stadt öffnet",
+          "icon": "building.2.fill"
+        },
+        {
+          "type": "map",
+          "place": "Centro Direzionale, Neapel",
+          "latitude": 40.857,
+          "longitude": 14.289,
+          "caption": "Die Station liegt im Geschäftsviertel, das Kenzo Tange in den 1970er Jahren entworfen hat."
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Der Kaugummi besteht aus Lablab-Bohnen und enthält ein Eiweiß gegen Viren.",
-            "Eine erweiterte Version drückte zwei schädliche Bakterienarten fast auf null.",
-            "Nützliche Mundbakterien blieben im Test unversehrt."
+            "Das Dach aus Brettschichtholz erinnert an einen Gang durch den Wald",
+            "Der Boden besteht aus Kalkstein vom Ätna und aus Trani",
+            "Rote und gelbe Streifen an den Bahnsteigen erinnern an Pompeji"
           ],
           "icons": [
-            "leaf.fill",
-            "microbe.fill",
+            "tree.fill",
+            "mountain.2.fill",
+            "paintpalette.fill"
+          ]
+        }
+      ],
+      "whyGood": "Der alltägliche Weg zur U-Bahn wird hier zu einem angenehmen Ort. Holz, Farben und Grün machen ein kühles Viertel einladender.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/12/embt-naples-underground-central-station/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "IT",
+      "terms": [
+        {
+          "term": "Brettschichtholz",
+          "text": "Dafür werden viele Holzbretter fest miteinander verklebt. So entstehen große, stabile Bögen und Balken."
+        }
+      ],
+      "guess": {
+        "question": "Wie groß ist die neue Metrostation in Neapel?",
+        "options": [
+          "1.000 Quadratmeter",
+          "10.000 Quadratmeter",
+          "100.000 Quadratmeter"
+        ],
+        "answer": 1,
+        "reveal": "Das Gebäude misst 10.000 Quadratmeter, etwa so viel wie anderthalb Fußballfelder.",
+        "icon": "tram.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/naples-underground-central-station-embt-architecture-infrastructure-timber-glulam_dezeen_2364_hero.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/12/embt-naples-underground-central-station/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-04",
+      "ressort": "kultur",
+      "kicker": "Los Angeles",
+      "headline": "Lucas Museum: Essen und Souvenirs für kleines Geld",
+      "teaser": "Im neuen Lucas Museum in Los Angeles kann sich jeder etwas leisten. Das Café und der Shop bieten besonders günstige Sachen an.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "2",
+          "unit": "Dollar",
+          "caption": "kostet das Käsesandwich im Café. Jeder Gast soll sich hier etwas zu essen leisten können.",
+          "icon": "fork.knife"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Das Erdnussbutter-Marmelade-Sandwich kostet 3 Dollar.",
+            "Der Bleistift im Shop kostet 25 Cent.",
+            "Postkarten gibt es für je 2 Dollar."
+          ],
+          "icons": [
+            "cup.and.saucer.fill",
+            "pencil",
+            "envelope.fill"
+          ]
+        },
+        {
+          "type": "map",
+          "place": "Lucas Museum of Narrative Art, Los Angeles",
+          "latitude": 34.0165,
+          "longitude": -118.2866,
+          "caption": "Das Museum hat nach langer Arbeit eröffnet."
+        }
+      ],
+      "whyGood": "Das Museum denkt an Familien mit wenig Geld und an Schüler. So muss bei einem Besuch niemand auf ein Mittagessen oder ein Andenken verzichten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/lucas-museum-grilled-cheese-sandwiches/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Jahre arbeiteten die Gründer an ihrem Museum, bis es öffnete?",
+        "options": [
+          "4 Jahre",
+          "17 Jahre",
+          "40 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "George Lucas und Mellody Hobson steckten 17 Jahre Arbeit in das Museum.",
+        "icon": "building.columns.fill"
+      },
+      "image": {
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/lucas-museum-grilled-cheese-wife-mellody-fb.jpg",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/lucas-museum-grilled-cheese-sandwiches/?adt_ei={{ subscriber.email_address }}",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-05",
+      "ressort": "welt",
+      "kicker": "England",
+      "headline": "Verlorene Kriegsorden finden zu einem Veteranen zurück",
+      "teaser": "Ein junger Dokumentarfilmer stößt auf die Akte eines Veteranen und hilft der Familie. So kommen die Orden rechtzeitig zum Gedenktag zurück.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "103",
+          "unit": "Jahre",
+          "caption": "alt ist Douglas Halley, der seine Medaillen nun wieder trägt",
+          "icon": "medal.fill"
+        },
+        {
+          "type": "count",
+          "value": 3,
+          "icon": "medal.fill",
+          "caption": "Medaillen hat er zurückbekommen"
+        },
+        {
+          "type": "quote",
+          "text": "Sie sind vielleicht nur ein Stück Metall, aber ich trage sie ganz nah an meinem Herzen.",
+          "author": "Douglas Halley, Veteran"
+        }
+      ],
+      "whyGood": "Ein Mann bekommt nach Jahrzehnten seine Ehrungen zurück. Möglich wurde das, weil ein junger Mensch sich die Zeit nahm, Geschichten von Veteranen festzuhalten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "GB",
+      "terms": [],
+      "guess": {
+        "question": "Wie alt war Douglas Halley, als er in der Normandie an Land ging?",
+        "options": [
+          "20 Jahre",
+          "27 Jahre",
+          "35 Jahre"
+        ],
+        "answer": 0,
+        "reveal": "Halley war erst 20, als er mit der Royal Artillery in der zweiten Welle an Land ging.",
+        "icon": "medal.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Douglas-Halley-103-with-his-grandson-Luke-credit-SWNS.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-06",
+      "ressort": "kurioses",
+      "kicker": "Illinois",
+      "headline": "Mit 100 Jahren feiert sie ihre erste Geburtstagsparty",
+      "teaser": "Gretchen Sollo geht jeden Tag durch einen Baumarkt. Dort überraschen sie die Angestellten, die sie „Store Mom“ nennen, mit einem Fest.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "2.400",
+          "unit": "Kilometer",
+          "caption": "ist Gretchen Sollo nach Schätzung in fünf Jahren durch den Baumarkt gelaufen",
+          "icon": "figure.walk"
+        },
+        {
+          "type": "count",
+          "value": 50,
+          "icon": "person.fill",
+          "caption": "Angestellte, Freunde und Familienmitglieder warteten in der geschmückten Gasse auf sie"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Nach einem Schlaganfall begann sie ihre täglichen Runden im Lowe's",
+            "Mitarbeiter zählen ihre Runden und laufen mit ihr um die Wette",
+            "Filialleiter Joe Jackson nannte sie „Store Mom“"
+          ],
+          "icons": [
+            "figure.walk",
+            "person.3.fill",
             "heart.fill"
           ]
         }
       ],
-      "whyGood": "Ein alltägliches Produkt könnte eines Tages helfen, Infektionen im Mund zu verringern. Das Verfahren auf Pflanzenbasis könnte außerdem günstiger sein.",
-      "honestNote": "Bisher gab es nur Labortests mit Proben, noch keine Studie mit kauenden Menschen.",
+      "whyGood": "Aus einem Ort zum Einkaufen ist ein Ort geworden, an dem sich Menschen umeinander kümmern. Und eine 100-Jährige durfte zum ersten Mal ihren Geburtstag feiern.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "ScienceDaily Health",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261108203832.htm",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/100-year-old-store-mom-first-birthday-party/",
           "language": "Englisch"
         }
       ],
-      "score": 6,
+      "score": 7,
       "country": "US",
-      "terms": [
-        {
-          "term": "HPV",
-          "text": "Das ist ein weit verbreitetes Virus. Bleibt die Infektion lange bestehen, kann es bestimmte Krebsarten auslösen."
-        }
-      ],
+      "terms": [],
       "guess": {
-        "question": "Um wie viel Prozent senkte der Kaugummi-Extrakt die HPV-Menge in Speichelproben?",
+        "question": "Wie weit ist Gretchen Sollo in fünf Jahren durch den Baumarkt gelaufen?",
         "options": [
-          "Um 9 Prozent",
-          "Um 43 Prozent",
-          "Um 93 Prozent"
-        ],
-        "answer": 2,
-        "reveal": "Im Labor sank die HPV-Menge im Speichel um 93 Prozent, in Mundspülproben um 80 Prozent.",
-        "icon": "microbe.fill"
-      },
-      "image": {
-        "url": "https://www.sciencedaily.com/images/1920/young-woman-biting-chewing-gum.webp",
-        "credit": "ScienceDaily Health",
-        "source": "https://www.sciencedaily.com/releases/2026/11/261108203832.htm",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-07",
-      "ressort": "architektur",
-      "kicker": "Shenzhen",
-      "headline": "Shenzhens neues Opernhaus am Meer wächst Stück für Stück",
-      "teaser": "Am Wasser von Shekou entsteht ein Kulturkomplex von Jean Nouvel. Neue Baubilder zeigen, wie weit das Haus mit dem Wellendach schon ist.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "220.000",
-          "unit": "Quadratmeter",
-          "caption": "groß wird der Kulturkomplex direkt an der Shenzhen Bay",
-          "icon": "building.columns.fill"
-        },
-        {
-          "type": "comparison",
-          "title": "Plätze in den Sälen",
-          "before": {
-            "label": "Kleiner Opernsaal",
-            "value": 1000,
-            "display": "1.000 Plätze"
-          },
-          "after": {
-            "label": "Opernsaal",
-            "value": 2100,
-            "display": "2.100 Plätze"
-          }
-        },
-        {
-          "type": "map",
-          "place": "Shekou, Shenzhen",
-          "latitude": 22.48,
-          "longitude": 113.91,
-          "caption": "Wasser umgibt den Bauplatz auf drei Seiten."
-        }
-      ],
-      "whyGood": "Shenzhen bekommt einen Ort für Musik und Theater, der allen offensteht. Terrassen und ein großes Foyer laden auch Menschen ein, die nur am Wasser spazieren wollen.",
-      "honestNote": "Fertig wird das Haus erst im Dezember 2028.",
-      "sources": [
-        {
-          "name": "designboom",
-          "url": "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "CN",
-      "terms": [
-        {
-          "term": "Perlmutt",
-          "text": "Perlmutt ist die schimmernde Schicht im Inneren mancher Muscheln. Sie glänzt in vielen Farben, je nachdem, wie das Licht darauf fällt."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele Säle für Aufführungen hat das neue Opernhaus?",
-        "options": [
-          "Einen",
-          "Vier",
-          "Zehn"
+          "Etwa 240 Kilometer",
+          "Etwa 2.400 Kilometer",
+          "Etwa 24.000 Kilometer"
         ],
         "answer": 1,
-        "reveal": "Es entstehen vier Säle: Opernsaal, Konzertsaal, kleiner Opernsaal und ein Mehrzwecktheater.",
-        "icon": "music.note"
+        "reveal": "Sie ist nach Schätzung rund 2.400 Kilometer gelaufen, jeden Tag Runde um Runde.",
+        "icon": "figure.walk"
       },
-      "gallery": true,
       "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028-designboom-1200.jpg",
-        "credit": "designboom",
-        "source": "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028/",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/fw-gretchen.png",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/100-year-old-store-mom-first-birthday-party/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-08",
-      "ressort": "design",
-      "kicker": "Vereinigte Arabische Emirate",
-      "headline": "Aus Dattelkernen wird ein Baustoff ohne Zement",
-      "teaser": "Ein Studio aus den Emiraten macht aus weggeworfenen Kernen Fliesen, Möbel und Lampen. Dafür bekam es einen Sonderpreis beim Seoul Design Award 2026.",
+      "id": "2026-11-13-07",
+      "ressort": "gesundheit",
+      "kicker": "Medizin",
+      "headline": "KI macht Sehprothesen fürs Gehirn genauer",
+      "teaser": "Forschende nutzen KI, um ein Hirnimplantat für blinde Menschen präziser zu steuern. Ein Mann in Spanien nahm an dem Test teil.",
       "blocks": [
         {
-          "type": "bigNumber",
-          "value": "35",
-          "unit": "Tonnen",
-          "caption": "Pflaster aus Dattelkernen liegen rund um den Pavillon der Emirate auf der Expo 2025 in Osaka",
-          "icon": "leaf.fill"
+          "type": "count",
+          "value": 96,
+          "icon": "bolt.fill",
+          "caption": "Elektroden im Sehzentrum des Gehirns erzeugten Lichtblitze, die die KI genauer steuerte"
         },
         {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Ein 27-jähriger blinder Mann testete das Implantat in Spanien.",
+            "Die KI sagte voraus, wie das Gehirn auf Strom reagiert.",
+            "Sie traf die gewünschten Muster genauer und brauchte weniger Strom."
+          ],
+          "icons": [
+            "person.fill",
+            "brain.head.profile",
+            "bolt.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Wie Gehirnprothesen sehen helfen",
+          "text": "Das Implantat umgeht Augen und Sehnerven. Es sendet Strom direkt an die Sehrinde im hinteren Teil des Gehirns. Das könnte Menschen helfen, deren Sehbahn geschädigt ist, deren Sehrinde aber noch reagiert."
+        }
+      ],
+      "whyGood": "Künstliche Intelligenz macht Sehprothesen genauer und braucht dafür weniger Strom. Das bringt die Hoffnung näher, blinden Menschen eines Tages etwas Sehvermögen zurückzugeben.",
+      "honestNote": "Die Studie ist ein erster Machbarkeitstest mit einem Teilnehmer und einem zeitweise eingesetzten Implantat.",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Sehrinde",
+          "text": "Das ist der Teil des Gehirns hinten am Kopf. Hier werden die Bilder verarbeitet, die wir sehen."
+        },
+        {
+          "term": "Phosphene",
+          "text": "Das sind Lichtpunkte, Blitze oder Formen, die man sieht, wenn das Gehirn durch Strom gereizt wird. Dann ist kein Licht im Auge nötig."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Elektroden hatte das Hirnimplantat des Mannes?",
+        "options": [
+          "6",
+          "96",
+          "960"
+        ],
+        "answer": 1,
+        "reveal": "Das Implantat hatte 96 Elektroden in der Sehrinde. Sie erzeugten Lichtblitze und zeichneten die Hirnaktivität auf.",
+        "icon": "brain.head.profile"
+      },
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/beyeler-bionic-eye.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-08",
+      "ressort": "natur",
+      "kicker": "Mittel- und Südamerika",
+      "headline": "Bekannter Schmetterling entpuppt sich als mehrere Arten",
+      "teaser": "Forschende haben unter einem häufigen Tropenfalter eine bisher unbekannte Art entdeckt. Sie sieht ihren Verwandten fast zum Verwechseln ähnlich.",
+      "blocks": [
+        {
           "type": "timeline",
-          "title": "Vom Versuch zum Bau",
+          "title": "Wie die Entdeckung wuchs",
           "items": [
             {
-              "year": "2021",
-              "text": "Sara Farha und Khaled Shalkha beginnen, Dattelkerne zu erforschen."
+              "year": "1758",
+              "text": "Carl von Linné beschreibt Colobura dirce."
             },
             {
-              "year": "2025",
-              "text": "Das Material kommt im großen Maßstab zum Einsatz."
+              "year": "1852",
+              "text": "Jan Sepp vermutet zwei Arten, doch andere widersprechen."
+            },
+            {
+              "year": "2001",
+              "text": "Eine zweite Art, Colobura annulata, wird anerkannt."
             },
             {
               "year": "2026",
-              "text": "Datecrete gewinnt den designboom-Sonderpreis in Seoul."
+              "text": "Die dritte Art, Colobura cryptica, wird beschrieben."
             }
           ]
         },
@@ -503,348 +516,475 @@
           "type": "facts",
           "title": null,
           "items": [
-            "Kein Zement, kein Harz, keine Petrochemie",
-            "Kerne werden gereinigt, getrocknet und mit Naturbindemittel gegossen",
-            "Fliesen, Möbel, Lampen und Objekte entstehen daraus"
+            "Die drei Arten leben am selben Ort und zur selben Zeit.",
+            "Es gibt keine Hinweise darauf, dass sie sich untereinander paaren.",
+            "DNA und ultraviolettes Licht auf den Flügeln zeigten die Unterschiede."
           ],
           "icons": [
-            "leaf.fill",
-            "flask.fill",
-            "sofa.fill"
+            "mappin",
+            null,
+            "sparkles"
           ]
         }
       ],
-      "whyGood": "Aus Abfall wird ein Baustoff, der ohne Zement und Erdöl auskommt. Das Prinzip lässt sich auch auf andere Pflanzenreste in anderen Regionen übertragen.",
-      "honestNote": "Bisher entstehen vor allem Einzelanfertigungen, große Bauprojekte sind erst das Ziel.",
+      "whyGood": "Selbst ein Falter, den viele Menschen kennen, birgt noch Neues. Die Entdeckung zeigt, wie viel Artenvielfalt in den Tropen noch darauf wartet, erkannt zu werden.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "designboom",
-          "url": "https://www.designboom.com/design/datecrete-date-pits-design-designboom-special-prize-seoul-design-award-2026/",
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042556.htm",
           "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "AE",
+      "country": "VE",
       "terms": [
         {
-          "term": "Bindemittel",
-          "text": "Ein Stoff, der kleine Teile zusammenhält, damit daraus ein fester Körper wird. Zement ist ein bekanntes Beispiel."
+          "term": "ultraviolettes Licht",
+          "text": "Das ist Licht, das Menschen nicht sehen können. Viele Insekten sehen es und manche Flügelmuster leuchten darin."
         }
       ],
       "guess": {
-        "question": "Wie viele Tonnen Datteln werden in den Emiraten pro Jahr ungefähr gegessen?",
+        "question": "Wie lange hielt man die Falter der Gattung Colobura für eine einzige Art?",
         "options": [
-          "Etwa 1.000 bis 2.000",
-          "Etwa 10.000 bis 20.000",
-          "Etwa 100.000 bis 180.000"
+          "Etwa 20 Jahre",
+          "Etwa 80 Jahre",
+          "Mehr als 200 Jahre"
         ],
         "answer": 2,
-        "reveal": "Es sind 100.000 bis 180.000 Tonnen im Jahr. Dabei fallen sehr viele Kerne an.",
-        "icon": "leaf.fill"
+        "reveal": "Nach Linnés Beschreibung von 1758 galt die Gattung über 200 Jahre als eine Art. Erst 2001 kam die zweite.",
+        "icon": "ladybug.fill"
       },
-      "gallery": true,
       "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/datecrete-seoul-design-award-2026-designboom-facebook.jpg",
-        "credit": "designboom",
-        "source": "https://www.designboom.com/design/datecrete-date-pits-design-designboom-special-prize-seoul-design-award-2026/",
+        "url": "https://www.sciencedaily.com/images/1920/colobura-caterpillars.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/11/261110042556.htm",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-09",
-      "ressort": "zukunft",
-      "kicker": "Batterien",
-      "headline": "Feststoffbatterie läuft im Labor ohne schwere Klammern",
-      "teaser": "QuantumScape zeigt eine neue Feststoffzelle. Sie hält im Test lange durch und braucht dafür kaum Anpressdruck.",
+      "id": "2026-11-13-09",
+      "ressort": "design",
+      "kicker": "Köln",
+      "headline": "Kölner Dom bekommt neues, sparsames Licht",
+      "teaser": "Mehr als 700 LED-Leuchten setzen den Dom nachts in Szene. Im Stein wurde dafür kein einziges Loch gebohrt.",
       "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "1.000",
-          "unit": "Ladezyklen",
-          "caption": "bis auf etwa 80 Prozent Kapazität hielt die Zelle im Test durch",
-          "icon": "battery.100"
-        },
         {
           "type": "comparison",
-          "title": "Anpressdruck einer Zelle",
+          "title": "Energieverbrauch der Beleuchtung",
           "before": {
-            "label": "Übliche Feststoffzellen (Beispiel)",
-            "value": 20,
-            "display": "20 atm"
+            "label": "Vorher",
+            "value": 100,
+            "display": "100 %"
           },
           "after": {
-            "label": "Neue Osprey-Zelle",
-            "value": 1,
-            "display": "1 atm"
+            "label": "Jetzt",
+            "value": 20,
+            "display": "20 %"
           }
+        },
+        {
+          "type": "share",
+          "value": 10,
+          "label": "des Lichts kommt von außerhalb",
+          "caption": "Früher waren es 80 Prozent. Das Licht streut nun weniger und trifft genauer."
+        },
+        {
+          "type": "timeline",
+          "title": "Der Dom im Lauf der Zeit",
+          "items": [
+            {
+              "year": "1248",
+              "text": "Der Bau beginnt."
+            },
+            {
+              "year": "1880",
+              "text": "Der Dom wird nach dem mittelalterlichen Plan fertig."
+            },
+            {
+              "year": "1996",
+              "text": "Der Dom wird UNESCO-Welterbe."
+            }
+          ]
         }
       ],
-      "whyGood": "Feststoffbatterien könnten Elektroautos leichter und sicherer machen. Wenn sie ohne schwere Stahlrahmen auskommen, würde das Gewicht und Kosten sparen.",
-      "honestNote": "Bisher sind es kleine Laborzellen, einen Zeitplan für die Serienfertigung gibt es nicht.",
+      "whyGood": "Der Dom wirkt nachts schöner und braucht viel weniger Strom. Das warme Licht stört nachtaktive Tiere weniger, und der alte Stein bleibt unversehrt.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "Electrek",
-          "url": "https://electrek.co/2026/11/11/quantumscape-osprey-all-solid-state-sulfide-battery/",
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/12/licht-kunst-licht-cologne-cathedral/",
           "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "US",
+      "country": "DE",
       "terms": [
         {
-          "term": "Elektrolyt",
-          "text": "Das ist der Stoff in der Batterie, durch den die geladenen Teilchen von einer Seite zur anderen wandern."
-        },
-        {
-          "term": "Feststoffbatterie",
-          "text": "Eine Batterie, in der statt einer Flüssigkeit feste Stoffe die Ladung transportieren."
+          "term": "Gotik",
+          "text": "Gotik ist ein Baustil des Mittelalters. Typisch sind hohe, spitze Türme und viele feine Verzierungen aus Stein."
         }
       ],
       "guess": {
-        "question": "Viele Feststoffzellen werden fest zusammengepresst. Wie viel Kraft wirkt bei 20 atm auf eine Zelle?",
+        "question": "Wie viel weniger Strom braucht die neue Beleuchtung des Kölner Doms?",
         "options": [
-          "etwa 50 Kilogramm",
-          "etwa 500 Kilogramm",
-          "etwa 5.000 Kilogramm"
+          "Etwa 8 Prozent weniger",
+          "Etwa 30 Prozent weniger",
+          "Etwa 80 Prozent weniger"
         ],
         "answer": 2,
-        "reveal": "Bei 20 atm drücken etwa 5.000 Kilogramm auf eine Zelle, das Gewicht von rund drei Mittelklasseautos.",
-        "icon": "battery.100"
+        "reveal": "Der Energieverbrauch sank um 80 Prozent, und das Bild des Doms wurde besser.",
+        "icon": "building.columns.fill"
       },
+      "gallery": true,
       "image": {
-        "url": "https://electrek.co/wp-content/uploads/sites/3/2026/11/quantumscape-osprey-qse-vs-osprey-architecture.png?resize=1200,628",
-        "credit": "Electrek",
-        "source": "https://electrek.co/2026/11/11/quantumscape-osprey-all-solid-state-sulfide-battery/",
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/hero-licht-kunst-licht-cologne-cathedral_dezeen_2364_col_0.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/12/licht-kunst-licht-cologne-cathedral/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-10",
-      "ressort": "kultur",
-      "kicker": "Kunst und Boden",
-      "headline": "Rekord: Das größte Gemälde der Welt besteht aus Erde",
-      "teaser": "Der Künstler Phil Lambert hat in London ein Bild aus vier Erdsorten gemalt. Es soll zeigen, wie wichtig gesunder Boden ist.",
+      "id": "2026-11-13-10",
+      "ressort": "film",
+      "kicker": "Montenegro",
+      "headline": "Hirtin rettet Montenegros Weideberg vor dem Militär",
+      "teaser": "Mileva „Gara“ Jovanović lebt mit ihren Tieren auf dem Berg Sinjajevina. Ein Dokumentarfilm über sie gewinnt in Sundance den Preis der Jury.",
       "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "6,1",
-          "unit": "Quadratmeter",
-          "caption": "groß ist das neue Rekordbild. Der alte Rekord lag bei 5,9 Quadratmetern.",
-          "icon": "paintpalette.fill"
-        },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Phil Lambert aus Cardiff nutzte vier Erdsorten, auch aus dem Garten seiner Mutter.",
-            "Rahmen und Leinwand sind wiederverwendet und kommen von Oxford Wood Recycling.",
-            "Das Bild entstand am University College London für die Organisation Save Soil."
+            "Die Regierung wollte auf dem Berg ein Nato-Übungsgelände einrichten.",
+            "Im Sommer 2025 sagte sie die Pläne überraschend ab.",
+            "Der Film „To Hold a Mountain“ gewann den Jurypreis in Sundance."
           ],
           "icons": [
-            "paintbrush.fill",
-            "arrow.3.trianglepath",
-            "building.columns.fill"
+            "building.columns.fill",
+            "calendar",
+            "trophy.fill"
           ]
         },
         {
-          "type": "background",
-          "title": "Worum es Save Soil geht",
-          "text": "Save Soil setzt sich weltweit für gesündere Böden ein und arbeitet dazu mit Regierungen zusammen. Zur 31. UN-Klimakonferenz fordert die Gruppe, dass die Erholung der Böden Vorrang bekommt."
+          "type": "map",
+          "place": "Sinjajevina, Montenegro",
+          "latitude": 42.85,
+          "longitude": 19.2,
+          "caption": "Auf diesen Weiden ziehen Hirten im Sommer mit ihren Tieren hoch."
+        },
+        {
+          "type": "quote",
+          "text": "Ich spüre den Berg wie ein lebendes Wesen. Er gibt mir Kraft.",
+          "author": "Mileva „Gara“ Jovanović, Hirtin"
         }
       ],
-      "whyGood": "Ein Kunstwerk macht sichtbar, was sonst kaum jemand beachtet: Gesunder Boden speichert Kohlenstoff und Wasser und sichert unser Essen. So rückt das Thema in den Blick der Klimapolitik.",
+      "whyGood": "Eine Hirtin und ihre Nachbarn haben ihre Weiden behalten. Der Berg bleibt Lebensraum für Menschen und Tiere, und ihre Geschichte erreicht nun ein großes Publikum.",
       "honestNote": null,
       "sources": [
         {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/cm3wvvp5d1qzo?at_medium=RSS&at_campaign=rss",
+          "name": "Guardian Film",
+          "url": "https://www.theguardian.com/film/2026/nov/12/to-hold-a-mountain-film-mileva-gara-jovanovic",
           "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "GB",
-      "terms": [],
+      "country": "ME",
+      "terms": [
+        {
+          "term": "Nato",
+          "text": "Die Nato ist ein Bündnis von Staaten, die sich gemeinsam verteidigen. Dazu übt sie auch mit Soldaten und Waffen."
+        }
+      ],
       "guess": {
-        "question": "Wie groß ist das größte Erdgemälde der Welt?",
+        "question": "Wie lange begleiteten die Filmemacher Gara und ihre Familie mit der Kamera?",
         "options": [
-          "0,6 Quadratmeter",
-          "6 Quadratmeter",
-          "60 Quadratmeter"
+          "Etwa 8 Monate",
+          "Etwa 2 Jahre",
+          "Etwa 8 Jahre"
         ],
-        "answer": 1,
-        "reveal": "Das Bild misst 6,1 Quadratmeter und übertrifft knapp den alten Rekord von 5,9.",
-        "icon": "paintpalette.fill"
+        "answer": 2,
+        "reveal": "Die Filmemacher lernten Gara vor acht Jahren kennen und drehten seitdem mit ihr auf dem Berg.",
+        "icon": "film.fill"
       },
-      "gallery": true,
       "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f1c4/live/68c42d50-d9d3-11f1-9e5a-c30c5e3d8c85.jpg",
-        "credit": "BBC Science",
-        "source": "https://www.bbc.co.uk/news/articles/cm3wvvp5d1qzo?at_medium=RSS&at_campaign=rss",
+        "url": "https://i.guim.co.uk/img/media/4d3c6855b73200a5c030617c09edf2f1446d35b1/86_135_1152_922/master/1152.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=22cf1e3a2fbbbdcce667be75c280550d",
+        "credit": "Guardian Film",
+        "source": "https://www.theguardian.com/film/2026/nov/12/to-hold-a-mountain-film-mileva-gara-jovanovic",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-11",
-      "ressort": "dekoration",
-      "kicker": "Bacoli",
-      "headline": "Bunt und modern: So wohnt ein Paar im Alter am Meer",
-      "teaser": "Anna Maria und Gianfranco haben sich ein neues Zuhause bei Neapel eingerichtet. Mit starken Farben, runden Formen und Blick aufs Meer.",
+      "id": "2026-11-13-11",
+      "ressort": "fotografie",
+      "kicker": "Naturfotografie",
+      "headline": "Close-up Photographer of the Year zeigt die Welt im Kleinen",
+      "teaser": "Der Wettbewerb für Nahaufnahmen hat seine Auswahl vorgestellt. Die 100 besten Bilder zeigen Tiere, Pflanzen und Landschaften aus nächster Nähe.",
       "blocks": [
         {
           "type": "bigNumber",
-          "value": "80",
-          "unit": "Quadratmeter",
-          "caption": "Wohnung mit Meerblick, ganz nach den Wünschen des Paares gestaltet",
-          "icon": "house.fill"
+          "value": "15.388",
+          "unit": "Einsendungen",
+          "caption": "kamen aus aller Welt, so viele wie noch nie",
+          "icon": "camera.fill"
         },
         {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Weiße Wände, tiefes Blau, Eichenholz und eine orange Note",
-            "Sanfte Bögen lassen das Licht von Raum zu Raum gleiten",
-            "Das Bad ist ganz in Blau gehalten und bietet viel Stauraum"
-          ],
-          "icons": [
-            "paintpalette.fill",
-            "sun.max.fill",
-            "drop.fill"
-          ]
-        }
-      ],
-      "whyGood": "Die Wohnung zeigt, dass Wohnen im Alter nicht beige und dezent sein muss. Das Paar hat sich einen Ort geschaffen, der zu seiner Geschichte passt und Freude macht.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "AD Deutschland",
-          "url": "https://www.ad-magazin.de/artikel/wohnen-im-alter-so-richtete-sich-ein-paar-im-ruhestand-ein-neapel",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 6,
-      "country": "IT",
-      "terms": [],
-      "guess": {
-        "question": "Wie alt ist Gianfranco, der ältere der beiden Bewohner?",
-        "options": [
-          "61 Jahre",
-          "76 Jahre",
-          "91 Jahre"
-        ],
-        "answer": 2,
-        "reveal": "Gianfranco ist 91 Jahre alt, seine Frau Anna Maria ist 84.",
-        "icon": "person.2.fill"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://assets.ad-magazin.de/photos/688243c08b3597e83655c06e/16:9/w_1280,c_limit/8%20I%20Casa%20Sabatino%20De%20Gregorio%20I%20Bacoili%20(NA)%20I%202024%20I%20%C2%A9CarloOriente2024.jpg",
-        "credit": "AD Deutschland",
-        "source": "https://www.ad-magazin.de/artikel/wohnen-im-alter-so-richtete-sich-ein-paar-im-ruhestand-ein-neapel",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-12",
-      "ressort": "wissenschaft",
-      "kicker": "Kolibris",
-      "headline": "Das Rätsel um das Magenta der Kolibris ist gelöst",
-      "teaser": "Forschende haben geklärt, wie im Gefieder des Annakolibris eine Farbe entsteht, die es im Regenbogen nicht gibt.",
-      "blocks": [
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Der Annakolibri schimmert in einem leuchtenden Magenta.",
-            "Diese Farbe gibt es im Regenbogen nicht.",
-            "Eine bisher übersehene Nanostruktur im Gefieder ist die entscheidende Ursache."
-          ],
-          "icons": [
-            "bird.fill",
-            "sparkles",
-            "magnifyingglass"
-          ]
+          "type": "count",
+          "value": 11,
+          "icon": "camera.fill",
+          "caption": "Galerien zeigen die Auswahl, von Tieren bis zu Unterwasserbildern"
         },
         {
           "type": "background",
-          "title": "Warum das ein Rätsel war",
-          "text": "Magenta fehlt im Regenbogen. Deshalb war lange unklar, wie die Federn des Annakolibris diesen Farbton erzeugen. Nun haben Forschende die Ursache in einer winzigen Struktur gefunden."
+          "title": "Wie sich eine Motte schützt",
+          "text": "Fledermäuse finden Beute mit Echoortung. Sie senden Laute aus und hören das Echo. Die Motte Eucyclodes fascinans trägt Haarbüschel am Brustteil. Sie schlucken und streuen den Schall, so wird die Motte schwerer zu entdecken."
         }
       ],
-      "whyGood": "Ein altes Rätsel der Natur ist gelöst. Forschende haben genau hingesehen und dabei etwas entdeckt, das lange übersehen wurde.",
+      "whyGood": "Die Bilder zeigen, wie viel Staunenswertes in kleinen Dingen steckt. Der Wettbewerb wächst und lädt auch Fotografinnen und Fotografen jedes Niveaus zum Mitmachen ein.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Spektrum",
-          "url": "https://www.spektrum.de/news/strukturfarbe-raetsel-um-magenta-von-annakolibris-geloest/2353716",
-          "language": "Deutsch"
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/close-up-photographer-of-the-year-2026-shortlist/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        },
+        {
+          "name": "Colossal",
+          "url": "https://www.thisiscolossal.com/2026/11/nikon-small-world-photomicrography-competition-2026-winners/",
+          "language": "Englisch"
         }
       ],
       "score": 6,
       "country": null,
       "terms": [
         {
-          "term": "Nanostruktur",
-          "text": "Eine Nanostruktur ist ein Bauteil, das unvorstellbar klein ist. Man kann es nur mit sehr starken Mikroskopen sehen."
+          "term": "Echoortung",
+          "text": "Manche Tiere senden Laute aus und hören, wie sie zurückkommen. So erkennen sie, wo etwas ist, auch im Dunkeln."
         }
       ],
       "guess": {
-        "question": "Woher kommt die leuchtende Farbe im Gefieder des Annakolibris?",
+        "question": "Wie viele Fotos wurden für den Wettbewerb eingereicht?",
         "options": [
-          "Aus einem roten Farbstoff",
-          "Aus einer winzigen Struktur",
-          "Aus Leuchtbakterien"
+          "Etwa 1.500",
+          "Etwa 15.000",
+          "Etwa 150.000"
         ],
         "answer": 1,
-        "reveal": "Eine winzige Nanostruktur in den Federn erzeugt das Magenta, nicht ein Farbstoff.",
-        "icon": "bird.fill"
+        "reveal": "Es waren 15.388 Einsendungen, so viele wie nie zuvor. Daraus wurden 100 Fotos ausgewählt.",
+        "icon": "camera.fill"
       },
+      "gallery": true,
       "image": {
-        "url": "https://static.spektrum.de/fm/912/thumbnails/AdobeStock_580396212.jpeg.8424250.jpeg?f=1280x720",
-        "credit": "Spektrum",
-        "source": "https://www.spektrum.de/news/strukturfarbe-raetsel-um-magenta-von-annakolibris-geloest/2353716",
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/cupoty-2026-shortlist-thumbnail.jpg",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/close-up-photographer-of-the-year-2026-shortlist/?adt_ei={{ subscriber.email_address }}",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-k01",
-      "ressort": "welt",
-      "kicker": "Deutschland",
-      "headline": "Integrationsbericht: Mehr Zugewanderte in Arbeit als in der EU üblich",
-      "teaser": "Der neue Integrationsbericht zeigt Fortschritte. Fast 70 Prozent der Zugewanderten haben Arbeit, mehr als in den meisten anderen EU-Staaten. 81 Prozent der Menschen mit Einwanderungsgeschichte fühlen sich Deutschland verbunden.",
-      "blocks": [],
-      "whyGood": "Immer mehr Zugewanderte arbeiten und fühlen sich in Deutschland zu Hause.",
-      "honestNote": "Frauen haben in fast allen Gruppen noch Schwierigkeiten, eine Arbeit zu finden.",
+      "id": "2026-11-13-12",
+      "ressort": "kueche",
+      "kicker": "Taiwan",
+      "headline": "Taiwans Teebauern setzen im Alishan auf wilden Anbau",
+      "teaser": "Im Gebirge Alishan verzichten einige Bauern auf Chemie. Ihre Teepflanzen wurzeln tief und überstehen auch trockene Frühjahre.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "30",
+          "unit": "Jahre",
+          "caption": "baut Lin Kuang-li seinen Tee schon ohne Pestizide an, im Dorf Longyanlin.",
+          "icon": "leaf.fill"
+        },
+        {
+          "type": "background",
+          "title": "Wilder Anbau",
+          "text": "Im Dorf Taihe lassen Chang Chih-tsung und Yeh Hsin-wen ihre Oolong-Büsche unter Waldbäumen wachsen. Sie schneiden nicht, gießen nicht und düngen nicht. Die Wurzeln gehen dadurch tief in den Boden."
+        }
+      ],
+      "whyGood": "Einige Bauern zeigen, dass Tee ohne Chemie wachsen kann. Ihre Pflanzen sind widerstandsfähiger und der Boden bleibt gesünder.",
+      "honestNote": "Bisher nutzen weniger als zehn Bauern in Alishan diese Methode, weil die Ernte kleiner ausfällt.",
       "sources": [
         {
-          "name": "DW",
-          "url": "https://www.dw.com/de/integration-gelingt-immer-besser/a-79919489?maca=de-rss-de-all-1119-xml-mrss",
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/11/taiwans-tea-growers-adapt-to-climate-change-by-letting-nature-take-control/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "TW",
+      "terms": [
+        {
+          "term": "Oolong",
+          "text": "Oolong ist eine Teesorte, die zwischen grünem und schwarzem Tee liegt. Sie wird in Taiwan seit Langem angebaut."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel Tee ernten die beiden Wildanbau-Bauern in Taihe im Jahr?",
+        "options": [
+          "3 bis 5 Kilogramm",
+          "24 bis 36 Kilogramm",
+          "240 bis 360 Kilogramm"
+        ],
+        "answer": 1,
+        "reveal": "Chang und Yeh ernten nur 24 bis 36 Kilogramm im Jahr und haben weitere Einnahmen, etwa durch ein Gästehaus.",
+        "icon": "leaf.fill"
+      },
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/23160012/Lin-Kuang-li-2.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/11/taiwans-tea-growers-adapt-to-climate-change-by-letting-nature-take-control/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k01",
+      "ressort": "sport",
+      "kicker": "England",
+      "headline": "Harry Kane bricht Englands Länderspiel-Rekord und trifft zum Sieg",
+      "teaser": "Harry Kane hat in Wembley sein 126. Länderspiel für England bestritten. Damit überholt er Peter Shilton. Beim 2:1 in der Nations League gegen Kroatien erzielte er per Elfmeter das Siegtor.",
+      "blocks": [],
+      "whyGood": "Ein Star feiert seinen Rekord im Kreis seiner Familie, und das Publikum und frühere Rivalen feiern mit.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Guardian Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/12/harry-kane-wins-record-126th-england-cap",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/be75494996b115e53d76ad4b47c194cd70e43b6a/619_2_5297_4238/master/5297.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6f13e090f1d54817384e6ac1d0336390",
+        "credit": "Guardian Sport",
+        "source": "https://www.theguardian.com/football/2026/nov/12/harry-kane-wins-record-126th-england-cap",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k02",
+      "ressort": "promis",
+      "kicker": "Frankreich",
+      "headline": "Nicole Kidman erhält den Ehren-César",
+      "teaser": "Die Schauspielerin Nicole Kidman wird im Februar 2027 mit einem Ehren-César ausgezeichnet. Der César ist der wichtigste französische Filmpreis. Die Auszeichnung würdigt ihr Lebenswerk.",
+      "blocks": [],
+      "whyGood": "Eine große Schauspielerin bekommt für ihre Arbeit eine besondere Anerkennung.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "stern Lifestyle",
+          "url": "https://www.stern.de/lifestyle/leute/nicole-kidman--sie-erhaelt-im-februar-den-ehren-c%C3%A9sar-38543252.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "DE",
+      "country": "FR",
       "terms": [],
       "image": {
-        "url": "https://static.dw.com/image/75665619_6.jpg",
-        "credit": "DW",
-        "source": "https://www.dw.com/de/integration-gelingt-immer-besser/a-79919489?maca=de-rss-de-all-1119-xml-mrss",
+        "url": "https://image.stern.de/38543256/t/zR/v1/w1440/r1.7778/-/12--sie-erhaelt-im-februar-den-ehren-c%C3%A9sar---16-9---spoton-article-1168869.jpg",
+        "credit": "stern Lifestyle",
+        "source": "https://www.stern.de/lifestyle/leute/nicole-kidman--sie-erhaelt-im-februar-den-ehren-c%C3%A9sar-38543252.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-k02",
-      "ressort": "gesundheit",
-      "kicker": "Pennsylvania",
-      "headline": "Ehemalige Patientin spielt Klavier im Pflegeheim, das ihr half",
-      "teaser": "Bonnie Fay (84) kam nach einer Lähmung ins Pflegeheim Bryn Mawr Village. Das Klavier half ihr durch die schwere Zeit. Heute spielt sie dort regelmäßig für Bewohner, die sich von Krankheit, Operation oder Verletzung erholen.",
+      "id": "2026-11-13-k03",
+      "ressort": "zukunft",
+      "kicker": "Atlantic City",
+      "headline": "Erste Kläranlage der Welt fängt Mikroplastik gezielt ab",
+      "teaser": "In Atlantic City im US-Bundesstaat New Jersey hat eine Kläranlage ein System gegen Mikroplastik eingebaut. Es stammt von PolyGone Systems, gegründet von zwei früheren Princeton-Studierenden. Im Labor entfernt es über 98 Prozent der Partikel, obwohl es dafür kein Gesetz gibt.",
       "blocks": [],
-      "whyGood": "Eine Frau hält ihr Versprechen und schenkt anderen Patienten Freude und neue Freundschaften.",
+      "whyGood": "Weniger Mikroplastik gelangt künftig ins Meer, und damit seltener in Fische und in unsere Nahrung.",
+      "honestNote": "Die hohe Abscheiderate stammt bisher aus Labortests, Daten aus dem echten Betrieb gibt es noch nicht.",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/11/how-two-princeton-graduates-built-the-worlds-first-microplastics-removal-system/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/modern-urban-wastewater-treatment-plant-Depositphotos_10917326_S.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/11/how-two-princeton-graduates-built-the-worlds-first-microplastics-removal-system/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k04",
+      "ressort": "architektur",
+      "kicker": "Chongqing",
+      "headline": "Aus verlassenen Berghütten wird ein Hotel mit 24 Zimmern",
+      "teaser": "Das chinesische Studio RooMoo hat auf dem Jinfo-Berg in Chongqing ein altes Verkaufsbüro zum Cloudhaus Hotel umgebaut. Es nutzte Holz aus verlassenen Hütten, alte Ziegel und Bohrkerne aus Beton. So bekommen Reste aus der Region ein neues Leben.",
+      "blocks": [],
+      "whyGood": "Aus Abfall und Altem entsteht ein schöner Ort, der zur Landschaft passt.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/paralyzed-woman-promised-to-return-and-play-piano-for-rehab-patients-she-kept-her-word/",
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/12/cloudhaus-hotel-bamboo-roomoo-chongqing-china/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "CN",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/cloudhaus-hotel-chongqing-chinaroomoo-design-studio-sq_dezeen_2364_col_1.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/12/cloudhaus-hotel-bamboo-roomoo-chongqing-china/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k05",
+      "ressort": "kultur",
+      "kicker": "Brooklyn",
+      "headline": "Förderband zeigt Kunst im Sitzen: Neue Installation in Brooklyn",
+      "teaser": "Die Künstlerin oder der Künstler Finnegan Shannon hat im Kulturzentrum Pioneer Works ein Förderband aufgebaut. Besucher sitzen auf Stühlen und betrachten Objekte, die auf Tabletts vorbeifahren. So wird Kunst für Menschen mit Schmerzen besser zugänglich.",
+      "blocks": [],
+      "whyGood": "Eine Ausstellung zeigt, wie Kunst bequem und für mehr Menschen zugänglich sein kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/12/finnegan-shannon-conveyor-accessibility-pioneer-works-brooklyn/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/finnegan-shannon-conveyor-belt-pioneer-works_dezeen_2364_sq.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/12/finnegan-shannon-conveyor-accessibility-pioneer-works-brooklyn/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k06",
+      "ressort": "gesundheit",
+      "kicker": "Schlaganfall",
+      "headline": "USA lassen neuen Wirkstoff gegen wiederholte Schlaganfälle zu",
+      "teaser": "Die US-Arzneimittelbehörde FDA hat das Medikament Asundexian von Bayer zugelassen. Es soll einen zweiten Schlaganfall verhindern. Der Wirkstoff blockiert das Eiweiß Faktor XIa, das bisherige Mittel nicht angreifen.",
+      "blocks": [],
+      "whyGood": "Menschen nach einem Schlaganfall bekommen eine neue Möglichkeit, einem zweiten Schlaganfall vorzubeugen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "New Atlas",
+          "url": "https://newatlas.com/stroke/stroke-prevention-approved-fda/",
           "language": "Englisch"
         }
       ],
@@ -853,90 +993,268 @@
       "country": "US",
       "terms": [
         {
-          "term": "Guillain-Barré-Syndrom",
-          "text": "Eine seltene Krankheit. Das Immunsystem greift dabei die eigenen Nerven an. Das kann zu Lähmungen führen."
+          "term": "Faktor XIa",
+          "text": "Ein Eiweiß im Blut, das bei der Gerinnung eine Rolle spielt. Es hilft mit, dass sich Blutgerinnsel bilden und wachsen."
         }
       ],
       "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Bonnie-Fay-playing-the-piano-at-Bryn-Mawr-Village-supplied-to-GNN-e1794387097651.jpg",
-        "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/paralyzed-woman-promised-to-return-and-play-piano-for-rehab-patients-she-kept-her-word/",
+        "url": "https://assets.newatlas.com/dims4/default/22b3992/2147483647/strip/true/crop/2048x1075+0+145/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F5f%2Fbf%2F34b540d24769bcb10267b6a8a41b%2Fstroke.jpeg&na.image_optimisation=0",
+        "credit": "New Atlas",
+        "source": "https://newatlas.com/stroke/stroke-prevention-approved-fda/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-k03",
-      "ressort": "architektur",
-      "kicker": "York",
-      "headline": "Neue Holzbauten helfen bei der Restaurierung des York Minster",
-      "teaser": "Das Londoner Büro Tonkin Liu hat zwei Holzgebäude neben dem York Minster gebaut. Dort arbeiten Steinmetze und lernen Auszubildende. Die Bauten sollen die Pflege der gotischen Kathedrale beschleunigen.",
+      "id": "2026-11-13-k07",
+      "ressort": "natur",
+      "kicker": "Amazonas",
+      "headline": "Zwei neue Brüllaffenarten im Amazonasgebiet entdeckt",
+      "teaser": "Ein Forschungsteam um Romina Batista hat zwei bisher unbekannte Brüllaffenarten beschrieben. Es sind der Pantepui-Rote-Brüllaffe und der Mato-Grosso-Rote-Brüllaffe. Grundlage waren Erbgutdaten, äußere Merkmale und Museumsstücke.",
       "blocks": [],
-      "whyGood": "Ein altes Wahrzeichen bekommt moderne Werkstätten, die Handwerk fördern und der Kathedrale helfen.",
+      "whyGood": "Die Forschung zeigt, dass auch bekannte Tiergruppen noch Überraschungen bergen, und nun kann man die neuen Arten gezielt schützen.",
+      "honestNote": "Ob der Mato-Grosso-Rote-Brüllaffe als vom Aussterben bedroht gilt, muss noch offiziell geprüft werden.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/11/genetic-study-describes-two-new-species-of-amazonian-howler-monkeys/",
+          "language": "Englisch"
+        },
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/11/12/camera-traps-catch-newly-discovered-howler-monkey-crossing-rope-bridge/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "BR",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11172447/bugio-ruivo4.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/11/genetic-study-describes-two-new-species-of-amazonian-howler-monkeys/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k08",
+      "ressort": "design",
+      "kicker": "London",
+      "headline": "Lastenrad mit Platz wie ein Kleintransporter rollt durch London",
+      "teaser": "Das britische Start-up Minimal hat das Elektro-Lastenrad Pedal 4 entwickelt. Es ist drei Meter lang und einen Meter breit, bietet aber 2,5 Kubikmeter Laderaum. Royal Mail und Evri setzen es in London ein.",
+      "blocks": [],
+      "whyGood": "Ein kleines Fahrzeug liefert in der Stadt mehr Pakete pro Stunde aus und braucht weniger Platz auf der Straße.",
       "honestNote": null,
       "sources": [
         {
           "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/11/11/york-minster-centre-excellence-tonkin-liu/",
+          "url": "https://www.dezeen.com/2026/11/12/minimal-pedal-4-delivery-vehicle/",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
       "country": "GB",
-      "terms": [
-        {
-          "term": "Glulam",
-          "text": "Glulam ist Brettschichtholz. Dabei werden viele Holzlagen verleimt. So entstehen tragfähige Bauteile."
-        }
-      ],
-      "gallery": true,
+      "terms": [],
       "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/11/york-minster-centre-excellence-tonkin-liu-hero_dezeen_2364_col_1.jpg",
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/pedal-4-cargo-vehicle-minimal-design_dezeen_2364_hero.jpg",
         "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/11/11/york-minster-centre-excellence-tonkin-liu/",
+        "source": "https://www.dezeen.com/2026/11/12/minimal-pedal-4-delivery-vehicle/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-k04",
-      "ressort": "zukunft",
-      "kicker": "Lingen",
-      "headline": "Größte reine Wasserstoff-Gasturbine startet in Lingen",
-      "teaser": "In Lingen geht eine Gasturbine mit 34 Megawatt in den Testbetrieb. Es ist die bisher größte Turbine, die nur Wasserstoff verbrennt. Sie ist Teil des Wasserstoffnetzwerks und soll als flexibles Reservekraftwerk dienen.",
+      "id": "2026-11-13-k09",
+      "ressort": "film",
+      "kicker": "Film",
+      "headline": "Saoirse Ronan gewinnt mit ihrem ersten Kurzfilm in Austin",
+      "teaser": "Die Schauspielerin Saoirse Ronan hat ihr Regiedebüt gedreht. Ihr Kurzfilm „Paper Plane“ gewann beim Austin Film Festival den Preis für den besten erzählenden Kurzfilm. Damit kann er für die Oscars 2027 eingereicht werden.",
       "blocks": [],
-      "whyGood": "Ein Reservekraftwerk, das nur Wasserstoff nutzt, kann Strom liefern, wenn Sonne und Wind fehlen.",
-      "honestNote": "Die Anlage läuft zunächst im Testbetrieb.",
+      "whyGood": "Ein lang gehegter Traum wird wahr: Ronan wollte schon als Kind Regie führen, und ihr erster Film wird gleich ausgezeichnet.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "Golem",
-          "url": "https://www.golem.de/news/reservekraftwerk-flexible-wasserstoffturbine-geht-in-testbetrieb-2611-215093.html",
-          "language": "Deutsch"
+          "name": "IndieWire",
+          "url": "https://www.indiewire.com/features/interviews/saoirse-ronan-directorial-debut-short-paper-plane-interview-1235225445/",
+          "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Megawatt",
-          "text": "Megawatt ist eine Einheit für Leistung. Ein Megawatt entspricht einer Million Watt."
-        }
-      ]
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.indiewire.com/wp-content/uploads/2026/11/GettyImages-2300540275-1-e1793896779341.jpg?w=650",
+        "credit": "IndieWire",
+        "source": "https://www.indiewire.com/features/interviews/saoirse-ronan-directorial-debut-short-paper-plane-interview-1235225445/",
+        "kind": "source"
+      }
     },
     {
-      "id": "2026-11-12-k05",
-      "ressort": "dekoration",
-      "kicker": "Ligurien",
-      "headline": "Aus verlassener Ruine wird Zuhause auf sechs Ebenen",
-      "teaser": "In der Altstadt Parasio in Imperia hat der Architekt Davide Andracco eine verlassene Halbruine umgebaut. Auf 55 Quadratmetern liegen nun sechs versetzte Ebenen. Das Haus aus dem 17. Jahrhundert ist jetzt ein helles Zuhause für eine Lehrerin.",
+      "id": "2026-11-13-k10",
+      "ressort": "architektur",
+      "kicker": "São Paulo",
+      "headline": "Brasilien baut sein höchstes Holz-Hybridhaus in vier Wochen",
+      "teaser": "Das Ingenieurbüro Crosslam hat in São Paulo das Wohnhaus Aurora 275 gebaut. Es ist 22 Meter hoch und hat zehn Wohnungen. Ein Team aus fünf Personen errichtete es in vier Wochen. Das Holz stammt aus Brasilien.",
       "blocks": [],
-      "whyGood": "Ein Haus, das fast alle aufgegeben hatten, bekommt neues Leben und bewahrt dabei seinen Charakter.",
+      "whyGood": "Das Haus zeigt, dass Bauen mit Holz in Brasilien schnell geht, weniger Abfall erzeugt und weniger CO₂ ausstößt.",
+      "honestNote": "Dass das Gebäude klimaneutral ist, behauptet bisher nur das Unternehmen selbst.",
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/12/brazil-tallest-timber-tower-crosslam-sao-paulo/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "BR",
+      "terms": [
+        {
+          "term": "Brettschichtholz",
+          "text": "Dafür werden Holzbretter verleimt und zu starken Balken und Stützen gepresst. Sie tragen viel Gewicht."
+        }
+      ],
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/crosslam-aurora-275-timber-apartment-building-brazil_dezeen_2364_sq.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/12/brazil-tallest-timber-tower-crosslam-sao-paulo/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k11",
+      "ressort": "kultur",
+      "kicker": "New York",
+      "headline": "Verschollenes O'Keeffe-Gemälde hing jahrelang im Kleiderschrank",
+      "teaser": "Beim Ausräumen einer Wohnung im New Yorker East Village fand eine Nichte ein Gemälde von Georgia O'Keeffe. Ihre Tante hatte es 1963 geschenkt bekommen und später im Schrank zwischen Pelzmänteln versteckt. Christie's versteigert es und erwartet etwa 3 Millionen Dollar.",
+      "blocks": [],
+      "whyGood": "Ein Meisterwerk der Moderne ist nach Jahrzehnten wieder aufgetaucht und gut erhalten.",
       "honestNote": null,
       "sources": [
         {
-          "name": "AD Deutschland",
-          "url": "https://www.ad-magazin.de/artikel/55-quadratmeter-auf-sechs-ebenen-so-gab-ein-junger-architekt-einer-verlassenen-ruine-in-ligurien-ein-neues-leben",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Christies-released.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k12",
+      "ressort": "natur",
+      "kicker": "Pantanal",
+      "headline": "Jaguare im Pantanal sind geselliger als gedacht",
+      "teaser": "Jaguare gelten als Einzelgänger. Eine neue Studie aus dem brasilianischen Pantanal zeigt etwas anderes. Die Tiere tun sich oft paarweise zusammen, spielen, putzen sich und jagen gemeinsam.",
+      "blocks": [],
+      "whyGood": "Selbst scheue Raubkatzen überraschen die Forschung mit einem freundlichen Seitenleben.",
+      "honestNote": "Die Beobachtungen stammen von Flussufern mit sehr vielen Beutetieren und Jaguaren, daher gelten sie nicht unbedingt für Jaguare anderswo.",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/11/in-brazils-prey-rich-pantanal-jaguars-reveal-a-surprisingly-social-side/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "BR",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/12190521/Unrelated-males-grooming-2.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/11/in-brazils-prey-rich-pantanal-jaguars-reveal-a-surprisingly-social-side/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k13",
+      "ressort": "design",
+      "kicker": "Typografie",
+      "headline": "Kaybe Serif: Neue Schrift mit Schwung und Charakter",
+      "teaser": "Moritz Kleinsorge hat die Schriftfamilie Kaybe Serif entworfen. Sie greift die Barock-Antiqua auf und bringt sie in moderne Proportionen. Markenzeichen sind Schwungbuchstaben und Ligaturen in der Kursiven. Die Familie hat 16 Schnitte.",
+      "blocks": [],
+      "whyGood": "Eine neue Schrift verbindet klassische Eleganz mit frischem Charakter und gibt Überschriften eine eigene Stimme.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PAGE",
+          "url": "https://page-online.de/typografie/kaybe-serif-dramatischer-auftritt/",
           "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Ligaturen",
+          "text": "Ligaturen sind Buchstaben, die zu einem gemeinsamen Zeichen verbunden werden. So sehen bestimmte Buchstabenpaare harmonischer aus."
+        }
+      ],
+      "image": {
+        "url": "https://page-online.de/app/uploads/2026/11/KaybeSerif-Visuals-3.jpg",
+        "credit": "PAGE",
+        "source": "https://page-online.de/typografie/kaybe-serif-dramatischer-auftritt/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k14",
+      "ressort": "architektur",
+      "kicker": "Uganda",
+      "headline": "Bidi Bidi soll als Stadt wachsen statt als Camp",
+      "teaser": "Das Architekturbüro BIG und to.org haben einen Masterplan für Bidi Bidi im Norden Ugandas entworfen. Die Siedlung mit rund 230.000 Geflüchteten soll als Stadt mit Schulen, Gesundheitsversorgung und Arbeit geplant werden. Der Entwurf bietet Platz für weitere 155.000 Menschen.",
+      "blocks": [],
+      "whyGood": "Der Plan zeigt, wie aus einem Ort auf Zeit ein Zuhause mit Zukunft und eigenen Einkommen werden kann.",
+      "honestNote": "Bisher ist es ein Entwurf und noch kein gebautes Projekt.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/big-bjarke-ingels-group-future-temporary-shelter-uganda-bidi-bidi-refugees-to-org/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "UG",
+      "terms": [
+        {
+          "term": "Masterplan",
+          "text": "Ein Masterplan ist ein Gesamtplan für die Entwicklung eines größeren Gebiets. Er legt fest, wie Wohnen, Wege und gemeinsame Orte zusammenpassen."
+        }
+      ],
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/big-bjarke-ingels-group-future-temporary-shelter-uganda-bidi-bidi-refugees-to-org-designboom-1200.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/big-bjarke-ingels-group-future-temporary-shelter-uganda-bidi-bidi-refugees-to-org/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-k15",
+      "ressort": "architektur",
+      "kicker": "Treviso",
+      "headline": "Alter Schlachthof in Treviso wird Tageszentrum für Bedürftige",
+      "teaser": "In Treviso ist aus dem früheren Schlachthof ein Tageszentrum für Menschen in schwierigen Lebenslagen geworden. Das Büro TIXA Studio associato hat das Gebäude auf 700 Quadratmetern umgebaut. Dabei blieb die Geschichte des Hauses sichtbar.",
+      "blocks": [],
+      "whyGood": "Ein leerer Ort mit langer Geschichte wird zu einem Platz, an dem Menschen Hilfe und Gemeinschaft finden.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1187696/ex-macello-di-treviso",
+          "language": "Englisch"
         }
       ],
       "brief": true,
@@ -945,477 +1263,111 @@
       "terms": [],
       "gallery": true,
       "image": {
-        "url": "https://assets.ad-magazin.de/photos/6a6b03af600bb51c9f1f6193/16:9/w_1280,c_limit/andracco_apt-svizzera_DSCF9330.jpg",
-        "credit": "AD Deutschland",
-        "source": "https://www.ad-magazin.de/artikel/55-quadratmeter-auf-sechs-ebenen-so-gab-ein-junger-architekt-einer-verlassenen-ruine-in-ligurien-ein-neues-leben",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k06",
-      "ressort": "design",
-      "kicker": "London",
-      "headline": "Yuri Suzuki baut Jahrmarktfahrgeschäfte zu Klangskulpturen um",
-      "teaser": "In der Osh Gallery in London zeigt der Klangkünstler Yuri Suzuki fünf bunte Dioramen. Achterbahn, Riesenrad und Karussell werden aus Rohren, Trichtern und Hörnern zu Instrumenten. Sie sind Prototypen für größere öffentliche Klangbauten.",
-      "blocks": [],
-      "whyGood": "Die Ausstellung lädt dazu ein, die Welt einmal mit den Ohren statt nur mit den Augen zu entdecken.",
-      "honestNote": "Die fünf Dioramen sind zunächst Modelle für größere Anlagen, die es noch nicht gibt.",
-      "sources": [
-        {
-          "name": "designboom",
-          "url": "https://www.designboom.com/art/yuri-suzuki-amusement-park-rides-acoustic-sculptures-onomatopia/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 5,
-      "country": "GB",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/yuri-suzuki-amusement-park-rides-acoustic-sculptures-onomatopia-designboom-1200.jpg",
-        "credit": "designboom",
-        "source": "https://www.designboom.com/art/yuri-suzuki-amusement-park-rides-acoustic-sculptures-onomatopia/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k07",
-      "ressort": "natur",
-      "kicker": "England",
-      "headline": "Giftige Ewigkeitschemikalien in Englands Flüssen nehmen ab",
-      "teaser": "Die Werte der zwei giftigsten PFAS, PFOS und PFOA, sind in Englands Flüssen in zehn Jahren um 30 und 29 Prozent gefallen. In Süßwasserfischen sanken sie um 49 Prozent. Das zeigen neue Zahlen der Umweltbehörde. Der Grund sind strenge Verbote.",
-      "blocks": [],
-      "whyGood": "Strenge Regeln wirken: Flüsse und Fische in England sind messbar weniger belastet.",
-      "honestNote": "Tausende andere PFAS sind weiter im Einsatz, und bei vielen ist ihre Giftigkeit noch unklar.",
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "GB",
-      "terms": [
-        {
-          "term": "PFAS",
-          "text": "PFAS sind Chemikalien, die Wasser und Fett abweisen. Sie bauen sich in der Natur sehr langsam ab und heißen deshalb Ewigkeitschemikalien."
-        }
-      ],
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e068/live/4f7ef220-ddfd-11f1-8445-15eb55286f71.jpg",
-        "credit": "BBC Science",
-        "source": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k08",
-      "ressort": "welt",
-      "kicker": "Abu Dhabi",
-      "headline": "Russland und Ukraine vereinbaren großen Gefangenenaustausch",
-      "teaser": "Russland und die Ukraine haben sich bei Gesprächen in Abu Dhabi auf einen großen Austausch von Kriegsgefangenen geeinigt. Die USA hatten vermittelt. Jared Kushner sprach von der größten humanitären Freilassung von Gefangenen. Sie könnte in zwei bis drei Wochen stattfinden.",
-      "blocks": [],
-      "whyGood": "Viele Gefangene könnten bald zu ihren Familien zurückkehren.",
-      "honestNote": "Die Einigung gilt laut dem russischen Delegationsleiter zunächst nur im Grundsatz, die genauen Zahlen sollen noch festgelegt werden.",
-      "sources": [
-        {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "AE",
-      "terms": [],
-      "image": {
-        "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7854x4418+0+409/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2Fe5%2Fc440fa07484eafad83691a255e57%2Fap26314378728116.jpg",
-        "credit": "NPR",
-        "source": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k09",
-      "ressort": "gesundheit",
-      "kicker": "ETH Zürich",
-      "headline": "Mikroroboter bringen Medikamente schneller zum Blutgerinnsel",
-      "teaser": "Forschende der ETH Zürich haben winzige magnetische Roboter entwickelt. Sie transportieren Medikamente zum Blutgerinnsel. Im Labor lösten sich Gerinnsel damit sechsmal schneller auf als mit dem Medikament allein. Erste Versuche an Schweinen waren vielversprechend.",
-      "blocks": [],
-      "whyGood": "Wenn Medikamente Blutgerinnsel schneller erreichen, könnte das künftig bei Schlaganfall, Herzinfarkt und Lungenembolie helfen.",
-      "honestNote": "Die Ergebnisse stammen bisher aus Labor und Tierversuchen, am Menschen wurde die Methode noch nicht getestet.",
-      "sources": [
-        {
-          "name": "ingenieur.de",
-          "url": "https://www.ingenieur.de/6-mal-schneller-mikroroboter-helfen-blutgerinnsel-aufzulosen-363ae429-eb2b-45bb-adc4-49a79345590b/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "CH",
-      "terms": [
-        {
-          "term": "Thrombus",
-          "text": "Ein Thrombus ist ein Blutgerinnsel. Es kann ein Blutgefäß verschließen und so den Blutfluss stoppen."
-        }
-      ],
-      "image": {
-        "url": "https://www.ingenieur.de/wp-content/uploads/2026/11/46975920-scaled-e1794387069447.jpg",
-        "credit": "ingenieur.de",
-        "source": "https://www.ingenieur.de/6-mal-schneller-mikroroboter-helfen-blutgerinnsel-aufzulosen-363ae429-eb2b-45bb-adc4-49a79345590b/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k10",
-      "ressort": "architektur",
-      "kicker": "Paris",
-      "headline": "Aus vergessenem Tunnel in Paris wird ein schönes öffentliches WC",
-      "teaser": "Das Büro Chartier-Corbasson Architectes hat einen vernachlässigten Tunnel unter den Trocadéro-Gärten in Paris umgebaut. Er war lange gesperrt und diente als Lager. Jetzt gibt es dort öffentliche Toiletten aus Edelstahl und Corten-Stahl. Die alten Eingänge und Feuersteinwände blieben erhalten.",
-      "blocks": [],
-      "whyGood": "Ein unsichtbarer Ort wird zu einer würdevollen Einrichtung für alle, und das Erbe von 1937 bleibt sichtbar.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/11/11/public-toilets-chartier-corbasson-paris/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "FR",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/11/public-toilets-chartier-corbasson-paris-hero_dezeen_2364_col_0.jpg",
-        "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/11/11/public-toilets-chartier-corbasson-paris/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k11",
-      "ressort": "design",
-      "kicker": "Deutsche Bahn",
-      "headline": "Neue Bahn-Kampagne zeigt Fortschritt und die Menschen dahinter",
-      "teaser": "Jung von Matt HAVEL hat die erste Kampagne für die Deutsche Bahn vorgestellt. Sie trägt den Titel „Wir wissen, wir sind noch nicht da, aber wir machen Strecke!“. Sie zeigt Verbesserungen für Fahrgäste und das Personal, vom Café-Service bis zu den Gleisbauern.",
-      "blocks": [],
-      "whyGood": "Die Bahn richtet den Blick auf Fortschritte und rückt die Menschen in den Mittelpunkt, die sie jeden Tag am Laufen halten.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "PAGE",
-          "url": "https://page-online.de/kreation/die-erste-kampagne-von-jung-von-matt-fuer-die-deutsche-bahn-ist-da/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 5,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://page-online.de/app/uploads/2026/12/261110_Pressematerial_DB-x-Jung-von-Matt-HAVEL_Wir-machen-Strecke_2.jpg",
-        "credit": "PAGE",
-        "source": "https://page-online.de/kreation/die-erste-kampagne-von-jung-von-matt-fuer-die-deutsche-bahn-ist-da/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k12",
-      "ressort": "natur",
-      "kicker": "Schottland",
-      "headline": "6 Millionen Pfund für Schottlands seltenen Regenwald",
-      "teaser": "Der National Lottery Heritage Fund gibt fast 6 Millionen Pfund für ein fünfjähriges Projekt. Es entstehen drei Zentren in Torridon, Morvern und Mittel-Argyll. Einheimische lernen dort Naturschutz und finden Arbeit. Geplant sind mehr als 20 Stellen und 15 Ausbildungsplätze.",
-      "blocks": [],
-      "whyGood": "Der seltene Regenwald an der Westküste bekommt Hilfe, und die Menschen vor Ort bekommen Arbeit und Ausbildung.",
-      "honestNote": "Die Stellen und Ausbildungsplätze sind bisher ein Ziel des Projekts.",
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.co.uk/news/articles/cmn8w8n5ynq2o?at_medium=RSS&at_campaign=rss",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "GB",
-      "terms": [],
-      "image": {
-        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/69b5/live/154dac30-dd9a-11f1-841d-6fd98310705b.jpg",
-        "credit": "BBC Science",
-        "source": "https://www.bbc.co.uk/news/articles/cmn8w8n5ynq2o?at_medium=RSS&at_campaign=rss",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k13",
-      "ressort": "gesundheit",
-      "kicker": "Krebsforschung",
-      "headline": "Bluttest erkennt Vorstufe von Eierstockkrebs",
-      "teaser": "Forschende aus Kalifornien haben im Blut ein Signal gefunden, das auf Vorstufen von Eierstockkrebs hinweist. Es ist ein RNA-Molekül namens Tu-Stroma. Der Test erkannte die Vorstufe bei 92,3 Prozent der betroffenen Frauen.",
-      "blocks": [],
-      "whyGood": "Eierstockkrebs könnte künftig entdeckt werden, bevor er überhaupt entsteht.",
-      "honestNote": "Der Test ist noch ein Forschungsergebnis und wird erst nach weiteren Studien im Alltag einsetzbar sein.",
-      "sources": [
-        {
-          "name": "Guardian Science",
-          "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [
-        {
-          "term": "RNA",
-          "text": "RNA ist ein Molekül in den Zellen des Körpers. Es trägt Informationen aus dem Erbgut und kann im Blut gemessen werden."
-        }
-      ],
-      "image": {
-        "url": "https://i.guim.co.uk/img/media/7f0e07e9605527926783a0e215685b04c7db38ba/354_0_2365_1892/master/2365.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8654843e9b2ca2ebd5e7ab003f5423b2",
-        "credit": "Guardian Science",
-        "source": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k14",
-      "ressort": "architektur",
-      "kicker": "Guatemala-Stadt",
-      "headline": "Neues Gemeindezentrum für Familien nahe der Müllhalde",
-      "teaser": "Nahe der städtischen Müllhalde von Guatemala-Stadt ist das Gemeindezentrum Plantando Semillas entstanden. Das Büro Taller ACÁ hat es für die Organisation Planting Seeds International geplant. Auf 460 Quadratmetern bietet es Familien der Nachbarschaft einen Ort.",
-      "blocks": [],
-      "whyGood": "Familien in einem informellen Viertel bekommen einen eigenen, sorgfältig gestalteten Ort für die Gemeinschaft.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "ArchDaily",
-          "url": "https://www.archdaily.com/1009565/plantando-semillas-community-center-taller-aca",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "GT",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://images.adsttc.com/media/images/654b/dbac/f96c/7645/9ebc/9858/large_jpg/centro-comunitario-plantando-semillas-taller-aca_5.jpg?1699470269",
+        "url": "https://images.adsttc.com/media/images/6ae2/0a67/3271/8400/01d0/f75b/large_jpg/hires.tobias.kaser.027.jpg?1793198789",
         "credit": "ArchDaily",
-        "source": "https://www.archdaily.com/1009565/plantando-semillas-community-center-taller-aca",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k15",
-      "ressort": "natur",
-      "kicker": "Florida",
-      "headline": "Ozeanriese SS United States wird zum größten künstlichen Riff",
-      "teaser": "Der Luxusliner SS United States wird vor Florida versenkt. Er soll das größte künstliche Riff aus einem absichtlich versenkten Schiff werden. Das Schiff ist 302 Meter lang. So wird es nicht verschrottet.",
-      "blocks": [],
-      "whyGood": "Ein berühmtes Schiff wird gerettet und bietet künftig Fischen Verstecke und Nahrung.",
-      "honestNote": "Eine Studie zum Meeresleben vor der Versenkung gab es nicht, deshalb lässt sich der Gewinn für die Fische kaum genau messen.",
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-ocean-liner-largest-artificial-reef.html",
-          "language": "Englisch"
-        },
-        {
-          "name": "Mongabay",
-          "url": "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [],
-      "image": {
-        "url": "https://scx2.b-cdn.net/gfx/news/2026/retired-ocean-liner-to.jpg",
-        "credit": "Phys.org",
-        "source": "https://phys.org/news/2026-11-ocean-liner-largest-artificial-reef.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-k16",
-      "ressort": "architektur",
-      "kicker": "Weerberg",
-      "headline": "Roboter druckt Tirols höchstes Haus aus Beton",
-      "teaser": "In Weerberg in Tirol entsteht ein vierstöckiges Gebäude. Ein mobiler Roboter druckt dort 682 m² Betonwand in 18 Drucktagen, ganz ohne Mauersteine und Schalung. Es ist nach Angaben von Strabag das höchste 3D-gedruckte Gebäude Österreichs.",
-      "blocks": [],
-      "whyGood": "Die Technik zeigt, dass Bauen schneller und mit weniger Material und Aufwand möglich wird.",
-      "honestNote": "Ganz ohne herkömmliche Bauweise geht es noch nicht, denn zusätzliche Stahlbetonwände und die Tiefgarage entstehen konventionell.",
-      "sources": [
-        {
-          "name": "ingenieur.de",
-          "url": "https://www.ingenieur.de/vier-stockwerke-18-tage-0-maurer-das-steckt-hinter-oesterreichs-rekord-druckhaus-a46d4af4-8cca-4eaa-96b4-48c85238aed2/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "AT",
-      "terms": [
-        {
-          "term": "Schalung",
-          "text": "Eine Schalung ist eine Form aus Brettern oder Platten. Frischer Beton wird hineingegossen und bleibt dort, bis er fest ist."
-        }
-      ],
-      "image": {
-        "url": "https://www.ingenieur.de/wp-content/uploads/2026/11/Nobugs-Neubau-Baustelle_2.jpg",
-        "credit": "ingenieur.de",
-        "source": "https://www.ingenieur.de/vier-stockwerke-18-tage-0-maurer-das-steckt-hinter-oesterreichs-rekord-druckhaus-a46d4af4-8cca-4eaa-96b4-48c85238aed2/",
+        "source": "https://www.archdaily.com/1187696/ex-macello-di-treviso",
         "kind": "source"
       }
     }
   ],
   "joke": {
-    "setup": "Warum legen Hühner Eier?",
-    "punchline": "Würden sie sie werfen, gingen sie kaputt."
+    "setup": "Was ist klein, grün und dreieckig?",
+    "punchline": "Ein kleines grünes Dreieck."
   },
   "comic": {
-    "series": "sandraundwoo",
-    "title": "Sandra und Woo",
-    "episode": "Schlüsselqualifikationen und mehr",
-    "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0056.png",
-    "pages": [
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0056.png",
-        "width": 980,
-        "height": 330,
-        "title": "Schlüsselqualifikationen",
-        "panels": [
-          [
-            0.0061,
-            0.0182,
-            0.3224,
-            0.8848
-          ],
-          [
-            0.3418,
-            0.0182,
-            0.3235,
-            0.8848
-          ],
-          [
-            0.6776,
-            0.0182,
-            0.3163,
-            0.8848
-          ]
-        ]
-      },
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0057.png",
-        "width": 980,
-        "height": 328,
-        "title": "Problemlösung",
-        "panels": [
-          [
-            0.0061,
-            0.0183,
-            0.2378,
-            0.8841
-          ],
-          [
-            0.2571,
-            0.0183,
-            0.2347,
-            0.8841
-          ],
-          [
-            0.5051,
-            0.0183,
-            0.2347,
-            0.8841
-          ],
-          [
-            0.7531,
-            0.0183,
-            0.2408,
-            0.8841
-          ]
-        ]
-      },
-      {
-        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0066.png",
-        "width": 980,
-        "height": 328,
-        "title": "Kompromiss",
-        "panels": [
-          [
-            0.0061,
-            0.0183,
-            0.2378,
-            0.8841
-          ],
-          [
-            0.2571,
-            0.0183,
-            0.2347,
-            0.8841
-          ],
-          [
-            0.5051,
-            0.0183,
-            0.2347,
-            0.8841
-          ],
-          [
-            0.7531,
-            0.0183,
-            0.2408,
-            0.8841
-          ]
-        ]
-      }
-    ],
-    "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-    "link": "https://www.sandraandwoo.com/woode/",
-    "linkTitle": "Mehr von Sandra und Woo"
+    "series": "sonnewolke",
+    "title": "Sonne & Wolke",
+    "episode": "Doppelgänger im Dschungel",
+    "strip": {
+      "storyID": "2026-11-13-08",
+      "panels": [
+        {
+          "prop": "leaf.fill",
+          "caption": null,
+          "sun": {
+            "mood": "staunt",
+            "text": "Ein bekannter Tropenfalter ist in Wahrheit mehrere Arten!"
+          },
+          "cloud": {
+            "mood": "skeptisch",
+            "text": "Und wie hat das vorher keiner gemerkt?"
+          }
+        },
+        {
+          "prop": "magnifyingglass",
+          "caption": null,
+          "sun": {
+            "mood": "froh",
+            "text": "Die neue Art sieht ihren Verwandten fast zum Verwechseln ähnlich."
+          },
+          "cloud": {
+            "mood": "grübelt",
+            "text": "Also ein Falter mit Zwilling. Praktisch beim Versteckspiel."
+          }
+        },
+        {
+          "prop": "cloud.fill",
+          "caption": null,
+          "sun": {
+            "mood": "verlegen",
+            "text": "Ich sehe bei dir auch nur eine Art: grau."
+          },
+          "cloud": {
+            "mood": "lacht",
+            "text": "Typisch. Ich bin Cumulus. Der Stratus da drüben ist mein Cousin."
+          }
+        }
+      ]
+    },
+    "credit": "Ein Comic von The Daily Good"
   },
-  "recommendation": null,
+  "recommendation": {
+    "kind": "spiel",
+    "label": "Spiel",
+    "title": "Mario Kart World",
+    "creator": "Nintendo",
+    "year": "2025",
+    "text": "Polygon führt Mario Kart World in seiner aktuellen Liste der 25 besten Switch-2-Spiele auf. Das Rennspiel bringt die vertraute Chaos-Fahrt mit Panzerkappen und Bananenschalen auf die neue Konsole. Es funktioniert allein, zu zweit auf dem Sofa und online.",
+    "forWhom": "Für alle, die gern gemeinsam lachen, wenn der blaue Panzer im letzten Moment zuschlägt.",
+    "link": "https://de.wikipedia.org/wiki/Mario_Kart_World",
+    "source": {
+      "name": "Polygon",
+      "url": "https://www.polygon.com/best-nintendo-switch-2-games/"
+    }
+  },
   "weekly": null,
   "quiz": {
     "questions": [
       {
-        "storyID": "2026-11-12-05",
-        "question": "Wie viele Seevogelkolonien brüten (wahrscheinlich) auf Bikar und Bokak?",
+        "storyID": "2026-11-13-01",
+        "question": "In welcher chinesischen Provinz steht der riesige Speicher aus flüssiger Luft?",
         "options": [
-          "8",
-          "15",
-          "23",
-          "40"
+          "Qinghai",
+          "Yunnan",
+          "Sichuan",
+          "Guangdong"
+        ],
+        "answer": 0
+      },
+      {
+        "storyID": "2026-11-13-06",
+        "question": "In welchem Geschäft läuft Gretchen Sollo jeden Tag ihre Runden?",
+        "options": [
+          "Im Supermarkt",
+          "Im Lowe's Baumarkt",
+          "Im Einkaufszentrum",
+          "In der Bibliothek"
         ],
         "answer": 1
       },
       {
-        "storyID": "2026-11-12-10",
-        "question": "Aus wie vielen Erdsorten malte Phil Lambert das Rekordbild?",
+        "storyID": "2026-11-13-03",
+        "question": "Aus welchem Material besteht das Dach der neuen Metrostation in Neapel?",
         "options": [
-          "Zwei",
-          "Drei",
-          "Vier",
-          "Sieben"
-        ],
-        "answer": 2
-      },
-      {
-        "storyID": "2026-11-12-03",
-        "question": "Wie viel Zeit haben die aktiven Ölbetriebe in Los Angeles, bis sie schließen?",
-        "options": [
-          "5 Jahre",
-          "10 Jahre",
-          "20 Jahre",
-          "50 Jahre"
+          "Stahl",
+          "Glas",
+          "Brettschichtholz",
+          "Beton"
         ],
         "answer": 2
       }
@@ -1423,372 +1375,486 @@
   },
   "regional": [
     {
-      "id": "2026-11-12-r01",
+      "id": "2026-11-13-r01",
       "ressort": "region",
       "regions": [
         "BW"
       ],
-      "kicker": "Heidelberg",
-      "headline": "Vermeintliche Fälschung in Heidelberg ist ein echter Renoir",
-      "teaser": "Ein Blatt, das lange als Fälschung galt, ist ein handsignierter Probedruck von Pierre-Auguste Renoir. Der Kunsthistoriker Henry Keazor und Studierende der Uni Heidelberg haben es untersucht. Das Kurpfälzische Museum zeigt es nun in der Ausstellung „Rätsel um Renoir“.",
+      "kicker": "Ulm",
+      "headline": "Mit 92 noch Teambetreuer beim SSV Ulm 1846",
+      "teaser": "Emilio Tancredi ist 92 und seit mehr als 50 Jahren Teambetreuer beim SSV Ulm 1846. Er schleppt Getränke, schneidet Obst und räumt Kabinen auf. Seine Frau Rosa (79) hilft mit. Beide arbeiten ohne Bezahlung und denken nicht ans Aufhören.",
       "blocks": [],
-      "whyGood": "Ein verschmähtes Blatt wird durch genaue Forschung zu einem echten Renoir.",
+      "whyGood": "Ein Ehepaar schenkt seinem Verein seit Jahrzehnten Zeit und Herz und ist für die Spieler wie Opa und Oma.",
       "honestNote": null,
       "sources": [
         {
           "name": "SWR",
-          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/renoir-in-heidelberg-vermeintliche-faelschung-ist-original-100.html",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/rosa-emilio-tancredi-ssv-ulm-fussball-teambetreuer-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 8,
       "country": "DE",
-      "terms": [
-        {
-          "term": "Probedruck",
-          "text": "Ein Probedruck ist ein erster Abzug, mit dem ein Künstler prüft, wie ein Druck aussieht, bevor die Auflage entsteht."
-        }
-      ],
+      "terms": [],
       "image": {
-        "url": "https://images.tagesschau.de/image/cc041e0d-4768-40a2-bc8b-5fc5350a61fe/AAABocn6mmQ/AAABnSSvgNE/16x9-1920.jpg",
+        "url": "https://images.tagesschau.de/image/9a985d30-f76d-4f68-92d6-5cd44a1dfd82/AAABodBHsaY/AAABnSSvgNE/16x9-1920.jpg",
         "credit": "SWR",
-        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/renoir-in-heidelberg-vermeintliche-faelschung-ist-original-100.html",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/rosa-emilio-tancredi-ssv-ulm-fussball-teambetreuer-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-r02",
-      "ressort": "region",
-      "regions": [
-        "BY"
-      ],
-      "kicker": "Schönau am Königssee",
-      "headline": "Eiskanal am Königssee nach fünf Jahren wieder offen",
-      "teaser": "Die Bob- und Rodelbahn am Königssee ist wieder in Betrieb. Eine Sturzflut hatte sie 2021 schwer beschädigt. Beim ersten Wettkampf wurden Julia Taubitz und Felix Loch deutsche Meister im Rodeln.",
-      "blocks": [],
-      "whyGood": "Die weltweit erste Kunsteisbahn ist zurück, und Sportlerinnen und Sportler können wieder an einem ihrer wichtigsten Trainingsorte fahren.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BR24 Oberbayern",
-          "url": "https://www.br.de/nachrichten/bayern/fuenf-jahre-nach-sturzflut-eiskanal-am-koenigssee-wiedereroeffnet,VaZPaC4",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 8,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://img.br.de/29ca427b-7fa5-474b-9938-c55a2f2634ec.jpeg?q=80&rect=3%2C111%2C4816%2C2708&w=1600&h=900",
-        "credit": "BR24 Oberbayern",
-        "source": "https://www.br.de/nachrichten/bayern/fuenf-jahre-nach-sturzflut-eiskanal-am-koenigssee-wiedereroeffnet,VaZPaC4",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r03",
-      "ressort": "region",
-      "regions": [
-        "HE"
-      ],
-      "kicker": "Kassel und Darmstadt",
-      "headline": "Kassel und Darmstadt holen Plätze beim Abpflastern-Wettbewerb",
-      "teaser": "Beim bundesweiten Wettbewerb „Abpflastern“ landete Kassel unter den Großstädten auf Platz zwei, Darmstadt auf Platz vier. In Kassel wurden rund 750 Quadratmeter Asphalt entfernt und viele Pflanzen gesetzt. In Darmstadt packten 30 Freiwillige mit an und schufen ein Blumenbeet.",
-      "blocks": [],
-      "whyGood": "Aus Asphalt werden kleine grüne Oasen, die dem Klima und der Artenvielfalt helfen.",
-      "honestNote": "Die Aktion gibt es erst seit 2025, und die neuen Pflanzen sind noch klein.",
-      "sources": [
-        {
-          "name": "hessenschau",
-          "url": "https://www.hessenschau.de/politik/bundesweiter-wettbewerb-kassel-und-darmstadt-erfolgreich-beim-abpflastern-v1,kommunen-abpflastern-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "versiegelt",
-          "text": "Versiegelte Flächen sind mit Asphalt, Beton oder Pflaster bedeckt. Regenwasser kann dort nicht im Boden versickern."
-        }
-      ],
-      "image": {
-        "url": "https://images.tagesschau.de/image/bd0fc3b0-90c8-4d14-bb4c-8725063f8f9e/AAABocqhOd8/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "hessenschau",
-        "source": "https://www.hessenschau.de/politik/bundesweiter-wettbewerb-kassel-und-darmstadt-erfolgreich-beim-abpflastern-v1,kommunen-abpflastern-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r04",
-      "ressort": "region",
-      "regions": [
-        "MV"
-      ],
-      "kicker": "Rerik",
-      "headline": "Rerik bekommt Geld vom Land für neue Seebrücke",
-      "teaser": "Das Land unterstützt die Gemeinde Rerik im Landkreis Rostock mit mehr als drei Millionen Euro. Damit soll die neue Seebrücke gebaut werden. Die alte Brücke wurde 2020 gesperrt und 2024 zurückgebaut. Die neue kostet knapp fünf Millionen Euro.",
-      "blocks": [],
-      "whyGood": "Das Ostseebad bekommt bald wieder eine Seebrücke für Gäste und Einheimische.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/rerik-rund-drei-millionen-euro-foerdergeld-fuer-neue-seebruecke,mvregiorostock-5282.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/e617030e-c805-451b-b832-94f8f7509975/AAABmGCq5qE/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/rerik-rund-drei-millionen-euro-foerdergeld-fuer-neue-seebruecke,mvregiorostock-5282.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r05",
-      "ressort": "region",
-      "regions": [
-        "MV"
-      ],
-      "kicker": "Krakow am See",
-      "headline": "Krakow am See: Jung und Alt wohnen jetzt unter einem Dach",
-      "teaser": "In Krakow am See im Landkreis Rostock ist ein neues Mehrgenerationenhaus eingeweiht worden. Im Haus leben acht Kinder und Jugendliche. Im Anbau gibt es zwölf Zimmer für ältere Menschen, sechs sind schon vergeben. Gemeinsame Räume bringen die Generationen zusammen.",
-      "blocks": [],
-      "whyGood": "Wo früher ein leerer Drogeriemarkt stand, leben jetzt Jung und Alt zusammen und bringen Leben ins Zentrum.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/neues-mehrgenerationenhaus-in-krakow-am-see-eingeweiht,mvregiorostock-5290.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/7026b049-a38d-4749-8610-a539c93f4d8c/AAABocuGZ60/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/neues-mehrgenerationenhaus-in-krakow-am-see-eingeweiht,mvregiorostock-5290.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r07",
-      "ressort": "region",
-      "regions": [
-        "SL"
-      ],
-      "kicker": "Eppelborn",
-      "headline": "Zwei Fußballer retten Torwart das Leben und werden geehrt",
-      "teaser": "Beim Training des SV Bubach-Calmesweiler bricht der Torwart zusammen. Mitspieler Nikos Molaen und Trainer Sebastian Schmidt beleben ihn wieder, bis der Rettungsdienst kommt. Innenminister Reinhold Jost lobte beide öffentlich.",
-      "blocks": [],
-      "whyGood": "Dem Torwart geht es wieder gut, weil zwei Menschen sofort handelten.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "SR",
-          "url": "https://www.sr.de/sr/home/nachrichten/panorama/lebensretter_bubach_calmesweiher_oeffentlich_belobigt_100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 7,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Defibrillator",
-          "text": "Ein Gerät, das über Elektroden Stromstöße abgibt. Damit kann ein gestörter Herzrhythmus wieder normal werden."
-        }
-      ],
-      "image": {
-        "url": "https://images.tagesschau.de/image/b3cb4b14-8a00-4dc9-9eeb-4fb9e2b0693d/AAABocwhq2c/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "SR",
-        "source": "https://www.sr.de/sr/home/nachrichten/panorama/lebensretter_bubach_calmesweiher_oeffentlich_belobigt_100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r08",
-      "ressort": "region",
-      "regions": [
-        "BY"
-      ],
-      "kicker": "Thurnau",
-      "headline": "Frankenwürfel 2026 geht an drei besondere Franken",
-      "teaser": "Auf Schloss Thurnau wurde der Frankenwürfel verliehen. Ausgezeichnet wurden Ordensschwester Teresa Zukic, Altlandrat Klaus Peter Söllner und Karl Graf zu Castell-Rüdenhausen. Der Preis gilt als höchste fränkische Ehrung.",
-      "blocks": [],
-      "whyGood": "Drei Menschen, die sich für andere und für ihre Heimat einsetzen, wurden mit der höchsten fränkischen Ehrung gewürdigt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "BR24 Oberfranken",
-          "url": "https://www.br.de/nachrichten/bayern/frankenwuerfel-2026-das-sind-die-ausgezeichneten,VadpmZU",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://img.br.de/f6487c05-0de8-44d3-b5a3-a41ba5be8f42.jpeg?q=80&rect=0%2C0%2C1903%2C1071&w=1600&h=900",
-        "credit": "BR24 Oberfranken",
-        "source": "https://www.br.de/nachrichten/bayern/frankenwuerfel-2026-das-sind-die-ausgezeichneten,VadpmZU",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r09",
+      "id": "2026-11-13-r02",
       "ressort": "region",
       "regions": [
         "HB"
       ],
       "kicker": "Bremen",
-      "headline": "Weserburg zeigt fröhliche Kunst von Aase und Poul Gernes",
-      "teaser": "In der Bremer Weserburg läuft die neue Ausstellung \"Better together\". Sie zeigt farbenfrohe Kunst von Aase und Poul Gernes. Die Werke machen gute Laune und stellen den Menschen in den Mittelpunkt.",
+      "headline": "Bremerin gewinnt Gründerinnenpreis mit Schwertransport-Firma",
+      "teaser": "Fenja Bierwirth (34) hat in Bremen den Belladonna-Gründerinnenpreis gewonnen. Vor zwei Jahren gründete sie die Firma Feemax. Die organisiert Genehmigungen, Begleitfahrzeuge und Verkehrsmaßnahmen für Schwertransporte. Heute arbeiten dort 17 Mitarbeitende.",
       "blocks": [],
-      "whyGood": "Bunte Kunst bringt Menschen in Bremen zusammen und macht Freude.",
+      "whyGood": "Eine junge Gründerin baut in einer Männer-Branche in nur zwei Jahren ein Unternehmen mit 17 Beschäftigten auf und wird dafür ausgezeichnet.",
       "honestNote": null,
       "sources": [
         {
           "name": "buten un binnen",
-          "url": "https://www.butenunbinnen.de/videos/ausstellung-better-together-weserburg-kunst-102.html",
+          "url": "https://www.butenunbinnen.de/videos/gruenderinnenpreis-frauen-schwertransportlogistik-gespraech-bock-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://www.butenunbinnen.de/bilder/ausstellung-better-together-weserburg-kunst-100~_v-1280x720_c-1794425772182.jpg",
-        "credit": "buten un binnen",
-        "source": "https://www.butenunbinnen.de/videos/ausstellung-better-together-weserburg-kunst-102.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r10",
-      "ressort": "region",
-      "regions": [
-        "HE"
-      ],
-      "kicker": "Frankfurt-Gallus",
-      "headline": "Frankfurt heizt Nachkriegssiedlung mit Serverwärme",
-      "teaser": "Im Frankfurter Gallus sollen rund 1.100 Wohnungen der Friedrich-Ebert-Siedlung von Gas auf Abwärme aus einem Rechenzentrum umsteigen. ABG, Mainova und Telehouse bauen dafür die Wärmeversorgung um. Bis 2040 soll die ganze Siedlung umgestellt sein.",
-      "blocks": [],
-      "whyGood": "Das Projekt spart rund 650 Tonnen CO₂ pro Jahr und zeigt, dass sich auch alte Siedlungen klimafreundlich heizen lassen.",
-      "honestNote": "Die Umstellung läuft schrittweise: Ab Herbst 2027 sollen jährlich rund 80 Wohnungen angeschlossen werden.",
-      "sources": [
-        {
-          "name": "hessenschau",
-          "url": "https://www.hessenschau.de/wirtschaft/abwaerme-statt-gas-frankfurt-will-ganze-nachkriegssiedlung-umruesten-v1,rechenzentrum-abwaerme-nutzung-gallus-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/20a9e47e-fd14-4b91-8e7a-10e74071d410/AAABocwsqIs/AAABnSSveow/16x9-1280.jpg",
-        "credit": "hessenschau",
-        "source": "https://www.hessenschau.de/wirtschaft/abwaerme-statt-gas-frankfurt-will-ganze-nachkriegssiedlung-umruesten-v1,rechenzentrum-abwaerme-nutzung-gallus-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r11",
-      "ressort": "region",
-      "regions": [
-        "NI"
-      ],
-      "kicker": "Borkum",
-      "headline": "Borkum ist jetzt offiziell Nordsee- und Thalassoheilbad",
-      "teaser": "Die Insel Borkum im Landkreis Leer trägt ab sofort das Prädikat „Nordsee- und Thalassoheilbad“. Wirtschaftsminister Grant Hendrik Tonne übergab die Urkunde an Tourismusdirektorin Pia Hosemann. Borkum gehört damit zu den ersten fünf staatlich anerkannten Orten dieser Art in Niedersachsen.",
-      "blocks": [],
-      "whyGood": "Die Insel wird für ihr Hochseeklima und ihre Lage an der Nordsee offiziell als Ort für gesundheitsorientierten Urlaub anerkannt.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/borkum-traegt-nun-praedikat-nordsee-und-thalassoheilbad,aktuelloldenburg-4850.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
+      "score": 8,
       "country": "DE",
       "terms": [
         {
-          "term": "Thalassoheilbad",
-          "text": "Das ist ein staatlich anerkannter Küstenort. Er nutzt Meer und Meeresklima, um die Gesundheit zu fördern."
+          "term": "Schwertransporte",
+          "text": "Schwertransporte sind Fahrten mit sehr großen oder schweren Ladungen, zum Beispiel Teilen von Windkraftanlagen. Sie brauchen dafür oft eine besondere Genehmigung."
         }
       ],
       "image": {
-        "url": "https://images.ndr.de/image/63b55acb-cd83-4dd4-a2b7-1ac1a884f607/AAABnSSjGqQ/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/borkum-traegt-nun-praedikat-nordsee-und-thalassoheilbad,aktuelloldenburg-4850.html",
+        "url": "https://www.butenunbinnen.de/bilder/frau-auto-warnjacke-orange-100~_v-1280x720_c-1794509724092.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/gruenderinnenpreis-frauen-schwertransportlogistik-gespraech-bock-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-r12",
+      "id": "2026-11-13-r03",
       "ressort": "region",
       "regions": [
-        "NI"
+        "NW"
       ],
-      "kicker": "Landkreis Göttingen",
-      "headline": "Inklusive Kitas im Landkreis Göttingen werden dauerhaftes Programm",
-      "teaser": "Aus dem Projekt „Inklusive Kita für Alle“ ist im Landkreis Göttingen ein offizielles Programm geworden. Es startete vor vier Jahren in Osterode am Harz, Jühnde und Hann. Münden. Für Kinder mit erhöhtem Förderbedarf entfallen nun Anträge und Befunde.",
+      "kicker": "Meinerzhagen",
+      "headline": "Schulmensa in Meinerzhagen lebt Inklusion jeden Tag",
+      "teaser": "In der Mensa des Evangelischen Gymnasiums Meinerzhagen kochen und servieren Menschen mit Behinderung vom Johanneswerk. Nach dem Essen räumen Schüler ab und spülen. So kommen alle ins Gespräch, und die Hemmschwelle sinkt.",
       "blocks": [],
-      "whyGood": "Familien müssen weniger Papierkram erledigen, und drei weitere Kitas machen im kommenden Jahr mit.",
+      "whyGood": "Beim gemeinsamen Arbeiten in der Mensa verlieren Jugendliche und Mitarbeitende ihre Berührungsängste.",
       "honestNote": null,
       "sources": [
         {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/aus-projekt-wird-programm-landkreis-goettingen-foerdert-inklusive-kitas,aktuellbraunschweig-4266.html",
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-olpe/inklusion-mensa-meinerzhagen-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
-      "score": 6,
+      "score": 8,
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.ndr.de/image/6154c323-c5b5-41ab-8743-edadc5b21ce1/AAABoaWhClE/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/aus-projekt-wird-programm-landkreis-goettingen-foerdert-inklusive-kitas,aktuellbraunschweig-4266.html",
+        "url": "https://images.tagesschau.de/image/6c30d578-2393-41a0-a0fb-49f207ea8da9/AAABodFIJFs/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-olpe/inklusion-mensa-meinerzhagen-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-r13",
+      "id": "2026-11-13-r04",
       "ressort": "region",
       "regions": [
         "RP"
       ],
-      "kicker": "Neustadt an der Weinstraße",
-      "headline": "Neustadt: Ehemaliger Gestapo-Sitz wird zum Lernort",
-      "teaser": "In Neustadt entsteht der „Lernort Gestapo“. Besucher können dort anhand erhaltener Akten erfahren, was Verfolgten in der NS-Zeit geschah. Das Land Rheinland-Pfalz betreibt den Gedenkort, die Eröffnung ist am 13. November.",
+      "kicker": "Mainz",
+      "headline": "Mainz korrigiert nach 54 Jahren Namensfehler in Geburtsurkunde",
+      "teaser": "Luigi Toscano wurde in Mainz-Mombach als „Luiggi Toskana“ eingetragen. Nach einem Zeitungsbericht hat die Stadt die Urkunde berichtigt. Oberbürgermeister Nino Haase übergab sie dem Fotografen persönlich. Nun kann er einen neuen Antrag auf Einbürgerung stellen.",
       "blocks": [],
-      "whyGood": "Ein Ort der Unrechtsgeschichte wird zu einem Platz, an dem Menschen lernen und den Verfolgten ein Gesicht geben können.",
-      "honestNote": "Das pädagogische Konzept wird erst in den ersten sechs Monaten gemeinsam mit interessierten Gruppen erarbeitet.",
+      "whyGood": "Ein Fehler, der ein halbes Leben lang im Weg stand, ist in kurzer Zeit behoben.",
+      "honestNote": "Ob die Einbürgerung diesmal klappt, ist noch offen.",
       "sources": [
         {
           "name": "SWR",
-          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/lernort-gestapo-neustadt-informiert-uber-taten-der-ns-geheimpolizei-100.html",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/neue-geburtsurkunde-nach-54-jahren-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/5e0a387a-1844-46ab-8b9e-19cd5aa7fcd7/AAABodDGDQk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/neue-geburtsurkunde-nach-54-jahren-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r05",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Ilm-Kreis",
+      "headline": "Kuh Erna bringt in Hammersfeld gesunde Drillinge zur Welt",
+      "teaser": "In einem Stall der Agrargesellschaft Griesheim im Ilm-Kreis hat Kuh Erna drei Holstein-Kälber geboren. Es sind zwei Bullenkälber und ein weibliches Kalb. Sie kamen ohne fremde Hilfe zur Welt und sind wohlauf.",
+      "blocks": [],
+      "whyGood": "Drillinge sind bei Rindern extrem selten, und hier sind Mutter und alle drei Kälber gesund.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/sued-thueringen/ilmenau-ilmkreis/geburt-griesheim-kalb-gesundheit,drillinge-kuh-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/343878a7-fdc6-4bff-99d3-abf087897929/AAABodAmKPY/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/sued-thueringen/ilmenau-ilmkreis/geburt-griesheim-kalb-gesundheit,drillinge-kuh-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r06",
+      "ressort": "region",
+      "regions": [
+        "BB"
+      ],
+      "kicker": "Potsdam",
+      "headline": "Verschollenes Le-Brun-Gemälde kehrt ins Neue Palais zurück",
+      "teaser": "Das Gemälde „Heilige Familie“ von Charles Le Brun kehrt nach Potsdam zurück. Es entstand um 1655 und war seit 1945 verschwunden. 2021 tauchte es in einem Berliner Auktionshaus auf. Die Schlösserstiftung erhält es in den nächsten Tagen zurück.",
+      "blocks": [],
+      "whyGood": "Ein wichtiges Kunstwerk, das fast 80 Jahre verschollen war, hängt bald wieder dort, wo es hingehört.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/11/verschollenes-gemaelde-zurueck-im-neuen-palais-potsdam.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/be306ae2-22ae-406c-8aef-ad08f3b5ef03/AAABodBm1HQ/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "rbb24",
+        "source": "https://www.rbb24.de/kultur/beitrag/2026/11/verschollenes-gemaelde-zurueck-im-neuen-palais-potsdam.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r07",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Stuttgart",
+      "headline": "Stuttgart: Große Schalterhalle im Hauptbahnhof öffnet wieder",
+      "teaser": "Nach eineinhalb Jahren Sanierung ist die Große Schalterhalle im Bonatzbau wieder offen. Für Fahrgäste von S-Bahn und Stadtbahn wird der Weg zum Querbahnsteig um rund 80 Meter kürzer. Dort gibt es auch den ersten Blick auf den sanierten Bonatzbau.",
+      "blocks": [],
+      "whyGood": "Wer in Stuttgart umsteigt, hat wieder einen kürzeren Weg und sieht erstmals, wie schön der alte Bahnhof wird.",
+      "honestNote": "Die langen Umleitungswege bleiben vorerst, die Laufwege sollen sich erst ab Ende 2027 deutlich verbessern.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/s21-schalterhalle-bonatzbau-oeffnet-hauptbahnhof-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/61afacc6-92f5-46a5-a062-612650ab1d36/AAABodDEMYs/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/s21-schalterhalle-bonatzbau-oeffnet-hauptbahnhof-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r08",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Edertal",
+      "headline": "Seniorenpaar entlarvt falsche Polizisten und hilft bei Festnahme",
+      "teaser": "Ein Ehepaar aus Edertal-Bergheim hat einen Betrugsversuch durchschaut. Der Mann hielt die falschen Polizisten am Telefon hin, seine Frau rief die echte Polizei. Sie nahm drei Tatverdächtige fest, als diese die Wertsachen abholen wollten.",
+      "blocks": [],
+      "whyGood": "Wachsam und kaltblütig haben die beiden Senioren die Betrüger gestoppt, bevor jemand zu Schaden kam.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/panorama/seniorenpaar-aus-edertal-bringt-falsche-polizisten-zur-strecke-v1,schockanrufe-betrueger-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/8a5b930c-154b-46b1-a9ef-6fa012802fa7/AAABodEslzU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/panorama/seniorenpaar-aus-edertal-bringt-falsche-polizisten-zur-strecke-v1,schockanrufe-betrueger-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r09",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Vorpommern-Rügen",
+      "headline": "Zwei Lehrerinnen aus Vorpommern erhalten den MINT-Stern",
+      "teaser": "Silke Herbst vom Gymnasium Grimmen baut mit ihren Schülern einen Roboter, der ein Beet pflegt. Mareile Queren von der Evangelischen Schule Dettmannsdorf organisiert eine Kinderuniversität. Beide wurden beim ersten MINT-Stern Mecklenburg-Vorpommern geehrt.",
+      "blocks": [],
+      "whyGood": "Engagierte Lehrerinnen wecken bei Kindern die Freude an Wissenschaft und Technik und werden dafür ausgezeichnet.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/mint-stern-zwei-lehrerinnen-aus-vorpommern-ausgezeichnet,mvregiogreifswald-6350.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "MINT",
+          "text": "MINT steht für Mathematik, Informatik, Naturwissenschaften und Technik."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/0dd6a2a2-d02e-4c30-8431-3bd92ef88e97/AAABodDeTMk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/mint-stern-zwei-lehrerinnen-aus-vorpommern-ausgezeichnet,mvregiogreifswald-6350.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r10",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Hannover",
+      "headline": "Hannover hat erstmals ein gewähltes Jugendparlament",
+      "teaser": "Das neue Jugendparlament in Hannover hat sich zur ersten Sitzung getroffen. Die 25 Mitglieder sind zwischen 13 und 19 Jahre alt. Sie wurden online gewählt und bringen in zwölf Ausschüssen Anträge und Ideen ein.",
+      "blocks": [],
+      "whyGood": "Junge Menschen in Hannover haben jetzt eine eigene, demokratisch gewählte Stimme in der Stadtpolitik.",
+      "honestNote": "Abstimmen dürfen in den Ausschüssen am Ende nur die erwachsenen Mitglieder.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/erste-sitzung-hannover-hat-jetzt-ein-jugendparlament,aktuellhannover-3686.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/8a30d889-6961-4043-a75b-f7254aefbcbb/AAABnMKQMvY/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/erste-sitzung-hannover-hat-jetzt-ein-jugendparlament,aktuellhannover-3686.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r11",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Bonn",
+      "headline": "Bonner Rat beschließt Sanierung des Melbbads",
+      "teaser": "Das Melbbad in Bonn soll saniert werden. Der Stadtrat folgt damit einem Bürgerbegehren der Initiative „Rettet das Melbbad“. Mehr als 22.000 Menschen hatten dafür unterschrieben. Seit einem Starkregen 2020 ist das Freibad geschlossen.",
+      "blocks": [],
+      "whyGood": "Das beliebte Freibad bekommt eine Zukunft, weil sich viele Bonnerinnen und Bonner dafür eingesetzt haben.",
+      "honestNote": "Die Sanierung soll knapp 30 Millionen Euro kosten, und die Stadt muss noch klären, wo sie dafür an anderer Stelle sparen kann.",
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/rheinland/bonn/stadtrat-melbbad-buergerbegehren-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Bürgerbegehren",
+          "text": "Mit einem Bürgerbegehren können Einwohner einer Stadt verlangen, dass über ein Thema entschieden wird. Dafür sammeln sie Unterschriften."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/462aa723-fc30-425a-9bdc-911c251b76bb/AAABodGIPWo/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/rheinland/bonn/stadtrat-melbbad-buergerbegehren-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r12",
+      "ressort": "region",
+      "regions": [
+        "TH"
+      ],
+      "kicker": "Ebersdorf",
+      "headline": "Gemeinsam kochen gegen die Einsamkeit in Ebersdorf",
+      "teaser": "In Ebersdorf im Saale-Orla-Kreis kochen und essen Menschen aus verschiedenen Generationen zusammen. Das Agathe-Projekt der Diakonie Tagespflege St. Martin lädt dazu ein. Das gemeinsame Kochen ist ein fester Anlass und hilft, Hemmungen abzubauen.",
+      "blocks": [],
+      "whyGood": "Beim gemeinsamen Kochen und Essen finden Jung und Alt neue Gemeinschaft.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saale-orla/kochtreff-ebersdorf-gemeinschaft,einsamkeit-alter-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/1bb01cdf-7aee-4963-b3cd-ad8ff63c4dba/AAABocZm3o8/AAABnSSveow/16x9-1280.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saale-orla/kochtreff-ebersdorf-gemeinschaft,einsamkeit-alter-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r14",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremerhaven",
+      "headline": "Flohmarkt statt Leerstand: Flomio eröffnet in Bremerhaven",
+      "teaser": "Bremerhaven hat jetzt einen dauerhaften Indoor-Flohmarkt in der Innenstadt. Der Betreiber Flomio bietet 500 Regale an. Dort können Menschen ihre Waren gegen Gebühr verkaufen.",
+      "blocks": [],
+      "whyGood": "Ein Laden in der Innenstadt wird wieder genutzt, und gebrauchte Dinge finden neue Besitzer.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/audios/flomio-flohmarkt-eroeffnung-innenstadt-bremerhaven-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/flomio-eroeffnung-bremerhaven-100~_v-1280x720_c-1794501775971.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/audios/flomio-flohmarkt-eroeffnung-innenstadt-bremerhaven-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r15",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Schwerin",
+      "headline": "Schweriner Weihnachtsbaum steht schon auf dem Marktplatz",
+      "teaser": "Auf dem Altstädtischen Marktplatz in Schwerin steht der Weihnachtsbaum. Die Nordmanntanne ist zwölf Meter hoch und etwa 1,5 Tonnen schwer. Sie kommt aus der Nähe von Neumünster in Schleswig-Holstein. Am Dienstag wird sie geschmückt.",
+      "blocks": [],
+      "whyGood": "Die Vorfreude auf den Weihnachtsmarkt, der am 23. November öffnet, kann beginnen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/15-tonnen-schwer-zwoelf-meter-hoch-schweriner-weihnachtsbaum-steht,mvregioschwerin-6478.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/f6c6111f-9983-4297-9ae9-8b148df26860/AAABlWb-QEk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/15-tonnen-schwer-zwoelf-meter-hoch-schweriner-weihnachtsbaum-steht,mvregioschwerin-6478.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r16",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Emden",
+      "headline": "VW Emden baut jetzt den neuen ID. Tiguan",
+      "teaser": "Im Emder VW-Werk läuft der vollelektrische ID. Tiguan vom Band. Er wird ausschließlich in Emden gebaut und soll den ID.4 in den kommenden Wochen ersetzen. Dafür musste im Werk nichts umgebaut werden. Der Betriebsrat erwartet danach dieselben Stückzahlen wie jetzt.",
+      "blocks": [],
+      "whyGood": "Das neue Modell gibt den 7.700 Beschäftigten in Emden eine Perspektive für die Produktion.",
+      "honestNote": "Ob der ID. Tiguan die großen Erwartungen erfüllt, muss sich erst noch zeigen.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/vw-emden-produktion-des-id-tiguan-ist-gestartet,vw-1694.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/d72b7cdc-17f7-431c-b3f9-c29a178ba69b/AAABoc-WLSI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/vw-emden-produktion-des-id-tiguan-ist-gestartet,vw-1694.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-13-r17",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Westerwald",
+      "headline": "Mehr Zeit für Patienten: Neues Pflegemodell im Westerwald",
+      "teaser": "Der Caritasverband Westerwald-Rhein-Lahn testet seit 2022 das Projekt „Pflege ganz aktiv“. Patienten buchen keine festen Module mehr, sondern Zeitkontingente. Die Pflegekräfte entscheiden mit ihnen, was an dem Tag gut tut. Das Projekt läuft jetzt in allen vier Pflegestationen.",
+      "blocks": [],
+      "whyGood": "Patienten bleiben länger selbstbestimmt zuhause, und Pflegekräfte haben wieder mehr Freude an ihrem Beruf.",
+      "honestNote": "Das Modell ist noch ein Projekt und läuft bisher nur bei einem Verband.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/wie-ein-modell-aus-dem-westerwald-die-pflege-in-deutschland-veraendern-koennte-100.html",
           "language": "Deutsch"
         }
       ],
@@ -1797,117 +1863,33 @@
       "country": "DE",
       "terms": [
         {
-          "term": "Gestapo",
-          "text": "Die Gestapo war die Geheime Staatspolizei in der NS-Zeit. Sie verfolgte Menschen, die dem Regime unliebsam waren."
-        }
-      ]
-    },
-    {
-      "id": "2026-11-12-r14",
-      "ressort": "region",
-      "regions": [
-        "SH"
-      ],
-      "kicker": "Bad Segeberg",
-      "headline": "Winnetou leuchtet jetzt als Ampelmännchen in Bad Segeberg",
-      "teaser": "In Bad Segeberg zeigt Winnetou jetzt Fußgängern, wann sie gehen dürfen. Die ersten zwei Ampeln mit Karl-May-Motiv hängen an der Kirchstraße und am Landratspark. Vier weitere folgen an der Bahnhofsstraße. Die Bürger reagieren positiv.",
-      "blocks": [],
-      "whyGood": "Eine kleine Idee bringt Farbe in die Stadt und kommt bei den Menschen gut an.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/pinneberg_segeberg_stormarn/bad-segeberg-hat-jetzt-karl-may-ampelmaennchen,ampel-232.html",
-          "language": "Deutsch"
+          "term": "Zeitkontingente",
+          "text": "Das ist eine feste Menge Zeit, die Patienten buchen. Was in dieser Zeit gemacht wird, entscheiden Pflegekraft und Patient gemeinsam."
         }
       ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
       "image": {
-        "url": "https://images.ndr.de/image/ef1b46c7-6d09-4b4c-a1d5-0c950471b1aa/AAABocrWDEg/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/pinneberg_segeberg_stormarn/bad-segeberg-hat-jetzt-karl-may-ampelmaennchen,ampel-232.html",
+        "url": "https://images.tagesschau.de/image/b86e716d-46c4-49ba-a935-bb6f43edb023/AAABodE3mTc/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/wie-ein-modell-aus-dem-westerwald-die-pflege-in-deutschland-veraendern-koennte-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-r15",
+      "id": "2026-11-13-r18",
       "ressort": "region",
       "regions": [
         "ST"
       ],
-      "kicker": "Halle",
-      "headline": "Halle bekommt sein erstes großes Tanzfestival",
-      "teaser": "Vom 12. bis 22. November läuft in Halle das Zett-Festival für zeitgenössischen Tanz. 14 Tänzerinnen aus Sachsen-Anhalt tanzen im Stadtpark, in einer Schule und sogar in einer Videothek. Die Veranstaltungen in der Stadt sind kostenlos. Auch Workshops für Anfänger gibt es.",
+      "kicker": "Magdeburg",
+      "headline": "Magdeburger durchschaut falschen Polizisten und ruft den Notruf",
+      "teaser": "Ein 69-Jähriger in Magdeburg-Neu Olvenstedt hat einen falschen Polizisten erkannt. Der Mann an der Tür wollte angeblich Beweismittel abholen. Der Bewohner wurde misstrauisch und rief die Polizei. Die Beamten stellten kurz darauf einen Tatverdächtigen.",
       "blocks": [],
-      "whyGood": "Tanz kommt dorthin, wo sonst keiner tanzt, und alle dürfen kostenlos zuschauen oder mitmachen.",
-      "honestNote": "Das Festival ist eine Premiere, die Macherinnen hoffen auf eine Fortsetzung.",
-      "sources": [
-        {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/festival-modern-tanz-performance-zett,zett-festival-auftakt-kultur-news-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.mdr.de/image/0e63d316-246f-4d32-89ed-337b3d9664b9/AAABocSn4UA/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/festival-modern-tanz-performance-zett,zett-festival-auftakt-kultur-news-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r16",
-      "ressort": "region",
-      "regions": [
-        "TH"
-      ],
-      "kicker": "Jena",
-      "headline": "Uni Jena startet erstes duales Studium früher als geplant",
-      "teaser": "An der Friedrich-Schiller-Universität Jena hat der erste Student ein duales Studium begonnen. Es verbindet Wirtschaftswissenschaften mit Praxisphasen in einem Unternehmen. Eigentlich sollte es erst im Sommersemester 2027 losgehen. Es gibt schon rund ein Dutzend Bewerbungen.",
-      "blocks": [],
-      "whyGood": "Studierende können in Jena nun Uni, Praxis und eigenes Einkommen verbinden, und das früher als gedacht.",
-      "honestNote": "Die Uni sucht noch weitere Unternehmen als Praxispartner.",
-      "sources": [
-        {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/jena/wirtschaftswissenschaften-universitaet-modellstart-bewerbung,duales-studium-164.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.mdr.de/image/5e0f74f7-d5fa-43e6-b34a-4be4ee606858/AAABocXup6Q/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/jena/wirtschaftswissenschaften-universitaet-modellstart-bewerbung,duales-studium-164.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-12-r17",
-      "ressort": "region",
-      "regions": [
-        "HH"
-      ],
-      "kicker": "Hamburg-Bramfeld",
-      "headline": "Richtfest für 540 neue SAGA-Wohnungen in Bramfeld",
-      "teaser": "Am Moosrosenweg in Bramfeld baut die SAGA mit dem Bauunternehmen Otto Wulff 540 Mietwohnungen. 200 davon sind Sozialwohnungen, viele ohne Barrieren. Im kommenden Jahr können rund 1.000 Menschen einziehen.",
-      "blocks": [],
-      "whyGood": "Hier entsteht bald bezahlbarer Wohnraum für rund 1.000 Menschen, dazu mit Kita und 1.000 Fahrradstellplätzen.",
+      "whyGood": "Das umsichtige Verhalten des Mannes verhinderte einen möglichen finanziellen Schaden.",
       "honestNote": null,
       "sources": [
         {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/hamburg/richtfest-fuer-540-wohnungen-der-saga-in-bramfeld,bramfeld-122.html",
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/betrug-verhindert-polizei,falscher-polizist-100.html",
           "language": "Deutsch"
         }
       ],
@@ -1916,156 +1898,101 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.ndr.de/image/e711f4ee-c9cf-4a24-b9de-d71eae4792b6/AAABocp-cOM/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/hamburg/richtfest-fuer-540-wohnungen-der-saga-in-bramfeld,bramfeld-122.html",
+        "url": "https://images.mdr.de/image/4913b08a-8a88-4c97-8875-ec55cfe849dd/AAABocmnYsk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/betrug-verhindert-polizei,falscher-polizist-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-12-r19",
+      "id": "2026-11-13-r21",
       "ressort": "region",
       "regions": [
-        "SL"
+        "SN"
       ],
-      "kicker": "Saarbrücken",
-      "headline": "Saarland ehrt sieben unabhängige Verlage mit neuem Preis",
-      "teaser": "In Saarbrücken ist erstmals der Saarländische Verlagspreis verliehen worden. Das Wirtschaftsministerium zeichnet sieben unabhängige Verlage aus, jeder erhält 10.000 Euro. Der Preis soll auch in Zukunft vergeben werden.",
+      "kicker": "Meißen",
+      "headline": "Theater Meißen wird 175 und öffnet sich für alle",
+      "teaser": "Das Theater Meißen hat kein eigenes Ensemble und nur rund 400 Plätze. Trotzdem lockt es Publikum an, auch aus Dresden. Geschäftsführerin Ann-Kristin Böhme setzt auf offene Angebote wie das Straßentheaterfestival „Gassenzauber“. Nun feiert das Haus seinen 175. Geburtstag.",
       "blocks": [],
-      "whyGood": "Kleine Verlage im Saarland bekommen Anerkennung und Geld für ihre Arbeit.",
+      "whyGood": "Ein kleines Theater zeigt, dass Offenheit und Nähe zu den Menschen eine ganze Stadt zusammenbringen können.",
       "honestNote": null,
       "sources": [
         {
-          "name": "SR",
-          "url": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/saarlaendischer_verlagspreis_erstmals_verliehen_100.html",
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/meissen/theater-175-jahre-konzert-zwinger-trio-elbland-philharmonie,jubilaeum-kultur-news-100.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 5,
       "country": "DE",
-      "terms": [
-        {
-          "term": "Regionalia",
-          "text": "Regionalia sind Bücher, die sich mit einer bestimmten Region beschäftigen, zum Beispiel mit ihrer Geschichte, Kultur oder Landschaft."
-        }
-      ],
+      "terms": [],
       "image": {
-        "url": "https://images.tagesschau.de/image/f8bd36d4-bace-4d97-922b-cfa312432c47/AAABocwwUyI/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "SR",
-        "source": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/saarlaendischer_verlagspreis_erstmals_verliehen_100.html",
+        "url": "https://images.mdr.de/image/4c552283-5ea7-4bad-8c7c-3341a8df6829/AAABoc9IKFA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/dresden/meissen/theater-175-jahre-konzert-zwinger-trio-elbland-philharmonie,jubilaeum-kultur-news-100.html",
         "kind": "source"
       }
     }
   ],
   "recipe": {
-    "title": "Hähnchen-Gulai mit Lauch und Kokos",
-    "intro": "Im November darf es wärmend und würzig sein. Dieses Hähnchen schmort in einer duftenden Kokossauce mit Lauch, Ingwer und Limettenblättern und ist ein Abendessen, das richtig gut tut.",
-    "servings": 4,
-    "minutes": 75,
-    "difficulty": "mittel",
+    "title": "Torta tenerina: saftiger Schokoladenkuchen",
+    "intro": "Im November darf es gern etwas Gehaltvolles sein. Dieser italienische Schokoladenkuchen braucht nur sechs Zutaten und ist innen herrlich weich.",
+    "servings": 6,
+    "minutes": 65,
+    "difficulty": "einfach",
     "ingredients": [
       {
-        "amount": 1,
-        "unit": "EL",
-        "item": "gemahlener Koriander"
-      },
-      {
-        "amount": 1,
-        "unit": "TL",
-        "item": "Salz"
-      },
-      {
-        "amount": 0.5,
-        "unit": "TL",
-        "item": "gemahlene Kurkuma (für die Marinade)"
-      },
-      {
-        "amount": 1.5,
-        "unit": "TL",
-        "item": "Currypulver, mild oder scharf"
-      },
-      {
-        "amount": 1,
-        "unit": "EL",
-        "item": "Pflanzenöl"
-      },
-      {
-        "amount": 1,
-        "unit": "kg",
-        "item": "Hähnchenschenkel mit Haut und Knochen (6 bis 8 Stück)"
-      },
-      {
-        "amount": 100,
+        "amount": 200,
         "unit": "g",
-        "item": "Lauch, weiße und grüne Teile fein geschnitten"
+        "item": "dunkle Schokolade, in Stücken"
       },
       {
-        "amount": 2.5,
-        "unit": "cm",
-        "item": "frischer Ingwer, geschält und fein gehackt"
+        "amount": 150,
+        "unit": "g",
+        "item": "Butter, in Würfeln"
       },
       {
-        "amount": 6,
+        "amount": 4,
         "unit": "Stück",
-        "item": "Limettenblätter (Kaffirlimette), frisch oder gefroren, grob zerrissen"
+        "item": "Eier"
       },
       {
-        "amount": 3,
-        "unit": "Stück",
-        "item": "Bird's-Eye-Chilis, eine gehackt, die anderen leicht angedrückt"
-      },
-      {
-        "amount": 1.5,
-        "unit": "TL",
-        "item": "gemahlene Kurkuma (für die Sauce)"
+        "amount": 150,
+        "unit": "g",
+        "item": "feiner Zucker"
       },
       {
         "amount": 2,
         "unit": "EL",
-        "item": "Tamarindenpaste"
+        "item": "Weizenmehl, gehäuft (oder 2 EL gemahlene Mandeln)"
       },
       {
-        "amount": 200,
-        "unit": "ml",
-        "item": "Kokoscreme"
-      },
-      {
-        "amount": 200,
-        "unit": "g",
-        "item": "mehligkochende Kartoffel, in Spalten geschnitten"
-      },
-      {
-        "amount": 250,
-        "unit": "ml",
-        "item": "Wasser"
+        "amount": 1,
+        "unit": "Prise",
+        "item": "feines Salz"
       },
       {
         "amount": null,
         "unit": null,
-        "item": "Salz und schwarzer Pfeffer"
-      },
-      {
-        "amount": null,
-        "unit": null,
-        "item": "gedämpfter weißer Reis zum Servieren"
+        "item": "Puderzucker zum Bestäuben"
       }
     ],
     "steps": [
-      "Koriander, Salz, Kurkuma, Currypulver und Öl in einer großen Schüssel mischen. Das Hähnchen darin gut einmassieren und 10 bis 15 Minuten ziehen lassen.",
-      "Eine große beschichtete Pfanne auf mittlere Hitze stellen. Das Hähnchen mit der Hautseite nach unten etwa 7 Minuten ungestört braten, bis die Haut goldbraun ist.",
-      "Die Schenkel wenden, noch 3 Minuten braten und dann auf einen Teller legen.",
-      "250 ml Wasser in die Marinadenschüssel gießen und die Gewürzreste damit ausrühren.",
-      "In der Pfanne mit dem ausgelassenen Fett Lauch, Ingwer, Limettenblätter und alle Chilis 3 bis 5 Minuten anbraten, bis der Lauch weich ist. Bei Bedarf einen Schuss Wasser zugeben.",
-      "Das Marinadenwasser vorsichtig angießen. Kurkuma, Tamarindenpaste und Kokoscreme einrühren und alles sanft aufkochen.",
-      "Hähnchen und Kartoffelspalten in die Pfanne geben, die Hitze reduzieren und zugedeckt 15 bis 20 Minuten garen, bis Fleisch und Kartoffeln gar sind.",
-      "Mit Salz und Pfeffer abschmecken. Hähnchen, Kartoffeln und reichlich Sauce auf Reis anrichten."
+      "Die Schokolade in einer Schüssel über einem Topf mit siedendem Wasser schmelzen. Die Schüssel darf das Wasser nicht berühren. Alternativ geht es in der Mikrowelle in kurzen Schritten.",
+      "Den Topf vom Herd nehmen. Die Butter zur Schokolade geben und rühren, bis sie ganz geschmolzen ist.",
+      "Die Eier trennen. Die Eiweiße kommen in eine saubere Schüssel. Die Eigelbe direkt in die Schokomasse geben.",
+      "Zucker, Mehl und Salz zur Schokomasse geben und alles kräftig verrühren.",
+      "Das Eiweiß zu weichen Spitzen schlagen und vorsichtig unter die Schokomasse heben.",
+      "Den Teig in eine mit Backpapier ausgelegte Form mit 16 cm Durchmesser füllen. Bei 180 Grad (Umluft 160 Grad) 25 Minuten backen. Die Mitte soll noch leicht wackeln.",
+      "Den Kuchen 30 Minuten in der Form abkühlen lassen. Dann vorsichtig auf ein Gitter heben und ganz auskühlen lassen.",
+      "Vor dem Servieren mit Puderzucker bestäuben."
     ],
-    "tip": "Wer es milder mag, lässt die angedrückten Chilis nur kurz mitkochen und nimmt sie vor dem Servieren heraus.",
-    "icon": "flame.fill",
+    "tip": "Dazu passen Sahne, Crème fraîche oder frische Beeren. Mit gemahlenen Mandeln statt Mehl wird der Kuchen glutenfrei.",
+    "icon": "birthday.cake.fill",
     "source": {
       "name": "Guardian Food",
-      "url": "https://www.theguardian.com/food/2026/nov/11/malaysian-recipes-leeks-chicken-curry-potato-croquettes-ranie-saidi"
+      "url": "https://www.theguardian.com/food/2026/nov/12/torta-tenerina-rich-chocolate-cake-rachel-roddy-recipe"
     }
   }
 }
