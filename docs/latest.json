@@ -1,772 +1,731 @@
 {
-  "date": "2026-11-15",
-  "number": 48,
+  "date": "2026-11-16",
+  "number": 49,
   "isSample": false,
-  "leadStoryID": "2026-11-15-01",
+  "leadStoryID": "2026-11-16-01",
   "stories": [
     {
-      "id": "2026-11-15-01",
-      "ressort": "wissenschaft",
-      "kicker": "Raumfahrt",
-      "headline": "Starship-Oberstufe wird von Greifarmen aufgefangen",
-      "teaser": "Erstmals ist die obere Stufe der SpaceX-Rakete nach ihrem Flug zur Startrampe in Texas zurückgekehrt. Zwei mechanische Arme fingen sie sicher auf.",
+      "id": "2026-11-16-01",
+      "ressort": "welt",
+      "kicker": "Durham Region",
+      "headline": "Rettungssanitäter geht nach einem ganzen Berufsleben in den Ruhestand",
+      "teaser": "Mike Nevill sitzt zum letzten Mal in seinem Rettungswagen. Kollegen und Nachbarn danken ihm mit einer bewegenden Feier.",
       "blocks": [
         {
           "type": "bigNumber",
-          "value": "260",
-          "unit": "Kilometer",
-          "caption": "hoch setzte das Starship seine Satelliten aus, bevor es zur Erde zurückkehrte",
-          "icon": "rocket.fill"
+          "value": "59",
+          "unit": "Jahre",
+          "caption": "war Mike Nevill im Rettungsdienst im Einsatz.",
+          "icon": "clock.fill"
         },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Er begann seine Laufbahn im Jahr 1967.",
+            "Er war Sanitäter, Teamleiter, Mentor und Vorbild.",
+            "Auch seine Tochter ist heute Rettungssanitäterin."
+          ],
+          "icons": [
+            "calendar",
+            "star.fill",
+            "figure.and.child.holdinghands"
+          ]
+        }
+      ],
+      "whyGood": "Ein Mann hat sein Leben lang anderen geholfen. Jetzt bekommt er von seiner Gemeinde sichtbar Dank zurück.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/paramedic-mike-nevill/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "CA",
+      "terms": [
+        {
+          "term": "Leitstelle",
+          "text": "Die Leitstelle nimmt Notrufe an. Von dort schicken Mitarbeiter die Rettungswagen los."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange arbeitete Mike Nevill im Rettungsdienst?",
+        "options": [
+          "19 Jahre",
+          "39 Jahre",
+          "59 Jahre"
+        ],
+        "answer": 2,
+        "reveal": "Mike Nevill war seit 1967 im Rettungsdienst, insgesamt 59 Jahre lang.",
+        "icon": "cross.case.fill"
+      },
+      "image": {
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/paramedic-mike-neville-thumbnail-1.jpg",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/paramedic-mike-nevill/?adt_ei={{ subscriber.email_address }}",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-02",
+      "ressort": "gesundheit",
+      "kicker": "Medizin",
+      "headline": "Weltweit erste Knochenmarkspende von Organspender heilt Bluterkrankung",
+      "teaser": "Ärzte in den USA haben einer Frau mit Knochenmark eines verstorbenen Organspenders geholfen. Ihre Blutwerte sind wieder gut.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Patientin ist 40 Jahre alt und war zehn Jahre krank.",
+            "Das Knochenmark stammt von einem verstorbenen Organspender.",
+            "Nach sechs Monaten braucht sie keine Transfusionen mehr."
+          ],
+          "icons": [
+            "person.fill",
+            "heart.fill",
+            "drop.fill"
+          ]
+        },
+        {
+          "type": "bigNumber",
+          "value": "6",
+          "unit": "Monate",
+          "caption": "nach der Transplantation bildet das Spendermark ihr Blut ganz allein.",
+          "icon": "calendar"
+        },
+        {
+          "type": "background",
+          "title": "Aplastische Anämie",
+          "text": "Bei dieser Krankheit bildet das Knochenmark nicht mehr genug Blutzellen. Seit den 1970er Jahren hilft eine Transplantation von lebenden Spendern. Verstorbene Organspender waren dafür bisher nicht genutzt worden."
+        }
+      ],
+      "whyGood": "Die Methode könnte mehr Menschen mit schweren Blutkrankheiten eine passende Spende ermöglichen. Die Patientin braucht nach sechs Monaten keine Transfusionen mehr.",
+      "honestNote": "Bisher ist nur dieser eine Fall berichtet.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Knochenmark",
+          "text": "Das weiche Gewebe in manchen Knochen. Dort entstehen die Blutzellen des Körpers."
+        },
+        {
+          "term": "Transfusionen",
+          "text": "Dabei bekommt ein Mensch Blut oder Blutbestandteile von einem Spender über eine Infusion."
+        }
+      ],
+      "guess": {
+        "question": "Seit wann gibt es Knochenmarktransplantationen gegen diese Bluterkrankung mit lebenden Spendern?",
+        "options": [
+          "Seit den 1930er Jahren",
+          "Seit den 1970er Jahren",
+          "Seit den 2010er Jahren"
+        ],
+        "answer": 1,
+        "reveal": "Mit lebenden Spendern wird sie seit den 1970er Jahren gemacht. Neu ist nun das Mark Verstorbener.",
+        "icon": "cross.case.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Patient-liver-tissue-specimen-in-lab-by-CBC-wLYNbwhcq3U-unsplash.jpeg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-03",
+      "ressort": "kurioses",
+      "kicker": "Kos und Cardiff",
+      "headline": "Brieffreunde von Kos heiraten nach Jahrzehnten",
+      "teaser": "David und Jodie lernten sich 1994 im Urlaub kennen. Dann verloren sie sich aus den Augen, bis eine SMS alles änderte.",
+      "blocks": [
         {
           "type": "count",
-          "value": 26,
-          "icon": "antenna.radiowaves.left.and.right",
-          "caption": "Starlink-Satelliten brachte das Starship in den Weltraum"
+          "value": 12,
+          "icon": "person.fill",
+          "caption": "Kinder wurden 1994 im Urlaub auf Kos zu einer Clique"
         },
-        {
-          "type": "background",
-          "title": "Warum Wiederverwendung wichtig ist",
-          "text": "SpaceX will eine Rakete, die wie ein ziviles Flugzeug fliegt. Beide Teile des Starship sollen nach der Landung wieder starten. Das könnte die Kosten senken und häufigere Starts möglich machen."
-        }
-      ],
-      "whyGood": "Eine Rakete, die nach dem Flug wieder startklar ist, könnte Raumfahrt günstiger machen. Das bringt Flüge zum Mond und später zum Mars ein Stück näher.",
-      "honestNote": "Die untere Raketenstufe verfehlte bei diesem Flug die geplante Rückkehr zur Startrampe.",
-      "sources": [
-        {
-          "name": "tagesschau",
-          "url": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
-          "language": "Deutsch"
-        },
-        {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
-          "language": "Englisch"
-        }
-      ],
-      "score": 8,
-      "country": "US",
-      "terms": [
-        {
-          "term": "Starlink",
-          "text": "Starlink ist ein Netz aus vielen Satelliten von SpaceX. Es soll Internet aus dem Weltraum auf die Erde bringen."
-        }
-      ],
-      "guess": {
-        "question": "In welcher Höhe setzte das Starship seine Satelliten aus?",
-        "options": [
-          "26 Kilometer",
-          "260 Kilometer",
-          "2.600 Kilometer"
-        ],
-        "answer": 1,
-        "reveal": "Das Starship setzte die Satelliten in rund 260 Kilometern Höhe aus.",
-        "icon": "rocket.fill"
-      },
-      "image": {
-        "url": "https://images.tagesschau.de/image/adcb012d-ef76-4b35-9e82-de8032b4f0b2/AAABodwBRNA/AAABnSSvrFg/16x9-big/space-x-rakete-104.jpg?width=1280",
-        "credit": "tagesschau",
-        "source": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-02",
-      "ressort": "natur",
-      "kicker": "Baikalsee",
-      "headline": "Baikalsee bekommt nach langer Trockenzeit wieder mehr Wasser",
-      "teaser": "Baumringe zeigen: Dem größten Süßwassersee der Erde fließt seit einigen Jahren wieder deutlich mehr Wasser zu als früher.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Wasserdurchfluss im Vergleich",
-          "before": {
-            "label": "Langjähriges Mittel",
-            "value": 100,
-            "display": "100 %"
-          },
-          "after": {
-            "label": "Zuletzt",
-            "value": 145,
-            "display": "145 %"
-          }
-        },
-        {
-          "type": "timeline",
-          "title": "Von Baumringen gelesen",
-          "items": [
-            {
-              "year": "1682",
-              "text": "Hier beginnt die Zeitreihe aus Baumringen."
-            },
-            {
-              "year": "1995 bis 2016",
-              "text": "Eine besonders trockene Periode."
-            },
-            {
-              "year": "2017",
-              "text": "Im Einzugsgebiet fließt plötzlich deutlich mehr Wasser."
-            },
-            {
-              "year": "2024",
-              "text": "Die Reihe endet mit der stärksten Erholung seit 1682."
-            }
-          ]
-        }
-      ],
-      "whyGood": "Nach Jahrzehnten mit sinkender Wasserzufuhr erholt sich der Zufluss zum Baikalsee kräftig. Auch der Pegel des Sees ist gestiegen, und Satellitenbilder zeigen mehr Pflanzen in der Region.",
-      "honestNote": "Die Werte für 2015 bis 2024 sind statistisch geschätzt und noch unsicher.",
-      "sources": [
-        {
-          "name": "scinexx",
-          "url": "https://www.scinexx.de/news/geowissen/groesster-suesswassersee-der-erde-erlebt-nach-jahrzehntelanger-trockenphase-schnellen-wasserzuwachs/",
-          "language": "Deutsch"
-        },
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "RU",
-      "terms": [
-        {
-          "term": "Einzugsgebiet",
-          "text": "Das ist das Land, aus dem alle Bäche und Flüsse Wasser in einen See oder Fluss leiten."
-        }
-      ],
-      "guess": {
-        "question": "Wie weit liegt der Wasserdurchfluss zuletzt über dem langjährigen Mittel?",
-        "options": [
-          "Etwa 4 Prozent",
-          "Etwa 45 Prozent",
-          "Etwa 450 Prozent"
-        ],
-        "answer": 1,
-        "reveal": "Der rekonstruierte Durchfluss erreichte etwa 145 Prozent des Mittels, rund 45 Prozent darüber.",
-        "icon": "water.waves"
-      },
-      "image": {
-        "url": "https://www.scinexx.de/wp-content/uploads/D/e/Der-Baikalsee-erlebt-seit-2017-einen-ungewoehnlich-starken-Wasserzuwachs.webp",
-        "credit": "scinexx",
-        "source": "https://www.scinexx.de/news/geowissen/groesster-suesswassersee-der-erde-erlebt-nach-jahrzehntelanger-trockenphase-schnellen-wasserzuwachs/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-03",
-      "ressort": "architektur",
-      "kicker": "Tulum, Mexiko",
-      "headline": "Steinmauer in Mexiko schützt Wald und lässt Jaguare durch",
-      "teaser": "Im Parque del Jaguar umgibt eine Mauer ohne Mörtel den Wald. Wildtiere können durch die Lücken zwischen den Steinen wandern.",
-      "blocks": [
         {
           "type": "bigNumber",
-          "value": "18",
+          "value": "480",
           "unit": "Kilometer",
-          "caption": "lang ist die Kalksteinmauer, ein Tecorral, rund um den Park",
-          "icon": "mountain.2.fill"
-        },
-        {
-          "type": "map",
-          "place": "Parque del Jaguar, Tulum",
-          "latitude": 20.21,
-          "longitude": -87.43,
-          "caption": "Der Park liegt an der Küste der Karibik und umfasst mehr als 1.000 Hektar Wald."
+          "caption": "fuhr David nach Cardiff, um Jodie nach 24 Jahren wiederzusehen",
+          "icon": "car.fill"
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Die Mauer hat keinen Mörtel, Tiere schlüpfen durch Lücken",
-            "Neue Bauten stehen nur auf schon veränderten Flächen",
-            "Asphalt wurde entfernt, Wald und Wasser werden erholt"
+            "Drei Jahre lang schrieben sich die beiden Briefe",
+            "Eine SMS zum Geburtstag brachte den Kontakt zurück",
+            "Heiratsantrag auf dem London Eye"
           ],
           "icons": [
-            "pawprint.fill",
-            "building.2.fill",
-            "leaf.fill"
+            "envelope.fill",
+            "phone.fill",
+            "heart.fill"
           ]
         }
       ],
-      "whyGood": "Jaguare können sich wieder freier durch ihren Lebensraum bewegen. Besucher können den Wald trotzdem erleben, ohne ihn zu stören.",
+      "whyGood": "Aus einer Urlaubsbekanntschaft wurde nach vielen Jahren eine Ehe. Manchmal findet man sich eben doch wieder.",
       "honestNote": null,
       "sources": [
         {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/11/14/parque-del-jaguar-colectivo-c733-tulum-mexico-ecological-park/",
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/they-became-pen-pals-as-teens-now-32-years-later-theyre-happily-married/",
           "language": "Englisch"
         }
       ],
       "score": 7,
-      "country": "MX",
-      "terms": [
-        {
-          "term": "Tecorral",
-          "text": "So heißt in der Gegend eine Mauer aus aufgeschichteten Steinen ohne Mörtel. Sie folgt alten Grenzmauern der Maya."
-        }
-      ],
-      "guess": {
-        "question": "Wie lang ist die Mauer, die den Park umgibt?",
-        "options": [
-          "1,8 Kilometer",
-          "18 Kilometer",
-          "180 Kilometer"
-        ],
-        "answer": 1,
-        "reveal": "Die Mauer aus aufgeschichtetem Kalkstein ist 18 Kilometer lang.",
-        "icon": "pawprint.fill"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/11/parque-del-jaguar-colectivo-c733-tulum-mexico-ecological-park-sq_dezeen_2364_col_0.jpg",
-        "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/11/14/parque-del-jaguar-colectivo-c733-tulum-mexico-ecological-park/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-04",
-      "ressort": "kultur",
-      "kicker": "Bangkok",
-      "headline": "Carmelle von den Philippinen gewinnt den ersten ESC Asien",
-      "teaser": "Der Eurovision Song Contest hat jetzt einen Ableger in Asien. Die 19-jährige Carmelle gewann die Premiere mit ihrem Song „Sobra-Sobra“.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Das Endergebnis in Punkten",
-          "before": {
-            "label": "Carmelle (Philippinen)",
-            "value": 211,
-            "display": "211 Punkte"
-          },
-          "after": {
-            "label": "Thailand",
-            "value": 169,
-            "display": "169 Punkte"
-          }
-        },
-        {
-          "type": "bigNumber",
-          "value": "131",
-          "unit": "Mio. Zuschauer",
-          "caption": "verfolgten in diesem Jahr den ESC in Europa. Nun soll auch Asien dazukommen.",
-          "icon": "tv.fill"
-        },
-        {
-          "type": "map",
-          "place": "Bangkok, Thailand",
-          "latitude": 13.75,
-          "longitude": 100.5,
-          "caption": "Hier fand die Premiere des Wettbewerbs statt."
-        }
-      ],
-      "whyGood": "Ein neuer Wettbewerb bringt Musik aus ganz Asien auf eine gemeinsame Bühne. Die 19-jährige Carmelle singt in ihrem Siegersong von starken Frauen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "tagesschau",
-          "url": "https://www.tagesschau.de/kultur/esc-asia-100.html",
-          "language": "Deutsch"
-        },
-        {
-          "name": "BBC Entertainment",
-          "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "TH",
-      "terms": [
-        {
-          "term": "Ableger",
-          "text": "Ein Ableger ist eine neue Version von etwas Bekanntem, die in einem anderen Ort oder Bereich entsteht."
-        },
-        {
-          "term": "Jury",
-          "text": "Eine Jury ist eine Gruppe von Fachleuten. Sie bewertet die Auftritte und vergibt Punkte."
-        }
-      ],
-      "guess": {
-        "question": "Aus wie vielen Ländern kamen die Acts beim ersten ESC Asien?",
-        "options": [
-          "5 Länder",
-          "11 Länder",
-          "25 Länder"
-        ],
-        "answer": 1,
-        "reveal": "Künstlerinnen und Künstler aus elf Ländern nahmen an der Premiere in Bangkok teil.",
-        "icon": "music.note"
-      },
-      "image": {
-        "url": "https://images.tagesschau.de/image/d66901a3-2e7f-4973-9c1b-288d47d9193b/AAABodt1vL4/AAABnSSvrFg/16x9-big/carmelle-100.jpg?width=1280",
-        "credit": "tagesschau",
-        "source": "https://www.tagesschau.de/kultur/esc-asia-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-05",
-      "ressort": "kurioses",
-      "kicker": "USA",
-      "headline": "Konzert über den Wolken, während am Boden alles stillstand",
-      "teaser": "Vier Bands spielten in einem Flugzeug von Los Angeles nach Orlando. Kurz danach stoppte in den USA der gesamte Flugverkehr.",
-      "blocks": [
-        {
-          "type": "bigNumber",
-          "value": "1,5",
-          "unit": "Mio.",
-          "caption": "Reisende saßen laut CNN am Boden fest, als die Bands noch in der Luft spielten",
-          "icon": "airplane"
-        },
-        {
-          "type": "comparison",
-          "title": "Standorte der Warped Tour",
-          "before": {
-            "label": "Bisher",
-            "value": 3,
-            "display": "3 Orte"
-          },
-          "after": {
-            "label": "2026",
-            "value": 5,
-            "display": "5 Orte"
-          }
-        },
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "Hoobastank, The Used, Simple Plan und Lolo spielten an Bord",
-            "Hoobastank sang „The Reason“ im Gang, die Gäste sangen mit",
-            "Ziel war das letzte Warped-Tour-Festival 2026 in Orlando"
-          ],
-          "icons": [
-            "music.note",
-            "person.3.fill",
-            "mappin"
-          ]
-        }
-      ],
-      "whyGood": "Aus einem chaotischen Reisetag wurde ein gemeinsames Konzert. Die Fluggäste sangen mit und hatten eine Geschichte zu erzählen.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Variety",
-          "url": "https://variety.com/2026/music/news/hoobastank-simple-plan-mid-flight-southwest-ground-stop-1236947751/",
-          "language": "Englisch"
-        },
-        {
-          "name": "Hollywood Reporter",
-          "url": "https://www.hollywoodreporter.com/news/general-news/inside-plane-simple-plan-hoobastank-performed-mid-flight-1236755526/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "US",
+      "country": "GB",
       "terms": [],
       "guess": {
-        "question": "Wie lange dauerte der landesweite Flugstopp in den USA etwa?",
+        "question": "Wie lange saßen David und Jodie beim ersten Wiedersehen auf dem Sofa und redeten?",
         "options": [
-          "Etwa 1 Stunde",
-          "Etwa 5 Stunden",
-          "Etwa 20 Stunden"
+          "Etwa 2 Stunden",
+          "Etwa 12 Stunden",
+          "Etwa 30 Stunden"
         ],
         "answer": 1,
-        "reveal": "Der Stopp dauerte rund fünf Stunden. Flugzeuge in der Luft durften weiterfliegen.",
-        "icon": "airplane"
+        "reveal": "Sie redeten 12 Stunden lang. Zwei Wochen später besuchte David sie wieder.",
+        "icon": "sofa.fill"
       },
       "image": {
-        "url": "https://variety.com/wp-content/uploads/2026/11/download-e1794686307350.jpeg?w=1000&h=563&crop=1",
-        "credit": "Variety",
-        "source": "https://variety.com/2026/music/news/hoobastank-simple-plan-mid-flight-southwest-ground-stop-1236947751/",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/David-McArdle-married-pen-pal-Jodie-SWNS.jpeg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/they-became-pen-pals-as-teens-now-32-years-later-theyre-happily-married/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-06",
-      "ressort": "wissenschaft",
-      "kicker": "Mathematik",
-      "headline": "KI hilft, Gödels geheime Notizbücher zu entschlüsseln",
-      "teaser": "Der Logiker Kurt Gödel hinterließ 16 Notizbücher in alter Kurzschrift. Mit Claude findet ein Forscher darin viele unbekannte Beweise.",
+      "id": "2026-11-16-04",
+      "ressort": "kueche",
+      "kicker": "Taiwan",
+      "headline": "Taiwan: Bauer holt vergessene Hirse zurück auf die Felder",
+      "teaser": "Banu Ismahasan baut eine uralte Hirse an, die extremem Wetter trotzt. Er will sie wieder in den Alltag seiner Gemeinde bringen.",
       "blocks": [
+        {
+          "type": "comparison",
+          "title": "Rispen pro Samen",
+          "before": {
+            "label": "Kolbenhirse",
+            "value": 1,
+            "display": "1"
+          },
+          "after": {
+            "label": "Ölhirse",
+            "value": 20,
+            "display": "15 bis 20"
+          }
+        },
         {
           "type": "bigNumber",
-          "value": "663",
-          "unit": "Sätze",
-          "caption": "mit Beweis oder Beweisidee fand Claude in Gödels Notizbüchern",
-          "icon": "brain.head.profile"
-        },
-        {
-          "type": "background",
-          "title": "Wer war Kurt Gödel?",
-          "text": "Kurt Gödel zeigte 1931, dass es in jedem mathematischen System wahre Aussagen gibt, die sich nicht beweisen lassen. Das half, die moderne Informatik zu begründen. Seine Notizen schrieb er in Gabelsberger, einer alten deutschen Kurzschrift."
-        }
-      ],
-      "whyGood": "Ein Schatz aus 1.009 Seiten wird lesbar, den ein Mensch allein kaum hätte heben können. Menschen und KI bringen so verlorenes Wissen eines großen Denkers zurück.",
-      "honestNote": "Die Ergebnisse der KI müssen weiter Seite für Seite von Menschen geprüft werden.",
-      "sources": [
-        {
-          "name": "Guardian Science",
-          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-          "language": "Englisch"
-        }
-      ],
-      "score": 7,
-      "country": "FI",
-      "terms": [
-        {
-          "term": "Gabelsberger",
-          "text": "Das ist eine alte deutsche Kurzschrift. Mit besonderen Zeichen schrieb man damit sehr schnell. Heute können sie nur noch ganz wenige Menschen lesen."
-        },
-        {
-          "term": "Logiker",
-          "text": "Ein Logiker erforscht, wie man aus Aussagen sicher auf andere Aussagen schließen kann. Das ist ein Teil der Mathematik."
-        }
-      ],
-      "guess": {
-        "question": "Wie viele Seiten der Notizbücher schaffte das Team vorher ungefähr pro Woche?",
-        "options": [
-          "Etwa 1 Seite",
-          "Etwa 10 Seiten",
-          "Etwa 100 Seiten"
-        ],
-        "answer": 0,
-        "reveal": "Nur etwa eine Seite pro Woche. Die KI las das ganze Material in wenigen Tagen.",
-        "icon": "book.fill"
-      },
-      "image": {
-        "url": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
-        "credit": "Guardian Science",
-        "source": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-07",
-      "ressort": "design",
-      "kicker": "Mexiko",
-      "headline": "Aus Wollresten wird ein papierartiges Material für Lampen",
-      "teaser": "Das Studio Arudeko webt aus bunter Abfallwolle und Recyclingpapier einen lichtdurchlässigen Stoff. Daraus entstehen Lampenschirme und Raumteiler.",
-      "blocks": [
-        {
-          "type": "steps",
-          "title": "So entsteht Bianni",
-          "items": [
-            "Handwerker weben Wollreste auf einem Pedalwebstuhl.",
-            "Mit Baumwollfäden weben sie Streifen aus Recyclingpapier ein.",
-            "Der Stoff wird zu Lampen, Raumteilern oder Wandkunst geformt."
-          ],
-          "icons": [
-            "scissors",
-            "paintbrush.fill",
-            "lightbulb.fill"
-          ]
+          "value": "200",
+          "unit": "Tage",
+          "caption": "und mehr dauerte eine Dürre, in der die Ölhirse grün blieb",
+          "icon": "sun.max.fill"
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Die Wolle stammt aus Resten von Teppichen und Kissen.",
-            "Das Material besteht nur aus Naturstoffen, ohne Zusätze.",
-            "Die Wolle macht das Papier feuerbeständig."
+            "Ismahasan startete mit nur einer Rispe der Ölhirse",
+            "Sie wächst ohne Bewässerung, Dünger und Pestizide",
+            "Die Samen lagern bei minus 18 Grad und halten Jahrzehnte"
           ],
           "icons": [
             "leaf.fill",
-            "sparkles",
-            "flame.fill"
+            "drop.fill",
+            "snowflake"
           ]
-        },
-        {
-          "type": "map",
-          "place": "Teotitlán del Valle, Oaxaca",
-          "latitude": 17.0367,
-          "longitude": -96.5256,
-          "caption": "Hier weben lokale Gemeinschaften die Teppiche, deren Reste nun genutzt werden."
         }
       ],
-      "whyGood": "Wollreste, die sonst weggeworfen würden, bekommen ein neues Leben. Die Arbeit bleibt vor Ort und stärkt Handwerker in ländlichen Gemeinden.",
-      "honestNote": null,
+      "whyGood": "Eine fast vergessene Pflanze kommt zurück. Sie kann Menschen künftig helfen, wenn das Wetter immer extremer wird.",
+      "honestNote": "Noch ist die Ölhirse teurer als Reis und wird kaum angebaut.",
       "sources": [
         {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/11/14/arudeko-bianni-waste-wool-paper-material/",
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-taiwan-indigenous-farmer-revives-climate.html",
           "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "MX",
+      "country": "TW",
       "terms": [
         {
-          "term": "Pedalwebstuhl",
-          "text": "Ein Webstuhl, den man mit den Füßen über Pedale bedient. So hat der Weber die Hände frei, um die Fäden zu führen."
+          "term": "Rispen",
+          "text": "Rispen sind verzweigte Gruppen von Samen an einem Halm. Bei der Hirse sitzen darin die Körner."
         }
       ],
       "guess": {
-        "question": "Welche nützliche Eigenschaft bringt die Wolle dem Papier mit?",
+        "question": "Wie lange dauerte die Dürre, die die Ölhirse grün überstand?",
         "options": [
-          "Sie macht es feuerbeständig",
-          "Sie macht es wasserdicht",
-          "Sie macht es leuchtend"
+          "Etwa 20 Tage",
+          "Etwa 70 Tage",
+          "Mehr als 200 Tage"
         ],
-        "answer": 0,
-        "reveal": "Die Wolle macht das Papier feuerbeständig, sagt Mitgründerin Denisse Arnaiz.",
-        "icon": "flame.fill"
+        "answer": 2,
+        "reveal": "Die Dürre dauerte mehr als 200 Tage. Die Ölhirse blieb grün, andere Pflanzen vertrockneten.",
+        "icon": "leaf.fill"
       },
-      "gallery": true,
       "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/11/Bianni-Wool-Paper-by-Arudeko_dezeen_2364_col_10.jpg",
-        "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/11/14/arudeko-bianni-waste-wool-paper-material/",
+        "url": "https://scx2.b-cdn.net/gfx/news/2026/oil-millet-a-tradition.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-11-taiwan-indigenous-farmer-revives-climate.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-08",
-      "ressort": "fotografie",
-      "kicker": "Dubai",
-      "headline": "Foto einer Familie gewinnt den reichsten Fotopreis der Welt",
-      "teaser": "Der Banker und Hobbyfotograf Pinu Rehman aus Bangladesch gewinnt den Hauptpreis der HIPA Awards. Sein Thema war Familie.",
+      "id": "2026-11-16-05",
+      "ressort": "natur",
+      "kicker": "Kamerun",
+      "headline": "Ein Zufluchtsort für gerettete Schimpansen in Kamerun",
+      "teaser": "Die Primatologin Sheri Speede pflegt im Sanaga-Yong-Schutzgebiet gerettete Schimpansen. Das Team vor Ort kommt aus der Region.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 75,
+          "icon": "pawprint.fill",
+          "caption": "Schimpansen leben im Sanaga-Yong-Schutzgebiet und werden viermal am Tag gefüttert"
+        },
+        {
+          "type": "bigNumber",
+          "value": "200",
+          "unit": "Schimpansen",
+          "caption": "und mehr leben gerettet in drei Schutzzentren in Kamerun",
+          "icon": "heart.fill"
+        },
+        {
+          "type": "background",
+          "title": "Hilfe aus der Region",
+          "text": "Alle Pflegerinnen und Pfleger im Sanaga-Yong-Schutzgebiet kommen aus der Gegend. Zwei kamerunische Tierärzte lernen bei Sheri Speede. Später soll die tierärztliche Pflege ganz in kamerunischen Händen liegen."
+        }
+      ],
+      "whyGood": "Viele Schimpansen sind durch Wilderei in Not geraten. Hier finden sie ein sicheres Zuhause, und Menschen aus der Region übernehmen die Verantwortung für ihren Schutz.",
+      "honestNote": "Die Tiere können vorerst nicht ausgewildert werden, weil Schutz und Lebensraum fehlen.",
+      "sources": [
+        {
+          "name": "Guardian Environment",
+          "url": "https://www.theguardian.com/environment/2026/nov/15/surgery-by-fairy-lights-and-truckloads-of-fruit-the-sanctuary-saving-cameroons-chimpanzees",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "CM",
+      "terms": [
+        {
+          "term": "Wilderei",
+          "text": "Wilderei heißt, dass Menschen geschützte Tiere gegen das Gesetz jagen oder fangen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange saß der Schimpanse Jacky in einem kleinen Käfig vor einem Hotel?",
+        "options": [
+          "Etwa 3 Jahre",
+          "Etwa 10 Jahre",
+          "Fast 30 Jahre"
+        ],
+        "answer": 2,
+        "reveal": "Jacky wurde fast 30 Jahre in einem kleinen Käfig gehalten, bevor er 1999 ins Schutzgebiet kam.",
+        "icon": "pawprint.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/86eb1de4565bfe10be324570b5c1ed279acc961a/360_0_5355_4284/master/5355.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e35794dae87068d392378b7f0a8ef2f7",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/environment/2026/nov/15/surgery-by-fairy-lights-and-truckloads-of-fruit-the-sanctuary-saving-cameroons-chimpanzees",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-06",
+      "ressort": "sport",
+      "kicker": "Golf",
+      "headline": "Lindy Duncan gewinnt ihr erstes Turnier auf der LPGA Tour",
+      "teaser": "Die US-Amerikanerin siegt bei The Annika in Florida. Sie spielt seit 2014 auf der Tour und hatte zwischendurch Zweifel.",
       "blocks": [
         {
           "type": "bigNumber",
-          "value": "200.000",
-          "unit": "US-Dollar",
-          "caption": "bekommt Pinu Rehman für sein Foto „Under the Same Sky“",
+          "value": "222",
+          "unit": "Turniere",
+          "caption": "hat Lindy Duncan auf der LPGA Tour gespielt, bevor sie zum ersten Mal gewann.",
+          "icon": "trophy.fill"
+        },
+        {
+          "type": "comparison",
+          "title": "Platz in der Jahreswertung",
+          "before": {
+            "label": "Vorher",
+            "value": 74,
+            "display": "Platz 74"
+          },
+          "after": {
+            "label": "Nachher",
+            "value": 34,
+            "display": "Platz 34"
+          }
+        },
+        {
+          "type": "map",
+          "place": "Pelican Golf Club, Belleair, Florida",
+          "latitude": 27.93,
+          "longitude": -82.82,
+          "caption": "Hier gewann die 35-Jährige mit 16 unter Par, zwei Schläge vor Choi Hye-jin."
+        }
+      ],
+      "whyGood": "Lindy Duncan hat nach vielen Jahren nicht aufgegeben. Mit zwei späten Birdies gewann sie ihren ersten Titel und spielt nun beim Saisonfinale mit.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/golf/articles/cq39gn9zy4v9o?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Birdie",
+          "text": "Ein Birdie ist ein Loch im Golf, das man mit einem Schlag weniger schafft als vorgesehen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Turniere spielte Lindy Duncan auf der LPGA Tour bis zu ihrem ersten Sieg?",
+        "options": [
+          "Etwa 22",
+          "Etwa 82",
+          "Etwa 222"
+        ],
+        "answer": 2,
+        "reveal": "Es war ihr 222. Turnier. Sie spielt seit 2014 auf der Tour.",
+        "icon": "trophy.fill"
+      },
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c5f7/live/bf4c8760-e146-11f1-b462-5ba0c5ec9af0.jpg",
+        "credit": "BBC Sport",
+        "source": "https://www.bbc.co.uk/sport/golf/articles/cq39gn9zy4v9o?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-07",
+      "ressort": "lifestyle",
+      "kicker": "Westbalkan",
+      "headline": "Wanderweg verbindet Bergdörfer in Albanien, Kosovo und Montenegro",
+      "teaser": "Der Weg Peaks of the Balkans führt von Gasthaus zu Gasthaus durch drei Länder. Er bringt Dörfern in den Bergen Gäste und Einkommen.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Wandernde pro Jahr",
+          "before": {
+            "label": "Vor der Pandemie",
+            "value": 20000,
+            "display": "ca. 20.000"
+          },
+          "after": {
+            "label": "Heute",
+            "value": 43000,
+            "display": "ca. 43.000"
+          }
+        },
+        {
+          "type": "bigNumber",
+          "value": "25",
+          "unit": "Mio. Euro",
+          "caption": "fließen laut einer Studie jedes Jahr in die Bergregionen am Weg",
+          "icon": "eurosign.circle.fill"
+        },
+        {
+          "type": "map",
+          "place": "Dobërdol, Albanien",
+          "latitude": 42.49,
+          "longitude": 20.13,
+          "caption": "Hier im Norden Albaniens liegt eine der beliebtesten Stationen des Weges."
+        }
+      ],
+      "whyGood": "Der Weg wurde als Friedensprojekt gedacht und verbindet heute Dörfer, die der Krieg getrennt hatte. Familien verdienen mit ihren Gästehäusern Geld und haben einen Grund, in den Bergen zu bleiben oder zurückzukehren.",
+      "honestNote": "In der kurzen Saison sind manche Orte am Weg schon sehr voll, andere Abschnitte bleiben ruhig.",
+      "sources": [
+        {
+          "name": "Condé Nast Traveler",
+          "url": "https://www.cntraveler.com/story/walking-the-peaks-of-the-balkans-a-trekking-route-with-community-at-its-core",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "AL",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Menschen wandern ungefähr pro Jahr auf diesem Weg?",
+        "options": [
+          "4.300",
+          "43.000",
+          "430.000"
+        ],
+        "answer": 1,
+        "reveal": "Laut einer Studie sind es rund 43.000 Wandernde pro Jahr, vor der Pandemie waren es etwa 20.000.",
+        "icon": "figure.walk"
+      },
+      "image": {
+        "url": "https://media.cntraveler.com/photos/6af765b2751ec24c9bfadf89/16:9/w_1280,c_limit/Hiking%20the%20Peaks%20of%20the%20Balkans%20Trail.png",
+        "credit": "Condé Nast Traveler",
+        "source": "https://www.cntraveler.com/story/walking-the-peaks-of-the-balkans-a-trekking-route-with-community-at-its-core",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-08",
+      "ressort": "architektur",
+      "kicker": "Amsterdam",
+      "headline": "Amsterdam öffnet den Goldtresor der Zentralbank für alle",
+      "teaser": "Aus einer grauen Festung wird ein offenes Haus. Im alten Tresor der Niederländischen Zentralbank gibt es jetzt Ausstellungen.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "61",
+          "unit": "Meter",
+          "caption": "lang ist der frühere Tresor, der jetzt als Ausstellungsraum für alle offen steht.",
+          "icon": "building.columns.fill"
+        },
+        {
+          "type": "share",
+          "value": 80,
+          "label": "geringerer Energiebedarf (geschätzt)",
+          "caption": "Neue Kastenfenster aus belüftetem Doppelglas mit Sonnenschutz senken den Energiebedarf im Alltag."
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Ein Turm mit 14 Stockwerken wurde sorgfältig abgebaut",
+            "Altes Beton wurde für einen neuen Kai und für Sozialwohnungen genutzt",
+            "Alte Fliesen wurden zu Farbpigment für neue rote Ziegel zermahlen"
+          ],
+          "icons": [
+            "arrow.3.trianglepath",
+            "hammer.fill",
+            "paintpalette.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein Gebäude, das als abweisend galt, wird zum Ort für alle. Dabei wurden viele alte Materialien weiterverwendet und der Energiebedarf sinkt deutlich.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/15/netherlands-central-bank-renovation-mecanoo/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "NL",
+      "terms": [
+        {
+          "term": "Kastenfenster",
+          "text": "Ein Fenster aus zwei Glasschichten mit Luft dazwischen. Das hält Wärme und Kälte besser draußen."
+        }
+      ],
+      "guess": {
+        "question": "Wie lang ist der frühere Tresor der Zentralbank in Amsterdam?",
+        "options": [
+          "6 Meter",
+          "61 Meter",
+          "610 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Der Tresor ist 61 Meter lang und zeigt jetzt Ausstellungen über Gold, Geld und Wirtschaft.",
+        "icon": "building.columns.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/mecanoo-de-nederlandsche-bank_dezeen_2364_sq_0.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/15/netherlands-central-bank-renovation-mecanoo/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-09",
+      "ressort": "design",
+      "kicker": "Tallinn",
+      "headline": "Alter Werftmast in Tallinn trägt jetzt ein leuchtendes Nest",
+      "teaser": "Im Hafenviertel Noblessner wird ein ausgedienter Lichtmast zur Kunst. Ein handgewebtes Metallnest hält zwei Eier, die nachts in wechselnden Farben leuchten.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "20",
+          "unit": "Meter",
+          "caption": "hoch steht der alte Lichtmast, auf dem das Kunstwerk jetzt leuchtet",
+          "icon": "lightbulb.fill"
+        },
+        {
+          "type": "count",
+          "value": 2,
+          "icon": "sparkles",
+          "caption": "leuchtende Eier liegen im Nest aus Metall"
+        },
+        {
+          "type": "map",
+          "place": "Noblessner, Tallinn",
+          "latitude": 59.4505,
+          "longitude": 24.7365,
+          "caption": "Lennusadama-Straße im ehemaligen U-Boot-Hafen"
+        }
+      ],
+      "whyGood": "Aus einem ausgedienten Mast der alten Werft wird ein Wahrzeichen. Das alte Stück Industriegeschichte bleibt erhalten und bekommt eine neue Aufgabe.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/art/two-luminous-eggs-hand-woven-metal-frame-old-submarine-shipyard-mast-estonia-inimruum-un-like/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "EE",
+      "terms": [
+        {
+          "term": "Winkeleisen",
+          "text": "Winkeleisen sind Stahlstäbe mit L-förmigem Querschnitt. Man nutzt sie zum Bauen stabiler Gerüste."
+        }
+      ],
+      "guess": {
+        "question": "Wie breit ist das Nest aus Metall auf dem Mast?",
+        "options": [
+          "Etwa 25 Zentimeter",
+          "Etwa 2,5 Meter",
+          "Etwa 25 Meter"
+        ],
+        "answer": 1,
+        "reveal": "Das Nest misst mehr als 2,5 Meter im Durchmesser und sitzt rund 20 Meter hoch.",
+        "icon": "lightbulb.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/nest-2-luminous-eggs-hand-woven-metal-frame-estonia-inimruum-un-like-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/art/two-luminous-eggs-hand-woven-metal-frame-old-submarine-shipyard-mast-estonia-inimruum-un-like/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-10",
+      "ressort": "zukunft",
+      "kicker": "Norwegen",
+      "headline": "Aluminium ohne CO2 aus der Chemie: Erster Test gelungen",
+      "teaser": "Forscher der Firma Hydro stellen Aluminium auf neue Weise her. Das Verfahren soll den CO2-Ausstoß der Chemie ganz vermeiden.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "74",
+          "unit": "Mio. Tonnen",
+          "caption": "neues Aluminium wurden 2025 weltweit hergestellt, ohne Recycling.",
+          "icon": "shippingbox.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Das Hall-Héroult-Verfahren gibt es seit 1886",
+            "Hydro forschte zehn Jahre an HalZero",
+            "Erstes Aluminium in Porsgrunn hergestellt"
+          ],
+          "icons": [
+            "clock.fill",
+            "flask.fill",
+            "mappin"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "So ist der Trick",
+          "text": "Bisher entsteht CO2, weil Sauerstoff mit Kohlenstoff reagiert. Bei HalZero wird Aluminiumchlorid per Elektrolyse getrennt. Das Chlor wird wieder genutzt. Statt CO2 soll Sauerstoff frei werden."
+        }
+      ],
+      "whyGood": "Aluminium steckt in Autos, Dosen und Flugzeugen. Ein Verfahren ohne CO2 aus der Chemie könnte den Klimaschaden eines wichtigen Metalls deutlich senken. Es soll laut ersten Studien ähnlich viel Energie und Geld brauchen wie heute.",
+      "honestNote": "Noch ist das Verfahren nicht ganz emissionsfrei, denn der Schritt zur Wiederverwertung des CO2 ist noch nicht getestet.",
+      "sources": [
+        {
+          "name": "New Atlas",
+          "url": "https://newatlas.com/materials/zero-emission-aluminum-production/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "NO",
+      "terms": [
+        {
+          "term": "Elektrolyse",
+          "text": "Dabei fließt Strom durch eine Flüssigkeit oder Schmelze. So lässt sich ein Stoff in seine Bestandteile trennen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel CO2 setzt die Chemie bei 1 Kilogramm Aluminium bisher frei?",
+        "options": [
+          "0,15 Kilogramm",
+          "1,5 Kilogramm",
+          "15 Kilogramm"
+        ],
+        "answer": 1,
+        "reveal": "Allein die Chemie setzt etwa 1,5 Kilogramm CO2 pro Kilogramm Aluminium frei.",
+        "icon": "cloud.fill"
+      },
+      "image": {
+        "url": "https://assets.newatlas.com/dims4/default/62ae784/2147483647/strip/true/crop/1618x849+0+115/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F5a%2Fe7%2F23eb02d2489ba04f4549cbf9c834%2Fdownload.jpeg&na.image_optimisation=0",
+        "credit": "New Atlas",
+        "source": "https://newatlas.com/materials/zero-emission-aluminum-production/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-11",
+      "ressort": "promis",
+      "kicker": "Los Angeles",
+      "headline": "Baby2Baby-Gala sammelt über 20 Millionen Dollar für Kinder",
+      "teaser": "In West Hollywood kamen viele Prominente zusammen. Schauspielerin Demi Moore wurde für ihren Einsatz für Kinder in Not geehrt.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "20",
+          "unit": "Mio. Dollar",
+          "caption": "kamen an einem Abend für Baby2Baby zusammen",
           "icon": "banknote.fill"
         },
         {
           "type": "facts",
           "title": null,
           "items": [
-            "Pinu Rehman ist Banker und Hobbyfotograf aus Bangladesch.",
-            "Sein Drohnenfoto zeigt eine Familie, die in ihrem Zuhause zusammenhält.",
-            "Die HIPA Awards fanden zum 15. Mal statt, mit fünf Kategorien."
+            "Baby2Baby gibt Kindern in Not das Nötigste, etwa Windeln und Kleidung",
+            "In 15 Jahren verteilte die Organisation 850 Millionen Artikel",
+            "Demi Moore erhielt den Giving Tree Award"
           ],
           "icons": [
-            "person.fill",
-            "camera.fill",
-            "trophy.fill"
+            "gift.fill",
+            "shippingbox.fill",
+            "star.fill"
           ]
         },
         {
-          "type": "map",
-          "place": "Museum of the Future, Dubai",
-          "latitude": 25.2192,
-          "longitude": 55.2819,
-          "caption": "Hier wurden die Preise überreicht."
+          "type": "quote",
+          "text": "Dein Kind ist wichtig. Du bist wichtig. Du bist nicht allein.",
+          "author": "Demi Moore, Schauspielerin"
         }
       ],
-      "whyGood": "Ein Foto über Zusammenhalt wird weltweit ausgezeichnet. Ein Hobbyfotograf bekommt so die Bühne für ein stilles, menschliches Bild.",
+      "whyGood": "Eine einzige Gala bringt über 20 Millionen Dollar für Kinder zusammen. Damit müssen Mütter seltener wählen, ob sie Essen oder Windeln kaufen.",
       "honestNote": null,
       "sources": [
-        {
-          "name": "PetaPixel",
-          "url": "https://petapixel.com/2026/11/14/bangladeshi-photographer-wins-200000-for-family-in-the-worlds-richest-1-million-photo-contest/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "AE",
-      "terms": [],
-      "guess": {
-        "question": "Wie weit wandert ein Buckelwalkalb im Siegerfoto Schwarzweiß mit seiner Mutter zur Antarktis?",
-        "options": [
-          "Etwa 640 Kilometer",
-          "Etwa 6.400 Kilometer",
-          "Etwa 64.000 Kilometer"
-        ],
-        "answer": 1,
-        "reveal": "Das weiße Kalb Mahina und seine Mutter wandern rund 6.400 Kilometer, begleitet von einem männlichen Wal.",
-        "icon": "water.waves"
-      },
-      "gallery": true,
-      "image": {
-        "url": "https://petapixel.com/assets/uploads/2026/11/DAV5101-scaled.jpg",
-        "credit": "PetaPixel",
-        "source": "https://petapixel.com/2026/11/14/bangladeshi-photographer-wins-200000-for-family-in-the-worlds-richest-1-million-photo-contest/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-09",
-      "ressort": "sport",
-      "kicker": "Levi",
-      "headline": "Emma Aicher gewinnt in Levi ihren ersten Slalom im Weltcup",
-      "teaser": "Die 23-jährige Skirennläuferin fährt in Finnland zwei solide Läufe und siegt. Ein Jahr zuvor stand sie am selben Ort erstmals im Slalom auf dem Podium.",
-      "blocks": [
-        {
-          "type": "count",
-          "value": 6,
-          "icon": "trophy.fill",
-          "caption": "Weltcupsiege hat Emma Aicher jetzt in ihrer Karriere"
-        },
-        {
-          "type": "timeline",
-          "title": "Aichers Weg in Levi",
-          "items": [
-            {
-              "year": "2012",
-              "text": "Maria Riesch gewinnt als letzte Deutsche in Levi."
-            },
-            {
-              "year": "2025",
-              "text": "Aicher wird in Levi erstmals Slalom-Dritte im Weltcup."
-            },
-            {
-              "year": "Oktober 2026",
-              "text": "Sie wird im Riesenslalom von Sölden Dritte."
-            },
-            {
-              "year": "14. November 2026",
-              "text": "Aicher gewinnt in Levi ihren ersten Slalom."
-            }
-          ]
-        }
-      ],
-      "whyGood": "Emma Aicher beendet in Levi eine lange Wartezeit für den Deutschen Ski-Verband. Sie holt den ersten deutschen Sieg dort seit 2012 und wichtige Punkte für den Gesamtweltcup.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Sportschau",
-          "url": "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "score": 6,
-      "country": "FI",
-      "terms": [
-        {
-          "term": "Riesenslalom",
-          "text": "Das ist ein Skirennen mit weiten Toren. Die Fahrerinnen fahren dabei schneller und mit größeren Bögen als im Slalom."
-        },
-        {
-          "term": "Gesamtweltcup",
-          "text": "Das ist die Gesamtwertung der Saison. Dafür zählen die Punkte aus allen Disziplinen zusammen."
-        }
-      ],
-      "guess": {
-        "question": "Wie groß war Aichers Vorsprung im Ziel auf die Zweitplatzierte?",
-        "options": [
-          "4 Hundertstelsekunden",
-          "43 Hundertstelsekunden",
-          "4 Sekunden"
-        ],
-        "answer": 1,
-        "reveal": "Aicher gewann mit 43 Hundertstelsekunden Vorsprung vor Lara Colturi aus Albanien.",
-        "icon": "figure.run"
-      },
-      "image": {
-        "url": "https://images.sportschau.de/image/48b4c386-5290-42f1-bca4-665f4abf2729/AAABodq81mI/AAABnSSvrFg/16x9-big/br-emma-aicher-152.jpg?width=1280",
-        "credit": "Sportschau",
-        "source": "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-10",
-      "ressort": "film",
-      "kicker": "Toruń",
-      "headline": "„Fatherland“ gewinnt den Hauptpreis beim Festival in Toruń",
-      "teaser": "Beim größten Filmfestival Polens gewinnt ein Schwarzweißfilm von Paweł Pawlikowski. Der Preis geht an eine besondere Berufsgruppe.",
-      "blocks": [
-        {
-          "type": "facts",
-          "title": null,
-          "items": [
-            "„Fatherland“ zeigt in Schwarzweiß Thomas Manns Reise durch das Europa nach dem Krieg",
-            "Łukasz Żal erhält den Goldenen Frosch, Regisseur Pawlikowski eine besondere Erwähnung",
-            "Es gab auch Preise für Dokumentarfilme, Serien, Kurzfilme und Farbkorrektur"
-          ],
-          "icons": [
-            "film.fill",
-            "trophy.fill",
-            "camera.fill"
-          ]
-        },
-        {
-          "type": "map",
-          "place": "Toruń, Polen",
-          "latitude": 53.01,
-          "longitude": 18.6,
-          "caption": "Hier findet das Festival ToruńCAMERIMAGE jedes Jahr statt."
-        }
-      ],
-      "whyGood": "Ein Festival rückt die Menschen ins Licht, die sonst hinter der Kamera bleiben. Ihre Arbeit prägt, wie wir einen Film sehen und erinnern.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "IndieWire",
-          "url": "https://www.indiewire.com/news/festivals/toruncamerimage-golden-frog-winners-2026-1235227760/",
-          "language": "Englisch"
-        },
         {
           "name": "Hollywood Reporter",
-          "url": "https://www.hollywoodreporter.com/movies/movie-news/camerimage-awards-fatherland-wild-horse-nine-cinematography-1236755483/",
-          "language": "Englisch"
-        }
-      ],
-      "score": 6,
-      "country": "PL",
-      "terms": [
-        {
-          "term": "Farbkorrektur",
-          "text": "Dabei werden die Farben eines fertigen Films am Computer angepasst. So bekommt jeder Film seinen eigenen Look."
-        }
-      ],
-      "guess": {
-        "question": "An wen geht der Hauptpreis dieses Festivals?",
-        "options": [
-          "An die Regie",
-          "An die Kamera",
-          "An das Drehbuch"
-        ],
-        "answer": 1,
-        "reveal": "Der Goldene Frosch geht an den Kameramann oder die Kamerafrau des Siegerfilms, hier an Łukasz Żal.",
-        "icon": "film.fill"
-      },
-      "image": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Toru%C5%84_-_Old_Town_by_night_01.jpg/1280px-Toru%C5%84_-_Old_Town_by_night_01.jpg",
-        "credit": "Lestat (Jan Mehlich), CC BY-SA 3.0, Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Toru%C5%84_-_Old_Town_by_night_01.jpg",
-        "kind": "symbol"
-      }
-    },
-    {
-      "id": "2026-11-15-11",
-      "ressort": "zukunft",
-      "kicker": "Bauen",
-      "headline": "Genähte Stoffform macht Betonbalken deutlich sparsamer",
-      "teaser": "Ingenieure am MIT gießen Beton in genähte Stoffformen. So entsteht ein Balken, der viel weniger Material braucht und trotzdem das Gewicht trägt.",
-      "blocks": [
-        {
-          "type": "comparison",
-          "title": "Beton im Balken",
-          "before": {
-            "label": "Üblicher Balken",
-            "value": 100,
-            "display": "100 %"
-          },
-          "after": {
-            "label": "Stoffform Balken",
-            "value": 33,
-            "display": "etwa ein Drittel"
-          }
-        },
-        {
-          "type": "share",
-          "value": 8,
-          "label": "der menschengemachten CO2 Emissionen",
-          "caption": "stammen aus der Zementherstellung. Weniger Beton hilft deshalb dem Klima."
-        }
-      ],
-      "whyGood": "Der Balken braucht weniger Beton und halb so viel Stahl. Das spart CO2. Nähen geht fast überall, auch dort, wo teure Baumaschinen fehlen.",
-      "honestNote": "In Ländern mit hohen Löhnen ist der genähte Balken bisher teurer als ein üblicher.",
-      "sources": [
-        {
-          "name": "CleanTechnica",
-          "url": "https://cleantechnica.com/2026/11/14/fabric-molds-could-bring-material-saving-concrete-beams-within-reach/",
+          "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/baby2baby-gala-demi-moore-raises-20-million-1236755662/",
           "language": "Englisch"
         }
       ],
@@ -774,272 +733,191 @@
       "country": "US",
       "terms": [],
       "guess": {
-        "question": "Wie viel Beton brauchte der neue Balken im Vergleich zu einem üblichen Balken?",
+        "question": "Wie viele Artikel hat Baby2Baby in 15 Jahren an Kinder in Not verteilt?",
         "options": [
-          "Etwa 90 Prozent",
-          "Etwa zwei Drittel",
-          "Etwa ein Drittel"
+          "8,5 Millionen",
+          "85 Millionen",
+          "850 Millionen"
         ],
         "answer": 2,
-        "reveal": "Der Balken kam mit etwa einem Drittel des Betons und der Hälfte des Stahls aus.",
-        "icon": "building.2.fill"
+        "reveal": "Es waren 850 Millionen Artikel, darunter Windeln, Babynahrung und Kleidung.",
+        "icon": "shippingbox.fill"
       },
       "image": {
-        "url": "https://cleantechnica.com/wp-content/uploads/2026/11/concrete-beam-half-as-much-steel.jpg",
-        "credit": "CleanTechnica",
-        "source": "https://cleantechnica.com/2026/11/14/fabric-molds-could-bring-material-saving-concrete-beams-within-reach/",
+        "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/GettyImages-2305177073.jpg?crop=0px%2C415px%2C3937px%2C2202px&resize=1440%2C810",
+        "credit": "Hollywood Reporter",
+        "source": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/baby2baby-gala-demi-moore-raises-20-million-1236755662/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-12",
-      "ressort": "gesundheit",
-      "kicker": "Augengesundheit",
-      "headline": "Gentest erkennt Glaukom-Risiko, bevor das Augenlicht schwindet",
-      "teaser": "Ein neuer Gentest zeigt, wer besonders gefährdet ist, am Glaukom zu erkranken. So können Ärzte früh handeln.",
+      "id": "2026-11-16-12",
+      "ressort": "bildung",
+      "kicker": "New Mexico",
+      "headline": "New Mexico: Kinderbetreuung für alle Familien ist kostenlos",
+      "teaser": "Als erster US-Staat zahlt New Mexico die Kinderbetreuung unabhängig vom Einkommen. Viele Eltern nennen das lebensverändernd.",
       "blocks": [
-        {
-          "type": "comparison",
-          "title": "Daten hinter dem Test",
-          "before": {
-            "label": "Test von 2020",
-            "value": 8000,
-            "display": "8.000 Erkrankte"
-          },
-          "after": {
-            "label": "Neuer Test",
-            "value": 300000,
-            "display": "300.000 Erkrankte"
-          }
-        },
         {
           "type": "share",
           "value": 50,
-          "label": "Erkrankte ohne Diagnose",
-          "caption": "Etwa die Hälfte der Menschen mit Glaukom lebt die meiste Zeit ohne Diagnose, weil frühe Schäden keine Beschwerden machen."
+          "label": "der Kinder bis 5 Jahre im Programm",
+          "caption": "Rund 67.000 Kinder leben in New Mexico in diesem Alter. Weitere nutzen andere freie Angebote wie PreK oder Head Start."
+        },
+        {
+          "type": "timeline",
+          "title": "Der Weg zur freien Kinderbetreuung",
+          "items": [
+            {
+              "year": "2022",
+              "text": "Die Wähler geben einen Teil eines Landesfonds für frühe Bildung frei."
+            },
+            {
+              "year": "September 2025",
+              "text": "Die Gouverneurin kündigt kostenlose Betreuung für alle an."
+            },
+            {
+              "year": "1. November 2025",
+              "text": "Das Programm startet."
+            },
+            {
+              "year": "März 2026",
+              "text": "Es wird offiziell in ein Gesetz geschrieben."
+            }
+          ]
         },
         {
           "type": "bigNumber",
-          "value": "10",
-          "unit": "mal",
-          "caption": "häufiger hatten Menschen mit dem höchsten genetischen Risiko ein Glaukom als alle anderen.",
-          "icon": "stethoscope"
+          "value": "12.000",
+          "unit": "neue Plätze",
+          "caption": "will der Staat in den ersten Jahren schaffen. Mehr als die Hälfte ist laut Behörde geschafft.",
+          "icon": "building.2.fill"
         }
       ],
-      "whyGood": "Glaukom lässt sich gut behandeln, wenn man es früh findet. Der Test kann helfen, das Augenlicht von Millionen Menschen im Alter zu schützen.",
-      "honestNote": "Der Test muss noch für den breiten Einsatz in der Vorsorge weiterentwickelt werden.",
+      "whyGood": "Viele Familien können sich Betreuung nun leisten und arbeiten oder lernen. Auch andere Staaten schauen, was sie von diesem Versuch lernen können.",
+      "honestNote": "Noch gibt es nicht genug Plätze, und manche Familien warten auf einen Platz.",
       "sources": [
         {
-          "name": "New Atlas",
-          "url": "https://newatlas.com/aging/common-glaucoma-test-prevent-blindness/",
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/15/nx-s1-6040194/new-mexico-free-universal-childcare-families",
           "language": "Englisch"
         }
       ],
       "score": 6,
-      "country": "AU",
-      "terms": [
-        {
-          "term": "Glaukom",
-          "text": "Eine Augenkrankheit, bei der der Sehnerv nach und nach Schaden nimmt. Sie wird auch Grüner Star genannt."
-        },
-        {
-          "term": "Risikowert",
-          "text": "Eine Zahl, die aus vielen kleinen Unterschieden im Erbgut berechnet wird. Sie zeigt, wie hoch die Chance auf eine Krankheit ist."
-        }
-      ],
+      "country": "US",
+      "terms": [],
       "guess": {
-        "question": "Wie viel häufiger erkranken Menschen mit dem höchsten genetischen Risiko am Glaukom?",
+        "question": "Wie viele der Kinder bis 5 Jahre sind in New Mexico im neuen Programm angemeldet?",
         "options": [
-          "2-mal",
-          "10-mal",
-          "50-mal"
+          "Etwa jedes zehnte",
+          "Etwa jedes zweite",
+          "Fast alle"
         ],
         "answer": 1,
-        "reveal": "Wer zu den 10 Prozent mit dem höchsten Risiko gehört, erkrankt rund 10-mal häufiger als alle anderen.",
-        "icon": "magnifyingglass"
+        "reveal": "Rund die Hälfte der etwa 67.000 Kinder bis 5 Jahre ist angemeldet.",
+        "icon": "figure.and.child.holdinghands"
       },
       "image": {
-        "url": "https://assets.newatlas.com/dims4/default/7d8ee34/2147483647/strip/true/crop/7360x3864+0+524/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F64%2Feb%2Fd7970fd14c488fcf5e8a15600cab%2Fselective-focus-glaucoma-lettering-cubes-depositphotos-357542136-xl.jpg&na.image_optimisation=0",
-        "credit": "New Atlas",
-        "source": "https://newatlas.com/aging/common-glaucoma-test-prevent-blindness/",
+        "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7440x4185+0+389/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbe%2Fe0%2F3d5979dc4a7ca8677703331dfaec%2Funiversalchildcare-npr-10-30-2026-177.jpg",
+        "credit": "NPR",
+        "source": "https://www.npr.org/2026/11/15/nx-s1-6040194/new-mexico-free-universal-childcare-families",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-k01",
-      "ressort": "natur",
-      "kicker": "Simbabwe",
-      "headline": "Scharfe Tischtennisbälle halten Elefanten von Feldern fern",
-      "teaser": "In einem Dorf in Simbabwe schützen die Bewohner ihre Ernte ohne Gewalt. Zuerst kommt ein Zaun mit Chili-Lappen und Chilipulver-Fallen. Hilft das nicht, zünden sie Elefantenmist mit Chiliöl an. Zuletzt schießen sie Tischtennisbälle mit Chiliöl.",
+      "id": "2026-11-16-k01",
+      "ressort": "welt",
+      "kicker": "San Francisco",
+      "headline": "100 Millionen Dollar für die Parks von San Francisco",
+      "teaser": "Airbnb-Chef Brian Chesky spendet 100 Millionen Dollar für die Parks von San Francisco. Es ist die größte Einzelspende an die Stadt überhaupt. Zunächst fließen 39 Millionen Dollar in fünf Projekte, etwa in einen neuen Park und längere Schwimmbadzeiten.",
       "blocks": [],
-      "whyGood": "Menschen und Elefanten kommen sich weniger in die Quere, und kein Tier muss dafür sterben.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Mongabay",
-          "url": "https://news.mongabay.com/short-article/2026/11/spicy-ping-pong-balls-and-flaming-dung-keep-elephants-at-bay-in-zimbabwe/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "ZW",
-      "terms": []
-    },
-    {
-      "id": "2026-11-15-k02",
-      "ressort": "architektur",
-      "kicker": "Tirana",
-      "headline": "Tirana plant eine schwebende Wolke über dem Rinia-Park",
-      "teaser": "Das Büro Bjarke Ingels Group hat den Wettbewerb für den Rinia-Park in Tirana gewonnen. Das Gebäude „Fountain Plaza Tirana“ schwebt wie eine Wolke über dem Park. So bleibt der Park erhalten und wächst, dazu kommen Hotel, Wohnungen, Büros und Kulturräume.",
-      "blocks": [],
-      "whyGood": "In einer schnell wachsenden Stadt bleibt der Park für alle offen, und darüber entsteht neuer Raum zum Leben und für Kultur.",
-      "honestNote": "Ein Zeitplan für den Bau steht noch nicht fest.",
-      "sources": [
-        {
-          "name": "My Modern Met",
-          "url": "https://mymodernmet.com/big-fountain-plaza-tirana/?adt_ei={{ subscriber.email_address }}",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "AL",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/10/BIG-fountain-plaza-tirana-fb-2.jpg",
-        "credit": "My Modern Met",
-        "source": "https://mymodernmet.com/big-fountain-plaza-tirana/?adt_ei={{ subscriber.email_address }}",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-k03",
-      "ressort": "kurioses",
-      "kicker": "Brighton",
-      "headline": "Ehepaar putzt verdreckte Straßenschilder in Brighton",
-      "teaser": "Paul und Ruth Richmond-Watson schrubben seit September Verkehrsschilder in East Sussex. Sie reinigen mindestens eines pro Tag und zeigen es auf Instagram. Die Schilder waren nachts kaum lesbar. Bald wollen sie auch durch Großbritannien reisen.",
-      "blocks": [],
-      "whyGood": "Aus der Suche nach einem gemeinsamen Hobby wird ein Dienst für die Nachbarschaft, der allen die Straße sicherer und lesbarer macht.",
+      "whyGood": "Familien in San Francisco bekommen schneller neue und bessere Orte zum Spielen, Sporttreiben und Treffen.",
       "honestNote": null,
       "sources": [
         {
           "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/couple-with-autism-and-adhd-find-passion-cleaning-filthy-street-signs/",
+          "url": "https://www.goodnewsnetwork.org/san-francisco-gets-100m-gift-for-public-parks-from-airbnb-ceo/",
           "language": "Englisch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "GB",
+      "country": "US",
       "terms": [],
       "image": {
-        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Before-and-after-cleaning-road-signs-in-East-Sussex-SWNS.jpg",
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2015/05/San-Francisco-davidyuweb-CC.jpg",
         "credit": "Good News Network",
-        "source": "https://www.goodnewsnetwork.org/couple-with-autism-and-adhd-find-passion-cleaning-filthy-street-signs/",
+        "source": "https://www.goodnewsnetwork.org/san-francisco-gets-100m-gift-for-public-parks-from-airbnb-ceo/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-k04",
-      "ressort": "design",
-      "kicker": "New York",
-      "headline": "Aus alten Verkehrsschildern werden Tische für Wochenmärkte",
-      "teaser": "Der Architekt Juan Fernández González baut ausgediente Aluminium-Verkehrsschilder zu Stehtischen um. Sie werden an vorhandene Schilderpfosten geschraubt. In New York stehen sie schon auf Märkten in Queens und Manhattan.",
-      "blocks": [],
-      "whyGood": "Aus Schrott wird nützlicher Platz zum Essen, und niemand muss dafür neue Pfosten aufstellen.",
-      "honestNote": "Bisher gibt es erst einige Einsätze in New York, die Verbreitung in Nordamerika ist nur geplant.",
-      "sources": [
-        {
-          "name": "designboom",
-          "url": "https://www.designboom.com/design/discarded-traffic-signs-urban-tables-farmers-markets-new-york-city-juan-fernandez-gonzalez/",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [],
-      "gallery": true,
-      "image": {
-        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/juan-fernandez-gonzalez-traffic-sign-urban-tables-designboom-1200-1.jpg",
-        "credit": "designboom",
-        "source": "https://www.designboom.com/design/discarded-traffic-signs-urban-tables-farmers-markets-new-york-city-juan-fernandez-gonzalez/",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-k05",
-      "ressort": "zukunft",
-      "kicker": "Bochum",
-      "headline": "Mini-Drohne sucht ohne GPS selbst nach Rissen in Brücken",
-      "teaser": "Forschende der Ruhr-Universität Bochum entwickeln eine Drohne mit 23 Zentimetern Durchmesser. Sie fliegt ohne GPS durch Hohlkästen von Betonbrücken und erkennt mit KI Risse. Die Auswertung läuft direkt an Bord, ein Pilot ist nicht nötig.",
-      "blocks": [],
-      "whyGood": "Die Drohne kann künftig schwer erreichbare Stellen in Brücken prüfen und so die Inspektion für das Prüfpersonal leichter machen.",
-      "honestNote": "Die Technik wird bisher nur im Labor getestet.",
-      "sources": [
-        {
-          "name": "ingenieur.de",
-          "url": "https://www.ingenieur.de/sie-ist-nur-23-cm-gross-und-sucht-selbststaendig-nach-rissen-in-bruecken-ddacd0fe-df20-4f24-b92c-bb415f1f5a7d/",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [
-        {
-          "term": "Hohlkästen",
-          "text": "Das sind Hohlräume im Inneren des Tragwerks einer Brücke. Sie helfen unter anderem dabei, das Eigengewicht der Brücke zu verringern."
-        }
-      ]
-    },
-    {
-      "id": "2026-11-15-k06",
-      "ressort": "wissenschaft",
-      "kicker": "Weltraum",
-      "headline": "Voyager 1 erreicht als erstes Objekt einen Lichttag Entfernung",
-      "teaser": "Die NASA-Sonde Voyager 1 ist rund 26 Milliarden Kilometer von der Erde entfernt. Ihre Funksignale brauchen nun genau 24 Stunden bis zu uns. Die Sonde startete vor 49 Jahren und sendet bis heute Daten aus dem interstellaren Raum.",
-      "blocks": [],
-      "whyGood": "Ein Messgerät aus dem Jahr 1977 funkt noch immer Daten von weiter weg, als je ein Objekt der Menschheit gelangt ist.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
-          "language": "Englisch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "US",
-      "terms": [
-        {
-          "term": "interstellarer Raum",
-          "text": "Das ist die riesige Region zwischen den Sternsystemen. Voyager 1 erreichte sie nach der Definition der NASA im Jahr 2012."
-        }
-      ],
-      "image": {
-        "url": "https://scx2.b-cdn.net/gfx/news/2026/nasa-voyager-1.jpg",
-        "credit": "Phys.org",
-        "source": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-k07",
+      "id": "2026-11-16-k02",
       "ressort": "natur",
-      "kicker": "Great Plains",
-      "headline": "Indigene Studierende zählen Wildtiere auf Lewis-und-Clark-Route",
-      "teaser": "Das Smithsonian National Zoo and Conservation Biology Institute wiederholt die Tierzählung der Lewis-und-Clark-Expedition von 1804. Diesmal helfen Tausende Kameras entlang der Route. Studierende von Stammes-Colleges sind dabei und werden als bezahlte Praktikanten eingebunden.",
+      "kicker": "Niederlande",
+      "headline": "Neue App führt zu den ältesten und schönsten Bäumen der Welt",
+      "teaser": "Der Niederländer Hidde Burgmans hat die App „Ancient Trees“ gebaut. Sie zeigt auf einer Karte besondere alte Bäume und welche in der Nähe stehen. Nutzer laden Fotos und Beschreibungen hoch. Es sollen nur Bäume sein, die „einen Umweg wert“ sind.",
       "blocks": [],
-      "whyGood": "Die Menschen, deren Beitrag damals übergangen wurde, gestalten die neue Erfassung der Natur nun aktiv mit.",
+      "whyGood": "Eine App weckt bei immer mehr Menschen die Freude an alten Bäumen.",
       "honestNote": null,
       "sources": [
         {
           "name": "Guardian Environment",
-          "url": "https://www.theguardian.com/us-news/2026/nov/14/lewis-clark-indigenous-students",
+          "url": "https://www.theguardian.com/environment/2026/nov/15/ancient-tree-worth-a-detour-digital-app-",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "NL",
+      "terms": [],
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/ce56556d167751942e141bd2234a3648f37a95e5/0_12_1440_1152/master/1440.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=01ab6ca1ca568ea611b1500d21a99185",
+        "credit": "Guardian Environment",
+        "source": "https://www.theguardian.com/environment/2026/nov/15/ancient-tree-worth-a-detour-digital-app-",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-k03",
+      "ressort": "architektur",
+      "kicker": "Changhua County",
+      "headline": "Aus dem Podium der Schule wird ein Platz für alle",
+      "teaser": "An der Chingshuei-Grundschule im Landkreis Changhua haben die Architekten von YUNGCHEI.plus den alten Kommandostand umgebaut. Aus dem erhöhten Podium wurde eine gemeinsame Landschaft von 540 Quadratmetern. Sie verbindet getrennte Teile des Schulgeländes.",
+      "blocks": [],
+      "whyGood": "Ein Ort der Autorität wird zu einem offenen Treffpunkt, den alle an der Schule nutzen können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1187873/terrace-link-extension-yungchelus-chei-chang-architects",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "TW",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6ae4/b9a6/bfbd/4c00/01ee/5a49/large_jpg/TERRACE-LINK_12_Yuchen-Chao-Photography.jpg?1793374648",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1187873/terrace-link-extension-yungchelus-chei-chang-architects",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-k04",
+      "ressort": "promis",
+      "kicker": "Los Angeles",
+      "headline": "Phil Collins in die Rock & Roll Hall of Fame aufgenommen",
+      "teaser": "Phil Collins hat in Los Angeles seine Aufnahme in die Rock & Roll Hall of Fame gefeiert. Er sagte, er sei jetzt „ein gesunder Mann“. Er hat ein Studio zu Hause und eine Band aus Freunden. Neue Musik und einige Konzerte hält er für möglich.",
+      "blocks": [],
+      "whyGood": "Ein Musiker, der selbst nicht mehr mit seinem Leben gerechnet hatte, steht wieder auf der Bühne und plant neue Lieder.",
+      "honestNote": "Ob es wirklich neue Konzerte oder ein neues Album gibt, ist noch offen, Collins spricht von einem Projekt in Arbeit.",
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/music/news/phil-collins-rock-roll-hall-of-fame-induction-health-1236948171/",
           "language": "Englisch"
         }
       ],
@@ -1048,532 +926,168 @@
       "country": "US",
       "terms": [],
       "image": {
-        "url": "https://i.guim.co.uk/img/media/fd3cab3eb7b2ce66614e6f1cb34d1a8ad00a14b4/1_0_2999_2400/master/2999.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a5caa4910acbeaccf4f02ce4d62228b9",
-        "credit": "Guardian Environment",
-        "source": "https://www.theguardian.com/us-news/2026/nov/14/lewis-clark-indigenous-students",
+        "url": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2304672686.jpg?w=1000&h=563&crop=1",
+        "credit": "Variety",
+        "source": "https://variety.com/2026/music/news/phil-collins-rock-roll-hall-of-fame-induction-health-1236948171/",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-k08",
-      "ressort": "architektur",
-      "kicker": "Kanagawa",
-      "headline": "Sauna im Wald von Kanagawa wächst um lebende Bäume herum",
-      "teaser": "Das japanische Studio Daichi Inc hat im Wald von Kanagawa eine Sauna gebaut, bei der die Bäume stehen bleiben. Ihre Stämme wachsen durch runde Öffnungen in den Holzplattformen und tragen die Konstruktion mit. Die Sauna steht in der Kategorie „Leisure and wellness“ der Dezeen Awards 2026 auf der Shortlist.",
+      "id": "2026-11-16-k05",
+      "ressort": "design",
+      "kicker": "San Terenzo",
+      "headline": "Neue Bank in Ligurien lädt zum langen Sitzen am Meer ein",
+      "teaser": "Der Designer Gio Tirotto hat die Bank „La Lenta“ entworfen. Sie sieht aus wie ein langer Stuhl und hat keine Trennwände in der Mitte. Sie soll in San Terenzo am Golf der Dichter stehen und allen offen sein.",
       "blocks": [],
-      "whyGood": "Hier wird nicht gerodet, sondern um den Wald herum gebaut, und die Bäume werden selbst zum Teil des Gebäudes.",
-      "honestNote": null,
+      "whyGood": "Eine Bank, die zum Bleiben einlädt, statt Menschen zu vertreiben, macht öffentliche Räume freundlicher.",
+      "honestNote": "Die Bank ist ein Prototyp, und für eine Serienproduktion sucht das Team noch einen Industriepartner.",
       "sources": [
         {
-          "name": "Dezeen",
-          "url": "https://www.dezeen.com/2026/11/14/daichi-inc-silent-river-tree-sauna/",
+          "name": "designboom",
+          "url": "https://www.designboom.com/design/gio-tirotto-domestic-chair-public-bench-italy-gulf-poets-vita-lenta/",
           "language": "Englisch"
         }
       ],
       "brief": true,
-      "score": 6,
-      "country": "JP",
+      "score": 5,
+      "country": "IT",
       "terms": [],
       "gallery": true,
       "image": {
-        "url": "https://static-2026.dezeen.com/uploads/2026/11/daichi-silent-river-tree-sauna-daichi-architecture-sauna-japan-public-leisure_dezeen_2364_hero.jpg",
-        "credit": "Dezeen",
-        "source": "https://www.dezeen.com/2026/11/14/daichi-inc-silent-river-tree-sauna/",
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/la-lenta-chair-public-bench-vita-lenta-gio-tirotto-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/design/gio-tirotto-domestic-chair-public-bench-italy-gulf-poets-vita-lenta/",
         "kind": "source"
       }
     }
   ],
   "joke": {
-    "setup": "Was macht ein Mathematiker im Garten?",
-    "punchline": "Wurzeln ziehen."
+    "setup": "Was ist gelb, krumm und schwimmt auf dem See?",
+    "punchline": "Eine Schwanane."
   },
   "comic": {
-    "series": "busch",
-    "title": "Max und Moritz",
-    "episode": "Dritter Streich",
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Max_und_Moritz_%28Busch%29_027.png/960px-Max_und_Moritz_%28Busch%29_027.png",
+    "series": "sandraundwoo",
+    "title": "Sandra und Woo",
+    "episode": "Die Verhandlung und mehr",
+    "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0067.png",
     "pages": [
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Max_und_Moritz_%28Busch%29_027.png/960px-Max_und_Moritz_%28Busch%29_027.png",
-        "width": 900,
-        "height": 906,
-        "caption": "Jedermann im Dorfe kannte\nEinen, der sich Böck benannte."
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0067.png",
+        "width": 980,
+        "height": 328,
+        "title": "Die Verhandlung",
+        "panels": [
+          [
+            0.0061,
+            0.0183,
+            0.2378,
+            0.8841
+          ],
+          [
+            0.2571,
+            0.0183,
+            0.2347,
+            0.8841
+          ],
+          [
+            0.5051,
+            0.0183,
+            0.2347,
+            0.8841
+          ],
+          [
+            0.7531,
+            0.0183,
+            0.2408,
+            0.8841
+          ]
+        ]
       },
       {
-        "caption": "Alltagsröcke, Sonntagsröcke,\nLange Hosen, spitze Fräcke,\nWesten mit bequemen Taschen,\nWarme Mäntel und Gamaschen\nAlle diese Kleidungssachen\nWußte Schneider Böck zu machen.\nOder wäre was zu flicken,\nAbzuschneiden, anzustücken,\nOder gar ein Knopf der Hose\nAbgerissen oder lose"
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0068.png",
+        "width": 980,
+        "height": 406,
+        "title": "Wertvoller elterlicher Rat",
+        "panels": null
       },
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Max_und_Moritz_%28Busch%29_028.png/960px-Max_und_Moritz_%28Busch%29_028.png",
-        "width": 900,
-        "height": 475,
-        "caption": "Wie und wo und was es sei,\nHinten, vorne, einerlei\nAlles macht der Meister Böck,\nDenn das ist sein Lebenszweck.\nDrum so hat in der Gemeinde\nJedermann ihn gern zum Freunde.\nAber Max und Moritz dachten,\nWie sie ihn verdrießlich machten."
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Max_und_Moritz_%28Busch%29_029.png/960px-Max_und_Moritz_%28Busch%29_029.png",
-        "width": 900,
-        "height": 480,
-        "caption": "Nämlich vor des Meisters Hause\nFloß ein Wasser mit Gebrause.\nÜbers Wasser führt ein Steg\nUnd darüber geht der Weg."
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Max_und_Moritz_%28Busch%29_030.png/960px-Max_und_Moritz_%28Busch%29_030.png",
-        "width": 900,
-        "height": 435,
-        "caption": "Max und Moritz, gar nicht träge,\nSägen heimlich mit der Säge,\nRitzeratze! voller Tücke,\nIn die Brücke eine Lücke.\nAls nun diese Tat vorbei,\nHört man plötzlich ein Geschrei:"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Max_und_Moritz_%28Busch%29_031.png/960px-Max_und_Moritz_%28Busch%29_031.png",
-        "width": 900,
-        "height": 441,
-        "caption": "„He, heraus! du Ziegen-Böck!\nSchneider, Schneider, meck, meck, meck!!“\nAlles konnte Böck ertragen,\nOhne nur ein Wort zu sagen;\nAber wenn er dies erfuhr,\nGing’s ihm wider die Natur."
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Max_und_Moritz_%28Busch%29_032.png/960px-Max_und_Moritz_%28Busch%29_032.png",
-        "width": 900,
-        "height": 513,
-        "caption": "Schnelle, springt er mit der Elle\nÜber seines Hauses Schwelle,\nDenn schon wieder ihm zum Schreck\nTönt ein lautes: „Meck, meck, meck!!“"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Max_und_Moritz_%28Busch%29_033.png/960px-Max_und_Moritz_%28Busch%29_033.png",
-        "width": 900,
-        "height": 526,
-        "caption": "Und schon ist er auf der Brücke,\nKracks! Die Brücke bricht in Stücke;"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Max_und_Moritz_%28Busch%29_034.png/960px-Max_und_Moritz_%28Busch%29_034.png",
-        "width": 900,
-        "height": 519,
-        "caption": "Wieder tönt es: „Meck, meck, meck!“\nPlumps! da ist der Schneider weg!"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Max_und_Moritz_%28Busch%29_035.png/960px-Max_und_Moritz_%28Busch%29_035.png",
-        "width": 900,
-        "height": 621,
-        "caption": "Grad als dieses vorgekommen,\nKommt ein Gänsepaar geschwommen,\nWelches Böck in Todeshast\nKrampfhaft bei den Beinen faßt."
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Max_und_Moritz_%28Busch%29_036.png/960px-Max_und_Moritz_%28Busch%29_036.png",
-        "width": 900,
-        "height": 366,
-        "caption": "Beide Gänse in der Hand,\nFlattert er auf trocknes Land."
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Max_und_Moritz_%28Busch%29_037.png/960px-Max_und_Moritz_%28Busch%29_037.png",
-        "width": 900,
-        "height": 897,
-        "caption": "Übrigens bei alledem\nIst so etwas nicht bequem;"
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Max_und_Moritz_%28Busch%29_038.png/960px-Max_und_Moritz_%28Busch%29_038.png",
-        "width": 900,
-        "height": 558,
-        "caption": "Wie denn Böck von der Geschichte\nAuch das Magendrücken kriegte."
-      },
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Max_und_Moritz_%28Busch%29_039.png/960px-Max_und_Moritz_%28Busch%29_039.png",
-        "width": 900,
-        "height": 582,
-        "caption": "Hoch ist hier Frau Böck zu preisen!\nDenn ein heißes Bügeleisen,\nAuf den kalten Leib gebracht,\nHat es wieder gut gemacht."
-      },
-      {
-        "caption": "Bald im Dorf hinauf, hinunter,\nHieß es Böck ist wieder munter!!\nDieses war der dritte Streich,\nDoch der vierte folgt sogleich."
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0069.png",
+        "width": 980,
+        "height": 1490,
+        "title": "Neid",
+        "panels": [
+          [
+            0.152,
+            0.0376,
+            0.7612,
+            0.5597
+          ],
+          [
+            0.0939,
+            0.5973,
+            0.2724,
+            0.3799
+          ],
+          [
+            0.3704,
+            0.5973,
+            0.4663,
+            0.3799
+          ]
+        ]
       }
     ],
-    "credit": "Wilhelm Busch, 1865, gemeinfrei. Text und Bilder nach Wikisource",
-    "link": "https://de.wikisource.org/wiki/Max_und_Moritz/Dritter_Streich",
-    "linkTitle": "Bei Wikisource lesen"
+    "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
+    "link": "https://www.sandraandwoo.com/woode/",
+    "linkTitle": "Mehr von Sandra und Woo"
   },
   "recommendation": {
-    "kind": "album",
-    "label": "Album",
-    "title": "Lux",
-    "creator": "Rosalía",
-    "year": "2025",
-    "text": "Für „Lux“ wurde Rosalía bei den Latin Grammys zum dritten Mal als Album des Jahres ausgezeichnet. Keine andere Solokünstlerin hat das bisher geschafft. Auch „La Perla“ wurde als Song des Jahres geehrt, und bei der Gala spielte sie ein Medley aus dem Album.",
-    "forWhom": "Für alle, die gern große, mutige Popmusik hören, die gerade Geschichte schreibt.",
-    "link": "https://en.wikipedia.org/wiki/Lux_%28Rosal%C3%ADa_album%29",
+    "kind": "buch",
+    "label": "Buch",
+    "title": "Joy",
+    "creator": "Maira Kalman",
+    "year": "2026",
+    "text": "Die Autorin und Malerin Maira Kalman erkundet in ihrem neuen Buch all die Dinge, die ihr flüchtiges Glück schenken. Sie zeigt dabei auch, warum Kummer das notwendige Gegenstück zur Freude ist. Ein warmherziges, bunt gemaltes Buch zum Blättern und Schmunzeln.",
+    "forWhom": "Für alle, die kleine Glücksmomente im Alltag sammeln.",
+    "link": null,
     "source": {
-      "name": "Rolling Stone",
-      "url": "https://www.rollingstone.de/rosalia-album-des-jahres-latin-grammys-lux-3215131/"
+      "name": "NPR Books",
+      "url": "https://www.npr.org/2026/11/07/nx-s1-6012223-e1/how-painter-maira-kalman-finds-joy-in-darkness"
     }
   },
-  "weekly": {
-    "title": "Die schönsten Nachrichten der Woche",
-    "stories": [
-      {
-        "id": "2026-11-15-01",
-        "ressort": "wissenschaft",
-        "kicker": "Raumfahrt",
-        "headline": "Starship-Oberstufe wird von Greifarmen aufgefangen",
-        "teaser": "Erstmals ist die obere Stufe der SpaceX-Rakete nach ihrem Flug zur Startrampe in Texas zurückgekehrt. Zwei mechanische Arme fingen sie sicher auf.",
-        "blocks": [
-          {
-            "type": "bigNumber",
-            "value": "260",
-            "unit": "Kilometer",
-            "caption": "hoch setzte das Starship seine Satelliten aus, bevor es zur Erde zurückkehrte",
-            "icon": "rocket.fill"
-          },
-          {
-            "type": "count",
-            "value": 26,
-            "icon": "antenna.radiowaves.left.and.right",
-            "caption": "Starlink-Satelliten brachte das Starship in den Weltraum"
-          },
-          {
-            "type": "background",
-            "title": "Warum Wiederverwendung wichtig ist",
-            "text": "SpaceX will eine Rakete, die wie ein ziviles Flugzeug fliegt. Beide Teile des Starship sollen nach der Landung wieder starten. Das könnte die Kosten senken und häufigere Starts möglich machen."
-          }
-        ],
-        "whyGood": "Eine Rakete, die nach dem Flug wieder startklar ist, könnte Raumfahrt günstiger machen. Das bringt Flüge zum Mond und später zum Mars ein Stück näher.",
-        "honestNote": "Die untere Raketenstufe verfehlte bei diesem Flug die geplante Rückkehr zur Startrampe.",
-        "sources": [
-          {
-            "name": "tagesschau",
-            "url": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
-            "language": "Deutsch"
-          },
-          {
-            "name": "NPR",
-            "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
-            "language": "Englisch"
-          }
-        ],
-        "score": 8,
-        "country": "US",
-        "terms": [
-          {
-            "term": "Starlink",
-            "text": "Starlink ist ein Netz aus vielen Satelliten von SpaceX. Es soll Internet aus dem Weltraum auf die Erde bringen."
-          }
-        ],
-        "guess": {
-          "question": "In welcher Höhe setzte das Starship seine Satelliten aus?",
-          "options": [
-            "26 Kilometer",
-            "260 Kilometer",
-            "2.600 Kilometer"
-          ],
-          "answer": 1,
-          "reveal": "Das Starship setzte die Satelliten in rund 260 Kilometern Höhe aus.",
-          "icon": "rocket.fill"
-        },
-        "image": {
-          "url": "https://images.tagesschau.de/image/adcb012d-ef76-4b35-9e82-de8032b4f0b2/AAABodwBRNA/AAABnSSvrFg/16x9-big/space-x-rakete-104.jpg?width=1280",
-          "credit": "tagesschau",
-          "source": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
-          "kind": "source"
-        }
-      },
-      {
-        "id": "2026-11-14-01",
-        "ressort": "architektur",
-        "kicker": "Japan",
-        "headline": "Kengo Kuma baut rundes Strohdachhaus aus Holz und Erde",
-        "teaser": "In Ibaraki entsteht ein Haus aus Holz und Erde der Umgebung. Altes Handwerk und digitale Technik arbeiten dabei zusammen.",
-        "blocks": [
-          {
-            "type": "count",
-            "value": 28,
-            "icon": "tree.fill",
-            "caption": "Baumstämme aus der Waldpflege der Region tragen das Dach"
-          },
-          {
-            "type": "bigNumber",
-            "value": "137",
-            "unit": "Quadratmeter",
-            "caption": "misst das Haus unter dem weit geschwungenen Strohdach",
-            "icon": "house.fill"
-          },
-          {
-            "type": "map",
-            "place": "Hitachiota, Präfektur Ibaraki",
-            "latitude": 36.54,
-            "longitude": 140.53,
-            "caption": "Das Haus gehört zum Projekt Kagaku no Sato, das eine Satoyama wiederherstellt."
-          }
-        ],
-        "whyGood": "Das Haus entsteht aus Holz, Gras und Erde der Umgebung. Altes Handwerk lebt weiter, und altes Dachmaterial kann später als Kompost auf die Felder zurück.",
-        "honestNote": null,
-        "sources": [
-          {
-            "name": "designboom",
-            "url": "https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan/",
-            "language": "Englisch"
-          }
-        ],
-        "score": 8,
-        "country": "JP",
-        "terms": [
-          {
-            "term": "Satoyama",
-            "text": "So nennt man in Japan eine Landschaft, in der Felder und gepflegter Wald zusammen bestehen. Menschen und Natur nutzen sie gemeinsam."
-          }
-        ],
-        "guess": {
-          "question": "Wie viele Strohbündel wurden für das Dach des Hauses verbaut?",
-          "options": [
-            "Rund 500",
-            "Rund 5.000",
-            "Rund 50.000"
-          ],
-          "answer": 1,
-          "reveal": "Geübte Dachdecker brachten rund 5.000 Bündel aus Reisstroh, Schilf und Gräsern an.",
-          "icon": "house.fill"
-        },
-        "gallery": true,
-        "image": {
-          "url": "https://www.designboom.com/twitterimages/uploads/2026/11/kengo-kuma-kagaku-no-sato-main-house-project-japan-designboom-FB.jpg",
-          "credit": "designboom",
-          "source": "https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan/",
-          "kind": "source"
-        }
-      },
-      {
-        "id": "2026-11-12-01",
-        "ressort": "natur",
-        "kicker": "Spanien",
-        "headline": "Kantabrische Braunbären erobern ihr Gebiet zurück",
-        "teaser": "Im Norden Spaniens leben wieder deutlich mehr Braunbären als vor 20 Jahren. Auch ihr Lebensraum ist stark gewachsen.",
-        "blocks": [
-          {
-            "type": "comparison",
-            "title": "Braunbären in Spanien",
-            "before": {
-              "label": "Anfang des Jahrhunderts",
-              "value": 140,
-              "display": "140 Bären"
-            },
-            "after": {
-              "label": "Heute",
-              "value": 370,
-              "display": "370 Bären"
-            }
-          },
-          {
-            "type": "bigNumber",
-            "value": "17.000",
-            "unit": "km²",
-            "caption": "und mehr umfasst das Gebiet, in dem die Bären heute leben",
-            "icon": "mountain.2.fill"
-          }
-        ],
-        "whyGood": "Eine Tierart, die fast verschwunden war, kommt zurück. Schutzgebiete und hohe Strafen für das illegale Töten haben dabei geholfen.",
-        "honestNote": null,
-        "sources": [
-          {
-            "name": "Good News Network",
-            "url": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
-            "language": "Englisch"
-          }
-        ],
-        "score": 8,
-        "country": "ES",
-        "terms": [],
-        "guess": {
-          "question": "Wie viele Kantabrische Braunbären leben heute in Spanien?",
-          "options": [
-            "Etwa 37",
-            "Etwa 370",
-            "Etwa 3.700"
-          ],
-          "answer": 1,
-          "reveal": "Es sind rund 370 Bären. Anfang des Jahrhunderts waren es nur etwa 140.",
-          "icon": "pawprint.fill"
-        },
-        "image": {
-          "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-Cantabrian-brown-bear-credit-Juan-Iacruz-CC-BY-SA-4.0.jpg",
-          "credit": "Good News Network",
-          "source": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
-          "kind": "source"
-        }
-      },
-      {
-        "id": "2026-11-11-01",
-        "ressort": "kultur",
-        "kicker": "Booker Prize",
-        "headline": "M John Harrison gewinnt als erster Science-Fiction-Autor den Booker Prize",
-        "teaser": "Der britische Schriftsteller wird für „The End of Everything“ geehrt. Die Jury entschied einstimmig.",
-        "blocks": [
-          {
-            "type": "bigNumber",
-            "value": "81",
-            "unit": "Jahre",
-            "caption": "alt ist Harrison. Er ist der älteste Gewinner in der Geschichte des Preises.",
-            "icon": "star.fill"
-          },
-          {
-            "type": "timeline",
-            "title": "Ein Schreibleben",
-            "items": [
-              {
-                "year": "1965",
-                "text": "Harrison verkauft seine erste Geschichte."
-              },
-              {
-                "year": "1989",
-                "text": "Sein Buch „Climbers“ gewinnt den Boardman Tasker Prize."
-              },
-              {
-                "year": "2007",
-                "text": "„Nova Swing“ erhält den Arthur C Clarke Award."
-              },
-              {
-                "year": "2020",
-                "text": "„The Sunken Land Begins to Rise Again“ gewinnt den Goldsmiths Prize."
-              }
-            ]
-          },
-          {
-            "type": "count",
-            "value": 163,
-            "icon": "books.vertical.fill",
-            "caption": "Bücher prüfte die Jury für den Preis"
-          }
-        ],
-        "whyGood": "Ein Autor, der seit sechzig Jahren schreibt, wird endlich groß geehrt. Auch Science Fiction gilt damit als Literatur, die man mit den größten Preisen auszeichnet.",
-        "honestNote": null,
-        "sources": [
-          {
-            "name": "Guardian Culture",
-            "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
-            "language": "Englisch"
-          },
-          {
-            "name": "BBC Entertainment",
-            "url": "https://www.bbc.co.uk/news/articles/cw0737kv52lko?at_medium=RSS&at_campaign=rss",
-            "language": "Englisch"
-          }
-        ],
-        "score": 8,
-        "country": "GB",
-        "terms": [
-          {
-            "term": "postapokalyptisch",
-            "text": "So nennt man Geschichten, die nach einer großen Katastrophe spielen. Die Welt, wie wir sie kennen, gibt es dann nicht mehr."
-          }
-        ],
-        "guess": {
-          "question": "Wie viele Bücher hat die Jury für den Booker Prize 2026 geprüft?",
-          "options": [
-            "16",
-            "163",
-            "1630"
-          ],
-          "answer": 1,
-          "reveal": "Die Jury prüfte 163 Bücher und entschied sich nach einem Tag Diskussion einstimmig.",
-          "icon": "books.vertical.fill"
-        },
-        "image": {
-          "url": "https://i.guim.co.uk/img/media/f88eb30da8765416e5de2380d70ed0056788cab0/691_0_6776_5421/master/6776.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6b46f05da72b59cef6ac1bfe8fd0f1d",
-          "credit": "Guardian Culture",
-          "source": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
-          "kind": "source"
-        }
-      },
-      {
-        "id": "2026-11-13-01",
-        "ressort": "zukunft",
-        "kicker": "China",
-        "headline": "China baut riesigen Speicher aus flüssiger Luft",
-        "teaser": "In der Provinz Qinghai läuft die weltweit größte Anlage dieser Art. Sie speichert Ökostrom für Zeiten ohne Sonne und Wind.",
-        "blocks": [
-          {
-            "type": "bigNumber",
-            "value": "600",
-            "unit": "Megawattstunden",
-            "caption": "Speicherkapazität hat die Anlage und kann bis zu 10 Stunden lang Strom liefern",
-            "icon": "battery.100"
-          },
-          {
-            "type": "steps",
-            "title": "So funktioniert es",
-            "items": [
-              "Mit überschüssigem Ökostrom wird Luft verdichtet und stark gekühlt, bis sie flüssig ist.",
-              "Die flüssige Luft liegt in isolierten Tanks und braucht viel weniger Platz als Gas.",
-              "Wird Strom gebraucht, erwärmt sich die Luft und dehnt sich aus. Das treibt eine Turbine an."
-            ],
-            "icons": [
-              "wind",
-              "shippingbox.fill",
-              "bolt.fill"
-            ]
-          }
-        ],
-        "whyGood": "Ökostrom lässt sich so für windstille und dunkle Stunden aufheben. Laut der Analysefirma Lazard kostet das Verfahren deutlich weniger als Lithium-Ionen-Batterien.",
-        "honestNote": null,
-        "sources": [
-          {
-            "name": "Good News Network",
-            "url": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
-            "language": "Englisch"
-          },
-          {
-            "name": "scinexx",
-            "url": "https://www.scinexx.de/news/energie/gravitationskraftwerk-meeresbatterie-speichert-energie-mit-schwerer-salzloesung/",
-            "language": "Deutsch"
-          }
-        ],
-        "score": 7,
-        "country": "CN",
-        "terms": [
-          {
-            "term": "Megawattstunden",
-            "text": "Eine Einheit für Energie. Eine Megawattstunde entspricht 1000 Kilowattstunden."
-          }
-        ],
-        "guess": {
-          "question": "Wie kalt muss Luft werden, damit sie flüssig wird?",
-          "options": [
-            "etwa minus 20 Grad",
-            "etwa minus 90 Grad",
-            "etwa minus 190 Grad"
-          ],
-          "answer": 2,
-          "reveal": "Die Anlage kühlt die Luft auf rund minus 190 Grad Celsius. Dann braucht sie viel weniger Platz.",
-          "icon": "snowflake"
-        },
-        "image": {
-          "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Qinghai-60MW-Liquid-Air-Energy-Storage-Project-credit-China-Green-Development-Investment-Group.jpg",
-          "credit": "Good News Network",
-          "source": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
-          "kind": "source"
-        }
-      }
-    ]
-  },
+  "weekly": null,
   "quiz": {
     "questions": [
       {
-        "storyID": "2026-11-15-03",
-        "question": "Wo liegt der Parque del Jaguar mit der Steinmauer?",
+        "storyID": "2026-11-16-03",
+        "question": "Wo lernten sich David und Jodie 1994 im Urlaub kennen?",
         "options": [
-          "An der Küste der Karibik",
-          "Im Hochland von Chiapas",
-          "An der Pazifikküste",
-          "Im Norden von Yucatán, im Landesinneren"
+          "Auf Kos",
+          "Auf Mallorca",
+          "Auf Kreta",
+          "Auf Malta"
         ],
         "answer": 0
       },
       {
-        "storyID": "2026-11-15-06",
-        "question": "In welcher alten Kurzschrift schrieb Kurt Gödel seine Notizen?",
+        "storyID": "2026-11-16-08",
+        "question": "Wie viele Stockwerke hatte der Turm, der in Amsterdam sorgfältig abgebaut wurde?",
         "options": [
-          "Stolze-Schrey",
-          "Gabelsberger",
-          "Pitman",
-          "Teeline"
+          "8",
+          "14",
+          "20",
+          "25"
         ],
         "answer": 1
       },
       {
-        "storyID": "2026-11-15-10",
-        "question": "Welchen Film von Paweł Pawlikowski zeigte das Festival in Toruń als Hauptgewinner?",
+        "storyID": "2026-11-16-05",
+        "question": "Wie oft am Tag werden die Schimpansen im Sanaga-Yong-Schutzgebiet gefüttert?",
         "options": [
-          "Cold War",
-          "Ida",
-          "Fatherland",
-          "Sobra-Sobra"
+          "Einmal",
+          "Zweimal",
+          "Viermal",
+          "Sechsmal"
         ],
         "answer": 2
       }
@@ -1581,21 +1095,21 @@
   },
   "regional": [
     {
-      "id": "2026-11-15-r01",
+      "id": "2026-11-16-r01",
       "ressort": "region",
       "regions": [
-        "HE"
+        "NW"
       ],
-      "kicker": "Südhessen",
-      "headline": "Gleitaar brütet erstmals in Hessen",
-      "teaser": "Auf einer Pappel in Südhessen brütet zum ersten Mal ein Gleitaar-Paar. Vogelkundler haben die Paarung und mehrere Beuteübergaben am Nest beobachtet. Zwei Küken sitzen im Nest, und es geht ihnen gut.",
+      "kicker": "Bochum",
+      "headline": "Altes Bergwerk in Bochum soll Wärme für den Winter speichern",
+      "teaser": "Die frühere Zeche Mansfeld in Bochum soll bei der Energiewende helfen. Ein Forschungsteam des Fraunhofer IEG hat die gefluteten Stollen in rund 120 Metern Tiefe angebohrt. Dort soll Abwärme aus dem Sommer gespeichert und im Winter genutzt werden.",
       "blocks": [],
-      "whyGood": "Eine einst sehr seltene Greifvogelart zieht in Hessen erstmals Junge groß.",
-      "honestNote": null,
+      "whyGood": "Aus einem alten Kohlebergwerk wird ein Speicher, der ungenutzte Wärme im Winter fürs Heizen nutzbar macht.",
+      "honestNote": "Das Projekt ist noch in der Erprobung, im Speicher geht voraussichtlich ein Teil der Wärme verloren.",
       "sources": [
         {
-          "name": "hessenschau",
-          "url": "https://www.hessenschau.de/panorama/zum-ersten-mal-nachgewiesen-gleitaar-bruetet-in-hessen-v1,gleitaare-suedhessen-100.html",
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/ruhrgebiet/bochum/bergwerk-bochum-grubenwasser-waermespeicher-100.html",
           "language": "Deutsch"
         }
       ],
@@ -1604,63 +1118,183 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://images.tagesschau.de/image/7cb4fc97-c3f0-4b9a-b863-4dee434769ba/AAABodp6xOs/AAABnSSveow/16x9-1280.jpg",
-        "credit": "hessenschau",
-        "source": "https://www.hessenschau.de/panorama/zum-ersten-mal-nachgewiesen-gleitaar-bruetet-in-hessen-v1,gleitaare-suedhessen-100.html",
+        "url": "https://images.tagesschau.de/image/ceabf256-a15b-46d4-9d2a-25ca3edf5fe0/AAABod7FsoE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/ruhrgebiet/bochum/bergwerk-bochum-grubenwasser-waermespeicher-100.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-r05",
+      "id": "2026-11-16-r02",
       "ressort": "region",
       "regions": [
-        "SN"
+        "HE"
       ],
-      "kicker": "Hoyerswerda",
-      "headline": "Dubringer Moor: Messnetz zeigt, dass die Wiedervernässung wirkt",
-      "teaser": "Im Dubringer Moor bei Hoyerswerda wurden Gräben verschlossen und Flächen wiedervernässt. Ein Messnetz zeigt nun an einigen Stellen: Selbst nach einem trockenen Sommer lag das Wasser nur etwa zehn Zentimeter unter der Oberfläche. Das Moor ist das größte Sachsens.",
+      "kicker": "Wiesbaden",
+      "headline": "Jens Harzer ist bester Schauspieler beim Theaterpreis Faust",
+      "teaser": "Im Staatstheater Wiesbaden wurde der Theaterpreis „Der Faust 2026“ verliehen. Der in Wiesbaden geborene Jens Harzer gewann als bester Schauspieler für „De Profundis“ am Berliner Ensemble. Auch Josa Marx vom Schauspiel Frankfurt wurde für das beste Kostüm geehrt.",
       "blocks": [],
-      "whyGood": "Die Daten zeigen, dass der Schutz des größten Moores in Sachsen Wirkung hat und Lebensraum für seltene Arten sowie einen wichtigen CO₂-Speicher bewahrt.",
-      "honestNote": "Die positive Entwicklung zeigt sich bisher nur an einigen Messstellen.",
+      "whyGood": "Zwei Auszeichnungen gehen an hessische Künstler, und Hessen war in diesem Jahr Gastgeber des wichtigsten deutschen Theaterpreises.",
+      "honestNote": null,
       "sources": [
         {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/sachsen/bautzen/bautzen-hoyerswerda-kamenz/wiedervernaessung-messungen-wasserstand,moor-wasser-waechter-100.html",
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/kultur/deutscher-theaterpreis-der-faust-2026-jens-harzer-aus-hessen-ist-bester-schauspieler-v3,faust-theaterpreis-102.html",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 7,
       "country": "DE",
-      "terms": [
-        {
-          "term": "Wiedervernässung",
-          "text": "Dabei wird einem trockengelegten Moor wieder Wasser zugeführt, zum Beispiel indem man Entwässerungsgräben verschließt. So kann das Moor wieder als Lebensraum und Kohlenstoffspeicher dienen."
-        }
-      ],
+      "terms": [],
       "image": {
-        "url": "https://images.mdr.de/image/6099cd32-c435-4c30-ac19-1d312a974ca5/AAABodlh9qk/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/sachsen/bautzen/bautzen-hoyerswerda-kamenz/wiedervernaessung-messungen-wasserstand,moor-wasser-waechter-100.html",
+        "url": "https://images.tagesschau.de/image/1199119f-016a-46e4-b05c-e3b51550bdc7/AAABoeBPHuk/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/kultur/deutscher-theaterpreis-der-faust-2026-jens-harzer-aus-hessen-ist-bester-schauspieler-v3,faust-theaterpreis-102.html",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-r07",
+      "id": "2026-11-16-r03",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Rostock",
+      "headline": "Rostocker Kleingärten gewinnen Gold und Silber im Bundeswettbewerb",
+      "teaser": "Beim 26. Bundeswettbewerb „Gärten im Städtebau“ hat die Anlage „Weiße Rose“ aus Rostock Gold geholt. Die Anlage „Am Moor“ aus Warnemünde bekam Silber. Insgesamt standen 19 Vereine in der Endrunde, die Siegerehrung war in Berlin.",
+      "blocks": [],
+      "whyGood": "Zwei Gartenvereine aus Rostock zeigen bundesweit, wie viel Kleingärten für Stadtklima und Gemeinschaft leisten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/rostocker-kleingartenanlagen-raeumen-preise-ab,mvregiorostock-5334.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/ff428fa7-3b6b-4986-960f-518e9fa0c796/AAABod7eoGc/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/rostocker-kleingartenanlagen-raeumen-preise-ab,mvregiorostock-5334.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-r04",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Dortmund",
+      "headline": "Rekord: 17.555 Fans sehen Frauen-Derby in Dortmund",
+      "teaser": "Borussia Dortmund hat das Revierderby der Frauen gegen Schalke 04 gewonnen. Im Stadion Rote Erde waren 17.555 Fans, so viele wie noch nie bei einem Regionalliga-Spiel der Frauen. Der alte Rekord lag bei 14.500. Das Derby blieb friedlich.",
+      "blocks": [],
+      "whyGood": "Das Derby wurde zum friedlichen Familienfest und zeigt, wie groß das Interesse am Frauenfußball ist.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/sport/bvb/derby-frauen-dortmund-schalke-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/c7cea86b-ba98-4ee4-b49e-50a484af6103/AAABoeELwWg/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/sport/bvb/derby-frauen-dortmund-schalke-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-r06",
+      "ressort": "region",
+      "regions": [
+        "ST"
+      ],
+      "kicker": "Harz",
+      "headline": "50.000 Junglachse in der Bode ausgesetzt",
+      "teaser": "Im Harz wurden zum zweiten Mal rund 50.000 halbjährige Lachse in die Bode gesetzt. Das Bundesinstitut für Binnenfischerei will den Lachs dort wieder heimisch machen. Die erste Gruppe vom Vorjahr ist nachweislich abgewandert, bis nach Nienburg.",
+      "blocks": [],
+      "whyGood": "Der Lachs kehrt Schritt für Schritt in die Flüsse des Harzes zurück.",
+      "honestNote": "Als Erfolg gilt die Wiederansiedlung erst, wenn jedes Jahr 150 bis 200 Laichpaare ohne fremde Hilfe zurückkehren.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/harz/fische-wandern-harz,lachse-bode-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/9d6627bd-3785-4e7d-87fb-c10d4f171fe1/AAABod-ls50/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/harz/fische-wandern-harz,lachse-bode-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-r07",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Mannheim",
+      "headline": "Mannheim sammelt Tausende Zigarettenstummel am Rheinufer",
+      "teaser": "Rund 30 Bürgerinnen und Bürger haben am Sonntag mit Greifzangen Tausende Kippen am Rheinufer aufgelesen. Die Aktionswoche „Lass' das Kippenschnippen“ läuft noch die ganze Woche. Organisiert hat sie Rhine-CleanUp mit vielen Unterstützern.",
+      "blocks": [],
+      "whyGood": "Jung und alt packen gemeinsam an und schützen so Boden und Wasser vor Giftstoffen und Mikroplastik.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/aktionswoche-gegen-kippenverschmutzung-in-mannheim-beginnt-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Mikroplastik",
+          "text": "Mikroplastik sind winzige Kunststoffteilchen. Sie entstehen zum Beispiel, wenn größere Plastikteile in der Natur zerfallen."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/beee7489-a839-4d31-93d0-212a2890bf90/AAABoeBEPMY/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/aktionswoche-gegen-kippenverschmutzung-in-mannheim-beginnt-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-r08",
       "ressort": "region",
       "regions": [
         "BY"
       ],
-      "kicker": "München",
-      "headline": "Emo ist zurück, und München mischt kräftig mit",
-      "teaser": "Ein 20 Jahre altes Album von My Chemical Romance erreicht Platz 1 der US-Billboard-Charts. In München hat das Kollektiv CoreChaos längst eine Szene aufgebaut. Es veranstaltet regelmäßig Konzerte und Festivals, vor allem mit Emo.",
+      "kicker": "Nürnberg",
+      "headline": "600 Schafe ziehen mitten durch die Nürnberger Innenstadt",
+      "teaser": "Schäfer Thomas Gackstatter führt rund 600 Tiere von den Sommerweiden zu den Winterweiden. Der Weg geht über den Hauptmarkt, vorbei an vielen Zuschauern. Für die Lämmer ist es der erste Zug. Sie laufen im Schutz der Herde problemlos mit.",
       "blocks": [],
-      "whyGood": "Eine Musikszene, die viele schon vergessen hatten, blüht wieder auf, und München ist ein Teil davon.",
+      "whyGood": "Der Zug zeigt die Arbeit der Schäfer und die Schafe helfen mit ihrer Landschaftspflege der Artenvielfalt in der Stadt.",
       "honestNote": null,
       "sources": [
         {
-          "name": "BR24 Oberbayern",
-          "url": "https://www.br.de/nachrichten/kultur/wie-das-kollektiv-corechaos-muenchen-zur-emo-hauptstadt-macht,Varjnr1",
+          "name": "BR24 Mittelfranken",
+          "url": "https://www.br.de/nachrichten/bayern/wolliger-konvoi-zieht-durch-nuernbergs-innenstadt,Vb3DTJR",
           "language": "Deutsch"
         }
       ],
@@ -1669,263 +1303,216 @@
       "country": "DE",
       "terms": [],
       "image": {
-        "url": "https://img.br.de/c48ff6b9-418a-4a31-8334-3cc48023d887.jpeg?q=80&rect=2%2C2063%2C3998%2C2246&w=1600&h=900",
-        "credit": "BR24 Oberbayern",
-        "source": "https://www.br.de/nachrichten/kultur/wie-das-kollektiv-corechaos-muenchen-zur-emo-hauptstadt-macht,Varjnr1",
+        "url": "https://img.br.de/f3794cad-89a0-4363-bf07-44c65a9156f7.png?q=80&rect=0%2C0%2C1365%2C769&w=1600&h=900",
+        "credit": "BR24 Mittelfranken",
+        "source": "https://www.br.de/nachrichten/bayern/wolliger-konvoi-zieht-durch-nuernbergs-innenstadt,Vb3DTJR",
         "kind": "source"
       }
     },
     {
-      "id": "2026-11-15-r08",
+      "id": "2026-11-16-r09",
       "ressort": "region",
       "regions": [
-        "MV"
+        "BY"
       ],
-      "kicker": "Graal-Müritz",
-      "headline": "Streuselschnecke im Ziel: Schneckenlauf feiert 30. Jubiläum",
-      "teaser": "Der Schneckenlauf in Graal-Müritz im Landkreis Rostock wird 30 Jahre alt. Rund 500 Läuferinnen und Läufer laufen durch den Küstenwald. Im Ziel gibt es für alle eine Streuselschnecke von den lokalen Bäckern.",
+      "kicker": "Fuchsstadt",
+      "headline": "Lupinenkaffee aus Unterfranken: Getränk ganz ohne Bohne",
+      "teaser": "Landwirt Helmuth Kleinschroth baut bei Fuchsstadt im Landkreis Würzburg Süßlupinen an. Eine Rösterei in Fürth macht daraus ein Getränk, das fast wie Kaffee schmeckt, aber ohne Koffein auskommt. Der Landwirt verdient damit mehr als mit Getreide.",
       "blocks": [],
-      "whyGood": "Beim Schneckenlauf sind alle willkommen, denn es ist egal, wie schnell jemand ist.",
-      "honestNote": null,
+      "whyGood": "Eine Pflanze aus der Region wird zur Alternative für teuren Kaffee und verbessert nebenbei den Boden.",
+      "honestNote": "Wegen Trockenheit fiel die Ernte in diesem Jahr geringer aus.",
       "sources": [
         {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/steuselschnecken-fuer-sportler-30-schneckenlauf-in-graal-mueritz,mvregiorostock-5320.html",
+          "name": "BR24 Unterfranken",
+          "url": "https://www.br.de/nachrichten/bayern/lupinenkaffee-aus-bayern-regionale-antwort-aus-unterfranken-auf-teure-bohnen,VYZMKaa",
           "language": "Deutsch"
         }
       ],
       "brief": true,
       "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/d9921361-4266-4dee-b65b-d2ac51543164/AAABodjVu78/AAABnSSveow/16x9-1280.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/steuselschnecken-fuer-sportler-30-schneckenlauf-in-graal-mueritz,mvregiorostock-5320.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-r09",
-      "ressort": "region",
-      "regions": [
-        "MV"
-      ],
-      "kicker": "Bollewick",
-      "headline": "Mehr als 100 Spinner treffen sich zum SpinnTreff in Bollewick",
-      "teaser": "In Bollewick im Landkreis Mecklenburgische Seenplatte findet der zehnte überregionale SpinnTreff statt. Mehr als 100 Spinnerinnen und Spinner zeigen in der Feldsteinscheune ihre Handwerkskunst und tauschen Techniken aus. Auch Besucher sind willkommen.",
-      "blocks": [],
-      "whyGood": "Alte Handwerkstechniken leben weiter, weil Menschen aus verschiedenen Regionen sie teilen und weitergeben.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "NDR",
-          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/bollewick-groesstes-spinntreffen-im-nordosten,mvregioneubrandenburg-5860.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.ndr.de/image/e4f6cc46-9f59-4d3c-a5a4-0c7d1abede50/AAABkX78sFA/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "NDR",
-        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/bollewick-groesstes-spinntreffen-im-nordosten,mvregioneubrandenburg-5860.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-r10",
-      "ressort": "region",
-      "regions": [
-        "NW"
-      ],
-      "kicker": "Euskirchen",
-      "headline": "Rudi Faus sammelt mehr als 3.000 Fanartikel des FC Köln",
-      "teaser": "Im „FC Reich“ von Rudi Faus hängen Trikots und Schals an den Wänden. Dazu stehen dort Gartenzwerge und Geißböcke. Der 50-Jährige sammelt seit seiner Kindheit. Allein über 1000 Trikots gehören dazu, viele bekam er von Spielern geschenkt.",
-      "blocks": [],
-      "whyGood": "Ein Fan zeigt, wie viel Freude eine Leidenschaft machen kann, die seit der Kindheit wächst.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "WDR",
-          "url": "https://www1.wdr.de/nrw/aachen-eifel/kreis-euskirchen/euskirchen-verrueckter-fc-koeln-fan-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/434a0499-581e-45ea-bdda-55e6504cce5c/AAABodloLnA/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "WDR",
-        "source": "https://www1.wdr.de/nrw/aachen-eifel/kreis-euskirchen/euskirchen-verrueckter-fc-koeln-fan-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-r11",
-      "ressort": "region",
-      "regions": [
-        "NW"
-      ],
-      "kicker": "Köln-Mülheim",
-      "headline": "Musical erzählt vom Weltmeistertitel der Frauen von 1981",
-      "teaser": "In Köln-Mülheim läuft das neue Musical „Kick like a Woman“. Es erzählt, wie die SSG 09 Bergisch Gladbach 1981 in Taipeh die inoffizielle Fußball-Weltmeisterschaft der Frauen gewann. Der DFB half damals nicht, das Team zahlte die Reise selbst.",
-      "blocks": [],
-      "whyGood": "Die fast vergessene Geschichte der Weltmeisterinnen von 1981 kommt jetzt auf die Bühne.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "WDR",
-          "url": "https://www1.wdr.de/sport/fussball/petra-landers-musical-100.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.tagesschau.de/image/c91e6cbc-bddf-4904-863c-6d20ccbc0283/AAABodmSWbk/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "WDR",
-        "source": "https://www1.wdr.de/sport/fussball/petra-landers-musical-100.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-r15",
-      "ressort": "region",
-      "regions": [
-        "TH"
-      ],
-      "kicker": "Saalburg-Ebersdorf",
-      "headline": "Bleilochstausee ist zum vierten Mal Thüringens Lieblingssee",
-      "teaser": "Der Bleilochstausee ist bei einer Online-Abstimmung erneut zum beliebtesten See Thüringens gewählt worden. Es ist schon das vierte Mal. Bundesweit landete er im Ranking „Dein Lieblingssee“ auf seen.de auf Platz elf.",
-      "blocks": [],
-      "whyGood": "Das „Thüringer Meer“ ist bei Wassersportlern, Wanderern und Radfahrern beliebt und bleibt der Liebling im Land.",
-      "honestNote": "Die Abstimmung war ein Publikumsvoting und keine repräsentative Studie.",
-      "sources": [
-        {
-          "name": "MDR",
-          "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saale-orla/talsperre-beliebt-voting,bleilochstausee-106.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 6,
-      "country": "DE",
-      "terms": [],
-      "image": {
-        "url": "https://images.mdr.de/image/ecd28709-5fd6-461c-808b-9426e3d5f253/AAABodm5qkg/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "MDR",
-        "source": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saale-orla/talsperre-beliebt-voting,bleilochstausee-106.html",
-        "kind": "source"
-      }
-    },
-    {
-      "id": "2026-11-15-r17",
-      "ressort": "region",
-      "regions": [
-        "BB"
-      ],
-      "kicker": "Freyenstein",
-      "headline": "Drohne mit Laser spürt verlassene Stadt aus dem Mittelalter auf",
-      "teaser": "Im Archäologischen Park Freyenstein erforschen das Landesamt für Denkmalpflege und die HTW Berlin eine im Jahr 1287 verlassene Stadt. Erstmals in Brandenburg suchen sie mit einer Laser-Drohne nach verborgenen Strukturen im Boden. Rund 20 Studierende helfen mit.",
-      "blocks": [],
-      "whyGood": "Neue Technik hilft, eine selten gut erhaltene mittelalterliche Stadt unter dem Acker weiter zu entdecken.",
-      "honestNote": null,
-      "sources": [
-        {
-          "name": "rbb24",
-          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/archaeologen-setzen-in-freyenstein-auf-drohnentechnik.html",
-          "language": "Deutsch"
-        }
-      ],
-      "brief": true,
-      "score": 5,
       "country": "DE",
       "terms": [
         {
-          "term": "Stadtwüstung",
-          "text": "Eine Stadtwüstung ist eine Stadt, die ihre Bewohner verlassen haben. Die Gebäude sind verschwunden, aber Reste liegen oft noch im Boden."
+          "term": "Süßlupine",
+          "text": "Die Süßlupine gehört zu den Hülsenfrüchten. Sie kann Stickstoff aus der Luft binden und braucht deshalb keinen zusätzlichen Dünger."
         }
       ],
       "image": {
-        "url": "https://images.tagesschau.de/image/8a480be5-5a68-4e5f-8894-1b115649f1d1/AAABodVaA_U/AAABnSSvgNE/16x9-1920.jpg",
-        "credit": "rbb24",
-        "source": "https://www.rbb24.de/panorama/beitrag/2026/11/archaeologen-setzen-in-freyenstein-auf-drohnentechnik.html",
+        "url": "https://img.br.de/4f12f7d3-1566-49b8-a5aa-ae6099ad1957.jpeg?q=80&rect=0%2C0%2C5706%2C3207&w=1600&h=900",
+        "credit": "BR24 Unterfranken",
+        "source": "https://www.br.de/nachrichten/bayern/lupinenkaffee-aus-bayern-regionale-antwort-aus-unterfranken-auf-teure-bohnen,VYZMKaa",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-r12",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Bensheim",
+      "headline": "Bensheim zeigt 7.000 Jahre alten Holzbrunnen und weitere Funde",
+      "teaser": "Das Stadtmuseum Bensheim zeigt Funde, die Archäologen in 15 Jahren in Südhessen entdeckt haben. Dazu gehören ein 7.000 Jahre alter Holzbrunnen, bronzezeitliche Anhänger und eine goldene Perle aus dem Mittelalter. Gezeigt wird vorerst eine Nachbildung des Brunnens.",
+      "blocks": [],
+      "whyGood": "Die Ausstellung macht Jahrtausende südhessischer Geschichte für alle erlebbar.",
+      "honestNote": "Der Brunnen ist in der Ausstellung vorerst nur als Nachbildung zu sehen, die Originalbretter sollen später gezeigt werden.",
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/suedhessen/stadtmuseum-bensheim-zeigt-archaeologische-funde-aus-suedhessen-v1,museum-bensheim-zeigt-archaeologische-funde-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.tagesschau.de/image/ab3c6cf2-3f4f-422f-93ff-dc4bd78bebdc/AAABod3bC1w/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/suedhessen/stadtmuseum-bensheim-zeigt-archaeologische-funde-aus-suedhessen-v1,museum-bensheim-zeigt-archaeologische-funde-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-r13",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Rostock",
+      "headline": "„Süßwasser“ gewinnt plattdeutschen Songcontest Plattbeats",
+      "teaser": "Beim Finale im Rostocker Peter-Weiss-Haus hat die Band „Süßwasser“ aus Rostock und Berlin gewonnen. Sie spielt Progressive- und Alternative-Rock. Elf Acts aus ganz Norddeutschland traten an, vier Preise gingen nach Mecklenburg-Vorpommern.",
+      "blocks": [],
+      "whyGood": "Plattdeutsche Musik begeistert viele junge Bands, und der Norden feiert ein starkes Finale.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/suesswasser-gewinnt-songcontest-plattbeats,mvregiorostock-5332.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/05b8edd9-b232-48d5-a0cc-2158faddc7eb/AAABoVlPPb4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/suesswasser-gewinnt-songcontest-plattbeats,mvregiorostock-5332.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-16-r14",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Plauen",
+      "headline": "Plauener „Vater und Sohn“-Räuchermännchen sind ein Renner",
+      "teaser": "Die Stadt Plauen wirbt mit Räuchermännchen von „Vater und Sohn“ für den Tag der Sachsen 2027. Die erste Auflage war schnell vergriffen. Nun hat die Stadt bei der Drechslerei Kuhnert rund 800 Figuren bestellt, 200 davon kommen nächste Woche.",
+      "blocks": [],
+      "whyGood": "Das Wahrzeichen der Stadt kommt bei den Menschen so gut an, dass die Figuren kaum nachkommen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/chemnitz/vogtland/nachfrage-hoch-nachbestellung,vater-sohn-raeuchermaennel-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/c719e972-aa9a-43bd-9649-389e5ed35ad1/AAABod-m0KE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/chemnitz/vogtland/nachfrage-hoch-nachbestellung,vater-sohn-raeuchermaennel-100.html",
         "kind": "source"
       }
     }
   ],
   "recipe": {
-    "title": "Ahorn-Kürbis-Overnight-Oats",
-    "intro": "Jetzt in der Kürbiszeit wird das Frühstück zum Geschenk an dein Morgen-Ich. Heute Abend zehn Minuten rühren, morgen früh gibt es ein cremiges Müsli mit Ahornsirup und Zimt.",
+    "title": "Vietnamesisches Karamellschwein (Thịt kho)",
+    "intro": "Zarter Schweinebauch in dunkler Karamellsauce wärmt an kalten Novemberabenden. Das meiste erledigt der Topf ganz von allein.",
     "servings": 4,
-    "minutes": 500,
+    "minutes": 140,
     "difficulty": "einfach",
     "ingredients": [
       {
-        "amount": 425,
-        "unit": "g",
-        "item": "Kürbispüree (1 Dose)"
-      },
-      {
-        "amount": 360,
-        "unit": "ml",
-        "item": "ungesüßte Milch oder Pflanzendrink"
-      },
-      {
-        "amount": 2,
-        "unit": "TL",
-        "item": "Vanillepaste oder Vanilleextrakt"
-      },
-      {
         "amount": 1,
-        "unit": "Prise",
-        "item": "Salz"
-      },
-      {
-        "amount": 60,
-        "unit": "ml",
-        "item": "Ahornsirup, plus mehr zum Servieren"
-      },
-      {
-        "amount": 0.5,
         "unit": "TL",
-        "item": "gemahlener Zimt oder Kardamom, plus mehr zum Servieren"
+        "item": "schwarze Pfefferkörner"
+      },
+      {
+        "amount": 750,
+        "unit": "g",
+        "item": "Schweinebauch oder gut durchwachsene Schulter, möglichst mit Schwarte"
       },
       {
         "amount": 3,
         "unit": "EL",
-        "item": "Chiasamen"
+        "item": "Zucker, am besten weißer"
       },
       {
-        "amount": 125,
-        "unit": "g",
-        "item": "zarte Haferflocken"
+        "amount": 100,
+        "unit": "ml",
+        "item": "heißes Wasser"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "item": "fein geriebener Ingwer"
+      },
+      {
+        "amount": 4,
+        "unit": "Stück",
+        "item": "Knoblauchzehen, geschält und zerdrückt"
+      },
+      {
+        "amount": 330,
+        "unit": "ml",
+        "item": "Kokoswasser"
+      },
+      {
+        "amount": 3,
+        "unit": "EL",
+        "item": "Fischsauce, nach Geschmack mehr"
+      },
+      {
+        "amount": 4,
+        "unit": "Stück",
+        "item": "Eier (oder 8 Wachteleier)"
       },
       {
         "amount": null,
         "unit": null,
-        "item": "Naturjoghurt, geröstete Kürbiskerne und/oder Granola zum Servieren"
+        "item": "rote Chili und/oder Frühlingszwiebel zum Servieren (optional)"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Reis und eingelegtes Gemüse zum Servieren"
       }
     ],
     "steps": [
-      "Kürbispüree, Milch, Vanille, Salz, Ahornsirup und Zimt in einer großen Schüssel glatt verrühren.",
-      "Die Chiasamen einrühren und die Masse 10 Minuten stehen lassen. So quellen die Samen gleichmäßig und klumpen nicht.",
-      "Die Masse noch einmal gut umrühren. Dann die Haferflocken untermischen.",
-      "Die Schüssel abdecken und mindestens 8 Stunden in den Kühlschrank stellen, am besten über Nacht.",
-      "Die Oats in Schalen füllen. Nach Wunsch mit Joghurt, Kürbiskernen oder Granola, etwas Ahornsirup und Zimt toppen."
+      "Wasser aufkochen. Pfefferkörner im Mörser oder mit der flachen Messerseite leicht anquetschen. Das Fleisch in große mundgerechte Stücke schneiden, jeweils mit Fett und magerem Anteil.",
+      "Den Zucker in einen großen Topf geben, am besten mit hellem Innenboden. Bei mittlerer Hitze schmelzen lassen, bis er tief goldbraun ist. Dabei im Auge behalten.",
+      "100 ml heißes Wasser einrühren, dann Pfeffer, Ingwer, Knoblauch und Fleisch dazugeben. Alles im Karamell wenden.",
+      "Kokoswasser und Fischsauce zugießen und aufkochen. Trüben Schaum abschöpfen. Hitze reduzieren, zugedeckt etwa 1 Stunde 45 Minuten sanft garen.",
+      "Die Eier in 10 Minuten hart kochen (Wachteleier 1:45 Minuten), kalt abschrecken, am stumpfen Ende anklopfen und unter kaltem Wasser schälen.",
+      "Die Eier in den letzten 5 Minuten in den Topf geben und erwärmen. Die Sauce abschmecken und bei Bedarf mit Fischsauce nachwürzen.",
+      "Ist die Sauce zu fettig, Fett nach dem Absetzen abschöpfen. Mit Chili oder Frühlingszwiebeln, Reis und eingelegtem Gemüse servieren."
     ],
-    "tip": "Die Oats ohne Toppings halten sich im Kühlschrank bis zu 4 Tage. Du kannst also gleich für die ganze Woche vorkochen.",
-    "icon": "leaf.fill",
+    "tip": "Du kannst das Gericht schon am Vortag kochen. Aufgewärmt schmeckt es noch besser, und das Fett lässt sich kalt leicht abheben.",
+    "icon": "fork.knife",
     "source": {
-      "name": "Bon Appétit",
-      "url": "https://www.bonappetit.com/recipe/maple-pumpkin-overnight-oats"
+      "name": "Guardian Food",
+      "url": "https://www.theguardian.com/food/2026/nov/15/how-to-make-the-perfect-vietnamese-caramel-pork-thit-kho-recipe-felicity-cloake"
     }
   }
 }
