@@ -1,0 +1,2289 @@
+{
+  "date": "2026-11-19",
+  "number": 52,
+  "isSample": false,
+  "leadStoryID": "2026-11-19-01",
+  "stories": [
+    {
+      "id": "2026-11-19-01",
+      "ressort": "natur",
+      "kicker": "Südpolarmeer",
+      "headline": "Blauwale in der Antarktis erholen sich deutlich",
+      "teaser": "Seit dem Ende des Walfangs wächst die Zahl der größten Tiere der Erde Jahr für Jahr. Forschende haben sie jetzt gezählt.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Antarktische Blauwale",
+          "before": {
+            "label": "1973",
+            "value": 418,
+            "display": "418 Wale"
+          },
+          "after": {
+            "label": "Heute",
+            "value": 4018,
+            "display": "4.018 Wale"
+          }
+        },
+        {
+          "type": "bigNumber",
+          "value": "4,5",
+          "unit": "% pro Jahr",
+          "caption": "wuchs die Zahl der Blauwale im Schnitt seit 1973",
+          "icon": "chart.line.uptrend.xyaxis"
+        },
+        {
+          "type": "timeline",
+          "title": "Der Weg zur Erholung",
+          "items": [
+            {
+              "year": "1964",
+              "text": "Die Internationale Walfangkommission verbietet das Töten der Blauwale."
+            },
+            {
+              "year": "1973",
+              "text": "Auch der illegale Walfang endet."
+            },
+            {
+              "year": "1978 bis 2004",
+              "text": "Schiffe zählen die Wale auf geraden Strecken im Südpolarmeer."
+            }
+          ]
+        }
+      ],
+      "whyGood": "Die größten Tiere, die je gelebt haben, kommen zurück. Das zeigt, dass sich Arten erholen können, wenn man sie schützt.",
+      "honestNote": "Die Zahl der Blauwale ist noch deutlich kleiner als vor dem Walfang.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 8,
+      "country": null,
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Blauwale leben heute im Südpolarmeer?",
+        "options": [
+          "Etwa 400",
+          "Etwa 4.000",
+          "Etwa 40.000"
+        ],
+        "answer": 1,
+        "reveal": "Es sind rund 4.018 Tiere. 1973 waren es nur 418.",
+        "icon": "water.waves"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2023/06/blue-whale-NOAA-pubdomain.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-02",
+      "ressort": "welt",
+      "kicker": "USA",
+      "headline": "Weniger Obdachlose in den USA: stärkster Rückgang seit zehn Jahren",
+      "teaser": "Zum zweiten Mal in Folge ist die Zahl der Menschen ohne Wohnung in den USA gesunken. So stark wie 2025 ging sie seit über zehn Jahren nicht zurück.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "49.000",
+          "unit": "Menschen",
+          "caption": "weniger ohne Wohnung als im Jahr davor, ein Rückgang von mehr als sechs Prozent",
+          "icon": "house.fill"
+        },
+        {
+          "type": "share",
+          "value": 60,
+          "label": "Weniger obdachlose Veteranen seit 2010",
+          "caption": "Bei ehemaligen Soldaten sank die Obdachlosigkeit um fast 60 Prozent, allein im letzten Jahr um mehr als sieben Prozent."
+        }
+      ],
+      "whyGood": "Nach Jahren mit Rekordwerten geht die Obdachlosigkeit zurück. Tausende Menschen haben wieder ein Dach über dem Kopf.",
+      "honestNote": "Fast 700.000 Menschen in den USA leben weiterhin in Notunterkünften oder auf der Straße.",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/11/us-homelessness-decline-hits-its-steepest-one-year-drop-in-a-decade/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Um wie viel ist die Obdachlosigkeit unter US-Veteranen seit 2010 gesunken?",
+        "options": [
+          "Um etwa 10 Prozent",
+          "Um etwa 30 Prozent",
+          "Um fast 60 Prozent"
+        ],
+        "answer": 2,
+        "reveal": "Bei Veteranen sank die Zahl seit 2010 um fast 60 Prozent, auch dank Programmen, die Menschen direkt in Wohnungen bringen.",
+        "icon": "house.fill"
+      },
+      "image": {
+        "url": "https://www.optimistdaily.com/wp-content/uploads/los-angeles-california-august-2021-Depositphotos_502426064_S.jpg",
+        "credit": "Optimist Daily",
+        "source": "https://www.optimistdaily.com/2026/11/us-homelessness-decline-hits-its-steepest-one-year-drop-in-a-decade/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-03",
+      "ressort": "kurioses",
+      "kicker": "Zhejiang, China",
+      "headline": "Geschwister bauen ihrer Mutter eine Treppe auf den Berg",
+      "teaser": "Die Mutter wollte nicht in der Stadt leben. Ihre Kinder bauten ihr in drei Monaten einen neuen Weg nach Hause.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "430",
+          "unit": "Stufen",
+          "caption": "führen jetzt zum Haus der Mutter auf dem Berg, teils direkt an einer steilen Felswand entlang",
+          "icon": "figure.walk"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Huang Zhulian, 58, plante den Bau und leitete ihn",
+            "Brüder und Cousins trugen Steine, eine Drohne half",
+            "Die Mutter gab 50 000 RMB aus ihren Ersparnissen dazu"
+          ],
+          "icons": [
+            "person.fill",
+            "hammer.fill",
+            "banknote.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Das Qingming-Fest",
+          "text": "Jedes Jahr im April reinigen Millionen Menschen in China die Gräber ihrer Familie. Die Mutter wollte dafür immer auf ihren Berg zurück. Der alte Pfad war aber zugewachsen."
+        }
+      ],
+      "whyGood": "Die Kinder helfen ihrer Mutter, so wie sie ihnen früher geholfen hat. Der neue Weg nützt auch Wanderern und Kräutersammlern der Gegend.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "CN",
+      "terms": [
+        {
+          "term": "Qingming-Fest",
+          "text": "Ein Gedenktag in China im April. Die Menschen besuchen dann die Gräber ihrer Familie und machen sie sauber."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Stufen hat die Treppe, die die Geschwister von Hand gebaut haben?",
+        "options": [
+          "43 Stufen",
+          "430 Stufen",
+          "4300 Stufen"
+        ],
+        "answer": 1,
+        "reveal": "Die Familie baute zwischen August und Oktober eine Treppe mit 430 Stufen.",
+        "icon": "figure.walk"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/86-year-old-mother-Chen-family-photo.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-04",
+      "ressort": "wissenschaft",
+      "kicker": "Frankfurt",
+      "headline": "Forscher setzen den Parthenon-Giebel wieder zusammen",
+      "teaser": "Ein Team aus Frankfurt hat nach über 40 Jahren alle Fragmente des Ostgiebels des Parthenon zugeordnet. Eine Ausstellung zeigt das Ergebnis.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 20,
+          "label": "des Marmors sind original erhalten",
+          "caption": "Nur dieser Rest des Giebels ist gesichert, verteilt auf viele Museen Europas."
+        },
+        {
+          "type": "count",
+          "value": 39,
+          "icon": "person.fill",
+          "caption": "Figuren zierten den Giebel, Zeus in der Mitte war 3,80 Meter groß"
+        },
+        {
+          "type": "bigNumber",
+          "value": "40",
+          "unit": "Jahre",
+          "caption": "Puzzlearbeit stecken in dem Ergebnis des Archäologen-Paares",
+          "icon": "clock.fill"
+        }
+      ],
+      "whyGood": "Ein Rätsel, das Fachleute jahrhundertelang beschäftigt hat, ist wohl gelöst. Moderne 3D-Technik und römische Kopien haben dabei geholfen. Das Ergebnis ist nun für alle zu sehen.",
+      "honestNote": "Das Ergebnis ist eine Rekonstruktion, auch wenn das Team sehr zuversichtlich ist.",
+      "sources": [
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/de/parthenon-puzzle-gelöst-so-sah-der-ostgiebel-des-antiken-meisterwerks-wohl-aus/a-79966471?maca=de-rss-de-all-1119-xml-mrss",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Giebel",
+          "text": "Der Giebel ist die dreieckige Fläche über dem Eingang eines Tempels. Beim Parthenon war sie mit Figuren aus Marmor geschmückt."
+        },
+        {
+          "term": "Fragmente",
+          "text": "Fragmente sind Bruchstücke. Hier sind es Teile von Figuren, die einmal zu einem großen Kunstwerk gehörten."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel vom Marmor des Ostgiebels ist gesichert original erhalten?",
+        "options": [
+          "Etwa 2 Prozent",
+          "Etwa 20 Prozent",
+          "Etwa 80 Prozent"
+        ],
+        "answer": 1,
+        "reveal": "Nur rund 20 Prozent des Marmors sind gesichert erhalten, der Rest musste rekonstruiert werden.",
+        "icon": "building.columns.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://static.dw.com/image/79969508_6.jpg",
+        "credit": "DW",
+        "source": "https://www.dw.com/de/parthenon-puzzle-gelöst-so-sah-der-ostgiebel-des-antiken-meisterwerks-wohl-aus/a-79966471?maca=de-rss-de-all-1119-xml-mrss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-05",
+      "ressort": "promis",
+      "kicker": "USA",
+      "headline": "Warren Buffett spendet Aktien im Wert von 5,5 Milliarden Dollar",
+      "teaser": "Zu Thanksgiving gibt der Investor Aktien an vier Familienstiftungen. Dazu schreibt er, dass Freundlichkeit mit der Zeit wächst.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Seine Thanksgiving Spende",
+          "before": {
+            "label": "Letztes Jahr",
+            "value": 1.3,
+            "display": "1,3 Mrd. Dollar"
+          },
+          "after": {
+            "label": "Dieses Jahr",
+            "value": 5.5,
+            "display": "5,5 Mrd. Dollar"
+          }
+        },
+        {
+          "type": "count",
+          "value": 4,
+          "icon": "building.columns.fill",
+          "caption": "Stiftungen der Familie Buffett erhalten die Aktien"
+        },
+        {
+          "type": "background",
+          "title": "Der Plan dahinter",
+          "text": "Buffett will fast alle seine Aktien von Berkshire Hathaway verschenken. Die Stiftungen sollen sie bis Ende 2034 bekommen. Die jährlichen Gaben sollen mit der Zeit größer werden."
+        }
+      ],
+      "whyGood": "Das Geld geht an Projekte für Bildung, Gesundheit und Ernährung. Buffett ruft dazu auf, sich bei Menschen zu bedanken, die einem geholfen haben, und selbst anderen zu helfen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/warren-buffett-gives-away-5-5-billion-thanksgiving-gift/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Jahre leitete Warren Buffett die Firma Berkshire Hathaway?",
+        "options": [
+          "Etwa 20 Jahre",
+          "Etwa 40 Jahre",
+          "Mehr als 60 Jahre"
+        ],
+        "answer": 2,
+        "reveal": "Buffett führte Berkshire Hathaway mehr als 60 Jahre lang und gibt nun fast alle seine Aktien weiter.",
+        "icon": "banknote.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/warren-buffett-gives-away-5-5-billion-thanksgiving-gift/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-06",
+      "ressort": "gesundheit",
+      "kicker": "Alzheimer",
+      "headline": "Neue Tablette könnte frühes Alzheimer bremsen",
+      "teaser": "Ein Wirkstoff aus der Familie der Viagra-Medikamente zeigt in einer großen Studie Wirkung. Fachleute sind vorsichtig, aber begeistert.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 31,
+          "label": "langsamerer geistiger Abbau",
+          "caption": "So viel langsamer ließ das Denken nach, bei Patienten im frühen Stadium ohne andere Alzheimer-Mittel."
+        },
+        {
+          "type": "count",
+          "value": 604,
+          "icon": "person.fill",
+          "caption": "Patienten ohne andere Alzheimer-Mittel nahmen an dieser Auswertung teil"
+        },
+        {
+          "type": "background",
+          "title": "Ein neuer Ansatz",
+          "text": "Der Wirkstoff AR1001 gehört zu den Phosphodiesterase-5-Hemmern. Er entspannt Blutgefäße und bringt mehr Blut ins Gehirn. Bisherige Mittel setzen oft an Eiweißablagerungen an. Diese Tablette nimmt man einmal am Tag."
+        }
+      ],
+      "whyGood": "Für Alzheimer gibt es bisher keine Heilung. Ein Mittel, das als Tablette wirkt und einen ganz neuen Weg geht, macht Hoffnung auf einfachere Behandlungen.",
+      "honestNote": "Bei Patienten, die zusätzlich andere Alzheimer-Mittel nahmen, zeigte sich kein klarer Effekt, weitere Studien sind nötig.",
+      "sources": [
+        {
+          "name": "Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [
+        {
+          "term": "Phosphodiesterase-5-Hemmer",
+          "text": "Das ist eine Gruppe von Medikamenten. Sie entspannen die Blutgefäße, sodass mehr Blut hindurchfließt."
+        }
+      ],
+      "guess": {
+        "question": "Um wie viel bremste die Tablette in der Studie den geistigen Abbau bei frühem Alzheimer?",
+        "options": [
+          "Um etwa 3 Prozent",
+          "Um etwa 31 Prozent",
+          "Um etwa 80 Prozent"
+        ],
+        "answer": 1,
+        "reveal": "Bei Patienten im frühen Stadium ohne andere Alzheimer-Mittel verlangsamte sich der Abbau um 31 Prozent.",
+        "icon": "pills.fill"
+      },
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/a2c0259d92f797035348a02d88f8fb4e671b1220/203_0_4354_3485/master/4354.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4664ed41bdfa3d2c287b59a1f2265860",
+        "credit": "Guardian Science",
+        "source": "https://www.theguardian.com/science/2026/nov/18/pill-mimics-viagra-can-slow-alzheimers-progression-by-third-study",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-07",
+      "ressort": "bildung",
+      "kicker": "Schule und Handy",
+      "headline": "Handyverbot an Schulen bringt messbar mehr Lernerfolg",
+      "teaser": "Eine Studie der Harvard Universität zeigt: Wo Handys strikt verboten sind, lernen Schüler besser. Der Effekt ist klein, aber er wächst.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "0,01",
+          "unit": "Standardabweichungen",
+          "caption": "mehr Lernzuwachs pro Jahr nach einem strengen Verbot. Das ist etwa halb so viel wie der jährliche Verlust seit 2013",
+          "icon": "chart.line.uptrend.xyaxis"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Streng heißt: Handys in Hüllen, zentral gelagert oder gar nicht auf dem Gelände",
+            "Beim Lesen stiegen die Werte im zweiten Jahr des Verbots noch stärker",
+            "Das Verbot greift nicht auf Lehrer an: Alle Klassen folgen denselben Regeln"
+          ],
+          "icons": [
+            "lock.fill",
+            "book.fill",
+            "graduationcap.fill"
+          ]
+        }
+      ],
+      "whyGood": "Schulen haben ein einfaches Mittel gefunden, das Lernen zu stärken. Die Werte sinken seit Jahren, und nun gibt es Hinweise, dass sie wieder langsam steigen können.",
+      "honestNote": "Der Effekt ist klein und zeigt sich nur bei strengen Verboten.",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-qa-schools-cellphones-uptick-scores.html",
+          "language": "Englisch"
+        },
+        {
+          "name": "Reasons to be Cheerful",
+          "url": "https://reasonstobecheerful.world/what-were-reading-phone-bans-improving-test-scores/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Standardabweichung",
+          "text": "Ein Maß dafür, wie weit Testergebnisse normalerweise auseinanderliegen. Damit kann man auch kleine Unterschiede zwischen Gruppen vergleichen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel zusätzlichen Unterricht bringt ein strenges Handyverbot laut Studie ungefähr pro Schuljahr?",
+        "options": [
+          "Ein bis zwei Wochen",
+          "Ein bis zwei Monate",
+          "Ein halbes Schuljahr"
+        ],
+        "answer": 0,
+        "reveal": "Der Lernzuwachs entspricht ein bis zwei Wochen zusätzlichem Unterricht pro Jahr.",
+        "icon": "book.fill"
+      },
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/2026/schools-that-ban-cellp.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-11-qa-schools-cellphones-uptick-scores.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-08",
+      "ressort": "zukunft",
+      "kicker": "Reis",
+      "headline": "KI-Genschere macht Reis widerstandsfähig gegen Bakterien",
+      "teaser": "Forschende nutzen ein frei verfügbares, von KI entworfenes Werkzeug. Es schaltet im Reis Gene aus, die ein gefährlicher Erreger braucht.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "97",
+          "unit": "%",
+          "caption": "Erfolgsquote erreichte die Genschere in einer Reissorte, die oft in der Forschung genutzt wird",
+          "icon": "leaf.fill"
+        },
+        {
+          "type": "share",
+          "value": 50,
+          "label": "mögliche Ernteverluste durch Blattfäule",
+          "caption": "Die Bakterienkrankheit kann bis zu diesem Anteil der Reisernte kosten."
+        },
+        {
+          "type": "background",
+          "title": "Warum ein offenes Werkzeug zählt",
+          "text": "Viele Genscheren sind patentiert. Wer sie nutzen will, braucht oft Lizenzen. OpenCRISPR-1 ist frei verfügbar. So können mehr Teams Pflanzen gegen Krankheiten stärken."
+        }
+      ],
+      "whyGood": "Reis ist für viele Menschen das wichtigste Essen. Ein offenes Werkzeug kann helfen, Ernten gegen Krankheiten zu schützen, auch für Teams ohne teure Lizenzen.",
+      "honestNote": "Ob es bei Handelssorten im Freiland genauso gut klappt, muss sich noch zeigen.",
+      "sources": [
+        {
+          "name": "Singularity Hub",
+          "url": "https://singularityhub.com/2026/11/18/scientists-use-ai-designed-crispr-to-make-disease-resistant-rice/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Genschere",
+          "text": "Ein Werkzeug, das ein Gen an einer genauen Stelle verändert oder ausschaltet. Es arbeitet wie eine Schere für das Erbgut."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel der Reisernte kann die Bakterienkrankheit Blattfäule im schlimmsten Fall vernichten?",
+        "options": [
+          "Bis zu 5 Prozent",
+          "Bis zu 15 Prozent",
+          "Bis zu 50 Prozent"
+        ],
+        "answer": 2,
+        "reveal": "Bis zu 50 Prozent der Ernte können durch die Krankheit verloren gehen.",
+        "icon": "leaf.fill"
+      },
+      "image": {
+        "url": "https://singularityhub.com/uploads/2026/11/rice-terraces-bali.jpeg?auto=webp",
+        "credit": "Singularity Hub",
+        "source": "https://singularityhub.com/2026/11/18/scientists-use-ai-designed-crispr-to-make-disease-resistant-rice/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-09",
+      "ressort": "architektur",
+      "kicker": "Thun",
+      "headline": "Thun plant ein neues Viertel aus Holz mit Blick auf die Alpen",
+      "teaser": "Vier Holzgebäude sollen am Stadteingang von Thun entstehen. Sie bieten Hotels und Wohnungen und lassen sich später wieder zerlegen.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 4,
+          "icon": "building.2.fill",
+          "caption": "Holzgebäude entstehen am westlichen Eingang der Stadt"
+        },
+        {
+          "type": "share",
+          "value": 50,
+          "label": "der Fläche sind Wohnungen",
+          "caption": "Von 13.000 Quadratmetern dienen etwa 6.500 dem Wohnen. Dazu kommen 6.000 für Hotels und 400 für Gewerbe."
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Zwei Hotels teilen sich ein gestuftes Holzhaus",
+            "Die Wohnhäuser öffnen sich zu einem gemeinsamen Gartenhof",
+            "Etwa 1.800 Quadratmeter Solarpaneele sind geplant"
+          ],
+          "icons": [
+            "building.2.fill",
+            "tree.fill",
+            "sun.max.fill"
+          ]
+        }
+      ],
+      "whyGood": "Das Viertel setzt auf Holz und senkt so den CO₂-Fußabdruck des Baus. Die Bauteile sind so geplant, dass man sie später wiederverwenden kann.",
+      "honestNote": "Der Entwurf muss noch weitere Planungs- und Genehmigungsschritte durchlaufen.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/big-timber-alpine-neighborhood-switzerland-siegenthalergut-thun-bjarke-ingels-group/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "CH",
+      "terms": [
+        {
+          "term": "Photovoltaik",
+          "text": "Photovoltaik wandelt Sonnenlicht mit Solarpaneelen direkt in Strom um."
+        },
+        {
+          "term": "Loggia",
+          "text": "Eine Loggia ist ein Balkon, der nach hinten in das Haus hineinreicht. Er ist an den Seiten geschützt."
+        }
+      ],
+      "guess": {
+        "question": "Wie viel Fläche mit Solarpaneelen ist für das neue Viertel geplant?",
+        "options": [
+          "etwa 180 Quadratmeter",
+          "etwa 1.800 Quadratmeter",
+          "etwa 18.000 Quadratmeter"
+        ],
+        "answer": 1,
+        "reveal": "Geplant sind etwa 1.800 Quadratmeter Photovoltaik, um erneuerbaren Strom zu erzeugen.",
+        "icon": "sun.max.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/BIG-siegenthalergut-hotel-urban-district-switzerland-designboom-FB.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/big-timber-alpine-neighborhood-switzerland-siegenthalergut-thun-bjarke-ingels-group/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-10",
+      "ressort": "design",
+      "kicker": "Paris",
+      "headline": "Pariser Studio lässt Stühle mit Pilzen im Boden wachsen",
+      "teaser": "Aléa Work lässt Pilze mitgestalten. Sie wachsen als Möbel im Boden und entfärben Stoffe zu neuen Mustern.",
+      "blocks": [
+        {
+          "type": "timeline",
+          "title": "Der Weg von Aléa Work",
+          "items": [
+            {
+              "year": "2021",
+              "text": "Miriam Josi und Stella Lee Prowse gründen das Studio in Paris."
+            },
+            {
+              "year": "2023",
+              "text": "Sie starten das Garden Lab in Boisbuchet in Frankreich."
+            },
+            {
+              "year": "Heute",
+              "text": "Sie züchten Stühle im Boden und entfärben Stoffe mit Pilzen."
+            }
+          ]
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die Stühle wachsen direkt im Boden und nutzen auch Abfallmaterial.",
+            "Pilze bauen Farbstoffe im Stoff ab und lassen Muster entstehen.",
+            "Das Studio will beim Wachsen auch den Boden reinigen."
+          ],
+          "icons": [
+            "leaf.fill",
+            "paintpalette.fill",
+            "drop.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was ist Myzel?",
+          "text": "Myzel ist das feine Netz aus Fäden, das Pilze im Boden bilden. Es baut organisches Material ab und hilft im Nährstoffkreislauf. Das Studio nutzt diese Kräfte fürs Design."
+        }
+      ],
+      "whyGood": "Das Studio zeigt, dass Design mit lebenden Partnern möglich ist. Dabei denkt es auch an den Boden und seine Gesundheit.",
+      "honestNote": "Materialien aus Myzel brauchen noch viele Tests, bevor sie breit einsetzbar sind.",
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/design/material-agency-alea-work-grows-chairs-underground-fungi-textiles-mycelium-interview/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "FR",
+      "terms": [
+        {
+          "term": "Myzel",
+          "text": "Myzel ist das Netz aus feinen Fäden, das ein Pilz meist unter der Erde bildet."
+        },
+        {
+          "term": "Nährstoffkreislauf",
+          "text": "Pflanzen, Pilze und Tiere geben Stoffe weiter, die sie zum Leben brauchen. So werden sie immer wieder genutzt."
+        }
+      ],
+      "guess": {
+        "question": "Wo ließ das Studio seinen ersten Stuhl aus Pilzen wachsen?",
+        "options": [
+          "In einem Labor",
+          "In der Erde im Freien",
+          "In einem Wasserbecken"
+        ],
+        "answer": 1,
+        "reveal": "Der erste Stuhl wuchs in Boisbuchet direkt im Boden, nicht im Labor.",
+        "icon": "leaf.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/alea-work-dirty-chair-mycelium-textiles-interview-designboom-FB.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/design/material-agency-alea-work-grows-chairs-underground-fungi-textiles-mycelium-interview/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-11",
+      "ressort": "fotografie",
+      "kicker": "Fotografie",
+      "headline": "National Geographic zeigt seine Bilder des Jahres 2026",
+      "teaser": "Von eisigen Gewässern in Grönland bis zu den Bergen Perus: Die Fotografen zeigen Momente, die sonst kaum jemand sieht.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 25,
+          "icon": "camera.fill",
+          "caption": "außergewöhnliche Fotos zeigen, was das vergangene Jahr geprägt hat"
+        },
+        {
+          "type": "bigNumber",
+          "value": "9",
+          "unit": "Monate",
+          "caption": "arbeitete Tony Wu in Japan für die ersten Bilder laichender Muränen in freier Wildbahn",
+          "icon": "fish.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Ein Kletterer hängt nach einer totalen Sonnenfinsternis an einer Klippe in Spanien.",
+            "Kiliii Yüyan fotografiert einen Grönlandhai im Ammassalik-Fjord.",
+            "Das Wasser dort war nur etwa minus 2 Grad Celsius kalt."
+          ],
+          "icons": [
+            "figure.walk",
+            "fish.fill",
+            "snowflake"
+          ]
+        }
+      ],
+      "whyGood": "Die Fotos zeigen Natur und Menschen von ihrer eindrucksvollen Seite. Sie machen Dinge sichtbar, die sonst im Verborgenen bleiben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/11/18/national-geographic-reveals-its-pictures-of-the-year-for-2026/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [
+        {
+          "term": "Fjord",
+          "text": "Ein Fjord ist eine lange, schmale Meeresbucht, die tief ins Land reicht. Meist liegt sie zwischen steilen Felswänden."
+        }
+      ],
+      "guess": {
+        "question": "Aus wie vielen Bildern wurden die besten Fotos des Jahres ausgewählt?",
+        "options": [
+          "Etwa 10.000",
+          "Etwa 100.000",
+          "Mehr als eine Million"
+        ],
+        "answer": 2,
+        "reveal": "Die Auswahl fiel auf mehr als einer Million Bilder, die Nat-Geo-Fotografen aufgenommen haben.",
+        "icon": "camera.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/11/Nat-Geo-Pictures-of-the-Year.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/11/18/national-geographic-reveals-its-pictures-of-the-year-for-2026/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-12",
+      "ressort": "kueche",
+      "kicker": "Mexiko-Stadt",
+      "headline": "Preis für den Schutz der Chinampas in Mexiko-Stadt",
+      "teaser": "Lucio Usobiaga hilft Bauernfamilien, die uralten Kanalinseln von Xochimilco zu erhalten. Dafür gewinnt er den „Nobelpreis der Gastronomie“.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "100.000",
+          "unit": "Euro",
+          "caption": "Preisgeld gibt es für ein Projekt, das der Gewinner selbst auswählt",
+          "icon": "eurosign.circle.fill"
+        },
+        {
+          "type": "count",
+          "value": 50,
+          "icon": "person.3.fill",
+          "caption": "Bauernfamilien arbeiten mit dem Netzwerk Arca Tierra zusammen"
+        },
+        {
+          "type": "map",
+          "place": "Xochimilco, Mexiko-Stadt",
+          "latitude": 19.26,
+          "longitude": -99.1,
+          "caption": "Hier liegen die Chinampas, künstliche Inseln in den Feuchtgebieten"
+        }
+      ],
+      "whyGood": "Der Preis macht die Arbeit der Chinampero-Bauern sichtbar. Ihre Felder filtern Wasser, halten Artenvielfalt und sind der letzte Lebensraum wilder Axolotl.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/11/lucio-usobiaga-wins-2026-nobel-prize-of-gastronomy-for-protecting-mexicos-chinampas-ecosystem/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "MX",
+      "terms": [
+        {
+          "term": "Chinampas",
+          "text": "Chinampas sind schmale, von Menschen gebaute Inseln zwischen Wasserkanälen. Darauf wachsen Gemüse, Mais und Blumen."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Restaurants in Mexiko-Stadt beliefern die Partnerhöfe von Arca Tierra?",
+        "options": [
+          "Etwa 6",
+          "Etwa 60",
+          "Etwa 600"
+        ],
+        "answer": 1,
+        "reveal": "Die Höfe liefern frisches Gemüse an rund 60 Restaurants in Mexiko-Stadt.",
+        "icon": "fork.knife"
+      },
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18091426/Lucio-Usobiaga--scaled.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/11/lucio-usobiaga-wins-2026-nobel-prize-of-gastronomy-for-protecting-mexicos-chinampas-ecosystem/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k01",
+      "ressort": "autos",
+      "kicker": "E-Auto-Akkus",
+      "headline": "Mustang Mach-E: Akku hat nach fünf Jahren noch 92 Prozent",
+      "teaser": "Ford hat die Batteriedaten von rund 36.000 Mustang Mach-E aus dem Modelljahr 2021 ausgewertet. Nach durchschnittlich 5,2 Jahren haben die Akkus noch 92 Prozent ihrer nutzbaren Kapazität. Bei 95 Prozent der Autos liegt der Wert zwischen 87 und 97 Prozent.",
+      "blocks": [],
+      "whyGood": "Die Akkus halten im Alltag deutlich länger als viele befürchten, auch bei Vielfahrern.",
+      "honestNote": "Die Zahlen stammen vom Hersteller selbst und gelten für Fahrzeuge in den USA und Kanada.",
+      "sources": [
+        {
+          "name": "ecomento",
+          "url": "https://feeds.feedblitz.com/~/973266989/0/ecomento_de~Mustang-MachE-im-Langzeittest-Ford-analysiert-Batterie-von-Elektroautos/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://ecomento.de/wp-content/uploads/2026/11/Ford-Mustang-Mach-E-2.jpg",
+        "credit": "ecomento",
+        "source": "https://feeds.feedblitz.com/~/973266989/0/ecomento_de~Mustang-MachE-im-Langzeittest-Ford-analysiert-Batterie-von-Elektroautos/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k02",
+      "ressort": "kultur",
+      "kicker": "Norditalien",
+      "headline": "Aus Sturmholz entstehen riesige Fabelwesen",
+      "teaser": "Der italienische Künstler Marco Martalar baut Skulpturen aus Ästen und Holz, das der Sturm Vaia 2018 in den Alpen gefällt hat. Dazu gehört ein großer Drache in Lavarone. Als ein Feuer ihn 2023 zerstörte, baute Martalar ihn mit der Gemeinde neu.",
+      "blocks": [],
+      "whyGood": "Aus Sturmschäden und Asche wird Kunst, die Menschen zusammenbringt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "My Modern Met",
+          "url": "https://mymodernmet.com/marco-martalar-wooden-sculptures/?adt_ei={{ subscriber.email_address }}",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IT",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/marco-martalar-sculptures-thumbnail.jpg",
+        "credit": "My Modern Met",
+        "source": "https://mymodernmet.com/marco-martalar-wooden-sculptures/?adt_ei={{ subscriber.email_address }}",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k03",
+      "ressort": "film",
+      "kicker": "Cardiff",
+      "headline": "13-Jährige malt Bild für alle Kinos in Großbritannien",
+      "teaser": "Freja Brown aus Cardiff ist 13 und liebt „Die Tribute von Panem“. Sie setzte sich gegen mehr als 1.000 Einsendungen durch. Ihr Gemälde läuft nun vor jeder Vorstellung des neuen Films in britischen Kinos.",
+      "blocks": [],
+      "whyGood": "Ein Mädchen, das erst vor drei Jahren mit Ölmalerei begann, bekommt eine riesige Bühne und trifft ihre Filmstars.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Entertainment",
+          "url": "https://www.bbc.co.uk/news/articles/cm4gnxjy5zllo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/718c/live/e3805b60-e368-11f1-9f51-4bfc31543510.jpg",
+        "credit": "BBC Entertainment",
+        "source": "https://www.bbc.co.uk/news/articles/cm4gnxjy5zllo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k04",
+      "ressort": "sport",
+      "kicker": "Biathlon",
+      "headline": "Janina Hettich-Walz startet als Mutter in die zweite Weltcup-Saison",
+      "teaser": "Janina Hettich-Walz bekam im Februar 2025 eine Tochter. Schon Ende November kehrte die Biathletin in den Weltcup zurück und erfüllte rasch die Olympia-Norm. Nun startet die 30-Jährige in ihre zweite Saison als Mutter im Spitzensport.",
+      "blocks": [],
+      "whyGood": "Die Biathletin zeigt, dass sich Spitzensport und Mutterschaft gut verbinden lassen, mit Unterstützung der Familie.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/wintersport/biathlon/biathletin-hettich-walz-im-wettkampf-bin-ich-sportlerin-nicht-mama,biathlon-mutterschaft-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Olympia-Norm",
+          "text": "Das ist die sportliche Leistung, die Athleten erbringen müssen, um sich für die Olympischen Spiele qualifizieren zu können."
+        }
+      ],
+      "image": {
+        "url": "https://images.sportschau.de/image/06af1d54-7e15-40ad-981b-fe030adeff4e/AAABoe8TlLY/AAABnSSvrFg/16x9-big/hettich-walz-schiessstand-100.jpg?width=1280",
+        "credit": "Sportschau",
+        "source": "https://www.sportschau.de/wintersport/biathlon/biathletin-hettich-walz-im-wettkampf-bin-ich-sportlerin-nicht-mama,biathlon-mutterschaft-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k05",
+      "ressort": "lifestyle",
+      "kicker": "Weitwandern",
+      "headline": "Christine Thürmer ist schon 70.000 Kilometer gewandert",
+      "teaser": "Die Fränkin Christine Thürmer ist 59 und wandert sechs Monate im Jahr. Die anderen sechs Monate ruht sie sich in Berlin aus. Ihre Bücher sind Bestseller, ihre Bühnenshows sind beliebt. Ihr Motto: „Wenn ich das kann, kannst du das auch.“",
+      "blocks": [],
+      "whyGood": "Christine Thürmer zeigt, dass man mit Mut und wenig Geld ein freies Leben führen kann, auch ohne sportliche Vorgeschichte.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Brigitte",
+          "url": "https://www.brigitte.de/leben/reise/zu-fuss-unterwegs--christine--59--gab-ihren-alltag-auf---und-wanderte-70-000-kilometer-weit-14118236.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://image.brigitte.de/14118602/t/U1/v2/w1440/r1.7778/-/teaser-weitwandererin.jpg",
+        "credit": "Brigitte",
+        "source": "https://www.brigitte.de/leben/reise/zu-fuss-unterwegs--christine--59--gab-ihren-alltag-auf---und-wanderte-70-000-kilometer-weit-14118236.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k06",
+      "ressort": "welt",
+      "kicker": "Kansas und Algerien",
+      "headline": "Algerien lädt Gastgeber aus Kansas zur Reise ihres Lebens ein",
+      "teaser": "Bei der WM 2026 wählte Algeriens Team die Stadt Lawrence in Kansas. Die Menschen dort empfingen die Gäste herzlich. Nun hat der Präsident Algeriens Familien aus Kansas eingeladen. Am Flughafen warteten früh um 4:30 Uhr Dutzende Vertreter mit Blumen.",
+      "blocks": [],
+      "whyGood": "Aus Freundlichkeit während eines Fußballturniers ist eine echte Freundschaft über Kontinente hinweg geworden.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/algeria-returns-kindness-shown-by-kansans-who-welcomed-its-world-cup-team-with-the-trip-of-a-lifetime/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DZ",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Screengrabs-retrieved-from-LAlgerie-fi-Kansas-City.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/algeria-returns-kindness-shown-by-kansans-who-welcomed-its-world-cup-team-with-the-trip-of-a-lifetime/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k07",
+      "ressort": "natur",
+      "kicker": "Artenvielfalt",
+      "headline": "Neue Flugfroschart schützt ihren Nachwuchs in Gallertmasse",
+      "teaser": "Forschende haben einen bislang unbekannten Flugfrosch entdeckt. Er bettet seine Eier in eine gallertartige Masse ein. Darin entwickeln sich die Kaulquappen geschützt.",
+      "blocks": [],
+      "whyGood": "Die Natur hält noch immer neue Arten und überraschende Tricks bereit.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/alias/bilder-der-woche/neu-entdeckte-froschart-ueberrascht-mit-ungewoehnlicher-brutpflege/2354908",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/thumbnails/Tadpoles-of-Rhacophorus-kurniatiae-in-unique-gelatinous-mass_c_WahyuTrilaksono_MuseumZoologicumBogoriense_FireflyUpscaler2x.jpg.8426578.jpg?f=1280x720",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/alias/bilder-der-woche/neu-entdeckte-froschart-ueberrascht-mit-ungewoehnlicher-brutpflege/2354908",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k08",
+      "ressort": "kurioses",
+      "kicker": "Arizona",
+      "headline": "Streunender Hund schließt sich Kojotenrudel in Arizona an",
+      "teaser": "Eine Frau in Arizona stellte Wildkameras in ihrem Garten auf, um Tiere zu filmen. Dabei hielt sie einen ungewöhnlichen Fall fest: einen Hund, der mit einem Rudel Kojoten unterwegs ist. Das Video zeigt die seltene Gemeinschaft.",
+      "blocks": [],
+      "whyGood": "Die Aufnahmen zeigen, dass sich Tiere manchmal überraschend gut verstehen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "UPI Odd News",
+          "url": "https://www.upi.com/Odd_News/2026/11/18/tucson-dog-coyote-pack/4721795027869/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": []
+    },
+    {
+      "id": "2026-11-19-k09",
+      "ressort": "wissenschaft",
+      "kicker": "Andromeda-Galaxie",
+      "headline": "Forscher beobachten erstmals Verschmelzung zweier Sterne live",
+      "teaser": "Ein Stern, der etwas leichter ist als die Sonne, ist in einen aufgeblähten Überriesen in der Andromeda-Galaxie gestürzt. Ein Team um Viraj Karambelkar hat das beobachtet. Das Weltraumteleskop James Webb schaute schon 47 Tage nach dem Helligkeitsmaximum hin.",
+      "blocks": [],
+      "whyGood": "Die seltene Verschmelzung wurde erstmals in dieser Form beobachtet, und das zeigt uns, wie Sterne sich verändern können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/11/STScI-01M6GTRN4J7R6FEJ4AJXM567QT.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "credit": "NASA",
+        "source": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k10",
+      "ressort": "gesundheit",
+      "kicker": "Parkinson",
+      "headline": "Winzige Magnete lindern Parkinson-Symptome bei Mäusen",
+      "teaser": "Ein internationales Team um die Uni Erlangen-Nürnberg spritzt magnetische Nanoplättchen in tiefe Hirnregionen. Ein äußeres Magnetfeld aktiviert dann die Nervenzellen. Bei Mäusen mit Parkinson-ähnlichen Symptomen besserten sich die Bewegungsprobleme deutlich, ganz ohne dauerhafte Elektroden.",
+      "blocks": [],
+      "whyGood": "Eines Tages könnte die Hirnstimulation bei Parkinson ohne große Operation und ohne Implantat auskommen.",
+      "honestNote": "Bisher wurde die Methode nur an Mäusen getestet.",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Nanoplättchen",
+          "text": "Das sind extrem kleine, flache Teilchen. Sie sind viel dünner als ein Haar und nur unter starken Mikroskopen zu sehen."
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/magnetic-field-brain-treatment.webp",
+        "credit": "ScienceDaily Health",
+        "source": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k11",
+      "ressort": "zukunft",
+      "kicker": "Córdoba",
+      "headline": "Vitamin B12 macht Zink-Luft-Akkus wiederaufladbar",
+      "teaser": "Forschende der Universität Córdoba in Spanien haben einen wiederaufladbaren Zink-Luft-Akku gebaut. Vitamin B12 wirkt darin als Katalysator an der Luftelektrode. Der Prototyp überstand im Labor bis zu 250 Lade- und Entladezyklen.",
+      "blocks": [],
+      "whyGood": "Ein sicherer Speicher mit reichlich verfügbarem Zink und nicht brennbarer Flüssigkeit könnte Strom aus Sonne und Wind künftig besser speichern.",
+      "honestNote": "Der Akku ist bisher ein Prototyp, der nur im Labor getestet wurde.",
+      "sources": [
+        {
+          "name": "t3n",
+          "url": "https://t3n.de/news/zink-luft-batterie-vitamin-b12-stromspeicher-1774192/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "ES",
+      "terms": [
+        {
+          "term": "Katalysator",
+          "text": "Ein Katalysator beschleunigt eine chemische Reaktion, ohne selbst verbraucht zu werden."
+        }
+      ],
+      "image": {
+        "url": "https://cdn.t3n.de/news/wp-content/uploads/2021/02/Horgerate-Horhilfe-Shutterstock-Pixel-Shot.jpg?class=content",
+        "credit": "t3n",
+        "source": "https://t3n.de/news/zink-luft-batterie-vitamin-b12-stromspeicher-1774192/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k12",
+      "ressort": "architektur",
+      "kicker": "Montreal",
+      "headline": "Montreal baut Platz für Frauen über einer Schnellstraße",
+      "teaser": "In Montreal deckt die neue Place des Montréalaises eine abgesenkte Schnellstraße ab. Das Büro Lemay hat sie mit der Künstlerin Angela Silver und den Ingenieuren von AtkinsRéalis gestaltet. Der Platz verbindet die Altstadt mit der Innenstadt.",
+      "blocks": [],
+      "whyGood": "Aus einer Schneise für Autos wird ein Ort zum Verweilen, der an außergewöhnliche Frauen erinnert.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1188837/place-des-montrealaises-lemay-plus-angela-silver-plus-atkinsrealis",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CA",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6afd/7a7f/eabd/2a00/0193/1c1e/large_jpg/001-Place-des-Montrealaises_Lemay_AngelaSilver_AtkinsRealis_credit-Vincent-Brillant.jpg?1794996905",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1188837/place-des-montrealaises-lemay-plus-angela-silver-plus-atkinsrealis",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k13",
+      "ressort": "sport",
+      "kicker": "Schottland",
+      "headline": "Vom Zeugwart zum Trainer: Fellowes führt Dumbarton mit 28",
+      "teaser": "Martin Fellowes ist neuer Trainer des schottischen Klubs Dumbarton. Mit 28 Jahren ist er der jüngste Trainer in der Geschichte der SPFL. Beim FC East Kilbride begann er als Jugendlicher als Zeugwart und gewann 2023 als Interimstrainer den Lowland League Cup.",
+      "blocks": [],
+      "whyGood": "Ein junger Mann zeigt, dass man sich vom Zeugwart bis auf die Trainerbank hocharbeiten kann.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c61k9mz9vvkyo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c880/live/28da6540-e37b-11f1-b879-03485a55c082.jpg",
+        "credit": "BBC Sport",
+        "source": "https://www.bbc.co.uk/sport/football/articles/c61k9mz9vvkyo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k14",
+      "ressort": "design",
+      "kicker": "Mode",
+      "headline": "Emma Watson trägt Kleid aus Biomaterial ohne Erdöl",
+      "teaser": "Die Künstlerin Carolina Zimbalist hat mit Emma Watson ein rotes Kleid entworfen. Es besteht aus Seide, die mit selbst gemachtem Biomaterial überzogen ist. Es enthält unter anderem Erbsenpulver und pflanzliches Glycerin. Watson trug es bei der Art+Film Gala des LACMA.",
+      "blocks": [],
+      "whyGood": "Ein Kleid auf dem roten Teppich zeigt, dass nachhaltige Materialien auch Kunst und Mode sein können.",
+      "honestNote": "Bisher ist das Kleid ein Einzelstück, Zimbalist hofft aber auf den Einsatz in der breiten Mode.",
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/18/caroline-zimbalist-biomaterial-dress-emma-watson/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Biopolymer",
+          "text": "Ein Biopolymer ist ein Material aus langen Molekülketten, das aus natürlichen Stoffen besteht. Seide ist ein Beispiel dafür."
+        }
+      ],
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/caroline-zimbalist-emma-watson-biomaterial-dress_dezeen_2364_col_1.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/18/caroline-zimbalist-biomaterial-dress-emma-watson/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k15",
+      "ressort": "natur",
+      "kicker": "Tier des Jahres",
+      "headline": "Fransenfledermaus ist Tier des Jahres 2027",
+      "teaser": "Die Fransenfledermaus hat die Wahl gegen Waldiltis und Zwergmaus gewonnen. Das teilte die Deutsche Wildtier Stiftung in Hamburg mit. Die Stiftung will auf eine unbekannte Art aufmerksam machen und Menschen für Fledermäuse begeistern.",
+      "blocks": [],
+      "whyGood": "Eine bisher wenig beachtete Fledermaus bekommt Aufmerksamkeit, und mit ihr alle 25 heimischen Fledermausarten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Spektrum",
+          "url": "https://www.spektrum.de/news/die-fransenfledermaus-ist-tier-des-jahres-2027/2354834",
+          "language": "Deutsch"
+        },
+        {
+          "name": "Utopia",
+          "url": "https://utopia.de/ratgeber/tier-des-jahres-2027-eine-fledermaus-die-spinnen-von-waenden-pflueckt_994135/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://static.spektrum.de/fm/912/thumbnails/AdobeStock_520424539.jpeg.8426353.jpeg?f=1280x720",
+        "credit": "Spektrum",
+        "source": "https://www.spektrum.de/news/die-fransenfledermaus-ist-tier-des-jahres-2027/2354834",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k16",
+      "ressort": "welt",
+      "kicker": "Erneuerbare Energien",
+      "headline": "Solarstrom wächst weltweit viel schneller als erwartet",
+      "teaser": "Die Internationale Energieagentur erwartete 2006, dass sich die Photovoltaik bis 2030 um das 25-Fache steigert. Heute ist es schon das 750-Fache. Ein Grund: Solarzellen lassen sich viel günstiger herstellen. Rund ein Drittel des weltweiten Stroms kommt aus Erneuerbaren.",
+      "blocks": [],
+      "whyGood": "Sauberer Strom ist günstiger und weiter verbreitet, als Fachleute lange dachten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "tagesschau Wirtschaft",
+          "url": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": null,
+      "terms": [
+        {
+          "term": "Photovoltaik",
+          "text": "Photovoltaik wandelt Sonnenlicht mit Solarzellen direkt in elektrischen Strom um."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/7eeea111-5507-4b41-98d9-3773cab28406/AAABoeQj7lM/AAABnSSvrFg/16x9-big/photovoltaikanlage-116.jpg?width=1280",
+        "credit": "tagesschau Wirtschaft",
+        "source": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k17",
+      "ressort": "wissenschaft",
+      "kicker": "Saudi-Arabien",
+      "headline": "Wo heute Wüste ist, lag vor 125.000 Jahren ein riesiger See",
+      "teaser": "In Saudi-Arabien haben Forschende an einem alten Seeufer Steinwerkzeuge, Tierfossilien und seltene Pflanzenreste gefunden. Der See war etwa 340 Quadratkilometer groß und bis zu 29 Meter tief. Die Funde zeigen, wie frühe Menschen im „Grünen Arabien“ lebten.",
+      "blocks": [],
+      "whyGood": "Die Funde zeigen uns ein Stück verlorene Menschheitsgeschichte und lassen eine grüne Vergangenheit der Wüste lebendig werden.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "SA",
+      "terms": [],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/aggressive-male-hippo-charging.webp",
+        "credit": "ScienceDaily",
+        "source": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k18",
+      "ressort": "zukunft",
+      "kicker": "TU Wien",
+      "headline": "Schmutzmagnet aus Schrott und Altbatterien reinigt Wasser",
+      "teaser": "Ein Team der TU Wien hat magnetische Nanopartikel aus rostigen Nägeln und Altbatterien gebaut. Sie binden Farbstoffe im Abwasser und lassen sich mit einem Magneten entfernen. Im Labor dauerte das beim Farbstoff Kongorot 15 bis 25 Minuten.",
+      "blocks": [],
+      "whyGood": "Aus Abfall wird ein Mittel, das Wasser sauberer machen kann, und es ist womöglich auch noch günstiger.",
+      "honestNote": "Noch ist unklar, wie sich die magnetischen Partikel auf die Umwelt auswirken, deshalb sind Pilotstudien mit belastetem Abwasser geplant.",
+      "sources": [
+        {
+          "name": "futurezone",
+          "url": "https://futurezone.at/science/schmutzmagnet-abwasser-altbatterien-nachhaltigkeit-wasserqualitaet-tu-wien/403206539",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "AT",
+      "terms": [
+        {
+          "term": "Nanopartikel",
+          "text": "Nanopartikel sind winzig kleine Teilchen. Sie sind so klein, dass man sie mit bloßem Auge nicht sehen kann."
+        }
+      ],
+      "image": {
+        "url": "https://image.futurezone.at/images/facebook/9378951/46-185352263.jpg?versionId=3d583f981724",
+        "credit": "futurezone",
+        "source": "https://futurezone.at/science/schmutzmagnet-abwasser-altbatterien-nachhaltigkeit-wasserqualitaet-tu-wien/403206539",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k19",
+      "ressort": "architektur",
+      "kicker": "Maharashtra",
+      "headline": "Neuer Spielplatz entsteht rund um einen alten Banyanbaum",
+      "teaser": "Im indischen Dorf Hignigada bei Baramati wollte der junge Dorfvorsteher einen Spielbereich für Schulkinder. Das Büro Craft Narrative plante ihn um einen Banyanbaum auf dem Schulgelände. Der Baum ist nun der Mittelpunkt der 15 Quadratmeter großen Anlage.",
+      "blocks": [],
+      "whyGood": "Ein Dorf schafft für seine Kinder einen Ort zum Spielen, der den Baum und den gemeinsamen Treffpunkt der Menschen bewahrt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1188502/pod-for-happiness-craft-narrative",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IN",
+      "terms": [
+        {
+          "term": "Banyanbaum",
+          "text": "Der Banyanbaum ist eine Feigenart aus Südasien. Er wird sehr groß und spendet viel Schatten."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6af4/821f/c23f/1f01/895a/f4b6/large_jpg/pod-for-happiness-craft-narrative_4.jpg?1794409026",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1188502/pod-for-happiness-craft-narrative",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k20",
+      "ressort": "design",
+      "kicker": "Berlin",
+      "headline": "Design Zentrum Berlin zeigt sich neu in leuchtendem Orange",
+      "teaser": "Das Internationale Design Zentrum Berlin (IDZ) hat ein neues Erscheinungsbild. Gestaltet hat es das Studio Peter Post × Petra Esveld. Auffällig sind kräftiges Orange und ein Z, das in der Mitte unterbrochen ist und so Öffnung und Verbindung zeigt.",
+      "blocks": [],
+      "whyGood": "Eine Institution, die seit 1968 für Design wirbt, stellt sich mutig neu auf und regt mit klugen Fragen zum Nachdenken an.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PAGE",
+          "url": "https://page-online.de/kreation/gutes-leben-by-design-was-gestaltung-kann-zeigt-der-neue-auftritt-des-idz/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://page-online.de/app/uploads/2026/11/peterxpetra_IDZ-Plakatwand.jpg",
+        "credit": "PAGE",
+        "source": "https://page-online.de/kreation/gutes-leben-by-design-was-gestaltung-kann-zeigt-der-neue-auftritt-des-idz/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k21",
+      "ressort": "natur",
+      "kicker": "Santa Clara",
+      "headline": "Forschende der Santa Clara University retten seltene Wildblume",
+      "teaser": "Die Santa-Clara-Valley-Dudleya wächst nur im Coyote Valley in Kalifornien. Ein Team um Justen Whittall sammelt Samen, züchtet die Pflanze im Labor und setzt sie wieder aus. Ein Kollege züchtet bunte Sorten für Gärtnereien, damit weniger Wildpflanzen gestohlen werden.",
+      "blocks": [],
+      "whyGood": "Zwei Teams der Universität arbeiten mit Forschung und einer klugen Marktidee dafür, dass eine einzigartige Pflanze nicht ausstirbt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/students-fighting-to-save-poached-plant-species-that-only-exists-near-their-campus/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Santa-Clara-Valley-Habitat-Authority.jpg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/students-fighting-to-save-poached-plant-species-that-only-exists-near-their-campus/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k22",
+      "ressort": "wissenschaft",
+      "kicker": "Karlsruhe",
+      "headline": "Zukunftspreis geht an Karlsruher Team für Chips mit Licht",
+      "teaser": "Christian Koos, Matthias Lauermann und Philipp Dietrich erhalten den Deutschen Zukunftspreis. Ihre Technik überträgt Daten mit Licht statt Strom. Das soll Datennetze und KI-Rechenzentren schneller und sparsamer machen.",
+      "blocks": [],
+      "whyGood": "Eine deutsche Forschungsidee kann dazu beitragen, dass Daten künftig schneller fließen und weniger Energie verbrauchen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "tagesschau",
+          "url": "https://www.tagesschau.de/wissen/forschung/zukunftspreis-110.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/0f01818e-9276-4c62-85d0-fe32a5d49eb6/AAABofAwtGU/AAABnSSvrFg/16x9-big/zukunftspreis-112.jpg?width=1280",
+        "credit": "tagesschau",
+        "source": "https://www.tagesschau.de/wissen/forschung/zukunftspreis-110.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k23",
+      "ressort": "architektur",
+      "kicker": "Bengaluru",
+      "headline": "Landhaus in Indien wächst um 40 Kokospalmen herum",
+      "teaser": "Das Nodecraft Studio hat in Bengaluru das Aalok Farmhouse gebaut. Es besteht aus mehreren Pavillons und misst 279 Quadratmeter. Kein Baum wurde gefällt und das Gefälle von rund viereinhalb Metern blieb, wie es war.",
+      "blocks": [],
+      "whyGood": "Ein Haus zeigt, dass Bauen und Natur zusammenpassen, wenn man das Grundstück zum Ausgangspunkt macht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "AD Deutschland",
+          "url": "https://www.ad-magazin.de/artikel/so-entstand-fuer-eine-familie-in-indien-ein-landhaus-rund-um-40-kokospalmen",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IN",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://assets.ad-magazin.de/photos/6afae29c78cdef06f3e0174d/16:9/w_1280,c_limit/Untitled%20Design%20-%202026-10-08T122117.143.jpg",
+        "credit": "AD Deutschland",
+        "source": "https://www.ad-magazin.de/artikel/so-entstand-fuer-eine-familie-in-indien-ein-landhaus-rund-um-40-kokospalmen",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k24",
+      "ressort": "natur",
+      "kicker": "Bhutan",
+      "headline": "Bhutan gewinnt Earthshot-Preis für den Schutz seiner Wälder",
+      "teaser": "Bhutan erhält den Earthshot-Preis 2026 in der Kategorie „Protect and Restore Nature“. Das Land hat fast 70 Prozent Waldfläche und schreibt den Naturschutz in der Verfassung fest. Die Million Pfund fließt in „Restore Bhutan“, ein Programm für 50.000 Hektar.",
+      "blocks": [],
+      "whyGood": "Ein kleines Land zeigt, dass Naturschutz im Gesetz wirkt, und bekommt Geld, um noch mehr Wald und Land zu retten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/short-article/2026/11/bhutan-wins-1-3m-earthshot-prize-for-maintaining-70-forest-cover/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "BT",
+      "terms": [],
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18163336/25769847585_c0897fbe2a_k.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/short-article/2026/11/bhutan-wins-1-3m-earthshot-prize-for-maintaining-70-forest-cover/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-k25",
+      "ressort": "architektur",
+      "kicker": "Nantes",
+      "headline": "Nantes baut sieben neue Grundschulen und saniert 27 weitere",
+      "teaser": "Die Stadt Nantes will ihre Viertel weiterentwickeln. Dafür baut sie sieben neue Grundschulen und saniert 27 bestehende. Das Büro Dominique Coulon & associés erneuert und erweitert zwei davon, darunter die Schule La Beaujoire.",
+      "blocks": [],
+      "whyGood": "Viele Kinder in Nantes bekommen neue oder erneuerte Schulen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1188659/renovation-and-extension-of-la-beaujoire-nursery-and-primary-school-in-nantes-dominique-coulon-and-associes",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "FR",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6af8/b99e/c23f/1f01/895a/fe5b/large_jpg/renovation-and-extension-of-la-beaujoire-nursery-and-primary-school-in-nantes-dominique-coulon-and-associes_27.jpg?1794685357",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1188659/renovation-and-extension-of-la-beaujoire-nursery-and-primary-school-in-nantes-dominique-coulon-and-associes",
+        "kind": "source"
+      }
+    }
+  ],
+  "joke": {
+    "setup": "„Herr Ober, was macht die Fliege in meiner Suppe?“",
+    "punchline": "„Ich glaube, Rückenschwimmen.“"
+  },
+  "comic": {
+    "series": "sandraundwoo",
+    "title": "Sandra und Woo",
+    "episode": "Der Junge braucht ‘ne Therapie und mehr",
+    "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0070.png",
+    "pages": [
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0070.png",
+        "width": 980,
+        "height": 330,
+        "title": "Der Junge braucht ‘ne Therapie",
+        "panels": [
+          [
+            0.0061,
+            0.0182,
+            0.3224,
+            0.8848
+          ],
+          [
+            0.3408,
+            0.0182,
+            0.3235,
+            0.8848
+          ],
+          [
+            0.6776,
+            0.0182,
+            0.3163,
+            0.8848
+          ]
+        ]
+      },
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0072.png",
+        "width": 980,
+        "height": 328,
+        "title": "Invasive Tierarten",
+        "panels": [
+          [
+            0.0061,
+            0.0183,
+            0.2378,
+            0.8841
+          ],
+          [
+            0.2571,
+            0.0183,
+            0.2347,
+            0.8841
+          ],
+          [
+            0.5051,
+            0.0183,
+            0.2347,
+            0.8841
+          ],
+          [
+            0.7531,
+            0.0183,
+            0.2408,
+            0.8841
+          ]
+        ]
+      },
+      {
+        "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0074.png",
+        "width": 980,
+        "height": 686,
+        "title": "Rascher Rückzug",
+        "panels": [
+          [
+            0.0061,
+            0.0087,
+            0.9878,
+            0.4825
+          ],
+          [
+            0.0061,
+            0.5073,
+            0.4122,
+            0.4461
+          ],
+          [
+            0.4265,
+            0.5073,
+            0.5673,
+            0.4461
+          ]
+        ]
+      }
+    ],
+    "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
+    "link": "https://www.sandraandwoo.com/woode/",
+    "linkTitle": "Mehr von Sandra und Woo"
+  },
+  "recommendation": {
+    "kind": "podcast",
+    "label": "Podcast",
+    "title": "Comfort Eating",
+    "creator": "Siobhán McSweeney (neue Gastgeberin, zuvor Grace Dent)",
+    "year": null,
+    "text": "Der Guardian hebt den Podcast in seinen Wochentipps hervor, weil Siobhán McSweeney neu als Gastgeberin dabei ist. Es geht um Essen, das tröstet, und um die Geschichten dahinter. Genau das Richtige für einen entspannten Hörmoment.",
+    "forWhom": "Für alle, die gern über Lieblingsgerichte plaudern und sich beim Zuhören wohlfühlen wollen.",
+    "link": null,
+    "source": {
+      "name": "Guardian Hear Here",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/09/chris-packhams-lovely-new-wildlife-show-best-podcasts-of-the-week"
+    }
+  },
+  "weekly": null,
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-11-19-03",
+        "question": "Wer plante und leitete den Bau der Treppe zum Haus der Mutter?",
+        "options": [
+          "Huang Zhulian",
+          "Ein Cousin der Mutter",
+          "Ein Bauunternehmer",
+          "Die Mutter selbst"
+        ],
+        "answer": 0
+      },
+      {
+        "storyID": "2026-11-19-09",
+        "question": "Wie viele Holzgebäude sollen am Stadteingang von Thun entstehen?",
+        "options": [
+          "Zwei",
+          "Vier",
+          "Sechs",
+          "Acht"
+        ],
+        "answer": 1
+      },
+      {
+        "storyID": "2026-11-19-12",
+        "question": "Wie hoch ist das Preisgeld für Lucio Usobiaga?",
+        "options": [
+          "10.000 Euro",
+          "50.000 Euro",
+          "100.000 Euro",
+          "500.000 Euro"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-11-19-r01",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Oldenburg",
+      "headline": "Seltene Pflanze blüht erstmals in Deutschland",
+      "teaser": "Im Botanischen Garten Oldenburg steht die „Oldenburgia grandis“ kurz vor der Blüte. Nach Angaben der Universität blüht die Art zum ersten Mal in Deutschland. Ende November soll sie in voller Blüte stehen.",
+      "blocks": [],
+      "whyGood": "Eine Pflanze aus Südafrika blüht zum ersten Mal in Deutschland und macht den Botanischen Garten zu etwas Besonderem.",
+      "honestNote": "Wie lange die Pflanze blüht, ist noch unbekannt, denn dazu fehlt bisher die Erfahrung.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/sensation-in-oldenburg-pflanze-blueht-zum-ersten-mal-in-deutschland,oldenburgia-108.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Korbblütler",
+          "text": "Das ist eine große Pflanzenfamilie. Viele ihrer Blüten bestehen aus vielen kleinen Einzelblüten. Auch die Artischocke gehört dazu."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/70a29b23-7dd2-4457-bdf9-10c448e21a1d/AAABoe8cssU/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/sensation-in-oldenburg-pflanze-blueht-zum-ersten-mal-in-deutschland,oldenburgia-108.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r02",
+      "ressort": "region",
+      "regions": [
+        "ST"
+      ],
+      "kicker": "Merseburg und Gerbstedt",
+      "headline": "Zwei Projekte aus Sachsen-Anhalt gewinnen Nachbarschaftspreis",
+      "teaser": "Beim Deutschen Nachbarschaftspreis in Berlin wurden zwei Projekte aus Sachsen-Anhalt ausgezeichnet. „JuSe“ aus Merseburg bringt junge Menschen mit Migrationshintergrund und Senioren zusammen und bekam 5.000 Euro. „Kunstkonsum“ aus Heiligenthal bei Gerbstedt erhielt als Landessieger 2.000 Euro.",
+      "blocks": [],
+      "whyGood": "Engagement vor Ort wird sichtbar, und Jung und Alt kommen in Sachsen-Anhalt zusammen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/projekte-merseburg-gerbstedt,nachbarschafts-preis-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/58e5eeed-79bc-4475-b677-1f0a940c7022/AAABoe4uwCw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/projekte-merseburg-gerbstedt,nachbarschafts-preis-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r03",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Kiel",
+      "headline": "Kieler Café stellt nur Seniorinnen und Senioren ein",
+      "teaser": "In der Kieler Dahlmannstraße hat die „Flyggerei“ eröffnet. Seniorinnen und Senioren backen und bedienen dort auf Mini-Job-Basis. Nach Angaben der Projektleitung ist das Konzept in Schleswig-Holstein einmalig.",
+      "blocks": [],
+      "whyGood": "Das Café gibt älteren Menschen eine Aufgabe und einen Ort, an dem sie gebraucht werden.",
+      "honestNote": "Zunächst wird das Projekt noch durch Spenden und eine Stiftung finanziert, später soll es sich selbst tragen.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/gegen-einsamkeit-im-alter-neues-kieler-cafe-stellt-nur-senioren-ein,seniorencafe-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 8,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/47420938-cd7d-42db-ae7b-0a3f7ae0e62b/AAABoe-FbAw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/gegen-einsamkeit-im-alter-neues-kieler-cafe-stellt-nur-senioren-ein,seniorencafe-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r04",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Konstanz",
+      "headline": "Konstanz bekommt sein erstes Geburtshaus",
+      "teaser": "In einer alten Villa nahe dem Klinikum Konstanz entsteht ein Geburtshaus. Zwölf Ehrenamtliche haben das Projekt in eineinhalb Jahren auf den Weg gebracht. Wenn alles klappt, öffnet es Anfang 2027, mit Kursen, Therapie und Geburtshilfe.",
+      "blocks": [],
+      "whyGood": "Frauen am Bodensee bekommen künftig eine Alternative zur Klinik, wenn sie ihr Kind zur Welt bringen.",
+      "honestNote": "Die Eröffnung gilt nur, wenn alles nach Plan läuft, und für eine zweite Gebärwanne wird noch Geld gesammelt.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/erstes-konstanzer-geburtshaus-kurz-vor-eroeffnung-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/ea0e597a-8e66-48b4-a2cf-6e1dbb4b6f88/AAABmYUrPXM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/erstes-konstanzer-geburtshaus-kurz-vor-eroeffnung-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r05",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Nürnberg",
+      "headline": "Metzger verteilt Gratis-Leberkässemmeln gegen Rassismus",
+      "teaser": "Ein Video über seine Fachverkäuferin aus Simbabwe brachte Metzgermeister Dirk Freyberger viel Zuspruch. Als auch Hasskommentare kamen, zeigte er etwa 34 davon an und verschenkte Leberkässemmeln an alle, außer an Rassisten. Die Polizei ermittelt.",
+      "blocks": [],
+      "whyGood": "Eine Nürnberger Metzgerei stellt sich mit einer freundlichen Aktion klar hinter ihre Mitarbeiterin und gegen Rassismus.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Mittelfranken",
+          "url": "https://www.br.de/nachrichten/bayern/gegen-rassismus-metzger-verteilt-leberkaes-semmeln-gratis,VbKksLa",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/8c2fc23c-01bc-4c27-b520-462b3b835c49.jpeg?q=80&rect=0%2C32%2C776%2C436&w=1600&h=900",
+        "credit": "BR24 Mittelfranken",
+        "source": "https://www.br.de/nachrichten/bayern/gegen-rassismus-metzger-verteilt-leberkaes-semmeln-gratis,VbKksLa",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r06",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Regensburg",
+      "headline": "Samuel (10) darf einen Tag lang Sportreporter sein",
+      "teaser": "Der zehnjährige Samuel Leibl aus Ascha wollte Sportreporter werden. Der Bayerische Rundfunk machte das im Rahmen von #BayernsKinder möglich. Beim Spiel Jahn Regensburg gegen Hansa Rostock führte er Interviews mit Spielern und war in der Halbzeit auf Sendung.",
+      "blocks": [],
+      "whyGood": "Ein Kinderwunsch wurde wahr, und Samuel meisterte seinen großen Tag wie ein Profi.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Niederbayern",
+          "url": "https://www.br.de/nachrichten/sport/bayernskinder-br-aktion-erfuellt-samuels-sportreporter-traum,VbLI0QA",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/2f9bf641-3f3c-443f-99b3-86cc2cee34f4.jpeg?q=80&rect=0%2C0%2C1687%2C950&w=1600&h=900",
+        "credit": "BR24 Niederbayern",
+        "source": "https://www.br.de/nachrichten/sport/bayernskinder-br-aktion-erfuellt-samuels-sportreporter-traum,VbLI0QA",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r07",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Bremerin segelt zehn Jahre lang um die Welt",
+      "teaser": "Inga Hinrichsen aus Bremen und ihr Freund haben sich einen Traum erfüllt. Sie sind einmal um die Welt gesegelt. Zehn Jahre waren sie auf See und haben knapp 40 Länder gesehen. Jetzt sind sie zurück in Bremen.",
+      "blocks": [],
+      "whyGood": "Zwei Menschen haben nach zehn Jahren auf See ihren großen Traum von der Weltumsegelung wahr gemacht.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/bremen-segeln-weltumfahrt-rueckkehr-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/inga-hinrichsen-seglerin-boot-100~_v-1280x720_c-1795021273095.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/bremen-segeln-weltumfahrt-rueckkehr-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r08",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Waren",
+      "headline": "Neues Autismus-Therapiezentrum hilft Familien in Waren",
+      "teaser": "In Waren hat vor rund vier Monaten ein Autismus-Therapiezentrum der Lebenshilfe Neubrandenburg eröffnet. Die Therapeuten beziehen Eltern und Schule ein. Der neunjährige Daniil kann dank Bildkarten und festen Abläufen seine Wünsche besser äußern.",
+      "blocks": [],
+      "whyGood": "Kinder mit Autismus und ihre Familien bekommen in Waren Hilfe, die im Alltag ankommt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/neues-autismus-therapiezentrum-unterstuetzt-familien-in-waren,therapie-126.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/1b17b073-370c-4fa5-aa73-cae042e84dc7/AAABodB3dBM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/neues-autismus-therapiezentrum-unterstuetzt-familien-in-waren,therapie-126.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r09",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Xanten",
+      "headline": "Xanten baut Friedhofsteil zum „Friedpark“ für Kinder um",
+      "teaser": "Auf dem Xantener Friedhof stehen jetzt eine Schaukel für zwei Kinder, eine bunte Rutsche und eine Tafel zum Üben der Fingerfertigkeit. Der alte evangelische Teil wird zum „Friedpark“. Die Stadt will mehr Leben auf den Friedhof bringen und die Ruhe der Trauernden achten.",
+      "blocks": [],
+      "whyGood": "Kinder bekommen auf dem Friedhof einen eigenen Raum, in dem sie auf ihre Art trauern und spielen können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/niederrhein/kreis-wesel/friedhof-spielplatz-tod-xanten-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/8a7b059c-b7ae-4998-b208-8f9ea1515dcc/AAABofAPK4Y/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/niederrhein/kreis-wesel/friedhof-spielplatz-tod-xanten-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r10",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Duisburg",
+      "headline": "Duisburger Jugendliche lernen, eigene Rap-Songs zu machen",
+      "teaser": "Im Duisburger Projekt von Nextstage e.V. schreiben Jugendliche zwischen 14 und 18 Jahren eigene Texte und mischen Songs ab. Die Coaches sind selbst Anfang 20 und arbeiten auf Augenhöhe. Sie wollen Mut machen und das Angebot ist kostenlos.",
+      "blocks": [],
+      "whyGood": "Junge Menschen bekommen kostenlos Raum, Technik und Mut, um ihre Ideen in Musik zu verwandeln.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/ruhrgebiet/duisburg/rap-duisburg-jungendliche-kurs-musik-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/263e6ee1-5cba-4bb8-ac34-617089b7cb07/AAABofA829Y/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/ruhrgebiet/duisburg/rap-duisburg-jungendliche-kurs-musik-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r11",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarbrücken",
+      "headline": "Tafel Saarbrücken öffnet jetzt auch samstags",
+      "teaser": "Die Tafel Saarbrücken hat ab dieser Woche an sechs Tagen geöffnet. Neue Kunden sollen dadurch schneller aufgenommen werden. In diesem Jahr versorgt sie über 2.700 Kundinnen und Kunden, doppelt so viele wie im Vorjahr.",
+      "blocks": [],
+      "whyGood": "Mehr Menschen mit wenig Geld bekommen schneller Lebensmittel.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/angespannte_lage_bei_tafeln_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/c8d206f8-e4f3-4545-908c-44f12ffdfaea/AAABoe_AU9Y/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/angespannte_lage_bei_tafeln_100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r12",
+      "ressort": "region",
+      "regions": [
+        "ST"
+      ],
+      "kicker": "Halle",
+      "headline": "Händel-Festspiele 2027 stellen Einsamkeit in den Mittelpunkt",
+      "teaser": "Die Händel-Festspiele in Halle widmen sich 2027 dem Thema Einsamkeit. Rund 100 Veranstaltungen an 27 Orten greifen es auf, auch in Altenheimen und in der JVA „Roter Ochse“. Es ist der Auftakt einer Reihe, die später Freundschaft und Gemeinschaft behandelt.",
+      "blocks": [],
+      "whyGood": "Ein großes Musikfest bringt Konzerte zu Menschen, die sonst oft allein sind, und macht Zusammenleben zum Thema.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/haendel-festspiele-kultur-news-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/18666f97-c329-4826-897c-914a7808db98/AAABoe8xpTw/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/haendel-festspiele-kultur-news-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r13",
+      "ressort": "region",
+      "regions": [
+        "SH"
+      ],
+      "kicker": "Schleswig-Holstein",
+      "headline": "25 Millionen Euro für fünf Jugendherbergen im Norden",
+      "teaser": "Schleswig-Holstein modernisiert fünf Jugendherbergen. Gefördert werden Häuser in Lauenburg, Plön, Wyk auf Föhr, am Brahmsee und in Niendorf. Das Geld kommt aus dem Sondervermögen des Bundes. Bis 2030 sollen die Häuser energetisch saniert sein.",
+      "blocks": [],
+      "whyGood": "Junge Gäste können auch künftig in modernen und klimafreundlicheren Jugendherbergen übernachten.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/sh-foerdert-fuenf-jugendherbergen-mit-25-millionen-euro,jugendherberge-190.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/326d674d-5616-44c9-bcd8-ad2bb8d93764/AAABn9x0UPE/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/schleswig-holstein/sh-foerdert-fuenf-jugendherbergen-mit-25-millionen-euro,jugendherberge-190.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r14",
+      "ressort": "region",
+      "regions": [
+        "HH"
+      ],
+      "kicker": "Hamburg-Altona",
+      "headline": "Abitur und Trainerschein zusammen am Gymnasium Allee",
+      "teaser": "Am Gymnasium Allee in Altona machen 23 Schülerinnen und Schüler im Sportprofil die C-Lizenz für den Breitensport. Die Ausbildung läuft zwei Jahre neben dem Unterricht, gemeinsam mit der Hamburger Sportjugend. Das hilft auch den Vereinen, die Nachwuchs-Trainer suchen.",
+      "blocks": [],
+      "whyGood": "Junge Menschen lernen früh, Gruppen anzuleiten, und die Vereine bekommen dringend gesuchten Trainer-Nachwuchs.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/Artikelvorlage-HH,trainerscheinalsschulfach-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Breitensport",
+          "text": "Breitensport ist Sport für alle in der Freizeit. Es geht um Spaß und Bewegung, nicht um Wettkämpfe auf Spitzenniveau."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/67445967-5cf8-462b-8c24-7b83d94eb332/AAABoep7LYA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/hamburg/Artikelvorlage-HH,trainerscheinalsschulfach-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r16",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Stralsund",
+      "headline": "Mit der Taschenlampe abends durchs Ozeaneum",
+      "teaser": "Im Ozeaneum in Stralsund gibt es wieder Taschenlampenführungen. Nach Feierabend des Museums führt eine Museumspädagogin im Schein der Lampen durch die Unterwasserwelt der Fische. Sechs Termine gibt es bis Anfang Dezember.",
+      "blocks": [],
+      "whyGood": "Kinder und Erwachsene können die Fische abends im Dunkeln ganz neu entdecken.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/stralsund-mit-der-taschenlampe-durchs-ozeaneum,mvregiogreifswald-6412.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/86182a1b-5f9a-4ec9-9e3b-f3877c72ff6c/AAABoe2pj5o/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/stralsund-mit-der-taschenlampe-durchs-ozeaneum,mvregiogreifswald-6412.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r17",
+      "ressort": "region",
+      "regions": [
+        "NI"
+      ],
+      "kicker": "Schöningen",
+      "headline": "Schöninger Speere: Alle 750 Holzfunde jetzt als Buch kostenlos",
+      "teaser": "Vier Jahre lang haben Forscher die rund 300.000 Jahre alten Holzfunde aus Schöningen untersucht. Das Ergebnis ist ein Band mit 800 Seiten und 1.000 Fotos. Er ist auf Englisch auf der Website der Universität Heidelberg gratis zum Download.",
+      "blocks": [],
+      "whyGood": "Wer sich für die Steinzeit interessiert, kann jetzt alle Funde von Schöningen kostenlos von zu Hause aus ansehen.",
+      "honestNote": "Ob die UNESCO Schöningen zum Welterbe erklärt, steht noch nicht fest.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/steinzeit-speere-von-schoeningen-jetzt-als-bildband-zum-download,speere-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "MRT",
+          "text": "Das ist ein Gerät, das mit Magnetfeldern Bilder aus dem Inneren eines Gegenstands macht. So lässt sich etwas untersuchen, ohne es zu zerstören."
+        }
+      ],
+      "image": {
+        "url": "https://images.ndr.de/image/60d6b78e-e107-460f-8c5d-6a1782fe2ab3/AAABodCVJKQ/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/steinzeit-speere-von-schoeningen-jetzt-als-bildband-zum-download,speere-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-19-r18",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarlouis",
+      "headline": "Erster und letzter Saarlouiser Ford stehen jetzt im Museum",
+      "teaser": "Im Städtischen Museum Saarlouis sind der erste Ford Escort von 1970 und der letzte Focus vom November 2025 zu sehen. Ford ist mit 840 Beschäftigten weiter der größte Arbeitgeber der Stadt. Seit Januar stellt das Werk vor allem Ersatzteile für ganz Europa her.",
+      "blocks": [],
+      "whyGood": "Das Werk hat Zukunft: Es beschäftigt 840 Menschen und soll in diesem Jahr 2,2 Millionen Ersatzteile herstellen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/ford_escort_focus_saarlouis_museum_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/bc81262a-e936-4fbd-b2e1-1691f73584ed/AAABoe2iVa4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/ford_escort_focus_saarlouis_museum_100.html",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Spaghetti mit karamellisiertem Kohl",
+    "intro": "Im November hat Weißkohl und Wirsing Saison, und aus einem einfachen Kohlkopf wird hier ein cremiges Wohlfühlgericht. Es braucht nur wenige Zutaten und ist in 45 Minuten fertig.",
+    "servings": 4,
+    "minutes": 45,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": 340,
+        "unit": "g",
+        "item": "Spaghetti"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Salz"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "ungesalzene Butter"
+      },
+      {
+        "amount": 1.4,
+        "unit": "kg",
+        "item": "Weißkohl (ein großer Kopf), Strunk entfernt, in dünne Streifen geschnitten"
+      },
+      {
+        "amount": 6,
+        "unit": "Stück",
+        "item": "Knoblauchzehen, in dünne Scheiben geschnitten"
+      },
+      {
+        "amount": 1,
+        "unit": "Stück",
+        "item": "Bio-Zitrone, nur die Schale"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "item": "Parmesan, fein gerieben"
+      },
+      {
+        "amount": 360,
+        "unit": "ml",
+        "item": "Sahne"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "Dijon-Senf"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "frisch gemahlener Pfeffer"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "fein gehackter Dill zum Servieren (optional)"
+      }
+    ],
+    "steps": [
+      "Die Spaghetti in reichlich gesalzenem Wasser kochen, eine Minute kürzer als auf der Packung steht. Abgießen und etwa 480 ml Nudelwasser auffangen.",
+      "Die Butter im leeren Nudeltopf bei starker Hitze schmelzen. Kohl und Knoblauch dazugeben.",
+      "Den Kohl unter häufigem Rühren 18 bis 25 Minuten braten, bis er sehr weich ist und braune Stellen hat.",
+      "Zitronenschale, Parmesan, Sahne, Senf und die Spaghetti zum Kohl geben und alles gut vermengen.",
+      "Ist die Sauce zu dick, nach und nach einen Schuss Nudelwasser unterrühren, bis sie glänzt.",
+      "Mit Salz und Pfeffer abschmecken, in tiefen Tellern anrichten und nach Wunsch mit Dill bestreuen."
+    ],
+    "tip": "Etwas Zitronensaft am Ende macht das Gericht frischer. Statt Weißkohl passt auch Spitzkohl.",
+    "icon": "leaf.fill",
+    "source": {
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/recipe/caramelized-cabbage-pasta"
+    }
+  }
+}
