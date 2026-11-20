@@ -3,101 +3,53 @@
  "busch": 2,
  "sandraundwoo": 77,
  "last": {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "comic": {
-   "series": "sandraundwoo",
-   "title": "Sandra und Woo",
-   "episode": "Der Junge braucht ‘ne Therapie und mehr",
-   "image": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0070.png",
-   "pages": [
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0070.png",
-     "width": 980,
-     "height": 330,
-     "title": "Der Junge braucht ‘ne Therapie",
-     "panels": [
-      [
-       0.0061,
-       0.0182,
-       0.3224,
-       0.8848
-      ],
-      [
-       0.3408,
-       0.0182,
-       0.3235,
-       0.8848
-      ],
-      [
-       0.6776,
-       0.0182,
-       0.3163,
-       0.8848
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0072.png",
-     "width": 980,
-     "height": 328,
-     "title": "Invasive Tierarten",
-     "panels": [
-      [
-       0.0061,
-       0.0183,
-       0.2378,
-       0.8841
-      ],
-      [
-       0.2571,
-       0.0183,
-       0.2347,
-       0.8841
-      ],
-      [
-       0.5051,
-       0.0183,
-       0.2347,
-       0.8841
-      ],
-      [
-       0.7531,
-       0.0183,
-       0.2408,
-       0.8841
-      ]
-     ]
-    },
-    {
-     "url": "https://mrcgxl.github.io/thedailygood/comics/sandraundwoo/0074.png",
-     "width": 980,
-     "height": 686,
-     "title": "Rascher Rückzug",
-     "panels": [
-      [
-       0.0061,
-       0.0087,
-       0.9878,
-       0.4825
-      ],
-      [
-       0.0061,
-       0.5073,
-       0.4122,
-       0.4461
-      ],
-      [
-       0.4265,
-       0.5073,
-       0.5673,
-       0.4461
-      ]
-     ]
-    }
-   ],
-   "credit": "Sandra und Woo von Oliver Knörzer (Autor) und Powree (Künstlerin), CC BY-NC-ND 3.0",
-   "link": "https://www.sandraandwoo.com/woode/",
-   "linkTitle": "Mehr von Sandra und Woo"
+   "series": "sonnewolke",
+   "title": "Sonne & Wolke",
+   "episode": "Pommes im Mondschein",
+   "strip": {
+    "storyID": "2026-11-20-k14",
+    "panels": [
+     {
+      "prop": "moon.fill",
+      "caption": null,
+      "sun": {
+       "mood": "lacht",
+       "text": "Kartoffeln wachsen in Mondstaub! Forscher haben es getestet!"
+      },
+      "cloud": {
+       "mood": "skeptisch",
+       "text": "Auf dem Mond. Wo es nicht mal regnet."
+      }
+     },
+     {
+      "prop": "carrot.fill",
+      "caption": null,
+      "sun": {
+       "mood": "froh",
+       "text": "Mit 30 Prozent Wurmkompost wachsen sie wie in Erde von hier!"
+      },
+      "cloud": {
+       "mood": "grübelt",
+       "text": "Und die restlichen 70 Prozent?"
+      }
+     },
+     {
+      "prop": "fork.knife",
+      "caption": "Später …",
+      "sun": {
+       "mood": "staunt",
+       "text": "Mondstaub! Heißen sie dann Mondäpfel statt Erdäpfel?"
+      },
+      "cloud": {
+       "mood": "froh",
+       "text": "Egal. Ich nehme Pommes. Als Halbmonde geschnitten."
+      }
+     }
+    ]
+   },
+   "credit": "Ein Comic von The Daily Good"
   }
  }
 }
