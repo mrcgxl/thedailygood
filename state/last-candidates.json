@@ -1,58 +1,65 @@
 [
  {
   "item_ids": [
-   "i102"
+   "i96",
+   "i1"
   ],
-  "ressort": "gesundheit",
-  "score": 8,
-  "heavy": true,
-  "reason": "Pille gegen Bauchspeicheldrüsenkrebs als größter Durchbruch seit Jahrzehnten",
+  "ressort": "wissenschaft",
+  "score": 7,
+  "heavy": false,
+  "reason": "Drohnen fangen Walatem auf und ermöglichen die komplette Genomsequenzierung ohne Eingriff.",
   "items": [
    {
-    "source": "Guardian Science",
+    "source": "NPR Science",
     "language": "Englisch",
-    "title": "Pill to treat pancreatic cancer hailed as ‘biggest breakthrough in decades’",
-    "summary": "Cancer undetectable for one in 12 patients in daraxonrasib trial, while nearly all participants’ tumours stopped growing A pill that can shrink and potentially eliminate pancreas tumours is being hailed as the biggest breakthrough treatment for the cancer in decades. In one in …",
-    "link": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-    "time": 1795167370,
-    "media": [
-     "https://i.guim.co.uk/img/media/d7bac7cca6890657580a396f9255cf7d7b3d2874/1250_0_6250_5000/master/6250.jpg?width=700&quality=85&auto=format&fit=max&s=798f85f127cc6bd9c2d9dd460dda125a",
-     "https://i.guim.co.uk/img/media/d7bac7cca6890657580a396f9255cf7d7b3d2874/1250_0_6250_5000/master/6250.jpg?width=460&quality=85&auto=format&fit=max&s=e2ca8a4d2e603e4906f96dd1cf7d874a",
-     "https://i.guim.co.uk/img/media/d7bac7cca6890657580a396f9255cf7d7b3d2874/1250_0_6250_5000/master/6250.jpg?width=140&quality=85&auto=format&fit=max&s=a39b86006934a5fbc1b4dadf13458620"
-    ],
-    "id": "i102"
+    "title": "Scientists sequenced a whale's entire genome using drones and whale snot",
+    "summary": "Scientists were able to sequence the entire genome of a whale using samples of its snot. They used sharp flying skills and commercial drones affixed with petri dishes to collect the samples.",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6044816/scientists-sequenced-a-whales-entire-genome-using-drones-and-whale-snot",
+    "time": 1795264815,
+    "media": [],
+    "id": "i96"
+   },
+   {
+    "source": "Good News Network",
+    "language": "Englisch",
+    "title": "Breath of a Whale Captured by Drone Allows Full Genome Sequencing Without Intrusion",
+    "summary": "The exhale from a whale’s blowhole has been captured by drones, and used to complete the genome sequencing of one of the ocean giants for the first time. Researchers from the University of St. Andrews in Scotland were part of an international team to sequence a whole genome …",
+    "link": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+    "time": 1795282230,
+    "media": [],
+    "id": "i1"
    }
   ]
  },
  {
   "item_ids": [
-   "i10"
+   "i3"
   ],
   "ressort": "gesundheit",
   "score": 7,
-  "heavy": true,
-  "reason": "CAR-T-Therapie lässt Stiff-Person-Patienten wieder gehen und arbeiten",
+  "heavy": false,
+  "reason": "Einmalige CRISPR-Infusion senkt schlechtes Cholesterin um 52 Prozent, Effekt hält über ein Jahr.",
   "items": [
    {
-    "source": "Optimist Daily",
+    "source": "Good News Network",
     "language": "Englisch",
-    "title": "CAR-T therapy helps stiff person syndrome patients walk and work again",
-    "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM A cell therapy built to fight cancer is helping people with stiff person syndrome get back on their feet. In an early trial led by neurologists at Mayo Clinic, patients who had needed family members to help them walk and handle daily tasks …",
-    "link": "https://www.optimistdaily.com/2026/11/car-t-therapy-helps-stiff-person-syndrome-patients-walk-and-work-again/",
-    "time": 1795132807,
+    "title": "First Human Trial to Slash Bad Cholesterol by 50% With One Injection of CRISPR Gene-Editing Therapy",
+    "summary": "A one-time infusion of CRISPR gene editing therapy slashed dangerous cholesterol by 52%, with the patients still experiencing the benefit 12 months after initial treatment, and without side effects. The Cleveland Clinic in Ohio reported that their Phase 1 human trial showed a …",
+    "link": "https://www.goodnewsnetwork.org/first-human-trial-to-slash-bad-cholesterol-by-50pt-with-one-crispr-injection/",
+    "time": 1795271070,
     "media": [],
-    "id": "i10"
+    "id": "i3"
    }
   ]
  },
  {
   "item_ids": [
-   "i170"
+   "i142"
   ],
   "ressort": "gesundheit",
   "score": 5,
   "heavy": false,
-  "reason": "Stent-freie Behandlung mit Ballonkatheter",
+  "reason": "Beschichtete Ballonkatheter könnten Stents bei Koronarsklerose oft ersetzen.",
   "items": [
    {
     "source": "Ärzteblatt",
@@ -62,1143 +69,718 @@
     "link": "https://www.aerzteblatt.de/news/koronarsklerose-beschichtete-ballonkatheter-ermoglichen-stent-freie-behandlung-69d2828a-baab-4928-9f84-d31204ee984a",
     "time": 1795193322,
     "media": [],
-    "id": "i170"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i243",
-   "i71",
-   "i225",
-   "i66"
-  ],
-  "ressort": "wissenschaft",
-  "score": 7,
-  "heavy": false,
-  "reason": "Riemann-Vermutung angeblich mit KI bewiesen, Prüfung steht aus",
-  "items": [
-   {
-    "source": "The Verge",
-    "language": "Englisch",
-    "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-    "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark …",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-    "time": 1795192453,
-    "media": [],
-    "id": "i243"
-   },
-   {
-    "source": "Spektrum",
-    "language": "Deutsch",
-    "title": "Riemannsche Vermutung bewiesen: KI löst offenbar wichtigstes Problem der Mathematik",
-    "summary": "Mehr als 160 Jahre lang widerstand die riemannsche Vermutung allen Beweisversuchen. Nun hat Levent Alpöge eine Lösung präsentiert. Das Problem: Nicht einmal er versteht den Beweis.",
-    "link": "https://www.spektrum.de/news/anthropic-ki-claude-beweist-riemannsche-vermutung/2355427",
-    "time": 1795194000,
-    "media": [
-     "https://static.spektrum.de/fm/912/thumbnails/Complex_zeta.jpg.8133379.jpg?f=1280x720"
-    ],
-    "id": "i71"
-   },
-   {
-    "source": "BBC Technology",
-    "language": "Englisch",
-    "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
-    "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
-    "link": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-    "time": 1795216137,
-    "media": [
-     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg"
-    ],
-    "id": "i225"
-   },
-   {
-    "source": "SPIEGEL Wissenschaft",
-    "language": "Deutsch",
-    "title": "Riemann-Vermutung: Mathematiker behauptet, mit KI einen Beweis für den »heiligen Gral« der Mathematik gefunden zu haben",
-    "summary": "Seit mehr als 160 Jahren beißen sich Mathematiker daran die Zähne aus: Ein Anthropic-Mitarbeiter will nun mithilfe von KI den Beweis für die Riemann-Vermutung erbracht haben – versteht ihn aber offenkundig selbst noch nicht ganz.",
-    "link": "https://www.spiegel.de/wissenschaft/riemann-vermutung-mathematiker-behauptet-mit-ki-einen-beweis-fuer-den-heiligen-gral-der-mathematik-gefunden-zu-haben-a-cb24fb59-9f4e-44f7-a7cc-c3c19418721b#ref=rss",
-    "time": 1795195800,
-    "media": [
-     "https://cdn.prod.www.spiegel.de/images/2cc4ca21-af7c-41b4-adf6-7eab79ac8605_w520_r2.08_fpx53.99_fpy54.98.jpg"
-    ],
-    "id": "i66"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i129"
-  ],
-  "ressort": "wissenschaft",
-  "score": 6,
-  "heavy": false,
-  "reason": "CERN findet nach 40 Jahren Hinweis auf extrem seltenen Zerfall",
-  "items": [
-   {
-    "source": "ScienceDaily",
-    "language": "Englisch",
-    "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-    "summary": "Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in every 10 billion beauty particles. The breakthrough could help physicists explore a mysterious …",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
-    "time": 1795177403,
-    "media": [],
-    "id": "i129"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i104"
-  ],
-  "ressort": "wissenschaft",
-  "score": 6,
-  "heavy": false,
-  "reason": "Nachricht per Gravitation durch Ziegelwand gesendet",
-  "items": [
-   {
-    "source": "Guardian Science",
-    "language": "Englisch",
-    "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
-    "summary": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment involving a snail-paced …",
-    "link": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
-    "time": 1795131026,
-    "media": [
-     "https://i.guim.co.uk/img/media/9c8e312834f5121b01c6908ad465910f3ea52394/81_0_800_640/master/800.jpg?width=700&quality=85&auto=format&fit=max&s=e4379db28b1b84ef2c716379f75a6ac5",
-     "https://i.guim.co.uk/img/media/9c8e312834f5121b01c6908ad465910f3ea52394/81_0_800_640/master/800.jpg?width=460&quality=85&auto=format&fit=max&s=765128a2705d05d3017f8d69125b9440",
-     "https://i.guim.co.uk/img/media/9c8e312834f5121b01c6908ad465910f3ea52394/81_0_800_640/master/800.jpg?width=140&quality=85&auto=format&fit=max&s=c4f4272c390dc53f69e1f5e940abdde3"
-    ],
-    "id": "i104"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i142"
-  ],
-  "ressort": "natur",
-  "score": 6,
-  "heavy": false,
-  "reason": "Blauer Sauger wird über 100 Jahre alt",
-  "items": [
-   {
-    "source": "Phys.org",
-    "language": "Englisch",
-    "title": "A fish as old as Montana—the blue sucker discovered to live well over 100 years",
-    "summary": "Using bomb radiocarbon dating on microscopic otoliths (earstones), researchers have found that a native species of fish in the Upper Missouri River in Montana is living up to 130 years—more than triple the previous estimate of around 40 years—and some blue suckers alive today …",
-    "link": "https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html",
-    "time": 1795213206,
-    "media": [
-     "https://scx1.b-cdn.net/csz/news/tmb/2026/a-fish-as-old-as-monta.jpg"
-    ],
     "id": "i142"
    }
   ]
  },
  {
   "item_ids": [
-   "i161"
-  ],
-  "ressort": "natur",
-  "score": 6,
-  "heavy": false,
-  "reason": "Quechua-Gemeinde baut Kamerafallenprojekt für Brillenbären auf",
-  "items": [
-   {
-    "source": "Mongabay",
-    "language": "Englisch",
-    "title": "Quechua community in Peru builds up Andean bear camera trap project on their own reserve",
-    "summary": "Maribel Pacco grins as she recalls the first time she saw an Andean bear close-up in the wild. At the forest edge, a mother and her cubs browsed on bromeliads while the volunteer ranger watched for hours in awe. “I’m not a biologist, but at that moment, I decided to become a …",
-    "link": "https://news.mongabay.com/2026/11/quechua-community-in-peru-builds-up-andean-bear-camera-trap-project-on-their-own-reserve/",
-    "time": 1795195707,
-    "media": [
-     "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/20170543/IMG_20231101_092705-scaled-e1795195847672-768x512.jpeg"
-    ],
-    "id": "i161"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i111"
-  ],
-  "ressort": "wirtschaft",
-  "score": 5,
-  "heavy": false,
-  "reason": "Fischer lernen Offshore-Wind-Bau als zweites Einkommen",
-  "items": [
-   {
-    "source": "Guardian Environment",
-    "language": "Englisch",
-    "title": "These US fishers see offshore wind as a ‘godsend’. Trump wants to shut it down",
-    "summary": "Despite the president’s attacks, Sea Services is training New England fishers in offshore wind construction and providing them with a second income stream On a rainy September morning, the Pamela Ann, a rusty, 86ft (26-metre) scallop boat, docked in New Bedford, Massachusetts. …",
-    "link": "https://www.theguardian.com/environment/2026/nov/20/offshore-wind-farms-trump-fishers",
-    "time": 1795183231,
-    "media": [
-     "https://i.guim.co.uk/img/media/121c48abe318604b11e3134fcbc6c9f91546e514/0_921_4480_3584/master/4480.jpg?width=700&quality=85&auto=format&fit=max&s=d457794b86652ce2790e7eaba8241571",
-     "https://i.guim.co.uk/img/media/121c48abe318604b11e3134fcbc6c9f91546e514/0_921_4480_3584/master/4480.jpg?width=460&quality=85&auto=format&fit=max&s=f49c44bb69a58340722ec5e99c9d3bae",
-     "https://i.guim.co.uk/img/media/121c48abe318604b11e3134fcbc6c9f91546e514/0_921_4480_3584/master/4480.jpg?width=140&quality=85&auto=format&fit=max&s=213d773d708486121be83b4865004f1d"
-    ],
-    "id": "i111"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i3"
-  ],
-  "ressort": "wirtschaft",
-  "score": 6,
-  "heavy": false,
-  "reason": "Papier aus Nashorndung schützt Tiere und schafft Einkommen",
-  "items": [
-   {
-    "source": "Good News Network",
-    "language": "Englisch",
-    "title": "Rhino Dung Paper Is How This Family Makes Money and Protects These Amazing Animals",
-    "summary": "A father-daughter entrepreneurial duo in India have pioneered a method of paper making with rhino dung harvested by locals. Suddenly, they say, villagers who may come into conflict with rhino see them as a continual source of income, giving them a reason to protect these …",
-    "link": "https://www.goodnewsnetwork.org/father-daughter-business-sells-paper-and-stationery-made-from-rhino-dung/",
-    "time": 1795183246,
-    "media": [],
-    "id": "i3"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i4"
-  ],
-  "ressort": "welt",
-  "score": 7,
-  "heavy": false,
-  "reason": "Köchin kocht jeden Dienstag für 100 Bedürftige aus Foodbank-Zutaten",
-  "items": [
-   {
-    "source": "Good News Network",
-    "language": "Englisch",
-    "title": "Every Tuesday, This Chef Cooks for 100 People in Need Using Random Food Bank Ingredients",
-    "summary": "Cooking content can be extremely popular on social media, but watching Toronto-area Chef Maddy Goldberg narrate her made-from-scratch recipes, it suddenly all tastes a little sweeter. That’s because every Tuesday for years, Goldberg has been donating her time to prepare banquets …",
-    "link": "https://www.goodnewsnetwork.org/every-tuesday-this-chef-cooks-for-100-people-in-need-using-random-food-bank-ingredients/",
-    "time": 1795177829,
-    "media": [],
-    "id": "i4"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i1"
-  ],
-  "ressort": "welt",
-  "score": 6,
-  "heavy": false,
-  "reason": "Sohn sucht nach 50 Jahren 33 Kinder, die seinem Vater schrieben",
-  "items": [
-   {
-    "source": "Good News Network",
-    "language": "Englisch",
-    "title": "33 Kids Wrote Letters to a Wounded Veteran. 50 Years Later, His Son Is Searching to Thank Each One",
-    "summary": "In 1967, 33 Massachusetts schoolchildren were given a project: write a letter to a Navy corpsman they had never met who was wounded in Vietnam. None of them had any idea of the impact their letters had on the veteran, until his son, almost 50 years later, began searching them …",
-    "link": "https://www.goodnewsnetwork.org/__trashed-70/",
-    "time": 1795212041,
-    "media": [],
-    "id": "i1"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i2"
-  ],
-  "ressort": "welt",
-  "score": 7,
-  "heavy": false,
-  "reason": "Gemeinde ersetzt gestohlene Geräte eines jungen Unternehmers",
-  "items": [
-   {
-    "source": "Good News Network",
-    "language": "Englisch",
-    "title": "Community Steps Up to Replace Teen Business Owner’s Stolen Landscaping Equipment",
-    "summary": "When a Kansas business owner suffered the theft of some $20,000 in landscaping machinery, his community raised money to replace all of it. Sonny Gallardo started a landscape company when he was just in 6th grade. The teen from Prairie Village would go door to door raking leaves …",
-    "link": "https://www.goodnewsnetwork.org/community-steps-up-to-replace-teen-business-owners-stolen-landscaping-equipment/",
-    "time": 1795190453,
-    "media": [],
-    "id": "i2"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i7"
+   "i252"
   ],
   "ressort": "architektur",
   "score": 6,
   "heavy": false,
-  "reason": "Montreal nutzt Meeresrauschen gegen Verkehrslärm im Park",
+  "reason": "ZHA vollendet das Théâtre Royal de Rabat mit schwungvoller Form am Flussufer.",
   "items": [
    {
-    "source": "Reasons to be Cheerful",
+    "source": "Dezeen",
     "language": "Englisch",
-    "title": "Montreal Is Harnessing Soothing Ocean Sounds to Combat Traffic Noise",
-    "summary": "Parc des Madelinots, a humble wedge of green space in the Verdun borough of Montreal, is not in the most tranquil of settings. The 6,500-square-foot pocket park sits beside a busy junction and is flanked on two sides by roads often filled with cars. For years, locals in the …",
-    "link": "https://reasonstobecheerful.world/montreal-harnessing-ocean-sounds-countering-traffic-noise/",
-    "time": 1795161605,
-    "media": [],
-    "id": "i7"
+    "title": "ZHA completes “secular” Théâtre Royal de Rabat in Morocco",
+    "summary": "UK studio ZHA took visual cues from the riverbank site of this national theatre in Morocco when designing its sweeping exterior form, which contains a trio of performance spaces. The post ZHA completes “secular” Théâtre Royal de Rabat in Morocco appeared first on Dezeen .",
+    "link": "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco/",
+    "time": 1795258800,
+    "media": [
+     "https://static-2026.dezeen.com/uploads/2026/11/theatre-royal-de-rabat-zha-architecture-morocco-cultural_dezeen_2364_sq-1024x1024.jpg"
+    ],
+    "id": "i252"
    }
   ]
  },
  {
   "item_ids": [
-   "i303"
+   "i259"
   ],
   "ressort": "architektur",
   "score": 6,
   "heavy": false,
-  "reason": "Inklusives Beschäftigungszentrum mit Sheddach in Portugal",
+  "reason": "Sternförmiges Holzdach in der Schweiz aus rund 3.000 CNC-Balken.",
   "items": [
    {
     "source": "designboom",
     "language": "Englisch",
-    "title": "corrugated metal and sawtooth roofs wrap occupational center in northern portugal",
-    "summary": "an inclusive occupational center for disabled people in vila nova de paiva, designed by salto studio, explores the psychological potential of a building’s iconography. The post corrugated metal and sawtooth roofs wrap occupational center in northern portugal appeared first on …",
-    "link": "https://www.designboom.com/architecture/corrugated-metal-sawtooth-roofs-occupational-center-northern-portugal-salto-studio-caci-5-3-8/",
-    "time": 1795144246,
+    "title": "976 triangular modules compose star-patterned timber canopy in switzerland",
+    "summary": "edyta augustynowicz and summum engineering construct stellar pavilion, a 19.8-by-19.8-meter folded timber canopy built from nearly 3,000 straight cnc-cut beams arranged into 976 triangular modules atop four branching columns. The post 976 triangular modules compose …",
+    "link": "https://www.designboom.com/architecture/976-triangular-modules-compose-star-patterned-timber-canopy-in-switzerland/",
+    "time": 1795230613,
     "media": [
-     "https://www.designboom.com/wp-content/uploads/2026/11/salto-studio-occupational-center-portugal-designboom-700-1-500x400-22b08q85r991.jpg"
+     "https://www.designboom.com/wp-content/uploads/2026/11/stein-switzerland-stellar-pavilion-timber-canopy-edyta-augustynowicz-summum-engineering-designboom-700-1-500x400-22b08q85r111.jpg"
     ],
-    "id": "i303"
+    "id": "i259"
    }
   ]
  },
  {
   "item_ids": [
-   "i318"
+   "i267"
   ],
   "ressort": "architektur",
   "score": 6,
   "heavy": false,
-  "reason": "Design Museum Gent nach Umbau eröffnet",
+  "reason": "Ungenutzte Eisenbahnbögen in London werden zu Räumen zum Lernen und für die Gemeinschaft.",
   "items": [
    {
     "source": "ArchDaily",
     "language": "Englisch",
-    "title": "Design Museum Gent / Carmody Groarke + ATAMA + RE-ST",
-    "summary": "After four years of intensive renovation and expansion, Design Museum Gent will opened its doors close to UNESCO World Heritage sites. What was once a charming but fragmented ensemble of buildings is now a renewed, forward-looking museum that brings together history, innovation …",
-    "link": "https://www.archdaily.com/1188828/design-museum-gent-carmody-groarke-plus-atama-plus-re-st",
-    "time": 1795158000,
+    "title": "Lamberth Palace Arches / Tigg + Coll Architects",
+    "summary": "TiggColl has transformed three previously underutilised Victorian railway arches beneath one of London's busiest railway routes into new spaces for studying, socialising and relaxing, developing a demountable mass-timber system that responds to the unique technical challenges of …",
+    "link": "https://www.archdaily.com/1188720/lamberth-palace-arches-tigg-plus-coll-architects",
+    "time": 1795255200,
     "media": [],
-    "id": "i318"
+    "id": "i267"
    }
   ]
  },
  {
   "item_ids": [
-   "i292"
+   "i262"
   ],
   "ressort": "architektur",
   "score": 6,
   "heavy": false,
-  "reason": "Viktorianisches Krankenhaus wird Uni-Gebäude",
-  "items": [
-   {
-    "source": "Dezeen",
-    "language": "Englisch",
-    "title": "Bennetts Associates revives Victorian hospital for University of Edinburgh",
-    "summary": "The conversion of a Victorian hospital into facilities for the University of Edinburgh, shortlisted for the RIAS Andrew Doolan Best Building in Scotland Award, features in this video by photographer Jim Stephenson. The film forms part of a series being published by Dezeen in …",
-    "link": "https://www.dezeen.com/2026/11/20/bennetts-associates-edinburgh-futures-institute-rias-doolan-award/",
-    "time": 1795154400,
-    "media": [
-     "https://static-2026.dezeen.com/uploads/2026/11/bennetts-associates-edinburgh-futures-institute-rias-doolan-award-sq_dezeen_2364_col_0-1024x1024.jpg"
-    ],
-    "id": "i292"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i311"
-  ],
-  "ressort": "architektur",
-  "score": 5,
-  "heavy": false,
-  "reason": "Brücken aus lokalen nachhaltigen Materialien in Montréal",
+  "reason": "Polizeiwache, die Menschen nicht einschüchtern soll.",
   "items": [
    {
     "source": "ArchDaily",
     "language": "Englisch",
-    "title": "Darwin Bridges / Provencher_Roy",
-    "summary": "Located on Nuns' Island in Montréal, the Darwin bridges open new architectural perspectives through their use of local sustainable materials.",
-    "link": "https://www.archdaily.com/1188489/darwin-bridges-provencher-roy",
-    "time": 1795176000,
+    "title": "Police Station for the People / STUDIO MOTLEY",
+    "summary": "\"Build us a Police Station that people don't find intimidating.\" This simple, yet unusually perceptive brief from the Additional Commissioner became the starting point for rethinking the conventional police station. Located in Devanahalli, a town on the outskirts of Bangalore …",
+    "link": "https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley",
+    "time": 1795280400,
     "media": [],
-    "id": "i311"
+    "id": "i262"
    }
   ]
  },
  {
   "item_ids": [
-   "i328"
+   "i256"
   ],
-  "ressort": "design",
-  "score": 6,
-  "heavy": false,
-  "reason": "Outdoor-Fitnessgeräte aus Abfall 3D-gedruckt",
-  "items": [
-   {
-    "source": "Yanko Design",
-    "language": "Englisch",
-    "title": "An Outdoor Gym Without the Industrial Look, 3D-Printed From Waste",
-    "summary": "An Outdoor Gym Without the Industrial Look, 3D-Printed From Waste There are times when I really would want to try going to a gym but all those exercise equipment can be pretty intimidating. It also...",
-    "link": "https://www.yankodesign.com/2026/11/20/an-outdoor-gym-without-the-industrial-look-3d-printed-from-waste/?utm_source=rss&utm_medium=rss&utm_campaign=an-outdoor-gym-without-the-industrial-look-3d-printed-from-waste",
-    "time": 1795224646,
-    "media": [],
-    "id": "i328"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i293"
-  ],
-  "ressort": "design",
+  "ressort": "architektur",
   "score": 5,
   "heavy": false,
-  "reason": "Möbel-Abo gegen Büromüll",
+  "reason": "Gebogener Betonanbau mit Oberlicht für ein Haus aus den 1970ern bei Valencia.",
   "items": [
    {
-    "source": "Dezeen",
+    "source": "designboom",
     "language": "Englisch",
-    "title": "Framery's flexible pod subscription tackles office furniture waste issue",
-    "summary": "According to office pod brand Framery, when companies resize or move, desks and meeting-room furniture often aren't deemed \"worth the cost of moving\" and are discarded during the process. Framery explained that the EU and US discard 11 million tonnes of furniture a year. …",
-    "link": "https://www.dezeen.com/2026/11/20/framerys-flexible-office-pod-subscription-office-needs/",
-    "time": 1795150800,
+    "title": "curved concrete extension by belén ilarri studio updates 1970s house near valencia",
+    "summary": "removing a suspended hallway ceiling establishes a cross-shaped, skylight-lit plan paired with a curved concrete kitchen extension and hand-mixed lime finishes. The post curved concrete extension by belén ilarri studio updates 1970s house near valencia appeared first on …",
+    "link": "https://www.designboom.com/architecture/curved-concrete-extension-belen-ilarri-studio-1970s-house-near-valencia-casa-lucerna/",
+    "time": 1795296941,
     "media": [
-     "https://static-2026.dezeen.com/uploads/2026/11/Framery_dezeen_2364_col_0-1-1024x1024.jpg"
+     "https://www.designboom.com/wp-content/uploads/2026/11/curved-concrete-extension-belen-ilarri-studio-1970s-house-valencia-designboom-700-500x400-22b08q85r104.jpg"
     ],
-    "id": "i293"
+    "id": "i256"
    }
   ]
  },
  {
   "item_ids": [
-   "i325"
-  ],
-  "ressort": "design",
-  "score": 5,
-  "heavy": false,
-  "reason": "Neue Schrift Rosco Jr",
-  "items": [
-   {
-    "source": "PAGE",
-    "language": "Deutsch",
-    "title": "Rosco Jr: Wuchtig, funky, laut",
-    "summary": "Die neue Schrift der Foundry TypeMates feiert schon auf deiner Party, bevor sie überhaupt eingeladen wurde. Rosco Jr ist eine...",
-    "link": "https://page-online.de/typografie/rosco-jr-wuchtig-funky-laut/",
-    "time": 1795156273,
-    "media": [],
-    "id": "i325"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i343"
-  ],
-  "ressort": "zukunft",
-  "score": 6,
-  "heavy": false,
-  "reason": "Speicher aus gebrauchten E-Auto-Akkus",
-  "items": [
-   {
-    "source": "Electrek",
-    "language": "Englisch",
-    "title": "This 500 kWh energy storage system runs on retired EV batteries",
-    "summary": "A retired EV battery can still have years of use left in it when it’s taken off the road. Moment Energy’s new Nova battery storage system puts those packs to work on commercial sites. And when a pack wears out, it can be swapped without pulling out the whole system. more…",
-    "link": "https://electrek.co/2026/11/20/this-500-kwh-energy-storage-system-runs-on-retired-ev-batteries/",
-    "time": 1795208909,
-    "media": [],
-    "id": "i343"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i216"
-  ],
-  "ressort": "zukunft",
-  "score": 6,
-  "heavy": false,
-  "reason": "Strom aus lebenden Feigenkakteen",
-  "items": [
-   {
-    "source": "t3n",
-    "language": "Deutsch",
-    "title": "Strom aus dem Kaktus: Forschende zapfen Feigenkakteen 0,5 Volt ab – wofür das gut ist",
-    "summary": "Ein Team der University of California Santa Cruz gewinnt Elektrizität aus lebenden Feigenkakteen. Die Technik könnte etwa bei Sensoren zum Einsatz kommen. weiterlesen auf t3n.de",
-    "link": "https://t3n.de/news/strom-aus-dem-kaktus-forschende-zapfen-feigenkakteen-05-volt-ab-wofuer-das-gut-ist-1774557/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-    "time": 1795173329,
-    "media": [
-     "https://cdn.t3n.de/news/wp-content/uploads/2026/11/feigenkakteen.jpg?class=hero"
-    ],
-    "id": "i216"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i372"
-  ],
-  "ressort": "technik",
-  "score": 6,
-  "heavy": false,
-  "reason": "Farbwechselndes Pflaster misst Puls ohne Batterie",
-  "items": [
-   {
-    "source": "New Atlas",
-    "language": "Englisch",
-    "title": "Color-shifting patch measures pulse without batteries or electronics",
-    "summary": "Researchers at the Norwegian University of Science and Technology (NTNU) have developed a thin, flexible silicone patch that changes color with your heartbeat, providing visible information. Continue Reading Category: Medical Devices , Medical Innovations , Body and Mind Tags: …",
-    "link": "https://newatlas.com/medical-devices/color-shifting-pulse-patch-no-electronics/",
-    "time": 1795226580,
-    "media": [],
-    "id": "i372"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i190"
-  ],
-  "ressort": "technik",
-  "score": 5,
-  "heavy": false,
-  "reason": "KI-Brillen als Alltagshilfe für Blinde",
-  "items": [
-   {
-    "source": "heise online",
-    "language": "Deutsch",
-    "title": "KI-Update Deep-Dive: Smart Glasses als Alltagshilfe",
-    "summary": "Für blinde Menschen sind KI-Brillen eine Alltagshilfe. Doch die Technologie steht wegen Datenschutzbedenken in der Kritik. Das verunsichert Betroffene.",
-    "link": "https://www.heise.de/news/KI-Update-Deep-Dive-Smart-Glasses-als-Alltagshilfe-11530663.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "time": 1795183200,
-    "media": [],
-    "id": "i190"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i210",
-   "i231"
-  ],
-  "ressort": "technik",
-  "score": 5,
-  "heavy": false,
-  "reason": "Hackerangriff auf Kühlschränke verhindert",
-  "items": [
-   {
-    "source": "t3n",
-    "language": "Deutsch",
-    "title": "Hackerangriff auf Kühlschränke vereitelt: So schützte Großbritannien Zehntausende Geräte vor fremden Zugriffen",
-    "summary": "Großbritannien hat in den vergangenen Wochen eine geheime Cybersecurity-Operation durchgeführt. Das Ziel: eine Sicherheitslücke beseitigen, die sich in zahlreichen ferngesteuerten Kühlschränken fand. weiterlesen auf t3n.de",
-    "link": "https://t3n.de/news/hackerangriff-kuehlschraenke-grossbritannien-zehntausende-geraete-1774619/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-    "time": 1795186086,
-    "media": [
-     "https://cdn.t3n.de/news/wp-content/uploads/2026/11/cybersecurity-kuehlschrank.jpg?class=hero"
-    ],
-    "id": "i210"
-   },
-   {
-    "source": "BBC Technology",
-    "language": "Englisch",
-    "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
-    "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
-    "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
-    "time": 1795132927,
-    "media": [
-     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg"
-    ],
-    "id": "i231"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i347"
-  ],
-  "ressort": "autos",
-  "score": 6,
-  "heavy": false,
-  "reason": "Renault Twingo E-Tech unter 20.000 Dollar",
-  "items": [
-   {
-    "source": "Electrek",
-    "language": "Englisch",
-    "title": "Renault undercuts BYD with a new EV that costs less than $20,000",
-    "summary": "The new Renault Twingo E-Tech is among the most affordable vehicles, electric or gas-powered, starting at just £14,745 in the UK, or under $20,000. more…",
-    "link": "https://electrek.co/2026/11/20/renault-undercuts-byd-new-ev-costs-less-than-20000/",
-    "time": 1795196324,
-    "media": [],
-    "id": "i347"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i524"
-  ],
-  "ressort": "autos",
-  "score": 5,
-  "heavy": false,
-  "reason": "Vier neue Elektrobusse in Aurich",
-  "items": [
-   {
-    "source": "electrive",
-    "language": "Deutsch",
-    "title": "Auricher Kreisbahn begrüßt Elektrobus-Quartett",
-    "summary": "Die Auricher Kreisbahn hat vier neue Elektrobusse in Empfang genommen. Damit wird der öffentliche Personennahverkehr im ostfriesischen Landkreis Aurich wieder etwas elektrischer. Die Fahrzeuge vom Typ Mercedes-Benz eCitaro sind für die Linienbündel Krummhörn und Städteachse …",
-    "link": "https://www.electrive.net/2026/11/20/auricher-kreisbahn-begruesst-elektrobus-quartett/",
-    "time": 1795181400,
-    "media": [],
-    "id": "i524"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i379"
-  ],
-  "ressort": "autos",
-  "score": 5,
-  "heavy": false,
-  "reason": "Elektrofähre schafft Batterierekord",
-  "items": [
-   {
-    "source": "New Atlas",
-    "language": "Englisch",
-    "title": "Record ferry batteries shed nearly 300 tonnes to hit 40 knots",
-    "summary": "The Argentine-Uruguayan ferry China Zorrilla only started carrying passengers in October, and its battery record already has an expiration date. The same Tasmanian yard that built it is now working on three catamarans for Denmark's Molslinjen, each set to carry 55 MWh of …",
-    "link": "https://newatlas.com/transport/ayk-energy-molslinjen-incat-electric-ferry-batteries/",
-    "time": 1795176180,
-    "media": [],
-    "id": "i379"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i485"
-  ],
-  "ressort": "sport",
-  "score": 6,
-  "heavy": false,
-  "reason": "Lauren Price wird unumstrittene Weltmeisterin",
-  "items": [
-   {
-    "source": "BBC Sport",
-    "language": "Englisch",
-    "title": "Price beats Kotaskova to become undisputed champion",
-    "summary": "Lauren Price dominates Michaela Kotaskova to seal her place in history by becoming undisputed world welterweight champion.",
-    "link": "https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss",
-    "time": 1795217456,
-    "media": [
-     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/795f/live/1dc78710-e53c-11f1-8e3b-a9faa658e88c.jpg"
-    ],
-    "id": "i485"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i505"
-  ],
-  "ressort": "sport",
-  "score": 5,
-  "heavy": false,
-  "reason": "Dele Alli kämpft um Comeback",
-  "items": [
-   {
-    "source": "Guardian Sport",
-    "language": "Englisch",
-    "title": "Training hard and biding his time, Dele Alli has not given up on football yet",
-    "summary": "The 30-year-old former England star combines Twitch streaming with working to return to the top as a player Consider the training regime Dele Alli has followed since he left Como 18 months ago and it becomes clear why he takes exception to suggestions he has given up on football …",
-    "link": "https://www.theguardian.com/football/2026/nov/20/dele-alli-tottenham-mk-dons-england",
-    "time": 1795201237,
-    "media": [
-     "https://i.guim.co.uk/img/media/4644b48da02f5c51bd8878e38586c24dd5e559b7/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=16c3399ca73283c046344ec4ada37445",
-     "https://i.guim.co.uk/img/media/4644b48da02f5c51bd8878e38586c24dd5e559b7/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=c490ca221b027f9e35cae1aefe026e85",
-     "https://i.guim.co.uk/img/media/4644b48da02f5c51bd8878e38586c24dd5e559b7/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7c4ecf1aed33efe60b95b709dd286064"
-    ],
-    "id": "i505"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i569"
-  ],
-  "ressort": "kultur",
-  "score": 5,
-  "heavy": false,
-  "reason": "Beatles-Musikvideo",
-  "items": [
-   {
-    "source": "BBC Entertainment",
-    "language": "Englisch",
-    "title": "Actor Owen Cooper stars in new Beatles music video",
-    "summary": "The film follows a family's love of music across generations and features Liverpool landmarks.",
-    "link": "https://www.bbc.co.uk/news/articles/ckx280084z2go?at_medium=RSS&at_campaign=rss",
-    "time": 1795155749,
-    "media": [
-     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25b2/live/5ce45220-e45b-11f1-9431-9fe383d2f2c7.jpg"
-    ],
-    "id": "i569"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i63"
-  ],
-  "ressort": "kultur",
-  "score": 6,
-  "heavy": false,
-  "reason": "Orchestra Noir macht Klassik zur Bewegung",
-  "items": [
-   {
-    "source": "NPR",
-    "language": "Englisch",
-    "title": "How Orchestra Noir turned classical music into a cultural movement",
-    "summary": "Orchestra Noir is back on tour, selling out stages across the country and proving classical music can be anything you want it to be.",
-    "link": "https://www.npr.org/2026/11/20/g-s1-154644/orchestra-noir-black-musical-tour-classical-music",
-    "time": 1795191138,
-    "media": [],
-    "id": "i63"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i683"
-  ],
-  "ressort": "kultur",
-  "score": 5,
-  "heavy": false,
-  "reason": "Harriet-Tubman-Gemälde erzielt Rekord",
-  "items": [
-   {
-    "source": "My Modern Met",
-    "language": "Englisch",
-    "title": "Powerful Painting of Harriet Tubman Sells for Record-Breaking $14.5 Million at Sotheby’s Auction",
-    "summary": "Powerful Painting of Harriet Tubman Sells for Record-Breaking $14.5 Million at Sotheby’s Auction View this post on Instagram A post shared by Sotheby's (@sothebys) A landmark painting by Harlem Renaissance artist Aaron Douglas, titled Harriet Tubman (1931), went up for sale at …",
-    "link": "https://mymodernmet.com/aaron-douglas-harriet-tubman-sothebys-auction/?adt_ei={{ subscriber.email_address }}",
-    "time": 1795116352,
-    "media": [],
-    "id": "i683"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i574",
-   "i621"
-  ],
-  "ressort": "film",
-  "score": 6,
-  "heavy": false,
-  "reason": "Star Wars erstmals auf Walisisch synchronisiert",
-  "items": [
-   {
-    "source": "BBC Entertainment",
-    "language": "Englisch",
-    "title": "Star Wars actor 'thrilled' to voice the Welsh Luke Skywalker",
-    "summary": "The classic 1977 film has been dubbed into Welsh for the first time and features a host of star names.",
-    "link": "https://www.bbc.co.uk/news/articles/cjy5xnye765zo?at_medium=RSS&at_campaign=rss",
-    "time": 1795115227,
-    "media": [
-     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4856/live/a3590150-e44d-11f1-9192-3924a59e54c7.jpg"
-    ],
-    "id": "i574"
-   },
-   {
-    "source": "Guardian Film",
-    "language": "Englisch",
-    "title": "‘Welsh can tell any story’: Cymraeg dub of Star Wars premieres in Cardiff",
-    "summary": "Actors Mark Lewis Jones and Osian Morgan, who voiced characters in dub of 1977 film, among guests on red carpet It has been a memorable few days for Wales. At the weekend, the men’s rugby team secured a historic win against New Zealand – their first victory over the All Blacks …",
-    "link": "https://www.theguardian.com/film/2026/nov/19/welsh-cymraeg-dub-star-wars-cardiff",
-    "time": 1795116780,
-    "media": [
-     "https://i.guim.co.uk/img/media/3c89e45f43f26e6eced5528e8d14c721506c33e4/500_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=2a09c6c01af9a11d4dd67d739cb65026",
-     "https://i.guim.co.uk/img/media/3c89e45f43f26e6eced5528e8d14c721506c33e4/500_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=087aa46e796822b3deca70c0c7f8463c",
-     "https://i.guim.co.uk/img/media/3c89e45f43f26e6eced5528e8d14c721506c33e4/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e7dfe55f9fe5f0ab38d73dfc264261e6"
-    ],
-    "id": "i621"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i671"
-  ],
-  "ressort": "fotografie",
-  "score": 7,
-  "heavy": false,
-  "reason": "Syrischer Fotograf findet nach Jahrzehnt sein versteckte Archiv wieder",
-  "items": [
-   {
-    "source": "PetaPixel",
-    "language": "Englisch",
-    "title": "Photographer Who Hid His Photos Behind Wall Returns to Syria a Decade Later to Find Them",
-    "summary": "A Syrian photographer has finally been reunited with his personal photo archive more than a decade after hiding it behind a wall he built during the country’s war. [ Read More ]",
-    "link": "https://petapixel.com/2026/11/20/photographer-who-hid-his-photos-behind-wall-returns-to-syria-a-decade-later-to-find-them/",
-    "time": 1795178936,
-    "media": [],
-    "id": "i671"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i667"
-  ],
-  "ressort": "fotografie",
-  "score": 5,
-  "heavy": false,
-  "reason": "AOP Open Awards Finalisten",
-  "items": [
-   {
-    "source": "PetaPixel",
-    "language": "Englisch",
-    "title": "15 Creative Photos From the AOP Open Award",
-    "summary": "The Association of Photographers (AOP) has announced the 36 finalists for its 2026 AOP Open Awards, a competition celebrating still and moving images by professional and amateur photographers from around the world. [ Read More ]",
-    "link": "https://petapixel.com/2026/11/20/15-creative-finalists-from-the-association-of-photographers-open-award/",
-    "time": 1795187369,
-    "media": [],
-    "id": "i667"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i422"
-  ],
-  "ressort": "dekoration",
-  "score": 5,
-  "heavy": false,
-  "reason": "IKEA-Sofa mit neuen Beinen",
-  "items": [
-   {
-    "source": "Apartment Therapy",
-    "language": "Englisch",
-    "title": "This $100 IKEA Sofa Has Lasted 7 Years, Thanks to One Easy Upgrade",
-    "summary": "One simple leg swap finally gave it the polished look my dining room needed. READ MORE...",
-    "link": "https://www.apartmenttherapy.com/ikea-soderhamn-sofa-leg-upgrade-makeover-37699182?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-    "time": 1795203000,
-    "media": [],
-    "id": "i422"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i415"
-  ],
-  "ressort": "dekoration",
-  "score": 5,
-  "heavy": false,
-  "reason": "Bad nach Umbau",
-  "items": [
-   {
-    "source": "Apartment Therapy",
-    "language": "Englisch",
-    "title": "This Dysfunctional “1990s Hodgepodge” Bathroom Got a Soothing Reno",
-    "summary": "The bathroom and laundry room were essentially in the same area. READ MORE...",
-    "link": "https://www.apartmenttherapy.com/blue-vintage-bathroom-makeover-ba-37701067?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-    "time": 1795215600,
-    "media": [],
-    "id": "i415"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i140"
-  ],
-  "ressort": "wissenschaft",
-  "score": 4,
-  "heavy": false,
-  "reason": "Fachthema",
-  "items": [
-   {
-    "source": "Phys.org",
-    "language": "Englisch",
-    "title": "Broadening the role of RNA: A messenger, a mediator and now a condensate coordinator",
-    "summary": "New research about condensates—cellular compartments that act as hubs for facilitating biological reactions—continues to reveal novel insights into how cells function. Among those continuing to push the field forward are members of the Marine Biological Laboratory's condensate …",
-    "link": "https://phys.org/news/2026-11-broadening-role-rna-messenger-condensate.html",
-    "time": 1795221601,
-    "media": [
-     "https://scx1.b-cdn.net/csz/news/tmb/2026/broadening-the-role-of.jpg"
-    ],
-    "id": "i140"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i85"
-  ],
-  "ressort": "zukunft",
-  "score": 3,
-  "heavy": false,
-  "reason": "Schon berichtet",
-  "items": [
-   {
-    "source": "scinexx",
-    "language": "Deutsch",
-    "title": "Altbatterien liefern magnetische Nanopartikel für die Wasserreinigung",
-    "summary": "Zweifacher Nutzen aus Abfall: Aus Metallen alter Batterien und rostigem Eisen lassen sich magnetische Nanopartikel herstellen, die einen Farbstoff aus Wasser entfernen können. Im Labortest war die belastete Partikelmischung binnen Minuten mit einem Magneten abtrennbar. Die …",
-    "link": "https://www.scinexx.de/news/technik/altbatterien-liefern-magnetische-nanopartikel-fuer-die-wasserreinigung/",
-    "time": 1795196580,
-    "media": [],
-    "id": "i85"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i834"
-  ],
-  "ressort": "kurioses",
-  "score": 5,
-  "heavy": false,
-  "reason": "Einbrecher war ausgebüxtes Schwein",
-  "items": [
-   {
-    "source": "UPI Odd News",
-    "language": "Englisch",
-    "title": "Look: Florida police find reported garage 'intruder' was runsaway pig",
-    "summary": "Police in Florida responded to a report of a breaking and entering at a resident's garage and arrived to find the suspect was a runaway pig.",
-    "link": "https://www.upi.com/Odd_News/2026/11/20/casselberry-police-pig-bacon/8891795199569/",
-    "time": 1795199708,
-    "media": [
-     "https://cdnph.upi.com/ph/st/th/8891795199569/2026/i/17951996869222/v1.5/Florida-police-find-reported-garage-intruder-was-runsaway-pig.jpg",
-     "https://cdnph.upi.com/ph/st/th/8891795199569/2026/i/17951996869222/v1.2/Florida-police-find-reported-garage-intruder-was-runsaway-pig.jpg"
-    ],
-    "id": "i834"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i840"
-  ],
-  "ressort": "kurioses",
-  "score": 5,
-  "heavy": false,
-  "reason": "Schule verlost Preise gegen GTA-Schwänzen",
-  "items": [
-   {
-    "source": "UPI Odd News",
-    "language": "Englisch",
-    "title": "School holds drawing to encourage students not to skip for 'GTA VI'",
-    "summary": "A school in Northern Ireland is encouraging pupils not to stay home to play \"Grand Theft Auto VI\" by offering the chance to win prizes.",
-    "link": "https://www.upi.com/Odd_News/2026/11/19/belfast-boys-model-school-grand-theft-auto-release/3581795108330/",
-    "time": 1795109061,
-    "media": [
-     "https://cdnph.upi.com/ph/st/th/3581795108330/2026/upi_com/fc4d903574fabd52caf990230c2c9e91/v1.5/School-holds-drawing-to-encourage-students-not-to-skip-for-GTA-VI.jpg",
-     "https://cdnph.upi.com/ph/st/th/3581795108330/2026/upi_com/fc4d903574fabd52caf990230c2c9e91/v1.2/School-holds-drawing-to-encourage-students-not-to-skip-for-GTA-VI.jpg"
-    ],
-    "id": "i840"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i789"
-  ],
-  "ressort": "lifestyle",
-  "score": 6,
-  "heavy": false,
-  "reason": "Venezolaner in Madrid finden Heimat in Restaurants",
-  "items": [
-   {
-    "source": "Condé Nast Traveler",
-    "language": "Englisch",
-    "title": "Over Arepas and Cachitos, Venezuelans in Madrid Find a Sense of Home",
-    "summary": "With some 130,000 Venezuelans now living in Madrid, family-run restaurants, community-oriented cafés, and beloved empanada stalls keep the country's flavors close.",
-    "link": "https://www.cntraveler.com/story/over-arepas-and-cachitos-venezuelans-in-madrid-find-a-sense-of-home",
-    "time": 1795126802,
-    "media": [
-     "https://media.cntraveler.com/clips/6aff2dac5c49b708d3a5f14c/master/pass/Empanadazo_2_2.mp4"
-    ],
-    "id": "i789"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i134"
-  ],
-  "ressort": "gesundheit",
-  "score": 5,
-  "heavy": false,
-  "reason": "Lesen mit weniger Alzheimer-Risiko verbunden",
-  "items": [
-   {
-    "source": "ScienceDaily Health",
-    "language": "Englisch",
-    "title": "This simple habit is linked to a 33% lower risk of Alzheimer's",
-    "summary": "Reading for pleasure may have surprisingly powerful benefits for the brain, with studies linking it to better memory, reduced stress, improved mental health, and a lower risk of dementia. Researchers highlight findings that just five minutes of fiction can reduce stress by up to …",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261118065536.htm",
-    "time": 1795176367,
-    "media": [],
-    "id": "i134"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i35"
-  ],
-  "ressort": "wirtschaft",
-  "score": 5,
-  "heavy": false,
-  "reason": "Neue EU-Regeln schützen vor Verschuldung",
-  "items": [
-   {
-    "source": "tagesschau Wirtschaft",
-    "language": "Deutsch",
-    "title": "Neue EU-Regeln ab heute: Mehr Schutz vor Verschuldung bei Kleinkrediten",
-    "summary": "Mehr Schutz für Verbraucher, mehr Kontrolle bei Krediten: Von heute an gilt die neue Verbraucherkreditrichtlinie. Selbst kleine Beträge wie bei \"Heute kaufen, später zahlen\" verlangen von Anbietern nun mehr Aufwand. Von Juri Sonnenholzner.",
-    "link": "https://www.tagesschau.de/wirtschaft/kleinkredite-neue-regeln-verschuldung-100.html",
-    "time": 1795166520,
-    "media": [],
-    "id": "i35"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i58"
-  ],
-  "ressort": "welt",
-  "score": 5,
-  "heavy": false,
-  "reason": "Quinault-Dorf zieht vor steigendem Meer um",
-  "items": [
-   {
-    "source": "NPR",
-    "language": "Englisch",
-    "title": "Rising seas have forced this Quinault village to relocate",
-    "summary": "The Quinault Indian Nation has moved its largest village away from rising seas and tsunamis",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6046485/rising-seas-have-forced-this-quinault-village-to-relocate",
-    "time": 1795210693,
-    "media": [],
-    "id": "i58"
-   }
-  ]
- },
- {
-  "item_ids": [
-   "i95"
+   "i126"
   ],
   "ressort": "natur",
-  "score": 5,
+  "score": 6,
   "heavy": false,
-  "reason": "Geld für Lebensräume auf Ex-Zechen",
+  "reason": "Lundy Island gilt als Vorreiter im Naturschutz und macht einen Pakt mit der Natur.",
+  "items": [
+   {
+    "source": "Mongabay",
+    "language": "Englisch",
+    "title": "The British island that made a deal with nature",
+    "summary": "LUNDY ISLAND — United Kingdom. Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK’s most pioneering conservation stories. From the return of thousands of seabirds to thriving marine life beneath its waves, decades of …",
+    "link": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+    "time": 1795252237,
+    "media": [
+     "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2-768x512.jpg"
+    ],
+    "id": "i126"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i84"
+  ],
+  "ressort": "natur",
+  "score": 6,
+  "heavy": false,
+  "reason": "Jersey wird zum wichtigen Rückzugsort für Eichhörnchen.",
   "items": [
    {
     "source": "BBC Science",
     "language": "Englisch",
-    "title": "Wildlife conservation cash targets ex-colliery sites",
-    "summary": "The project aims to create and restore habitats for amphibians and lizards at sites in Yorkshire.",
-    "link": "https://www.bbc.co.uk/news/articles/cmx2785nzpw2o?at_medium=RSS&at_campaign=rss",
-    "time": 1795155710,
+    "title": "How red squirrels made island their home",
+    "summary": "Conservationists say that, with red squirrels dwindling in the UK, Jersey is an \"important refuge\".",
+    "link": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
+    "time": 1795263535,
     "media": [
-     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0bc/live/4da02a40-e443-11f1-99a1-253766e7ad8b.jpg"
+     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebff/live/6e1cd920-cbcb-11f1-aba9-2bb2608f11d9.jpg"
     ],
-    "id": "i95"
+    "id": "i84"
    }
   ]
  },
  {
   "item_ids": [
-   "i141"
+   "i113"
   ],
-  "ressort": "wissenschaft",
-  "score": 4,
+  "ressort": "zukunft",
+  "score": 6,
   "heavy": false,
-  "reason": "Ewigkeitschemikalien",
+  "reason": "Hydrogel aus Zucker wird durch wiederholtes Biegen stärker statt schwächer.",
   "items": [
    {
     "source": "Phys.org",
     "language": "Englisch",
-    "title": "'Forever' chemicals? Don't be so sure, says engineer",
-    "summary": "Inside the disinfection room of Baltimore's Ashburton water filtration plant, 14 University of Maryland students clad in hard hats peered up at six towering vats of bleach used to treat water that flows from the distant Liberty Reservoir into the facility, killing bacteria and …",
-    "link": "https://phys.org/news/2026-11-chemicals-dont.html",
-    "time": 1795214402,
+    "title": "Repeated bending strengthens sugar-based hydrogel instead of wearing it down",
+    "summary": "Most materials get weaker with use. But a team led by Chenfeng Ke, a professor of chemistry in Arts & Sciences at Washington University in St. Louis, has created a polymer that defies the usual laws of wear and tear.",
+    "link": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
+    "time": 1795291205,
     "media": [
-     "https://scx1.b-cdn.net/csz/news/tmb/2026/forever-chemicals-dont.jpg"
+     "https://scx1.b-cdn.net/csz/news/tmb/2026/a-necklace-with-beads.jpg"
     ],
-    "id": "i141"
+    "id": "i113"
    }
   ]
  },
  {
   "item_ids": [
-   "i236",
-   "i260"
+   "i342"
   ],
-  "ressort": "gaming",
+  "ressort": "zukunft",
+  "score": 6,
+  "heavy": false,
+  "reason": "Deutsche Batterie ohne Lithium liefert zehn Stunden Strom für Kalifornien.",
+  "items": [
+   {
+    "source": "ingenieur.de",
+    "language": "Deutsch",
+    "title": "10 Stunden Strom ohne Lithium: Deutsche Batterie geht nach Kalifornien",
+    "summary": "Ein Unternehmen aus Unterfranken soll in Kalifornien einen Stromspeicher bauen, der zehn Stunden lang Energie liefert und ohne Lithium auskommt. Die Batterie speichert Strom in Flüssigkeiten und einem Feststoff zugleich und kann laut Hersteller nicht brennen. Wie funktioniert …",
+    "link": "https://www.ingenieur.de/zehn-stunden-strom-ohne-lithium-deutsche-batterie-geht-nach-kalifornien-1169b063-14a4-4e6c-87be-c4e02916a0aa/",
+    "time": 1795188600,
+    "media": [],
+    "id": "i342"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i185"
+  ],
+  "ressort": "gesundheit",
+  "score": 5,
+  "heavy": false,
+  "reason": "Zahnbürste mit Borsten, die Strom gegen Karies erzeugen.",
+  "items": [
+   {
+    "source": "t3n",
+    "language": "Deutsch",
+    "title": "Zähneputzen neu gedacht: Diese Borsten erzeugen Strom gegen Karies",
+    "summary": "Chinesische Forschende haben eine Zahnbürste entwickelt, deren Borsten beim Zähneputzen Strom erzeugen. Wozu das gut sein soll. weiterlesen auf t3n.de",
+    "link": "https://t3n.de/news/zahnbuerste-strom-karies-bakterien-effekt-1772017/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+    "time": 1795270800,
+    "media": [
+     "https://cdn.t3n.de/news/wp-content/uploads/2026/11/zahnbürste.jpeg?class=hero"
+    ],
+    "id": "i185"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i545"
+  ],
+  "ressort": "serien",
+  "score": 6,
+  "heavy": false,
+  "reason": "Kika-Serie Lenas Hof ist als Familienprojekt für den International Emmy nominiert.",
+  "items": [
+   {
+    "source": "DWDL",
+    "language": "Deutsch",
+    "title": "\"Lenas Hof\": Eine Kinder-Animationsserie als Familienprojekt",
+    "summary": "Die Kika-Serie \"Lenas Hof\" hat schon einen Grimme-Preis und diverse andere Auszeichnungen erhalten, nun winkt ein International Emmy. Schöpferin Elena Walf erklärt, was ihr bei der Produktion wichtig war und wo Herausforderungen lagen.",
+    "link": "https://www.dwdl.de/iemmys2026/108614/lenas_hof_eine_kinderanimationsserie_als_familienprojekt_/",
+    "time": 1795250220,
+    "media": [],
+    "id": "i545"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i565"
+  ],
+  "ressort": "fotografie",
+  "score": 6,
+  "heavy": false,
+  "reason": "Die 25 Gewinnerfotos der Black and White Photo Awards 2026.",
+  "items": [
+   {
+    "source": "PetaPixel",
+    "language": "Englisch",
+    "title": "All 25 Beautiful Winners From the Black and White Photo Awards 2026",
+    "summary": "The Black and White Photo Awards 2026 winners have been unveiled. Photographers competed across six categories, each vying to be named Black and White Photographer of the Year. [ Read More ]",
+    "link": "https://petapixel.com/2026/11/21/all-25-beautiful-bw-winners-from-the-black-and-white-photo-awards-2026/",
+    "time": 1795280420,
+    "media": [],
+    "id": "i565"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i583"
+  ],
+  "ressort": "fotografie",
+  "score": 5,
+  "heavy": false,
+  "reason": "Zwei schlafende Schwäne auf dem Schilf, ein Handyfoto.",
+  "items": [
+   {
+    "source": "Guardian Photography",
+    "language": "Englisch",
+    "title": "‘Napping together on the reeds, the swans appeared luminous’: Noah Forster’s best phone picture",
+    "summary": "The photographer hopes his intimate photograph of two sleeping birds will remind others of their special person Twenty-one-year-old Noah Forster had always thought swans were beautiful, but it was his girlfriend Cecilia is the one who made him really notice them. The pair began …",
+    "link": "https://www.theguardian.com/lifeandstyle/2026/nov/21/noah-forster-photographer-best-phone-picture-swans",
+    "time": 1795258857,
+    "media": [
+     "https://i.guim.co.uk/img/media/ce7d27e83c2f05156ddcc126d1edaa863e048a11/0_1346_3024_2419/master/3024.jpg?width=700&quality=85&auto=format&fit=max&s=6ee9e9fdf84b889fa5dc1ff8e065d5cb",
+     "https://i.guim.co.uk/img/media/ce7d27e83c2f05156ddcc126d1edaa863e048a11/0_1346_3024_2419/master/3024.jpg?width=460&quality=85&auto=format&fit=max&s=e35ba22b8aaa40465179b483b6923139",
+     "https://i.guim.co.uk/img/media/ce7d27e83c2f05156ddcc126d1edaa863e048a11/0_1346_3024_2419/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=121879d6ef8b5dab00ea7d5aa17afbfd"
+    ],
+    "id": "i583"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i680",
+   "i693"
+  ],
+  "ressort": "promis",
+  "score": 6,
+  "heavy": false,
+  "reason": "Miley Cyrus heiratet Maxx Morando nach fünf Jahren.",
+  "items": [
+   {
+    "source": "E! News",
+    "language": "Englisch",
+    "title": "Miley Cyrus Marries Maxx Morando After 5 Years of Dating",
+    "summary": "Miley Cyrus and Maxx Morando are having the ultimate party in U.S.A. Nearly one year after the Grammy winner and Liily drummer revealed their engagement, the couple tied the knot on Nov. 21 in...",
+    "link": "https://www.eonline.com/news/1438268/miley-cyrus-marries-maxx-morando-in-palm-springs-wedding?cmpid=rss-syndicate-genericrss-us-top_stories",
+    "time": 1795307820,
+    "media": [
+     "https://akns-images.eonline.com/eol_images/Entire_Site/20261119/dce76c5a-db48-4b03-ad07-574cdab439e5_1795136454.jpg"
+    ],
+    "id": "i680"
+   },
+   {
+    "source": "Hollywood Reporter",
+    "language": "Englisch",
+    "title": "Miley Cyrus and Maxx Morando Are Married",
+    "summary": "The couple began dating in 2021 after meeting on a blind date.",
+    "link": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/miley-cyrus-maxx-morando-married-1236760559/",
+    "time": 1795309679,
+    "media": [],
+    "id": "i693"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i641"
+  ],
+  "ressort": "promis",
+  "score": 6,
+  "heavy": false,
+  "reason": "Chrissy Metz plant in ihrem Haus ein Künstlerrefugium, um anderen zu helfen.",
+  "items": [
+   {
+    "source": "stern Lifestyle",
+    "language": "Deutsch",
+    "title": "„This Is Us\"-Star Chrissy Metz: Sie plant Künstlerrefugium in L.A.",
+    "summary": "Chrissy Metz hat große Pläne für ihr Haus in Los Angeles. Sie möchte damit anderen Menschen helfen.",
+    "link": "https://www.stern.de/lifestyle/leute/-this-is-us--star-chrissy-metz--sie-plant-kuenstlerrefugium-in-l-a--38588750.html",
+    "time": 1795283520,
+    "media": [
+     "https://image.stern.de/38588754/t/3D/v1/w1440/r1.7778/-/21--sie-plant-kuenstlerrefugium-in-l-a----16-9---spoton-article-1170268.jpg"
+    ],
+    "id": "i641"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i645"
+  ],
+  "ressort": "promis",
+  "score": 5,
+  "heavy": false,
+  "reason": "Ex-Bachelor Dominik Stuckmann heiratet seine Gewinnerin.",
+  "items": [
+   {
+    "source": "stern Lifestyle",
+    "language": "Deutsch",
+    "title": "Dominik Stuckmann und Anna Rossow: „Bachelor“ heiratet seine Gewinnerin",
+    "summary": "Von der letzten Rose zur Ehe: Der ehemalige „Bachelor“ Dominik Stuckmann und seine Gewinnerin Anna Rossow haben im kleinen Kreis geheiratet.",
+    "link": "https://www.stern.de/lifestyle/leute/dominik-stuckmann-und-anna-rossow---bachelor--heiratet-seine-gewinnerin-38588496.html",
+    "time": 1795276200,
+    "media": [
+     "https://image.stern.de/38588500/t/RR/v1/w1440/r1.7778/-/21---bachelor--heiratet-seine-gewinnerin---16-9---spoton-article-1170280.jpg"
+    ],
+    "id": "i645"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i427",
+   "i436"
+  ],
+  "ressort": "sport",
+  "score": 5,
+  "heavy": false,
+  "reason": "Frankreich zieht ins Finale der Nations Championship ein.",
+  "items": [
+   {
+    "source": "BBC Sport",
+    "language": "Englisch",
+    "title": "France thrash Argentina to reach Nations Championship final",
+    "summary": "France beat Argentina 45-17 in Paris to set up a clash with South Africa in the Nations Championship final at the Allianz Stadium.",
+    "link": "https://www.bbc.co.uk/sport/rugby-union/videos/cm879py9n9xwo?at_medium=RSS&at_campaign=rss",
+    "time": 1795303360,
+    "media": [
+     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24fa/live/17e5fbe0-e601-11f1-99b6-a35a62fa4264.jpg"
+    ],
+    "id": "i427"
+   },
+   {
+    "source": "BBC Sport",
+    "language": "Englisch",
+    "title": "France secure Nations Championship final with Springboks",
+    "summary": "France dispatch Argentina in Paris to book their spot against South Africa in the Nations Championship final at Allianz Stadium next Sunday.",
+    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3zxv4e5g5g5o?at_medium=RSS&at_campaign=rss",
+    "time": 1795299756,
+    "media": [
+     "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3556/live/3b21b070-e603-11f1-a094-5fdc692f3e33.jpg"
+    ],
+    "id": "i436"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i417",
+   "i444"
+  ],
+  "ressort": "sport",
+  "score": 5,
+  "heavy": false,
+  "reason": "Zverev steht im Finale der ATP Finals gegen Alcaraz.",
+  "items": [
+   {
+    "source": "kicker",
+    "language": "Deutsch",
+    "title": "Angstgegner bezwungen: Zverev im Finale der ATP Finals",
+    "summary": "Alexander Zverev präsentiert sich bei den ATP Finals in Turin weiter in starker Verfassung. Der Weltranglistenerste spielte im Halbfinale gegen Daniil Medvedev groß auf, musste nur am Ende ein wenig zittern und folgte letztlich dank eines 7:6 (7:0), 6:4-Sieges Carlos Alcaraz ins …",
+    "link": "https://www.kicker.de/angstgegner-bezwungen-zverev-im-finale-der-atp-finals-1273545/artikel#omrss",
+    "time": 1795295608,
+    "media": [],
+    "id": "i417"
+   },
+   {
+    "source": "Guardian Sport",
+    "language": "Englisch",
+    "title": "Alcaraz holds off Shelton to set up final showdown with Zverev at ATP Finals",
+    "summary": "Spaniard beats American 3-6, 6-3, 7-6 (1) in semi-final Alexander Zverev sees off Daniil Medvedev 7-6 (0), 6-4 The man himself was not present in Turin on Saturday afternoon, but one of the most intriguing developments on and off court in men’s tennis this year was Ben Shelton’s …",
+    "link": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals",
+    "time": 1795296918,
+    "media": [
+     "https://i.guim.co.uk/img/media/e9b9d23305a7d630fb0ca7f3b4264b90894b6fa4/511_0_5112_4089/master/5112.jpg?width=700&quality=85&auto=format&fit=max&s=658212993595fc70c5e24e75948bb7a3",
+     "https://i.guim.co.uk/img/media/e9b9d23305a7d630fb0ca7f3b4264b90894b6fa4/511_0_5112_4089/master/5112.jpg?width=460&quality=85&auto=format&fit=max&s=c85dc11d00842bdadcb8b8b110dcba81",
+     "https://i.guim.co.uk/img/media/e9b9d23305a7d630fb0ca7f3b4264b90894b6fa4/511_0_5112_4089/master/5112.jpg?width=140&quality=85&auto=format&fit=max&s=a46e06896286be60d2f60196af453192"
+    ],
+    "id": "i444"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i118"
+  ],
+  "ressort": "bildung",
+  "score": 6,
+  "heavy": false,
+  "reason": "Norwegen überdenkt Bildschirme in der Schule und kehrt teils zu Stift und Papier zurück.",
+  "items": [
+   {
+    "source": "Phys.org",
+    "language": "Englisch",
+    "title": "From screens in class to smart glasses, Norway rethinks new technologies",
+    "summary": "Three years ago, a schoolteacher in Norway was reprimanded for putting his pupils' iPads aside to return to pen and paper. Now, the whole country is rethinking its approach to new technologies.",
+    "link": "https://phys.org/news/2026-11-screens-class-smart-glasses-norway.html",
+    "time": 1795256416,
+    "media": [
+     "https://scx1.b-cdn.net/csz/news/tmb/2026/norway-had-been-pushin.jpg"
+    ],
+    "id": "i118"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i114"
+  ],
+  "ressort": "wirtschaft",
+  "score": 6,
+  "heavy": false,
+  "reason": "Wer Abschlussanforderungen streicht, zahlt Beschäftigten ohne Abschluss mehr.",
+  "items": [
+   {
+    "source": "Phys.org",
+    "language": "Englisch",
+    "title": "Dropping degree requirements linked to higher pay for workers without degrees",
+    "summary": "The requirements set by human resources (HR) greatly influence the professional opportunities available to different segments of the population. For instance, if a job requires applicants to have earned a bachelor's or master's degree in a relevant subject, people without them …",
+    "link": "https://phys.org/news/2026-11-degree-requirements-linked-higher-pay.html",
+    "time": 1795285201,
+    "media": [
+     "https://scx1.b-cdn.net/csz/news/tmb/2026/dropping-degree-requir.jpg"
+    ],
+    "id": "i114"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i91"
+  ],
+  "ressort": "welt",
+  "score": 5,
+  "heavy": false,
+  "reason": "China will bei der Klimakonferenz auf Elektrifizierung setzen und anderen helfen.",
+  "items": [
+   {
+    "source": "Guardian Environment",
+    "language": "Englisch",
+    "title": "China commits to low-carbon electrification and help for others to improve",
+    "summary": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 Cop31 live – latest updates China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the same, a senior …",
+    "link": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
+    "time": 1795254477,
+    "media": [
+     "https://i.guim.co.uk/img/media/9e68aee336577ce0e768fd142e23caf3b9396a18/240_71_6107_4885/master/6107.jpg?width=700&quality=85&auto=format&fit=max&s=a1076ef9ece805b5dec417b64f44c3bd",
+     "https://i.guim.co.uk/img/media/9e68aee336577ce0e768fd142e23caf3b9396a18/240_71_6107_4885/master/6107.jpg?width=460&quality=85&auto=format&fit=max&s=5b75d30592cf59a975713384b26027a4",
+     "https://i.guim.co.uk/img/media/9e68aee336577ce0e768fd142e23caf3b9396a18/240_71_6107_4885/master/6107.jpg?width=140&quality=85&auto=format&fit=max&s=71e768ed29a219f5ff58d9520b737a67"
+    ],
+    "id": "i91"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i299"
+  ],
+  "ressort": "autos",
+  "score": 5,
+  "heavy": false,
+  "reason": "Toyota zeigt ein kleines faltbares E-Bike-Konzept für den Kofferraum.",
+  "items": [
+   {
+    "source": "Electrek",
+    "language": "Englisch",
+    "title": "Toyota just built a tiny folding electric bike to fit in your trunk",
+    "summary": "Toyota is getting into electric bikes. Well, sort of. The Japanese automotive giant has unveiled the BKE Concept, a tiny folding electric two-wheeler designed to serve as a compact companion vehicle for short trips, outdoor adventures, and last-mile transportation. more…",
+    "link": "https://electrek.co/2026/11/21/toyota-just-built-a-tiny-folding-electric-bike-to-fit-in-your-trunk/",
+    "time": 1795286053,
+    "media": [],
+    "id": "i299"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i461"
+  ],
+  "ressort": "autos",
+  "score": 6,
+  "heavy": false,
+  "reason": "Lagos erweitert die Elektrobusflotte um elf Fahrzeuge.",
+  "items": [
+   {
+    "source": "electrive",
+    "language": "Deutsch",
+    "title": "Lagos erweitert Elektrobusflotte um elf Fahrzeuge",
+    "summary": "Im nigerianischen Lagos sind elf weitere Elektrobusse für den öffentlichen Nahverkehr vorgestellt worden. Die Fahrzeuge stammen von Oando Clean Energy und bilden die erste Tranche einer geplanten Lieferung von 50 Elektrobussen. Langfristig sollen 552 E-Busse auf den Linien der …",
+    "link": "https://www.electrive.net/2026/11/21/lagos-elektrobusse-oando-clean-energy/",
+    "time": 1795255200,
+    "media": [],
+    "id": "i461"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i610"
+  ],
+  "ressort": "dekoration",
   "score": 4,
   "heavy": false,
-  "reason": "Verkaufszahlen",
+  "reason": "Gartentipp.",
+  "items": [
+   {
+    "source": "Utopia",
+    "language": "Deutsch",
+    "title": "Deshalb solltest du Funkienlaub im Herbst auf jeden Fall entfernen",
+    "summary": "Unter dem dichten Funkienlaub können sich Nacktschnecken-Eier gut verstecken. Wir zeigen dir, wie du das Gelege findest und richtig entsorgst, ohne dabei das Beet zu stören.",
+    "link": "https://utopia.de/ratgeber/deshalb-solltest-du-funkienlaub-im-herbst-auf-jeden-fall-entfernen_994444/",
+    "time": 1795290120,
+    "media": [],
+    "id": "i610"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i384"
+  ],
+  "ressort": "dekoration",
+  "score": 6,
+  "heavy": false,
+  "reason": "Midcentury-Haus in den Berkeley Hills wird zum Baumhaus über der Bucht.",
+  "items": [
+   {
+    "source": "AD Deutschland",
+    "language": "Deutsch",
+    "title": "So verwandelte sich ein Midcentury-Haus in Kalifornien in ein verspieltes Baumhaus über der San Francisco Bay",
+    "summary": "Warmes Teakholz, großzügige Terrassen und gemütliche Sitzecken: So wurde dieses Midcentury-Haus am Hang der Berkeley Hills zum baumhausähnlichen Refugium",
+    "link": "https://www.ad-magazin.de/artikel/so-verwandelte-sich-ein-midcentury-haus-in-kalifornien-in-ein-verspieltes-baumhaus",
+    "time": 1795276800,
+    "media": [
+     "https://assets.ad-magazin.de/photos/6aede962ba62258c3b0b78f3/master/pass/Back_Deck_2025_09_03_AI_Stonewall_7027.jpg"
+    ],
+    "id": "i384"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i386"
+  ],
+  "ressort": "dekoration",
+  "score": 6,
+  "heavy": false,
+  "reason": "65-Quadratmeter-Wohnung in Siena verbindet Ziegelgewölbe mit modernem Wohnen.",
+  "items": [
+   {
+    "source": "AD Deutschland",
+    "language": "Deutsch",
+    "title": "So smart verbindet diese kleine Wohnung in Siena historische Ziegelgewölbe mit modernem Feng-Shui",
+    "summary": "Als gemütliche Höhle mit Ausblick gestaltete Architekt Francesco Violanti Gradi diese 65-Quadratmeter-Wohnung in Siena, die Tradition, Farbe und ein offenes Raumgefühl vereint",
+    "link": "https://www.ad-magazin.de/artikel/diese-kleine-wohnung-in-siena-verbindet-historische-ziegelgewoelbe-mit-modernem-feng-shui",
+    "time": 1795248000,
+    "media": [
+     "https://assets.ad-magazin.de/photos/6afd764bdd3a8d49c52c2bac/master/pass/Violanti%20Gradi%20Siena-1.jpg"
+    ],
+    "id": "i386"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i363"
+  ],
+  "ressort": "dekoration",
+  "score": 5,
+  "heavy": false,
+  "reason": "Couchtisch in der Küche macht das Gastgeben leichter.",
+  "items": [
+   {
+    "source": "Apartment Therapy",
+    "language": "Englisch",
+    "title": "She Put a Coffee Table in Her Kitchen, and It Made Hosting Easier",
+    "summary": "It’s unexpected but it totally works. READ MORE...",
+    "link": "https://www.apartmenttherapy.com/coffee-table-in-kitchen-love-letter-37699305?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+    "time": 1795269600,
+    "media": [],
+    "id": "i363"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i205"
+  ],
+  "ressort": "kurioses",
+  "score": 4,
+  "heavy": false,
+  "reason": "Interview mit der Stimme von Linda Belcher.",
   "items": [
    {
     "source": "The Verge",
     "language": "Englisch",
-    "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-    "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we enter a new chapter of …",
-    "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
-    "time": 1795203306,
+    "title": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+    "summary": "You probably know John Roberts best as the voice of Linda Belcher on Bob's Burgers. The show just wrapped up its 16th season and shows no signs of slowing down anytime soon. The show remains a reliable source of laughs, top-notch puns, and frankly wholesome fun. Comedy is just …",
+    "link": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
+    "time": 1795276800,
     "media": [],
-    "id": "i236"
-   },
-   {
-    "source": "Eurogamer",
-    "language": "Englisch",
-    "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
-    "summary": "Surprise, surprise - GTA 6 is officially the biggest entertainment launch of all time, surpassing its predecessor's 13-year-long record and the already optimistic analyst estimates. Read more",
-    "link": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
-    "time": 1795204840,
-    "media": [
-     "https://assetsio.gnwcdn.com/gta-6-headline-launch-gallery-4.jpg?width=690&quality=85&format=jpg&auto=webp"
-    ],
-    "id": "i260"
+    "id": "i205"
    }
   ]
  },
  {
   "item_ids": [
-   "i265"
+   "i707"
   ],
-  "ressort": "gaming",
+  "ressort": "film",
   "score": 5,
   "heavy": false,
-  "reason": "Spieler zeigen Stunts",
+  "reason": "Jeff Goldblum spielt beim Filmfestival Marrakesch Klavier.",
   "items": [
    {
-    "source": "Eurogamer",
+    "source": "Variety",
     "language": "Englisch",
-    "title": "GTA 6 players are already pulling off high-flying tricks and other impressive stunts, just days after launch",
-    "summary": "One of the best things to emerge from Grand Theft Auto over the years has been the community's truly spectacular stunts: players soaring under bridges, leaping across buildings, and more. And with GTA 6 's release this week, we've seen the first signs of the trend continuing in …",
-    "link": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive",
-    "time": 1795190340,
+    "title": "Jeff Goldblum Performs a Piano Medley and Reflects on His Career at Marrakech Film Festival: ‘The Stories That We Tell Matter’",
+    "summary": "Jeff Goldblum was honored with a tribute award at the Marrakech Film Festival on Saturday, delighting the audience with a surprise piano performance before reflecting on more than half a century in cinema, giving a heartfelt speech in which he thanked his many on-screen …",
+    "link": "https://variety.com/2026/film/global/jeff-goldblum-career-marrakech-film-festival-tilda-swinton-1236954972/",
+    "time": 1795290693,
     "media": [
-     "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-screaming-car.png?width=690&quality=85&format=jpg&auto=webp"
+     "https://variety.com/wp-content/uploads/2026/11/GettyImages-2305693351.jpg"
     ],
-    "id": "i265"
+    "id": "i707"
+   }
+  ]
+ },
+ {
+  "item_ids": [
+   "i120"
+  ],
+  "ressort": "wissenschaft",
+  "score": 5,
+  "heavy": false,
+  "reason": "Studierende bauen ein Gerät, das die Schalenstärke von Erdbeeren misst.",
+  "items": [
+   {
+    "source": "Phys.org",
+    "language": "Englisch",
+    "title": "Device that measures strawberry skin's strength will aid breeders",
+    "summary": "Resilient strawberry varieties will be more easily identifiable thanks to a tool developed by University of Queensland engineering students. The prototype measures the strength of strawberry skin, a key breeding consideration for the Australian Strawberry Breeding Program at …",
+    "link": "https://phys.org/news/2026-11-device-strawberry-skin-strength-aid.html",
+    "time": 1795232401,
+    "media": [
+     "https://scx1.b-cdn.net/csz/news/tmb/2026/strawberry-skins-stren.jpg"
+    ],
+    "id": "i120"
    }
   ]
  }

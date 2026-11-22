@@ -1,0 +1,2121 @@
+{
+  "date": "2026-11-22",
+  "number": 55,
+  "isSample": false,
+  "leadStoryID": "2026-11-22-01",
+  "stories": [
+    {
+      "id": "2026-11-22-01",
+      "ressort": "wissenschaft",
+      "kicker": "Meeresforschung",
+      "headline": "Forscher lesen das Erbgut eines Wals aus seinem Blas",
+      "teaser": "Drohnen fangen den Atem eines Wals ein. Aus dem Schleim darin haben Forscher erstmals das gesamte Genom eines Wals entschlüsselt.",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "So funktioniert die Probe",
+          "items": [
+            "Eine kleine Drohne trägt eine sterile Petrischale, mit Klett befestigt.",
+            "Sie fliegt durch den Blas von genau einem Wal.",
+            "Aus mehreren Proben desselben Tiers lesen Forscher das Genom aus."
+          ],
+          "icons": [
+            "airplane",
+            "water.waves",
+            "flask.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Was ist der Blas?",
+          "text": "Wenn ein Wal ausatmet, schießt eine Wolke aus feinen Tröpfchen in die Luft. Sie besteht im Kern aus Schleim. Darin stecken Zellen, Erbgutstücke, Bakterien und Viren aus den Atemwegen des Tiers."
+        }
+      ],
+      "whyGood": "Forscher können Wale jetzt genau untersuchen, ohne sie zu verletzen. Das hilft, die Gesundheit einzelner Tiere und ganzer Bestände besser zu verstehen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NPR Science",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6044816/scientists-sequenced-a-whales-entire-genome-using-drones-and-whale-snot",
+          "language": "Englisch"
+        },
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": null,
+      "terms": [
+        {
+          "term": "Genom",
+          "text": "Das Genom ist das gesamte Erbgut eines Lebewesens. Es steckt wie ein Bauplan in fast jeder Zelle."
+        }
+      ],
+      "guess": {
+        "question": "Wie nahmen Forscher bisher meist Hautproben von Walen?",
+        "options": [
+          "Mit einem Netz",
+          "Mit einer Armbrust",
+          "Mit Tauchern von Hand"
+        ],
+        "answer": 1,
+        "reveal": "Mit einer Armbrust wurde ein winziges Stück Haut und Speck entnommen. Das stresst die Tiere.",
+        "icon": "fish.fill"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Humpback_whale_%28Megaptera_novaeangliae%29_blowing_Eyjafjordur.jpg/1280px-Humpback_whale_%28Megaptera_novaeangliae%29_blowing_Eyjafjordur.jpg",
+        "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Humpback_whale_(Megaptera_novaeangliae)_blowing_Eyjafjordur.jpg",
+        "kind": "symbol"
+      }
+    },
+    {
+      "id": "2026-11-22-02",
+      "ressort": "gesundheit",
+      "kicker": "Herzgesundheit",
+      "headline": "Eine CRISPR-Infusion senkt schlechtes Cholesterin ein Jahr lang",
+      "teaser": "Ein Gentherapie-Test an der Cleveland Clinic zeigt: Eine einzige Infusion wirkt lange und war gut verträglich. Das gilt auch bei Menschen, denen Tabletten nicht halfen.",
+      "blocks": [
+        {
+          "type": "share",
+          "value": 52,
+          "label": "weniger LDL-Cholesterin nach einem Jahr",
+          "caption": "Bei der höchsten Dosis sank der Wert um 52,5 Prozent. Die Wirkung hielt ein Jahr an."
+        },
+        {
+          "type": "count",
+          "value": 15,
+          "icon": "person.fill",
+          "caption": "Patientinnen und Patienten nahmen an der ersten Studie teil"
+        },
+        {
+          "type": "background",
+          "title": "So wirkt die Therapie",
+          "text": "CRISPR-Cas9 kann bestimmte Stellen im Erbgut gezielt verändern. Das Mittel CTX310 gelangt in die Leber und schaltet dort das Gen ANGPTL3 aus. Dann sinken LDL-Cholesterin und Triglyceride."
+        }
+      ],
+      "whyGood": "Hohe Blutfette belasten das Herz. Eine einzige Behandlung könnte künftig Menschen helfen, bei denen Medikamente nicht ausreichen.",
+      "honestNote": "Es war eine frühe Studie mit 15 Personen, größere Tests sollen folgen.",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/first-human-trial-to-slash-bad-cholesterol-by-50pt-with-one-crispr-injection/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 7,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Triglyceride",
+          "text": "Triglyceride sind Fette im Blut. Wenn es zu viele davon gibt, steigt das Risiko für Herzkrankheiten."
+        },
+        {
+          "term": "CRISPR",
+          "text": "CRISPR ist eine Methode, mit der man gezielt kleine Stellen im Erbgut verändern kann, ähnlich wie eine Schere."
+        }
+      ],
+      "guess": {
+        "question": "Wie lange sollen die Teilnehmer nach der Studie noch auf Sicherheit beobachtet werden?",
+        "options": [
+          "2 Jahre",
+          "15 Jahre",
+          "40 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Für Gentherapien ist eine Nachbeobachtung über die nächsten 15 Jahre geplant.",
+        "icon": "heart.fill"
+      },
+      "image": {
+        "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/07/DNA-strand-break-CRISPR-by-Sangharsh-Lohakare-8o_LkMpo8ug-unsplash.jpeg",
+        "credit": "Good News Network",
+        "source": "https://www.goodnewsnetwork.org/first-human-trial-to-slash-bad-cholesterol-by-50pt-with-one-crispr-injection/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-03",
+      "ressort": "architektur",
+      "kicker": "Marokko",
+      "headline": "Neues Nationaltheater in Rabat ist fertig",
+      "teaser": "Das Studio ZHA hat das Théâtre Royal de Rabat am Fluss gebaut. Seine geschwungene Form umhüllt drei Räume für Musik und Bühne.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 3,
+          "icon": "building.columns.fill",
+          "caption": "Spielstätten gehören zum neuen Theater in Rabat"
+        },
+        {
+          "type": "comparison",
+          "title": "Plätze in zwei Spielstätten",
+          "before": {
+            "label": "Studiotheater",
+            "value": 250,
+            "display": "250 Plätze"
+          },
+          "after": {
+            "label": "Amphitheater",
+            "value": 7000,
+            "display": "7.000 Plätze"
+          }
+        },
+        {
+          "type": "map",
+          "place": "Rabat und Salé, Marokko",
+          "latitude": 34.0209,
+          "longitude": -6.835,
+          "caption": "Das Theater steht am Ufer des Flusses Bouregreg."
+        }
+      ],
+      "whyGood": "Marokko hat nun ein Nationaltheater für Kunst und Musik, das auch Platz für Proben, Vorträge und Workshops bietet. Es spart Wasser und nutzt Wärmepumpen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "MA",
+      "terms": [
+        {
+          "term": "Muqarnas",
+          "text": "Muqarnas sind dreidimensionale Verzierungen aus vielen kleinen Zellen. Man findet sie oft in der islamischen Baukunst, zum Beispiel an Decken und Kuppeln."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Menschen passen ins große Freilufttheater?",
+        "options": [
+          "700",
+          "7.000",
+          "70.000"
+        ],
+        "answer": 1,
+        "reveal": "Das Amphitheater bietet Platz für 7.000 Zuschauer bei großen öffentlichen Veranstaltungen.",
+        "icon": "building.columns.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://static-2026.dezeen.com/uploads/2026/11/theatre-royal-de-rabat-zha-architecture-morocco-cultural_dezeen_2364_hero.jpg",
+        "credit": "Dezeen",
+        "source": "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-04",
+      "ressort": "natur",
+      "kicker": "Lundy",
+      "headline": "Lundy: Seevögel und Hummer erholen sich dank Schutzzone",
+      "teaser": "Vor der britischen Küste hat eine kleine Insel gezeigt, wie Naturschutz mit Fischern gelingt. Die Tierwelt kehrt zurück, und die Fischerei profitiert mit.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Seevögel auf Lundy",
+          "before": {
+            "label": "Anfang der 2000er",
+            "value": 6000,
+            "display": "rund 6000"
+          },
+          "after": {
+            "label": "Heute",
+            "value": 48000,
+            "display": "rund 48.000"
+          }
+        },
+        {
+          "type": "map",
+          "place": "Lundy, Bristolkanal",
+          "latitude": 51.18,
+          "longitude": -4.67,
+          "caption": "Die Insel liegt zwischen Wales und England."
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Ratten wurden vor etwa 20 Jahren von der Insel entfernt",
+            "Fischer und Naturschützer planten die Schutzzone gemeinsam",
+            "In der Zone bis zu 75 Hummer pro Nacht, draußen etwa 12"
+          ],
+          "icons": [
+            "pawprint.fill",
+            "person.3.fill",
+            "fish.fill"
+          ]
+        }
+      ],
+      "whyGood": "Lundy zeigt, dass Schutz und Fischerei zusammenpassen. Seevögel, Hummer und langsam wachsende Meerestiere erholen sich, und die Menschen vor Ort tragen den Schutz mit.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "GB",
+      "terms": [],
+      "guess": {
+        "question": "Wie viele Seevögel brüten heute auf Lundy?",
+        "options": [
+          "etwa 4800",
+          "etwa 48.000",
+          "etwa 480.000"
+        ],
+        "answer": 1,
+        "reveal": "Es sind rund 48.000. Anfang der 2000er waren es nur etwa 6000.",
+        "icon": "bird.fill"
+      },
+      "image": {
+        "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2.jpg",
+        "credit": "Mongabay",
+        "source": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-05",
+      "ressort": "zukunft",
+      "kicker": "Materialforschung",
+      "headline": "Neues Gel aus Zucker wird durch Belastung stärker",
+      "teaser": "Die meisten Stoffe verschleißen mit der Zeit. Ein Team in St. Louis hat ein Material entwickelt, das beim Biegen fester wird.",
+      "blocks": [
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Das Material besteht aus Zuckerringen und Polyethylenglykol",
+            "Es lässt sich mit einem 3D-Drucker verarbeiten",
+            "Bisher entstehen nur einige Dutzend Gramm auf einmal"
+          ],
+          "icons": [
+            "flask.fill",
+            "gearshape.fill",
+            "shippingbox.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Wie das Material lernt",
+          "text": "Der Zucker Cyclodextrin bildet kleine Ringe. Wird das Material gedehnt oder gebogen, rutschen diese Ringe an die belastete Stelle und verstärken sie. Ähnlich wirkt Kollagen in unserer Haut."
+        }
+      ],
+      "whyGood": "Ein Material, das genau dort stärker wird, wo es belastet wird, könnte künftig künstliche Gelenke stützen oder verletztes Gewebe schützen. Weil es aus Zucker besteht, ist es biologisch abbaubar und verträglich für den Körper.",
+      "honestNote": "Bisher wurde das Material nur in kleinen Mengen hergestellt und im Labor getestet.",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Hydrogel",
+          "text": "Ein Hydrogel ist ein weiches, flexibles Material. Es kann viel Wasser aufnehmen und festhalten."
+        },
+        {
+          "term": "Polyethylenglykol",
+          "text": "Das ist eine Verbindung, die in vielen Gesundheitsprodukten steckt, zum Beispiel in Abführmitteln."
+        }
+      ],
+      "guess": {
+        "question": "Wie oft wurde das neue Material im Test gebogen?",
+        "options": [
+          "100 Mal",
+          "10.000 Mal",
+          "1 Million Mal"
+        ],
+        "answer": 1,
+        "reveal": "Das Team bog das Material 10.000 Mal. Es wurde dabei stärker, genau an den belasteten Stellen.",
+        "icon": "flask.fill"
+      },
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/2026/a-necklace-with-beads.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-06",
+      "ressort": "serien",
+      "kicker": "Kinderfernsehen",
+      "headline": "Leise Kika-Serie \"Lenas Hof\" ist für International Emmy nominiert",
+      "teaser": "Die Tiere auf dem Hof sprechen kein Wort. Trotzdem hat die Serie schon mehrere Preise gewonnen und kann nun auf einen Emmy hoffen.",
+      "blocks": [
+        {
+          "type": "count",
+          "value": 26,
+          "icon": "film.fill",
+          "caption": "Folgen erzählen vom Leben der Tiere auf dem Hof, ganz ohne Sprache"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Nominiert in der Kategorie „Kids Animation“",
+            "Grimme-Preis, Annecy und Prix Jeunesse",
+            "Für Kinder ab drei Jahren gemacht"
+          ],
+          "icons": [
+            "trophy.fill",
+            "medal.fill",
+            "person.2.fill"
+          ]
+        },
+        {
+          "type": "background",
+          "title": "Ein Familienprojekt",
+          "text": "Schöpferin Elena Walf schrieb die Bücher, führte Regie und gestaltete die Bilder. Ihr Vater sprach die Jaulgeräusche des Hundes. Ihr Lebensgefährte leitete das Compositing."
+        }
+      ],
+      "whyGood": "Eine ruhige Serie ohne grelle Farben und ohne Sprache findet Anerkennung. Das zeigt, dass Kinderfernsehen auch mit Zeit und einfachen Bildern gelingen kann.",
+      "honestNote": "Ob das ZDF die Serie fortsetzt, ist noch offen.",
+      "sources": [
+        {
+          "name": "DWDL",
+          "url": "https://www.dwdl.de/iemmys2026/108614/lenas_hof_eine_kinderanimationsserie_als_familienprojekt_/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Compositing",
+          "text": "Dabei werden einzelne Bildteile wie Figuren und Hintergründe am Computer zu einem fertigen Bild zusammengesetzt."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Folgen hat die Serie über die Tiere auf dem Hof?",
+        "options": [
+          "6",
+          "26",
+          "126"
+        ],
+        "answer": 1,
+        "reveal": "Es gibt 26 Folgen, jede dauert nur wenige Minuten und kommt ohne Sprache aus.",
+        "icon": "pawprint.fill"
+      },
+      "image": {
+        "url": "https://www.dwdl.de/images/1795002805_lenas-hof.jpg",
+        "credit": "DWDL",
+        "source": "https://www.dwdl.de/iemmys2026/108614/lenas_hof_eine_kinderanimationsserie_als_familienprojekt_/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-07",
+      "ressort": "fotografie",
+      "kicker": "Fotografie",
+      "headline": "Schwarzweiß-Foto eines Sprungs zwischen zwei Zügen gewinnt",
+      "teaser": "Die Black and White Photo Awards 2026 sind vergeben. Shengwei Dai wird Fotograf des Jahres. Dazu gibt es Sieger in sechs Kategorien.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Preisgeld in Euro",
+          "before": {
+            "label": "Kategoriesieger",
+            "value": 200,
+            "display": "200 Euro"
+          },
+          "after": {
+            "label": "Gesamtsieger",
+            "value": 1500,
+            "display": "1.500 Euro"
+          }
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Siegerfoto: Ein Mann springt zwischen zwei fahrenden Zügen",
+            "Sechs Kategorien, neu dabei ist das offene Thema",
+            "Nashorn im Nebel, Flamingos von oben und Stare über dem Pier"
+          ],
+          "icons": [
+            "tram.fill",
+            "camera.fill",
+            "bird.fill"
+          ]
+        }
+      ],
+      "whyGood": "Schwarzweißfotos lenken den Blick auf Form, Licht und Stimmung. Der Wettbewerb zeigt, wie vielfältig Fotografie sein kann, vom ruhigen Tierbild bis zum Moment im Zug.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "PetaPixel",
+          "url": "https://petapixel.com/2026/11/21/all-25-beautiful-bw-winners-from-the-black-and-white-photo-awards-2026/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": null,
+      "terms": [],
+      "guess": {
+        "question": "Wie hoch ist das Preisgeld für den Gesamtsieger des Wettbewerbs?",
+        "options": [
+          "150 Euro",
+          "1.500 Euro",
+          "15.000 Euro"
+        ],
+        "answer": 1,
+        "reveal": "Shengwei Dai erhält 1.500 Euro, den größten Einzelpreis in der fünfjährigen Geschichte des Wettbewerbs.",
+        "icon": "camera.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://petapixel.com/assets/uploads/2026/11/black-and-white-photo-awards-2026-winners-featured.jpg",
+        "credit": "PetaPixel",
+        "source": "https://petapixel.com/2026/11/21/all-25-beautiful-bw-winners-from-the-black-and-white-photo-awards-2026/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-08",
+      "ressort": "promis",
+      "kicker": "Palm Springs",
+      "headline": "Miley Cyrus und Maxx Morando haben geheiratet",
+      "teaser": "Die Sängerin und der Schlagzeuger von Liily gaben sich am 21. November in Kalifornien das Ja-Wort. Kennengelernt haben sie sich bei einem Blind Date.",
+      "blocks": [
+        {
+          "type": "timeline",
+          "title": "Ihre Geschichte",
+          "items": [
+            {
+              "year": "2021",
+              "text": "Blind Date und Beginn der Beziehung"
+            },
+            {
+              "year": "2026",
+              "text": "Das Lied „Let’s Get Married“ erscheint auf dem Album Bass Persuades"
+            },
+            {
+              "year": "21. November 2026",
+              "text": "Hochzeit in Palm Springs, Kalifornien"
+            }
+          ]
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Der Antrag kam in einem japanischen Garten.",
+            "Maxx Morando ist Schlagzeuger der Band Liily.",
+            "Er hat mehrere Lieder auf ihrem Album produziert."
+          ],
+          "icons": [
+            "heart.fill",
+            "guitars.fill",
+            "music.note"
+          ]
+        }
+      ],
+      "whyGood": "Zwei Menschen, die sich bei einem Blind Date trafen, feiern nach fünf Jahren Hochzeit. Miley Cyrus sagt, Maxx habe ihr nach dem Verlust ihres Hauses geholfen, neu anzufangen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "E! News",
+          "url": "https://www.eonline.com/news/1438268/miley-cyrus-marries-maxx-morando-in-palm-springs-wedding?cmpid=rss-syndicate-genericrss-us-top_stories",
+          "language": "Englisch"
+        },
+        {
+          "name": "Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/miley-cyrus-maxx-morando-married-1236760559/",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie lange waren die beiden vor der Hochzeit ein Paar?",
+        "options": [
+          "Etwa 1 Jahr",
+          "Etwa 5 Jahre",
+          "Etwa 12 Jahre"
+        ],
+        "answer": 1,
+        "reveal": "Sie waren fünf Jahre zusammen, seit 2021 ein Blind Date sie zusammenbrachte.",
+        "icon": "heart.fill"
+      },
+      "image": {
+        "url": "https://akns-images.eonline.com/eol_images/Entire_Site/20261119/dce76c5a-db48-4b03-ad07-574cdab439e5_1795136454.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "credit": "E! News",
+        "source": "https://www.eonline.com/news/1438268/miley-cyrus-marries-maxx-morando-in-palm-springs-wedding?cmpid=rss-syndicate-genericrss-us-top_stories",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-09",
+      "ressort": "bildung",
+      "kicker": "Norwegen",
+      "headline": "Norwegen holt Schulbücher zurück und bremst Bildschirme",
+      "teaser": "Nach schwächeren Leseleistungen setzt Norwegen wieder stärker auf Papier. Schulen dürfen selbst wählen, mit welchen Mitteln sie unterrichten.",
+      "blocks": [
+        {
+          "type": "timeline",
+          "title": "Wie Norwegen umdenkt",
+          "items": [
+            {
+              "year": "2023",
+              "text": "Oslos Grundschulen sollen jedes Kind mit einem digitalen Gerät ausstatten."
+            },
+            {
+              "year": "2024",
+              "text": "Eine Kommission betont: Lange Texte versteht man auf Papier meist besser."
+            },
+            {
+              "year": "2025",
+              "text": "Bei PISA liegt Norwegen in Lesen, Mathe und Naturwissenschaften unter dem OECD-Schnitt."
+            }
+          ]
+        },
+        {
+          "type": "bigNumber",
+          "value": "16",
+          "unit": "Jahre",
+          "caption": "ist die geplante Altersgrenze für Plattformen wie TikTok, Snapchat und Roblox.",
+          "icon": "person.fill"
+        }
+      ],
+      "whyGood": "Norwegen prüft, was Kindern beim Lernen wirklich hilft, und korrigiert seinen Kurs. Schulen bekommen mehr Freiheit, Bücher und Tablets sinnvoll zu mischen.",
+      "honestNote": "Das Gesetz für gedruckte Schulbücher und das Verbot für Plattformen sind bisher nur geplant.",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-screens-class-smart-glasses-norway.html",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "NO",
+      "terms": [
+        {
+          "term": "PISA",
+          "text": "PISA ist ein internationaler Test. Er misst, wie gut 15-Jährige lesen, rechnen und die Naturwissenschaften verstehen."
+        }
+      ],
+      "guess": {
+        "question": "Seit wann setzt Norwegen auf Computer und Tablets im Unterricht?",
+        "options": [
+          "Seit etwa 5 Jahren",
+          "Seit fast 20 Jahren",
+          "Seit über 40 Jahren"
+        ],
+        "answer": 1,
+        "reveal": "Seit fast 20 Jahren kommen in Norwegen Computer und Tablets in die Klassen. Corona verstärkte das noch.",
+        "icon": "book.fill"
+      },
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/2026/norway-had-been-pushin.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-11-screens-class-smart-glasses-norway.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-10",
+      "ressort": "wirtschaft",
+      "kicker": "USA",
+      "headline": "Jobs ohne Abschlusspflicht: Mehr Lohn für Menschen ohne Studium",
+      "teaser": "Wer ohne Hochschulabschluss in einen Job startet, für den die Firma keinen Abschluss mehr verlangt, verdient laut einer US-Studie deutlich mehr.",
+      "blocks": [
+        {
+          "type": "bigNumber",
+          "value": "4.600",
+          "unit": "US-Dollar",
+          "caption": "mehr pro Jahr verdienten Beschäftigte ohne Studium in Jobs, die keinen Abschluss mehr verlangten",
+          "icon": "banknote.fill"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Forschende werteten rund 446.500 Jobstarts von 2011 bis 2021 aus",
+            "Der Lohnvorsprung hielt mindestens fünf Jahre an",
+            "Eingestellt wurden öfter Schwarze, Hispanics und Frauen"
+          ],
+          "icons": [
+            "chart.bar.fill",
+            "calendar",
+            "person.3.fill"
+          ]
+        }
+      ],
+      "whyGood": "Mehr Menschen bekommen eine Chance, ihre Fähigkeiten zu zeigen, auch ohne Studium. Sie verdienen dabei besser und der Vorteil bleibt über Jahre bestehen.",
+      "honestNote": "Viele Firmen streichen den Abschluss aus der Anzeige, stellen aber nur wenig mehr Menschen ohne Abschluss ein.",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-degree-requirements-linked-higher-pay.html",
+          "language": "Englisch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [],
+      "guess": {
+        "question": "Wie viel mehr verdienten Beschäftigte ohne Studium pro Jahr, wenn der Job keinen Abschluss mehr verlangte?",
+        "options": [
+          "Etwa 460 US-Dollar",
+          "Etwa 4.600 US-Dollar",
+          "Etwa 46.000 US-Dollar"
+        ],
+        "answer": 1,
+        "reveal": "Es waren rund 4.600 US-Dollar mehr im Jahr als in Jobs, die nie einen Abschluss verlangten.",
+        "icon": "banknote.fill"
+      },
+      "image": {
+        "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/dropping-degree-requir.jpg",
+        "credit": "Phys.org",
+        "source": "https://phys.org/news/2026-11-degree-requirements-linked-higher-pay.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-11",
+      "ressort": "autos",
+      "kicker": "Lagos",
+      "headline": "Lagos bekommt elf weitere Elektrobusse für den Nahverkehr",
+      "teaser": "Aus dem Pilotprojekt mit zwei Fahrzeugen wird ein größeres Netz. Die Stadt in Nigeria will so Abgase und schlechte Luft verringern.",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Elektrobusse in Lagos",
+          "before": {
+            "label": "Test 2023",
+            "value": 2,
+            "display": "2 Busse"
+          },
+          "after": {
+            "label": "Jetzt neu",
+            "value": 11,
+            "display": "11 Busse"
+          }
+        },
+        {
+          "type": "bigNumber",
+          "value": "552",
+          "unit": "Elektrobusse",
+          "caption": "sollen langfristig auf den wichtigen Verkehrsachsen der Stadt fahren.",
+          "icon": "bus.fill"
+        }
+      ],
+      "whyGood": "Elektrobusse fahren ohne Abgase und machen die Luft in der Stadt sauberer. Der Bundesstaat Lagos strebt bis 2050 Netto-Null-Emissionen an, und dieser Ausbau ist ein Schritt dahin.",
+      "honestNote": "Einen Zeitplan für den vollen Ausbau gibt es bisher nicht.",
+      "sources": [
+        {
+          "name": "electrive",
+          "url": "https://www.electrive.net/2026/11/21/lagos-elektrobusse-oando-clean-energy/",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "NG",
+      "terms": [
+        {
+          "term": "Netto-Null-Emissionen",
+          "text": "Es wird nicht mehr klimaschädliches Gas ausgestoßen, als wieder gebunden oder vermieden wird. Unterm Strich bleibt also nichts zusätzlich in der Luft."
+        }
+      ],
+      "guess": {
+        "question": "Wie viele Elektrobusse sind in Lagos langfristig vorgesehen?",
+        "options": [
+          "55",
+          "552",
+          "5.520"
+        ],
+        "answer": 1,
+        "reveal": "Langfristig sind 552 Elektrobusse auf den öffentlichen Verkehrskorridoren von Lagos geplant.",
+        "icon": "bus.fill"
+      },
+      "image": {
+        "url": "https://www.electrive.net/media/2026/11/202611-lamata-lagos-afrika-e-bus-opnv-bev-launch-2.jpg",
+        "credit": "electrive",
+        "source": "https://www.electrive.net/2026/11/21/lagos-elektrobusse-oando-clean-energy/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-12",
+      "ressort": "dekoration",
+      "kicker": "Berkeley Hills",
+      "headline": "Midcentury-Haus in Kalifornien wird zum Baumhaus mit Bay-Blick",
+      "teaser": "Ein Haus aus der Mitte des 20. Jahrhunderts bekommt neues Leben. Warmes Holz, Terrassen und Sitzecken prägen den Umbau am Hang.",
+      "blocks": [
+        {
+          "type": "map",
+          "place": "Berkeley Hills, Kalifornien",
+          "latitude": 37.88,
+          "longitude": -122.24,
+          "caption": "Das Haus steht am Hang mit Blick auf die San Francisco Bay."
+        },
+        {
+          "type": "count",
+          "value": 3,
+          "icon": "house.fill",
+          "caption": "Ebenen verbindet jetzt eine Treppe mit schwebenden Stufen"
+        },
+        {
+          "type": "facts",
+          "title": null,
+          "items": [
+            "Die alte Redwood-Verkleidung der Fassade blieb erhalten",
+            "Eine versenkte Sitzecke blickt auf ein Whiteboard für Vorträge",
+            "Terrassen mit Heizstrahlern laden bis spät in die Nacht ein"
+          ],
+          "icons": [
+            "tree.fill",
+            "person.2.fill",
+            "sun.max.fill"
+          ]
+        }
+      ],
+      "whyGood": "Ein älteres Haus wird nicht ersetzt, sondern behutsam erneuert. Der Charakter des Architekten Robert Ratcliff bleibt erhalten, und das Haus passt jetzt zu seinem Bewohner.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "AD Deutschland",
+          "url": "https://www.ad-magazin.de/artikel/so-verwandelte-sich-ein-midcentury-haus-in-kalifornien-in-ein-verspieltes-baumhaus",
+          "language": "Deutsch"
+        }
+      ],
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Midcentury",
+          "text": "So nennt man den Stil der Mitte des 20. Jahrhunderts. Typisch sind klare Formen, viel Holz und große Fenster."
+        }
+      ],
+      "guess": {
+        "question": "Über wie viele Ebenen erstreckt sich das umgebaute Haus am Hang?",
+        "options": [
+          "Eine",
+          "Drei",
+          "Sieben"
+        ],
+        "answer": 1,
+        "reveal": "Drei Ebenen verbindet eine Treppe mit scheinbar schwebenden Stufen.",
+        "icon": "house.fill"
+      },
+      "gallery": true,
+      "image": {
+        "url": "https://assets.ad-magazin.de/photos/6aede962ba62258c3b0b78f3/16:9/w_1280,c_limit/Back_Deck_2025_09_03_AI_Stonewall_7027.jpg",
+        "credit": "AD Deutschland",
+        "source": "https://www.ad-magazin.de/artikel/so-verwandelte-sich-ein-midcentury-haus-in-kalifornien-in-ein-verspieltes-baumhaus",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k01",
+      "ressort": "architektur",
+      "kicker": "Stein, Schweiz",
+      "headline": "Sternförmiges Holzdach überspannt den Dorfplatz von Stein",
+      "teaser": "Auf dem Dorfplatz von Stein steht jetzt der Stellar Pavilion. Das Holzdach misst 19,8 mal 19,8 Meter und besteht aus fast 3.000 geraden Balken in 976 Dreiecksmodulen. Entworfen hat es Edyta Augustynowicz mit Summum Engineering.",
+      "blocks": [],
+      "whyGood": "Der Dorfplatz hat nun ein offenes, lichtes Dach, unter dem sich alle treffen können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/976-triangular-modules-compose-star-patterned-timber-canopy-in-switzerland/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "CH",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/uploads/2026/11/stein-switzerland-stellar-pavilion-timber-canopy-edyta-augustynowicz-summum-engineering-designboom-1200-1.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/976-triangular-modules-compose-star-patterned-timber-canopy-in-switzerland/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k02",
+      "ressort": "natur",
+      "kicker": "Jersey",
+      "headline": "Rote Eichhörnchen finden auf Jersey einen sicheren Rückzugsort",
+      "teaser": "Auf der Kanalinsel Jersey lebt eine gesunde Population Roter Eichhörnchen. Es gibt dort keine Grauhörnchen, die ein für Rote Eichhörnchen tödliches Virus tragen. Auch die Menschen helfen mit Futterstellen, Seilbrücken und niedrigem Tempolimit.",
+      "blocks": [],
+      "whyGood": "Während die Tiere in Großbritannien selten werden, haben sie auf Jersey einen Ort, an dem sie gut leben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "JE",
+      "terms": [],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ebff/live/6e1cd920-cbcb-11f1-aba9-2bb2608f11d9.jpg",
+        "credit": "BBC Science",
+        "source": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k03",
+      "ressort": "zukunft",
+      "kicker": "Kalifornien",
+      "headline": "Batteriespeicher aus Unterfranken ohne Lithium geht nach Kalifornien",
+      "teaser": "Das Unternehmen CMBlu Energy aus Alzenau soll in Kalifornien einen Stromspeicher bauen. Er leistet 10 Megawatt, fasst 100 Megawattstunden und kann zehn Stunden lang volle Leistung geben. Er kommt ohne Lithium aus.",
+      "blocks": [],
+      "whyGood": "Deutsche Speichertechnik ohne Lithium sichert künftig in Kalifornien die Stromversorgung der Quechan und umliegender Gemeinden, auch bei extremer Hitze.",
+      "honestNote": "Den Nachweis im großen Maßstab muss die Batterie von CMBlu erst noch erbringen.",
+      "sources": [
+        {
+          "name": "ingenieur.de",
+          "url": "https://www.ingenieur.de/zehn-stunden-strom-ohne-lithium-deutsche-batterie-geht-nach-kalifornien-1169b063-14a4-4e6c-87be-c4e02916a0aa/",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Flussbatterie",
+          "text": "Eine Flussbatterie speichert Energie in zwei Flüssigkeiten in getrennten Tanks. Pumpen drücken sie durch einen Stack, dort entsteht Strom. Leistung und Speichermenge lassen sich getrennt ausbauen."
+        }
+      ],
+      "image": {
+        "url": "https://www.ingenieur.de/wp-content/uploads/2026/11/007-CMBLU-RD-02-e1795187276426-scaled.jpg",
+        "credit": "ingenieur.de",
+        "source": "https://www.ingenieur.de/zehn-stunden-strom-ohne-lithium-deutsche-batterie-geht-nach-kalifornien-1169b063-14a4-4e6c-87be-c4e02916a0aa/",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k04",
+      "ressort": "promis",
+      "kicker": "Los Angeles",
+      "headline": "Chrissy Metz plant Künstlerrefugium in ihrem Haus in L.A.",
+      "teaser": "„This Is Us“-Star Chrissy Metz hat große Pläne für ihr Haus in Los Angeles. Sie möchte daraus ein Künstlerrefugium machen. Damit will sie anderen Menschen helfen.",
+      "blocks": [],
+      "whyGood": "Eine bekannte Schauspielerin will ihr eigenes Zuhause öffnen, damit andere Menschen davon profitieren.",
+      "honestNote": "Das Refugium ist bisher nur geplant.",
+      "sources": [
+        {
+          "name": "stern Lifestyle",
+          "url": "https://www.stern.de/lifestyle/leute/-this-is-us--star-chrissy-metz--sie-plant-kuenstlerrefugium-in-l-a--38588750.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "US",
+      "terms": [
+        {
+          "term": "Künstlerrefugium",
+          "text": "Ein Künstlerrefugium ist ein Ort, an dem Kreative zur Ruhe kommen und in Ruhe arbeiten können."
+        }
+      ],
+      "image": {
+        "url": "https://image.stern.de/38588754/t/3D/v1/w1440/r1.7778/-/21--sie-plant-kuenstlerrefugium-in-l-a----16-9---spoton-article-1170268.jpg",
+        "credit": "stern Lifestyle",
+        "source": "https://www.stern.de/lifestyle/leute/-this-is-us--star-chrissy-metz--sie-plant-kuenstlerrefugium-in-l-a--38588750.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k05",
+      "ressort": "dekoration",
+      "kicker": "Siena",
+      "headline": "Siena: Aus 65 Quadratmetern wird ein offener Rückzugsort",
+      "teaser": "Architekt Francesco Violanti Gradi hat im obersten Stock eines historischen Backsteinhauses in Siena eine Zweitwohnung gestaltet. Der Grundriss war fast quadratisch, die Decken niedrig. Entstanden ist ein offener Raum mit Ziegelgewölben, Kunst und vielen Büchern.",
+      "blocks": [],
+      "whyGood": "Aus schwierigen Voraussetzungen ist ein heller, offener Wohnraum entstanden, der die Geschichte des Hauses bewahrt.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "AD Deutschland",
+          "url": "https://www.ad-magazin.de/artikel/diese-kleine-wohnung-in-siena-verbindet-historische-ziegelgewoelbe-mit-modernem-feng-shui",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IT",
+      "terms": [
+        {
+          "term": "Feng-Shui",
+          "text": "Feng-Shui ist eine aus China stammende Lehre. Sie will Räume so einrichten, dass sich Menschen darin wohlfühlen."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://assets.ad-magazin.de/photos/6afd764bdd3a8d49c52c2bac/16:9/w_1280,c_limit/Violanti%20Gradi%20Siena-1.jpg",
+        "credit": "AD Deutschland",
+        "source": "https://www.ad-magazin.de/artikel/diese-kleine-wohnung-in-siena-verbindet-historische-ziegelgewoelbe-mit-modernem-feng-shui",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k06",
+      "ressort": "architektur",
+      "kicker": "London",
+      "headline": "Alte Bahnbögen in London werden zu neuen Treffpunkten",
+      "teaser": "Das Büro Tigg + Coll hat drei viktorianische Eisenbahnbögen in London umgebaut. Sie lagen unter einer der meist befahrenen Bahnstrecken der Stadt und wurden kaum genutzt. Jetzt gibt es dort Räume zum Lernen, für Treffen und zum Ausruhen.",
+      "blocks": [],
+      "whyGood": "Ungenutzte Orte unter den Gleisen werden zu Räumen, in denen Menschen lernen und sich treffen können.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1188720/lamberth-palace-arches-tigg-plus-coll-architects",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "GB",
+      "terms": [
+        {
+          "term": "Massivholz",
+          "text": "Massivholz sind Bauteile aus dicken, festen Holzstücken. Sie werden oft statt Beton oder Stahl zum Bauen verwendet."
+        }
+      ],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6afb/7c67/8074/f464/a9f9/3436/large_jpg/lamberth-palace-arches-tigg-plus-coll-architects_12.jpg?1794866572",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1188720/lamberth-palace-arches-tigg-plus-coll-architects",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k07",
+      "ressort": "architektur",
+      "kicker": "Devanahalli",
+      "headline": "Neue Polizeiwache in Indien soll niemanden einschüchtern",
+      "teaser": "In Devanahalli bei Bangalore ist eine neue Polizeiwache entstanden. Der zuständige Polizeichef wünschte sich ein Haus, vor dem Menschen keine Angst haben. Das Büro STUDIO MOTLEY plante das Gebäude mit rund 1.230 Quadratmetern Fläche.",
+      "blocks": [],
+      "whyGood": "Eine Polizeiwache soll hier ein offener Ort für die Menschen der Stadt sein und kein Ort der Angst.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "IN",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://images.adsttc.com/media/images/6af4/571a/eabd/2a00/0192/c552/large_jpg/E_MKGs_HR-72.jpg?1794398152",
+        "credit": "ArchDaily",
+        "source": "https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-k08",
+      "ressort": "architektur",
+      "kicker": "Valencia",
+      "headline": "Altes Haus bei Valencia gewinnt durch Umbau Licht und Höhe zurück",
+      "teaser": "Belén Ilarri Studio hat bei Valencia ein Haus aus den 1970er Jahren umgebaut. Eine abgehängte Flurdecke wurde entfernt, die ursprüngliche Raumhöhe kam wieder zum Vorschein. Ein runder Anbau aus Beton erweitert die Küche zum Patio.",
+      "blocks": [],
+      "whyGood": "Ein altes Haus wird nicht ersetzt, sondern behutsam erneuert und behält sein vertrautes Gesicht zur Straße.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "designboom",
+          "url": "https://www.designboom.com/architecture/curved-concrete-extension-belen-ilarri-studio-1970s-house-near-valencia-casa-lucerna/",
+          "language": "Englisch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "ES",
+      "terms": [],
+      "gallery": true,
+      "image": {
+        "url": "https://www.designboom.com/twitterimages/dbsub/459185/2026-11-19/casa-lucerna-rediscovering-space-reinventing-light-4-6aff2bcf0e8ef.jpg",
+        "credit": "designboom",
+        "source": "https://www.designboom.com/architecture/curved-concrete-extension-belen-ilarri-studio-1970s-house-near-valencia-casa-lucerna/",
+        "kind": "source"
+      }
+    }
+  ],
+  "joke": {
+    "setup": "Was essen Gespenster am liebsten?",
+    "punchline": "Spukhetti."
+  },
+  "comic": {
+    "series": "busch",
+    "title": "Max und Moritz",
+    "episode": "Vierter Streich",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Max_und_Moritz_%28Busch%29_040.png/960px-Max_und_Moritz_%28Busch%29_040.png",
+    "pages": [
+      {
+        "caption": "Also lautet ein Beschluß:\nDaß der Mensch was lernen muß."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Max_und_Moritz_%28Busch%29_040.png/960px-Max_und_Moritz_%28Busch%29_040.png",
+        "width": 900,
+        "height": 1162,
+        "caption": "Nicht allein das A-B-C\nBringt den Menschen in die Höh’;\nNicht allein im Schreiben, Lesen\nÜbt sich ein vernünftig Wesen;\nNicht allein in Rechnungssachen\nSoll der Mensch sich Mühe machen;\nSondern auch der Weisheit Lehren\nMuß man mit Vergnügen hören."
+      },
+      {
+        "caption": "Daß dies mit Verstand geschah,\nWar Herr Lehrer Lämpel da.\nMax und Moritz, diese beiden,\nMochten ihn darum nicht leiden;\nDenn wer böse Streiche macht,\nGibt nicht auf den Lehrer acht.\nNun war dieser brave Lehrer\nVon dem Tobak ein Verehrer,\nWas man ohne alle Frage\nNach des Tages Müh und Plage\nEinem guten, alten Mann\nAuch von Herzen gönnen kann."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Max_und_Moritz_%28Busch%29_041.png/960px-Max_und_Moritz_%28Busch%29_041.png",
+        "width": 900,
+        "height": 590,
+        "caption": "Max und Moritz, unverdrossen,\nSinnen aber schon auf Possen,\nOb vermittelst seiner Pfeifen\nDieser Mann nicht anzugreifen.\nEinstens, als es Sonntag wieder\nUnd Herr Lämpel brav und bieder\nIn der Kirche mit Gefühle\nSaß vor seinem Orgelspiele,"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Max_und_Moritz_%28Busch%29_042.png/960px-Max_und_Moritz_%28Busch%29_042.png",
+        "width": 900,
+        "height": 389,
+        "caption": "Schlichen sich die bösen Buben\nIn sein Haus und seine Stuben,\nWo die Meerschaumpfeife stand;\nMax hält sie in seiner Hand;"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Max_und_Moritz_%28Busch%29_043.png/960px-Max_und_Moritz_%28Busch%29_043.png",
+        "width": 900,
+        "height": 537,
+        "caption": "Aber Moritz aus der Tasche\nZieht die Flintenpulverflasche,\nUnd geschwinde, stopf, stopf, stopf!\nPulver in den Pfeifenkopf.\nJetzt nur still und schnell nach Haus,\nDenn schon ist die Kirche aus."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Max_und_Moritz_%28Busch%29_044.png/960px-Max_und_Moritz_%28Busch%29_044.png",
+        "width": 900,
+        "height": 861,
+        "caption": "Eben schließt in sanfter Ruh’\nLämpel seine Kirche zu;\nUnd mit Buch und Notenheften,\nNach besorgten Amtsgeschäften,\nLenkt er freudig seine Schritte\nZu der heimatlichen Hütte,"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Max_und_Moritz_%28Busch%29_045.png/960px-Max_und_Moritz_%28Busch%29_045.png",
+        "width": 900,
+        "height": 548,
+        "caption": "Und voll Dankbarkeit sodann,\nZündet er sein Pfeifchen an."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Max_und_Moritz_%28Busch%29_046.png/960px-Max_und_Moritz_%28Busch%29_046.png",
+        "width": 900,
+        "height": 590,
+        "caption": "„Ach!“ - spricht er - „die größte Freud’\nIst doch die Zufriedenheit!!!“"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Max_und_Moritz_%28Busch%29_047.png/960px-Max_und_Moritz_%28Busch%29_047.png",
+        "width": 900,
+        "height": 539,
+        "caption": "Rums!! - da geht die Pfeife los\nMit Getöse, schrecklich groß.\nKaffeetopf und Wasserglas,\nTobaksdose, Tintenfaß,\nOfen, Tisch und Sorgensitz\nAlles fliegt im Pulverblitz."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Max_und_Moritz_%28Busch%29_048.png/960px-Max_und_Moritz_%28Busch%29_048.png",
+        "width": 900,
+        "height": 663,
+        "caption": "Als der Dampf sich nun erhob,\nSieht man Lämpel, der gottlob!\nLebend auf dem Rücken liegt;\nDoch er hat was abgekriegt.\nNase, Hand, Gesicht und Ohren\nSind so schwarz als wie die Mohren,\nUnd des Haares letzter Schopf\nIst verbrannt bis auf den Kopf."
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Max_und_Moritz_%28Busch%29_049.png/960px-Max_und_Moritz_%28Busch%29_049.png",
+        "width": 900,
+        "height": 250,
+        "caption": "Wer soll nun die Kinder lehren\nUnd die Wissenschaft vermehren?\nWer soll nun für Lämpel leiten\nSeine Amtestätigkeiten?\nWoraus soll der Lehrer rauchen,\nWenn die Pfeife nicht zu brauchen??\nMit der Zeit wird alles heil,\nNur die Pfeife hat ihr Teil."
+      },
+      {
+        "caption": "Dieses war der vierte Streich,\nDoch der fünfte folgt sogleich."
+      }
+    ],
+    "credit": "Wilhelm Busch, 1865, gemeinfrei. Text und Bilder nach Wikisource",
+    "link": "https://de.wikisource.org/wiki/Max_und_Moritz/Vierter_Streich",
+    "linkTitle": "Bei Wikisource lesen"
+  },
+  "recommendation": {
+    "kind": "album",
+    "label": "Album",
+    "title": "Khudgarzi",
+    "creator": "Sheherazaad",
+    "year": "2026",
+    "text": "Der Guardian kürt das Debüt zum globalen Album des Monats. Verträumte, hallgetränkte Arrangements und virtuoser Gesang ergeben etwas, das nach Anklängen an PJ Harvey und Massive Attack klingt und doch ganz eigen bleibt.",
+    "forWhom": "Für alle, die gern in neue Klangwelten abtauchen und sich von einer außergewöhnlichen Stimme verzaubern lassen.",
+    "link": null,
+    "source": {
+      "name": "Guardian Music",
+      "url": "https://www.theguardian.com/music/2026/nov/13/sheherazaad-khudgarzi-review"
+    }
+  },
+  "weekly": {
+    "title": "Die schönsten Nachrichten der Woche",
+    "stories": [
+      {
+        "id": "2026-11-19-01",
+        "ressort": "natur",
+        "kicker": "Südpolarmeer",
+        "headline": "Blauwale in der Antarktis erholen sich deutlich",
+        "teaser": "Seit dem Ende des Walfangs wächst die Zahl der größten Tiere der Erde Jahr für Jahr. Forschende haben sie jetzt gezählt.",
+        "blocks": [
+          {
+            "type": "comparison",
+            "title": "Antarktische Blauwale",
+            "before": {
+              "label": "1973",
+              "value": 418,
+              "display": "418 Wale"
+            },
+            "after": {
+              "label": "Heute",
+              "value": 4018,
+              "display": "4.018 Wale"
+            }
+          },
+          {
+            "type": "bigNumber",
+            "value": "4,5",
+            "unit": "% pro Jahr",
+            "caption": "wuchs die Zahl der Blauwale im Schnitt seit 1973",
+            "icon": "chart.line.uptrend.xyaxis"
+          },
+          {
+            "type": "timeline",
+            "title": "Der Weg zur Erholung",
+            "items": [
+              {
+                "year": "1964",
+                "text": "Die Internationale Walfangkommission verbietet das Töten der Blauwale."
+              },
+              {
+                "year": "1973",
+                "text": "Auch der illegale Walfang endet."
+              },
+              {
+                "year": "1978 bis 2004",
+                "text": "Schiffe zählen die Wale auf geraden Strecken im Südpolarmeer."
+              }
+            ]
+          }
+        ],
+        "whyGood": "Die größten Tiere, die je gelebt haben, kommen zurück. Das zeigt, dass sich Arten erholen können, wenn man sie schützt.",
+        "honestNote": "Die Zahl der Blauwale ist noch deutlich kleiner als vor dem Walfang.",
+        "sources": [
+          {
+            "name": "Good News Network",
+            "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+            "language": "Englisch"
+          }
+        ],
+        "score": 8,
+        "country": null,
+        "terms": [],
+        "guess": {
+          "question": "Wie viele Blauwale leben heute im Südpolarmeer?",
+          "options": [
+            "Etwa 400",
+            "Etwa 4.000",
+            "Etwa 40.000"
+          ],
+          "answer": 1,
+          "reveal": "Es sind rund 4.018 Tiere. 1973 waren es nur 418.",
+          "icon": "water.waves"
+        },
+        "image": {
+          "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2023/06/blue-whale-NOAA-pubdomain.jpg",
+          "credit": "Good News Network",
+          "source": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+          "kind": "source"
+        }
+      },
+      {
+        "id": "2026-11-22-01",
+        "ressort": "wissenschaft",
+        "kicker": "Meeresforschung",
+        "headline": "Forscher lesen das Erbgut eines Wals aus seinem Blas",
+        "teaser": "Drohnen fangen den Atem eines Wals ein. Aus dem Schleim darin haben Forscher erstmals das gesamte Genom eines Wals entschlüsselt.",
+        "blocks": [
+          {
+            "type": "steps",
+            "title": "So funktioniert die Probe",
+            "items": [
+              "Eine kleine Drohne trägt eine sterile Petrischale, mit Klett befestigt.",
+              "Sie fliegt durch den Blas von genau einem Wal.",
+              "Aus mehreren Proben desselben Tiers lesen Forscher das Genom aus."
+            ],
+            "icons": [
+              "airplane",
+              "water.waves",
+              "flask.fill"
+            ]
+          },
+          {
+            "type": "background",
+            "title": "Was ist der Blas?",
+            "text": "Wenn ein Wal ausatmet, schießt eine Wolke aus feinen Tröpfchen in die Luft. Sie besteht im Kern aus Schleim. Darin stecken Zellen, Erbgutstücke, Bakterien und Viren aus den Atemwegen des Tiers."
+          }
+        ],
+        "whyGood": "Forscher können Wale jetzt genau untersuchen, ohne sie zu verletzen. Das hilft, die Gesundheit einzelner Tiere und ganzer Bestände besser zu verstehen.",
+        "honestNote": null,
+        "sources": [
+          {
+            "name": "NPR Science",
+            "url": "https://www.npr.org/2026/11/21/nx-s1-6044816/scientists-sequenced-a-whales-entire-genome-using-drones-and-whale-snot",
+            "language": "Englisch"
+          },
+          {
+            "name": "Good News Network",
+            "url": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+            "language": "Englisch"
+          }
+        ],
+        "score": 7,
+        "country": null,
+        "terms": [
+          {
+            "term": "Genom",
+            "text": "Das Genom ist das gesamte Erbgut eines Lebewesens. Es steckt wie ein Bauplan in fast jeder Zelle."
+          }
+        ],
+        "guess": {
+          "question": "Wie nahmen Forscher bisher meist Hautproben von Walen?",
+          "options": [
+            "Mit einem Netz",
+            "Mit einer Armbrust",
+            "Mit Tauchern von Hand"
+          ],
+          "answer": 1,
+          "reveal": "Mit einer Armbrust wurde ein winziges Stück Haut und Speck entnommen. Das stresst die Tiere.",
+          "icon": "fish.fill"
+        },
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Humpback_whale_%28Megaptera_novaeangliae%29_blowing_Eyjafjordur.jpg/1280px-Humpback_whale_%28Megaptera_novaeangliae%29_blowing_Eyjafjordur.jpg",
+          "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Humpback_whale_(Megaptera_novaeangliae)_blowing_Eyjafjordur.jpg",
+          "kind": "symbol"
+        }
+      },
+      {
+        "id": "2026-11-20-01",
+        "ressort": "welt",
+        "kicker": "Los Angeles",
+        "headline": "Aus der lauten Nachbarin wird Familie: Fremde spenden 109.000 Dollar",
+        "teaser": "Heidi Widmer wollte nur schlafen. Dann half sie der 87-jährigen Carole über ihr. Online fanden sich viele Menschen, die ebenfalls helfen wollten.",
+        "blocks": [
+          {
+            "type": "bigNumber",
+            "value": "109.000",
+            "unit": "US-Dollar",
+            "caption": "kamen für Carole zusammen, damit sie in Würde zu Hause leben kann",
+            "icon": "banknote.fill"
+          },
+          {
+            "type": "facts",
+            "title": null,
+            "items": [
+              "Heidi Widmer hilft Carole mit Müll, Essen und Papierkram",
+              "Ihre Videos wurden fast 30 Millionen Mal angesehen",
+              "Vom Geld soll ein Treppenlift für Caroles Wohnung bezahlt werden"
+            ],
+            "icons": [
+              "hand.thumbsup.fill",
+              "phone.fill",
+              "house.fill"
+            ]
+          }
+        ],
+        "whyGood": "Ein kurzer Moment im Treppenhaus hat eine einsame Frau aus der Isolation geholt. Aus Ärger wurde Fürsorge, und viele Fremde machten mit.",
+        "honestNote": null,
+        "sources": [
+          {
+            "name": "Good News Network",
+            "url": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
+            "language": "Englisch"
+          }
+        ],
+        "score": 7,
+        "country": "US",
+        "terms": [
+          {
+            "term": "Parkinson",
+            "text": "Parkinson ist eine Krankheit des Nervensystems. Sie kann Zittern auslösen und das Gehen schwer machen."
+          }
+        ],
+        "guess": {
+          "question": "Wie lange brauchte Carole mit dem Gehwagen die Treppe hinunter?",
+          "options": [
+            "Etwa 2 Minuten",
+            "Etwa 20 Minuten",
+            "Etwa 60 Minuten"
+          ],
+          "answer": 1,
+          "reveal": "Carole brauchte etwa 20 Minuten, um mit dem Gehwagen die Treppe hinunterzukommen.",
+          "icon": "figure.walk"
+        },
+        "image": {
+          "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/IMG_8105-2.jpg",
+          "credit": "Good News Network",
+          "source": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
+          "kind": "source"
+        }
+      },
+      {
+        "id": "2026-11-18-02",
+        "ressort": "zukunft",
+        "kicker": "Pakistan",
+        "headline": "Pakistans Familien setzen auf Sonnenstrom vom eigenen Dach",
+        "teaser": "Teure Stromrechnungen haben viele Menschen zum Handeln gebracht. Sie holen sich ihren Strom jetzt selbst vom Dach, und das schnell.",
+        "blocks": [
+          {
+            "type": "comparison",
+            "title": "Anteil von Solarstrom am Strom in Pakistan",
+            "before": {
+              "label": "2018",
+              "value": 1,
+              "display": "1 %"
+            },
+            "after": {
+              "label": "2025",
+              "value": 28,
+              "display": "28 %"
+            }
+          },
+          {
+            "type": "bigNumber",
+            "value": "93",
+            "unit": "%",
+            "caption": "sind chinesische Solarpanels billiger geworden",
+            "icon": "banknote.fill"
+          },
+          {
+            "type": "facts",
+            "title": null,
+            "items": [
+              "Die Haushalte haben den Umstieg selbst angestoßen, nicht die Regierung.",
+              "Auch Fabriken, Höfe und Krankenhäuser nutzen Solarstrom.",
+              "Bis 2036 sollen bis zu 90 Prozent des Stroms sauber sein."
+            ],
+            "icons": [
+              "person.3.fill",
+              "building.2.fill",
+              "leaf.fill"
+            ]
+          }
+        ],
+        "whyGood": "Viele Familien in Pakistan haben sich mit Solarpanels günstigeren und sauberen Strom geholt. Das senkt Stromkosten und den Bedarf an teurem importiertem Brennstoff.",
+        "honestNote": "Das Stromnetz muss sich nun anpassen, damit die Kosten fair verteilt bleiben.",
+        "sources": [
+          {
+            "name": "BBC Science",
+            "url": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+            "language": "Englisch"
+          }
+        ],
+        "score": 7,
+        "country": "PK",
+        "terms": [
+          {
+            "term": "Stromnetz",
+            "text": "Das Stromnetz bringt Strom aus Kraftwerken zu den Haushalten und Firmen. Man muss es dauernd warten und bezahlen."
+          }
+        ],
+        "guess": {
+          "question": "Wie viele Haushalte in Pakistan haben inzwischen eigene Solarpanels?",
+          "options": [
+            "Etwa 70.000",
+            "Etwa 700.000",
+            "Etwa 7 Millionen"
+          ],
+          "answer": 2,
+          "reveal": "Rund sieben Millionen Haushalte besitzen inzwischen Solarpanels.",
+          "icon": "sun.max.fill"
+        },
+        "image": {
+          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7f9b/live/9d67ed20-e29e-11f1-8dda-8925a81c3da5.jpg",
+          "credit": "BBC Science",
+          "source": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+          "kind": "source"
+        }
+      },
+      {
+        "id": "2026-11-21-02",
+        "ressort": "gesundheit",
+        "kicker": "Krebsforschung",
+        "headline": "Neue Tablette lässt Tumoren bei Bauchspeicheldrüsenkrebs schrumpfen",
+        "teaser": "Eine Tablette mit dem Wirkstoff Daraxonrasib bremst fortgeschrittenen Bauchspeicheldrüsenkrebs. Ärzte nennen es den größten Fortschritt seit Jahrzehnten.",
+        "blocks": [
+          {
+            "type": "share",
+            "value": 90,
+            "label": "der Patienten: Tumor wächst nicht mehr",
+            "caption": "Bei 9 von 10 Teilnehmenden der Studie stoppte das Wachstum. Bei gut 60 Prozent schrumpften die Tumoren oder verschwanden."
+          },
+          {
+            "type": "bigNumber",
+            "value": "76,6",
+            "unit": "%",
+            "caption": "der Patienten lebten ein Jahr nach Behandlungsbeginn noch. Mit Chemotherapie allein sind es meist 40 bis 45 Prozent.",
+            "icon": "heart.fill"
+          },
+          {
+            "type": "background",
+            "title": "Wie das Mittel wirkt",
+            "text": "Daraxonrasib ist ein KRAS-Hemmer. Es bindet an bestimmte Veränderungen im Erbgut des Tumors und schaltet sie ab. Diese Veränderungen treiben bei den meisten Fällen das Wachstum an."
+          }
+        ],
+        "whyGood": "Bauchspeicheldrüsenkrebs gilt als besonders schwer behandelbar. Nun gibt es ein Mittel, das vielen Patienten mehr Zeit schenken könnte. Es weckt auch Hoffnung für andere Krebsarten.",
+        "honestNote": "Ärzte sprechen noch nicht von Heilung, längere Studien müssen zeigen, wie lange die Wirkung anhält.",
+        "sources": [
+          {
+            "name": "Guardian Science",
+            "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+            "language": "Englisch"
+          }
+        ],
+        "score": 8,
+        "country": "US",
+        "terms": [
+          {
+            "term": "KRAS-Hemmer",
+            "text": "Ein Medikament, das ein bestimmtes Signal in Krebszellen abschaltet. Dieses Signal sagt den Zellen sonst ständig, dass sie wachsen sollen."
+          }
+        ],
+        "guess": {
+          "question": "Wie viele Patienten lebten in der Studie ein Jahr nach Behandlungsbeginn noch?",
+          "options": [
+            "Etwa jeder Vierte",
+            "Etwa jeder Zweite",
+            "Etwa drei von vier"
+          ],
+          "answer": 2,
+          "reveal": "Nach einem Jahr lebten 76,6 Prozent. Mit Chemotherapie allein sind es meist 40 bis 45 Prozent.",
+          "icon": "pills.fill"
+        },
+        "image": {
+          "url": "https://i.guim.co.uk/img/media/d7bac7cca6890657580a396f9255cf7d7b3d2874/1250_0_6250_5000/master/6250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e108196e90ed29a731e8a7ec890173bf",
+          "credit": "Guardian Science",
+          "source": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+          "kind": "source"
+        }
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "storyID": "2026-11-22-04",
+        "question": "Was wurde vor etwa 20 Jahren von der Insel Lundy entfernt?",
+        "options": [
+          "Ratten",
+          "Kaninchen",
+          "Katzen",
+          "Schafe"
+        ],
+        "answer": 0
+      },
+      {
+        "storyID": "2026-11-22-02",
+        "question": "Welches Gen schaltet das Mittel CTX310 in der Leber aus?",
+        "options": [
+          "PCSK9",
+          "APOB",
+          "ANGPTL3",
+          "LDLR"
+        ],
+        "answer": 2
+      },
+      {
+        "storyID": "2026-11-22-05",
+        "question": "Woraus besteht das neue Material, das beim Biegen stärker wird, unter anderem?",
+        "options": [
+          "Zuckerringen und Polyethylenglykol",
+          "Kollagen und Silikon",
+          "Stärke und Gummi",
+          "Cellulose und Wachs"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "regional": [
+    {
+      "id": "2026-11-22-r01",
+      "ressort": "region",
+      "regions": [
+        "BW"
+      ],
+      "kicker": "Karlsruhe",
+      "headline": "KSC-Fan radelt 33.000 Kilometer zur WM und zurück nach Karlsruhe",
+      "teaser": "Jakob Alberti ist nach zwei Jahren wieder im Karlsruher Wildpark. Der 27-Jährige fuhr mit dem Rad durch 31 Länder zur Fußball-WM in die USA und wieder heim. Familie und Freunde empfingen ihn jubelnd.",
+      "blocks": [],
+      "whyGood": "Ein Traum wird wahr, und unterwegs erlebte Alberti viel Gastfreundschaft.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/ksc-fan-nach-weltreise-wieder-in-karlsruhe-110.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/780cf2e9-0be9-4f5b-8f4d-e356980db196/AAABof9HoPM/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/ksc-fan-nach-weltreise-wieder-in-karlsruhe-110.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r02",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Kühlenthal",
+      "headline": "Amelie fährt im Feuerwehrauto in den Kindergarten",
+      "teaser": "Die dreijährige Amelie aus Kühlenthal im Landkreis Augsburg liebt die Feuerwehr. Die Freiwillige Feuerwehr Kühlenthal erfüllte ihr einen Wunsch und fuhr sie mit Blaulicht und Sirene zum Kindergarten Wichtelburg. Möglich machte das die BR-Aktion #BayernsKinder.",
+      "blocks": [],
+      "whyGood": "Ein Kinderwunsch, den man nicht kaufen kann, ging in Erfüllung, und viele andere Kinder durften das Feuerwehrauto bestaunen.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Schwaben",
+          "url": "https://www.br.de/nachrichten/bayern/mit-tatuetata-in-den-kindergarten-amelies-grosser-feuerwehr-traum,VZp9x0e",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/b7c7d93e-9e2e-4098-b0a9-ee4dd46c33fe.jpeg?q=80&rect=0%2C0%2C1613%2C907&w=1600&h=900",
+        "credit": "BR24 Schwaben",
+        "source": "https://www.br.de/nachrichten/bayern/mit-tatuetata-in-den-kindergarten-amelies-grosser-feuerwehr-traum,VZp9x0e",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r03",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Karow bei Plau am See",
+      "headline": "Mehr Weißstörche in Mecklenburg-Vorpommern",
+      "teaser": "785 Storchenpaare haben in diesem Jahr im Land gebrütet. Das sind 30 Paare mehr als im Vorjahr und so viele wie zuletzt 2015. Besonders im Westen wächst der Bestand, weil dort viele Störche in Spanien überwintern.",
+      "blocks": [],
+      "whyGood": "Der Bestand der Weißstörche wächst wieder und erreicht den höchsten Stand seit 2015.",
+      "honestNote": "Noch immer gibt es im Land rund ein Drittel weniger Weißstörche als vor 25 Jahren.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/aufatmen-in-mv-wieder-mehr-weissstoerche,storchenbilanz-102.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/72546daa-33f6-4e2b-9617-c5bb2d917473/AAABoPbdyL4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/aufatmen-in-mv-wieder-mehr-weissstoerche,storchenbilanz-102.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r04",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarlouis",
+      "headline": "DRK-Krankenhaus Saarlouis ist jetzt zertifizierte Endometrioseklinik",
+      "teaser": "Das DRK-Krankenhaus in Saarlouis ist offiziell als Endometrioseklinik zertifiziert. Ein Auditorenteam hat die Abteilung für Gynäkologie und Geburtshilfe im September geprüft. Im Saarland gibt es damit neben Homburg eine weitere Anlaufstelle.",
+      "blocks": [],
+      "whyGood": "Frauen mit Endometriose finden im Saarland jetzt an einem weiteren Ort spezialisierte Hilfe.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/home/nachrichten/panorama/endometriose-klinik_saarlouis_drk-zertifiziert_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Endometriose",
+          "text": "Endometriose ist eine häufige Erkrankung bei Frauen. Sie wird oft lange nicht erkannt und kann starke Schmerzen verursachen."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/afd75f39-c60a-48b0-a75d-bf0e4dd96c36/AAABof2KmRo/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/home/nachrichten/panorama/endometriose-klinik_saarlouis_drk-zertifiziert_100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r05",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Oberwiesenthal",
+      "headline": "Altes Sporthotel in Oberwiesenthal öffnet nach 30 Jahren wieder",
+      "teaser": "Das Sporthotel von 1911 stand seit 1994 leer, der Abriss war schon genehmigt. Jetzt ist es saniert und hat Ferienwohnungen statt Hotelzimmer. Die Fasa AG aus Chemnitz hat 20 Millionen Euro investiert. Ab Mitte Dezember kommen die ersten Gäste.",
+      "blocks": [],
+      "whyGood": "Ein denkmalgeschütztes Haus wird gerettet und bekommt am Fichtelberg neues Leben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/chemnitz/annaberg-aue-schwarzenberg/lost-place-wintersport,sporthotel-oberwiesenthal-eroeffnung-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Solarthermie",
+          "text": "Dabei fangen Sonnenkollektoren die Wärme der Sonne ein. Damit wird zum Beispiel Wasser erhitzt oder geheizt."
+        }
+      ],
+      "image": {
+        "url": "https://images.mdr.de/image/02197013-5567-4c0f-a4cc-717d50dd89a7/AAABofUIU-g/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/chemnitz/annaberg-aue-schwarzenberg/lost-place-wintersport,sporthotel-oberwiesenthal-eroeffnung-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r06",
+      "ressort": "region",
+      "regions": [
+        "ST"
+      ],
+      "kicker": "Sachsen-Anhalt",
+      "headline": "Daubner und Hallervorden erhalten Landesverdienstorden",
+      "teaser": "Susanne Daubner und Dieter Hallervorden haben den Landesverdienstorden von Sachsen-Anhalt bekommen. Daubner wurde für ihre ehrenamtliche Arbeit in der Kunststiftung geehrt. Hallervorden erhielt ihn für seine Verdienste um Dessau-Roßlau.",
+      "blocks": [],
+      "whyGood": "Zwei bekannte Menschen werden für ihr langjähriges Engagement für Kultur und Gesellschaft in ihrer Heimat ausgezeichnet.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/daubner-hallervorden-magdeburg,landesverdienstorden-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 7,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/719d7741-04c2-4913-94d0-6ef5cc29594d/AAABofp0mpA/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen-anhalt/daubner-hallervorden-magdeburg,landesverdienstorden-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r07",
+      "ressort": "region",
+      "regions": [
+        "BY"
+      ],
+      "kicker": "Oberstdorf",
+      "headline": "Max Unglaube springt erstmals im Weltcup-Kader der DSV-Adler",
+      "teaser": "Der 20-jährige Max Unglaube gehört zum ersten Mal zum Weltcup-Kader der deutschen Skispringer. Der gebürtige Berliner lebt und trainiert in Oberstdorf. Beim Saisonauftakt in Lillehammer will er sein Debüt geben.",
+      "blocks": [],
+      "whyGood": "Ein junger Springer aus Berlin schafft den Sprung in die Weltspitze und bringt frischen Wind ins Team.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "BR24 Schwaben",
+          "url": "https://www.br.de/nachrichten/sport/wintersport-skispringen-max-unglaube-im-portraet-watt-fuer-n-ding-ein-berliner-mischt-auf,VbQJCUy",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://img.br.de/d9fc351c-b7db-4020-8489-e4861a56ddae.jpeg?q=80&rect=92%2C237%2C3912%2C2198&w=1600&h=900",
+        "credit": "BR24 Schwaben",
+        "source": "https://www.br.de/nachrichten/sport/wintersport-skispringen-max-unglaube-im-portraet-watt-fuer-n-ding-ein-berliner-mischt-auf,VbQJCUy",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r09",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Herdecke",
+      "headline": "Junge Freunde machen Industriehalle zum Weihnachtsmarkt",
+      "teaser": "Im Koepchenwerk in Herdecke haben Freunde um Elias Sturm und Noah Unger das Weinwerk aufgebaut. In der Winterpause machen sie die Halle zum Weihnachtsmarkt, mit Glühwein und Spielen. Dieses Jahr öffnen sie an zwei Wochenenden.",
+      "blocks": [],
+      "whyGood": "Eine Gruppe junger Leute schenkt ihrer Stadt einen besonderen Ort zum Feiern, und es geht ihnen mehr um Freude als um Gewinn.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/ruhrgebiet/ennepe-ruhr-kreis/weihnachtsmarkt-herdecke-koepchenwerk-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/3c7f0955-f0ca-404b-a2a9-634b732a0743/AAABof5r5ng/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/ruhrgebiet/ennepe-ruhr-kreis/weihnachtsmarkt-herdecke-koepchenwerk-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r10",
+      "ressort": "region",
+      "regions": [
+        "SL"
+      ],
+      "kicker": "Saarbrücken",
+      "headline": "Preisträgerin Liya Wang spielt erstmals in Saarbrücken",
+      "teaser": "Die Pianistin Liya Wang gewann 2025 den ARD-Musikwettbewerb in München. Jetzt kommt die 24-Jährige auf ihrer Recital-Tour zum ersten Mal nach Saarbrücken. An der Universität spielt sie Stücke aus unterschiedlichen Epochen.",
+      "blocks": [],
+      "whyGood": "Eine junge Weltklasse-Pianistin, die als Kind vor Teddybären spielte, ist jetzt im Saarland zu hören.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SR",
+          "url": "https://www.sr.de/sr/srkultur/home/aktuelles/liya_wang_portraet_100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Recital",
+          "text": "Ein Recital ist ein Konzert, bei dem meist eine einzelne Musikerin oder ein einzelner Musiker allein auftritt, hier am Klavier."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/f4488ac8-c4c7-46f6-a159-48abd8f92cc3/AAABof5r0gI/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SR",
+        "source": "https://www.sr.de/sr/srkultur/home/aktuelles/liya_wang_portraet_100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r11",
+      "ressort": "region",
+      "regions": [
+        "SN"
+      ],
+      "kicker": "Dresden",
+      "headline": "Nachwuchspreis für zwei junge Schauspieler am Staatsschauspiel",
+      "teaser": "Der Förderverein des Staatsschauspiels Dresden ehrt Sarah Schmidt und Jakob Fließ mit dem Nachwuchspreis für Schauspielkunst. Zum ersten Mal werden zwei Ensemble-Mitglieder gemeinsam ausgezeichnet. Bei der Matinee im Kleinen Haus soll auch der neue Name des Preises bekannt werden.",
+      "blocks": [],
+      "whyGood": "Zwei junge Talente aus dem eigenen Ensemble bekommen verdiente Anerkennung für ihre Arbeit auf der Bühne.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/staatsschauspiel-verleihung-erich-ponto,nachwuchspreis-sarah-schmidt-jakob-fliess-kultur-news-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 6,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.mdr.de/image/f2e02865-8b1a-4c99-8624-19f48407d5e1/AAABofnn52o/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "MDR",
+        "source": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/staatsschauspiel-verleihung-erich-ponto,nachwuchspreis-sarah-schmidt-jakob-fliess-kultur-news-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r12",
+      "ressort": "region",
+      "regions": [
+        "HB"
+      ],
+      "kicker": "Bremen",
+      "headline": "Conchas aus Mexiko jetzt in der Bremer City",
+      "teaser": "Julio Arreola hat das süße Gebäck aus seiner Heimat Mexiko vermisst. Deshalb hat er so lange probiert, bis er das perfekte Rezept hatte. Jetzt gibt es seine Conchas in der Bremer City.",
+      "blocks": [],
+      "whyGood": "Aus Heimweh ist ein neues Stück Mexiko auf dem Bremer Teller geworden.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/videos/conchas-bremerhaven-gebaeck-mexiko-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Conchas",
+          "text": "Conchas sind süße mexikanische Brötchen aus Hefeteig. Sie haben eine Kruste aus Zucker, Fett und Mehl, zum Beispiel mit Vanille oder Schokolade."
+        }
+      ],
+      "image": {
+        "url": "https://www.butenunbinnen.de/bilder/conchas-mexiko-suesses-gebaeck-100~_v-1280x720_c-1795287612848.jpg",
+        "credit": "buten un binnen",
+        "source": "https://www.butenunbinnen.de/videos/conchas-bremerhaven-gebaeck-mexiko-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r13",
+      "ressort": "region",
+      "regions": [
+        "HE"
+      ],
+      "kicker": "Frankfurt",
+      "headline": "English Theatre Frankfurt startet mit „Kinky Boots“ in die Saison",
+      "teaser": "Nach zwei Jahren Zwangspause ist das English Theatre Frankfurt zurück. In der vergangenen Spielzeit kamen 44.000 Besucher. Nun startet Regisseur Ewan Jones mit dem Broadway-Musical „Kinky Boots“.",
+      "blocks": [],
+      "whyGood": "Das Theater hat die Krise überstanden, dank Crew, Politik und fast 30.000 Menschen, die eine Petition unterschrieben haben.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/kultur/english-theater-in-frankfurt-neues-musical-kinky-boots-startet-v1,english-theatre-frankfurt-kinky-boots-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/3e18de69-c131-4e1d-b78c-ec18e6c666b2/AAABof-hSE4/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "hessenschau",
+        "source": "https://www.hessenschau.de/kultur/english-theater-in-frankfurt-neues-musical-kinky-boots-startet-v1,english-theatre-frankfurt-kinky-boots-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r14",
+      "ressort": "region",
+      "regions": [
+        "MV"
+      ],
+      "kicker": "Rukieten",
+      "headline": "Erstes Muster-Feuerwehrhaus in Rukieten hat Richtfest",
+      "teaser": "In Rukieten im Landkreis Rostock wurde Richtfest für das erste Musterfeuerwehrhaus gefeiert. Es entsteht nach einem standardisierten Bauplan, der das Bauen schneller und günstiger machen soll. Landesweit sind 58 solcher Gebäude geplant.",
+      "blocks": [],
+      "whyGood": "Ein Standardplan kann Feuerwehrhäuser schneller und günstiger machen, und davon profitieren viele Orte im Land.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/erstes-muster-feuerwehrhaus-hatte-richtfest-in-rukieten,mvregiorostock-5408.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.ndr.de/image/5f7ed140-9686-4fff-9d93-caab8a0615b8/AAABof2qWf0/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "NDR",
+        "source": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/erstes-muster-feuerwehrhaus-hatte-richtfest-in-rukieten,mvregiorostock-5408.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r15",
+      "ressort": "region",
+      "regions": [
+        "NW"
+      ],
+      "kicker": "Borgholzhausen",
+      "headline": "Borgholzhausen erzählt seine Lebkuchen-Geschichte bei Stadtführungen",
+      "teaser": "In Borgholzhausen zeigen verkleidete Stadtführer, wie der Ort zur Lebkuchenstadt wurde. Nachtwächter, Kiepenkerl, Pfarrersfrau und Bürgermeister erzählen von alten Handelswegen. Das Café Schulze stellt rund 350 Sorten her und liefert bis nach Japan.",
+      "blocks": [],
+      "whyGood": "Eine kleine Stadt hält ihre süße Tradition lebendig und macht sie für Besucher erlebbar.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nrw/ostwestfalen-lippe/Lebkuchenstadt-Borgholzhausen-tipp-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [
+        {
+          "term": "Kiepenkerl",
+          "text": "Ein Kiepenkerl war ein Wanderhändler. Er trug seine Waren in einer Kiepe, einem großen Korb, auf dem Rücken über Land."
+        }
+      ],
+      "image": {
+        "url": "https://images.tagesschau.de/image/65619a60-fd06-4a9f-8502-bc66b19e70e4/AAABof7JUuQ/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "WDR",
+        "source": "https://www1.wdr.de/nrw/ostwestfalen-lippe/Lebkuchenstadt-Borgholzhausen-tipp-100.html",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "2026-11-22-r16",
+      "ressort": "region",
+      "regions": [
+        "RP"
+      ],
+      "kicker": "Koblenz",
+      "headline": "Pfaffendorfer Brücke: Letzte große Stahlteile sind unterwegs",
+      "teaser": "Der Rhein führt wieder mehr Wasser. Deshalb konnten die letzten beiden großen Stahlteile für die Pfaffendorfer Brücke in Mannheim verladen werden. Sie wiegen jeweils fast 500 Tonnen und sind 80 Meter lang. Laut Stadt geht der Bau nun in die nächste Phase.",
+      "blocks": [],
+      "whyGood": "Nach wochenlangem Warten geht der Bau der Brücke in Koblenz endlich voran.",
+      "honestNote": null,
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/brueckenteil-fuer-pfaffendorfer-bruecke-koblenz-kommt-100.html",
+          "language": "Deutsch"
+        }
+      ],
+      "brief": true,
+      "score": 5,
+      "country": "DE",
+      "terms": [],
+      "image": {
+        "url": "https://images.tagesschau.de/image/58c95c96-87a7-433a-93a1-e1825cb78500/AAABof3kU68/AAABnSSvgNE/16x9-1920.jpg",
+        "credit": "SWR",
+        "source": "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/brueckenteil-fuer-pfaffendorfer-bruecke-koblenz-kommt-100.html",
+        "kind": "source"
+      }
+    }
+  ],
+  "recipe": {
+    "title": "Butter-Mochi-Kuchen mit Ahorn-Miso-Pekannüssen",
+    "intro": "Pekannüsse haben im November Saison, und dieser Kuchen macht aus ihnen eine süß-salzige Kruste. Innen ist er saftig und angenehm zart-zäh, mit nur einer Schüssel schnell gerührt.",
+    "servings": 10,
+    "minutes": 150,
+    "difficulty": "einfach",
+    "ingredients": [
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Pflanzenöl für das Blech"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "item": "Ahornsirup"
+      },
+      {
+        "amount": 2,
+        "unit": "TL",
+        "item": "helle Misopaste"
+      },
+      {
+        "amount": 225,
+        "unit": "g",
+        "item": "rohe Pekannüsse, grob gehackt"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "item": "Zucker"
+      },
+      {
+        "amount": 85,
+        "unit": "g",
+        "item": "Butter, geschmolzen und leicht abgekühlt, plus etwas für die Form"
+      },
+      {
+        "amount": 2,
+        "unit": "Stück",
+        "item": "Eier (Größe L)"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "item": "Zucker"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "Salz"
+      },
+      {
+        "amount": 400,
+        "unit": "ml",
+        "item": "ungesüßte Kokosmilch (1 Dose), gut geschüttelt"
+      },
+      {
+        "amount": 2,
+        "unit": "TL",
+        "item": "Vanillepaste oder Vanilleextrakt"
+      },
+      {
+        "amount": 254,
+        "unit": "g",
+        "item": "Mochiko (süßes Reismehl)"
+      },
+      {
+        "amount": 1,
+        "unit": "TL",
+        "item": "Backpulver"
+      },
+      {
+        "amount": null,
+        "unit": null,
+        "item": "Vanilleeis zum Servieren"
+      }
+    ],
+    "steps": [
+      "Ofen auf 175 °C vorheizen. Ein Backblech dünn einölen. Ahornsirup und Miso glatt rühren, Pekannüsse und 1 EL Zucker untermischen und auf dem Blech verteilen.",
+      "Die Nüsse 6 bis 8 Minuten backen, bis sie duften und matt aussehen. Dann abkühlen lassen. Sie müssen noch nicht ganz geröstet sein.",
+      "Eine runde Form (23 cm) einfetten und den Boden mit Backpapier auslegen. Eier, 250 g Zucker und Salz kräftig glatt verrühren.",
+      "Kokosmilch, Vanille und die geschmolzene Butter unterrühren. Ist das Kokosfett fest, die Milch vorher leicht erwärmen.",
+      "Mochiko und Backpulver zugeben und kräftig zu einem glatten, dicken Teig verrühren. Den Teig in die Form füllen.",
+      "Die Nüsse auflockern und bis zum Rand auf dem Teig verteilen. 50 bis 55 Minuten backen, bis der Rand sich löst, die Oberseite goldbraun ist und ein Stäbchen sauber bleibt.",
+      "Bräunen die Nüsse zu schnell, die Form locker mit Folie abdecken. Den Kuchen 15 Minuten in der Form abkühlen lassen, stürzen, Papier abziehen und wieder umdrehen.",
+      "Mindestens 1 Stunde auskühlen lassen, dann in Stücke schneiden und mit Vanilleeis servieren."
+    ],
+    "tip": "Der Kuchen lässt sich gut einen Tag vorher backen. Lose abgedeckt bei Zimmertemperatur aufbewahren.",
+    "icon": "birthday.cake.fill",
+    "source": {
+      "name": "Bon Appétit",
+      "url": "https://www.bonappetit.com/recipe/miso-and-maple-pecan-butter-mochi-cake"
+    }
+  }
+}
